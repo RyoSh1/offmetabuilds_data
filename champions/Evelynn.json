@@ -1,8 +1,22 @@
 {
   "championId": "Evelynn",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3116,
+        3152
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Hextech Rocketbelt"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 2339248.7554166066
+    },
     {
       "itemIds": [
         3152,
@@ -12,10 +26,24 @@
         "Hextech Rocketbelt",
         "Stormsurge"
       ],
-      "games": 50,
+      "games": 52,
       "wins": 23,
-      "winrate": 0.46,
-      "score": 41324.25410826812
+      "winrate": 0.4423076923076923,
+      "score": 43947.2801953259
+    },
+    {
+      "itemIds": [
+        3102,
+        3157
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Zhonya's Hourglass"
+      ],
+      "games": 10,
+      "wins": 9,
+      "winrate": 0.9,
+      "score": 41695.88621160235
     },
     {
       "itemIds": [
@@ -26,24 +54,10 @@
         "Banshee's Veil",
         "Void Staff"
       ],
-      "games": 35,
-      "wins": 23,
-      "winrate": 0.6571428571428571,
-      "score": 36407.44237353102
-    },
-    {
-      "itemIds": [
-        3102,
-        3157
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Zhonya's Hourglass"
-      ],
-      "games": 6,
-      "wins": 6,
-      "winrate": 1,
-      "score": 33950.02536579147
+      "games": 42,
+      "wins": 29,
+      "winrate": 0.6904761904761905,
+      "score": 36963.58984286447
     },
     {
       "itemIds": [
@@ -54,31 +68,17 @@
         "Cryptbloom",
         "Zhonya's Hourglass"
       ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 21951.301162529537
-    },
-    {
-      "itemIds": [
-        3041,
-        3102
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Banshee's Veil"
-      ],
-      "games": 29,
-      "wins": 23,
-      "winrate": 0.7931034482758621,
-      "score": 17746.554864373356
+      "games": 10,
+      "wins": 8,
+      "winrate": 0.8,
+      "score": 29391.141732220683
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1440,
+      "totalGames": 1711,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,47 +92,164 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 11
+          "purchaseSamples": 40
         },
         {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
+          "purchaseSamples": 195
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3116,
+          3152
+        ],
+        "names": [
+          "Rylai's Crystal Scepter",
+          "Hextech Rocketbelt"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 2339248.7554166066
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1711,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 195
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 2
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 27
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 23
         }
       ],
       "seedPair": {
@@ -144,10 +261,10 @@
           "Hextech Rocketbelt",
           "Stormsurge"
         ],
-        "games": 50,
+        "games": 52,
         "wins": 23,
-        "winrate": 0.46,
-        "score": 41324.25410826812
+        "winrate": 0.4423076923076923,
+        "score": 43947.2801953259
       },
       "runes": {
         "primaryStyle": {
@@ -200,14 +317,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 50,
+        "sampleGames": 52,
         "games": 24,
-        "confidencePct": 0.48
+        "confidencePct": 0.46153846153846156
       },
       "position": {
         "role": "JUNGLE",
-        "games": 50,
-        "sampleGames": 50,
+        "games": 52,
+        "sampleGames": 52,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -217,9 +334,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1440,
+      "totalGames": 1711,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,62 +350,62 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11
+          "purchaseSamples": 76
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 40
         },
         {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 195
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 62
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 23
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
+          3137,
           3157
         ],
         "names": [
-          "Rabadon's Deathcap",
+          "Cryptbloom",
           "Zhonya's Hourglass"
         ],
-        "games": 30,
-        "wins": 20,
-        "winrate": 0.6666666666666666,
-        "score": 5381.5943550574275
+        "games": 10,
+        "wins": 8,
+        "winrate": 0.8,
+        "score": 29391.141732220683
       },
       "runes": {
         "primaryStyle": {
@@ -341,14 +458,155 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 30,
-        "games": 22,
-        "confidencePct": 0.7333333333333333
+        "sampleGames": 10,
+        "games": 9,
+        "confidencePct": 0.9
       },
       "position": {
         "role": "JUNGLE",
-        "games": 30,
-        "sampleGames": 30,
+        "games": 10,
+        "sampleGames": 10,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1711,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 76
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 195
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 139
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 27
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 23
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3089,
+          3157
+        ],
+        "names": [
+          "Rabadon's Deathcap",
+          "Zhonya's Hourglass"
+        ],
+        "games": 39,
+        "wins": 25,
+        "winrate": 0.6410256410256411,
+        "score": 6183.490861317619
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 39,
+        "games": 26,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 39,
+        "sampleGames": 39,
         "confidencePct": 1
       },
       "asWholeSet": {

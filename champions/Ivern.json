@@ -1,7 +1,7 @@
 {
   "championId": "Ivern",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,49 +15,21 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 762916.1145800909
+      "score": 12858678.683597028
     },
     {
       "itemIds": [
-        3089,
-        4645
+        3152,
+        3157
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Shadowflame"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 217479.47583161434
-    },
-    {
-      "itemIds": [
-        3089,
-        3137
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Cryptbloom"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 200947.95391752044
-    },
-    {
-      "itemIds": [
-        3089,
-        3116
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Rylai's Crystal Scepter"
+        "Hextech Rocketbelt",
+        "Zhonya's Hourglass"
       ],
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 59810.587929372035
+      "score": 782904.0967568883
     },
     {
       "itemIds": [
@@ -71,14 +43,42 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 58600.689643778314
+      "score": 781269.1096127017
+    },
+    {
+      "itemIds": [
+        3089,
+        4645
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Shadowflame"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 310621.39187328145
+    },
+    {
+      "itemIds": [
+        3089,
+        3137
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 268935.3164537466
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1188,
+      "totalGames": 1487,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,7 +92,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 58
+          "purchaseSamples": 231
         },
         {
           "itemId": 2510,
@@ -123,7 +123,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 762916.1145800909
+        "score": 12858678.683597028
       },
       "runes": {
         "primaryStyle": {
@@ -195,7 +195,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1188,
+      "totalGames": 1487,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -204,34 +204,308 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 231
+        },
+        {
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 79
         },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 23
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3152,
+          3157
+        ],
+        "names": [
+          "Hextech Rocketbelt",
+          "Zhonya's Hourglass"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 782904.0967568883
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 1487,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 58
+          "purchaseSamples": 231
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 79
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3115,
+          3116
+        ],
+        "names": [
+          "Nashor's Tooth",
+          "Rylai's Crystal Scepter"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 781269.1096127017
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1487,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 231
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 79
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
         },
         {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         },
@@ -239,7 +513,7 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -256,7 +530,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 217479.47583161434
+        "score": 310621.39187328145
       },
       "runes": {
         "primaryStyle": {
@@ -320,15 +594,15 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 2,
-        "wins": 2,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1188,
+      "totalGames": 1487,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -337,48 +611,48 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 58
+          "purchaseSamples": 231
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 23
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1
         },
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -397,7 +671,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 200947.95391752044
+        "score": 268935.3164537466
       },
       "runes": {
         "primaryStyle": {

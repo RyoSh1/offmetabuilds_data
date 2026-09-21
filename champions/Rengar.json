@@ -1,7 +1,7 @@
 {
   "championId": "Rengar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Mikael's Blessing",
         "Dead Man's Plate"
       ],
-      "games": 14,
-      "wins": 8,
-      "winrate": 0.5714285714285714,
-      "score": 718637.636227674
+      "games": 15,
+      "wins": 9,
+      "winrate": 0.6,
+      "score": 12085867.413299518
     },
     {
       "itemIds": [
@@ -26,10 +26,24 @@
         "Zeke's Convergence",
         "Locket of the Iron Solari"
       ],
-      "games": 39,
+      "games": 41,
       "wins": 19,
-      "winrate": 0.48717948717948717,
-      "score": 682689.8801332337
+      "winrate": 0.4634146341463415,
+      "score": 11107174.638098877
+    },
+    {
+      "itemIds": [
+        3053,
+        6333
+      ],
+      "names": [
+        "Sterak's Gage",
+        "Death's Dance"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 10445265.548516322
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 575486.6340984796
+      "score": 8577920.645949818
     },
     {
       "itemIds": [
@@ -57,28 +71,14 @@
       "games": 11,
       "wins": 5,
       "winrate": 0.45454545454545453,
-      "score": 500421.38033551513
-    },
-    {
-      "itemIds": [
-        3071,
-        6610
-      ],
-      "names": [
-        "Black Cleaver",
-        "Sundered Sky"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 345291.98045908776
+      "score": 8309058.132984201
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3043,
+      "totalGames": 3609,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,28 +87,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 54
+          "purchaseSamples": 219
         },
         {
           "itemId": 3222,
           "name": "Mikael's Blessing",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
         },
         {
           "itemId": 4401,
@@ -128,32 +128,32 @@
           "Mikael's Blessing",
           "Dead Man's Plate"
         ],
-        "games": 14,
-        "wins": 8,
-        "winrate": 0.5714285714285714,
-        "score": 718637.636227674
+        "games": 15,
+        "wins": 9,
+        "winrate": 0.6,
+        "score": 12085867.413299518
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -162,8 +162,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8463,
+            "name": "Font of Life"
           },
           {
             "id": 8242,
@@ -184,14 +184,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 14,
+        "sampleGames": 15,
         "games": 4,
-        "confidencePct": 0.2857142857142857
+        "confidencePct": 0.26666666666666666
       },
       "position": {
         "role": "UTILITY",
-        "games": 14,
-        "sampleGames": 14,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -203,7 +203,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3043,
+      "totalGames": 3609,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -217,47 +217,47 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 54
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
+          "purchaseSamples": 45
         },
         {
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 219
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 12
         },
         {
           "itemId": 3222,
           "name": "Mikael's Blessing",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
@@ -269,10 +269,10 @@
           "Zeke's Convergence",
           "Locket of the Iron Solari"
         ],
-        "games": 39,
+        "games": 41,
         "wins": 19,
-        "winrate": 0.48717948717948717,
-        "score": 682689.8801332337
+        "winrate": 0.4634146341463415,
+        "score": 11107174.638098877
       },
       "runes": {
         "primaryStyle": {
@@ -325,14 +325,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 39,
-        "games": 39,
-        "confidencePct": 1
+        "sampleGames": 41,
+        "games": 40,
+        "confidencePct": 0.975609756097561
       },
       "position": {
         "role": "UTILITY",
-        "games": 39,
-        "sampleGames": 39,
+        "games": 41,
+        "sampleGames": 41,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -344,7 +344,7 @@
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3043,
+      "totalGames": 3609,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -358,7 +358,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 40
+          "purchaseSamples": 83
         },
         {
           "itemId": 3071,
@@ -366,7 +366,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 5
         },
         {
           "itemId": 3158,
@@ -374,7 +374,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 54
+          "purchaseSamples": 219
         },
         {
           "itemId": 3053,
@@ -382,15 +382,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "purchaseSamples": 2
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 12
         },
         {
           "itemId": 3026,
@@ -398,22 +398,288 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 18
+          "purchaseSamples": 61
         }
       ],
       "seedPair": {
         "itemIds": [
           3053,
-          3071
+          6333
         ],
         "names": [
           "Sterak's Gage",
+          "Death's Dance"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 10445265.548516322
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 3609,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3074,
+          "name": "Ravenous Hydra",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 83
+        },
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 219
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 12
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3071,
+          6610
+        ],
+        "names": [
+          "Black Cleaver",
+          "Sundered Sky"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 4029273.88943751
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 3609,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 45
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 219
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3050,
+          3071
+        ],
+        "names": [
+          "Zeke's Convergence",
           "Black Cleaver"
         ],
-        "games": 6,
+        "games": 9,
         "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 575486.6340984796
+        "winrate": 0.5555555555555556,
+        "score": 2495527.6421834975
       },
       "runes": {
         "primaryStyle": {
@@ -466,20 +732,20 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
+        "sampleGames": 9,
+        "games": 7,
+        "confidencePct": 0.7777777777777778
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
+        "games": 1,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     }
   ]

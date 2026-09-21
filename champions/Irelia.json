@@ -1,7 +1,7 @@
 {
   "championId": "Irelia",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1045213.5001532459
+      "score": 5526216.89598252
+    },
+    {
+      "itemIds": [
+        3078,
+        3157
+      ],
+      "names": [
+        "Trinity Force",
+        "Zhonya's Hourglass"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 3102670.987783449
     },
     {
       "itemIds": [
@@ -29,21 +43,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 622300.160108004
+      "score": 3040047.099702095
     },
     {
       "itemIds": [
-        3139,
-        3302
+        3157,
+        4645
       ],
       "names": [
-        "Mercurial Scimitar",
-        "Terminus"
+        "Zhonya's Hourglass",
+        "Shadowflame"
       ],
       "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 369663.60315343185
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 2465988.037127167
     },
     {
       "itemIds": [
@@ -54,31 +68,17 @@
         "Terminus",
         "Jak'Sho, The Protean"
       ],
-      "games": 10,
-      "wins": 5,
+      "games": 12,
+      "wins": 6,
       "winrate": 0.5,
-      "score": 338040.508737233
-    },
-    {
-      "itemIds": [
-        3156,
-        4401
-      ],
-      "names": [
-        "Maw of Malmortius",
-        "Force of Nature"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 337503.89687177906
+      "score": 1905396.4762037902
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5512,
+      "totalGames": 6834,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,21 +92,29 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "purchaseSamples": 533
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
           "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -123,7 +131,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1045213.5001532459
+        "score": 5526216.89598252
       },
       "runes": {
         "primaryStyle": {
@@ -187,15 +195,15 @@
         "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5512,
+      "totalGames": 6834,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -209,7 +217,148 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 85
+          "purchaseSamples": 533
+        },
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 6672,
+          "name": "Kraken Slayer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 229
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 227
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 334
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 9
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3078,
+          3157
+        ],
+        "names": [
+          "Trinity Force",
+          "Zhonya's Hourglass"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 3102670.987783449
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 6834,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 533
         },
         {
           "itemId": 6672,
@@ -217,7 +366,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 31
+          "purchaseSamples": 229
         },
         {
           "itemId": 3302,
@@ -225,7 +374,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2
+          "purchaseSamples": 15
         },
         {
           "itemId": 3139,
@@ -233,23 +382,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 17
+          "purchaseSamples": 10
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 78
         }
       ],
       "seedPair": {
@@ -264,7 +413,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 622300.160108004
+        "score": 3040047.099702095
       },
       "runes": {
         "primaryStyle": {
@@ -334,9 +483,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5512,
+      "totalGames": 6834,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -350,7 +499,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 85
+          "purchaseSamples": 533
         },
         {
           "itemId": 3302,
@@ -358,39 +507,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2
+          "purchaseSamples": 15
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 17
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 227
         },
         {
           "itemId": 6665,
           "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 11
         },
         {
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 17
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 11,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 78
         }
       ],
       "seedPair": {
@@ -402,10 +551,10 @@
           "Terminus",
           "Jak'Sho, The Protean"
         ],
-        "games": 10,
-        "wins": 5,
+        "games": 12,
+        "wins": 6,
         "winrate": 0.5,
-        "score": 338040.508737233
+        "score": 1905396.4762037902
       },
       "runes": {
         "primaryStyle": {
@@ -458,15 +607,156 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 12,
         "games": 5,
-        "confidencePct": 0.5
+        "confidencePct": 0.4166666666666667
       },
       "position": {
         "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
+        "games": 7,
+        "sampleGames": 12,
+        "confidencePct": 0.5833333333333334
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 6834,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 533
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 334
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 4401,
+          "name": "Force of Nature",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3156,
+          4401
+        ],
+        "names": [
+          "Maw of Malmortius",
+          "Force of Nature"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1642033.8619913443
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,

@@ -1,36 +1,8 @@
 {
   "championId": "Janna",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
-    {
-      "itemIds": [
-        6616,
-        6621
-      ],
-      "names": [
-        "Staff of Flowing Water",
-        "Dawncore"
-      ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 42441.118879019814
-    },
-    {
-      "itemIds": [
-        4005,
-        6621
-      ],
-      "names": [
-        "Imperial Mandate",
-        "Dawncore"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 36943.676821503286
-    },
     {
       "itemIds": [
         3109,
@@ -40,10 +12,24 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 10,
-      "wins": 6,
-      "winrate": 0.6,
-      "score": 36082.218201732176
+      "games": 11,
+      "wins": 7,
+      "winrate": 0.6363636363636364,
+      "score": 52897.19068849601
+    },
+    {
+      "itemIds": [
+        6616,
+        6621
+      ],
+      "names": [
+        "Staff of Flowing Water",
+        "Dawncore"
+      ],
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 52233.198017877156
     },
     {
       "itemIds": [
@@ -57,7 +43,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 32725.957198033386
+      "score": 35021.5245894142
+    },
+    {
+      "itemIds": [
+        4005,
+        6621
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Dawncore"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 33581.89197872308
     },
     {
       "itemIds": [
@@ -71,14 +71,14 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 26274.3544583853
+      "score": 31666.197203744952
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1234,
+      "totalGames": 1482,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,27 +92,168 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
+          "purchaseSamples": 22
         },
         {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
           "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 168
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 17
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 37
         },
         {
           "itemId": 6616,
           "name": "Staff of Flowing Water",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2
+          "purchaseSamples": 16
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 92
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3109,
+          3190
+        ],
+        "names": [
+          "Knight's Vow",
+          "Locket of the Iron Solari"
+        ],
+        "games": 11,
+        "wins": 7,
+        "winrate": 0.6363636363636364,
+        "score": 52897.19068849601
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 11,
+        "games": 9,
+        "confidencePct": 0.8181818181818182
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 11,
+        "sampleGames": 11,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1482,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 168
+        },
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
@@ -124,7 +265,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 92
         },
         {
           "itemId": 6621,
@@ -132,7 +273,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "purchaseSamples": 11
         }
       ],
       "seedPair": {
@@ -144,10 +285,10 @@
           "Staff of Flowing Water",
           "Dawncore"
         ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 42441.118879019814
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 52233.198017877156
       },
       "runes": {
         "primaryStyle": {
@@ -200,14 +341,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 1,
-        "confidencePct": 0.16666666666666666
+        "confidencePct": 0.14285714285714285
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -217,9 +358,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1234,
+      "totalGames": 1482,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,31 +374,31 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
+          "purchaseSamples": 39
         },
         {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 17
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 168
         },
         {
           "itemId": 6620,
           "name": "Echoes of Helia",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 69
         },
         {
           "itemId": 3107,
@@ -265,7 +406,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 92
         },
         {
           "itemId": 3041,
@@ -273,7 +414,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "purchaseSamples": 7
         }
       ],
       "seedPair": {
@@ -288,7 +429,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 32725.957198033386
+        "score": 35021.5245894142
       },
       "runes": {
         "primaryStyle": {
@@ -358,9 +499,150 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1234,
+      "totalGames": 1482,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 168
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 37
+        },
+        {
+          "itemId": 6621,
+          "name": "Dawncore",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3222,
+          6621
+        ],
+        "names": [
+          "Mikael's Blessing",
+          "Dawncore"
+        ],
+        "games": 23,
+        "wins": 12,
+        "winrate": 0.5217391304347826,
+        "score": 11798.632387449657
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 23,
+        "games": 7,
+        "confidencePct": 0.30434782608695654
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 23,
+        "sampleGames": 23,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 1482,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -374,15 +656,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
+          "purchaseSamples": 39
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
+          "purchaseSamples": 168
         },
         {
           "itemId": 3109,
@@ -390,23 +672,23 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11
+          "purchaseSamples": 25
         },
         {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 17
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 52
         },
         {
-          "itemId": 3107,
-          "name": "Redemption",
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 37
         },
         {
           "itemId": 2524,
@@ -414,7 +696,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
@@ -429,7 +711,7 @@
         "games": 8,
         "wins": 2,
         "winrate": 0.25,
-        "score": 8056.944677978778
+        "score": 8543.31172027421
       },
       "runes": {
         "primaryStyle": {

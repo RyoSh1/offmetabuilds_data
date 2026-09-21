@@ -1,21 +1,49 @@
 {
   "championId": "Warwick",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
-        3078,
+        3742,
+        4401
+      ],
+      "names": [
+        "Dead Man's Plate",
+        "Force of Nature"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 2044623.6826349497
+    },
+    {
+      "itemIds": [
+        3157,
+        3190
+      ],
+      "names": [
+        "Zhonya's Hourglass",
+        "Locket of the Iron Solari"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 1061842.2679175513
+    },
+    {
+      "itemIds": [
+        3074,
         3181
       ],
       "names": [
-        "Trinity Force",
+        "Ravenous Hydra",
         "Hullbreaker"
       ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 485936.9685342089
+      "games": 20,
+      "wins": 12,
+      "winrate": 0.6,
+      "score": 1007322.9038979657
     },
     {
       "itemIds": [
@@ -26,59 +54,31 @@
         "Ravenous Hydra",
         "Trinity Force"
       ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 450681.7222028664
+      "games": 8,
+      "wins": 5,
+      "winrate": 0.625,
+      "score": 979518.7230421941
     },
     {
       "itemIds": [
-        3074,
+        3078,
         3181
       ],
       "names": [
-        "Ravenous Hydra",
+        "Trinity Force",
         "Hullbreaker"
       ],
-      "games": 15,
-      "wins": 9,
-      "winrate": 0.6,
-      "score": 443240.2360528118
-    },
-    {
-      "itemIds": [
-        3026,
-        3508
-      ],
-      "names": [
-        "Guardian Angel",
-        "Essence Reaver"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 289873.726884075
-    },
-    {
-      "itemIds": [
-        2525,
-        3302
-      ],
-      "names": [
-        "Protoplasm Harness",
-        "Terminus"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 165931.4132017484
+      "games": 8,
+      "wins": 5,
+      "winrate": 0.625,
+      "score": 943332.1687307043
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1892,
+      "totalGames": 2522,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,12 +87,153 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 21
+          "purchaseSamples": 141
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 4401,
+          "name": "Force of Nature",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3742,
+          4401
+        ],
+        "names": [
+          "Dead Man's Plate",
+          "Force of Nature"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 2044623.6826349497
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2522,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 28
         },
         {
           "itemId": 3047,
@@ -100,27 +241,168 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 24
+          "purchaseSamples": 141
         },
         {
-          "itemId": 3078,
-          "name": "Trinity Force",
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
           "isBoots": false,
           "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 156
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3157,
+          3190
+        ],
+        "names": [
+          "Zhonya's Hourglass",
+          "Locket of the Iron Solari"
+        ],
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 1061842.2679175513
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 2522,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3074,
+          "name": "Ravenous Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 141
+        },
+        {
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 156
         },
         {
           "itemId": 3181,
           "name": "Hullbreaker",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3
         },
         {
-          "itemId": 3074,
-          "name": "Ravenous Hydra",
+          "itemId": 3078,
+          "name": "Trinity Force",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": null,
@@ -129,17 +411,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3078,
+          3074,
           3181
         ],
         "names": [
-          "Trinity Force",
+          "Ravenous Hydra",
           "Hullbreaker"
         ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 485936.9685342089
+        "games": 20,
+        "wins": 12,
+        "winrate": 0.6,
+        "score": 1007322.9038979657
       },
       "runes": {
         "primaryStyle": {
@@ -192,15 +474,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
+        "sampleGames": 20,
+        "games": 12,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "TOP",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 18,
+        "sampleGames": 20,
+        "confidencePct": 0.9
       },
       "asWholeSet": {
         "games": 0,
@@ -209,9 +491,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1892,
+      "totalGames": 2522,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -220,12 +502,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
+          "itemId": 3748,
+          "name": "Titanic Hydra",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 21
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
         },
         {
           "itemId": 3047,
@@ -233,54 +515,54 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 24
+          "purchaseSamples": 141
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9
         }
       ],
       "seedPair": {
         "itemIds": [
-          3026,
-          3508
+          2510,
+          3157
         ],
         "names": [
-          "Guardian Angel",
-          "Essence Reaver"
+          "Dusk and Dawn",
+          "Zhonya's Hourglass"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 289873.726884075
+        "games": 12,
+        "wins": 7,
+        "winrate": 0.5833333333333334,
+        "score": 656825.9951745964
       },
       "runes": {
         "primaryStyle": {
@@ -293,8 +575,8 @@
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
             "id": 9104,
@@ -306,42 +588,42 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "sampleGames": 12,
+        "games": 7,
+        "confidencePct": 0.5833333333333334
       },
       "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "role": "JUNGLE",
+        "games": 9,
+        "sampleGames": 12,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -350,9 +632,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1892,
+      "totalGames": 2522,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -361,67 +643,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3302,
-          "name": "Terminus",
+          "itemId": 3748,
+          "name": "Titanic Hydra",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 20
+          "purchaseSamples": 7
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 24
+          "purchaseSamples": 141
         },
         {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 3181,
+          "name": "Hullbreaker",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9
         }
       ],
       "seedPair": {
         "itemIds": [
-          2525,
-          3302
+          2510,
+          3181
         ],
         "names": [
-          "Protoplasm Harness",
-          "Terminus"
+          "Dusk and Dawn",
+          "Hullbreaker"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 165931.4132017484
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 564125.7151487188
       },
       "runes": {
         "primaryStyle": {
@@ -434,8 +716,8 @@
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
             "id": 9104,
@@ -447,23 +729,23 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8232,
+            "name": "Waterwalking"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -474,20 +756,20 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     }
   ]

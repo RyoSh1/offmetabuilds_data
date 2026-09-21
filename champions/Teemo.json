@@ -1,7 +1,7 @@
 {
   "championId": "Teemo",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,24 +12,38 @@
         "Guinsoo's Rageblade",
         "Terminus"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 416632.5024459417
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 760550.891979967
     },
     {
       "itemIds": [
-        3102,
-        3135
+        2504,
+        3084
       ],
       "names": [
-        "Banshee's Veil",
-        "Void Staff"
+        "Kaenic Rookern",
+        "Heartsteel"
       ],
-      "games": 4,
+      "games": 3,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 125769.55742651373
+      "winrate": 1,
+      "score": 356065.929883522
+    },
+    {
+      "itemIds": [
+        3153,
+        3302
+      ],
+      "names": [
+        "Blade of The Ruined King",
+        "Terminus"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 179215.3762343853
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Dusk and Dawn",
         "Wit's End"
       ],
-      "games": 12,
-      "wins": 5,
-      "winrate": 0.4166666666666667,
-      "score": 117995.89199911903
+      "games": 13,
+      "wins": 6,
+      "winrate": 0.46153846153846156,
+      "score": 171947.86158867707
     },
     {
       "itemIds": [
@@ -54,31 +68,17 @@
         "Dusk and Dawn",
         "Hextech Gunblade"
       ],
-      "games": 9,
-      "wins": 5,
-      "winrate": 0.5555555555555556,
-      "score": 113172.05538215254
-    },
-    {
-      "itemIds": [
-        3137,
-        3165
-      ],
-      "names": [
-        "Cryptbloom",
-        "Morellonomicon"
-      ],
-      "games": 8,
+      "games": 10,
       "wins": 6,
-      "winrate": 0.75,
-      "score": 105964.41218324067
+      "winrate": 0.6,
+      "score": 161090.40532544954
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1556,
+      "totalGames": 1984,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,34 +87,50 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 27
+          "purchaseSamples": 123
         },
         {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
         },
         {
           "itemId": 3302,
           "name": "Terminus",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3124,
+          "name": "Guinsoo's Rageblade",
+          "isBoots": false,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -128,10 +144,10 @@
           "Guinsoo's Rageblade",
           "Terminus"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 416632.5024459417
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 760550.891979967
       },
       "runes": {
         "primaryStyle": {
@@ -184,9 +200,126 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1984,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 123
+        },
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2504,
+          3084
+        ],
+        "names": [
+          "Kaenic Rookern",
+          "Heartsteel"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 356065.929883522
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "TOP",
@@ -195,15 +328,15 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
+        "games": 3,
+        "wins": 3,
         "winrate": 1
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1556,
+      "totalGames": 1984,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -217,39 +350,180 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 27
+          "purchaseSamples": 123
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 25
+          "purchaseSamples": 13
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3091
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Wit's End"
+        ],
+        "games": 13,
+        "wins": 6,
+        "winrate": 0.46153846153846156,
+        "score": 171947.86158867707
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9101,
+            "name": "Absorb Life"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 13,
+        "games": 12,
+        "confidencePct": 0.9230769230769231
+      },
+      "position": {
+        "role": "TOP",
+        "games": 12,
+        "sampleGames": 13,
+        "confidencePct": 0.9230769230769231
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1984,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 123
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 2
+          "order": 2,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5
         },
         {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
@@ -264,7 +538,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 125769.55742651373
+        "score": 135832.65529079552
       },
       "runes": {
         "primaryStyle": {
@@ -334,9 +608,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1556,
+      "totalGames": 1984,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -345,67 +619,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 27
+          "purchaseSamples": 123
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 2
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
         },
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5
         },
         {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
         "itemIds": [
-          2510,
-          3091
+          3137,
+          3165
         ],
         "names": [
-          "Dusk and Dawn",
-          "Wit's End"
+          "Cryptbloom",
+          "Morellonomicon"
         ],
-        "games": 12,
-        "wins": 5,
-        "winrate": 0.4166666666666667,
-        "score": 117995.89199911903
+        "games": 9,
+        "wins": 7,
+        "winrate": 0.7777777777777778,
+        "score": 130731.0070688656
       },
       "runes": {
         "primaryStyle": {
@@ -426,8 +700,8 @@
             "name": "Legend: Alacrity"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
@@ -436,12 +710,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
             "id": 8451,
             "name": "Overgrowth"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -450,23 +724,23 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5001,
+            "name": "Health Scaling"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
-        "games": 11,
-        "confidencePct": 0.9166666666666666
+        "sampleGames": 9,
+        "games": 3,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "TOP",
-        "games": 11,
-        "sampleGames": 12,
-        "confidencePct": 0.9166666666666666
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,

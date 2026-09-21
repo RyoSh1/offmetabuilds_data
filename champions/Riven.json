@@ -1,21 +1,49 @@
 {
   "championId": "Riven",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
-        2512,
-        3026
+        2520,
+        6699
       ],
       "names": [
-        "Fiendhunter Bolts",
-        "Guardian Angel"
+        "Bastionbreaker",
+        "Voltaic Cyclosword"
       ],
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 136461.04367357265
+      "score": 8659102.42602444
+    },
+    {
+      "itemIds": [
+        2520,
+        3814
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Edge of Night"
+      ],
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 2500071.587490478
+    },
+    {
+      "itemIds": [
+        3036,
+        3179
+      ],
+      "names": [
+        "Lord Dominik's Regards",
+        "Umbral Glaive"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 1615580.7511788227
     },
     {
       "itemIds": [
@@ -26,59 +54,156 @@
         "Fiendhunter Bolts",
         "Lord Dominik's Regards"
       ],
-      "games": 3,
+      "games": 4,
       "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 90974.0291157151
+      "winrate": 0.5,
+      "score": 1145844.009491532
     },
     {
       "itemIds": [
-        3026,
-        6610
+        3033,
+        3179
       ],
       "names": [
-        "Guardian Angel",
-        "Sundered Sky"
+        "Mortal Reminder",
+        "Umbral Glaive"
       ],
-      "games": 12,
-      "wins": 12,
+      "games": 4,
+      "wins": 4,
       "winrate": 1,
-      "score": 75348.11375291794
-    },
-    {
-      "itemIds": [
-        3026,
-        3036
-      ],
-      "names": [
-        "Guardian Angel",
-        "Lord Dominik's Regards"
-      ],
-      "games": 10,
-      "wins": 8,
-      "winrate": 0.8,
-      "score": 70787.3510141786
-    },
-    {
-      "itemIds": [
-        3031,
-        3033
-      ],
-      "names": [
-        "Infinity Edge",
-        "Mortal Reminder"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 67501.18342862529
+      "score": 704213.9364294381
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1614,
+      "totalGames": 1910,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 205
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2520,
+          6699
+        ],
+        "names": [
+          "Bastionbreaker",
+          "Voltaic Cyclosword"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 8659102.42602444
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1910,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,54 +217,62 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 43
+          "purchaseSamples": 205
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 10
         },
         {
           "itemId": 3156,
           "name": "Maw of Malmortius",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 24
+          "purchaseSamples": 93
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 31
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 4,
+          "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "purchaseSamples": 21
         }
       ],
       "seedPair": {
         "itemIds": [
-          2512,
-          3026
+          3036,
+          3179
         ],
         "names": [
-          "Fiendhunter Bolts",
-          "Guardian Angel"
+          "Lord Dominik's Regards",
+          "Umbral Glaive"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 136461.04367357265
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 1615580.7511788227
       },
       "runes": {
         "primaryStyle": {
@@ -188,19 +321,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "TOP",
+        "role": "JUNGLE",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -209,9 +342,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1614,
+      "totalGames": 1910,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -220,44 +353,185 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 51
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 43
+          "purchaseSamples": 205
         },
         {
           "itemId": 3156,
           "name": "Maw of Malmortius",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 24
+          "purchaseSamples": 93
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2512,
+          3036
+        ],
+        "names": [
+          "Fiendhunter Bolts",
+          "Lord Dominik's Regards"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 1145844.009491532
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1910,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 205
         },
         {
           "itemId": 6610,
           "name": "Sundered Sky",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 26
         },
         {
           "itemId": 6695,
           "name": "Serpent's Fang",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 31
         },
         {
           "itemId": 3026,
@@ -265,7 +539,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 7
+          "purchaseSamples": 21
         }
       ],
       "seedPair": {
@@ -280,7 +554,7 @@
         "games": 12,
         "wins": 12,
         "winrate": 1,
-        "score": 75348.11375291794
+        "score": 88760.59197671765
       },
       "runes": {
         "primaryStyle": {
@@ -350,9 +624,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1614,
+      "totalGames": 1910,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -366,7 +640,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 26
         },
         {
           "itemId": 3158,
@@ -374,54 +648,54 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 43
+          "purchaseSamples": 205
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 17
         },
         {
           "itemId": 6610,
           "name": "Sundered Sky",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 41
         },
         {
           "itemId": 6695,
           "name": "Serpent's Fang",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 31
         },
         {
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
         "itemIds": [
           3031,
-          3033
+          3036
         ],
         "names": [
           "Infinity Edge",
-          "Mortal Reminder"
+          "Lord Dominik's Regards"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 67501.18342862529
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25,
+        "score": 50507.46491209891
       },
       "runes": {
         "primaryStyle": {
@@ -452,12 +726,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
             "id": 8321,
             "name": "Cash Back"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
@@ -470,19 +744,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
+        "sampleGames": 4,
+        "games": 4,
         "confidencePct": 1
       },
       "position": {
         "role": "TOP",
         "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,

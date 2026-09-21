@@ -1,7 +1,7 @@
 {
   "championId": "Leblanc",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1513463.1009750252
+      "score": 18969423.40198524
+    },
+    {
+      "itemIds": [
+        3137,
+        4629
+      ],
+      "names": [
+        "Cryptbloom",
+        "Cosmic Drive"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 2473408.2618543785
     },
     {
       "itemIds": [
@@ -29,7 +43,21 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 1355110.9829306826
+      "score": 1782590.4096124484
+    },
+    {
+      "itemIds": [
+        3137,
+        3165
+      ],
+      "names": [
+        "Cryptbloom",
+        "Morellonomicon"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 1180857.5331561095
     },
     {
       "itemIds": [
@@ -43,42 +71,14 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 775240.0211587027
-    },
-    {
-      "itemIds": [
-        3172,
-        3508
-      ],
-      "names": [
-        "Gunmetal Greaves",
-        "Essence Reaver"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 624008.1755092591
-    },
-    {
-      "itemIds": [
-        2503,
-        4629
-      ],
-      "names": [
-        "Blackfire Torch",
-        "Cosmic Drive"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 282100.69972706225
+      "score": 1014731.3790578217
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4208,
+      "totalGames": 5381,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -123,7 +123,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1513463.1009750252
+        "score": 18969423.40198524
       },
       "runes": {
         "primaryStyle": {
@@ -195,7 +195,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4208,
+      "totalGames": 5381,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -204,10 +204,159 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 10
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 99
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 137
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 74
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3137,
+          4629
+        ],
+        "names": [
+          "Cryptbloom",
+          "Cosmic Drive"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 2473408.2618543785
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 5381,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3508,
+          "name": "Essence Reaver",
+          "isBoots": false,
           "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1
         },
@@ -215,17 +364,9 @@
           "itemId": 3094,
           "name": "Rapid Firecannon",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
         },
         {
           "itemId": 3172,
@@ -248,7 +389,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 1355110.9829306826
+        "score": 1782590.4096124484
       },
       "runes": {
         "primaryStyle": {
@@ -318,9 +459,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4208,
+      "totalGames": 5381,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -329,67 +470,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 99
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
           "isBoots": false,
           "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2
+          "purchaseSamples": 114
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
+          "purchaseSamples": 137
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
         "itemIds": [
-          2503,
-          4629
+          3137,
+          3165
         ],
         "names": [
-          "Blackfire Torch",
-          "Cosmic Drive"
+          "Cryptbloom",
+          "Morellonomicon"
         ],
-        "games": 3,
+        "games": 5,
         "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 282100.69972706225
+        "winrate": 0.4,
+        "score": 1180857.5331561095
       },
       "runes": {
         "primaryStyle": {
@@ -406,8 +547,149 @@
             "name": "Sudden Impact"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5381,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 99
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 137
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3152,
+          4628
+        ],
+        "names": [
+          "Hextech Rocketbelt",
+          "Horizon Focus"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 231340.1327144321
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
           },
           {
             "id": 8106,
@@ -430,8 +712,8 @@
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -442,15 +724,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.2
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "asWholeSet": {
         "games": 0,

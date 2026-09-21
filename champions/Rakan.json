@@ -1,8 +1,22 @@
 {
   "championId": "Rakan",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-20T10:55:31.726Z",
+  "generatedAt": "2026-09-21T17:43:51.287Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3152,
+        3157
+      ],
+      "names": [
+        "Hextech Rocketbelt",
+        "Zhonya's Hourglass"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 137935827.79967996
+    },
     {
       "itemIds": [
         3504,
@@ -12,10 +26,10 @@
         "Ardent Censer",
         "Moonstone Renewer"
       ],
-      "games": 9,
-      "wins": 8,
-      "winrate": 0.8888888888888888,
-      "score": 1692729.2505627729
+      "games": 12,
+      "wins": 10,
+      "winrate": 0.8333333333333334,
+      "score": 2050057.2644891436
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 1593074.9130782713
+      "score": 1646760.4479731352
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 714222.513152322
+      "score": 790088.3756095299
     },
     {
       "itemIds": [
@@ -57,28 +71,14 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 484470.41438610025
-    },
-    {
-      "itemIds": [
-        3118,
-        4005
-      ],
-      "names": [
-        "Malignance",
-        "Imperial Mandate"
-      ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 287374.2002628203
+      "score": 485388.2744646991
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4531,
+      "totalGames": 5327,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,28 +87,161 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 24
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 18
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 705
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3152,
+          3157
+        ],
+        "names": [
+          "Hextech Rocketbelt",
+          "Zhonya's Hourglass"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 137935827.79967996
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5327,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 108
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 705
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
         },
         {
           "itemId": 6617,
@@ -128,10 +261,10 @@
           "Ardent Censer",
           "Moonstone Renewer"
         ],
-        "games": 9,
-        "wins": 8,
-        "winrate": 0.8888888888888888,
-        "score": 1692729.2505627729
+        "games": 12,
+        "wins": 10,
+        "winrate": 0.8333333333333334,
+        "score": 2050057.2644891436
       },
       "runes": {
         "primaryStyle": {
@@ -184,14 +317,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 9,
-        "games": 9,
+        "sampleGames": 12,
+        "games": 12,
         "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 12,
+        "sampleGames": 12,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -201,134 +334,9 @@
       }
     },
     {
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 4531,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 108
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3118,
-          3152
-        ],
-        "names": [
-          "Malignance",
-          "Hextech Rocketbelt"
-        ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 484470.41438610025
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 0,
-        "winrate": 0
-      }
-    },
-    {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4531,
+      "totalGames": 5327,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -337,20 +345,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 108
+          "purchaseSamples": 705
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
         },
         {
           "itemId": 3109,
@@ -358,7 +366,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 57
+          "purchaseSamples": 311
         },
         {
           "itemId": 2524,
@@ -366,23 +374,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
+          "purchaseSamples": 40
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 200
         },
         {
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 17
         }
       ],
       "seedPair": {
@@ -394,10 +402,10 @@
           "Shurelya's Battlesong",
           "Redemption"
         ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 53992.116035163985
+        "games": 10,
+        "wins": 4,
+        "winrate": 0.4,
+        "score": 65165.02806788406
       },
       "runes": {
         "primaryStyle": {
@@ -446,18 +454,292 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 4,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 10,
+        "games": 5,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 10,
+        "sampleGames": 10,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 5327,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 705
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 25
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          4005
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Imperial Mandate"
+        ],
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 52106.88476552306
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 1,
+        "confidencePct": 0.16666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5327,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 24
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 705
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 200
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 311
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 25
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3152,
+          3222
+        ],
+        "names": [
+          "Hextech Rocketbelt",
+          "Mikael's Blessing"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 20838.969311084053
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
