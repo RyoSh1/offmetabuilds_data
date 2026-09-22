@@ -1,22 +1,8 @@
 {
   "championId": "Elise",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3109,
-        3190
-      ],
-      "names": [
-        "Knight's Vow",
-        "Locket of the Iron Solari"
-      ],
-      "games": 24,
-      "wins": 14,
-      "winrate": 0.5833333333333334,
-      "score": 1271564.4313364774
-    },
     {
       "itemIds": [
         3109,
@@ -26,24 +12,24 @@
         "Knight's Vow",
         "Mikael's Blessing"
       ],
-      "games": 8,
+      "games": 9,
       "wins": 5,
-      "winrate": 0.625,
-      "score": 1190506.1304430922
+      "winrate": 0.5555555555555556,
+      "score": 58155530.93610858
     },
     {
       "itemIds": [
-        2510,
-        3115
+        3109,
+        3190
       ],
       "names": [
-        "Dusk and Dawn",
-        "Nashor's Tooth"
+        "Knight's Vow",
+        "Locket of the Iron Solari"
       ],
-      "games": 17,
-      "wins": 9,
-      "winrate": 0.5294117647058824,
-      "score": 1036635.2943403767
+      "games": 28,
+      "wins": 15,
+      "winrate": 0.5357142857142857,
+      "score": 49312594.258950874
     },
     {
       "itemIds": [
@@ -57,28 +43,42 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 991934.7385031171
+      "score": 49082932.59708942
     },
     {
       "itemIds": [
-        3190,
-        3222
+        2510,
+        3115
       ],
       "names": [
-        "Locket of the Iron Solari",
-        "Mikael's Blessing"
+        "Dusk and Dawn",
+        "Nashor's Tooth"
       ],
-      "games": 12,
-      "wins": 8,
-      "winrate": 0.6666666666666666,
-      "score": 816063.5833653111
+      "games": 17,
+      "wins": 9,
+      "winrate": 0.5294117647058824,
+      "score": 41150468.8905827
+    },
+    {
+      "itemIds": [
+        4005,
+        8020
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Abyssal Mask"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 35406323.367348105
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2959,
+      "totalGames": 3360,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,7 +92,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 391
+          "purchaseSamples": 1465
         },
         {
           "itemId": 2524,
@@ -100,15 +100,15 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 39
+          "purchaseSamples": 171
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 38
         },
         {
           "itemId": 3222,
@@ -116,38 +116,38 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 7
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 89
         },
         {
           "itemId": 2525,
           "name": "Protoplasm Harness",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 83
         }
       ],
       "seedPair": {
         "itemIds": [
           3109,
-          3190
+          3222
         ],
         "names": [
           "Knight's Vow",
-          "Locket of the Iron Solari"
+          "Mikael's Blessing"
         ],
-        "games": 24,
-        "wins": 14,
-        "winrate": 0.5833333333333334,
-        "score": 1271564.4313364774
+        "games": 9,
+        "wins": 5,
+        "winrate": 0.5555555555555556,
+        "score": 58155530.93610858
       },
       "runes": {
         "primaryStyle": {
@@ -192,23 +192,33 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 24,
-        "games": 15,
-        "confidencePct": 0.625
+        "sampleGames": 9,
+        "games": 8,
+        "confidencePct": 0.8888888888888888
       },
       "position": {
         "role": "UTILITY",
-        "games": 24,
-        "sampleGames": 24,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
       },
       "asWholeSet": {
         "games": 0,
@@ -219,7 +229,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2959,
+      "totalGames": 3360,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,15 +243,158 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 391
+          "purchaseSamples": 1465
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 369
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 817
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 58
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3102
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Banshee's Veil"
+        ],
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 49082932.59708942
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 5,
+        "confidencePct": 0.8333333333333334
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 3360,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1465
         },
         {
           "itemId": 2510,
@@ -249,15 +402,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 15
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 191
         },
         {
           "itemId": 3157,
@@ -265,15 +418,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 90
+          "purchaseSamples": 433
         },
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 63
         }
       ],
       "seedPair": {
@@ -288,7 +441,7 @@
         "games": 17,
         "wins": 9,
         "winrate": 0.5294117647058824,
-        "score": 1036635.2943403767
+        "score": 41150468.8905827
       },
       "runes": {
         "primaryStyle": {
@@ -351,6 +504,16 @@
         "sampleGames": 17,
         "confidencePct": 0.47058823529411764
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -358,142 +521,9 @@
       }
     },
     {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 2959,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 391
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 122
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 207
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 10
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          3102
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Banshee's Veil"
-        ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 991934.7385031171
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 5,
-        "confidencePct": 0.8333333333333334
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666
-      }
-    },
-    {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2959,
+      "totalGames": 3360,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -507,7 +537,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 391
+          "purchaseSamples": 1465
         },
         {
           "itemId": 4005,
@@ -515,7 +545,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 25
+          "purchaseSamples": 91
         },
         {
           "itemId": 8020,
@@ -523,7 +553,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "purchaseSamples": 11
         },
         {
           "itemId": 3190,
@@ -531,23 +561,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 26
+          "purchaseSamples": 89
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 38
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 83
         }
       ],
       "seedPair": {
@@ -559,10 +589,10 @@
           "Imperial Mandate",
           "Abyssal Mask"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 593029.4346070428
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 35406323.367348105
       },
       "runes": {
         "primaryStyle": {
@@ -615,14 +645,24 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
+        "sampleGames": 5,
+        "games": 5,
         "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -634,7 +674,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2959,
+      "totalGames": 3360,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -648,84 +688,68 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 391
+          "purchaseSamples": 1465
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
         },
         {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 122
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 30
         },
         {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 39
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
         "itemIds": [
-          6653,
-          8010
+          4633,
+          6653
         ],
         "names": [
-          "Liandry's Torment",
-          "Bloodletter's Curse"
+          "Riftmaker",
+          "Liandry's Torment"
         ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 586304.5054067102
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 33877020.779163204
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8400,
+          "name": "Resolve"
         },
         "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
+          "id": 8437,
+          "name": "Grasp of the Undying"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8463,
+            "name": "Font of Life"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "subStyle": {
@@ -734,12 +758,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8105,
+            "name": "Relentless Hunter"
           }
         ],
         "statPerks": [
@@ -756,20 +780,30 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "role": "UTILITY",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
-        "games": 0,
+        "games": 1,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     }
   ]

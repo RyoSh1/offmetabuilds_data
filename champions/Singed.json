@@ -1,22 +1,8 @@
 {
   "championId": "Singed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
-    {
-      "itemIds": [
-        4645,
-        8010
-      ],
-      "names": [
-        "Shadowflame",
-        "Bloodletter's Curse"
-      ],
-      "games": 16,
-      "wins": 11,
-      "winrate": 0.6875,
-      "score": 4940902.223499989
-    },
     {
       "itemIds": [
         3089,
@@ -29,7 +15,21 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 4113262.9924003407
+      "score": 746419090.2874141
+    },
+    {
+      "itemIds": [
+        4645,
+        8010
+      ],
+      "names": [
+        "Shadowflame",
+        "Bloodletter's Curse"
+      ],
+      "games": 16,
+      "wins": 11,
+      "winrate": 0.6875,
+      "score": 588262075.1271778
     },
     {
       "itemIds": [
@@ -43,21 +43,7 @@
       "games": 10,
       "wins": 9,
       "winrate": 0.9,
-      "score": 3365278.6740020127
-    },
-    {
-      "itemIds": [
-        4633,
-        4645
-      ],
-      "names": [
-        "Riftmaker",
-        "Shadowflame"
-      ],
-      "games": 31,
-      "wins": 14,
-      "winrate": 0.45161290322580644,
-      "score": 2745235.9136751494
+      "score": 380381949.1134453
     },
     {
       "itemIds": [
@@ -71,14 +57,28 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 2363825.380136016
+      "score": 295056004.225452
+    },
+    {
+      "itemIds": [
+        2524,
+        3050
+      ],
+      "names": [
+        "Bandlepipes",
+        "Zeke's Convergence"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 147981556.52903703
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3839,
+      "totalGames": 4233,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,15 +92,15 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 286
+          "purchaseSamples": 1315
         },
         {
-          "itemId": 4633,
-          "name": "Riftmaker",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 70
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 169
         },
         {
           "itemId": 4645,
@@ -108,23 +108,23 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 37
+          "purchaseSamples": 52
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 198
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 52
+          "purchaseSamples": 220
         },
         {
           "itemId": 3089,
@@ -132,22 +132,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
         "itemIds": [
-          4645,
+          3089,
           8010
         ],
         "names": [
-          "Shadowflame",
+          "Rabadon's Deathcap",
           "Bloodletter's Curse"
         ],
-        "games": 16,
-        "wins": 11,
-        "winrate": 0.6875,
-        "score": 4940902.223499989
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 746419090.2874141
       },
       "runes": {
         "primaryStyle": {
@@ -200,15 +200,25 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 16,
-        "games": 6,
-        "confidencePct": 0.375
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "BOTTOM",
-        "games": 9,
-        "sampleGames": 16,
-        "confidencePct": 0.5625
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -219,7 +229,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3839,
+      "totalGames": 4233,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,31 +243,31 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 286
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5
+          "purchaseSamples": 1315
         },
         {
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 48
+          "purchaseSamples": 123
         },
         {
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 247
+          "purchaseSamples": 595
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 16
         },
         {
           "itemId": 2525,
@@ -265,7 +275,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 106
+          "purchaseSamples": 459
         },
         {
           "itemId": 6665,
@@ -273,7 +283,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 39
+          "purchaseSamples": 154
         }
       ],
       "seedPair": {
@@ -288,7 +298,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1243787.4194140595
+        "score": 147981556.52903703
       },
       "runes": {
         "primaryStyle": {
@@ -351,6 +361,16 @@
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -360,7 +380,7 @@
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3839,
+      "totalGames": 4233,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -374,7 +394,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 286
+          "purchaseSamples": 1315
         },
         {
           "itemId": 3152,
@@ -382,7 +402,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 247
+          "purchaseSamples": 595
         },
         {
           "itemId": 3050,
@@ -390,7 +410,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 48
+          "purchaseSamples": 123
         },
         {
           "itemId": 2525,
@@ -398,7 +418,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 106
+          "purchaseSamples": 459
         },
         {
           "itemId": 2065,
@@ -406,7 +426,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
+          "purchaseSamples": 14
         },
         {
           "itemId": 3041,
@@ -414,7 +434,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 52
+          "purchaseSamples": 198
         }
       ],
       "seedPair": {
@@ -429,7 +449,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 356028.3240511324
+        "score": 25448466.68971387
       },
       "runes": {
         "primaryStyle": {
@@ -492,6 +512,16 @@
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -501,7 +531,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3839,
+      "totalGames": 4233,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -515,7 +545,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 286
+          "purchaseSamples": 1315
         },
         {
           "itemId": 3152,
@@ -523,7 +553,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 247
+          "purchaseSamples": 595
         },
         {
           "itemId": 4633,
@@ -531,7 +561,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 70
+          "purchaseSamples": 318
         },
         {
           "itemId": 4645,
@@ -539,7 +569,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
+          "purchaseSamples": 52
         },
         {
           "itemId": 3157,
@@ -547,15 +577,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 92
+          "purchaseSamples": 356
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
@@ -570,7 +600,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 334880.28584769234
+        "score": 19618033.569227993
       },
       "runes": {
         "primaryStyle": {
@@ -633,6 +663,16 @@
         "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -642,7 +682,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3839,
+      "totalGames": 4233,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -656,7 +696,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 286
+          "purchaseSamples": 1315
         },
         {
           "itemId": 3152,
@@ -664,15 +704,15 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 247
+          "purchaseSamples": 595
         },
         {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
+          "itemId": 8020,
+          "name": "Abyssal Mask",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 106
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
         },
         {
           "itemId": 3143,
@@ -680,38 +720,38 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 37
+          "purchaseSamples": 114
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 4401,
+          "name": "Force of Nature",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "purchaseSamples": 108
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 92
+          "purchaseSamples": 198
         }
       ],
       "seedPair": {
         "itemIds": [
-          3143,
+          3152,
           8020
         ],
         "names": [
-          "Randuin's Omen",
+          "Hextech Rocketbelt",
           "Abyssal Mask"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 200697.97895998775
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 14247374.778566875
       },
       "runes": {
         "primaryStyle": {
@@ -764,15 +804,25 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.4
       },
       "position": {
-        "role": "TOP",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,

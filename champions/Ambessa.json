@@ -1,7 +1,7 @@
 {
   "championId": "Ambessa",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Bastionbreaker",
         "Umbral Glaive"
       ],
-      "games": 7,
-      "wins": 7,
+      "games": 8,
+      "wins": 8,
       "winrate": 1,
-      "score": 47190127.665134646
+      "score": 17343766573.541035
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 27538135.415649936
+      "score": 10211586465.026848
+    },
+    {
+      "itemIds": [
+        3179,
+        6695
+      ],
+      "names": [
+        "Umbral Glaive",
+        "Serpent's Fang"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 5379805014.658636
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Umbral Glaive",
         "Profane Hydra"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 6855472.319757453
+      "games": 8,
+      "wins": 7,
+      "winrate": 0.875,
+      "score": 1973231125.6436205
     },
     {
       "itemIds": [
@@ -54,31 +68,17 @@
         "Umbral Glaive",
         "Voltaic Cyclosword"
       ],
-      "games": 10,
-      "wins": 8,
-      "winrate": 0.8,
-      "score": 4063596.8120523673
-    },
-    {
-      "itemIds": [
-        2517,
-        3026
-      ],
-      "names": [
-        "Endless Hunger",
-        "Guardian Angel"
-      ],
-      "games": 75,
-      "wins": 55,
-      "winrate": 0.7333333333333333,
-      "score": 3808939.4889123742
+      "games": 13,
+      "wins": 11,
+      "winrate": 0.8461538461538461,
+      "score": 771249737.2553813
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9032,
+      "totalGames": 9980,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,28 +87,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 6698,
           "name": "Profane Hydra",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 373
+          "purchaseSamples": 1217
         },
         {
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 383
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 132
+          "purchaseSamples": 13
         },
         {
           "itemId": 6696,
@@ -116,23 +116,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 72
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 574
+          "purchaseSamples": 269
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 815
+          "purchaseSamples": 2800
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 421
         }
       ],
       "seedPair": {
@@ -144,10 +144,10 @@
           "Bastionbreaker",
           "Umbral Glaive"
         ],
-        "games": 7,
-        "wins": 7,
+        "games": 8,
+        "wins": 8,
         "winrate": 1,
-        "score": 47190127.665134646
+        "score": 17343766573.541035
       },
       "runes": {
         "primaryStyle": {
@@ -200,15 +200,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 2,
-        "confidencePct": 0.2857142857142857
+        "confidencePct": 0.25
       },
       "position": {
         "role": "BOTTOM",
         "games": 3,
-        "sampleGames": 7,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 8,
+        "confidencePct": 0.375
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -219,7 +229,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 9032,
+      "totalGames": 9980,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,7 +243,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 82
+          "purchaseSamples": 338
         },
         {
           "itemId": 6696,
@@ -241,7 +251,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 72
+          "purchaseSamples": 269
         },
         {
           "itemId": 3047,
@@ -249,46 +259,46 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 815
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 144
+          "purchaseSamples": 2800
         },
         {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 29
+          "purchaseSamples": 99
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 225
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 73
+          "purchaseSamples": 540
         }
       ],
       "seedPair": {
         "itemIds": [
-          2517,
-          3026
+          3033,
+          6697
         ],
         "names": [
-          "Endless Hunger",
-          "Guardian Angel"
+          "Mortal Reminder",
+          "Hubris"
         ],
-        "games": 75,
-        "wins": 55,
-        "winrate": 0.7333333333333333,
-        "score": 3808939.4889123742
+        "games": 26,
+        "wins": 15,
+        "winrate": 0.5769230769230769,
+        "score": 225562269.12539437
       },
       "runes": {
         "primaryStyle": {
@@ -309,8 +319,8 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
@@ -329,8 +339,8 @@
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -341,15 +351,176 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 75,
-        "games": 8,
-        "confidencePct": 0.10666666666666667
+        "sampleGames": 26,
+        "games": 14,
+        "confidencePct": 0.5384615384615384
       },
       "position": {
         "role": "JUNGLE",
-        "games": 37,
-        "sampleGames": 75,
-        "confidencePct": 0.49333333333333335
+        "games": 24,
+        "sampleGames": 26,
+        "confidencePct": 0.9230769230769231
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 18,
+        "sampleGames": 19,
+        "confidencePct": 0.9473684210526315
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 9980,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 338
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 383
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2800
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 99
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 93
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 225
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3033,
+          3814
+        ],
+        "names": [
+          "Mortal Reminder",
+          "Edge of Night"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 181464482.13233232
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,

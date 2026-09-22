@@ -1,22 +1,8 @@
 {
   "championId": "Vayne",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3046,
-        6673
-      ],
-      "names": [
-        "Phantom Dancer",
-        "Immortal Shieldbow"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 2664699.2165519283
-    },
     {
       "itemIds": [
         2523,
@@ -29,7 +15,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 2538120.8812890244
+      "score": 314051392.6370957
+    },
+    {
+      "itemIds": [
+        3046,
+        6673
+      ],
+      "names": [
+        "Phantom Dancer",
+        "Immortal Shieldbow"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 267299031.7555811
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 12,
       "wins": 8,
       "winrate": 0.6666666666666666,
-      "score": 2164689.6463488545
+      "score": 162910167.63843417
     },
     {
       "itemIds": [
@@ -57,28 +57,28 @@
       "games": 6,
       "wins": 3,
       "winrate": 0.5,
-      "score": 1369906.7745406646
+      "score": 113787597.0589608
     },
     {
       "itemIds": [
         3031,
-        3046
+        3172
       ],
       "names": [
         "Infinity Edge",
-        "Phantom Dancer"
+        "Gunmetal Greaves"
       ],
-      "games": 9,
-      "wins": 7,
-      "winrate": 0.7777777777777778,
-      "score": 1270640.9634770877
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 86087559.5272433
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2451,
+      "totalGames": 2733,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,44 +87,44 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
-        },
-        {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 265
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1
+          "purchaseSamples": 978
         },
         {
           "itemId": 3046,
           "name": "Phantom Dancer",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 70
+        },
+        {
+          "itemId": 2523,
+          "name": "Hexoptics C44",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 10
         },
         {
           "itemId": 6673,
           "name": "Immortal Shieldbow",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 15
         },
         {
           "itemId": 3031,
@@ -132,22 +132,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 27
+          "purchaseSamples": 75
         }
       ],
       "seedPair": {
         "itemIds": [
-          3046,
+          2523,
           6673
         ],
         "names": [
-          "Phantom Dancer",
+          "Hexoptics C44",
           "Immortal Shieldbow"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 2664699.2165519283
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 314051392.6370957
       },
       "runes": {
         "primaryStyle": {
@@ -200,156 +200,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 3,
         "games": 1,
-        "confidencePct": 0.2
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "BOTTOM",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
-      "asWholeSet": {
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
         "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 2451,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
-        },
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 265
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 45
-        },
-        {
-          "itemId": 3046,
-          "name": "Phantom Dancer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 27
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3302,
-          6665
-        ],
-        "names": [
-          "Terminus",
-          "Jak'Sho, The Protean"
-        ],
-        "games": 62,
-        "wins": 33,
-        "winrate": 0.532258064516129,
-        "score": 1053808.83121083
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 62,
-        "games": 15,
-        "confidencePct": 0.24193548387096775
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 37,
-        "sampleGames": 62,
-        "confidencePct": 0.5967741935483871
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -358,9 +227,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2451,
+      "totalGames": 2733,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -374,39 +243,39 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 265
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 50
+          "purchaseSamples": 978
         },
         {
           "itemId": 3091,
           "name": "Wit's End",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 151
         },
         {
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 75
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 27
+          "purchaseSamples": 57
         },
         {
           "itemId": 3172,
@@ -429,7 +298,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 799883.5177910897
+        "score": 86087559.5272433
       },
       "runes": {
         "primaryStyle": {
@@ -492,6 +361,7 @@
         "sampleGames": 4,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -499,9 +369,9 @@
       }
     },
     {
-      "buildIndex": 3,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2451,
+      "totalGames": 2733,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -515,7 +385,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
+          "purchaseSamples": 203
         },
         {
           "itemId": 3006,
@@ -523,7 +393,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 265
+          "purchaseSamples": 978
         },
         {
           "itemId": 2512,
@@ -531,7 +401,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 64
+          "purchaseSamples": 221
         },
         {
           "itemId": 3302,
@@ -539,23 +409,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 45
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 22
+          "purchaseSamples": 151
         },
         {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 57
         }
       ],
       "seedPair": {
@@ -567,10 +437,10 @@
           "Kraken Slayer",
           "The Collector"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 636730.0300324
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 49566678.245775566
       },
       "runes": {
         "primaryStyle": {
@@ -623,15 +493,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "BOTTOM",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 1,
@@ -640,9 +520,9 @@
       }
     },
     {
-      "buildIndex": 4,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2451,
+      "totalGames": 2733,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -651,67 +531,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
-        },
-        {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 265
+          "purchaseSamples": 978
         },
         {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3046,
+          "name": "Phantom Dancer",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 50
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 28
         },
         {
-          "itemId": 3302,
-          "name": "Terminus",
+          "itemId": 3031,
+          "name": "Infinity Edge",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 45
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 75
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 22
+          "purchaseSamples": 15
         },
         {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 26
         }
       ],
       "seedPair": {
         "itemIds": [
-          3172,
-          3302
+          3031,
+          3032
         ],
         "names": [
-          "Gunmetal Greaves",
-          "Terminus"
+          "Infinity Edge",
+          "Yun Tal Wildarrows"
         ],
-        "games": 10,
-        "wins": 4,
-        "winrate": 0.4,
-        "score": 575633.6948617967
+        "games": 11,
+        "wins": 5,
+        "winrate": 0.45454545454545453,
+        "score": 38691071.21424244
       },
       "runes": {
         "primaryStyle": {
@@ -728,26 +608,26 @@
             "name": "Triumph"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 9103,
+            "name": "Legend: Bloodline"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8014,
+            "name": "Coup de Grace"
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -764,14 +644,24 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 10,
-        "games": 2,
-        "confidencePct": 0.2
+        "sampleGames": 11,
+        "games": 3,
+        "confidencePct": 0.2727272727272727
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 10,
-        "sampleGames": 10,
+        "role": "BOTTOM",
+        "games": 6,
+        "sampleGames": 11,
+        "confidencePct": 0.5454545454545454
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {

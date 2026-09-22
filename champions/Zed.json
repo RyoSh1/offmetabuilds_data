@@ -1,7 +1,7 @@
 {
   "championId": "Zed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Maw of Malmortius",
         "Death's Dance"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 2,
-      "winrate": 0.5,
-      "score": 8182548.606525521
+      "winrate": 0.4,
+      "score": 2091949689.524617
+    },
+    {
+      "itemIds": [
+        2517,
+        3156
+      ],
+      "names": [
+        "Endless Hunger",
+        "Maw of Malmortius"
+      ],
+      "games": 9,
+      "wins": 5,
+      "winrate": 0.5555555555555556,
+      "score": 1136096366.8981462
     },
     {
       "itemIds": [
@@ -29,35 +43,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 6185393.821333259
-    },
-    {
-      "itemIds": [
-        2517,
-        3156
-      ],
-      "names": [
-        "Endless Hunger",
-        "Maw of Malmortius"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 3976694.0528758974
-    },
-    {
-      "itemIds": [
-        3026,
-        3033
-      ],
-      "names": [
-        "Guardian Angel",
-        "Mortal Reminder"
-      ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 1971004.4974901176
+      "score": 1092242940.1831725
     },
     {
       "itemIds": [
@@ -71,14 +57,28 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 1696575.6528520784
+      "score": 125521600.50281845
+    },
+    {
+      "itemIds": [
+        3142,
+        6697
+      ],
+      "names": [
+        "Youmuu's Ghostblade",
+        "Hubris"
+      ],
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 103371940.10542612
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7534,
+      "totalGames": 8386,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,20 +87,20 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 113
+        },
+        {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 61
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
         },
         {
           "itemId": 3156,
@@ -108,31 +108,31 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 63
         },
         {
           "itemId": 3161,
           "name": "Spear of Shojin",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
+          "purchaseSamples": 94
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 49
         },
         {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 55
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 216
         }
       ],
       "seedPair": {
@@ -144,10 +144,10 @@
           "Maw of Malmortius",
           "Death's Dance"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 2,
-        "winrate": 0.5,
-        "score": 8182548.606525521
+        "winrate": 0.4,
+        "score": 2091949689.524617
       },
       "runes": {
         "primaryStyle": {
@@ -200,15 +200,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.4
       },
       "position": {
         "role": "BOTTOM",
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -219,7 +229,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 7534,
+      "totalGames": 8386,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,7 +243,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 220
+          "purchaseSamples": 831
         },
         {
           "itemId": 3171,
@@ -241,7 +251,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 5
         },
         {
           "itemId": 3071,
@@ -249,7 +259,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 61
+          "purchaseSamples": 218
         },
         {
           "itemId": 3161,
@@ -257,23 +267,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 55
+          "purchaseSamples": 94
         },
         {
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 216
         }
       ],
       "seedPair": {
@@ -288,7 +298,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 6185393.821333259
+        "score": 1092242940.1831725
       },
       "runes": {
         "primaryStyle": {
@@ -351,6 +361,16 @@
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -360,7 +380,7 @@
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 7534,
+      "totalGames": 8386,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -374,7 +394,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 16
+          "purchaseSamples": 113
         },
         {
           "itemId": 3171,
@@ -382,31 +402,31 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 388
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 94
         },
         {
           "itemId": 3142,
           "name": "Youmuu's Ghostblade",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 149
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 83
         },
         {
           "itemId": 3026,
@@ -414,22 +434,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 30
+          "purchaseSamples": 129
         }
       ],
       "seedPair": {
         "itemIds": [
           3026,
-          3033
+          3142
         ],
         "names": [
           "Guardian Angel",
-          "Mortal Reminder"
+          "Youmuu's Ghostblade"
         ],
-        "games": 6,
+        "games": 7,
         "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 1971004.4974901176
+        "winrate": 0.7142857142857143,
+        "score": 125521600.50281845
       },
       "runes": {
         "primaryStyle": {
@@ -450,47 +470,57 @@
             "name": "Triple Tonic"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 7,
+        "games": 4,
+        "confidencePct": 0.5714285714285714
       },
       "position": {
         "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
         "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -501,7 +531,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7534,
+      "totalGames": 8386,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -510,44 +540,44 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 16
-        },
-        {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 5
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 61
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 63
         },
         {
           "itemId": 3142,
           "name": "Youmuu's Ghostblade",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 83
         },
         {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 216
         },
         {
           "itemId": 3026,
@@ -555,58 +585,58 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 30
+          "purchaseSamples": 129
         }
       ],
       "seedPair": {
         "itemIds": [
-          3026,
-          3071
+          3142,
+          3156
         ],
         "names": [
-          "Guardian Angel",
-          "Black Cleaver"
+          "Youmuu's Ghostblade",
+          "Maw of Malmortius"
         ],
-        "games": 5,
-        "wins": 5,
-        "winrate": 1,
-        "score": 829739.1799113665
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 41388669.21300416
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8112,
+          "name": "Electrocute"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8139,
+            "name": "Taste of Blood"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8237,
+            "name": "Scorch"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8210,
+            "name": "Transcendence"
           }
         ],
         "statPerks": [
@@ -623,15 +653,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 3,
         "games": 1,
-        "confidencePct": 0.2
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -642,7 +682,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7534,
+      "totalGames": 8386,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -651,67 +691,67 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 67
+        },
+        {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 144
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
         },
         {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
+          "itemId": 6696,
+          "name": "Axiom Arc",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
+          "purchaseSamples": 671
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 3033,
+          "name": "Mortal Reminder",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 77
         },
         {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 55
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 216
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 30
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 83
         }
       ],
       "seedPair": {
         "itemIds": [
-          2517,
-          3036
+          3179,
+          6696
         ],
         "names": [
-          "Endless Hunger",
-          "Lord Dominik's Regards"
+          "Umbral Glaive",
+          "Axiom Arc"
         ],
-        "games": 101,
-        "wins": 68,
-        "winrate": 0.6732673267326733,
-        "score": 542776.4406372883
+        "games": 26,
+        "wins": 15,
+        "winrate": 0.5769230769230769,
+        "score": 26626030.335648753
       },
       "runes": {
         "primaryStyle": {
@@ -732,47 +772,57 @@
             "name": "Triple Tonic"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 101,
-        "games": 57,
-        "confidencePct": 0.5643564356435643
+        "sampleGames": 26,
+        "games": 9,
+        "confidencePct": 0.34615384615384615
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 81,
-        "sampleGames": 101,
-        "confidencePct": 0.801980198019802
+        "role": "JUNGLE",
+        "games": 14,
+        "sampleGames": 26,
+        "confidencePct": 0.5384615384615384
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 11,
+        "sampleGames": 11,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,

@@ -1,22 +1,8 @@
 {
   "championId": "Twitch",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3089,
-        4645
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Shadowflame"
-      ],
-      "games": 12,
-      "wins": 6,
-      "winrate": 0.5,
-      "score": 4838468.462407652
-    },
     {
       "itemIds": [
         2510,
@@ -29,35 +15,21 @@
       "games": 10,
       "wins": 5,
       "winrate": 0.5,
-      "score": 2723738.8787418366
+      "score": 380406139.1201059
     },
     {
       "itemIds": [
-        3089,
-        3157
+        3157,
+        4629
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Zhonya's Hourglass"
+        "Zhonya's Hourglass",
+        "Cosmic Drive"
       ],
-      "games": 17,
-      "wins": 9,
-      "winrate": 0.5294117647058824,
-      "score": 1899939.694429888
-    },
-    {
-      "itemIds": [
-        3100,
-        3115
-      ],
-      "names": [
-        "Lich Bane",
-        "Nashor's Tooth"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 1884952.2928172504
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 243465897.5599612
     },
     {
       "itemIds": [
@@ -71,14 +43,42 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1666376.2041647688
+      "score": 240078826.29661882
+    },
+    {
+      "itemIds": [
+        3100,
+        3115
+      ],
+      "names": [
+        "Lich Bane",
+        "Nashor's Tooth"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 235536587.66163763
+    },
+    {
+      "itemIds": [
+        3089,
+        3157
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Zhonya's Hourglass"
+      ],
+      "games": 17,
+      "wins": 9,
+      "winrate": 0.5294117647058824,
+      "score": 193907336.5164841
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1111,
+      "totalGames": 1276,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,43 +92,43 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 31
         },
         {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49
+          "purchaseSamples": 427
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 8
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 12
         },
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -137,17 +137,159 @@
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          4645
+          2510,
+          3089
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Shadowflame"
+          "Dusk and Dawn",
+          "Rabadon's Deathcap"
         ],
-        "games": 12,
-        "wins": 6,
+        "games": 10,
+        "wins": 5,
         "winrate": 0.5,
-        "score": 4838468.462407652
+        "score": 380406139.1201059
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 3,
+        "confidencePct": 0.3
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 8,
+        "sampleGames": 10,
+        "confidencePct": 0.8
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1276,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 31
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 427
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3100,
+          3115
+        ],
+        "names": [
+          "Lich Bane",
+          "Nashor's Tooth"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 235536587.66163763
       },
       "runes": {
         "primaryStyle": {
@@ -196,19 +338,180 @@
             "name": "Adaptive Force"
           },
           {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 1276,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3087,
+          "name": "Statikk Shiv",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 31
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 427
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 12
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3087,
+          3115
+        ],
+        "names": [
+          "Statikk Shiv",
+          "Nashor's Tooth"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 143374433.92879847
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 12,
-        "games": 2,
+        "sampleGames": 6,
+        "games": 1,
         "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "MIDDLE",
         "games": 4,
-        "sampleGames": 12,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -217,9 +520,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1111,
+      "totalGames": 1276,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,15 +536,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
+          "purchaseSamples": 31
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 4
         },
         {
           "itemId": 3006,
@@ -249,31 +552,31 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "purchaseSamples": 427
         },
         {
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 12
         }
       ],
       "seedPair": {
@@ -288,7 +591,7 @@
         "games": 7,
         "wins": 3,
         "winrate": 0.42857142857142855,
-        "score": 514525.2655641432
+        "score": 35947499.59819488
       },
       "runes": {
         "primaryStyle": {
@@ -351,6 +654,7 @@
         "sampleGames": 7,
         "confidencePct": 0.7142857142857143
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 2,
         "wins": 1,
@@ -358,9 +662,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1111,
+      "totalGames": 1276,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -369,36 +673,36 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7
+          "purchaseSamples": 31
+        },
+        {
+          "itemId": 3087,
+          "name": "Statikk Shiv",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 9
         },
         {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49
+          "purchaseSamples": 427
         },
         {
           "itemId": 3085,
           "name": "Runaan's Hurricane",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 200
         },
         {
           "itemId": 3036,
@@ -406,7 +710,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 20
+          "purchaseSamples": 119
         },
         {
           "itemId": 3172,
@@ -429,7 +733,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 317242.67242264707
+        "score": 28187113.863860663
       },
       "runes": {
         "primaryStyle": {
@@ -492,151 +796,20 @@
         "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
         "winrate": null
-      }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1111,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 49
-        },
-        {
-          "itemId": 3085,
-          "name": "Runaan's Hurricane",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          6673
-        ],
-        "names": [
-          "Guardian Angel",
-          "Immortal Shieldbow"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 183228.9857646241
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
       }
     }
   ]

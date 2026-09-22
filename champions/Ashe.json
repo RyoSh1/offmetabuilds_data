@@ -1,22 +1,8 @@
 {
   "championId": "Ashe",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
-    {
-      "itemIds": [
-        2503,
-        3118
-      ],
-      "names": [
-        "Blackfire Torch",
-        "Malignance"
-      ],
-      "games": 8,
-      "wins": 5,
-      "winrate": 0.625,
-      "score": 91726326.55843131
-    },
     {
       "itemIds": [
         3118,
@@ -29,35 +15,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 90316322.20731464
+      "score": 51608720459.26938
     },
     {
       "itemIds": [
-        3179,
-        6696
+        2503,
+        3118
       ],
       "names": [
-        "Umbral Glaive",
-        "Axiom Arc"
+        "Blackfire Torch",
+        "Malignance"
       ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 32132350.09853358
-    },
-    {
-      "itemIds": [
-        2524,
-        6696
-      ],
-      "names": [
-        "Bandlepipes",
-        "Axiom Arc"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 32122797.95606519
+      "games": 8,
+      "wins": 5,
+      "winrate": 0.625,
+      "score": 44940663031.163925
     },
     {
       "itemIds": [
@@ -71,14 +43,42 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 30105440.735771544
+      "score": 17202906819.756462
+    },
+    {
+      "itemIds": [
+        2524,
+        6696
+      ],
+      "names": [
+        "Bandlepipes",
+        "Axiom Arc"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 11207750661.395226
+    },
+    {
+      "itemIds": [
+        3118,
+        4005
+      ],
+      "names": [
+        "Malignance",
+        "Imperial Mandate"
+      ],
+      "games": 12,
+      "wins": 6,
+      "winrate": 0.5,
+      "score": 10186014479.81845
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4092,
+      "totalGames": 4592,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,44 +87,44 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 66
         },
         {
           "itemId": 2503,
           "name": "Blackfire Torch",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "order": 3,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 2
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 28
         },
         {
           "itemId": 4628,
@@ -137,17 +137,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          2503,
-          3118
+          3118,
+          4628
         ],
         "names": [
-          "Blackfire Torch",
-          "Malignance"
+          "Malignance",
+          "Horizon Focus"
         ],
-        "games": 8,
-        "wins": 5,
-        "winrate": 0.625,
-        "score": 91726326.55843131
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 51608720459.26938
       },
       "runes": {
         "primaryStyle": {
@@ -200,16 +200,17 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 8,
-        "confidencePct": 1
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "TOP",
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -219,7 +220,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4092,
+      "totalGames": 4592,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -228,161 +229,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3179,
-          6696
-        ],
-        "names": [
-          "Umbral Glaive",
-          "Axiom Arc"
-        ],
-        "games": 10,
-        "wins": 7,
-        "winrate": 0.7,
-        "score": 32132350.09853358
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
         },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 3,
-        "confidencePct": 0.3
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 4092,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 66
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
         }
       ],
       "seedPair": {
@@ -397,7 +265,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 30105440.735771544
+        "score": 17202906819.756462
       },
       "runes": {
         "primaryStyle": {
@@ -460,6 +328,16 @@
         "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 3,
         "wins": 1,
@@ -467,9 +345,9 @@
       }
     },
     {
-      "buildIndex": 3,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4092,
+      "totalGames": 4592,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -478,48 +356,191 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
+          "purchaseSamples": 66
         },
         {
           "itemId": 3179,
           "name": "Umbral Glaive",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 4
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 13
         },
         {
           "itemId": 6696,
           "name": "Axiom Arc",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
           "purchaseSamples": 2
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2524,
+          6696
+        ],
+        "names": [
+          "Bandlepipes",
+          "Axiom Arc"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 11207750661.395226
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 4592,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 66
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 13
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
           "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 5,
           "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
+          "purchaseSamples": 28
         },
         {
           "itemId": 3042,
           "name": "Muramana",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -535,10 +556,10 @@
           "Muramana",
           "Axiom Arc"
         ],
-        "games": 11,
-        "wins": 6,
-        "winrate": 0.5454545454545454,
-        "score": 23902182.648695007
+        "games": 14,
+        "wins": 8,
+        "winrate": 0.5714285714285714,
+        "score": 7023916740.957892
       },
       "runes": {
         "primaryStyle": {
@@ -591,15 +612,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 11,
-        "games": 4,
-        "confidencePct": 0.36363636363636365
+        "sampleGames": 14,
+        "games": 6,
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "UTILITY",
-        "games": 8,
-        "sampleGames": 11,
-        "confidencePct": 0.7272727272727273
+        "games": 10,
+        "sampleGames": 14,
+        "confidencePct": 0.7142857142857143
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "asWholeSet": {
         "games": 0,
@@ -610,7 +641,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4092,
+      "totalGames": 4592,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -619,20 +650,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
-        },
-        {
           "itemId": 3032,
           "name": "Yun Tal Wildarrows",
           "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 224
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 58
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 66
         },
         {
           "itemId": 3031,
@@ -640,15 +671,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 164
+          "purchaseSamples": 916
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 42
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 254
         },
         {
           "itemId": 3026,
@@ -656,7 +687,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 19
+          "purchaseSamples": 105
         },
         {
           "itemId": 3172,
@@ -679,7 +710,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 3573854.908554027
+        "score": 994102773.393123
       },
       "runes": {
         "primaryStyle": {
@@ -740,6 +771,16 @@
         "role": "MIDDLE",
         "games": 3,
         "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {

@@ -1,7 +1,7 @@
 {
   "championId": "Nilah",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,38 +12,10 @@
         "Guardian Angel",
         "Navori Flickerblade"
       ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 19281.181438832446
-    },
-    {
-      "itemIds": [
-        3026,
-        6333
-      ],
-      "names": [
-        "Guardian Angel",
-        "Death's Dance"
-      ],
       "games": 8,
       "wins": 6,
       "winrate": 0.75,
-      "score": 16240.91715304436
-    },
-    {
-      "itemIds": [
-        2512,
-        3033
-      ],
-      "names": [
-        "Fiendhunter Bolts",
-        "Mortal Reminder"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 14482.950628660978
+      "score": 363558.23487517145
     },
     {
       "itemIds": [
@@ -57,28 +29,56 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 11126.017188830683
+      "score": 281063.14756392775
+    },
+    {
+      "itemIds": [
+        2512,
+        3033
+      ],
+      "names": [
+        "Fiendhunter Bolts",
+        "Mortal Reminder"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 246302.39945214367
     },
     {
       "itemIds": [
         3026,
-        3033
+        6333
       ],
       "names": [
         "Guardian Angel",
-        "Mortal Reminder"
+        "Death's Dance"
       ],
-      "games": 7,
-      "wins": 4,
-      "winrate": 0.5714285714285714,
-      "score": 7529.54572123518
+      "games": 8,
+      "wins": 6,
+      "winrate": 0.75,
+      "score": 235220.4390634008
+    },
+    {
+      "itemIds": [
+        3033,
+        3156
+      ],
+      "names": [
+        "Mortal Reminder",
+        "Maw of Malmortius"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 137388.09819012982
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 408,
+      "totalGames": 447,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,31 +92,31 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 16
+          "purchaseSamples": 14
         },
         {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
+          "purchaseSamples": 60
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3026,
@@ -124,7 +124,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
+          "purchaseSamples": 9
         },
         {
           "itemId": 3168,
@@ -144,10 +144,10 @@
           "Guardian Angel",
           "Navori Flickerblade"
         ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 19281.181438832446
+        "games": 8,
+        "wins": 6,
+        "winrate": 0.75,
+        "score": 363558.23487517145
       },
       "runes": {
         "primaryStyle": {
@@ -200,14 +200,24 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 4,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 8,
+        "games": 5,
+        "confidencePct": 0.625
       },
       "position": {
         "role": "BOTTOM",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 8,
+        "sampleGames": 8,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -219,7 +229,150 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 408,
+      "totalGames": 447,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 60
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 61
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 7,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3065,
+          6333
+        ],
+        "names": [
+          "Spirit Visage",
+          "Death's Dance"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 281063.14756392775
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 447,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,31 +386,31 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
+          "purchaseSamples": 40
         },
         {
           "itemId": 2512,
           "name": "Fiendhunter Bolts",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 7,
+          "purchaseSamples": 9
         },
         {
           "itemId": 3168,
@@ -280,7 +433,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 14482.950628660978
+        "score": 246302.39945214367
       },
       "runes": {
         "primaryStyle": {
@@ -343,6 +496,16 @@
         "sampleGames": 5,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -350,142 +513,9 @@
       }
     },
     {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 408,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 16
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3065,
-          6333
-        ],
-        "names": [
-          "Spirit Visage",
-          "Death's Dance"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 11126.017188830683
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333
-      }
-    },
-    {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 408,
+      "totalGames": 447,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -499,7 +529,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 25
+          "purchaseSamples": 46
         },
         {
           "itemId": 3033,
@@ -507,7 +537,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
+          "purchaseSamples": 40
         },
         {
           "itemId": 3156,
@@ -515,15 +545,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
+          "purchaseSamples": 6
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3026,
@@ -531,7 +561,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
+          "purchaseSamples": 9
         },
         {
           "itemId": 3168,
@@ -554,7 +584,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 7129.724882834314
+        "score": 105253.22248511051
       },
       "runes": {
         "primaryStyle": {
@@ -617,6 +647,16 @@
         "sampleGames": 4,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -626,7 +666,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 408,
+      "totalGames": 447,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -640,31 +680,31 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 16
+          "purchaseSamples": 12
         },
         {
           "itemId": 3046,
           "name": "Phantom Dancer",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 25
+          "purchaseSamples": 46
         },
         {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
+          "purchaseSamples": 60
         },
         {
           "itemId": 3026,
@@ -672,7 +712,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
+          "purchaseSamples": 9
         },
         {
           "itemId": 3168,
@@ -692,10 +732,10 @@
           "Phantom Dancer",
           "Hubris"
         ],
-        "games": 8,
+        "games": 9,
         "wins": 4,
-        "winrate": 0.5,
-        "score": 7013.274974334107
+        "winrate": 0.4444444444444444,
+        "score": 86816.60586163812
       },
       "runes": {
         "primaryStyle": {
@@ -748,15 +788,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 8,
+        "sampleGames": 9,
         "games": 4,
-        "confidencePct": 0.5
+        "confidencePct": 0.4444444444444444
       },
       "position": {
         "role": "BOTTOM",
-        "games": 8,
-        "sampleGames": 8,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
       },
       "asWholeSet": {
         "games": 0,

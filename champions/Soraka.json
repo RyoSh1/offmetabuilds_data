@@ -1,8 +1,22 @@
 {
   "championId": "Soraka",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3065,
+        3190
+      ],
+      "names": [
+        "Spirit Visage",
+        "Locket of the Iron Solari"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 2679782.4774267734
+    },
     {
       "itemIds": [
         2065,
@@ -15,35 +29,7 @@
       "games": 6,
       "wins": 3,
       "winrate": 0.5,
-      "score": 78430.25231206005
-    },
-    {
-      "itemIds": [
-        3065,
-        3190
-      ],
-      "names": [
-        "Spirit Visage",
-        "Locket of the Iron Solari"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 77082.38858562282
-    },
-    {
-      "itemIds": [
-        3190,
-        3504
-      ],
-      "names": [
-        "Locket of the Iron Solari",
-        "Ardent Censer"
-      ],
-      "games": 53,
-      "wins": 27,
-      "winrate": 0.5094339622641509,
-      "score": 71036.77246916784
+      "score": 2319216.402924133
     },
     {
       "itemIds": [
@@ -57,7 +43,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 45597.104171177925
+      "score": 1369744.6321889376
+    },
+    {
+      "itemIds": [
+        3190,
+        3504
+      ],
+      "names": [
+        "Locket of the Iron Solari",
+        "Ardent Censer"
+      ],
+      "games": 54,
+      "wins": 27,
+      "winrate": 0.5,
+      "score": 1077456.8037097035
     },
     {
       "itemIds": [
@@ -71,14 +71,14 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 44392.16944135248
+      "score": 1066861.9619417044
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2180,
+      "totalGames": 2430,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,28 +87,163 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 586
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 100
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3083,
+          "name": "Warmog's Armor",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 8
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3065,
+          3190
+        ],
+        "names": [
+          "Spirit Visage",
+          "Locket of the Iron Solari"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 2679782.4774267734
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8352,
+            "name": "Time Warp Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2430,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 586
+        },
+        {
           "itemId": 3504,
           "name": "Ardent Censer",
           "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 20
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 107
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 16
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
           "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 125
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 40
         },
         {
           "itemId": 6616,
@@ -116,7 +251,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
+          "purchaseSamples": 21
         },
         {
           "itemId": 3190,
@@ -124,7 +259,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 20
+          "purchaseSamples": 100
         },
         {
           "itemId": 6621,
@@ -132,7 +267,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 28
+          "purchaseSamples": 148
         }
       ],
       "seedPair": {
@@ -147,7 +282,7 @@
         "games": 6,
         "wins": 3,
         "winrate": 0.5,
-        "score": 78430.25231206005
+        "score": 2319216.402924133
       },
       "runes": {
         "primaryStyle": {
@@ -210,6 +345,16 @@
         "sampleGames": 6,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -217,9 +362,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2180,
+      "totalGames": 2430,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -232,141 +377,16 @@
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 125
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 586
         },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3083,
-          "name": "Warmog's Armor",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3065,
-          3190
-        ],
-        "names": [
-          "Spirit Visage",
-          "Locket of the Iron Solari"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 77082.38858562282
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8465,
-          "name": "Guardian"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8352,
-            "name": "Time Warp Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 2180,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
         {
           "itemId": 3504,
           "name": "Ardent Censer",
           "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 125
+          "purchaseSamples": 107
         },
         {
           "itemId": 3190,
@@ -374,7 +394,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 20
+          "purchaseSamples": 100
         },
         {
           "itemId": 3109,
@@ -382,7 +402,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
+          "purchaseSamples": 25
         },
         {
           "itemId": 3222,
@@ -390,15 +410,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 59
+          "purchaseSamples": 234
         },
         {
           "itemId": 3083,
           "name": "Warmog's Armor",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
@@ -410,10 +430,10 @@
           "Locket of the Iron Solari",
           "Ardent Censer"
         ],
-        "games": 53,
+        "games": 54,
         "wins": 27,
-        "winrate": 0.5094339622641509,
-        "score": 71036.77246916784
+        "winrate": 0.5,
+        "score": 1077456.8037097035
       },
       "runes": {
         "primaryStyle": {
@@ -466,15 +486,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 53,
-        "games": 50,
-        "confidencePct": 0.9433962264150944
+        "sampleGames": 54,
+        "games": 51,
+        "confidencePct": 0.9444444444444444
       },
       "position": {
         "role": "UTILITY",
-        "games": 52,
-        "sampleGames": 53,
-        "confidencePct": 0.9811320754716981
+        "games": 53,
+        "sampleGames": 54,
+        "confidencePct": 0.9814814814814815
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 23,
+        "sampleGames": 42,
+        "confidencePct": 0.5476190476190477
       },
       "asWholeSet": {
         "games": 0,
@@ -485,7 +515,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2180,
+      "totalGames": 2430,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -498,40 +528,40 @@
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 125
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 59
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 586
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 23
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 100
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 234
         },
         {
           "itemId": 6621,
@@ -539,7 +569,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 28
+          "purchaseSamples": 148
         }
       ],
       "seedPair": {
@@ -551,10 +581,10 @@
           "Mejai's Soulstealer",
           "Dawncore"
         ],
-        "games": 15,
-        "wins": 6,
-        "winrate": 0.4,
-        "score": 34190.5455122918
+        "games": 17,
+        "wins": 8,
+        "winrate": 0.47058823529411764,
+        "score": 735511.6038572908
       },
       "runes": {
         "primaryStyle": {
@@ -607,15 +637,168 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
-        "games": 12,
-        "confidencePct": 0.8
+        "sampleGames": 17,
+        "games": 13,
+        "confidencePct": 0.7647058823529411
       },
       "position": {
         "role": "UTILITY",
-        "games": 15,
-        "sampleGames": 15,
+        "games": 16,
+        "sampleGames": 17,
+        "confidencePct": 0.9411764705882353
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 2430,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 586
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 107
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 234
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 468
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3165,
+          3222
+        ],
+        "names": [
+          "Morellonomicon",
+          "Mikael's Blessing"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 256769.40676988487
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8352,
+            "name": "Time Warp Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,

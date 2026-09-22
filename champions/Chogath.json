@@ -1,8 +1,22 @@
 {
   "championId": "Chogath",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3190,
+        3222
+      ],
+      "names": [
+        "Locket of the Iron Solari",
+        "Mikael's Blessing"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 18748583489.938904
+    },
     {
       "itemIds": [
         3109,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 30228707.393592857
+      "score": 10933478859.245832
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 28333375.547152996
+      "score": 9961816979.870604
     },
     {
       "itemIds": [
@@ -40,45 +54,31 @@
         "Void Staff",
         "Stormsurge"
       ],
-      "games": 8,
-      "wins": 3,
-      "winrate": 0.375,
-      "score": 24090650.867114685
+      "games": 9,
+      "wins": 4,
+      "winrate": 0.4444444444444444,
+      "score": 6584568531.886262
     },
     {
       "itemIds": [
-        3041,
-        6655
+        2522,
+        3041
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Luden's Echo"
+        "Actualizer",
+        "Mejai's Soulstealer"
       ],
-      "games": 14,
-      "wins": 12,
-      "winrate": 0.8571428571428571,
-      "score": 23497024.314387176
-    },
-    {
-      "itemIds": [
-        4005,
-        4629
-      ],
-      "names": [
-        "Imperial Mandate",
-        "Cosmic Drive"
-      ],
-      "games": 24,
-      "wins": 14,
-      "winrate": 0.5833333333333334,
-      "score": 23398413.233915288
+      "games": 7,
+      "wins": 7,
+      "winrate": 1,
+      "score": 4372759114.417814
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6801,
+      "totalGames": 7438,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,7 +92,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 120
+          "purchaseSamples": 646
         },
         {
           "itemId": 3009,
@@ -100,7 +100,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 622
+          "purchaseSamples": 1987
         },
         {
           "itemId": 3190,
@@ -108,46 +108,46 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 7
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
         },
         {
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 14
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 36
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 14
+          "purchaseSamples": 42
         }
       ],
       "seedPair": {
         "itemIds": [
-          3109,
-          3190
+          3190,
+          3222
         ],
         "names": [
-          "Knight's Vow",
-          "Locket of the Iron Solari"
+          "Locket of the Iron Solari",
+          "Mikael's Blessing"
         ],
         "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 30228707.393592857
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 18748583489.938904
       },
       "runes": {
         "primaryStyle": {
@@ -206,9 +206,19 @@
       },
       "position": {
         "role": "UTILITY",
-        "games": 2,
+        "games": 3,
         "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -219,7 +229,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 6801,
+      "totalGames": 7438,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -228,28 +238,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 120
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 622
+          "purchaseSamples": 1987
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 30
         },
         {
           "itemId": 3157,
@@ -257,23 +267,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "purchaseSamples": 97
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 19
         }
       ],
       "seedPair": {
@@ -285,10 +295,10 @@
           "Void Staff",
           "Stormsurge"
         ],
-        "games": 8,
-        "wins": 3,
-        "winrate": 0.375,
-        "score": 24090650.867114685
+        "games": 9,
+        "wins": 4,
+        "winrate": 0.4444444444444444,
+        "score": 6584568531.886262
       },
       "runes": {
         "primaryStyle": {
@@ -341,26 +351,36 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 8,
-        "games": 8,
+        "sampleGames": 9,
+        "games": 9,
         "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 8,
-        "sampleGames": 8,
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6801,
+      "totalGames": 7438,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -369,40 +389,40 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 120
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 622
+          "purchaseSamples": 1987
         },
         {
           "itemId": 6655,
           "name": "Luden's Echo",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 3
+          "purchaseSamples": 34
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
+          "purchaseSamples": 93
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 97
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
@@ -413,23 +433,23 @@
           "name": "Actualizer",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 12
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          6655
+          2522,
+          3041
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Luden's Echo"
+          "Actualizer",
+          "Mejai's Soulstealer"
         ],
-        "games": 14,
-        "wins": 12,
-        "winrate": 0.8571428571428571,
-        "score": 23497024.314387176
+        "games": 7,
+        "wins": 7,
+        "winrate": 1,
+        "score": 4372759114.417814
       },
       "runes": {
         "primaryStyle": {
@@ -482,14 +502,24 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 14,
-        "games": 5,
-        "confidencePct": 0.35714285714285715
+        "sampleGames": 7,
+        "games": 3,
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "MIDDLE",
-        "games": 14,
-        "sampleGames": 14,
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -501,7 +531,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6801,
+      "totalGames": 7438,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -510,52 +540,52 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 622
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 646
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 49
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 21
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1987
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 101
         }
       ],
       "seedPair": {
@@ -567,10 +597,10 @@
           "Imperial Mandate",
           "Cosmic Drive"
         ],
-        "games": 24,
+        "games": 25,
         "wins": 14,
-        "winrate": 0.5833333333333334,
-        "score": 23398413.233915288
+        "winrate": 0.56,
+        "score": 3491007141.7459497
       },
       "runes": {
         "primaryStyle": {
@@ -623,15 +653,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 24,
-        "games": 13,
-        "confidencePct": 0.5416666666666666
+        "sampleGames": 25,
+        "games": 14,
+        "confidencePct": 0.56
       },
       "position": {
         "role": "MIDDLE",
-        "games": 12,
-        "sampleGames": 24,
-        "confidencePct": 0.5
+        "games": 13,
+        "sampleGames": 25,
+        "confidencePct": 0.52
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 11,
+        "sampleGames": 12,
+        "confidencePct": 0.9166666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -642,7 +682,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 6801,
+      "totalGames": 7438,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -656,7 +696,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3
+          "purchaseSamples": 15
         },
         {
           "itemId": 3009,
@@ -664,7 +704,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 622
+          "purchaseSamples": 1987
         },
         {
           "itemId": 3748,
@@ -672,7 +712,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
+          "purchaseSamples": 22
         },
         {
           "itemId": 4633,
@@ -680,7 +720,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 93
+          "purchaseSamples": 434
         },
         {
           "itemId": 3053,
@@ -688,7 +728,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "purchaseSamples": 2
         },
         {
           "itemId": 6665,
@@ -696,7 +736,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 87
+          "purchaseSamples": 272
         }
       ],
       "seedPair": {
@@ -711,7 +751,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 11367494.301606912
+        "score": 3297482661.092028
       },
       "runes": {
         "primaryStyle": {
@@ -773,6 +813,16 @@
         "games": 1,
         "sampleGames": 3,
         "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,

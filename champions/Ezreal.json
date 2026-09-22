@@ -1,7 +1,7 @@
 {
   "championId": "Ezreal",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,52 +12,10 @@
         "Lich Bane",
         "Hextech Gunblade"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 360963419.25386244
-    },
-    {
-      "itemIds": [
-        2520,
-        6699
-      ],
-      "names": [
-        "Bastionbreaker",
-        "Voltaic Cyclosword"
-      ],
-      "games": 36,
-      "wins": 19,
-      "winrate": 0.5277777777777778,
-      "score": 237245420.36124745
-    },
-    {
-      "itemIds": [
-        3179,
-        6699
-      ],
-      "names": [
-        "Umbral Glaive",
-        "Voltaic Cyclosword"
-      ],
-      "games": 48,
-      "wins": 18,
-      "winrate": 0.375,
-      "score": 167527898.64730477
-    },
-    {
-      "itemIds": [
-        3040,
-        3146
-      ],
-      "names": [
-        "Seraph's Embrace",
-        "Hextech Gunblade"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 166355119.77640587
+      "winrate": 0.625,
+      "score": 251156088521.86487
     },
     {
       "itemIds": [
@@ -71,14 +29,56 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 130144747.1018158
+      "score": 112822773205.80795
+    },
+    {
+      "itemIds": [
+        3040,
+        3146
+      ],
+      "names": [
+        "Seraph's Embrace",
+        "Hextech Gunblade"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 108583380415.72505
+    },
+    {
+      "itemIds": [
+        2520,
+        6699
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Voltaic Cyclosword"
+      ],
+      "games": 42,
+      "wins": 22,
+      "winrate": 0.5238095238095238,
+      "score": 96204815557.72673
+    },
+    {
+      "itemIds": [
+        3146,
+        4646
+      ],
+      "names": [
+        "Hextech Gunblade",
+        "Stormsurge"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 89217368503.59346
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13350,
+      "totalGames": 14746,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,36 +87,36 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1321
+          "purchaseSamples": 4859
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
         },
         {
           "itemId": 3146,
           "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
@@ -128,10 +128,10 @@
           "Lich Bane",
           "Hextech Gunblade"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 360963419.25386244
+        "winrate": 0.625,
+        "score": 251156088521.86487
       },
       "runes": {
         "primaryStyle": {
@@ -184,15 +184,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 3,
-        "confidencePct": 0.42857142857142855
+        "confidencePct": 0.375
       },
       "position": {
         "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 7,
-        "confidencePct": 0.8571428571428571
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "asWholeSet": {
         "games": 3,
@@ -203,7 +213,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 13350,
+      "totalGames": 14746,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -212,169 +222,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 8
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1321
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 35
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2520,
-          6699
-        ],
-        "names": [
-          "Bastionbreaker",
-          "Voltaic Cyclosword"
-        ],
-        "games": 36,
-        "wins": 19,
-        "winrate": 0.5277777777777778,
-        "score": 237245420.36124745
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 36,
-        "games": 6,
-        "confidencePct": 0.16666666666666666
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 31,
-        "sampleGames": 36,
-        "confidencePct": 0.8611111111111112
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 13350,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1321
+          "purchaseSamples": 4859
         },
         {
           "itemId": 3146,
           "name": "Hextech Gunblade",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
         },
         {
           "itemId": 3040,
@@ -397,7 +266,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 166355119.77640587
+        "score": 108583380415.72505
       },
       "runes": {
         "primaryStyle": {
@@ -460,6 +329,16 @@
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 1,
         "wins": 1,
@@ -467,9 +346,160 @@
       }
     },
     {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 14746,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4859
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 53
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 111
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2520,
+          6699
+        ],
+        "names": [
+          "Bastionbreaker",
+          "Voltaic Cyclosword"
+        ],
+        "games": 42,
+        "wins": 22,
+        "winrate": 0.5238095238095238,
+        "score": 96204815557.72673
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 42,
+        "games": 8,
+        "confidencePct": 0.19047619047619047
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 37,
+        "sampleGames": 42,
+        "confidencePct": 0.8809523809523809
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 16,
+        "sampleGames": 16,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 13350,
+      "totalGames": 14746,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -483,7 +513,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1
+          "purchaseSamples": 4
         },
         {
           "itemId": 3508,
@@ -491,7 +521,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 15
+          "purchaseSamples": 73
         },
         {
           "itemId": 3158,
@@ -499,31 +529,31 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1321
+          "purchaseSamples": 4859
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 768
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 801
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
         },
         {
           "itemId": 6694,
           "name": "Serylda's Grudge",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 348
+          "purchaseSamples": 1395
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -538,7 +568,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 1411757.938403611
+        "score": 104229936.50822839
       },
       "runes": {
         "primaryStyle": {
@@ -601,16 +631,26 @@
         "sampleGames": 5,
         "confidencePct": 1
       },
-      "asWholeSet": {
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
         "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 13350,
+      "totalGames": 14746,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -619,36 +659,36 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1321
+          "purchaseSamples": 4859
         },
         {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
+          "itemId": 3003,
+          "name": "Archangel's Staff",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3151
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2563
         },
         {
           "itemId": 6694,
@@ -656,66 +696,58 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 348
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 7
+          "purchaseSamples": 1395
         }
       ],
       "seedPair": {
         "itemIds": [
-          3508,
-          6697
+          3003,
+          3161
         ],
         "names": [
-          "Essence Reaver",
-          "Hubris"
+          "Archangel's Staff",
+          "Spear of Shojin"
         ],
-        "games": 14,
+        "games": 6,
         "wins": 4,
-        "winrate": 0.2857142857142857,
-        "score": 701334.4269477844
+        "winrate": 0.6666666666666666,
+        "score": 60453504.43708802
       },
       "runes": {
         "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -732,15 +764,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 14,
-        "games": 8,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 13,
-        "sampleGames": 14,
-        "confidencePct": 0.9285714285714286
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,

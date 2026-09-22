@@ -1,7 +1,7 @@
 {
   "championId": "Ahri",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,24 +12,10 @@
         "Rylai's Crystal Scepter",
         "Cosmic Drive"
       ],
-      "games": 53,
-      "wins": 28,
-      "winrate": 0.5283018867924528,
-      "score": 6825225.000972017
-    },
-    {
-      "itemIds": [
-        3116,
-        6653
-      ],
-      "names": [
-        "Rylai's Crystal Scepter",
-        "Liandry's Torment"
-      ],
-      "games": 34,
-      "wins": 16,
-      "winrate": 0.47058823529411764,
-      "score": 3915712.9734797264
+      "games": 60,
+      "wins": 33,
+      "winrate": 0.55,
+      "score": 648498267.7129282
     },
     {
       "itemIds": [
@@ -43,7 +29,21 @@
       "games": 10,
       "wins": 8,
       "winrate": 0.8,
-      "score": 3320325.867747456
+      "score": 336005855.88928235
+    },
+    {
+      "itemIds": [
+        3116,
+        6653
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Liandry's Torment"
+      ],
+      "games": 34,
+      "wins": 16,
+      "winrate": 0.47058823529411764,
+      "score": 335596762.59713584
     },
     {
       "itemIds": [
@@ -57,28 +57,28 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 1949146.556796934
+      "score": 206045321.46855417
     },
     {
       "itemIds": [
-        2503,
-        3116
+        4629,
+        6653
       ],
       "names": [
-        "Blackfire Torch",
-        "Rylai's Crystal Scepter"
+        "Cosmic Drive",
+        "Liandry's Torment"
       ],
-      "games": 213,
-      "wins": 108,
-      "winrate": 0.5070422535211268,
-      "score": 1020858.6000463342
+      "games": 13,
+      "wins": 7,
+      "winrate": 0.5384615384615384,
+      "score": 134963953.04036278
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5745,
+      "totalGames": 6460,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,52 +87,52 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 131
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 30
+          "purchaseSamples": 158
         },
         {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 152
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 14
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 79
         },
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 64
         }
       ],
       "seedPair": {
@@ -144,10 +144,10 @@
           "Rylai's Crystal Scepter",
           "Cosmic Drive"
         ],
-        "games": 53,
-        "wins": 28,
-        "winrate": 0.5283018867924528,
-        "score": 6825225.000972017
+        "games": 60,
+        "wins": 33,
+        "winrate": 0.55,
+        "score": 648498267.7129282
       },
       "runes": {
         "primaryStyle": {
@@ -200,15 +200,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 53,
-        "games": 25,
-        "confidencePct": 0.4716981132075472
+        "sampleGames": 60,
+        "games": 28,
+        "confidencePct": 0.4666666666666667
       },
       "position": {
         "role": "TOP",
-        "games": 45,
-        "sampleGames": 53,
-        "confidencePct": 0.8490566037735849
+        "games": 51,
+        "sampleGames": 60,
+        "confidencePct": 0.85
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 18,
+        "sampleGames": 27,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -219,7 +229,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5745,
+      "totalGames": 6460,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -233,47 +243,47 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 72
+          "purchaseSamples": 12
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 152
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 158
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 418
         }
       ],
       "seedPair": {
@@ -285,151 +295,10 @@
           "Liandry's Torment",
           "Rod of Ages"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 278847.1785773496
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 1,
-        "confidencePct": 0.16666666666666666
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 5745,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 72
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4646,
-          6655
-        ],
-        "names": [
-          "Stormsurge",
-          "Luden's Echo"
-        ],
-        "games": 16,
-        "wins": 11,
-        "winrate": 0.6875,
-        "score": 267998.59939985664
+        "games": 10,
+        "wins": 8,
+        "winrate": 0.8,
+        "score": 13092080.092137944
       },
       "runes": {
         "primaryStyle": {
@@ -482,15 +351,176 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 16,
-        "games": 6,
-        "confidencePct": 0.375
+        "sampleGames": 10,
+        "games": 3,
+        "confidencePct": 0.3
       },
       "position": {
         "role": "MIDDLE",
-        "games": 15,
-        "sampleGames": 16,
-        "confidencePct": 0.9375
+        "games": 8,
+        "sampleGames": 10,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 6460,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 76
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 77
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 344
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 64
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 101
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4646,
+          6655
+        ],
+        "names": [
+          "Stormsurge",
+          "Luden's Echo"
+        ],
+        "games": 19,
+        "wins": 13,
+        "winrate": 0.6842105263157895,
+        "score": 9087529.171576686
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 19,
+        "games": 7,
+        "confidencePct": 0.3684210526315789
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 18,
+        "sampleGames": 19,
+        "confidencePct": 0.9473684210526315
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
       },
       "asWholeSet": {
         "games": 0,
@@ -501,7 +531,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5745,
+      "totalGames": 6460,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -515,47 +545,47 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 224
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
+          "purchaseSamples": 1210
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 152
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 131
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 158
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 49
         }
       ],
       "seedPair": {
@@ -567,10 +597,10 @@
           "Liandry's Torment",
           "Bloodletter's Curse"
         ],
-        "games": 13,
-        "wins": 9,
-        "winrate": 0.6923076923076923,
-        "score": 228432.91217749513
+        "games": 17,
+        "wins": 11,
+        "winrate": 0.6470588235294118,
+        "score": 7685873.389453247
       },
       "runes": {
         "primaryStyle": {
@@ -623,15 +653,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
-        "games": 4,
-        "confidencePct": 0.3076923076923077
+        "sampleGames": 17,
+        "games": 5,
+        "confidencePct": 0.29411764705882354
       },
       "position": {
         "role": "MIDDLE",
-        "games": 12,
-        "sampleGames": 13,
-        "confidencePct": 0.9230769230769231
+        "games": 16,
+        "sampleGames": 17,
+        "confidencePct": 0.9411764705882353
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
       },
       "asWholeSet": {
         "games": 0,
@@ -642,7 +682,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5745,
+      "totalGames": 6460,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -651,52 +691,52 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 131
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 30
+          "purchaseSamples": 158
         },
         {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
+          "purchaseSamples": 152
         },
         {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
+          "purchaseSamples": 27
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 101
         }
       ],
       "seedPair": {
@@ -708,10 +748,10 @@
           "Rylai's Crystal Scepter",
           "Morellonomicon"
         ],
-        "games": 8,
+        "games": 9,
         "wins": 6,
-        "winrate": 0.75,
-        "score": 194200.92989045614
+        "winrate": 0.6666666666666666,
+        "score": 5759271.28126831
       },
       "runes": {
         "primaryStyle": {
@@ -764,15 +804,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 8,
+        "sampleGames": 9,
         "games": 2,
-        "confidencePct": 0.25
+        "confidencePct": 0.2222222222222222
       },
       "position": {
         "role": "MIDDLE",
         "games": 4,
-        "sampleGames": 8,
-        "confidencePct": 0.5
+        "sampleGames": 9,
+        "confidencePct": 0.4444444444444444
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,

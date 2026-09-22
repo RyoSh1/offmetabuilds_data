@@ -1,8 +1,22 @@
 {
   "championId": "Cassiopeia",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3102,
+        6665
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Jak'Sho, The Protean"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 628168868.891111
+    },
     {
       "itemIds": [
         4629,
@@ -12,10 +26,10 @@
         "Cosmic Drive",
         "Shadowflame"
       ],
-      "games": 34,
+      "games": 36,
       "wins": 16,
-      "winrate": 0.47058823529411764,
-      "score": 2801081.584330125
+      "winrate": 0.4444444444444444,
+      "score": 140624466.35265565
     },
     {
       "itemIds": [
@@ -26,59 +40,45 @@
         "Archangel's Staff",
         "Mejai's Soulstealer"
       ],
-      "games": 6,
-      "wins": 6,
+      "games": 8,
+      "wins": 8,
       "winrate": 1,
-      "score": 1529653.326700744
+      "score": 123211908.62393303
     },
     {
       "itemIds": [
         3102,
-        4629
+        3165
       ],
       "names": [
         "Banshee's Veil",
-        "Cosmic Drive"
+        "Morellonomicon"
       ],
-      "games": 13,
-      "wins": 9,
-      "winrate": 0.6923076923076923,
-      "score": 1440545.2297388338
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 117550819.44409496
     },
     {
       "itemIds": [
-        3089,
-        4629
+        4633,
+        8010
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Cosmic Drive"
+        "Riftmaker",
+        "Bloodletter's Curse"
       ],
-      "games": 36,
-      "wins": 20,
-      "winrate": 0.5555555555555556,
-      "score": 1117347.6221422222
-    },
-    {
-      "itemIds": [
-        3135,
-        4645
-      ],
-      "names": [
-        "Void Staff",
-        "Shadowflame"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 978883.3597940751
+      "games": 6,
+      "wins": 6,
+      "winrate": 1,
+      "score": 90157442.7043992
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5885,
+      "totalGames": 6408,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -92,7 +92,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
+          "purchaseSamples": 6
         },
         {
           "itemId": 4629,
@@ -100,27 +100,178 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
+          "purchaseSamples": 283
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 57
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 520
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          6665
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Jak'Sho, The Protean"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 628168868.891111
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6408,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3170,
+          "name": "Swiftmarch",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3003,
+          "name": "Archangel's Staff",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1417
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 283
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 128
+          "purchaseSamples": 295
         },
         {
           "itemId": 4645,
           "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
@@ -132,7 +283,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 38
+          "purchaseSamples": 114
         }
       ],
       "seedPair": {
@@ -144,10 +295,10 @@
           "Cosmic Drive",
           "Shadowflame"
         ],
-        "games": 34,
+        "games": 36,
         "wins": 16,
-        "winrate": 0.47058823529411764,
-        "score": 2801081.584330125
+        "winrate": 0.4444444444444444,
+        "score": 140624466.35265565
       },
       "runes": {
         "primaryStyle": {
@@ -200,15 +351,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 34,
-        "games": 20,
-        "confidencePct": 0.5882352941176471
+        "sampleGames": 36,
+        "games": 22,
+        "confidencePct": 0.6111111111111112
       },
       "position": {
         "role": "BOTTOM",
-        "games": 22,
-        "sampleGames": 34,
-        "confidencePct": 0.6470588235294118
+        "games": 24,
+        "sampleGames": 36,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 27,
+        "sampleGames": 27,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -217,9 +378,9 @@
       }
     },
     {
-      "buildIndex": 1,
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5885,
+      "totalGames": 6408,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -228,67 +389,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 326
-        },
-        {
           "itemId": 3170,
           "name": "Swiftmarch",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
+          "purchaseSamples": 6
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 283
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 336
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 295
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 165
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 177
+          "purchaseSamples": 57
         },
         {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
+          "purchaseSamples": 50
         }
       ],
       "seedPair": {
         "itemIds": [
-          3157,
+          3102,
           3165
         ],
         "names": [
-          "Zhonya's Hourglass",
+          "Banshee's Veil",
           "Morellonomicon"
         ],
-        "games": 18,
-        "wins": 13,
-        "winrate": 0.7222222222222222,
-        "score": 957994.1887431719
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 117550819.44409496
       },
       "runes": {
         "primaryStyle": {
@@ -333,23 +494,33 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 18,
-        "games": 5,
-        "confidencePct": 0.2777777777777778
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "BOTTOM",
-        "games": 10,
-        "sampleGames": 18,
-        "confidencePct": 0.5555555555555556
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -358,9 +529,9 @@
       }
     },
     {
-      "buildIndex": 2,
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5885,
+      "totalGames": 6408,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -369,36 +540,187 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
+          "itemId": 3170,
+          "name": "Swiftmarch",
+          "isBoots": true,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 326
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
         },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 380
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 283
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 295
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 182
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4633,
+          8010
+        ],
+        "names": [
+          "Riftmaker",
+          "Bloodletter's Curse"
+        ],
+        "games": 6,
+        "wins": 6,
+        "winrate": 1,
+        "score": 90157442.7043992
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 6408,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
         {
           "itemId": 3170,
           "name": "Swiftmarch",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
+          "purchaseSamples": 6
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 97
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
+          "purchaseSamples": 283
         },
         {
           "itemId": 3157,
@@ -406,7 +728,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 177
+          "purchaseSamples": 520
         },
         {
           "itemId": 3165,
@@ -414,7 +736,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
+          "purchaseSamples": 28
         }
       ],
       "seedPair": {
@@ -426,10 +748,10 @@
           "Shurelya's Battlesong",
           "Cryptbloom"
         ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 580063.2803205282
+        "games": 9,
+        "wins": 7,
+        "winrate": 0.7777777777777778,
+        "score": 30860198.417501774
       },
       "runes": {
         "primaryStyle": {
@@ -482,157 +804,17 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 7,
+        "sampleGames": 9,
+        "games": 9,
         "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 5885,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3170,
-          "name": "Swiftmarch",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 177
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 18
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3137,
-          3157
-        ],
-        "names": [
-          "Cryptbloom",
-          "Zhonya's Hourglass"
-        ],
-        "games": 33,
-        "wins": 15,
-        "winrate": 0.45454545454545453,
-        "score": 479773.88638492994
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 33,
-        "games": 9,
-        "confidencePct": 0.2727272727272727
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 17,
-        "sampleGames": 33,
-        "confidencePct": 0.5151515151515151
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,

@@ -1,7 +1,7 @@
 {
   "championId": "Hwei",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 14496785.889143843
+      "score": 4730661874.583824
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 10405870.84569202
+      "score": 1706438442.0780597
+    },
+    {
+      "itemIds": [
+        3040,
+        4629
+      ],
+      "names": [
+        "Seraph's Embrace",
+        "Cosmic Drive"
+      ],
+      "games": 5,
+      "wins": 5,
+      "winrate": 1,
+      "score": 1401096270.3799093
     },
     {
       "itemIds": [
@@ -43,42 +57,28 @@
       "games": 10,
       "wins": 9,
       "winrate": 0.9,
-      "score": 9316025.380107764
+      "score": 1089162955.5147042
     },
     {
       "itemIds": [
-        3040,
-        4629
-      ],
-      "names": [
-        "Seraph's Embrace",
-        "Cosmic Drive"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 7181023.742402476
-    },
-    {
-      "itemIds": [
-        3116,
+        4629,
         8010
       ],
       "names": [
-        "Rylai's Crystal Scepter",
+        "Cosmic Drive",
         "Bloodletter's Curse"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 5311192.183394447
+      "games": 7,
+      "wins": 6,
+      "winrate": 0.8571428571428571,
+      "score": 888333371.0207022
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4516,
+      "totalGames": 5126,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -91,21 +91,21 @@
           "name": "Echoes of Helia",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 4
         },
         {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
@@ -123,7 +123,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 14496785.889143843
+        "score": 4730661874.583824
       },
       "runes": {
         "primaryStyle": {
@@ -186,6 +186,16 @@
         "sampleGames": 4,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 4,
         "wins": 1,
@@ -195,7 +205,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4516,
+      "totalGames": 5126,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -204,49 +214,49 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
           "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 93
+          "purchaseSamples": 9
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 19
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
+          "itemId": 4628,
+          "name": "Horizon Focus",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 130
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 387
         },
         {
           "itemId": 3040,
           "name": "Seraph's Embrace",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
           "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
@@ -264,7 +274,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 10405870.84569202
+        "score": 1706438442.0780597
       },
       "runes": {
         "primaryStyle": {
@@ -327,6 +337,16 @@
         "sampleGames": 4,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -336,7 +356,7 @@
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4516,
+      "totalGames": 5126,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -345,49 +365,49 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 14
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 144
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 17
         },
         {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 79
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 51
         },
         {
           "itemId": 3040,
           "name": "Seraph's Embrace",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
           "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
@@ -402,10 +422,10 @@
           "Seraph's Embrace",
           "Cosmic Drive"
         ],
-        "games": 4,
-        "wins": 4,
+        "games": 5,
+        "wins": 5,
         "winrate": 1,
-        "score": 7181023.742402476
+        "score": 1401096270.3799093
       },
       "runes": {
         "primaryStyle": {
@@ -458,15 +478,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "TOP",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -477,7 +507,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4516,
+      "totalGames": 5126,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -486,190 +516,49 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
+          "itemId": 3118,
+          "name": "Malignance",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 14
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
         },
         {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3116,
-          8010
-        ],
-        "names": [
-          "Rylai's Crystal Scepter",
-          "Bloodletter's Curse"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 5311192.183394447
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
         },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 4516,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
         {
           "itemId": 4628,
           "name": "Horizon Focus",
           "isBoots": false,
-          "order": 1,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
+          "purchaseSamples": 130
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 51
         },
         {
           "itemId": 3040,
           "name": "Seraph's Embrace",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
           "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
@@ -684,10 +573,10 @@
           "Malignance",
           "Horizon Focus"
         ],
-        "games": 5,
+        "games": 7,
         "wins": 3,
-        "winrate": 0.6,
-        "score": 2577159.315006971
+        "winrate": 0.42857142857142855,
+        "score": 245523508.60150045
       },
       "runes": {
         "primaryStyle": {
@@ -740,16 +629,168 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 5,
+        "sampleGames": 7,
+        "games": 7,
         "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5126,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 130
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 50
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 144
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 51
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3040,
+          3102
+        ],
+        "names": [
+          "Seraph's Embrace",
+          "Banshee's Veil"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 152657120.69092485
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,

@@ -1,7 +1,7 @@
 {
   "championId": "Leblanc",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,35 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 18969423.40198524
+      "score": 5373559431.691872
+    },
+    {
+      "itemIds": [
+        4628,
+        6653
+      ],
+      "names": [
+        "Horizon Focus",
+        "Liandry's Torment"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 4238779414.8200088
+    },
+    {
+      "itemIds": [
+        2503,
+        4628
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Horizon Focus"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 853536992.8843513
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 2473408.2618543785
+      "score": 281645746.1101465
     },
     {
       "itemIds": [
@@ -43,42 +71,14 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 1782590.4096124484
-    },
-    {
-      "itemIds": [
-        3137,
-        3165
-      ],
-      "names": [
-        "Cryptbloom",
-        "Morellonomicon"
-      ],
-      "games": 5,
-      "wins": 2,
-      "winrate": 0.4,
-      "score": 1180857.5331561095
-    },
-    {
-      "itemIds": [
-        3094,
-        3172
-      ],
-      "names": [
-        "Rapid Firecannon",
-        "Gunmetal Greaves"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 1014731.3790578217
+      "score": 172478082.36048213
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5381,
+      "totalGames": 6046,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,28 +87,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 3084,
           "name": "Heartsteel",
           "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
         },
         {
           "itemId": 3143,
           "name": "Randuin's Omen",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
         }
       ],
       "seedPair": {
@@ -123,7 +123,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 18969423.40198524
+        "score": 5373559431.691872
       },
       "runes": {
         "primaryStyle": {
@@ -186,6 +186,16 @@
         "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 3,
         "wins": 2,
@@ -195,7 +205,7 @@
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5381,
+      "totalGames": 6046,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -209,7 +219,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 10
+          "purchaseSamples": 31
         },
         {
           "itemId": 3175,
@@ -217,54 +227,54 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 6
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 4628,
+          "name": "Horizon Focus",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 99
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 8
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 137
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 16
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 74
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 319
         }
       ],
       "seedPair": {
         "itemIds": [
-          3137,
-          4629
+          4628,
+          6653
         ],
         "names": [
-          "Cryptbloom",
-          "Cosmic Drive"
+          "Horizon Focus",
+          "Liandry's Torment"
         ],
-        "games": 4,
-        "wins": 4,
+        "games": 3,
+        "wins": 3,
         "winrate": 1,
-        "score": 2473408.2618543785
+        "score": 4238779414.8200088
       },
       "runes": {
         "primaryStyle": {
@@ -317,15 +327,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 3,
         "games": 3,
-        "confidencePct": 0.75
+        "confidencePct": 1
       },
       "position": {
         "role": "TOP",
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -336,7 +356,7 @@
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5381,
+      "totalGames": 6046,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -350,7 +370,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3
+          "purchaseSamples": 4
         },
         {
           "itemId": 3175,
@@ -358,15 +378,15 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 6
         },
         {
           "itemId": 3094,
           "name": "Rapid Firecannon",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
         },
         {
           "itemId": 3172,
@@ -389,7 +409,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 1782590.4096124484
+        "score": 172478082.36048213
       },
       "runes": {
         "primaryStyle": {
@@ -452,6 +472,16 @@
         "sampleGames": 5,
         "confidencePct": 0.8
       },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 3,
         "wins": 1,
@@ -461,7 +491,7 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5381,
+      "totalGames": 6046,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -475,7 +505,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 6
         },
         {
           "itemId": 3137,
@@ -483,39 +513,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 99
+          "purchaseSamples": 319
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 684
         },
         {
           "itemId": 4628,
           "name": "Horizon Focus",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "purchaseSamples": 46
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 114
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 137
+          "purchaseSamples": 524
         },
         {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 5
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 17
         }
       ],
       "seedPair": {
@@ -530,7 +560,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 1180857.5331561095
+        "score": 126983494.03172722
       },
       "runes": {
         "primaryStyle": {
@@ -593,6 +623,16 @@
         "sampleGames": 5,
         "confidencePct": 0.4
       },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -602,7 +642,7 @@
     {
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5381,
+      "totalGames": 6046,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -611,28 +651,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 66
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 16
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
         },
         {
-          "itemId": 4628,
-          "name": "Horizon Focus",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "purchaseSamples": 16
         },
         {
           "itemId": 3137,
@@ -640,38 +680,38 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 99
+          "purchaseSamples": 319
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 391
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 137
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
+          "purchaseSamples": 529
         }
       ],
       "seedPair": {
         "itemIds": [
-          3152,
-          4628
+          3118,
+          4629
         ],
         "names": [
-          "Hextech Rocketbelt",
-          "Horizon Focus"
+          "Malignance",
+          "Cosmic Drive"
         ],
-        "games": 5,
+        "games": 6,
         "wins": 4,
-        "winrate": 0.8,
-        "score": 231340.1327144321
+        "winrate": 0.6666666666666666,
+        "score": 17921528.96432655
       },
       "runes": {
         "primaryStyle": {
@@ -688,8 +728,8 @@
             "name": "Sudden Impact"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
             "id": 8106,
@@ -702,8 +742,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
             "id": 8237,
@@ -712,8 +752,8 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -724,15 +764,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
         "games": 2,
-        "sampleGames": 5,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,

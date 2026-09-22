@@ -1,7 +1,7 @@
 {
   "championId": "Zac",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-21T17:43:51.287Z",
+  "generatedAt": "2026-09-22T17:03:04.020Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Shadowflame",
         "Stormsurge"
       ],
-      "games": 9,
+      "games": 10,
       "wins": 4,
-      "winrate": 0.4444444444444444,
-      "score": 40869197.50005235
+      "winrate": 0.4,
+      "score": 11925938961.847555
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Zeke's Convergence",
         "Cosmic Drive"
       ],
-      "games": 11,
-      "wins": 9,
-      "winrate": 0.8181818181818182,
-      "score": 5808654.540284239
+      "games": 14,
+      "wins": 11,
+      "winrate": 0.7857142857142857,
+      "score": 737932199.6165979
     },
     {
       "itemIds": [
@@ -43,42 +43,42 @@
       "games": 9,
       "wins": 6,
       "winrate": 0.6666666666666666,
-      "score": 4035007.9975725883
+      "score": 419540987.443774
+    },
+    {
+      "itemIds": [
+        2065,
+        3050
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Zeke's Convergence"
+      ],
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 409803536.3010682
     },
     {
       "itemIds": [
         4005,
-        6662
+        4401
       ],
       "names": [
         "Imperial Mandate",
-        "Iceborn Gauntlet"
+        "Force of Nature"
       ],
-      "games": 19,
-      "wins": 13,
-      "winrate": 0.6842105263157895,
-      "score": 3791079.307079326
-    },
-    {
-      "itemIds": [
-        3109,
-        3190
-      ],
-      "names": [
-        "Knight's Vow",
-        "Locket of the Iron Solari"
-      ],
-      "games": 27,
-      "wins": 19,
-      "winrate": 0.7037037037037037,
-      "score": 3630213.7751293993
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 400348999.292636
     }
   ],
   "builds": [
     {
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3752,
+      "totalGames": 4178,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -87,28 +87,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 2
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 132
+          "purchaseSamples": 738
         },
         {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
@@ -120,10 +120,10 @@
           "Shadowflame",
           "Stormsurge"
         ],
-        "games": 9,
+        "games": 10,
         "wins": 4,
-        "winrate": 0.4444444444444444,
-        "score": 40869197.50005235
+        "winrate": 0.4,
+        "score": 11925938961.847555
       },
       "runes": {
         "primaryStyle": {
@@ -176,26 +176,36 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
-        "games": 8,
-        "confidencePct": 0.8888888888888888
+        "sampleGames": 10,
+        "games": 9,
+        "confidencePct": 0.9
       },
       "position": {
         "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 9,
-        "confidencePct": 0.6666666666666666
+        "games": 7,
+        "sampleGames": 10,
+        "confidencePct": 0.7
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 9,
+        "games": 10,
         "wins": 4,
-        "winrate": 0.4444444444444444
+        "winrate": 0.4
       }
     },
     {
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3752,
+      "totalGames": 4178,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -204,52 +214,52 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 132
-        },
-        {
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 32
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 194
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 44
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 738
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 14
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 63
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 223
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "purchaseSamples": 52
         }
       ],
       "seedPair": {
@@ -261,10 +271,10 @@
           "Zeke's Convergence",
           "Cosmic Drive"
         ],
-        "games": 11,
-        "wins": 9,
-        "winrate": 0.8181818181818182,
-        "score": 5808654.540284239
+        "games": 14,
+        "wins": 11,
+        "winrate": 0.7857142857142857,
+        "score": 737932199.6165979
       },
       "runes": {
         "primaryStyle": {
@@ -317,15 +327,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 11,
-        "games": 11,
+        "sampleGames": 14,
+        "games": 14,
         "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 9,
-        "sampleGames": 11,
-        "confidencePct": 0.8181818181818182
+        "games": 12,
+        "sampleGames": 14,
+        "confidencePct": 0.8571428571428571
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 12,
+        "sampleGames": 14,
+        "confidencePct": 0.8571428571428571
       },
       "asWholeSet": {
         "games": 0,
@@ -336,7 +356,7 @@
     {
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3752,
+      "totalGames": 4178,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -349,8 +369,8 @@
           "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 25
         },
         {
           "itemId": 3158,
@@ -358,39 +378,39 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 132
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 45
+          "purchaseSamples": 738
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
+          "purchaseSamples": 56
         },
         {
           "itemId": 8020,
           "name": "Abyssal Mask",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 91
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 14
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 11
         }
       ],
       "seedPair": {
@@ -405,7 +425,7 @@
         "games": 9,
         "wins": 6,
         "winrate": 0.6666666666666666,
-        "score": 4035007.9975725883
+        "score": 419540987.443774
       },
       "runes": {
         "primaryStyle": {
@@ -468,6 +488,16 @@
         "sampleGames": 9,
         "confidencePct": 0.7777777777777778
       },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -477,7 +507,158 @@
     {
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3752,
+      "totalGames": 4178,
+      "patchesUsed": [
+        "16.18",
+        "16.17"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 194
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 738
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 91
+        },
+        {
+          "itemId": 2502,
+          "name": "Unending Despair",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 121
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 885
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3050
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Zeke's Convergence"
+        ],
+        "games": 8,
+        "wins": 4,
+        "winrate": 0.5,
+        "score": 409803536.3010682
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 8,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 4178,
       "patchesUsed": [
         "16.18",
         "16.17"
@@ -491,7 +672,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
+          "purchaseSamples": 50
         },
         {
           "itemId": 3158,
@@ -499,23 +680,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 132
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 58
+          "purchaseSamples": 738
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 63
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 154
         },
         {
           "itemId": 4401,
@@ -523,30 +704,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "purchaseSamples": 6
         },
         {
           "itemId": 2525,
           "name": "Protoplasm Harness",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 91
         }
       ],
       "seedPair": {
         "itemIds": [
           4005,
-          6662
+          4401
         ],
         "names": [
           "Imperial Mandate",
-          "Iceborn Gauntlet"
+          "Force of Nature"
         ],
-        "games": 19,
-        "wins": 13,
-        "winrate": 0.6842105263157895,
-        "score": 3791079.307079326
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 400348999.292636
       },
       "runes": {
         "primaryStyle": {
@@ -554,8 +735,8 @@
           "name": "Resolve"
         },
         "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
+          "id": 8439,
+          "name": "Aftershock"
         },
         "primaryPerks": [
           {
@@ -563,8 +744,8 @@
             "name": "Demolish"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
             "id": 8453,
@@ -599,156 +780,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 19,
-        "games": 13,
-        "confidencePct": 0.6842105263157895
-      },
-      "position": {
-        "role": "TOP",
-        "games": 17,
-        "sampleGames": 19,
-        "confidencePct": 0.8947368421052632
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3752,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 132
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3109,
-          3190
-        ],
-        "names": [
-          "Knight's Vow",
-          "Locket of the Iron Solari"
-        ],
-        "games": 27,
-        "wins": 19,
-        "winrate": 0.7037037037037037,
-        "score": 3630213.7751293993
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 27,
-        "games": 9,
+        "sampleGames": 3,
+        "games": 1,
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "UTILITY",
-        "games": 25,
-        "sampleGames": 27,
-        "confidencePct": 0.9259259259259259
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
