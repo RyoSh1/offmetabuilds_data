@@ -1,7 +1,7 @@
 {
   "championId": "Orianna",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-23T19:09:18.361Z",
+  "generatedAt": "2026-09-23T19:27:56.013Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 6,
       "wins": 6,
       "winrate": 1,
-      "score": 333263.3663155933
+      "score": 337337.01477535034
+    },
+    {
+      "itemIds": [
+        2522,
+        4646
+      ],
+      "names": [
+        "Actualizer",
+        "Stormsurge"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 187624.32972068887
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 159365.45119353986
+      "score": 161463.802615318
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 128851.59637304193
+      "score": 130484.76413716833
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 24,
       "wins": 16,
       "winrate": 0.6666666666666666,
-      "score": 122617.25627599175
-    },
-    {
-      "itemIds": [
-        3137,
-        3165
-      ],
-      "names": [
-        "Cryptbloom",
-        "Morellonomicon"
-      ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 118584.04294165336
+      "score": 122234.80725075745
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Orianna-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3670,
+      "totalGames": 3701,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +148,7 @@
         "games": 6,
         "wins": 6,
         "winrate": 1,
-        "score": 333263.3663155933
+        "score": 337337.01477535034
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,143 @@
       "id": "Orianna-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3670,
+      "totalGames": 3701,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 940
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 2522,
+          "name": "Actualizer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 56
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2522,
+          4646
+        ],
+        "names": [
+          "Actualizer",
+          "Stormsurge"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 187624.32972068887
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Orianna-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 3701,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -300,7 +436,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 128851.59637304193
+        "score": 130484.76413716833
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +516,10 @@
       }
     },
     {
-      "id": "Orianna-3",
-      "buildIndex": 2,
+      "id": "Orianna-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3670,
+      "totalGames": 3701,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +588,7 @@
         "games": 9,
         "wins": 9,
         "winrate": 1,
-        "score": 84617.3833006704
+        "score": 83731.35980329357
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +668,10 @@
       }
     },
     {
-      "id": "Orianna-4",
-      "buildIndex": 3,
+      "id": "Orianna-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3670,
+      "totalGames": 3701,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +740,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 75741.00677348909
+        "score": 75388.95911267486
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +818,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Orianna-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3670,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 250
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 118
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 179
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 31
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6653,
-          6657
-        ],
-        "names": [
-          "Liandry's Torment",
-          "Rod of Ages"
-        ],
-        "games": 21,
-        "wins": 10,
-        "winrate": 0.47619047619047616,
-        "score": 65035.305544833165
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 21,
-        "games": 5,
-        "confidencePct": 0.23809523809523808
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 21,
-        "sampleGames": 21,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 11,
-        "confidencePct": 0.9090909090909091
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 3670,
+    "totalGames": 3701,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49100817438692096,
+    "winrate": 0.49094839232639825,
     "items": [
       {
         "itemId": 2503,
@@ -946,15 +930,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3670,
-      "games": 389,
-      "confidencePct": 0.10599455040871934
+      "sampleGames": 3701,
+      "games": 395,
+      "confidencePct": 0.10672791137530398
     },
     "position": {
       "role": "MIDDLE",
-      "games": 3590,
-      "sampleGames": 3670,
-      "confidencePct": 0.9782016348773842
+      "games": 3620,
+      "sampleGames": 3701,
+      "confidencePct": 0.978114023236963
     },
     "skillOrder": {
       "order": [
