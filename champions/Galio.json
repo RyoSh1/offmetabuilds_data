@@ -1,35 +1,21 @@
 {
   "championId": "Galio",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
         2524,
-        3109
+        2525
       ],
       "names": [
         "Bandlepipes",
-        "Knight's Vow"
+        "Protoplasm Harness"
       ],
-      "games": 24,
-      "wins": 18,
-      "winrate": 0.75,
-      "score": 995559773.3009677
-    },
-    {
-      "itemIds": [
-        3050,
-        3109
-      ],
-      "names": [
-        "Zeke's Convergence",
-        "Knight's Vow"
-      ],
-      "games": 29,
-      "wins": 20,
-      "winrate": 0.6896551724137931,
-      "score": 830883378.5220841
+      "games": 7,
+      "wins": 7,
+      "winrate": 1,
+      "score": 11235883.509879565
     },
     {
       "itemIds": [
@@ -40,57 +26,80 @@
         "Shurelya's Battlesong",
         "Protoplasm Harness"
       ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 820592356.1306903
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 11203891.496323666
     },
     {
       "itemIds": [
         2524,
-        2525
+        3109
       ],
       "names": [
         "Bandlepipes",
-        "Protoplasm Harness"
+        "Knight's Vow"
       ],
-      "games": 11,
-      "wins": 10,
-      "winrate": 0.9090909090909091,
-      "score": 790039544.5536805
+      "games": 14,
+      "wins": 11,
+      "winrate": 0.7857142857142857,
+      "score": 10814974.743337907
     },
     {
       "itemIds": [
-        3742,
-        4401
+        3050,
+        3109
       ],
       "names": [
-        "Dead Man's Plate",
-        "Force of Nature"
+        "Zeke's Convergence",
+        "Knight's Vow"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 771601667.1456009
+      "games": 19,
+      "wins": 13,
+      "winrate": 0.6842105263157895,
+      "score": 10280436.658192037
+    },
+    {
+      "itemIds": [
+        3109,
+        3190
+      ],
+      "names": [
+        "Knight's Vow",
+        "Locket of the Iron Solari"
+      ],
+      "games": 81,
+      "wins": 52,
+      "winrate": 0.6419753086419753,
+      "score": 9670239.920989104
     }
   ],
   "builds": [
     {
+      "id": "Galio-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9830,
+      "totalGames": 6555,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 455
+        },
+        {
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 138
         },
@@ -98,7 +107,7 @@
           "itemId": 3173,
           "name": "Chainlaced Crushers",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 8
         },
@@ -106,17 +115,9 @@
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 83
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 122
+          "purchaseSamples": 83
         },
         {
           "itemId": 2525,
@@ -127,27 +128,27 @@
           "purchaseSamples": 100
         },
         {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 24
+          "purchaseSamples": 122
         }
       ],
       "seedPair": {
         "itemIds": [
           2524,
-          3109
+          2525
         ],
         "names": [
           "Bandlepipes",
-          "Knight's Vow"
+          "Protoplasm Harness"
         ],
-        "games": 24,
-        "wins": 18,
-        "winrate": 0.75,
-        "score": 995559773.3009677
+        "games": 7,
+        "wins": 7,
+        "winrate": 1,
+        "score": 11235883.509879565
       },
       "runes": {
         "primaryStyle": {
@@ -182,165 +183,14 @@
             "name": "Nimbus Cloak"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 24,
-        "games": 6,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 24,
-        "sampleGames": 24,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 11,
-        "sampleGames": 14,
-        "confidencePct": 0.7857142857142857
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 9830,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 455
-        },
-        {
-          "itemId": 3173,
-          "name": "Chainlaced Crushers",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 49
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 100
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 83
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 122
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          2525
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Protoplasm Harness"
-        ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 820592356.1306903
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8351,
-          "name": "Glacial Augment"
-        },
-        "primaryPerks": [
-          {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
             "id": 8234,
             "name": "Celerity"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5010,
@@ -352,14 +202,14 @@
           }
         ],
         "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
+        "games": 1,
+        "confidencePct": 0.14285714285714285
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
+        "games": 7,
         "sampleGames": 7,
-        "confidencePct": 0.8571428571428571
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -368,8 +218,8 @@
           "Q"
         ],
         "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -378,12 +228,13 @@
       }
     },
     {
-      "buildIndex": 2,
+      "id": "Galio-2",
+      "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 9830,
+      "totalGames": 6555,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -397,12 +248,12 @@
           "purchaseSamples": 31
         },
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 138
+          "purchaseSamples": 455
         },
         {
           "itemId": 3173,
@@ -421,20 +272,20 @@
           "purchaseSamples": 3
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 122
-        },
-        {
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 83
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 122
         }
       ],
       "seedPair": {
@@ -449,7 +300,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 771601667.1456009
+        "score": 7125981.219917077
       },
       "runes": {
         "primaryStyle": {
@@ -529,78 +380,79 @@
       }
     },
     {
-      "buildIndex": 3,
+      "id": "Galio-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 9830,
+      "totalGames": 6555,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 31
+        },
+        {
           "itemId": 3173,
           "name": "Chainlaced Crushers",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 8
         },
         {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 112
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 384
+          "purchaseSamples": 49
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 38
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 100
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 2524,
+          "name": "Bandlepipes",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 168
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 83
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 36
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 122
         }
       ],
       "seedPair": {
         "itemIds": [
-          3110,
-          8010
+          2065,
+          3742
         ],
         "names": [
-          "Frozen Heart",
-          "Bloodletter's Curse"
+          "Shurelya's Battlesong",
+          "Dead Man's Plate"
         ],
-        "games": 3,
+        "games": 5,
         "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 704950160.9984344
+        "winrate": 0.4,
+        "score": 5278459.857993862
       },
       "runes": {
         "primaryStyle": {
@@ -621,8 +473,160 @@
             "name": "Bone Plating"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8306,
+            "name": "Hextech Flashtraption"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Galio-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 6555,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 455
+        },
+        {
+          "itemId": 3173,
+          "name": "Chainlaced Crushers",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 133
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 112
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 122
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 83
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3075,
+          3110
+        ],
+        "names": [
+          "Thornmail",
+          "Frozen Heart"
+        ],
+        "games": 16,
+        "wins": 7,
+        "winrate": 0.4375,
+        "score": 3537828.7598094363
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "subStyle": {
@@ -649,6 +653,158 @@
             "name": "Adaptive Force"
           },
           {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 16,
+        "games": 6,
+        "confidencePct": 0.375
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 9,
+        "sampleGames": 16,
+        "confidencePct": 0.5625
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 6,
+        "sampleGames": 9,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Galio-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 6555,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 455
+        },
+        {
+          "itemId": 3173,
+          "name": "Chainlaced Crushers",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 133
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 100
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 83
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3075
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Thornmail"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 2913073.2659961223
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8351,
+          "name": "Glacial Augment"
+        },
+        "primaryPerks": [
+          {
+            "id": 8306,
+            "name": "Hextech Flashtraption"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
             "id": 5011,
             "name": "Health"
           }
@@ -658,20 +814,20 @@
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "TOP",
+        "role": "UTILITY",
         "games": 2,
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
-          "Q",
           "W",
-          "E"
+          "E",
+          "Q"
         ],
-        "games": 2,
+        "games": 1,
         "sampleGames": 2,
-        "confidencePct": 1
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -679,5 +835,136 @@
         "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 6555,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.4999237223493516,
+    "items": [
+      {
+        "itemId": 3152,
+        "name": "Hextech Rocketbelt",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 2557
+      },
+      {
+        "itemId": 6664,
+        "name": "Hollow Radiance",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1063
+      },
+      {
+        "itemId": 2504,
+        "name": "Kaenic Rookern",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 677
+      },
+      {
+        "itemId": 3173,
+        "name": "Chainlaced Crushers",
+        "isBoots": true,
+        "order": 4,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 8
+      },
+      {
+        "itemId": 4005,
+        "name": "Imperial Mandate",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 3343
+      },
+      {
+        "itemId": 3157,
+        "name": "Zhonya's Hourglass",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 1270
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8200,
+        "name": "Sorcery"
+      },
+      "keystone": {
+        "id": 8230,
+        "name": "Stormraider's Surge"
+      },
+      "primaryPerks": [
+        {
+          "id": 8226,
+          "name": "Manaflow Band"
+        },
+        {
+          "id": 8210,
+          "name": "Transcendence"
+        },
+        {
+          "id": 8237,
+          "name": "Scorch"
+        }
+      ],
+      "subStyle": {
+        "id": 8400,
+        "name": "Resolve"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8444,
+          "name": "Second Wind"
+        },
+        {
+          "id": 8242,
+          "name": "Unflinching"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 6555,
+      "games": 1648,
+      "confidencePct": 0.25141113653699465
+    },
+    "position": {
+      "role": "MIDDLE",
+      "games": 5230,
+      "sampleGames": 6555,
+      "confidencePct": 0.7978642257818459
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "games": 2978,
+      "sampleGames": 3697,
+      "confidencePct": 0.805517987557479
+    }
+  }
 }

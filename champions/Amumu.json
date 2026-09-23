@@ -1,22 +1,8 @@
 {
   "championId": "Amumu",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3041,
-        4005
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Imperial Mandate"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 299497060.6597178
-    },
     {
       "itemIds": [
         3118,
@@ -26,10 +12,10 @@
         "Malignance",
         "Imperial Mandate"
       ],
-      "games": 20,
-      "wins": 8,
-      "winrate": 0.4,
-      "score": 212988951.65233982
+      "games": 11,
+      "wins": 4,
+      "winrate": 0.36363636363636365,
+      "score": 4151475.8705824027
     },
     {
       "itemIds": [
@@ -43,45 +29,60 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 29059871.65466874
+      "score": 571789.3026906061
     },
     {
       "itemIds": [
         3068,
-        6665
+        6653
       ],
       "names": [
         "Sunfire Aegis",
-        "Jak'Sho, The Protean"
+        "Liandry's Torment"
       ],
-      "games": 11,
-      "wins": 4,
-      "winrate": 0.36363636363636365,
-      "score": 22596366.272965394
+      "games": 44,
+      "wins": 23,
+      "winrate": 0.5227272727272727,
+      "score": 487688.02414326835
+    },
+    {
+      "itemIds": [
+        3068,
+        8020
+      ],
+      "names": [
+        "Sunfire Aegis",
+        "Abyssal Mask"
+      ],
+      "games": 10,
+      "wins": 6,
+      "winrate": 0.6,
+      "score": 459405.48958352115
     },
     {
       "itemIds": [
         6653,
-        6664
+        8010
       ],
       "names": [
         "Liandry's Torment",
-        "Hollow Radiance"
+        "Bloodletter's Curse"
       ],
-      "games": 6,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.5,
-      "score": 17239147.91169479
+      "winrate": 0.6,
+      "score": 426501.76776510815
     }
   ],
   "builds": [
     {
+      "id": "Amumu-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 927,
+      "totalGames": 703,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -111,18 +112,10 @@
           "purchaseSamples": 21
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3
-        },
-        {
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 7
         },
@@ -130,60 +123,68 @@
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 3
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
+          3118,
           4005
         ],
         "names": [
-          "Mejai's Soulstealer",
+          "Malignance",
           "Imperial Mandate"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 299497060.6597178
+        "games": 11,
+        "wins": 4,
+        "winrate": 0.36363636363636365,
+        "score": 4151475.8705824027
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8112,
+          "name": "Electrocute"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "statPerks": [
@@ -200,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 11,
+        "games": 8,
+        "confidencePct": 0.7272727272727273
       },
       "position": {
         "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 6,
+        "sampleGames": 11,
+        "confidencePct": 0.5454545454545454
       },
       "skillOrder": {
         "order": [
@@ -216,8 +217,8 @@
           "Q",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -227,12 +228,13 @@
       }
     },
     {
+      "id": "Amumu-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 927,
+      "totalGames": 703,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -270,12 +272,12 @@
           "purchaseSamples": 34
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5
         },
         {
           "itemId": 2502,
@@ -298,7 +300,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 29059871.65466874
+        "score": 571789.3026906061
       },
       "runes": {
         "primaryStyle": {
@@ -319,22 +321,22 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 8429,
-            "name": "Conditioning"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8126,
+            "name": "Cheap Shot"
           }
         ],
         "statPerks": [
@@ -343,8 +345,8 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
@@ -352,8 +354,8 @@
           }
         ],
         "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "JUNGLE",
@@ -367,9 +369,161 @@
           "Q",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Amumu-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 703,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 155
+        },
+        {
+          "itemId": 3068,
+          "name": "Sunfire Aegis",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 6
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3068,
+          6653
+        ],
+        "names": [
+          "Sunfire Aegis",
+          "Liandry's Torment"
+        ],
+        "games": 44,
+        "wins": 23,
+        "winrate": 0.5227272727272727,
+        "score": 487688.02414326835
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 44,
+        "games": 31,
+        "confidencePct": 0.7045454545454546
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 44,
+        "sampleGames": 44,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 15,
+        "sampleGames": 16,
+        "confidencePct": 0.9375
       },
       "asWholeSet": {
         "games": 0,
@@ -378,12 +532,157 @@
       }
     },
     {
-      "buildIndex": 2,
+      "id": "Amumu-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 927,
+      "totalGames": 703,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 155
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6653,
+          8010
+        ],
+        "names": [
+          "Liandry's Torment",
+          "Bloodletter's Curse"
+        ],
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 426501.76776510815
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Amumu-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 703,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -438,10 +737,10 @@
           "Liandry's Torment",
           "Hollow Radiance"
         ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 17239147.91169479
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 313825.57031526614
       },
       "runes": {
         "primaryStyle": {
@@ -494,14 +793,14 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 5,
         "games": 4,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.8
       },
       "position": {
         "role": "JUNGLE",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -519,291 +818,137 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 927,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 155
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6653,
-          8010
-        ],
-        "names": [
-          "Liandry's Torment",
-          "Bloodletter's Curse"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 16759098.017621327
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 927,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 155
-        },
-        {
-          "itemId": 3068,
-          "name": "Sunfire Aegis",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          6653
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Liandry's Torment"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 11492765.274463193
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 703,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5064011379800853,
+    "items": [
+      {
+        "itemId": 3158,
+        "name": "Ionian Boots of Lucidity",
+        "isBoots": true,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 155
+      },
+      {
+        "itemId": 3050,
+        "name": "Zeke's Convergence",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 230
+      },
+      {
+        "itemId": 3190,
+        "name": "Locket of the Iron Solari",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 201
+      },
+      {
+        "itemId": 3075,
+        "name": "Thornmail",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 34
+      },
+      {
+        "itemId": 3109,
+        "name": "Knight's Vow",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 3.5,
+        "purchaseSamples": 14
+      },
+      {
+        "itemId": 2524,
+        "name": "Bandlepipes",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 27
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8400,
+        "name": "Resolve"
+      },
+      "keystone": {
+        "id": 8439,
+        "name": "Aftershock"
+      },
+      "primaryPerks": [
+        {
+          "id": 8463,
+          "name": "Font of Life"
+        },
+        {
+          "id": 8473,
+          "name": "Bone Plating"
+        },
+        {
+          "id": 8242,
+          "name": "Unflinching"
+        }
+      ],
+      "subStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8126,
+          "name": "Cheap Shot"
+        },
+        {
+          "id": 8106,
+          "name": "Ultimate Hunter"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 703,
+      "games": 403,
+      "confidencePct": 0.5732574679943101
+    },
+    "position": {
+      "role": "UTILITY",
+      "games": 573,
+      "sampleGames": 703,
+      "confidencePct": 0.8150782361308677
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "games": 147,
+      "sampleGames": 287,
+      "confidencePct": 0.5121951219512195
+    }
+  }
 }

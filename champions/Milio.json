@@ -1,7 +1,7 @@
 {
   "championId": "Milio",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 3306848.34804315
+      "score": 95513.73107023782
+    },
+    {
+      "itemIds": [
+        3107,
+        6616
+      ],
+      "names": [
+        "Redemption",
+        "Staff of Flowing Water"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 85848.12725471269
     },
     {
       "itemIds": [
@@ -29,35 +43,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 2665920.080516461
-    },
-    {
-      "itemIds": [
-        3107,
-        6616
-      ],
-      "names": [
-        "Redemption",
-        "Staff of Flowing Water"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 2051931.6900850188
-    },
-    {
-      "itemIds": [
-        3190,
-        3222
-      ],
-      "names": [
-        "Locket of the Iron Solari",
-        "Mikael's Blessing"
-      ],
-      "games": 8,
-      "wins": 8,
-      "winrate": 1,
-      "score": 1113890.949736448
+      "score": 81016.98698460784
     },
     {
       "itemIds": [
@@ -68,20 +54,35 @@
         "Mikael's Blessing",
         "Staff of Flowing Water"
       ],
-      "games": 10,
-      "wins": 9,
-      "winrate": 0.9,
-      "score": 964519.4074789628
+      "games": 8,
+      "wins": 8,
+      "winrate": 1,
+      "score": 46893.4047051423
+    },
+    {
+      "itemIds": [
+        3190,
+        3222
+      ],
+      "names": [
+        "Locket of the Iron Solari",
+        "Mikael's Blessing"
+      ],
+      "games": 6,
+      "wins": 6,
+      "winrate": 1,
+      "score": 44254.45819439122
     }
   ],
   "builds": [
     {
+      "id": "Milio-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4222,
+      "totalGames": 3100,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -95,12 +96,12 @@
           "purchaseSamples": 2007
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 330
+          "purchaseSamples": 35
         },
         {
           "itemId": 3222,
@@ -111,10 +112,18 @@
           "purchaseSamples": 285
         },
         {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 330
+        },
+        {
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 82
         },
@@ -122,17 +131,9 @@
           "itemId": 6621,
           "name": "Dawncore",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 14
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 32
+          "purchaseSamples": 14
         }
       ],
       "seedPair": {
@@ -147,7 +148,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 3306848.34804315
+        "score": 95513.73107023782
       },
       "runes": {
         "primaryStyle": {
@@ -227,53 +228,46 @@
       }
     },
     {
+      "id": "Milio-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4222,
+      "totalGames": 3100,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 981
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2007
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 78
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 35
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 330
+          "purchaseSamples": 285
         },
         {
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 82
         },
@@ -281,24 +275,32 @@
           "itemId": 6621,
           "name": "Dawncore",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 14
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 32
         }
       ],
       "seedPair": {
         "itemIds": [
-          3504,
-          6616
+          3107,
+          3109
         ],
         "names": [
-          "Ardent Censer",
-          "Staff of Flowing Water"
+          "Redemption",
+          "Knight's Vow"
         ],
-        "games": 27,
-        "wins": 20,
-        "winrate": 0.7407407407407407,
-        "score": 78064.18616550537
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 26326.797987598344
       },
       "runes": {
         "primaryStyle": {
@@ -313,149 +315,6 @@
           {
             "id": 8275,
             "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 27,
-        "games": 6,
-        "confidencePct": 0.2222222222222222
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 27,
-        "sampleGames": 27,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 8,
-        "sampleGames": 17,
-        "confidencePct": 0.47058823529411764
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 4222,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 981
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2007
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 6621,
-          "name": "Dawncore",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 14
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 82
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          3504
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Ardent Censer"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 66085.19357521393
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
           },
           {
             "id": 8210,
@@ -482,8 +341,8 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
@@ -494,14 +353,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -510,9 +369,161 @@
           "E",
           "Q"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Milio-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 3100,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 981
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2007
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 330
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 82
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 6621,
+          "name": "Dawncore",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 14
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3504
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Ardent Censer"
+        ],
+        "games": 189,
+        "wins": 104,
+        "winrate": 0.5502645502645502,
+        "score": 4559.272744184367
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 189,
+        "games": 60,
+        "confidencePct": 0.31746031746031744
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 189,
+        "sampleGames": 189,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 50,
+        "sampleGames": 86,
+        "confidencePct": 0.5813953488372093
       },
       "asWholeSet": {
         "games": 0,
@@ -520,5 +531,136 @@
         "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 3100,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.46516129032258063,
+    "items": [
+      {
+        "itemId": 6620,
+        "name": "Echoes of Helia",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1521
+      },
+      {
+        "itemId": 3504,
+        "name": "Ardent Censer",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 981
+      },
+      {
+        "itemId": 3158,
+        "name": "Ionian Boots of Lucidity",
+        "isBoots": true,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 2007
+      },
+      {
+        "itemId": 6617,
+        "name": "Moonstone Renewer",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 1067
+      },
+      {
+        "itemId": 2065,
+        "name": "Shurelya's Battlesong",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 330
+      },
+      {
+        "itemId": 3222,
+        "name": "Mikael's Blessing",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 285
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8200,
+        "name": "Sorcery"
+      },
+      "keystone": {
+        "id": 8214,
+        "name": "Summon Aery"
+      },
+      "primaryPerks": [
+        {
+          "id": 8226,
+          "name": "Manaflow Band"
+        },
+        {
+          "id": 8210,
+          "name": "Transcendence"
+        },
+        {
+          "id": 8237,
+          "name": "Scorch"
+        }
+      ],
+      "subStyle": {
+        "id": 8400,
+        "name": "Resolve"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8473,
+          "name": "Bone Plating"
+        },
+        {
+          "id": 8453,
+          "name": "Revitalize"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5007,
+          "name": "Ability Haste"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 3100,
+      "games": 1063,
+      "confidencePct": 0.3429032258064516
+    },
+    "position": {
+      "role": "UTILITY",
+      "games": 3099,
+      "sampleGames": 3100,
+      "confidencePct": 0.9996774193548387
+    },
+    "skillOrder": {
+      "order": [
+        "E",
+        "W",
+        "Q"
+      ],
+      "games": 858,
+      "sampleGames": 1470,
+      "confidencePct": 0.5836734693877551
+    }
+  }
 }

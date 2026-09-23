@@ -1,21 +1,21 @@
 {
   "championId": "KogMaw",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
-        4628,
+        3116,
         6655
       ],
       "names": [
-        "Horizon Focus",
+        "Rylai's Crystal Scepter",
         "Luden's Echo"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 509203464.97047085
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 3140733.96078681
     },
     {
       "itemIds": [
@@ -29,35 +29,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 30426515.755599868
+      "score": 626514.2874511352
     },
     {
       "itemIds": [
-        3135,
-        4646
+        3046,
+        3065
       ],
       "names": [
-        "Void Staff",
-        "Stormsurge"
+        "Phantom Dancer",
+        "Spirit Visage"
       ],
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 29010827.586949136
-    },
-    {
-      "itemIds": [
-        3102,
-        3135
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Void Staff"
-      ],
-      "games": 10,
-      "wins": 5,
-      "winrate": 0.5,
-      "score": 28911387.024264842
+      "score": 380091.8543249858
     },
     {
       "itemIds": [
@@ -68,20 +54,35 @@
         "Seraph's Embrace",
         "Luden's Echo"
       ],
-      "games": 27,
-      "wins": 13,
-      "winrate": 0.48148148148148145,
-      "score": 27325171.504181925
+      "games": 14,
+      "wins": 3,
+      "winrate": 0.21428571428571427,
+      "score": 318414.75621921854
+    },
+    {
+      "itemIds": [
+        3046,
+        3139
+      ],
+      "names": [
+        "Phantom Dancer",
+        "Mercurial Scimitar"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 282772.02620966616
     }
   ],
   "builds": [
     {
+      "id": "KogMaw-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1587,
+      "totalGames": 1114,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -95,18 +96,10 @@
           "purchaseSamples": 67
         },
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 10
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4
         },
@@ -114,17 +107,25 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 279
         },
         {
-          "itemId": 4628,
-          "name": "Horizon Focus",
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 6.5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 145
         },
         {
           "itemId": 3040,
@@ -137,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          4628,
+          3116,
           6655
         ],
         "names": [
-          "Horizon Focus",
+          "Rylai's Crystal Scepter",
           "Luden's Echo"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 509203464.97047085
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25,
+        "score": 3140733.96078681
       },
       "runes": {
         "primaryStyle": {
@@ -164,8 +165,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
             "id": 8237,
@@ -182,8 +183,8 @@
             "name": "Presence of Mind"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -200,17 +201,26 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
-      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -218,12 +228,13 @@
       }
     },
     {
+      "id": "KogMaw-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1587,
+      "totalGames": 1114,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -289,7 +300,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 30426515.755599868
+        "score": 626514.2874511352
       },
       "runes": {
         "primaryStyle": {
@@ -369,163 +380,13 @@
       }
     },
     {
+      "id": "KogMaw-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1587,
+      "totalGames": 1114,
       "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 67
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 145
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 26
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3135,
-          4646
-        ],
-        "names": [
-          "Void Staff",
-          "Stormsurge"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 29010827.586949136
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1587,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -591,7 +452,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 21046187.61771369
+        "score": 380091.8543249858
       },
       "runes": {
         "primaryStyle": {
@@ -671,23 +532,176 @@
       }
     },
     {
-      "buildIndex": 4,
+      "id": "KogMaw-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1587,
+      "totalGames": 1114,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
+          "itemId": 6655,
+          "name": "Luden's Echo",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
           "purchaseSamples": 4
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 145
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 84
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4646,
+          6655
+        ],
+        "names": [
+          "Stormsurge",
+          "Luden's Echo"
+        ],
+        "games": 19,
+        "wins": 16,
+        "winrate": 0.8421052631578947,
+        "score": 229516.22179764262
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 19,
+        "games": 9,
+        "confidencePct": 0.47368421052631576
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 17,
+        "sampleGames": 19,
+        "confidencePct": 0.8947368421052632
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 10,
+        "sampleGames": 10,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "KogMaw-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 1114,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3124,
+          "name": "Guinsoo's Rageblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 475
         },
         {
           "itemId": 3175,
@@ -714,27 +728,35 @@
           "purchaseSamples": 213
         },
         {
-          "itemId": 3031,
-          "name": "Infinity Edge",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 3
+          "purchaseSamples": 238
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3031,
-          3032
+          3172,
+          3302
         ],
         "names": [
-          "Infinity Edge",
-          "Yun Tal Wildarrows"
+          "Gunmetal Greaves",
+          "Terminus"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 20695440.93130989
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 131093.29466465555
       },
       "runes": {
         "primaryStyle": {
@@ -747,8 +769,8 @@
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
             "id": 9104,
@@ -760,17 +782,17 @@
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -779,22 +801,22 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
+        "role": "MIDDLE",
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -803,15 +825,146 @@
           "Q",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 1114,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5179533213644524,
+    "items": [
+      {
+        "itemId": 2510,
+        "name": "Dusk and Dawn",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 389
+      },
+      {
+        "itemId": 3124,
+        "name": "Guinsoo's Rageblade",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 475
+      },
+      {
+        "itemId": 3009,
+        "name": "Boots of Swiftness",
+        "isBoots": true,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 31
+      },
+      {
+        "itemId": 4645,
+        "name": "Shadowflame",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 279
+      },
+      {
+        "itemId": 3089,
+        "name": "Rabadon's Deathcap",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 145
+      },
+      {
+        "itemId": 3157,
+        "name": "Zhonya's Hourglass",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 5,
+        "purchaseSamples": 84
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8200,
+        "name": "Sorcery"
+      },
+      "keystone": {
+        "id": 8230,
+        "name": "Stormraider's Surge"
+      },
+      "primaryPerks": [
+        {
+          "id": 8226,
+          "name": "Manaflow Band"
+        },
+        {
+          "id": 8233,
+          "name": "Absolute Focus"
+        },
+        {
+          "id": 8236,
+          "name": "Gathering Storm"
+        }
+      ],
+      "subStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8017,
+          "name": "Cut Down"
+        },
+        {
+          "id": 8009,
+          "name": "Presence of Mind"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 1114,
+      "games": 235,
+      "confidencePct": 0.21095152603231598
+    },
+    "position": {
+      "role": "BOTTOM",
+      "games": 695,
+      "sampleGames": 1114,
+      "confidencePct": 0.6238779174147218
+    },
+    "skillOrder": {
+      "order": [
+        "W",
+        "Q",
+        "E"
+      ],
+      "games": 471,
+      "sampleGames": 555,
+      "confidencePct": 0.8486486486486486
+    }
+  }
 }

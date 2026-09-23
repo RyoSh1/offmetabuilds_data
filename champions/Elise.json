@@ -1,21 +1,21 @@
 {
   "championId": "Elise",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
         3109,
-        3222
+        8020
       ],
       "names": [
         "Knight's Vow",
-        "Mikael's Blessing"
+        "Abyssal Mask"
       ],
-      "games": 9,
-      "wins": 5,
-      "winrate": 0.5555555555555556,
-      "score": 58155530.93610858
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 1414313.953903371
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 28,
-      "wins": 15,
-      "winrate": 0.5357142857142857,
-      "score": 49312594.258950874
+      "games": 17,
+      "wins": 8,
+      "winrate": 0.47058823529411764,
+      "score": 1048839.3785402202
     },
     {
       "itemIds": [
@@ -40,24 +40,10 @@
         "Shurelya's Battlesong",
         "Banshee's Veil"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 49082932.59708942
-    },
-    {
-      "itemIds": [
-        2510,
-        3115
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Nashor's Tooth"
-      ],
-      "games": 17,
-      "wins": 9,
-      "winrate": 0.5294117647058824,
-      "score": 41150468.8905827
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 1043016.6042631504
     },
     {
       "itemIds": [
@@ -71,17 +57,184 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 35406323.367348105
+      "score": 985746.972262532
+    },
+    {
+      "itemIds": [
+        3109,
+        3222
+      ],
+      "names": [
+        "Knight's Vow",
+        "Mikael's Blessing"
+      ],
+      "games": 7,
+      "wins": 3,
+      "winrate": 0.42857142857142855,
+      "score": 962437.9579764182
     }
   ],
   "builds": [
     {
+      "id": "Elise-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3360,
+      "totalGames": 2363,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1465
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 91
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 171
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 38
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 89
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3109,
+          8020
+        ],
+        "names": [
+          "Knight's Vow",
+          "Abyssal Mask"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 1414313.953903371
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Elise-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2363,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -111,20 +264,20 @@
           "purchaseSamples": 38
         },
         {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 32
-        },
-        {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 89
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 32
         },
         {
           "itemId": 2525,
@@ -138,16 +291,16 @@
       "seedPair": {
         "itemIds": [
           3109,
-          3222
+          3190
         ],
         "names": [
           "Knight's Vow",
-          "Mikael's Blessing"
+          "Locket of the Iron Solari"
         ],
-        "games": 9,
-        "wins": 5,
-        "winrate": 0.5555555555555556,
-        "score": 58155530.93610858
+        "games": 17,
+        "wins": 8,
+        "winrate": 0.47058823529411764,
+        "score": 1048839.3785402202
       },
       "runes": {
         "primaryStyle": {
@@ -192,22 +345,22 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
-        "games": 8,
-        "confidencePct": 0.8888888888888888
+        "sampleGames": 17,
+        "games": 12,
+        "confidencePct": 0.7058823529411765
       },
       "position": {
         "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 17,
+        "sampleGames": 17,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -216,9 +369,9 @@
           "Q",
           "W"
         ],
-        "games": 7,
-        "sampleGames": 8,
-        "confidencePct": 0.875
+        "games": 13,
+        "sampleGames": 13,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -227,12 +380,13 @@
       }
     },
     {
-      "buildIndex": 1,
+      "id": "Elise-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3360,
+      "totalGames": 2363,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -287,10 +441,10 @@
           "Shurelya's Battlesong",
           "Banshee's Veil"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 49082932.59708942
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 1043016.6042631504
       },
       "runes": {
         "primaryStyle": {
@@ -343,14 +497,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 5,
         "games": 5,
-        "confidencePct": 0.8333333333333334
+        "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -370,12 +524,13 @@
       }
     },
     {
-      "buildIndex": 2,
+      "id": "Elise-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3360,
+      "totalGames": 2363,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -413,12 +568,12 @@
           "purchaseSamples": 191
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 433
+          "purchaseSamples": 58
         },
         {
           "itemId": 3089,
@@ -438,10 +593,10 @@
           "Dusk and Dawn",
           "Nashor's Tooth"
         ],
-        "games": 17,
+        "games": 19,
         "wins": 9,
-        "winrate": 0.5294117647058824,
-        "score": 41150468.8905827
+        "winrate": 0.47368421052631576,
+        "score": 725940.3810073289
       },
       "runes": {
         "primaryStyle": {
@@ -494,15 +649,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 17,
-        "games": 8,
-        "confidencePct": 0.47058823529411764
+        "sampleGames": 19,
+        "games": 13,
+        "confidencePct": 0.6842105263157895
       },
       "position": {
         "role": "JUNGLE",
-        "games": 8,
-        "sampleGames": 17,
-        "confidencePct": 0.47058823529411764
+        "games": 11,
+        "sampleGames": 19,
+        "confidencePct": 0.5789473684210527
       },
       "skillOrder": {
         "order": [
@@ -510,8 +665,8 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -521,163 +676,13 @@
       }
     },
     {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3360,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1465
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 91
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 89
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 83
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4005,
-          8020
-        ],
-        "names": [
-          "Imperial Mandate",
-          "Abyssal Mask"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 35406323.367348105
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 5,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
+      "id": "Elise-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3360,
+      "totalGames": 2363,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -727,7 +732,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 33877020.779163204
+        "score": 469055.3770945727
       },
       "runes": {
         "primaryStyle": {
@@ -806,5 +811,136 @@
         "winrate": 0
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 2363,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5188319932289462,
+    "items": [
+      {
+        "itemId": 3100,
+        "name": "Lich Bane",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 707
+      },
+      {
+        "itemId": 3020,
+        "name": "Sorcerer's Shoes",
+        "isBoots": true,
+        "order": 2,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1465
+      },
+      {
+        "itemId": 4646,
+        "name": "Stormsurge",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 817
+      },
+      {
+        "itemId": 4645,
+        "name": "Shadowflame",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 868
+      },
+      {
+        "itemId": 3157,
+        "name": "Zhonya's Hourglass",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 433
+      },
+      {
+        "itemId": 3135,
+        "name": "Void Staff",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 202
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "keystone": {
+        "id": 8128,
+        "name": "Dark Harvest"
+      },
+      "primaryPerks": [
+        {
+          "id": 8143,
+          "name": "Sudden Impact"
+        },
+        {
+          "id": 8137,
+          "name": "Sixth Sense"
+        },
+        {
+          "id": 8135,
+          "name": "Treasure Hunter"
+        }
+      ],
+      "subStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "secondaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 8014,
+          "name": "Coup de Grace"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5005,
+          "name": "Attack Speed"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 2363,
+      "games": 366,
+      "confidencePct": 0.15488785442234448
+    },
+    "position": {
+      "role": "JUNGLE",
+      "games": 1391,
+      "sampleGames": 2363,
+      "confidencePct": 0.5886584849767245
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "games": 912,
+      "sampleGames": 1210,
+      "confidencePct": 0.7537190082644628
+    }
+  }
 }

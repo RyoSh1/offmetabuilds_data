@@ -1,22 +1,8 @@
 {
   "championId": "Kindred",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3156,
-        3508
-      ],
-      "names": [
-        "Maw of Malmortius",
-        "Essence Reaver"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 3567671708.472074
-    },
     {
       "itemIds": [
         3031,
@@ -26,24 +12,10 @@
         "Infinity Edge",
         "Essence Reaver"
       ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 398223757.5327384
-    },
-    {
-      "itemIds": [
-        2523,
-        3508
-      ],
-      "names": [
-        "Hexoptics C44",
-        "Essence Reaver"
-      ],
-      "games": 6,
+      "games": 4,
       "wins": 3,
-      "winrate": 0.5,
-      "score": 88798151.780421
+      "winrate": 0.75,
+      "score": 6598549.332464678
     },
     {
       "itemIds": [
@@ -54,10 +26,10 @@
         "Mortal Reminder",
         "Stormrazor"
       ],
-      "games": 5,
+      "games": 4,
       "wins": 2,
-      "winrate": 0.4,
-      "score": 76297107.49660818
+      "winrate": 0.5,
+      "score": 3038788.7262395206
     },
     {
       "itemIds": [
@@ -71,17 +43,46 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 67162319.97018385
+      "score": 2277729.3173698415
+    },
+    {
+      "itemIds": [
+        3071,
+        3153
+      ],
+      "names": [
+        "Black Cleaver",
+        "Blade of The Ruined King"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 253703.81973957413
+    },
+    {
+      "itemIds": [
+        3071,
+        3091
+      ],
+      "names": [
+        "Black Cleaver",
+        "Wit's End"
+      ],
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 218246.4669154312
     }
   ],
   "builds": [
     {
+      "id": "Kindred-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3183,
+      "totalGames": 2000,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -103,80 +104,62 @@
           "purchaseSamples": 525
         },
         {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
+          "itemId": 3033,
+          "name": "Mortal Reminder",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 441
+          "purchaseSamples": 438
         },
         {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
+          "itemId": 2523,
+          "name": "Hexoptics C44",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 470
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 34
+          "purchaseSamples": 441
         },
         {
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 236
+        },
+        {
+          "itemId": 3094,
+          "name": "Rapid Firecannon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 49
         }
       ],
       "seedPair": {
         "itemIds": [
-          3156,
+          3031,
           3508
         ],
         "names": [
-          "Maw of Malmortius",
+          "Infinity Edge",
           "Essence Reaver"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 3567671708.472074
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 6598549.332464678
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8000,
           "name": "Precision"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
           {
             "id": 9111,
             "name": "Triumph"
@@ -184,6 +167,24 @@
           {
             "id": 9104,
             "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
           }
         ],
         "statPerks": [
@@ -200,26 +201,17 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -227,21 +219,30 @@
       }
     },
     {
+      "id": "Kindred-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3183,
+      "totalGames": 2000,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 59
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 525
         },
@@ -249,7 +250,7 @@
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 438
         },
@@ -257,7 +258,7 @@
           "itemId": 3095,
           "name": "Stormrazor",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 11
         },
@@ -265,25 +266,17 @@
           "itemId": 2523,
           "name": "Hexoptics C44",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 441
         },
         {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 236
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 24
+          "purchaseSamples": 145
         }
       ],
       "seedPair": {
@@ -295,10 +288,10 @@
           "Mortal Reminder",
           "Stormrazor"
         ],
-        "games": 5,
+        "games": 4,
         "wins": 2,
-        "winrate": 0.4,
-        "score": 76297107.49660818
+        "winrate": 0.5,
+        "score": 3038788.7262395206
       },
       "runes": {
         "primaryStyle": {
@@ -351,15 +344,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 4,
         "games": 2,
-        "confidencePct": 0.4
+        "confidencePct": 0.5
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -372,163 +365,30 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
+      "id": "Kindred-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3183,
+      "totalGames": 2000,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3302,
-          "name": "Terminus",
+          "itemId": 3078,
+          "name": "Trinity Force",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 525
-        },
-        {
-          "itemId": 3085,
-          "name": "Runaan's Hurricane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 145
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3124,
-          3302
-        ],
-        "names": [
-          "Guinsoo's Rageblade",
-          "Terminus"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 56777284.39949784
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3183,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 20
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 509
         },
         {
           "itemId": 3071,
@@ -547,26 +407,18 @@
           "purchaseSamples": 525
         },
         {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 55
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 8
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 145
         }
@@ -574,16 +426,16 @@
       "seedPair": {
         "itemIds": [
           3071,
-          3091
+          3153
         ],
         "names": [
           "Black Cleaver",
-          "Wit's End"
+          "Blade of The Ruined King"
         ],
-        "games": 6,
-        "wins": 6,
-        "winrate": 1,
-        "score": 15188139.191970224
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 253703.81973957413
       },
       "runes": {
         "primaryStyle": {
@@ -609,17 +461,17 @@
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -632,18 +484,18 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 2,
+        "sampleGames": 3,
+        "games": 1,
         "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "JUNGLE",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -652,8 +504,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -663,12 +515,13 @@
       }
     },
     {
-      "buildIndex": 4,
+      "id": "Kindred-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3183,
+      "totalGames": 2000,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -706,12 +559,12 @@
           "purchaseSamples": 525
         },
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
+          "itemId": 3091,
+          "name": "Wit's End",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
         },
         {
           "itemId": 3026,
@@ -725,16 +578,16 @@
       "seedPair": {
         "itemIds": [
           3071,
-          3153
+          3091
         ],
         "names": [
           "Black Cleaver",
-          "Blade of The Ruined King"
+          "Wit's End"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 13996412.727775227
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 218246.4669154312
       },
       "runes": {
         "primaryStyle": {
@@ -755,22 +608,22 @@
             "name": "Legend: Alacrity"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8347,
+            "name": "Cosmic Insight"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -787,14 +640,157 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 6,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Kindred-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 2000,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 59
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 525
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 438
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 236
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 145
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3032,
+          6673
+        ],
+        "names": [
+          "Yun Tal Wildarrows",
+          "Immortal Shieldbow"
+        ],
+        "games": 9,
+        "wins": 5,
+        "winrate": 0.5555555555555556,
+        "score": 106409.7276855048
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 8,
+        "confidencePct": 0.8888888888888888
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -803,8 +799,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -813,5 +809,136 @@
         "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 2000,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.498,
+    "items": [
+      {
+        "itemId": 6672,
+        "name": "Kraken Slayer",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1502
+      },
+      {
+        "itemId": 3078,
+        "name": "Trinity Force",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 509
+      },
+      {
+        "itemId": 6676,
+        "name": "The Collector",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 1540
+      },
+      {
+        "itemId": 3047,
+        "name": "Plated Steelcaps",
+        "isBoots": true,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 525
+      },
+      {
+        "itemId": 3036,
+        "name": "Lord Dominik's Regards",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 470
+      },
+      {
+        "itemId": 2523,
+        "name": "Hexoptics C44",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 441
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "keystone": {
+        "id": 8005,
+        "name": "Press the Attack"
+      },
+      "primaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 9104,
+          "name": "Legend: Alacrity"
+        },
+        {
+          "id": 8014,
+          "name": "Coup de Grace"
+        }
+      ],
+      "subStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8143,
+          "name": "Sudden Impact"
+        },
+        {
+          "id": 8135,
+          "name": "Treasure Hunter"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5005,
+          "name": "Attack Speed"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 2000,
+      "games": 515,
+      "confidencePct": 0.2575
+    },
+    "position": {
+      "role": "JUNGLE",
+      "games": 1965,
+      "sampleGames": 2000,
+      "confidencePct": 0.9825
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "games": 1193,
+      "sampleGames": 1208,
+      "confidencePct": 0.9875827814569537
+    }
+  }
 }

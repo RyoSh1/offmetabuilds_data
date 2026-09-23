@@ -1,22 +1,8 @@
 {
   "championId": "Fiora",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
-    {
-      "itemIds": [
-        6692,
-        6697
-      ],
-      "names": [
-        "Eclipse",
-        "Hubris"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 4188280393.3834367
-    },
     {
       "itemIds": [
         2517,
@@ -29,35 +15,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 761785555.7802789
-    },
-    {
-      "itemIds": [
-        3071,
-        3142
-      ],
-      "names": [
-        "Black Cleaver",
-        "Youmuu's Ghostblade"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 49155516.99071426
-    },
-    {
-      "itemIds": [
-        3748,
-        6333
-      ],
-      "names": [
-        "Titanic Hydra",
-        "Death's Dance"
-      ],
-      "games": 8,
-      "wins": 3,
-      "winrate": 0.375,
-      "score": 47925532.64807914
+      "score": 7993592.542469152
     },
     {
       "itemIds": [
@@ -68,20 +26,63 @@
         "Death's Dance",
         "Hubris"
       ],
-      "games": 6,
+      "games": 5,
       "wins": 2,
-      "winrate": 0.3333333333333333,
-      "score": 32395676.869020138
+      "winrate": 0.4,
+      "score": 933590.0591695108
+    },
+    {
+      "itemIds": [
+        3748,
+        6333
+      ],
+      "names": [
+        "Titanic Hydra",
+        "Death's Dance"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 540540.1096300589
+    },
+    {
+      "itemIds": [
+        3161,
+        6692
+      ],
+      "names": [
+        "Spear of Shojin",
+        "Eclipse"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 100739.98117859905
+    },
+    {
+      "itemIds": [
+        2517,
+        3026
+      ],
+      "names": [
+        "Endless Hunger",
+        "Guardian Angel"
+      ],
+      "games": 22,
+      "wins": 13,
+      "winrate": 0.5909090909090909,
+      "score": 98440.74527569648
     }
   ],
   "builds": [
     {
+      "id": "Fiora-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5045,
+      "totalGames": 3296,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -103,20 +104,20 @@
           "purchaseSamples": 1561
         },
         {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 31
-        },
-        {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 1084
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 217
         },
         {
           "itemId": 2517,
@@ -137,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          6692,
+          2517,
           6697
         ],
         "names": [
-          "Eclipse",
+          "Endless Hunger",
           "Hubris"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 4188280393.3834367
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 7993592.542469152
       },
       "runes": {
         "primaryStyle": {
@@ -200,163 +201,12 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 5045,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1561
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1084
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 275
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          3142
-        ],
-        "names": [
-          "Black Cleaver",
-          "Youmuu's Ghostblade"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 49155516.99071426
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
-        "role": "TOP",
+        "role": "BOTTOM",
         "games": 3,
         "sampleGames": 3,
         "confidencePct": 1
@@ -372,18 +222,19 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
-      "buildIndex": 2,
+      "id": "Fiora-2",
+      "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5045,
+      "totalGames": 3296,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -413,12 +264,12 @@
           "purchaseSamples": 1084
         },
         {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
+          "itemId": 6695,
+          "name": "Serpent's Fang",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 30
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 28
         }
       ],
       "seedPair": {
@@ -430,10 +281,10 @@
           "Titanic Hydra",
           "Death's Dance"
         ],
-        "games": 8,
-        "wins": 3,
-        "winrate": 0.375,
-        "score": 47925532.64807914
+        "games": 5,
+        "wins": 1,
+        "winrate": 0.2,
+        "score": 540540.1096300589
       },
       "runes": {
         "primaryStyle": {
@@ -486,14 +337,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 3,
-        "confidencePct": 0.375
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "UTILITY",
-        "games": 8,
-        "sampleGames": 8,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -502,23 +353,24 @@
           "E",
           "W"
         ],
-        "games": 7,
-        "sampleGames": 7,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
+        "games": 1,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     },
     {
-      "buildIndex": 3,
+      "id": "Fiora-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5045,
+      "totalGames": 3296,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -532,20 +384,20 @@
           "purchaseSamples": 1561
         },
         {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 31
+        },
+        {
           "itemId": 3181,
           "name": "Hullbreaker",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 179
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 30
         },
         {
           "itemId": 3161,
@@ -574,17 +426,169 @@
       ],
       "seedPair": {
         "itemIds": [
-          3053,
-          3161
+          3161,
+          6692
         ],
         "names": [
-          "Sterak's Gage",
-          "Spear of Shojin"
+          "Spear of Shojin",
+          "Eclipse"
         ],
-        "games": 9,
-        "wins": 4,
-        "winrate": 0.4444444444444444,
-        "score": 6360389.143597137
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 100739.98117859905
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Fiora-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 3296,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1561
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 179
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 217
+        },
+        {
+          "itemId": 6609,
+          "name": "Chempunk Chainsword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 275
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 65
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3181,
+          6609
+        ],
+        "names": [
+          "Hullbreaker",
+          "Chempunk Chainsword"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 80849.08323074304
       },
       "runes": {
         "primaryStyle": {
@@ -610,182 +614,31 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 5045,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1561
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 217
-        },
-        {
-          "itemId": 3181,
-          "name": "Hullbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 179
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 275
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 65
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2517,
-          3033
-        ],
-        "names": [
-          "Endless Hunger",
-          "Mortal Reminder"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 3251590.356515641
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
           "id": 8300,
           "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8345,
+            "name": "Biscuit Delivery"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
         "sampleGames": 3,
@@ -804,8 +657,160 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Fiora-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 3296,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1561
+        },
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 31
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 217
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 179
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 275
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2517,
+          3153
+        ],
+        "names": [
+          "Endless Hunger",
+          "Blade of The Ruined King"
+        ],
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 78008.84298917087
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -814,5 +819,136 @@
         "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 3296,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5030339805825242,
+    "items": [
+      {
+        "itemId": 3074,
+        "name": "Ravenous Hydra",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 3122
+      },
+      {
+        "itemId": 3111,
+        "name": "Mercury's Treads",
+        "isBoots": true,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 687
+      },
+      {
+        "itemId": 3078,
+        "name": "Trinity Force",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 2325
+      },
+      {
+        "itemId": 6333,
+        "name": "Death's Dance",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 1084
+      },
+      {
+        "itemId": 3156,
+        "name": "Maw of Malmortius",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 217
+      },
+      {
+        "itemId": 2517,
+        "name": "Endless Hunger",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 5,
+        "purchaseSamples": 275
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "keystone": {
+        "id": 8005,
+        "name": "Press the Attack"
+      },
+      "primaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 9104,
+          "name": "Legend: Alacrity"
+        },
+        {
+          "id": 8299,
+          "name": "Last Stand"
+        }
+      ],
+      "subStyle": {
+        "id": 8300,
+        "name": "Inspiration"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8345,
+          "name": "Biscuit Delivery"
+        },
+        {
+          "id": 8316,
+          "name": "Jack Of All Trades"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 3296,
+      "games": 223,
+      "confidencePct": 0.06765776699029126
+    },
+    "position": {
+      "role": "TOP",
+      "games": 3170,
+      "sampleGames": 3296,
+      "confidencePct": 0.9617718446601942
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "games": 1851,
+      "sampleGames": 1900,
+      "confidencePct": 0.9742105263157895
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "championId": "Samira",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,24 +12,10 @@
         "Mortal Reminder",
         "Mercurial Scimitar"
       ],
-      "games": 9,
-      "wins": 8,
-      "winrate": 0.8888888888888888,
-      "score": 726884.1939709984
-    },
-    {
-      "itemIds": [
-        3026,
-        3139
-      ],
-      "names": [
-        "Guardian Angel",
-        "Mercurial Scimitar"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 561608.378250524
+      "games": 7,
+      "wins": 6,
+      "winrate": 0.8571428571428571,
+      "score": 39116.709562577555
     },
     {
       "itemIds": [
@@ -40,24 +26,10 @@
         "Bloodthirster",
         "Mercurial Scimitar"
       ],
-      "games": 5,
+      "games": 4,
       "wins": 2,
-      "winrate": 0.4,
-      "score": 542648.1985618557
-    },
-    {
-      "itemIds": [
-        3026,
-        3072
-      ],
-      "names": [
-        "Guardian Angel",
-        "Bloodthirster"
-      ],
-      "games": 7,
-      "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 285893.3143488466
+      "winrate": 0.5,
+      "score": 23310.504146775325
     },
     {
       "itemIds": [
@@ -68,37 +40,58 @@
         "Mortal Reminder",
         "Bloodthirster"
       ],
-      "games": 11,
+      "games": 9,
       "wins": 5,
-      "winrate": 0.45454545454545453,
-      "score": 231268.06353200608
+      "winrate": 0.5555555555555556,
+      "score": 17380.190510898505
+    },
+    {
+      "itemIds": [
+        3026,
+        3072
+      ],
+      "names": [
+        "Guardian Angel",
+        "Bloodthirster"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 16513.198726654075
+    },
+    {
+      "itemIds": [
+        3026,
+        3033
+      ],
+      "names": [
+        "Guardian Angel",
+        "Mortal Reminder"
+      ],
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 12315.706725030415
     }
   ],
   "builds": [
     {
+      "id": "Samira-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 881,
+      "totalGames": 625,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 197
-        },
-        {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 40
         },
@@ -106,7 +99,7 @@
           "itemId": 6673,
           "name": "Immortal Shieldbow",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 174
         },
@@ -114,9 +107,17 @@
           "itemId": 3139,
           "name": "Mercurial Scimitar",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 9
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 18
         },
         {
           "itemId": 3026,
@@ -127,12 +128,12 @@
           "purchaseSamples": 19
         },
         {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 18
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -144,10 +145,154 @@
           "Mortal Reminder",
           "Mercurial Scimitar"
         ],
-        "games": 9,
-        "wins": 8,
-        "winrate": 0.8888888888888888,
-        "score": 726884.1939709984
+        "games": 7,
+        "wins": 6,
+        "winrate": 0.8571428571428571,
+        "score": 39116.709562577555
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9103,
+            "name": "Legend: Bloodline"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 3,
+        "confidencePct": 0.42857142857142855
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Samira-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 625,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 174
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2517,
+          6673
+        ],
+        "names": [
+          "Endless Hunger",
+          "Immortal Shieldbow"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 2966.5871836515753
       },
       "runes": {
         "primaryStyle": {
@@ -178,163 +323,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
             "id": 8135,
             "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 881,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 197
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 123
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 174
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 2
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3036,
-          6333
-        ],
-        "names": [
-          "Lord Dominik's Regards",
-          "Death's Dance"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 61126.056849245826
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8139,
+            "name": "Taste of Blood"
           }
         ],
         "statPerks": [
@@ -352,8 +346,8 @@
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "BOTTOM",
@@ -372,76 +366,69 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
+      "id": "Samira-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 881,
+      "totalGames": 625,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
           "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 197
+          "purchaseSamples": 2
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 123
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 174
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
           "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 9
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
           3036,
-          3143
+          6695
         ],
         "names": [
           "Lord Dominik's Regards",
-          "Randuin's Omen"
+          "Serpent's Fang"
         ],
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 50163.36047911282
+        "score": 2193.2145068768755
       },
       "runes": {
         "primaryStyle": {
@@ -472,12 +459,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
             "id": 8135,
             "name": "Treasure Hunter"
+          },
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
           }
         ],
         "statPerks": [
@@ -504,40 +491,32 @@
         "sampleGames": 3,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 1,
-        "wins": 0,
-        "winrate": 0
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
+      "id": "Samira-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 881,
+      "totalGames": 625,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 197
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 30
         },
         {
           "itemId": 3036,
@@ -564,35 +543,35 @@
           "purchaseSamples": 19
         },
         {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
+          "itemId": 3072,
+          "name": "Bloodthirster",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 9
+          "purchaseSamples": 18
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
           "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
           3036,
-          3065
+          6697
         ],
         "names": [
           "Lord Dominik's Regards",
-          "Spirit Visage"
+          "Hubris"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 40750.704566163884
+        "games": 11,
+        "wins": 6,
+        "winrate": 0.5454545454545454,
+        "score": 988.2468307356064
       },
       "runes": {
         "primaryStyle": {
@@ -641,18 +620,18 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 11,
+        "games": 5,
+        "confidencePct": 0.45454545454545453
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -661,8 +640,8 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -672,70 +651,71 @@
       }
     },
     {
+      "id": "Samira-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 881,
+      "totalGames": 625,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 197
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 123
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
+          "itemId": 3072,
+          "name": "Bloodthirster",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 174
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
           3036,
-          6695
+          3156
         ],
         "names": [
           "Lord Dominik's Regards",
-          "Serpent's Fang"
+          "Maw of Malmortius"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 35263.504344014924
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 977.0124346151077
       },
       "runes": {
         "primaryStyle": {
@@ -766,12 +746,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
             "id": 8135,
             "name": "Treasure Hunter"
+          },
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
           }
         ],
         "statPerks": [
@@ -788,14 +768,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -805,5 +785,128 @@
         "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 625,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.496,
+    "items": [
+      {
+        "itemId": 6676,
+        "name": "The Collector",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 367
+      },
+      {
+        "itemId": 3031,
+        "name": "Infinity Edge",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 276
+      },
+      {
+        "itemId": 6673,
+        "name": "Immortal Shieldbow",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 174
+      },
+      {
+        "itemId": 3036,
+        "name": "Lord Dominik's Regards",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 123
+      },
+      {
+        "itemId": 3026,
+        "name": "Guardian Angel",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 6,
+        "purchaseSamples": 19
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "keystone": {
+        "id": 8010,
+        "name": "Conqueror"
+      },
+      "primaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 9103,
+          "name": "Legend: Bloodline"
+        },
+        {
+          "id": 8299,
+          "name": "Last Stand"
+        }
+      ],
+      "subStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8139,
+          "name": "Taste of Blood"
+        },
+        {
+          "id": 8135,
+          "name": "Treasure Hunter"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5005,
+          "name": "Attack Speed"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 625,
+      "games": 279,
+      "confidencePct": 0.4464
+    },
+    "position": {
+      "role": "BOTTOM",
+      "games": 616,
+      "sampleGames": 625,
+      "confidencePct": 0.9856
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "games": 237,
+      "sampleGames": 243,
+      "confidencePct": 0.9753086419753086
+    }
+  }
 }

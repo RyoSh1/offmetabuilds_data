@@ -1,7 +1,7 @@
 {
   "championId": "Talon",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,38 +12,10 @@
         "Sterak's Gage",
         "Death's Dance"
       ],
-      "games": 31,
-      "wins": 20,
-      "winrate": 0.6451612903225806,
-      "score": 159231613.14829004
-    },
-    {
-      "itemIds": [
-        2517,
-        3161
-      ],
-      "names": [
-        "Endless Hunger",
-        "Spear of Shojin"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 154387288.87580943
-    },
-    {
-      "itemIds": [
-        2517,
-        6333
-      ],
-      "names": [
-        "Endless Hunger",
-        "Death's Dance"
-      ],
-      "games": 27,
-      "wins": 21,
-      "winrate": 0.7777777777777778,
-      "score": 120394080.7780609
+      "games": 20,
+      "wins": 13,
+      "winrate": 0.65,
+      "score": 3121921.2826128146
     },
     {
       "itemIds": [
@@ -54,34 +26,63 @@
         "Maw of Malmortius",
         "Death's Dance"
       ],
-      "games": 47,
-      "wins": 33,
-      "winrate": 0.7021276595744681,
-      "score": 101363329.16895302
+      "games": 32,
+      "wins": 24,
+      "winrate": 0.75,
+      "score": 2800296.7695646333
     },
     {
       "itemIds": [
-        3053,
+        6333,
         6692
       ],
       "names": [
-        "Sterak's Gage",
+        "Death's Dance",
         "Eclipse"
       ],
-      "games": 48,
-      "wins": 31,
-      "winrate": 0.6458333333333334,
-      "score": 84230862.3386547
+      "games": 202,
+      "wins": 126,
+      "winrate": 0.6237623762376238,
+      "score": 2581430.680778385
+    },
+    {
+      "itemIds": [
+        3071,
+        6333
+      ],
+      "names": [
+        "Black Cleaver",
+        "Death's Dance"
+      ],
+      "games": 285,
+      "wins": 176,
+      "winrate": 0.6175438596491228,
+      "score": 2556545.4412640287
+    },
+    {
+      "itemIds": [
+        2517,
+        6333
+      ],
+      "names": [
+        "Endless Hunger",
+        "Death's Dance"
+      ],
+      "games": 16,
+      "wins": 12,
+      "winrate": 0.75,
+      "score": 2482424.6317037647
     }
   ],
   "builds": [
     {
+      "id": "Talon-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10820,
+      "totalGames": 7733,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -127,12 +128,12 @@
           "purchaseSamples": 32
         },
         {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 18
+          "purchaseSamples": 61
         }
       ],
       "seedPair": {
@@ -144,10 +145,10 @@
           "Sterak's Gage",
           "Death's Dance"
         ],
-        "games": 31,
-        "wins": 20,
-        "winrate": 0.6451612903225806,
-        "score": 159231613.14829004
+        "games": 20,
+        "wins": 13,
+        "winrate": 0.65,
+        "score": 3121921.2826128146
       },
       "runes": {
         "primaryStyle": {
@@ -200,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 31,
-        "games": 21,
-        "confidencePct": 0.6774193548387096
+        "sampleGames": 20,
+        "games": 10,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 26,
-        "sampleGames": 31,
-        "confidencePct": 0.8387096774193549
+        "games": 14,
+        "sampleGames": 20,
+        "confidencePct": 0.7
       },
       "skillOrder": {
         "order": [
@@ -216,23 +217,176 @@
           "Q",
           "E"
         ],
-        "games": 21,
-        "sampleGames": 21,
+        "games": 12,
+        "sampleGames": 12,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
+      "id": "Talon-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 10820,
+      "totalGames": 7733,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 619
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2305
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 353
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 323
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 423
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3033,
+          6676
+        ],
+        "names": [
+          "Mortal Reminder",
+          "The Collector"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 1711311.911799106
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Talon-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 7733,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -246,59 +400,59 @@
           "purchaseSamples": 652
         },
         {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 619
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2305
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 907
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 362
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 61
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 94
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
         "itemIds": [
-          2517,
-          3161
+          3143,
+          6333
         ],
         "names": [
-          "Endless Hunger",
-          "Spear of Shojin"
+          "Randuin's Omen",
+          "Death's Dance"
         ],
         "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 154387288.87580943
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1170773.1663293124
       },
       "runes": {
         "primaryStyle": {
@@ -329,12 +483,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
             "id": 8345,
             "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -367,34 +521,35 @@
           "Q",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
-      "buildIndex": 2,
+      "id": "Talon-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10820,
+      "totalGames": 7733,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
+          "itemId": 6692,
+          "name": "Eclipse",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1820
+          "purchaseSamples": 652
         },
         {
           "itemId": 3158,
@@ -405,12 +560,164 @@
           "purchaseSamples": 2305
         },
         {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 907
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 37
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 362
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 94
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6610,
+          6692
+        ],
+        "names": [
+          "Sundered Sky",
+          "Eclipse"
+        ],
+        "games": 27,
+        "wins": 11,
+        "winrate": 0.4074074074074074,
+        "score": 1164417.6129817225
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 27,
+        "games": 13,
+        "confidencePct": 0.48148148148148145
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 24,
+        "sampleGames": 27,
+        "confidencePct": 0.8888888888888888
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 8,
+        "sampleGames": 8,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Talon-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 7733,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2305
+        },
+        {
           "itemId": 6696,
           "name": "Axiom Arc",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 323
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2438
         },
         {
           "itemId": 3036,
@@ -449,7 +756,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 61299304.54470716
+        "score": 1023436.8314528341
       },
       "runes": {
         "primaryStyle": {
@@ -527,308 +834,137 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 10820,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2305
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 907
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 362
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 61
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 12
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2517,
-          3071
-        ],
-        "names": [
-          "Endless Hunger",
-          "Black Cleaver"
-        ],
-        "games": 44,
-        "wins": 32,
-        "winrate": 0.7272727272727273,
-        "score": 44607925.23502882
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 44,
-        "games": 17,
-        "confidencePct": 0.38636363636363635
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 39,
-        "sampleGames": 44,
-        "confidencePct": 0.8863636363636364
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 27,
-        "sampleGames": 27,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 10820,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 652
-        },
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 619
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2305
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 907
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 362
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 3
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          3143
-        ],
-        "names": [
-          "Black Cleaver",
-          "Randuin's Omen"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 34131645.071259655
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 7733,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5088581404370878,
+    "items": [
+      {
+        "itemId": 3179,
+        "name": "Umbral Glaive",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 4159
+      },
+      {
+        "itemId": 6699,
+        "name": "Voltaic Cyclosword",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 3023
+      },
+      {
+        "itemId": 3158,
+        "name": "Ionian Boots of Lucidity",
+        "isBoots": true,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 2305
+      },
+      {
+        "itemId": 2520,
+        "name": "Bastionbreaker",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 1994
+      },
+      {
+        "itemId": 3814,
+        "name": "Edge of Night",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 2438
+      },
+      {
+        "itemId": 6695,
+        "name": "Serpent's Fang",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 1838
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8300,
+        "name": "Inspiration"
+      },
+      "keystone": {
+        "id": 8369,
+        "name": "First Strike"
+      },
+      "primaryPerks": [
+        {
+          "id": 8321,
+          "name": "Cash Back"
+        },
+        {
+          "id": 8313,
+          "name": "Triple Tonic"
+        },
+        {
+          "id": 8347,
+          "name": "Cosmic Insight"
+        }
+      ],
+      "subStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8143,
+          "name": "Sudden Impact"
+        },
+        {
+          "id": 8135,
+          "name": "Treasure Hunter"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 7733,
+      "games": 1143,
+      "confidencePct": 0.14780809517651622
+    },
+    "position": {
+      "role": "JUNGLE",
+      "games": 5254,
+      "sampleGames": 7733,
+      "confidencePct": 0.6794258373205742
+    },
+    "skillOrder": {
+      "order": [
+        "W",
+        "Q",
+        "E"
+      ],
+      "games": 4104,
+      "sampleGames": 4153,
+      "confidencePct": 0.9882013002648687
+    }
+  }
 }

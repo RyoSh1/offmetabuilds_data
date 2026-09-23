@@ -1,8 +1,22 @@
 {
   "championId": "Aatrox",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3050,
+        6697
+      ],
+      "names": [
+        "Zeke's Convergence",
+        "Hubris"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 24032279.407949742
+    },
     {
       "itemIds": [
         3033,
@@ -12,24 +26,10 @@
         "Mortal Reminder",
         "Youmuu's Ghostblade"
       ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 564081901.5575919
-    },
-    {
-      "itemIds": [
-        3143,
-        6631
-      ],
-      "names": [
-        "Randuin's Omen",
-        "Stridebreaker"
-      ],
       "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 548309893.0134645
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 10336438.50984165
     },
     {
       "itemIds": [
@@ -40,24 +40,10 @@
         "Edge of Night",
         "Profane Hydra"
       ],
-      "games": 86,
-      "wins": 54,
-      "winrate": 0.627906976744186,
-      "score": 470944141.85931045
-    },
-    {
-      "itemIds": [
-        3142,
-        3814
-      ],
-      "names": [
-        "Youmuu's Ghostblade",
-        "Edge of Night"
-      ],
-      "games": 26,
-      "wins": 15,
-      "winrate": 0.5769230769230769,
-      "score": 438241548.97741055
+      "games": 83,
+      "wins": 55,
+      "winrate": 0.6626506024096386,
+      "score": 8713135.022316778
     },
     {
       "itemIds": [
@@ -68,20 +54,162 @@
         "Bastionbreaker",
         "Profane Hydra"
       ],
-      "games": 72,
-      "wins": 44,
-      "winrate": 0.6111111111111112,
-      "score": 403196601.42162085
+      "games": 68,
+      "wins": 43,
+      "winrate": 0.6323529411764706,
+      "score": 6812087.381084026
+    },
+    {
+      "itemIds": [
+        2520,
+        3026
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Guardian Angel"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 6009517.17928151
     }
   ],
   "builds": [
     {
+      "id": "Aatrox-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5576,
+      "totalGames": 3914,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 51
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1601
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 89
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3050,
+          6697
+        ],
+        "names": [
+          "Zeke's Convergence",
+          "Hubris"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 24032279.407949742
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8306,
+            "name": "Hextech Flashtraption"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Aatrox-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 3914,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -144,197 +272,46 @@
           "Mortal Reminder",
           "Youmuu's Ghostblade"
         ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 564081901.5575919
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 2,
-        "sampleGames": 6,
-        "confidencePct": 0.3333333333333333
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 5576,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1601
-        },
-        {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 59
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 239
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 541
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3143,
-          6631
-        ],
-        "names": [
-          "Randuin's Omen",
-          "Stridebreaker"
-        ],
         "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 548309893.0134645
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 10336438.50984165
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8230,
+          "name": "Stormraider's Surge"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
@@ -352,11 +329,11 @@
           }
         ],
         "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "JUNGLE",
+        "role": "MIDDLE",
         "games": 2,
         "sampleGames": 4,
         "confidencePct": 0.5
@@ -367,8 +344,8 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -378,12 +355,13 @@
       }
     },
     {
+      "id": "Aatrox-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5576,
+      "totalGames": 3914,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -397,12 +375,12 @@
           "purchaseSamples": 16
         },
         {
-          "itemId": 6698,
-          "name": "Profane Hydra",
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 178
+          "purchaseSamples": 75
         },
         {
           "itemId": 3047,
@@ -421,12 +399,12 @@
           "purchaseSamples": 104
         },
         {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 204
+          "purchaseSamples": 239
         },
         {
           "itemId": 3814,
@@ -439,17 +417,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3179,
-          6694
+          3053,
+          3179
         ],
         "names": [
-          "Umbral Glaive",
-          "Serylda's Grudge"
+          "Sterak's Gage",
+          "Umbral Glaive"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 236190007.93018875
+        "winrate": 0.5,
+        "score": 3345529.538931488
       },
       "runes": {
         "primaryStyle": {
@@ -490,8 +468,8 @@
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -502,15 +480,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 2,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -518,8 +496,8 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -529,55 +507,56 @@
       }
     },
     {
+      "id": "Aatrox-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5576,
+      "totalGames": 3914,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
+          "itemId": 6698,
+          "name": "Profane Hydra",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 75
+          "purchaseSamples": 178
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 1601
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 660
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 104
         },
         {
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 120
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 21
+          "purchaseSamples": 120
         },
         {
           "itemId": 3026,
@@ -590,17 +569,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3026,
-          6697
+          3814,
+          6699
         ],
         "names": [
-          "Guardian Angel",
-          "Hubris"
+          "Edge of Night",
+          "Voltaic Cyclosword"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 111615232.03184083
+        "games": 109,
+        "wins": 63,
+        "winrate": 0.5779816513761468,
+        "score": 1252447.9945939095
       },
       "runes": {
         "primaryStyle": {
@@ -621,8 +600,8 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
@@ -641,8 +620,8 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -653,15 +632,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 109,
+        "games": 17,
+        "confidencePct": 0.1559633027522936
       },
       "position": {
         "role": "JUNGLE",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 55,
+        "sampleGames": 109,
+        "confidencePct": 0.5045871559633027
       },
       "skillOrder": {
         "order": [
@@ -669,15 +648,146 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 61,
+        "sampleGames": 61,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 3914,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.4770056208482371,
+    "items": [
+      {
+        "itemId": 6692,
+        "name": "Eclipse",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 582
+      },
+      {
+        "itemId": 3047,
+        "name": "Plated Steelcaps",
+        "isBoots": true,
+        "order": 2,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1601
+      },
+      {
+        "itemId": 3161,
+        "name": "Spear of Shojin",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 1438
+      },
+      {
+        "itemId": 6610,
+        "name": "Sundered Sky",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 901
+      },
+      {
+        "itemId": 6699,
+        "name": "Voltaic Cyclosword",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 660
+      },
+      {
+        "itemId": 6333,
+        "name": "Death's Dance",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 541
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "keystone": {
+        "id": 8010,
+        "name": "Conqueror"
+      },
+      "primaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 9105,
+          "name": "Legend: Haste"
+        },
+        {
+          "id": 8299,
+          "name": "Last Stand"
+        }
+      ],
+      "subStyle": {
+        "id": 8400,
+        "name": "Resolve"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8473,
+          "name": "Bone Plating"
+        },
+        {
+          "id": 8453,
+          "name": "Revitalize"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 3914,
+      "games": 977,
+      "confidencePct": 0.24961676034747063
+    },
+    "position": {
+      "role": "TOP",
+      "games": 3276,
+      "sampleGames": 3914,
+      "confidencePct": 0.8369954011241697
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "games": 1765,
+      "sampleGames": 1803,
+      "confidencePct": 0.9789240155296728
+    }
+  }
 }

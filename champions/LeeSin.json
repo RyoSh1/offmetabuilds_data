@@ -1,21 +1,21 @@
 {
   "championId": "LeeSin",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
-        2517,
-        3074
+        3053,
+        3161
       ],
       "names": [
-        "Endless Hunger",
-        "Ravenous Hydra"
+        "Sterak's Gage",
+        "Spear of Shojin"
       ],
-      "games": 4,
+      "games": 3,
       "wins": 2,
-      "winrate": 0.5,
-      "score": 13702936791.508688
+      "winrate": 0.6666666666666666,
+      "score": 42491023.47149089
     },
     {
       "itemIds": [
@@ -26,10 +26,24 @@
         "Ravenous Hydra",
         "Maw of Malmortius"
       ],
-      "games": 9,
+      "games": 7,
       "wins": 4,
-      "winrate": 0.4444444444444444,
-      "score": 3180914139.503651
+      "winrate": 0.5714285714285714,
+      "score": 26828306.431876976
+    },
+    {
+      "itemIds": [
+        3074,
+        6333
+      ],
+      "names": [
+        "Ravenous Hydra",
+        "Death's Dance"
+      ],
+      "games": 12,
+      "wins": 7,
+      "winrate": 0.5833333333333334,
+      "score": 6772134.844274718
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Ravenous Hydra",
         "Voltaic Cyclosword"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 472690508.07462513
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 5343263.090664888
     },
     {
       "itemIds": [
@@ -57,31 +71,170 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 286184156.2868274
-    },
-    {
-      "itemIds": [
-        3078,
-        3748
-      ],
-      "names": [
-        "Trinity Force",
-        "Titanic Hydra"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 271959383.2571676
+      "score": 4231809.004817768
     }
   ],
   "builds": [
     {
+      "id": "LeeSin-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 25105,
+      "totalGames": 17144,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 79
+        },
+        {
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5735
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 352
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 4047
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1943
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3053,
+          3161
+        ],
+        "names": [
+          "Sterak's Gage",
+          "Spear of Shojin"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 42491023.47149089
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "LeeSin-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 17144,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -103,20 +256,20 @@
           "purchaseSamples": 2358
         },
         {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5953
+        },
+        {
           "itemId": 3111,
           "name": "Mercury's Treads",
           "isBoots": true,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 5735
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 118
         },
         {
           "itemId": 3156,
@@ -137,53 +290,53 @@
       ],
       "seedPair": {
         "itemIds": [
-          2517,
-          3074
+          3074,
+          3156
         ],
         "names": [
-          "Endless Hunger",
-          "Ravenous Hydra"
+          "Ravenous Hydra",
+          "Maw of Malmortius"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 13702936791.508688
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 26828306.431876976
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8000,
           "name": "Precision"
         },
-        "secondaryPerks": [
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
           {
             "id": 9111,
             "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "statPerks": [
@@ -200,25 +353,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 7,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.14285714285714285
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -227,12 +380,13 @@
       }
     },
     {
-      "buildIndex": 1,
+      "id": "LeeSin-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 25105,
+      "totalGames": 17144,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -298,7 +452,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 286184156.2868274
+        "score": 4231809.004817768
       },
       "runes": {
         "primaryStyle": {
@@ -378,314 +532,13 @@
       }
     },
     {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 25105,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 214
-        },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4735
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 698
-        },
-        {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5735
-        },
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3078,
-          3748
-        ],
-        "names": [
-          "Trinity Force",
-          "Titanic Hydra"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 271959383.2571676
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
+      "id": "LeeSin-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 25105,
+      "totalGames": 17144,
       "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 214
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 634
-        },
-        {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5735
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 75
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3036,
-          6676
-        ],
-        "names": [
-          "Lord Dominik's Regards",
-          "The Collector"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 140738658.0566105
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 25105,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -723,20 +576,20 @@
           "purchaseSamples": 95
         },
         {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 634
+        },
+        {
           "itemId": 3111,
           "name": "Mercury's Treads",
           "isBoots": true,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 5735
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 99
         }
       ],
       "seedPair": {
@@ -748,10 +601,10 @@
           "Umbral Glaive",
           "Sundered Sky"
         ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 83472341.9622273
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 2127728.516087543
       },
       "runes": {
         "primaryStyle": {
@@ -800,19 +653,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -820,8 +673,8 @@
           "W",
           "E"
         ],
-        "games": 5,
-        "sampleGames": 5,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -829,6 +682,289 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "LeeSin-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 17144,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 214
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 634
+        },
+        {
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5735
+        },
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1007
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 99
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3142,
+          6694
+        ],
+        "names": [
+          "Youmuu's Ghostblade",
+          "Serylda's Grudge"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 1050488.8069320314
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 17144,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.497025198320112,
+    "items": [
+      {
+        "itemId": 6692,
+        "name": "Eclipse",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 11197
+      },
+      {
+        "itemId": 3071,
+        "name": "Black Cleaver",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 5953
+      },
+      {
+        "itemId": 6610,
+        "name": "Sundered Sky",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 4735
+      },
+      {
+        "itemId": 3047,
+        "name": "Plated Steelcaps",
+        "isBoots": true,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 5151
+      },
+      {
+        "itemId": 6333,
+        "name": "Death's Dance",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 4047
+      },
+      {
+        "itemId": 3026,
+        "name": "Guardian Angel",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 5,
+        "purchaseSamples": 1943
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "keystone": {
+        "id": 8010,
+        "name": "Conqueror"
+      },
+      "primaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 9104,
+          "name": "Legend: Alacrity"
+        },
+        {
+          "id": 8014,
+          "name": "Coup de Grace"
+        }
+      ],
+      "subStyle": {
+        "id": 8300,
+        "name": "Inspiration"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8304,
+          "name": "Magical Footwear"
+        },
+        {
+          "id": 8347,
+          "name": "Cosmic Insight"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5005,
+          "name": "Attack Speed"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 17144,
+      "games": 12113,
+      "confidencePct": 0.7065445636957536
+    },
+    "position": {
+      "role": "JUNGLE",
+      "games": 16897,
+      "sampleGames": 17144,
+      "confidencePct": 0.9855926271581894
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "games": 8158,
+      "sampleGames": 9149,
+      "confidencePct": 0.8916821510547601
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "championId": "RekSai",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Protoplasm Harness",
         "Jak'Sho, The Protean"
       ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 13438371697.968134
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 47122496.08999627
     },
     {
       "itemIds": [
@@ -26,24 +26,10 @@
         "Protoplasm Harness",
         "Randuin's Omen"
       ],
-      "games": 17,
-      "wins": 9,
-      "winrate": 0.5294117647058824,
-      "score": 2571604573.8193407
-    },
-    {
-      "itemIds": [
-        3065,
-        6665
-      ],
-      "names": [
-        "Spirit Visage",
-        "Jak'Sho, The Protean"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 2058434267.16234
+      "games": 14,
+      "wins": 5,
+      "winrate": 0.35714285714285715,
+      "score": 16591647.089427339
     },
     {
       "itemIds": [
@@ -54,10 +40,10 @@
         "Protoplasm Harness",
         "Spirit Visage"
       ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 1822263065.3633373
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 14842408.472457984
     },
     {
       "itemIds": [
@@ -71,17 +57,32 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 1158137590.7384806
+      "score": 10143563.029609513
+    },
+    {
+      "itemIds": [
+        3181,
+        3748
+      ],
+      "names": [
+        "Hullbreaker",
+        "Titanic Hydra"
+      ],
+      "games": 11,
+      "wins": 6,
+      "winrate": 0.5454545454545454,
+      "score": 8516365.250624847
     }
   ],
   "builds": [
     {
+      "id": "RekSai-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3756,
+      "totalGames": 2525,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -136,10 +137,10 @@
           "Protoplasm Harness",
           "Jak'Sho, The Protean"
         ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 13438371697.968134
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 47122496.08999627
       },
       "runes": {
         "primaryStyle": {
@@ -192,14 +193,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 7,
+        "sampleGames": 4,
+        "games": 4,
         "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -208,8 +209,8 @@
           "W",
           "Q"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -219,12 +220,13 @@
       }
     },
     {
+      "id": "RekSai-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3756,
+      "totalGames": 2525,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -290,7 +292,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 1158137590.7384806
+        "score": 10143563.029609513
       },
       "runes": {
         "primaryStyle": {
@@ -370,12 +372,13 @@
       }
     },
     {
+      "id": "RekSai-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3756,
+      "totalGames": 2525,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -389,18 +392,10 @@
           "purchaseSamples": 21
         },
         {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 25
-        },
-        {
           "itemId": 6673,
           "name": "Immortal Shieldbow",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 223
         },
@@ -408,9 +403,17 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 748
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
           "itemId": 6333,
@@ -432,16 +435,16 @@
       "seedPair": {
         "itemIds": [
           3142,
-          6333
+          6673
         ],
         "names": [
           "Youmuu's Ghostblade",
-          "Death's Dance"
+          "Immortal Shieldbow"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 108244988.7231939
+        "games": 8,
+        "wins": 3,
+        "winrate": 0.375,
+        "score": 6551381.107344262
       },
       "runes": {
         "primaryStyle": {
@@ -494,15 +497,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 8,
         "games": 3,
-        "confidencePct": 0.75
+        "confidencePct": 0.375
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 8,
+        "confidencePct": 0.375
       },
       "skillOrder": {
         "order": [
@@ -510,8 +513,8 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -521,163 +524,13 @@
       }
     },
     {
+      "id": "RekSai-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3756,
+      "totalGames": 2525,
       "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 223
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 748
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 223
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2512,
-          3073
-        ],
-        "names": [
-          "Fiendhunter Bolts",
-          "Experimental Hexplate"
-        ],
-        "games": 15,
-        "wins": 10,
-        "winrate": 0.6666666666666666,
-        "score": 67026618.83426339
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 15,
-        "games": 9,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 15,
-        "sampleGames": 15,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3756,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -740,10 +593,10 @@
           "Bastionbreaker",
           "Voltaic Cyclosword"
         ],
-        "games": 14,
-        "wins": 9,
-        "winrate": 0.6428571428571429,
-        "score": 61656011.45396504
+        "games": 16,
+        "wins": 12,
+        "winrate": 0.75,
+        "score": 910424.3045430994
       },
       "runes": {
         "primaryStyle": {
@@ -796,15 +649,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 14,
-        "games": 10,
-        "confidencePct": 0.7142857142857143
+        "sampleGames": 16,
+        "games": 11,
+        "confidencePct": 0.6875
       },
       "position": {
         "role": "JUNGLE",
-        "games": 13,
-        "sampleGames": 14,
-        "confidencePct": 0.9285714285714286
+        "games": 14,
+        "sampleGames": 16,
+        "confidencePct": 0.875
       },
       "skillOrder": {
         "order": [
@@ -817,10 +670,277 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
+      }
+    },
+    {
+      "id": "RekSai-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 2525,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 748
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 223
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3073,
+          3142
+        ],
+        "names": [
+          "Experimental Hexplate",
+          "Youmuu's Ghostblade"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 639337.6293430552
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 2525,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5255445544554456,
+    "items": [
+      {
+        "itemId": 6631,
+        "name": "Stridebreaker",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1635
+      },
+      {
+        "itemId": 3161,
+        "name": "Spear of Shojin",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 1530
+      },
+      {
+        "itemId": 3071,
+        "name": "Black Cleaver",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 324
+      },
+      {
+        "itemId": 3111,
+        "name": "Mercury's Treads",
+        "isBoots": true,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 834
+      },
+      {
+        "itemId": 3053,
+        "name": "Sterak's Gage",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 327
+      },
+      {
+        "itemId": 6333,
+        "name": "Death's Dance",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 336
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "keystone": {
+        "id": 8010,
+        "name": "Conqueror"
+      },
+      "primaryPerks": [
+        {
+          "id": 9111,
+          "name": "Triumph"
+        },
+        {
+          "id": 9104,
+          "name": "Legend: Alacrity"
+        },
+        {
+          "id": 8014,
+          "name": "Coup de Grace"
+        }
+      ],
+      "subStyle": {
+        "id": 8300,
+        "name": "Inspiration"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8347,
+          "name": "Cosmic Insight"
+        },
+        {
+          "id": 8304,
+          "name": "Magical Footwear"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5005,
+          "name": "Attack Speed"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 2525,
+      "games": 1644,
+      "confidencePct": 0.6510891089108911
+    },
+    "position": {
+      "role": "JUNGLE",
+      "games": 2348,
+      "sampleGames": 2525,
+      "confidencePct": 0.92990099009901
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "E",
+        "W"
+      ],
+      "games": 941,
+      "sampleGames": 1348,
+      "confidencePct": 0.6980712166172107
+    }
+  }
 }

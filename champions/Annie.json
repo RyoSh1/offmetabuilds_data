@@ -1,7 +1,7 @@
 {
   "championId": "Annie",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,24 +12,10 @@
         "Shurelya's Battlesong",
         "Mikael's Blessing"
       ],
-      "games": 7,
-      "wins": 4,
-      "winrate": 0.5714285714285714,
-      "score": 682753499.4331615
-    },
-    {
-      "itemIds": [
-        2065,
-        3190
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Locket of the Iron Solari"
-      ],
-      "games": 3,
+      "games": 5,
       "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 616489899.2760608
+      "winrate": 0.4,
+      "score": 5021493.593973753
     },
     {
       "itemIds": [
@@ -40,10 +26,10 @@
         "Blackfire Torch",
         "Bloodletter's Curse"
       ],
-      "games": 17,
+      "games": 18,
       "wins": 11,
-      "winrate": 0.6470588235294118,
-      "score": 200732054.0603186
+      "winrate": 0.6111111111111112,
+      "score": 3512790.638538531
     },
     {
       "itemIds": [
@@ -54,34 +40,49 @@
         "Blackfire Torch",
         "Liandry's Torment"
       ],
-      "games": 30,
-      "wins": 18,
-      "winrate": 0.6,
-      "score": 114915429.15539284
+      "games": 34,
+      "wins": 20,
+      "winrate": 0.5882352941176471,
+      "score": 2420478.6483169277
+    },
+    {
+      "itemIds": [
+        6653,
+        8010
+      ],
+      "names": [
+        "Liandry's Torment",
+        "Bloodletter's Curse"
+      ],
+      "games": 21,
+      "wins": 14,
+      "winrate": 0.6666666666666666,
+      "score": 2090794.963750953
     },
     {
       "itemIds": [
         3041,
-        3102
+        6653
       ],
       "names": [
         "Mejai's Soulstealer",
-        "Banshee's Veil"
+        "Liandry's Torment"
       ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 113262318.29164921
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 544784.1489691868
     }
   ],
   "builds": [
     {
+      "id": "Annie-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1432,
+      "totalGames": 923,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -109,14 +110,6 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 1
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
         }
       ],
       "seedPair": {
@@ -128,10 +121,10 @@
           "Shurelya's Battlesong",
           "Mikael's Blessing"
         ],
-        "games": 7,
-        "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 682753499.4331615
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 5021493.593973753
       },
       "runes": {
         "primaryStyle": {
@@ -184,14 +177,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 5,
         "games": 3,
-        "confidencePct": 0.42857142857142855
+        "confidencePct": 0.6
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -205,18 +198,19 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4
       }
     },
     {
+      "id": "Annie-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1432,
+      "totalGames": 923,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -279,10 +273,10 @@
           "Blackfire Torch",
           "Bloodletter's Curse"
         ],
-        "games": 17,
+        "games": 18,
         "wins": 11,
-        "winrate": 0.6470588235294118,
-        "score": 200732054.0603186
+        "winrate": 0.6111111111111112,
+        "score": 3512790.638538531
       },
       "runes": {
         "primaryStyle": {
@@ -313,12 +307,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 9105,
+            "name": "Legend: Haste"
           }
         ],
         "statPerks": [
@@ -335,15 +329,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 17,
+        "sampleGames": 18,
         "games": 5,
-        "confidencePct": 0.29411764705882354
+        "confidencePct": 0.2777777777777778
       },
       "position": {
         "role": "TOP",
-        "games": 13,
-        "sampleGames": 17,
-        "confidencePct": 0.7647058823529411
+        "games": 14,
+        "sampleGames": 18,
+        "confidencePct": 0.7777777777777778
       },
       "skillOrder": {
         "order": [
@@ -352,8 +346,8 @@
           "E"
         ],
         "games": 11,
-        "sampleGames": 12,
-        "confidencePct": 0.9166666666666666
+        "sampleGames": 11,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -362,29 +356,22 @@
       }
     },
     {
+      "id": "Annie-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1432,
+      "totalGames": 923,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 12
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1
         },
@@ -392,25 +379,33 @@
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 75
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 55
         },
         {
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 8
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 144
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 55
         },
         {
           "itemId": 3089,
@@ -423,17 +418,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          3102
+          3102,
+          4645
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Banshee's Veil"
+          "Banshee's Veil",
+          "Shadowflame"
         ],
         "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 113262318.29164921
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 235262.92477930876
       },
       "runes": {
         "primaryStyle": {
@@ -441,17 +436,17 @@
           "name": "Domination"
         },
         "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
+          "id": 8112,
+          "name": "Electrocute"
         },
         "primaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
             "id": 8105,
@@ -464,163 +459,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8232,
-            "name": "Waterwalking"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1432,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 45
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 75
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 144
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          3116
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Rylai's Crystal Scepter"
-        ],
-        "games": 6,
-        "wins": 2,
-        "winrate": 0.3333333333333333,
-        "score": 19282654.84401525
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           }
         ],
         "statPerks": [
@@ -629,32 +473,32 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 1,
-        "confidencePct": 0.16666666666666666
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
-          "Q",
           "W",
+          "Q",
           "E"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -664,12 +508,13 @@
       }
     },
     {
-      "buildIndex": 4,
+      "id": "Annie-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1432,
+      "totalGames": 923,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -732,10 +577,10 @@
           "Rabadon's Deathcap",
           "Cryptbloom"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 1351214.5264328471
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 44397.39535732528
       },
       "runes": {
         "primaryStyle": {
@@ -788,15 +633,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 4,
         "games": 2,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -804,15 +649,289 @@
           "Q",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Annie-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 923,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 75
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 92
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 52
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          6655
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Luden's Echo"
+        ],
+        "games": 6,
+        "wins": 6,
+        "winrate": 1,
+        "score": 43875.69368028493
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 5,
+        "confidencePct": 0.8333333333333334
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 923,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.5167930660888408,
+    "items": [
+      {
+        "itemId": 3118,
+        "name": "Malignance",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 638
+      },
+      {
+        "itemId": 3175,
+        "name": "Spellslinger's Shoes",
+        "isBoots": true,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 1
+      },
+      {
+        "itemId": 3152,
+        "name": "Hextech Rocketbelt",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 352
+      },
+      {
+        "itemId": 4646,
+        "name": "Stormsurge",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 75
+      },
+      {
+        "itemId": 4645,
+        "name": "Shadowflame",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 144
+      },
+      {
+        "itemId": 3157,
+        "name": "Zhonya's Hourglass",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 92
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "keystone": {
+        "id": 8112,
+        "name": "Electrocute"
+      },
+      "primaryPerks": [
+        {
+          "id": 8126,
+          "name": "Cheap Shot"
+        },
+        {
+          "id": 8140,
+          "name": "Grisly Mementos"
+        },
+        {
+          "id": 8105,
+          "name": "Relentless Hunter"
+        }
+      ],
+      "subStyle": {
+        "id": 8200,
+        "name": "Sorcery"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8224,
+          "name": "Axiom Arcanist"
+        },
+        {
+          "id": 8233,
+          "name": "Absolute Focus"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 923,
+      "games": 168,
+      "confidencePct": 0.1820151679306609
+    },
+    "position": {
+      "role": "MIDDLE",
+      "games": 768,
+      "sampleGames": 923,
+      "confidencePct": 0.8320693391115926
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "games": 227,
+      "sampleGames": 421,
+      "confidencePct": 0.5391923990498813
+    }
+  }
 }

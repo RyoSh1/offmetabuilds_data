@@ -1,7 +1,7 @@
 {
   "championId": "Shaco",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,24 +12,10 @@
         "Seraph's Embrace",
         "Malignance"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 269289676.4332733
-    },
-    {
-      "itemIds": [
-        3041,
-        3135
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Void Staff"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 92621142.23177965
+      "winrate": 0.8,
+      "score": 3095760.341228021
     },
     {
       "itemIds": [
@@ -40,24 +26,24 @@
         "Stormsurge",
         "Luden's Echo"
       ],
-      "games": 86,
-      "wins": 42,
-      "winrate": 0.4883720930232558,
-      "score": 57922750.41259916
+      "games": 87,
+      "wins": 47,
+      "winrate": 0.5402298850574713,
+      "score": 1148107.312446572
     },
     {
       "itemIds": [
-        4645,
+        3041,
         4646
       ],
       "names": [
-        "Shadowflame",
+        "Mejai's Soulstealer",
         "Stormsurge"
       ],
-      "games": 13,
-      "wins": 8,
-      "winrate": 0.6153846153846154,
-      "score": 51914956.396280184
+      "games": 17,
+      "wins": 13,
+      "winrate": 0.7647058823529411,
+      "score": 920009.0926008401
     },
     {
       "itemIds": [
@@ -71,17 +57,32 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 49073345.5250739
+      "score": 646471.776640958
+    },
+    {
+      "itemIds": [
+        3041,
+        4645
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Shadowflame"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 613978.4259942384
     }
   ],
   "builds": [
     {
+      "id": "Shaco-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2862,
+      "totalGames": 1925,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -103,10 +104,18 @@
           "purchaseSamples": 377
         },
         {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 198
+        },
+        {
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 13
         },
@@ -114,7 +123,7 @@
           "itemId": 3040,
           "name": "Seraph's Embrace",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -128,10 +137,10 @@
           "Seraph's Embrace",
           "Malignance"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 269289676.4332733
+        "winrate": 0.8,
+        "score": 3095760.341228021
       },
       "runes": {
         "primaryStyle": {
@@ -184,14 +193,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 4,
+        "sampleGames": 5,
+        "games": 5,
         "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -202,12 +211,13 @@
       }
     },
     {
+      "id": "Shaco-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2862,
+      "totalGames": 1925,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -229,202 +239,51 @@
           "purchaseSamples": 377
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
-        },
-        {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 32
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          3135
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Void Staff"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 92621142.23177965
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 2862,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 377
-        },
-        {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 2,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 51
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
+          "itemId": 4645,
+          "name": "Shadowflame",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
+          "purchaseSamples": 27
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 28
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
         }
       ],
       "seedPair": {
         "itemIds": [
-          3102,
-          4629
+          4646,
+          6655
         ],
         "names": [
-          "Banshee's Veil",
-          "Cosmic Drive"
+          "Stormsurge",
+          "Luden's Echo"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 22532553.069894135
+        "games": 87,
+        "wins": 47,
+        "winrate": 0.5402298850574713,
+        "score": 1148107.312446572
       },
       "runes": {
         "primaryStyle": {
@@ -441,154 +300,12 @@
             "name": "Sudden Impact"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 8137,
+            "name": "Sixth Sense"
           },
           {
             "id": 8135,
             "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 4,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 2862,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 60
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 377
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          6655
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Luden's Echo"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 20684912.190339185
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -601,35 +318,44 @@
             "name": "Magical Footwear"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 87,
+        "games": 44,
+        "confidencePct": 0.5057471264367817
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 87,
+        "sampleGames": 87,
         "confidencePct": 1
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 15,
+        "sampleGames": 26,
+        "confidencePct": 0.5769230769230769
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -637,12 +363,13 @@
       }
     },
     {
-      "buildIndex": 4,
+      "id": "Shaco-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2862,
+      "totalGames": 1925,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -672,20 +399,20 @@
           "purchaseSamples": 13
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
-        },
-        {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 27
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
         },
         {
           "itemId": 3089,
@@ -708,7 +435,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 19784042.384236585
+        "score": 526725.1522537705
       },
       "runes": {
         "primaryStyle": {
@@ -786,6 +513,441 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Shaco-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1925,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 377
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 51
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 160
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 10
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3137,
+          4633
+        ],
+        "names": [
+          "Cryptbloom",
+          "Riftmaker"
+        ],
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 389257.1149613864
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 3,
+        "confidencePct": 0.42857142857142855
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "asWholeSet": {
+        "games": 2,
+        "wins": 1,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Shaco-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 1925,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 59
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 256
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 377
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 82
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 213
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 4
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6694,
+          6698
+        ],
+        "names": [
+          "Serylda's Grudge",
+          "Profane Hydra"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 258524.4572182376
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 1925,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.4831168831168831,
+    "items": [
+      {
+        "itemId": 3142,
+        "name": "Youmuu's Ghostblade",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 531
+      },
+      {
+        "itemId": 6699,
+        "name": "Voltaic Cyclosword",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 538
+      },
+      {
+        "itemId": 3006,
+        "name": "Berserker's Greaves",
+        "isBoots": true,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 448
+      },
+      {
+        "itemId": 6676,
+        "name": "The Collector",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 292
+      },
+      {
+        "itemId": 3036,
+        "name": "Lord Dominik's Regards",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 202
+      },
+      {
+        "itemId": 3031,
+        "name": "Infinity Edge",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 161
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8100,
+        "name": "Domination"
+      },
+      "keystone": {
+        "id": 9923,
+        "name": "Hail of Blades"
+      },
+      "primaryPerks": [
+        {
+          "id": 8143,
+          "name": "Sudden Impact"
+        },
+        {
+          "id": 8140,
+          "name": "Grisly Mementos"
+        },
+        {
+          "id": 8105,
+          "name": "Relentless Hunter"
+        }
+      ],
+      "subStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8014,
+          "name": "Coup de Grace"
+        },
+        {
+          "id": 9104,
+          "name": "Legend: Alacrity"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5005,
+          "name": "Attack Speed"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
+        }
+      ],
+      "sampleGames": 1925,
+      "games": 225,
+      "confidencePct": 0.11688311688311688
+    },
+    "position": {
+      "role": "JUNGLE",
+      "games": 1293,
+      "sampleGames": 1925,
+      "confidencePct": 0.6716883116883117
+    },
+    "skillOrder": {
+      "order": [
+        "E",
+        "Q",
+        "W"
+      ],
+      "games": 355,
+      "sampleGames": 951,
+      "confidencePct": 0.3732912723449001
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "championId": "Xerath",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-22T17:03:04.020Z",
+  "generatedAt": "2026-09-23T19:09:18.361Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,21 +15,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 43160426.819749504
-    },
-    {
-      "itemIds": [
-        3137,
-        3165
-      ],
-      "names": [
-        "Cryptbloom",
-        "Morellonomicon"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 33183099.99464501
+      "score": 822663.3802368878
     },
     {
       "itemIds": [
@@ -40,24 +26,10 @@
         "Void Staff",
         "Morellonomicon"
       ],
-      "games": 14,
-      "wins": 10,
-      "winrate": 0.7142857142857143,
-      "score": 14233726.98086491
-    },
-    {
-      "itemIds": [
-        3116,
-        3165
-      ],
-      "names": [
-        "Rylai's Crystal Scepter",
-        "Morellonomicon"
-      ],
       "games": 11,
       "wins": 8,
       "winrate": 0.7272727272727273,
-      "score": 13902516.165108524
+      "score": 575148.2728707619
     },
     {
       "itemIds": [
@@ -68,20 +40,49 @@
         "Banshee's Veil",
         "Void Staff"
       ],
-      "games": 27,
-      "wins": 12,
-      "winrate": 0.4444444444444444,
-      "score": 12186915.25220233
+      "games": 20,
+      "wins": 8,
+      "winrate": 0.4,
+      "score": 437989.34776446817
+    },
+    {
+      "itemIds": [
+        3157,
+        3165
+      ],
+      "names": [
+        "Zhonya's Hourglass",
+        "Morellonomicon"
+      ],
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 394694.4377853618
+    },
+    {
+      "itemIds": [
+        3116,
+        3165
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Morellonomicon"
+      ],
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 388797.69915418566
     }
   ],
   "builds": [
     {
+      "id": "Xerath-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5399,
+      "totalGames": 3709,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -111,20 +112,20 @@
           "purchaseSamples": 34
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 38
+          "purchaseSamples": 316
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3135,
+          "name": "Void Staff",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 179
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 320
         },
         {
           "itemId": 3165,
@@ -147,7 +148,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 43160426.819749504
+        "score": 822663.3802368878
       },
       "runes": {
         "primaryStyle": {
@@ -227,12 +228,13 @@
       }
     },
     {
+      "id": "Xerath-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5399,
+      "totalGames": 3709,
       "patchesUsed": [
-        "16.18",
-        "16.17"
+        "16.19",
+        "16.18"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -254,12 +256,164 @@
           "purchaseSamples": 235
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
+          "purchaseSamples": 179
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 320
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 442
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3135,
+          3165
+        ],
+        "names": [
+          "Void Staff",
+          "Morellonomicon"
+        ],
+        "games": 11,
+        "wins": 8,
+        "winrate": 0.7272727272727273,
+        "score": 575148.2728707619
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 11,
+        "games": 6,
+        "confidencePct": 0.5454545454545454
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 8,
+        "sampleGames": 11,
+        "confidencePct": 0.7272727272727273
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Xerath-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 3709,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
           "purchaseSamples": 63
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 235
         },
         {
           "itemId": 3041,
@@ -278,178 +432,27 @@
           "purchaseSamples": 320
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 32
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3135,
-          3165
-        ],
-        "names": [
-          "Void Staff",
-          "Morellonomicon"
-        ],
-        "games": 14,
-        "wins": 10,
-        "winrate": 0.7142857142857143,
-        "score": 14233726.98086491
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 8,
-        "confidencePct": 0.5714285714285714
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 11,
-        "sampleGames": 14,
-        "confidencePct": 0.7857142857142857
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 5399,
-      "patchesUsed": [
-        "16.18",
-        "16.17"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 145
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 235
-        },
-        {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 442
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 32
+          "purchaseSamples": 442
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          3137
+          3102,
+          3135
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Cryptbloom"
+          "Banshee's Veil",
+          "Void Staff"
         ],
-        "games": 26,
-        "wins": 13,
-        "winrate": 0.5,
-        "score": 5623472.6032547895
+        "games": 20,
+        "wins": 8,
+        "winrate": 0.4,
+        "score": 437989.34776446817
       },
       "runes": {
         "primaryStyle": {
@@ -502,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 26,
-        "games": 8,
-        "confidencePct": 0.3076923076923077
+        "sampleGames": 20,
+        "games": 7,
+        "confidencePct": 0.35
       },
       "position": {
         "role": "BOTTOM",
-        "games": 13,
-        "sampleGames": 26,
-        "confidencePct": 0.5
+        "games": 14,
+        "sampleGames": 20,
+        "confidencePct": 0.7
       },
       "skillOrder": {
         "order": [
@@ -518,8 +521,8 @@
           "W",
           "E"
         ],
-        "games": 13,
-        "sampleGames": 13,
+        "games": 12,
+        "sampleGames": 12,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -528,5 +531,136 @@
         "winrate": null
       }
     }
-  ]
+  ],
+  "metaBuild": {
+    "totalGames": 3709,
+    "patchesUsed": [
+      "16.19",
+      "16.18"
+    ],
+    "patchWindowExtended": false,
+    "targetCoreSize": 5,
+    "winrate": 0.477217578862227,
+    "items": [
+      {
+        "itemId": 6655,
+        "name": "Luden's Echo",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 1592
+      },
+      {
+        "itemId": 2503,
+        "name": "Blackfire Torch",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 921
+      },
+      {
+        "itemId": 3175,
+        "name": "Spellslinger's Shoes",
+        "isBoots": true,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 1
+      },
+      {
+        "itemId": 4628,
+        "name": "Horizon Focus",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 1301
+      },
+      {
+        "itemId": 4645,
+        "name": "Shadowflame",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 1088
+      },
+      {
+        "itemId": 3089,
+        "name": "Rabadon's Deathcap",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 5,
+        "purchaseSamples": 442
+      }
+    ],
+    "runes": {
+      "primaryStyle": {
+        "id": 8200,
+        "name": "Sorcery"
+      },
+      "keystone": {
+        "id": 8229,
+        "name": "Arcane Comet"
+      },
+      "primaryPerks": [
+        {
+          "id": 8226,
+          "name": "Manaflow Band"
+        },
+        {
+          "id": 8210,
+          "name": "Transcendence"
+        },
+        {
+          "id": 8237,
+          "name": "Scorch"
+        }
+      ],
+      "subStyle": {
+        "id": 8000,
+        "name": "Precision"
+      },
+      "secondaryPerks": [
+        {
+          "id": 8014,
+          "name": "Coup de Grace"
+        },
+        {
+          "id": 8009,
+          "name": "Presence of Mind"
+        }
+      ],
+      "statPerks": [
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5008,
+          "name": "Adaptive Force"
+        },
+        {
+          "id": 5001,
+          "name": "Health Scaling"
+        }
+      ],
+      "sampleGames": 3709,
+      "games": 926,
+      "confidencePct": 0.24966298193583175
+    },
+    "position": {
+      "role": "MIDDLE",
+      "games": 1776,
+      "sampleGames": 3709,
+      "confidencePct": 0.4788352655702346
+    },
+    "skillOrder": {
+      "order": [
+        "Q",
+        "W",
+        "E"
+      ],
+      "games": 1641,
+      "sampleGames": 1651,
+      "confidencePct": 0.9939430648092066
+    }
+  }
 }
