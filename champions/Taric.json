@@ -1,7 +1,7 @@
 {
   "championId": "Taric",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-23T19:27:56.013Z",
+  "generatedAt": "2026-09-24T16:36:33.506Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 74160.70207441329
+      "score": 78927.43644120714
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 29138.76350630853
+      "score": 29399.282963000373
     },
     {
       "itemIds": [
@@ -43,7 +43,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 23633.293821207288
+      "score": 24008.33136551688
+    },
+    {
+      "itemIds": [
+        2530,
+        8020
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Abyssal Mask"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 14917.023286324256
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 14,
       "wins": 8,
       "winrate": 0.5714285714285714,
-      "score": 11463.920437777413
-    },
-    {
-      "itemIds": [
-        2524,
-        2530
-      ],
-      "names": [
-        "Bandlepipes",
-        "Diadem of Songs"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 9433.215563732943
+      "score": 11248.631105678296
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Taric-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 948,
+      "totalGames": 982,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,7 +93,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 465
+          "purchaseSamples": 695
         },
         {
           "itemId": 2524,
@@ -101,7 +101,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 57
+          "purchaseSamples": 101
         },
         {
           "itemId": 3504,
@@ -109,7 +109,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 18
+          "purchaseSamples": 26
         },
         {
           "itemId": 3110,
@@ -117,7 +117,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
+          "purchaseSamples": 52
         },
         {
           "itemId": 3109,
@@ -125,7 +125,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 254
+          "purchaseSamples": 399
         },
         {
           "itemId": 2530,
@@ -148,7 +148,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 74160.70207441329
+        "score": 78927.43644120714
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Taric-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 948,
+      "totalGames": 982,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -245,7 +245,151 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 465
+          "purchaseSamples": 695
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 381
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 399
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2530,
+          8020
+        ],
+        "names": [
+          "Diadem of Songs",
+          "Abyssal Mask"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 14917.023286324256
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Taric-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 982,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 695
         },
         {
           "itemId": 2524,
@@ -253,7 +397,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 57
+          "purchaseSamples": 101
         },
         {
           "itemId": 3050,
@@ -261,7 +405,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 253
+          "purchaseSamples": 381
         },
         {
           "itemId": 3222,
@@ -269,7 +413,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 108
+          "purchaseSamples": 174
         },
         {
           "itemId": 3109,
@@ -277,7 +421,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 254
+          "purchaseSamples": 399
         },
         {
           "itemId": 2530,
@@ -300,7 +444,7 @@
         "games": 14,
         "wins": 8,
         "winrate": 0.5714285714285714,
-        "score": 11463.920437777413
+        "score": 11248.631105678296
       },
       "runes": {
         "primaryStyle": {
@@ -369,9 +513,9 @@
           "Q",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 11,
-        "confidencePct": 0.5454545454545454
+        "games": 7,
+        "sampleGames": 14,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -380,10 +524,10 @@
       }
     },
     {
-      "id": "Taric-3",
-      "buildIndex": 2,
+      "id": "Taric-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 948,
+      "totalGames": 982,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -397,37 +541,45 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 465
+          "purchaseSamples": 695
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 381
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 254
-        },
-        {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 108
+          "purchaseSamples": 399
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 52
         },
         {
           "itemId": 3075,
           "name": "Thornmail",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 16
         },
         {
           "itemId": 3121,
           "name": "Fimbulwinter",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -444,7 +596,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 7577.010846816205
+        "score": 7281.237073518331
       },
       "runes": {
         "primaryStyle": {
@@ -509,13 +661,13 @@
       },
       "skillOrder": {
         "order": [
-          "E",
           "Q",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -525,14 +677,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 948,
+    "totalGames": 982,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5158227848101266,
+    "winrate": 0.5193482688391039,
     "items": [
       {
         "itemId": 3158,
@@ -540,7 +692,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 465
+        "purchaseSamples": 695
       },
       {
         "itemId": 3190,
@@ -548,7 +700,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 550
+        "purchaseSamples": 913
       },
       {
         "itemId": 3050,
@@ -556,7 +708,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 253
+        "purchaseSamples": 381
       },
       {
         "itemId": 3109,
@@ -564,7 +716,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 254
+        "purchaseSamples": 399
       },
       {
         "itemId": 3222,
@@ -572,7 +724,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 108
+        "purchaseSamples": 174
       },
       {
         "itemId": 3121,
@@ -634,15 +786,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 948,
-      "games": 260,
-      "confidencePct": 0.2742616033755274
+      "sampleGames": 982,
+      "games": 261,
+      "confidencePct": 0.26578411405295316
     },
     "position": {
       "role": "UTILITY",
-      "games": 945,
-      "sampleGames": 948,
-      "confidencePct": 0.9968354430379747
+      "games": 977,
+      "sampleGames": 982,
+      "confidencePct": 0.994908350305499
     },
     "skillOrder": {
       "order": [
@@ -650,9 +802,9 @@
         "Q",
         "W"
       ],
-      "games": 427,
-      "sampleGames": 578,
-      "confidencePct": 0.7387543252595156
+      "games": 652,
+      "sampleGames": 932,
+      "confidencePct": 0.6995708154506438
     }
   }
 }

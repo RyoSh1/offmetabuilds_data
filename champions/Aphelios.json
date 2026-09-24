@@ -1,8 +1,22 @@
 {
   "championId": "Aphelios",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-23T19:27:56.013Z",
+  "generatedAt": "2026-09-24T16:36:33.506Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3156,
+        3814
+      ],
+      "names": [
+        "Maw of Malmortius",
+        "Edge of Night"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 312277.2942972763
+    },
     {
       "itemIds": [
         3026,
@@ -12,10 +26,10 @@
         "Guardian Angel",
         "Bloodthirster"
       ],
-      "games": 46,
-      "wins": 33,
-      "winrate": 0.717391304347826,
-      "score": 248020.5144657414
+      "games": 52,
+      "wins": 36,
+      "winrate": 0.6923076923076923,
+      "score": 259724.63981789636
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Bloodthirster",
         "Immortal Shieldbow"
       ],
-      "games": 29,
-      "wins": 20,
-      "winrate": 0.6896551724137931,
-      "score": 199100.23924794738
+      "games": 33,
+      "wins": 23,
+      "winrate": 0.696969696969697,
+      "score": 215074.42145402048
+    },
+    {
+      "itemIds": [
+        3026,
+        3157
+      ],
+      "names": [
+        "Guardian Angel",
+        "Zhonya's Hourglass"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 188435.36539544383
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Guardian Angel",
         "Mercurial Scimitar"
       ],
-      "games": 28,
+      "games": 30,
       "wins": 21,
-      "winrate": 0.75,
-      "score": 193068.5669019144
-    },
-    {
-      "itemIds": [
-        3814,
-        6673
-      ],
-      "names": [
-        "Edge of Night",
-        "Immortal Shieldbow"
-      ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 178769.1107513479
-    },
-    {
-      "itemIds": [
-        3026,
-        6673
-      ],
-      "names": [
-        "Guardian Angel",
-        "Immortal Shieldbow"
-      ],
-      "games": 47,
-      "wins": 29,
-      "winrate": 0.6170212765957447,
-      "score": 172497.01025426982
+      "winrate": 0.7,
+      "score": 188113.23102584537
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Aphelios-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5461,
+      "totalGames": 5890,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,23 +93,23 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1436
+          "purchaseSamples": 2829
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 683
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 130
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
+          "itemId": 3814,
+          "name": "Edge of Night",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 190
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 41
         },
         {
           "itemId": 3026,
@@ -117,7 +117,159 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 285
+          "purchaseSamples": 591
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 268
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 340
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3156,
+          3814
+        ],
+        "names": [
+          "Maw of Malmortius",
+          "Edge of Night"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 312277.2942972763
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9103,
+            "name": "Legend: Bloodline"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Aphelios-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5890,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2829
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1165
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 420
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 591
         },
         {
           "itemId": 3072,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 154
+          "purchaseSamples": 340
         },
         {
           "itemId": 3139,
@@ -133,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 136
+          "purchaseSamples": 268
         }
       ],
       "seedPair": {
@@ -145,10 +297,10 @@
           "Guardian Angel",
           "Bloodthirster"
         ],
-        "games": 46,
-        "wins": 33,
-        "winrate": 0.717391304347826,
-        "score": 248020.5144657414
+        "games": 52,
+        "wins": 36,
+        "winrate": 0.6923076923076923,
+        "score": 259724.63981789636
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +353,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 46,
-        "games": 18,
-        "confidencePct": 0.391304347826087
+        "sampleGames": 52,
+        "games": 21,
+        "confidencePct": 0.40384615384615385
       },
       "position": {
         "role": "BOTTOM",
-        "games": 46,
-        "sampleGames": 46,
+        "games": 52,
+        "sampleGames": 52,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -217,9 +369,9 @@
           "E",
           "W"
         ],
-        "games": 16,
-        "sampleGames": 21,
-        "confidencePct": 0.7619047619047619
+        "games": 40,
+        "sampleGames": 50,
+        "confidencePct": 0.8
       },
       "asWholeSet": {
         "games": 0,
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Aphelios-2",
-      "buildIndex": 1,
+      "id": "Aphelios-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5461,
+      "totalGames": 5890,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,20 +392,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
-        },
-        {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1436
+          "purchaseSamples": 2829
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 94
         },
         {
           "itemId": 3033,
@@ -261,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 683
+          "purchaseSamples": 1165
         },
         {
           "itemId": 3026,
@@ -269,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 285
+          "purchaseSamples": 591
         },
         {
           "itemId": 3139,
@@ -277,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 136
+          "purchaseSamples": 268
         },
         {
           "itemId": 3156,
@@ -285,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 64
+          "purchaseSamples": 130
         }
       ],
       "seedPair": {
@@ -300,7 +452,7 @@
         "games": 14,
         "wins": 9,
         "winrate": 0.6428571428571429,
-        "score": 75218.35333748037
+        "score": 79229.86714558714
       },
       "runes": {
         "primaryStyle": {
@@ -369,9 +521,9 @@
           "E",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
+        "games": 8,
+        "sampleGames": 14,
+        "confidencePct": 0.5714285714285714
       },
       "asWholeSet": {
         "games": 0,
@@ -381,14 +533,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5461,
+    "totalGames": 5890,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4819630104376488,
+    "winrate": 0.4825127334465195,
     "items": [
       {
         "itemId": 2523,
@@ -396,7 +548,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 1885
+        "purchaseSamples": 3744
       },
       {
         "itemId": 6676,
@@ -404,7 +556,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 1638
+        "purchaseSamples": 3194
       },
       {
         "itemId": 3006,
@@ -412,7 +564,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 1436
+        "purchaseSamples": 2829
       },
       {
         "itemId": 3031,
@@ -420,7 +572,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2833
+        "purchaseSamples": 5694
       },
       {
         "itemId": 3046,
@@ -428,7 +580,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1164
+        "purchaseSamples": 2492
       },
       {
         "itemId": 3036,
@@ -436,7 +588,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1329
+        "purchaseSamples": 2760
       }
     ],
     "runes": {
@@ -490,15 +642,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 5461,
-      "games": 1241,
-      "confidencePct": 0.22724775682109505
+      "sampleGames": 5890,
+      "games": 1357,
+      "confidencePct": 0.2303904923599321
     },
     "position": {
       "role": "BOTTOM",
-      "games": 5435,
-      "sampleGames": 5461,
-      "confidencePct": 0.9952389672221205
+      "games": 5863,
+      "sampleGames": 5890,
+      "confidencePct": 0.9954159592529711
     },
     "skillOrder": {
       "order": [
@@ -506,9 +658,9 @@
         "E",
         "W"
       ],
-      "games": 1967,
-      "sampleGames": 2607,
-      "confidencePct": 0.7545070962792482
+      "games": 4339,
+      "sampleGames": 5587,
+      "confidencePct": 0.776624306425631
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "championId": "Nilah",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-23T19:27:56.013Z",
+  "generatedAt": "2026-09-24T16:36:33.506Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Guardian Angel",
         "Navori Flickerblade"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 23616.989896538238
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 25504.872227418502
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Guardian Angel",
         "Death's Dance"
       ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 11719.030235475093
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 11800.403359088483
     },
     {
       "itemIds": [
@@ -43,7 +43,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 8578.286895550436
+      "score": 8993.501269614833
+    },
+    {
+      "itemIds": [
+        3026,
+        3033
+      ],
+      "names": [
+        "Guardian Angel",
+        "Mortal Reminder"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 8137.5934563995
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 7644.7358310408135
-    },
-    {
-      "itemIds": [
-        3026,
-        3033
-      ],
-      "names": [
-        "Guardian Angel",
-        "Mortal Reminder"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 7486.540865159351
+      "score": 7862.1069327723835
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Nilah-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 297,
+      "totalGames": 319,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,20 +88,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
-        },
-        {
           "itemId": 6675,
           "name": "Navori Flickerblade",
           "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 48
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 14
+          "purchaseSamples": 130
         },
         {
           "itemId": 3033,
@@ -109,31 +109,31 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 40
+          "purchaseSamples": 65
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 60
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 21
+          "purchaseSamples": 25
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 27
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 9
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 60
         }
       ],
       "seedPair": {
@@ -145,10 +145,10 @@
           "Guardian Angel",
           "Navori Flickerblade"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 23616.989896538238
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 25504.872227418502
       },
       "runes": {
         "primaryStyle": {
@@ -201,17 +201,26 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 7,
+        "games": 5,
+        "confidencePct": 0.7142857142857143
       },
       "position": {
         "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -222,7 +231,7 @@
       "id": "Nilah-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 297,
+      "totalGames": 319,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -231,12 +240,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
         },
         {
           "itemId": 3033,
@@ -244,23 +253,23 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 40
+          "purchaseSamples": 65
         },
         {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
           "order": 3,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 25
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 9
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 27
         }
       ],
       "seedPair": {
@@ -275,7 +284,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 8578.286895550436
+        "score": 8993.501269614833
       },
       "runes": {
         "primaryStyle": {
@@ -340,13 +349,13 @@
       },
       "skillOrder": {
         "order": [
-          "E",
           "Q",
+          "E",
           "W"
         ],
         "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 1,
@@ -358,7 +367,7 @@
       "id": "Nilah-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 297,
+      "totalGames": 319,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -367,12 +376,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 130
         },
         {
           "itemId": 3036,
@@ -380,7 +389,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 61
+          "purchaseSamples": 157
         },
         {
           "itemId": 3046,
@@ -388,31 +397,31 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
+          "purchaseSamples": 92
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 60
+          "purchaseSamples": 25
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 21
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 60
         },
         {
           "itemId": 3139,
           "name": "Mercurial Scimitar",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6.5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 7,
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
@@ -427,7 +436,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 7644.7358310408135
+        "score": 7862.1069327723835
       },
       "runes": {
         "primaryStyle": {
@@ -496,8 +505,8 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -510,7 +519,7 @@
       "id": "Nilah-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 297,
+      "totalGames": 319,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -519,28 +528,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
-        },
-        {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 40
+          "purchaseSamples": 65
         },
         {
           "itemId": 3046,
           "name": "Phantom Dancer",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 92
+        },
+        {
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
+          "purchaseSamples": 25
         },
         {
           "itemId": 3156,
@@ -548,23 +557,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 21
+          "purchaseSamples": 9
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 27
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 9
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 60
         }
       ],
       "seedPair": {
@@ -579,7 +588,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 4840.457101999841
+        "score": 5063.5047104985315
       },
       "runes": {
         "primaryStyle": {
@@ -648,8 +657,8 @@
           "Q",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -662,7 +671,7 @@
       "id": "Nilah-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 297,
+      "totalGames": 319,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -676,39 +685,39 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 3111,
-          "name": "Mercury's Treads",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
+          "purchaseSamples": 14
         },
         {
           "itemId": 3046,
           "name": "Phantom Dancer",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
+          "purchaseSamples": 92
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 157
+        },
+        {
+          "itemId": 3111,
+          "name": "Mercury's Treads",
+          "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 61
+          "purchaseSamples": 25
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 9
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 27
         }
       ],
       "seedPair": {
@@ -723,7 +732,7 @@
         "games": 7,
         "wins": 2,
         "winrate": 0.2857142857142857,
-        "score": 2407.1678938295972
+        "score": 2692.9944997715734
       },
       "runes": {
         "primaryStyle": {
@@ -792,9 +801,9 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "asWholeSet": {
         "games": 1,
@@ -804,14 +813,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 297,
+    "totalGames": 319,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.45791245791245794,
+    "winrate": 0.45454545454545453,
     "items": [
       {
         "itemId": 6676,
@@ -819,7 +828,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 210
+        "purchaseSamples": 429
       },
       {
         "itemId": 3031,
@@ -827,31 +836,31 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 150
-      },
-      {
-        "itemId": 3036,
-        "name": "Lord Dominik's Regards",
-        "isBoots": false,
-        "order": 3,
-        "medianPurchaseOrder": 4,
-        "purchaseSamples": 61
-      },
-      {
-        "itemId": 3046,
-        "name": "Phantom Dancer",
-        "isBoots": false,
-        "order": 4,
-        "medianPurchaseOrder": 4,
-        "purchaseSamples": 46
+        "purchaseSamples": 320
       },
       {
         "itemId": 6673,
         "name": "Immortal Shieldbow",
         "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 130
+      },
+      {
+        "itemId": 3036,
+        "name": "Lord Dominik's Regards",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 157
+      },
+      {
+        "itemId": 3046,
+        "name": "Phantom Dancer",
+        "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 60
+        "purchaseSamples": 92
       }
     ],
     "runes": {
@@ -905,15 +914,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 297,
-      "games": 164,
-      "confidencePct": 0.5521885521885522
+      "sampleGames": 319,
+      "games": 181,
+      "confidencePct": 0.567398119122257
     },
     "position": {
       "role": "BOTTOM",
-      "games": 293,
-      "sampleGames": 297,
-      "confidencePct": 0.9865319865319865
+      "games": 315,
+      "sampleGames": 319,
+      "confidencePct": 0.987460815047022
     },
     "skillOrder": {
       "order": [
@@ -921,9 +930,9 @@
         "E",
         "W"
       ],
-      "games": 84,
-      "sampleGames": 128,
-      "confidencePct": 0.65625
+      "games": 183,
+      "sampleGames": 296,
+      "confidencePct": 0.6182432432432432
     }
   }
 }

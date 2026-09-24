@@ -1,8 +1,22 @@
 {
   "championId": "Vayne",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-23T19:27:56.013Z",
+  "generatedAt": "2026-09-24T16:36:33.506Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3124,
+        3172
+      ],
+      "names": [
+        "Guinsoo's Rageblade",
+        "Gunmetal Greaves"
+      ],
+      "games": 16,
+      "wins": 11,
+      "winrate": 0.6875,
+      "score": 1608591.401577614
+    },
     {
       "itemIds": [
         3031,
@@ -15,21 +29,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1612712.5120956397
-    },
-    {
-      "itemIds": [
-        3124,
-        3172
-      ],
-      "names": [
-        "Guinsoo's Rageblade",
-        "Gunmetal Greaves"
-      ],
-      "games": 15,
-      "wins": 10,
-      "winrate": 0.6666666666666666,
-      "score": 1475762.2383926043
+      "score": 1539896.9595256639
     },
     {
       "itemIds": [
@@ -40,10 +40,10 @@
         "Blade of The Ruined King",
         "Gunmetal Greaves"
       ],
-      "games": 21,
-      "wins": 13,
-      "winrate": 0.6190476190476191,
-      "score": 1265839.907363774
+      "games": 22,
+      "wins": 14,
+      "winrate": 0.6363636363636364,
+      "score": 1308734.48696335
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 1258926.3061861515
+      "score": 1249649.7056357716
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 1131970.651021778
+      "score": 1088257.3954129482
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vayne-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1723,
+      "totalGames": 1813,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,23 +93,175 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 978
+          "purchaseSamples": 1902
         },
         {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 44
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 663
+        },
+        {
+          "itemId": 3124,
+          "name": "Guinsoo's Rageblade",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 541
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 299
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 113
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3124,
+          3172
+        ],
+        "names": [
+          "Guinsoo's Rageblade",
+          "Gunmetal Greaves"
+        ],
+        "games": 16,
+        "wins": 11,
+        "winrate": 0.6875,
+        "score": 1608591.401577614
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 16,
+        "games": 3,
+        "confidencePct": 0.1875
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 16,
+        "sampleGames": 16,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 10,
+        "sampleGames": 15,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Vayne-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1813,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1902
         },
         {
           "itemId": 3046,
           "name": "Phantom Dancer",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 57
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 28
+          "purchaseSamples": 299
         },
         {
           "itemId": 3031,
@@ -117,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 75
+          "purchaseSamples": 138
         },
         {
           "itemId": 6665,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 57
+          "purchaseSamples": 113
         },
         {
           "itemId": 3026,
@@ -133,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 22
+          "purchaseSamples": 36
         }
       ],
       "seedPair": {
@@ -148,7 +300,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1612712.5120956397
+        "score": 1539896.9595256639
       },
       "runes": {
         "primaryStyle": {
@@ -217,8 +369,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -228,162 +380,10 @@
       }
     },
     {
-      "id": "Vayne-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 1723,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 978
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 287
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 258
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 151
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 57
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3124,
-          3172
-        ],
-        "names": [
-          "Guinsoo's Rageblade",
-          "Gunmetal Greaves"
-        ],
-        "games": 15,
-        "wins": 10,
-        "winrate": 0.6666666666666666,
-        "score": 1475762.2383926043
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 15,
-        "games": 3,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 15,
-        "sampleGames": 15,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 6,
-        "sampleGames": 8,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 0,
-        "winrate": 0
-      }
-    },
-    {
       "id": "Vayne-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1723,
+      "totalGames": 1813,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 203
+          "purchaseSamples": 356
         },
         {
           "itemId": 3006,
@@ -405,7 +405,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 978
+          "purchaseSamples": 1902
         },
         {
           "itemId": 3046,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 28
+          "purchaseSamples": 57
         },
         {
           "itemId": 2512,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 221
+          "purchaseSamples": 390
         },
         {
           "itemId": 3031,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 75
+          "purchaseSamples": 138
         },
         {
           "itemId": 6673,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 15
+          "purchaseSamples": 22
         }
       ],
       "seedPair": {
@@ -452,7 +452,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 1131970.651021778
+        "score": 1088257.3954129482
       },
       "runes": {
         "primaryStyle": {
@@ -521,9 +521,9 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -535,7 +535,7 @@
       "id": "Vayne-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1723,
+      "totalGames": 1813,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 203
+          "purchaseSamples": 356
         },
         {
           "itemId": 3006,
@@ -557,7 +557,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 978
+          "purchaseSamples": 1902
         },
         {
           "itemId": 2512,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 221
+          "purchaseSamples": 390
         },
         {
           "itemId": 3302,
@@ -573,15 +573,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 151
+          "purchaseSamples": 299
         },
         {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 6
         },
         {
           "itemId": 6665,
@@ -589,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 57
+          "purchaseSamples": 113
         }
       ],
       "seedPair": {
@@ -604,7 +604,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 765263.5321021241
+        "score": 794888.8869766472
       },
       "runes": {
         "primaryStyle": {
@@ -673,9 +673,9 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 1,
@@ -687,7 +687,7 @@
       "id": "Vayne-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1723,
+      "totalGames": 1813,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -701,7 +701,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 203
+          "purchaseSamples": 356
         },
         {
           "itemId": 3006,
@@ -709,39 +709,39 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 978
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 44
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 151
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 57
+          "purchaseSamples": 1902
         },
         {
           "itemId": 3172,
           "name": "Gunmetal Greaves",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 86
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 299
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 113
         }
       ],
       "seedPair": {
@@ -753,10 +753,10 @@
           "Wit's End",
           "Jak'Sho, The Protean"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 567584.6469195631
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 718038.6251567368
       },
       "runes": {
         "primaryStyle": {
@@ -809,17 +809,26 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -828,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 1723,
+    "totalGames": 1813,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4683691236215902,
+    "winrate": 0.4627688913403199,
     "items": [
       {
         "itemId": 3006,
@@ -843,7 +852,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 978
+        "purchaseSamples": 1902
       },
       {
         "itemId": 3073,
@@ -851,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 1129
+        "purchaseSamples": 2016
       },
       {
         "itemId": 3153,
@@ -859,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 287
+        "purchaseSamples": 663
       },
       {
         "itemId": 3508,
@@ -867,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 565
+        "purchaseSamples": 967
       },
       {
         "itemId": 3095,
@@ -875,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 205
+        "purchaseSamples": 385
       },
       {
         "itemId": 2512,
@@ -883,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 221
+        "purchaseSamples": 390
       }
     ],
     "runes": {
@@ -937,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 1723,
-      "games": 375,
-      "confidencePct": 0.2176436448055717
+      "sampleGames": 1813,
+      "games": 399,
+      "confidencePct": 0.22007722007722008
     },
     "position": {
       "role": "TOP",
-      "games": 1317,
-      "sampleGames": 1723,
-      "confidencePct": 0.7643644805571678
+      "games": 1380,
+      "sampleGames": 1813,
+      "confidencePct": 0.761169332597904
     },
     "skillOrder": {
       "order": [
@@ -953,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 760,
-      "sampleGames": 863,
-      "confidencePct": 0.880648899188876
+      "games": 1461,
+      "sampleGames": 1686,
+      "confidencePct": 0.8665480427046264
     }
   }
 }
