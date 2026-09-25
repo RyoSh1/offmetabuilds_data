@@ -1,8 +1,22 @@
 {
   "championId": "Lillia",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3110,
+        3116
+      ],
+      "names": [
+        "Frozen Heart",
+        "Rylai's Crystal Scepter"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 4654762.015666999
+    },
     {
       "itemIds": [
         3102,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1484397.4782226474
+      "score": 1440968.310879774
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Rabadon's Deathcap",
         "Shadowflame"
       ],
-      "games": 4,
-      "wins": 4,
+      "games": 5,
+      "wins": 5,
       "winrate": 1,
-      "score": 734130.4077767719
+      "score": 846220.5724686264
     },
     {
       "itemIds": [
-        3102,
-        8010
+        3089,
+        3135
       ],
       "names": [
-        "Banshee's Veil",
-        "Bloodletter's Curse"
+        "Rabadon's Deathcap",
+        "Void Staff"
       ],
-      "games": 18,
-      "wins": 9,
-      "winrate": 0.5,
-      "score": 269309.76685799577
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 599475.107104589
     },
     {
       "itemIds": [
-        3165,
-        8010
+        3089,
+        3110
       ],
       "names": [
-        "Morellonomicon",
-        "Bloodletter's Curse"
+        "Rabadon's Deathcap",
+        "Frozen Heart"
       ],
-      "games": 14,
-      "wins": 8,
-      "winrate": 0.5714285714285714,
-      "score": 196759.89112052656
-    },
-    {
-      "itemIds": [
-        3041,
-        3102
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Banshee's Veil"
-      ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 196182.68169486115
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 278922.8535784601
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Lillia-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2573,
+      "totalGames": 2977,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 704
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 417
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 351
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 293
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 168
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3110,
+          3116
+        ],
+        "names": [
+          "Frozen Heart",
+          "Rylai's Crystal Scepter"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 4654762.015666999
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Lillia-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2977,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +300,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1484397.4782226474
+        "score": 1440968.310879774
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Lillia-2",
-      "buildIndex": 1,
+      "id": "Lillia-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2573,
+      "totalGames": 2977,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,18 +392,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 168
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 704
         },
@@ -259,33 +403,25 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 5
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 293
         },
         {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 168
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
+          "itemId": 3135,
+          "name": "Void Staff",
           "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 73
+          "order": 4,
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
@@ -297,10 +433,10 @@
           "Rabadon's Deathcap",
           "Shadowflame"
         ],
-        "games": 4,
-        "wins": 4,
+        "games": 5,
+        "wins": 5,
         "winrate": 1,
-        "score": 734130.4077767719
+        "score": 846220.5724686264
       },
       "runes": {
         "primaryStyle": {
@@ -321,8 +457,8 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8014,
+            "name": "Coup de Grace"
           }
         ],
         "subStyle": {
@@ -341,26 +477,26 @@
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -374,16 +510,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
-      "id": "Lillia-3",
-      "buildIndex": 2,
+      "id": "Lillia-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2573,
+      "totalGames": 2977,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +588,7 @@
         "games": 18,
         "wins": 9,
         "winrate": 0.5,
-        "score": 269309.76685799577
+        "score": 264630.05367151473
       },
       "runes": {
         "primaryStyle": {
@@ -532,162 +668,10 @@
       }
     },
     {
-      "id": "Lillia-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 2573,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 168
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 704
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 351
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 293
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 59
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2503,
-          6665
-        ],
-        "names": [
-          "Blackfire Torch",
-          "Jak'Sho, The Protean"
-        ],
-        "games": 7,
-        "wins": 2,
-        "winrate": 0.2857142857142857,
-        "score": 184815.47181053273
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Lillia-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2573,
+      "totalGames": 2977,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,12 +688,12 @@
           "purchaseSamples": 704
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 293
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3041,
@@ -728,35 +712,35 @@
           "purchaseSamples": 417
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
+          "purchaseSamples": 168
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 49
+          "purchaseSamples": 59
         }
       ],
       "seedPair": {
         "itemIds": [
-          3143,
-          8010
+          3041,
+          3152
         ],
         "names": [
-          "Randuin's Omen",
-          "Bloodletter's Curse"
+          "Mejai's Soulstealer",
+          "Hextech Rocketbelt"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 162400.128211291
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 248362.21263654504
       },
       "runes": {
         "primaryStyle": {
@@ -809,14 +793,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -837,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2573,
+    "totalGames": 2977,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49203264671589586,
+    "winrate": 0.4910984212294256,
     "items": [
       {
         "itemId": 6653,
@@ -924,37 +908,37 @@
       },
       "secondaryPerks": [
         {
-          "id": 8304,
-          "name": "Magical Footwear"
-        },
-        {
           "id": 8347,
           "name": "Cosmic Insight"
+        },
+        {
+          "id": 8304,
+          "name": "Magical Footwear"
         }
       ],
       "statPerks": [
         {
-          "id": 5007,
-          "name": "Ability Haste"
+          "id": 5008,
+          "name": "Adaptive Force"
         },
         {
           "id": 5008,
           "name": "Adaptive Force"
         },
         {
-          "id": 5001,
-          "name": "Health Scaling"
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 2573,
-      "games": 1159,
-      "confidencePct": 0.45044694908666927
+      "sampleGames": 2977,
+      "games": 1340,
+      "confidencePct": 0.45011756802149816
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2557,
-      "sampleGames": 2573,
-      "confidencePct": 0.9937815779246016
+      "games": 2955,
+      "sampleGames": 2977,
+      "confidencePct": 0.992610010077259
     },
     "skillOrder": {
       "order": [

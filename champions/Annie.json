@@ -1,8 +1,22 @@
 {
   "championId": "Annie",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2065,
+        3190
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Locket of the Iron Solari"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 24314460.593621384
+    },
     {
       "itemIds": [
         2065,
@@ -12,10 +26,24 @@
         "Shurelya's Battlesong",
         "Mikael's Blessing"
       ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 23852046.045147233
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 23338171.709861018
+    },
+    {
+      "itemIds": [
+        2065,
+        4629
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Cosmic Drive"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 10931823.876799671
     },
     {
       "itemIds": [
@@ -29,21 +57,7 @@
       "games": 21,
       "wins": 14,
       "winrate": 0.6666666666666666,
-      "score": 8569277.101995992
-    },
-    {
-      "itemIds": [
-        2503,
-        6653
-      ],
-      "names": [
-        "Blackfire Torch",
-        "Liandry's Torment"
-      ],
-      "games": 55,
-      "wins": 37,
-      "winrate": 0.6727272727272727,
-      "score": 6964871.682291662
+      "score": 9308397.809571773
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Liandry's Torment",
         "Bloodletter's Curse"
       ],
-      "games": 25,
-      "wins": 18,
-      "winrate": 0.72,
-      "score": 6947589.713526826
-    },
-    {
-      "itemIds": [
-        4633,
-        8020
-      ],
-      "names": [
-        "Riftmaker",
-        "Abyssal Mask"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 6041551.316276534
+      "games": 28,
+      "wins": 20,
+      "winrate": 0.7142857142857143,
+      "score": 8318456.591676172
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Annie-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1499,
+      "totalGames": 1740,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -110,81 +110,89 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 7
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
         "itemIds": [
           2065,
-          3222
+          3190
         ],
         "names": [
           "Shurelya's Battlesong",
-          "Mikael's Blessing"
+          "Locket of the Iron Solari"
         ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 23852046.045147233
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 24314460.593621384
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
           {
             "id": 8126,
             "name": "Cheap Shot"
           },
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -193,13 +201,13 @@
           "Q",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
-        "games": 6,
-        "wins": 3,
+        "games": 2,
+        "wins": 1,
         "winrate": 0.5
       }
     },
@@ -207,7 +215,150 @@
       "id": "Annie-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1499,
+      "totalGames": 1740,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 47
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 110
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          4629
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Cosmic Drive"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 10931823.876799671
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Annie-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 1740,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -276,7 +427,7 @@
         "games": 21,
         "wins": 14,
         "winrate": 0.6666666666666666,
-        "score": 8569277.101995992
+        "score": 9308397.809571773
       },
       "runes": {
         "primaryStyle": {
@@ -356,10 +507,153 @@
       }
     },
     {
-      "id": "Annie-3",
-      "buildIndex": 2,
+      "id": "Annie-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1499,
+      "totalGames": 1740,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 47
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 110
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 674
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 209
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3116,
+          4005
+        ],
+        "names": [
+          "Rylai's Crystal Scepter",
+          "Imperial Mandate"
+        ],
+        "games": 8,
+        "wins": 4,
+        "winrate": 0.5,
+        "score": 8167216.712256222
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 5,
+        "confidencePct": 0.625
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Annie-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 1740,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -412,7 +706,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 6041551.316276534
+        "score": 7281503.1434163535
       },
       "runes": {
         "primaryStyle": {
@@ -490,321 +784,17 @@
         "wins": 2,
         "winrate": 1
       }
-    },
-    {
-      "id": "Annie-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1499,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 55
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 135
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 65
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 110
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 90
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3135,
-          6653
-        ],
-        "names": [
-          "Void Staff",
-          "Liandry's Torment"
-        ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 2093004.4089588108
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 2,
-        "confidencePct": 0.2857142857142857
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Annie-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1499,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 55
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 47
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 110
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 135
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 65
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          3116
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Rylai's Crystal Scepter"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 1647039.1125403354
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 1499,
+    "totalGames": 1740,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5270180120080054,
+    "winrate": 0.524712643678161,
     "items": [
       {
         "itemId": 3118,
@@ -906,15 +896,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 1499,
-      "games": 274,
-      "confidencePct": 0.1827885256837892
+      "sampleGames": 1740,
+      "games": 332,
+      "confidencePct": 0.19080459770114944
     },
     "position": {
       "role": "MIDDLE",
-      "games": 1196,
-      "sampleGames": 1499,
-      "confidencePct": 0.7978652434956638
+      "games": 1381,
+      "sampleGames": 1740,
+      "confidencePct": 0.7936781609195402
     },
     "skillOrder": {
       "order": [

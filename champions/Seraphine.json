@@ -1,22 +1,8 @@
 {
   "championId": "Seraphine",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
-    {
-      "itemIds": [
-        4645,
-        4646
-      ],
-      "names": [
-        "Shadowflame",
-        "Stormsurge"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 480122786.0949181
-    },
     {
       "itemIds": [
         2522,
@@ -29,7 +15,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 278213029.0648055
+      "score": 262184015.13059744
     },
     {
       "itemIds": [
@@ -40,10 +26,24 @@
         "Muramana",
         "Lich Bane"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 219979236.46299604
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 172530194.86404735
+    },
+    {
+      "itemIds": [
+        4645,
+        4646
+      ],
+      "names": [
+        "Shadowflame",
+        "Stormsurge"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 138550114.8126017
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 13,
       "wins": 7,
       "winrate": 0.5384615384615384,
-      "score": 142133308.9304146
+      "score": 129274699.55664565
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 27,
       "wins": 16,
       "winrate": 0.5925925925925926,
-      "score": 108282940.49063997
+      "score": 98157341.75534967
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Seraphine-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4563,
+      "totalGames": 5538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,10 +88,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 94
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4054
         },
@@ -99,15 +107,23 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 21
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 46
         },
         {
           "itemId": 2522,
           "name": "Actualizer",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 7,
           "purchaseSamples": 2
         },
@@ -115,32 +131,24 @@
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          4645,
-          4646
+          2522,
+          4645
         ],
         "names": [
-          "Shadowflame",
-          "Stormsurge"
+          "Actualizer",
+          "Shadowflame"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 480122786.0949181
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 262184015.13059744
       },
       "runes": {
         "primaryStyle": {
@@ -148,8 +156,8 @@
           "name": "Domination"
         },
         "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
+          "id": 8112,
+          "name": "Electrocute"
         },
         "primaryPerks": [
           {
@@ -175,8 +183,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "statPerks": [
@@ -194,14 +202,14 @@
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
+        "games": 3,
         "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 1
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -214,7 +222,7 @@
       "id": "Seraphine-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4563,
+      "totalGames": 5538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -255,10 +263,18 @@
           "purchaseSamples": 672
         },
         {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 46
+        },
+        {
           "itemId": 3042,
           "name": "Muramana",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -272,10 +288,10 @@
           "Muramana",
           "Lich Bane"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 219979236.46299604
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 172530194.86404735
       },
       "runes": {
         "primaryStyle": {
@@ -328,14 +344,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -349,16 +365,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Seraphine-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4563,
+      "totalGames": 5538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -427,7 +443,7 @@
         "games": 13,
         "wins": 7,
         "winrate": 0.5384615384615384,
-        "score": 142133308.9304146
+        "score": 129274699.55664565
       },
       "runes": {
         "primaryStyle": {
@@ -510,7 +526,7 @@
       "id": "Seraphine-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4563,
+      "totalGames": 5538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -579,7 +595,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 84215391.22760692
+        "score": 65352434.890034094
       },
       "runes": {
         "primaryStyle": {
@@ -653,7 +669,7 @@
       "id": "Seraphine-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4563,
+      "totalGames": 5538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -662,67 +678,67 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 423
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4054
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 6653,
+          "name": "Liandry's Torment",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 57
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 30
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
+          "medianPurchaseOrder": 4,
           "purchaseSamples": 25
         },
         {
-          "itemId": 2522,
-          "name": "Actualizer",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 61
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          4645
+          4629,
+          6616
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Shadowflame"
+          "Cosmic Drive",
+          "Staff of Flowing Water"
         ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 31937321.71961687
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 37451571.601350434
       },
       "runes": {
         "primaryStyle": {
@@ -763,38 +779,29 @@
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 3,
         "games": 3,
-        "confidencePct": 0.42857142857142855
+        "confidencePct": 1
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 7,
-        "confidencePct": 0.8571428571428571
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
+        "role": "MIDDLE",
         "games": 3,
         "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -803,14 +810,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 4563,
+    "totalGames": 5538,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49441157133464825,
+    "winrate": 0.49404117009750814,
     "items": [
       {
         "itemId": 6620,
@@ -912,15 +919,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 4563,
-      "games": 1010,
-      "confidencePct": 0.22134560596099057
+      "sampleGames": 5538,
+      "games": 1220,
+      "confidencePct": 0.22029613578909354
     },
     "position": {
       "role": "UTILITY",
-      "games": 3842,
-      "sampleGames": 4563,
-      "confidencePct": 0.8419899189129958
+      "games": 4512,
+      "sampleGames": 5538,
+      "confidencePct": 0.8147345612134345
     },
     "skillOrder": {
       "order": [

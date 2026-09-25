@@ -1,8 +1,36 @@
 {
   "championId": "Udyr",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3118,
+        4645
+      ],
+      "names": [
+        "Malignance",
+        "Shadowflame"
+      ],
+      "games": 7,
+      "wins": 3,
+      "winrate": 0.42857142857142855,
+      "score": 102092359.99839185
+    },
+    {
+      "itemIds": [
+        3109,
+        8020
+      ],
+      "names": [
+        "Knight's Vow",
+        "Abyssal Mask"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 78227127.15919939
+    },
     {
       "itemIds": [
         3118,
@@ -15,7 +43,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 74701056.87750274
+      "score": 51826766.20031883
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 9960221.909250956
+      "score": 10809803.396950623
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Shadowflame",
         "Stormsurge"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 5247282.672861897
-    },
-    {
-      "itemIds": [
-        3118,
-        4645
-      ],
-      "names": [
-        "Malignance",
-        "Shadowflame"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 3533804.397351538
-    },
-    {
-      "itemIds": [
-        3036,
-        3156
-      ],
-      "names": [
-        "Lord Dominik's Regards",
-        "Maw of Malmortius"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 3273814.3552471423
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 8092085.669288924
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Udyr-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1749,
+      "totalGames": 2060,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -139,16 +139,16 @@
       "seedPair": {
         "itemIds": [
           3118,
-          4646
+          4645
         ],
         "names": [
           "Malignance",
-          "Stormsurge"
+          "Shadowflame"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 74701056.87750274
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 102092359.99839185
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 7,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 7,
+        "confidencePct": 0.42857142857142855
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -222,7 +222,159 @@
       "id": "Udyr-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1749,
+      "totalGames": 2060,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 180
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 674
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 137
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3109,
+          8020
+        ],
+        "names": [
+          "Knight's Vow",
+          "Abyssal Mask"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 78227127.15919939
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Udyr-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 2060,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -283,7 +435,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 9960221.909250956
+        "score": 10809803.396950623
       },
       "runes": {
         "primaryStyle": {
@@ -363,153 +515,10 @@
       }
     },
     {
-      "id": "Udyr-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 1749,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 139
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 674
-        },
-        {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 160
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 14
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 96
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3036,
-          3156
-        ],
-        "names": [
-          "Lord Dominik's Regards",
-          "Maw of Malmortius"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 3273814.3552471423
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8232,
-            "name": "Waterwalking"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 5,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Udyr-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1749,
+      "totalGames": 2060,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -575,10 +584,10 @@
           "Dusk and Dawn",
           "Hullbreaker"
         ],
-        "games": 6,
-        "wins": 3,
+        "games": 12,
+        "wins": 6,
         "winrate": 0.5,
-        "score": 2343920.426518174
+        "score": 3860433.463721335
       },
       "runes": {
         "primaryStyle": {
@@ -631,14 +640,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 6,
-        "confidencePct": 1
+        "sampleGames": 12,
+        "games": 11,
+        "confidencePct": 0.9166666666666666
       },
       "position": {
         "role": "TOP",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 12,
+        "sampleGames": 12,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -652,7 +661,7 @@
       "id": "Udyr-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1749,
+      "totalGames": 2060,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -677,73 +686,73 @@
           "purchaseSamples": 674
         },
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 94
+          "purchaseSamples": 160
         },
         {
-          "itemId": 6664,
-          "name": "Hollow Radiance",
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3.5,
+          "medianPurchaseOrder": 4,
           "purchaseSamples": 14
         },
         {
-          "itemId": 3181,
-          "name": "Hullbreaker",
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
+          "purchaseSamples": 6
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
+          "purchaseSamples": 96
         }
       ],
       "seedPair": {
         "itemIds": [
-          3181,
-          6664
+          3036,
+          3156
         ],
         "names": [
-          "Hullbreaker",
-          "Hollow Radiance"
+          "Lord Dominik's Regards",
+          "Maw of Malmortius"
         ],
-        "games": 5,
-        "wins": 2,
-        "winrate": 0.4,
-        "score": 2013824.3839766483
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 2775527.4615627024
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
+          "id": 8005,
+          "name": "Press the Attack"
         },
         "primaryPerks": [
           {
-            "id": 8446,
-            "name": "Demolish"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8429,
-            "name": "Conditioning"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8014,
+            "name": "Coup de Grace"
           }
         ],
         "subStyle": {
@@ -756,8 +765,8 @@
             "name": "Celerity"
           },
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8232,
+            "name": "Waterwalking"
           }
         ],
         "statPerks": [
@@ -766,50 +775,41 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 4,
-        "confidencePct": 0.8
+        "sampleGames": 6,
+        "games": 5,
+        "confidencePct": 0.8333333333333334
       },
       "position": {
-        "role": "TOP",
-        "games": 5,
-        "sampleGames": 5,
+        "role": "JUNGLE",
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 1749,
+    "totalGames": 2060,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48484848484848486,
+    "winrate": 0.4888349514563107,
     "items": [
       {
         "itemId": 3161,
@@ -911,15 +911,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 1749,
-      "games": 528,
-      "confidencePct": 0.3018867924528302
+      "sampleGames": 2060,
+      "games": 557,
+      "confidencePct": 0.2703883495145631
     },
     "position": {
-      "role": "TOP",
-      "games": 864,
-      "sampleGames": 1749,
-      "confidencePct": 0.4939965694682676
+      "role": "JUNGLE",
+      "games": 1057,
+      "sampleGames": 2060,
+      "confidencePct": 0.5131067961165049
     },
     "skillOrder": {
       "order": [

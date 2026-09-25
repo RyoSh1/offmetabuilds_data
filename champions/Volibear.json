@@ -1,7 +1,7 @@
 {
   "championId": "Volibear",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 6,
       "wins": 6,
       "winrate": 1,
-      "score": 121419393.87484743
+      "score": 163663134.57264656
+    },
+    {
+      "itemIds": [
+        3078,
+        3161
+      ],
+      "names": [
+        "Trinity Force",
+        "Spear of Shojin"
+      ],
+      "games": 13,
+      "wins": 8,
+      "winrate": 0.6153846153846154,
+      "score": 25928807.246035554
     },
     {
       "itemIds": [
@@ -26,10 +40,10 @@
         "Rabadon's Deathcap",
         "Stormsurge"
       ],
-      "games": 5,
+      "games": 6,
       "wins": 2,
-      "winrate": 0.4,
-      "score": 62701267.15693437
+      "winrate": 0.3333333333333333,
+      "score": 17855157.72712302
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 8655804.955257474
+      "score": 10833929.243788129
     },
     {
       "itemIds": [
         3053,
-        3071
+        3078
       ],
       "names": [
         "Sterak's Gage",
-        "Black Cleaver"
-      ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 7005210.6995561225
-    },
-    {
-      "itemIds": [
-        2524,
-        3152
-      ],
-      "names": [
-        "Bandlepipes",
-        "Hextech Rocketbelt"
+        "Trinity Force"
       ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 4739761.510522056
+      "wins": 3,
+      "winrate": 1,
+      "score": 7881404.523619132
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Volibear-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1812,
+      "totalGames": 2095,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,18 +88,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 673
-        },
-        {
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 25
         },
@@ -107,7 +99,7 @@
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 25
         },
@@ -115,9 +107,17 @@
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 206
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 508
         },
         {
           "itemId": 3071,
@@ -148,7 +148,7 @@
         "games": 6,
         "wins": 6,
         "winrate": 1,
-        "score": 121419393.87484743
+        "score": 163663134.57264656
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Volibear-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1812,
+      "totalGames": 2095,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,20 +240,172 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 673
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 15
         },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 508
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 54
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 19
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3078,
+          3161
+        ],
+        "names": [
+          "Trinity Force",
+          "Spear of Shojin"
+        ],
+        "games": 13,
+        "wins": 8,
+        "winrate": 0.6153846153846154,
+        "score": 25928807.246035554
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 13,
+        "games": 3,
+        "confidencePct": 0.23076923076923078
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 8,
+        "sampleGames": 13,
+        "confidencePct": 0.6153846153846154
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Volibear-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 2095,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
         {
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 238
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 508
         },
         {
           "itemId": 4646,
@@ -297,10 +449,10 @@
           "Rabadon's Deathcap",
           "Stormsurge"
         ],
-        "games": 5,
+        "games": 6,
         "wins": 2,
-        "winrate": 0.4,
-        "score": 62701267.15693437
+        "winrate": 0.3333333333333333,
+        "score": 17855157.72712302
       },
       "runes": {
         "primaryStyle": {
@@ -313,8 +465,8 @@
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
             "id": 9105,
@@ -353,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 6,
         "games": 1,
-        "confidencePct": 0.2
+        "confidencePct": 0.16666666666666666
       },
       "position": {
-        "role": "MIDDLE",
+        "role": "JUNGLE",
         "games": 2,
-        "sampleGames": 5,
-        "confidencePct": 0.4
+        "sampleGames": 6,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Volibear-3",
-      "buildIndex": 2,
+      "id": "Volibear-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1812,
+      "totalGames": 2095,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,20 +544,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 673
-        },
-        {
           "itemId": 6662,
           "name": "Iceborn Gauntlet",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 95
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 508
         },
         {
           "itemId": 3071,
@@ -416,43 +568,43 @@
           "purchaseSamples": 54
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 127
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 462
         },
         {
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 19
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3053,
-          3071
+          3071,
+          6662
         ],
         "names": [
-          "Sterak's Gage",
-          "Black Cleaver"
+          "Black Cleaver",
+          "Iceborn Gauntlet"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 7005210.6995561225
+        "games": 7,
+        "wins": 6,
+        "winrate": 0.8571428571428571,
+        "score": 3765099.40444945
       },
       "runes": {
         "primaryStyle": {
@@ -501,176 +653,24 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Volibear-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1812,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 673
-        },
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 29
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 462
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3078,
-          3742
-        ],
-        "names": [
-          "Trinity Force",
-          "Dead Man's Plate"
-        ],
-        "games": 6,
-        "wins": 1,
-        "winrate": 0.16666666666666666,
-        "score": 3291605.087739489
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8232,
-            "name": "Waterwalking"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 7,
+        "games": 3,
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "JUNGLE",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
-          "Q",
           "W",
+          "Q",
           "E"
         ],
         "games": 1,
@@ -687,7 +687,7 @@
       "id": "Volibear-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1812,
+      "totalGames": 2095,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,12 +704,12 @@
           "purchaseSamples": 7
         },
         {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
           "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 673
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 508
         },
         {
           "itemId": 3161,
@@ -718,6 +718,14 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 5
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 462
         }
       ],
       "seedPair": {
@@ -732,7 +740,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1860770.8097237004
+        "score": 1786688.232892367
       },
       "runes": {
         "primaryStyle": {
@@ -797,21 +805,21 @@
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 1812,
+    "totalGames": 2095,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4735099337748344,
+    "winrate": 0.47684964200477326,
     "items": [
       {
         "itemId": 2510,
@@ -877,8 +885,8 @@
           "name": "Triumph"
         },
         {
-          "id": 9104,
-          "name": "Legend: Alacrity"
+          "id": 9105,
+          "name": "Legend: Haste"
         },
         {
           "id": 8299,
@@ -886,23 +894,23 @@
         }
       ],
       "subStyle": {
-        "id": 8200,
-        "name": "Sorcery"
+        "id": 8400,
+        "name": "Resolve"
       },
       "secondaryPerks": [
         {
-          "id": 8275,
-          "name": "Nimbus Cloak"
+          "id": 8446,
+          "name": "Demolish"
         },
         {
-          "id": 8234,
-          "name": "Celerity"
+          "id": 8453,
+          "name": "Revitalize"
         }
       ],
       "statPerks": [
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5005,
+          "name": "Attack Speed"
         },
         {
           "id": 5008,
@@ -913,15 +921,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 1812,
-      "games": 129,
-      "confidencePct": 0.07119205298013245
+      "sampleGames": 2095,
+      "games": 133,
+      "confidencePct": 0.06348448687350836
     },
     "position": {
       "role": "TOP",
-      "games": 1559,
-      "sampleGames": 1812,
-      "confidencePct": 0.8603752759381899
+      "games": 1770,
+      "sampleGames": 2095,
+      "confidencePct": 0.8448687350835322
     },
     "skillOrder": {
       "order": [

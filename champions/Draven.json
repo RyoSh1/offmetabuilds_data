@@ -1,8 +1,22 @@
 {
   "championId": "Draven",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3078,
+        3181
+      ],
+      "names": [
+        "Trinity Force",
+        "Hullbreaker"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 60081072.912905276
+    },
     {
       "itemIds": [
         3053,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 16040942.97087078
+      "score": 18805408.1650801
     },
     {
       "itemIds": [
@@ -29,35 +43,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 8367696.130339753
-    },
-    {
-      "itemIds": [
-        3094,
-        3172
-      ],
-      "names": [
-        "Rapid Firecannon",
-        "Gunmetal Greaves"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 8116909.770109339
-    },
-    {
-      "itemIds": [
-        3181,
-        6672
-      ],
-      "names": [
-        "Hullbreaker",
-        "Kraken Slayer"
-      ],
-      "games": 11,
-      "wins": 7,
-      "winrate": 0.6363636363636364,
-      "score": 8084796.846395434
+      "score": 10463395.196983386
     },
     {
       "itemIds": [
@@ -71,7 +57,21 @@
       "games": 10,
       "wins": 3,
       "winrate": 0.3,
-      "score": 7200313.189005417
+      "score": 10279797.416681131
+    },
+    {
+      "itemIds": [
+        3181,
+        6672
+      ],
+      "names": [
+        "Hullbreaker",
+        "Kraken Slayer"
+      ],
+      "games": 11,
+      "wins": 7,
+      "winrate": 0.6363636363636364,
+      "score": 9857942.704282582
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Draven-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3661,
+      "totalGames": 4379,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 3008,
+          "name": "Gluttonous Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1011
+        },
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 66
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 261
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 773
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3078,
+          3181
+        ],
+        "names": [
+          "Trinity Force",
+          "Hullbreaker"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 60081072.912905276
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Draven-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 4379,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +291,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 16040942.97087078
+        "score": 18805408.1650801
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Draven-2",
-      "buildIndex": 1,
+      "id": "Draven-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3661,
+      "totalGames": 4379,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -290,17 +433,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3094,
-          3172
+          3172,
+          3508
         ],
         "names": [
-          "Rapid Firecannon",
-          "Gunmetal Greaves"
+          "Gunmetal Greaves",
+          "Essence Reaver"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 8116909.770109339
+        "games": 10,
+        "wins": 3,
+        "winrate": 0.3,
+        "score": 10279797.416681131
       },
       "runes": {
         "primaryStyle": {
@@ -331,12 +474,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "statPerks": [
@@ -353,14 +496,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 10,
+        "games": 4,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -369,8 +512,8 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -380,10 +523,10 @@
       }
     },
     {
-      "id": "Draven-3",
-      "buildIndex": 2,
+      "id": "Draven-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3661,
+      "totalGames": 4379,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +595,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 6773987.490788357
+        "score": 9079090.598582879
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +675,10 @@
       }
     },
     {
-      "id": "Draven-4",
-      "buildIndex": 3,
+      "id": "Draven-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3661,
+      "totalGames": 4379,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +747,7 @@
         "games": 6,
         "wins": 3,
         "winrate": 0.5,
-        "score": 2462714.29069402
+        "score": 2922876.477519497
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +825,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Draven-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3661,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 289
-        },
-        {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1011
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 248
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 773
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 106
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 24
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3814,
-          6696
-        ],
-        "names": [
-          "Edge of Night",
-          "Axiom Arc"
-        ],
-        "games": 13,
-        "wins": 10,
-        "winrate": 0.7692307692307693,
-        "score": 1595384.8381642352
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 13,
-        "games": 5,
-        "confidencePct": 0.38461538461538464
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 13,
-        "sampleGames": 13,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 3661,
+    "totalGames": 4379,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.51434034416826,
+    "winrate": 0.5147293902717516,
     "items": [
       {
         "itemId": 6697,
@@ -863,20 +854,20 @@
         "purchaseSamples": 1576
       },
       {
-        "itemId": 3008,
-        "name": "Gluttonous Greaves",
-        "isBoots": true,
-        "order": 3,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 1011
-      },
-      {
         "itemId": 2523,
         "name": "Hexoptics C44",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 880
+      },
+      {
+        "itemId": 3047,
+        "name": "Plated Steelcaps",
+        "isBoots": true,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 455
       },
       {
         "itemId": 3031,
@@ -946,15 +937,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 3661,
-      "games": 538,
-      "confidencePct": 0.1469543840480743
+      "sampleGames": 4379,
+      "games": 642,
+      "confidencePct": 0.14660881479789906
     },
     "position": {
       "role": "BOTTOM",
-      "games": 3331,
-      "sampleGames": 3661,
-      "confidencePct": 0.9098606937995083
+      "games": 4008,
+      "sampleGames": 4379,
+      "confidencePct": 0.9152774606074446
     },
     "skillOrder": {
       "order": [

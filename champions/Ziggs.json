@@ -1,7 +1,7 @@
 {
   "championId": "Ziggs",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 18995846.64266376
+      "score": 18696557.588314902
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Banshee's Veil",
         "Stormsurge"
       ],
-      "games": 4,
+      "games": 6,
       "wins": 4,
-      "winrate": 1,
-      "score": 3796455.047554171
+      "winrate": 0.6666666666666666,
+      "score": 2715862.0139725874
     },
     {
       "itemIds": [
@@ -43,21 +43,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 1487646.6281203814
-    },
-    {
-      "itemIds": [
-        3135,
-        4646
-      ],
-      "names": [
-        "Void Staff",
-        "Stormsurge"
-      ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 996070.906556066
+      "score": 1099862.40140171
     },
     {
       "itemIds": [
@@ -71,7 +57,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 882838.1004327631
+      "score": 712792.0932727741
+    },
+    {
+      "itemIds": [
+        3102,
+        6653
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Liandry's Torment"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 696463.4991634423
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ziggs-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2098,
+      "totalGames": 2417,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,10 +88,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 746
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2
         },
@@ -99,7 +107,7 @@
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 42
         },
@@ -107,7 +115,7 @@
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 648
         },
@@ -115,7 +123,7 @@
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 313
         },
@@ -123,17 +131,9 @@
           "itemId": 3100,
           "name": "Lich Bane",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5.5,
           "purchaseSamples": 4
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -148,7 +148,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 18995846.64266376
+        "score": 18696557.588314902
       },
       "runes": {
         "primaryStyle": {
@@ -222,7 +222,7 @@
       "id": "Ziggs-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2098,
+      "totalGames": 2417,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -288,10 +288,10 @@
           "Banshee's Veil",
           "Stormsurge"
         ],
-        "games": 4,
+        "games": 6,
         "wins": 4,
-        "winrate": 1,
-        "score": 3796455.047554171
+        "winrate": 0.6666666666666666,
+        "score": 2715862.0139725874
       },
       "runes": {
         "primaryStyle": {
@@ -344,15 +344,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -365,7 +365,7 @@
       "id": "Ziggs-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2098,
+      "totalGames": 2417,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -434,7 +434,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 728907.810231988
+        "score": 696463.4991634423
       },
       "runes": {
         "primaryStyle": {
@@ -517,7 +517,7 @@
       "id": "Ziggs-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2098,
+      "totalGames": 2417,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -558,12 +558,12 @@
           "purchaseSamples": 21
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 424
+          "purchaseSamples": 140
         },
         {
           "itemId": 3040,
@@ -583,10 +583,10 @@
           "Liandry's Torment",
           "Bloodletter's Curse"
         ],
-        "games": 5,
+        "games": 7,
         "wins": 3,
-        "winrate": 0.6,
-        "score": 350536.4319867994
+        "winrate": 0.42857142857142855,
+        "score": 352166.31845414283
       },
       "runes": {
         "primaryStyle": {
@@ -639,15 +639,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 7,
         "games": 2,
-        "confidencePct": 0.4
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -669,7 +669,7 @@
       "id": "Ziggs-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2098,
+      "totalGames": 2417,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -738,7 +738,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 297788.41035753075
+        "score": 331212.38265816716
       },
       "runes": {
         "primaryStyle": {
@@ -819,14 +819,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2098,
+    "totalGames": 2417,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5157292659675882,
+    "winrate": 0.5117914770376499,
     "items": [
       {
         "itemId": 6655,
@@ -928,15 +928,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2098,
-      "games": 415,
-      "confidencePct": 0.19780743565300285
+      "sampleGames": 2417,
+      "games": 482,
+      "confidencePct": 0.1994207695490277
     },
     "position": {
       "role": "BOTTOM",
-      "games": 1706,
-      "sampleGames": 2098,
-      "confidencePct": 0.8131553860819828
+      "games": 1947,
+      "sampleGames": 2417,
+      "confidencePct": 0.8055440628878775
     },
     "skillOrder": {
       "order": [

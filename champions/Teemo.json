@@ -1,7 +1,7 @@
 {
   "championId": "Teemo",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Mejai's Soulstealer",
         "Rabadon's Deathcap"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 20007249.706301045
+      "winrate": 0.8,
+      "score": 13504808.967684513
     },
     {
       "itemIds": [
@@ -29,7 +29,35 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 9974109.738177406
+      "score": 9427074.002037924
+    },
+    {
+      "itemIds": [
+        3094,
+        3095
+      ],
+      "names": [
+        "Rapid Firecannon",
+        "Stormrazor"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 9133713.261395363
+    },
+    {
+      "itemIds": [
+        3157,
+        8010
+      ],
+      "names": [
+        "Zhonya's Hourglass",
+        "Bloodletter's Curse"
+      ],
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 5505996.294605351
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 5336155.541520711
-    },
-    {
-      "itemIds": [
-        3124,
-        3153
-      ],
-      "names": [
-        "Guinsoo's Rageblade",
-        "Blade of The Ruined King"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 3802518.6152474796
-    },
-    {
-      "itemIds": [
-        3157,
-        8010
-      ],
-      "names": [
-        "Zhonya's Hourglass",
-        "Bloodletter's Curse"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 3398599.435960752
+      "score": 4968089.512736548
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Teemo-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2364,
+      "totalGames": 2753,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +145,10 @@
           "Mejai's Soulstealer",
           "Rabadon's Deathcap"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 20007249.706301045
+        "winrate": 0.8,
+        "score": 13504808.967684513
       },
       "runes": {
         "primaryStyle": {
@@ -174,17 +174,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8234,
+            "name": "Celerity"
           }
         ],
         "statPerks": [
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "JUNGLE",
         "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,7 @@
       "id": "Teemo-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2364,
+      "totalGames": 2753,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -292,7 +292,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 9974109.738177406
+        "score": 9427074.002037924
       },
       "runes": {
         "primaryStyle": {
@@ -375,7 +375,134 @@
       "id": "Teemo-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2364,
+      "totalGames": 2753,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 959
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3094,
+          "name": "Rapid Firecannon",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3095,
+          "name": "Stormrazor",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3094,
+          3095
+        ],
+        "names": [
+          "Rapid Firecannon",
+          "Stormrazor"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 9133713.261395363
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9101,
+            "name": "Absorb Life"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 2,
+        "wins": 2,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Teemo-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 2753,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -444,7 +571,7 @@
         "games": 6,
         "wins": 5,
         "winrate": 0.8333333333333334,
-        "score": 5336155.541520711
+        "score": 4968089.512736548
       },
       "runes": {
         "primaryStyle": {
@@ -524,10 +651,10 @@
       }
     },
     {
-      "id": "Teemo-4",
-      "buildIndex": 3,
+      "id": "Teemo-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2364,
+      "totalGames": 2753,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -572,7 +699,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 2880753.9505063044
+        "score": 3259508.111477395
       },
       "runes": {
         "primaryStyle": {
@@ -650,169 +777,17 @@
         "wins": 2,
         "winrate": 0.6666666666666666
       }
-    },
-    {
-      "id": "Teemo-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 2364,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 959
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 90
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 123
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 143
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          3135
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Void Staff"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 582948.0983238532
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 2364,
+    "totalGames": 2753,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49915397631133673,
+    "winrate": 0.4998183799491464,
     "items": [
       {
         "itemId": 3009,
@@ -914,15 +889,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2364,
-      "games": 358,
-      "confidencePct": 0.15143824027072758
+      "sampleGames": 2753,
+      "games": 427,
+      "confidencePct": 0.15510352342898656
     },
     "position": {
       "role": "TOP",
-      "games": 2066,
-      "sampleGames": 2364,
-      "confidencePct": 0.873942470389171
+      "games": 2379,
+      "sampleGames": 2753,
+      "confidencePct": 0.8641482019614966
     },
     "skillOrder": {
       "order": [

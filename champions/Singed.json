@@ -1,7 +1,7 @@
 {
   "championId": "Singed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T13:36:25.009Z",
+  "generatedAt": "2026-09-25T19:48:47.151Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,21 +15,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 42067058.996493645
-    },
-    {
-      "itemIds": [
-        4645,
-        8010
-      ],
-      "names": [
-        "Shadowflame",
-        "Bloodletter's Curse"
-      ],
-      "games": 15,
-      "wins": 9,
-      "winrate": 0.6,
-      "score": 19085387.724158596
+      "score": 48274041.46635518
     },
     {
       "itemIds": [
@@ -43,7 +29,7 @@
       "games": 5,
       "wins": 5,
       "winrate": 1,
-      "score": 10397191.940486806
+      "score": 11388656.427155485
     },
     {
       "itemIds": [
@@ -57,7 +43,7 @@
       "games": 27,
       "wins": 12,
       "winrate": 0.4444444444444444,
-      "score": 9440928.072773185
+      "score": 10988826.359561026
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Hextech Rocketbelt",
         "Shadowflame"
       ],
-      "games": 27,
+      "games": 29,
       "wins": 15,
-      "winrate": 0.5555555555555556,
-      "score": 6367969.094656088
+      "winrate": 0.5172413793103449,
+      "score": 7878368.105183143
+    },
+    {
+      "itemIds": [
+        2524,
+        2525
+      ],
+      "names": [
+        "Bandlepipes",
+        "Protoplasm Harness"
+      ],
+      "games": 17,
+      "wins": 10,
+      "winrate": 0.5882352941176471,
+      "score": 3434400.9643473723
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Singed-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3900,
+      "totalGames": 4328,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,20 +120,12 @@
           "purchaseSamples": 82
         },
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 3135,
+          "name": "Void Staff",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 513
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 192
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 4
         }
       ],
       "seedPair": {
@@ -148,7 +140,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 42067058.996493645
+        "score": 48274041.46635518
       },
       "runes": {
         "primaryStyle": {
@@ -213,16 +205,16 @@
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
+        "games": 2,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     },
     {
       "id": "Singed-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3900,
+      "totalGames": 4328,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -255,43 +247,43 @@
           "purchaseSamples": 619
         },
         {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 413
+        },
+        {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 82
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 297
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 413
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 13
         }
       ],
       "seedPair": {
         "itemIds": [
-          4645,
-          8010
+          3041,
+          4645
         ],
         "names": [
-          "Shadowflame",
-          "Bloodletter's Curse"
+          "Mejai's Soulstealer",
+          "Shadowflame"
         ],
-        "games": 15,
-        "wins": 9,
-        "winrate": 0.6,
-        "score": 19085387.724158596
+        "games": 5,
+        "wins": 5,
+        "winrate": 1,
+        "score": 11388656.427155485
       },
       "runes": {
         "primaryStyle": {
@@ -322,12 +314,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
             "id": 8299,
             "name": "Last Stand"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -344,15 +336,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
-        "games": 8,
-        "confidencePct": 0.5333333333333333
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "BOTTOM",
-        "games": 8,
-        "sampleGames": 15,
-        "confidencePct": 0.5333333333333333
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -360,8 +352,8 @@
           "E",
           "W"
         ],
-        "games": 12,
-        "sampleGames": 12,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -374,7 +366,7 @@
       "id": "Singed-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3900,
+      "totalGames": 4328,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -440,10 +432,10 @@
           "Bandlepipes",
           "Protoplasm Harness"
         ],
-        "games": 16,
-        "wins": 9,
-        "winrate": 0.5625,
-        "score": 3211349.736979601
+        "games": 17,
+        "wins": 10,
+        "winrate": 0.5882352941176471,
+        "score": 3434400.9643473723
       },
       "runes": {
         "primaryStyle": {
@@ -496,15 +488,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 16,
+        "sampleGames": 17,
         "games": 10,
-        "confidencePct": 0.625
+        "confidencePct": 0.5882352941176471
       },
       "position": {
         "role": "UTILITY",
         "games": 13,
-        "sampleGames": 16,
-        "confidencePct": 0.8125
+        "sampleGames": 17,
+        "confidencePct": 0.7647058823529411
       },
       "skillOrder": {
         "order": [
@@ -526,7 +518,7 @@
       "id": "Singed-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3900,
+      "totalGames": 4328,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -559,35 +551,43 @@
           "purchaseSamples": 4
         },
         {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 513
+        },
+        {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 82
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 4
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 192
         }
       ],
       "seedPair": {
         "itemIds": [
-          3135,
-          3152
+          3742,
+          4645
         ],
         "names": [
-          "Void Staff",
-          "Hextech Rocketbelt"
+          "Dead Man's Plate",
+          "Shadowflame"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 2360161.028835757
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 2425364.1425180123
       },
       "runes": {
         "primaryStyle": {
@@ -608,22 +608,22 @@
             "name": "Celerity"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8410,
-            "name": "Approach Velocity"
+            "id": 8299,
+            "name": "Last Stand"
           },
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -632,23 +632,23 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -656,21 +656,21 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 2,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     },
     {
       "id": "Singed-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3900,
+      "totalGames": 4328,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -695,20 +695,20 @@
           "purchaseSamples": 856
         },
         {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 941
-        },
-        {
           "itemId": 2504,
           "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 38
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 413
         },
         {
           "itemId": 3143,
@@ -719,27 +719,27 @@
           "purchaseSamples": 192
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 413
+          "purchaseSamples": 294
         }
       ],
       "seedPair": {
         "itemIds": [
           2504,
-          2525
+          3152
         ],
         "names": [
           "Kaenic Rookern",
-          "Protoplasm Harness"
+          "Hextech Rocketbelt"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 1508414.8334408526
+        "games": 13,
+        "wins": 6,
+        "winrate": 0.46153846153846156,
+        "score": 1111628.8463635582
       },
       "runes": {
         "primaryStyle": {
@@ -747,8 +747,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
@@ -760,8 +760,8 @@
             "name": "Celerity"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -774,8 +774,8 @@
             "name": "Ultimate Hunter"
           },
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8126,
+            "name": "Cheap Shot"
           }
         ],
         "statPerks": [
@@ -784,33 +784,33 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 13,
+        "games": 3,
+        "confidencePct": 0.23076923076923078
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 1,
-        "sampleGames": 4,
-        "confidencePct": 0.25
+        "role": "MIDDLE",
+        "games": 7,
+        "sampleGames": 13,
+        "confidencePct": 0.5384615384615384
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "games": 5,
+        "sampleGames": 8,
+        "confidencePct": 0.625
       },
       "asWholeSet": {
         "games": 0,
@@ -820,14 +820,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3900,
+    "totalGames": 4328,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5097435897435898,
+    "winrate": 0.5113216266173752,
     "items": [
       {
         "itemId": 3009,
@@ -870,12 +870,12 @@
         "purchaseSamples": 941
       },
       {
-        "itemId": 3157,
-        "name": "Zhonya's Hourglass",
+        "itemId": 3742,
+        "name": "Dead Man's Plate",
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 610
+        "purchaseSamples": 513
       }
     ],
     "runes": {
@@ -929,15 +929,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3900,
-      "games": 1238,
-      "confidencePct": 0.31743589743589745
+      "sampleGames": 4328,
+      "games": 1317,
+      "confidencePct": 0.30429759704251386
     },
     "position": {
       "role": "TOP",
-      "games": 2831,
-      "sampleGames": 3900,
-      "confidencePct": 0.7258974358974359
+      "games": 3187,
+      "sampleGames": 4328,
+      "confidencePct": 0.7363678373382625
     },
     "skillOrder": {
       "order": [
