@@ -1,7 +1,7 @@
 {
   "championId": "Akali",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Liandry's Torment",
         "Bloodletter's Curse"
       ],
-      "games": 15,
-      "wins": 11,
-      "winrate": 0.7333333333333333,
-      "score": 10388563.996810347
+      "games": 20,
+      "wins": 13,
+      "winrate": 0.65,
+      "score": 62168833.81633333
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Riftmaker",
         "Liandry's Torment"
       ],
-      "games": 35,
-      "wins": 19,
-      "winrate": 0.5428571428571428,
-      "score": 7606796.615504374
+      "games": 51,
+      "wins": 26,
+      "winrate": 0.5098039215686274,
+      "score": 45679683.84979573
     },
     {
       "itemIds": [
@@ -40,38 +40,38 @@
         "Riftmaker",
         "Bloodletter's Curse"
       ],
-      "games": 16,
+      "games": 20,
+      "wins": 12,
+      "winrate": 0.6,
+      "score": 10200645.875477048
+    },
+    {
+      "itemIds": [
+        3100,
+        8010
+      ],
+      "names": [
+        "Lich Bane",
+        "Bloodletter's Curse"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 2278047.6853605825
+    },
+    {
+      "itemIds": [
+        3100,
+        3102
+      ],
+      "names": [
+        "Lich Bane",
+        "Banshee's Veil"
+      ],
+      "games": 14,
       "wins": 10,
-      "winrate": 0.625,
-      "score": 1094170.722661502
-    },
-    {
-      "itemIds": [
-        3135,
-        4633
-      ],
-      "names": [
-        "Void Staff",
-        "Riftmaker"
-      ],
-      "games": 8,
-      "wins": 3,
-      "winrate": 0.375,
-      "score": 339775.5271895456
-    },
-    {
-      "itemIds": [
-        3102,
-        3135
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Void Staff"
-      ],
-      "games": 15,
-      "wins": 13,
-      "winrate": 0.8666666666666667,
-      "score": 267079.0607909149
+      "winrate": 0.7142857142857143,
+      "score": 1785571.1141708002
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Akali-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6972,
+      "totalGames": 9565,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,18 +96,10 @@
           "purchaseSamples": 144
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1172
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 18
         },
@@ -115,9 +107,17 @@
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 191
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 430
         },
         {
           "itemId": 8010,
@@ -145,10 +145,10 @@
           "Liandry's Torment",
           "Bloodletter's Curse"
         ],
-        "games": 15,
-        "wins": 11,
-        "winrate": 0.7333333333333333,
-        "score": 10388563.996810347
+        "games": 20,
+        "wins": 13,
+        "winrate": 0.65,
+        "score": 62168833.81633333
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
+        "sampleGames": 20,
         "games": 6,
-        "confidencePct": 0.4
+        "confidencePct": 0.3
       },
       "position": {
         "role": "TOP",
-        "games": 9,
-        "sampleGames": 15,
-        "confidencePct": 0.6
+        "games": 13,
+        "sampleGames": 20,
+        "confidencePct": 0.65
       },
       "skillOrder": {
         "order": [
@@ -231,159 +231,7 @@
       "id": "Akali-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 6972,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 144
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 191
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3110
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 592
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 947
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3135,
-          4633
-        ],
-        "names": [
-          "Void Staff",
-          "Riftmaker"
-        ],
-        "games": 8,
-        "wins": 3,
-        "winrate": 0.375,
-        "score": 339775.5271895456
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 1,
-        "confidencePct": 0.125
-      },
-      "position": {
-        "role": "TOP",
-        "games": 5,
-        "sampleGames": 8,
-        "confidencePct": 0.625
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Akali-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 6972,
+      "totalGames": 9565,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -442,17 +290,169 @@
       ],
       "seedPair": {
         "itemIds": [
-          3102,
-          3135
+          3100,
+          3102
         ],
         "names": [
-          "Banshee's Veil",
-          "Void Staff"
+          "Lich Bane",
+          "Banshee's Veil"
         ],
-        "games": 15,
-        "wins": 13,
-        "winrate": 0.8666666666666667,
-        "score": 267079.0607909149
+        "games": 14,
+        "wins": 10,
+        "winrate": 0.7142857142857143,
+        "score": 1785571.1141708002
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 14,
+        "games": 3,
+        "confidencePct": 0.21428571428571427
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 12,
+        "sampleGames": 14,
+        "confidencePct": 0.8571428571428571
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Akali-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 9565,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 144
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 191
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 430
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 592
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 947
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3135,
+          6653
+        ],
+        "names": [
+          "Void Staff",
+          "Liandry's Torment"
+        ],
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 1730099.9793527427
       },
       "runes": {
         "primaryStyle": {
@@ -483,12 +483,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "statPerks": [
@@ -505,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
-        "games": 5,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 8,
-        "sampleGames": 15,
-        "confidencePct": 0.5333333333333333
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
@@ -521,8 +521,8 @@
           "E",
           "W"
         ],
-        "games": 15,
-        "sampleGames": 15,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -535,7 +535,7 @@
       "id": "Akali-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6972,
+      "totalGames": 9565,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -552,28 +552,28 @@
           "purchaseSamples": 1172
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 144
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 18
         },
         {
-          "itemId": 4633,
-          "name": "Riftmaker",
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 430
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 191
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 746
         },
         {
           "itemId": 3165,
@@ -604,7 +604,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 89628.79085278409
+        "score": 589123.047169869
       },
       "runes": {
         "primaryStyle": {
@@ -685,14 +685,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6972,
+    "totalGames": 9565,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4886689615605278,
+    "winrate": 0.48771562990067957,
     "items": [
       {
         "itemId": 3146,
@@ -703,18 +703,10 @@
         "purchaseSamples": 8875
       },
       {
-        "itemId": 3152,
-        "name": "Hextech Rocketbelt",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 1172
-      },
-      {
         "itemId": 3175,
         "name": "Spellslinger's Shoes",
         "isBoots": true,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 18
       },
@@ -722,9 +714,17 @@
         "itemId": 4645,
         "name": "Shadowflame",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 6071
+      },
+      {
+        "itemId": 4646,
+        "name": "Stormsurge",
+        "isBoots": false,
+        "order": 4,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 838
       },
       {
         "itemId": 3157,
@@ -790,19 +790,19 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5001,
-          "name": "Health Scaling"
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 6972,
-      "games": 1811,
-      "confidencePct": 0.25975329890992543
+      "sampleGames": 9565,
+      "games": 2684,
+      "confidencePct": 0.2806063774176686
     },
     "position": {
       "role": "MIDDLE",
-      "games": 5065,
-      "sampleGames": 6972,
-      "confidencePct": 0.7264773379231211
+      "games": 6943,
+      "sampleGames": 9565,
+      "confidencePct": 0.7258755880815473
     },
     "skillOrder": {
       "order": [

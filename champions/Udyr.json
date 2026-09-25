@@ -1,77 +1,77 @@
 {
   "championId": "Udyr",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
-        2524,
-        3742
+        3118,
+        4646
       ],
       "names": [
-        "Bandlepipes",
-        "Dead Man's Plate"
+        "Malignance",
+        "Stormsurge"
       ],
       "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 5288297.038571139
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 74701056.87750274
     },
     {
       "itemIds": [
-        3742,
-        4401
+        3068,
+        3190
       ],
       "names": [
-        "Dead Man's Plate",
-        "Force of Nature"
+        "Sunfire Aegis",
+        "Locket of the Iron Solari"
       ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 2630441.976487895
+      "wins": 3,
+      "winrate": 1,
+      "score": 9960221.909250956
     },
     {
       "itemIds": [
-        3071,
-        6692
+        4645,
+        4646
       ],
       "names": [
-        "Black Cleaver",
-        "Eclipse"
+        "Shadowflame",
+        "Stormsurge"
       ],
-      "games": 16,
-      "wins": 10,
-      "winrate": 0.625,
-      "score": 391992.58218034386
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 5247282.672861897
     },
     {
       "itemIds": [
-        3026,
-        6631
+        3118,
+        4645
       ],
       "names": [
-        "Guardian Angel",
-        "Stridebreaker"
+        "Malignance",
+        "Shadowflame"
       ],
-      "games": 6,
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 3533804.397351538
+    },
+    {
+      "itemIds": [
+        3036,
+        3156
+      ],
+      "names": [
+        "Lord Dominik's Regards",
+        "Maw of Malmortius"
+      ],
+      "games": 5,
       "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 320643.4081267292
-    },
-    {
-      "itemIds": [
-        3053,
-        6692
-      ],
-      "names": [
-        "Sterak's Gage",
-        "Eclipse"
-      ],
-      "games": 10,
-      "wins": 6,
-      "winrate": 0.6,
-      "score": 263382.7794742829
+      "winrate": 0.8,
+      "score": 3273814.3552471423
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Udyr-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1242,
+      "totalGames": 1749,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,20 +88,163 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6631,
-          "name": "Stridebreaker",
+          "itemId": 6653,
+          "name": "Liandry's Torment",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 115
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 339
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 674
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 137
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          4646
+        ],
+        "names": [
+          "Malignance",
+          "Stormsurge"
+        ],
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25,
+        "score": 74701056.87750274
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Udyr-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1749,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3068,
+          "name": "Sunfire Aegis",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 117
+          "purchaseSamples": 11
         },
         {
           "itemId": 3047,
@@ -112,43 +255,330 @@
           "purchaseSamples": 674
         },
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 3065,
+          "name": "Spirit Visage",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 94
+          "purchaseSamples": 277
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 82
+          "purchaseSamples": 19
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
-          3742
+          3068,
+          3190
         ],
         "names": [
-          "Bandlepipes",
-          "Dead Man's Plate"
+          "Sunfire Aegis",
+          "Locket of the Iron Solari"
         ],
-        "games": 4,
-        "wins": 2,
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 9960221.909250956
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Udyr-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 1749,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 139
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 674
+        },
+        {
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 160
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 96
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3036,
+          3156
+        ],
+        "names": [
+          "Lord Dominik's Regards",
+          "Maw of Malmortius"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 3273814.3552471423
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 5,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Udyr-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1749,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 128
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 674
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 277
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 48
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3181
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Hullbreaker"
+        ],
+        "games": 6,
+        "wins": 3,
         "winrate": 0.5,
-        "score": 5288297.038571139
+        "score": 2343920.426518174
       },
       "runes": {
         "primaryStyle": {
@@ -183,312 +613,8 @@
             "name": "Approach Velocity"
           },
           {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Udyr-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 1242,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 117
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 674
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 96
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 96
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          6692
-        ],
-        "names": [
-          "Black Cleaver",
-          "Eclipse"
-        ],
-        "games": 16,
-        "wins": 10,
-        "winrate": 0.625,
-        "score": 391992.58218034386
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
-          },
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 16,
-        "games": 10,
-        "confidencePct": 0.625
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 14,
-        "sampleGames": 16,
-        "confidencePct": 0.875
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 16,
-        "sampleGames": 16,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Udyr-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 1242,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 115
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 117
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 674
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 96
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 96
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          6631
-        ],
-        "names": [
-          "Guardian Angel",
-          "Stridebreaker"
-        ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 320643.4081267292
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -510,21 +636,12 @@
         "confidencePct": 1
       },
       "position": {
-        "role": "JUNGLE",
+        "role": "TOP",
         "games": 6,
         "sampleGames": 6,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -532,10 +649,10 @@
       }
     },
     {
-      "id": "Udyr-4",
-      "buildIndex": 3,
+      "id": "Udyr-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1242,
+      "totalGames": 1749,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -552,170 +669,10 @@
           "purchaseSamples": 139
         },
         {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 16
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 674
-        },
-        {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 160
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3033,
-          3073
-        ],
-        "names": [
-          "Mortal Reminder",
-          "Experimental Hexplate"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 242685.4558100024
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8232,
-            "name": "Waterwalking"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
-          },
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Udyr-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1242,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 115
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 117
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 674
         },
@@ -723,92 +680,108 @@
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 94
         },
         {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
+          "itemId": 6664,
+          "name": "Hollow Radiance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 96
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
         "itemIds": [
-          3078,
-          3742
+          3181,
+          6664
         ],
         "names": [
-          "Trinity Force",
-          "Dead Man's Plate"
+          "Hullbreaker",
+          "Hollow Radiance"
         ],
-        "games": 6,
-        "wins": 6,
-        "winrate": 1,
-        "score": 238339.45699351377
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 2013824.3839766483
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8400,
+          "name": "Resolve"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8437,
+          "name": "Grasp of the Undying"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8446,
+            "name": "Demolish"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8429,
+            "name": "Conditioning"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8226,
+            "name": "Manaflow Band"
           }
         ],
         "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 6,
-        "games": 6,
-        "confidencePct": 1
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 6,
-        "sampleGames": 6,
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -817,26 +790,26 @@
           "E",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "asWholeSet": {
-        "games": 0,
+        "games": 1,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 1242,
+    "totalGames": 1749,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49516908212560384,
+    "winrate": 0.48484848484848486,
     "items": [
       {
         "itemId": 3161,
@@ -847,20 +820,20 @@
         "purchaseSamples": 340
       },
       {
-        "itemId": 3748,
-        "name": "Titanic Hydra",
+        "itemId": 6631,
+        "name": "Stridebreaker",
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 139
+        "purchaseSamples": 115
       },
       {
-        "itemId": 3047,
-        "name": "Plated Steelcaps",
+        "itemId": 3009,
+        "name": "Boots of Swiftness",
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 674
+        "purchaseSamples": 512
       },
       {
         "itemId": 3073,
@@ -916,12 +889,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8345,
-          "name": "Biscuit Delivery"
-        },
-        {
           "id": 8410,
           "name": "Approach Velocity"
+        },
+        {
+          "id": 8345,
+          "name": "Biscuit Delivery"
         }
       ],
       "statPerks": [
@@ -938,15 +911,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 1242,
-      "games": 488,
-      "confidencePct": 0.392914653784219
+      "sampleGames": 1749,
+      "games": 528,
+      "confidencePct": 0.3018867924528302
     },
     "position": {
       "role": "TOP",
-      "games": 711,
-      "sampleGames": 1242,
-      "confidencePct": 0.572463768115942
+      "games": 864,
+      "sampleGames": 1749,
+      "confidencePct": 0.4939965694682676
     },
     "skillOrder": {
       "order": [

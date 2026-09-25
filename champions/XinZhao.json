@@ -1,7 +1,7 @@
 {
   "championId": "XinZhao",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 113041464.66994609
+      "score": 477105374.7418313
+    },
+    {
+      "itemIds": [
+        2510,
+        3041
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Mejai's Soulstealer"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 102383391.71513784
     },
     {
       "itemIds": [
@@ -26,38 +40,24 @@
         "Essence Reaver",
         "The Collector"
       ],
-      "games": 3,
-      "wins": 3,
+      "games": 4,
+      "wins": 4,
       "winrate": 1,
-      "score": 21164178.59187609
+      "score": 101222686.06747662
     },
     {
       "itemIds": [
-        6673,
-        6699
+        3041,
+        3087
       ],
       "names": [
-        "Immortal Shieldbow",
-        "Voltaic Cyclosword"
+        "Mejai's Soulstealer",
+        "Statikk Shiv"
       ],
-      "games": 10,
-      "wins": 6,
-      "winrate": 0.6,
-      "score": 20537012.29467001
-    },
-    {
-      "itemIds": [
-        3036,
-        6673
-      ],
-      "names": [
-        "Lord Dominik's Regards",
-        "Immortal Shieldbow"
-      ],
-      "games": 9,
-      "wins": 7,
-      "winrate": 0.7777777777777778,
-      "score": 19487264.62164348
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 89970932.06293043
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 17040920.298420526
+      "score": 76615156.58049017
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "XinZhao-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2102,
+      "totalGames": 2940,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -140,7 +140,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 113041464.66994609
+        "score": 477105374.7418313
       },
       "runes": {
         "primaryStyle": {
@@ -223,7 +223,7 @@
       "id": "XinZhao-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2102,
+      "totalGames": 2940,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,12 +240,147 @@
           "purchaseSamples": 142
         },
         {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1423
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 101
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3041
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Mejai's Soulstealer"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 102383391.71513784
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "XinZhao-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 2940,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 69
+        },
+        {
+          "itemId": 3087,
+          "name": "Statikk Shiv",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 142
         },
         {
           "itemId": 3508,
@@ -289,46 +424,46 @@
           "Essence Reaver",
           "The Collector"
         ],
-        "games": 3,
-        "wins": 3,
+        "games": 4,
+        "wins": 4,
         "winrate": 1,
-        "score": 21164178.59187609
+        "score": 101222686.06747662
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
           {
             "id": 8143,
             "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -345,15 +480,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -372,10 +507,10 @@
       }
     },
     {
-      "id": "XinZhao-3",
-      "buildIndex": 2,
+      "id": "XinZhao-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2102,
+      "totalGames": 2940,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -416,12 +551,20 @@
           "purchaseSamples": 11
         },
         {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 86
+          "purchaseSamples": 101
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 29
         }
       ],
       "seedPair": {
@@ -436,7 +579,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 17040920.298420526
+        "score": 76615156.58049017
       },
       "runes": {
         "primaryStyle": {
@@ -510,158 +653,6 @@
         "confidencePct": 0.5
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "XinZhao-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 2102,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 69
-        },
-        {
-          "itemId": 3087,
-          "name": "Statikk Shiv",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 142
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1423
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 14
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3031,
-          6699
-        ],
-        "names": [
-          "Infinity Edge",
-          "Voltaic Cyclosword"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 9194875.10845779
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "asWholeSet": {
         "games": 0,
         "wins": 0,
         "winrate": null
@@ -671,7 +662,7 @@
       "id": "XinZhao-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2102,
+      "totalGames": 2940,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,18 +695,26 @@
           "purchaseSamples": 11
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 32
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 101
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 16
         },
         {
           "itemId": 3042,
           "name": "Muramana",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -729,10 +728,10 @@
           "Muramana",
           "Statikk Shiv"
         ],
-        "games": 30,
-        "wins": 15,
-        "winrate": 0.5,
-        "score": 7935484.804898314
+        "games": 33,
+        "wins": 16,
+        "winrate": 0.48484848484848486,
+        "score": 29351464.054403376
       },
       "runes": {
         "primaryStyle": {
@@ -785,15 +784,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 30,
-        "games": 5,
-        "confidencePct": 0.16666666666666666
+        "sampleGames": 33,
+        "games": 6,
+        "confidencePct": 0.18181818181818182
       },
       "position": {
         "role": "TOP",
-        "games": 24,
-        "sampleGames": 30,
-        "confidencePct": 0.8
+        "games": 27,
+        "sampleGames": 33,
+        "confidencePct": 0.8181818181818182
       },
       "skillOrder": {
         "order": [
@@ -806,21 +805,21 @@
         "confidencePct": 0.7931034482758621
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 2102,
+    "totalGames": 2940,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4804947668886774,
+    "winrate": 0.4738095238095238,
     "items": [
       {
         "itemId": 3748,
@@ -900,12 +899,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8347,
-          "name": "Cosmic Insight"
-        },
-        {
           "id": 8304,
           "name": "Magical Footwear"
+        },
+        {
+          "id": 8347,
+          "name": "Cosmic Insight"
         }
       ],
       "statPerks": [
@@ -922,15 +921,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2102,
-      "games": 1090,
-      "confidencePct": 0.5185537583254044
+      "sampleGames": 2940,
+      "games": 1379,
+      "confidencePct": 0.46904761904761905
     },
     "position": {
       "role": "JUNGLE",
-      "games": 1866,
-      "sampleGames": 2102,
-      "confidencePct": 0.8877259752616555
+      "games": 2639,
+      "sampleGames": 2940,
+      "confidencePct": 0.8976190476190476
     },
     "skillOrder": {
       "order": [

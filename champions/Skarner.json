@@ -1,8 +1,22 @@
 {
   "championId": "Skarner",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3814,
+        6695
+      ],
+      "names": [
+        "Edge of Night",
+        "Serpent's Fang"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 29940175.085339602
+    },
     {
       "itemIds": [
         3068,
@@ -12,10 +26,10 @@
         "Sunfire Aegis",
         "Fimbulwinter"
       ],
-      "games": 36,
-      "wins": 24,
-      "winrate": 0.6666666666666666,
-      "score": 2987645.9552988308
+      "games": 40,
+      "wins": 25,
+      "winrate": 0.625,
+      "score": 15484245.660856659
     },
     {
       "itemIds": [
@@ -26,10 +40,10 @@
         "Fimbulwinter",
         "Hollow Radiance"
       ],
-      "games": 16,
-      "wins": 9,
-      "winrate": 0.5625,
-      "score": 2370406.015364686
+      "games": 17,
+      "wins": 10,
+      "winrate": 0.5882352941176471,
+      "score": 14964615.881253652
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 2003325.099272218
+      "score": 13761521.850467104
     },
     {
       "itemIds": [
-        3068,
-        3075
+        3179,
+        3814
       ],
       "names": [
-        "Sunfire Aegis",
-        "Thornmail"
-      ],
-      "games": 17,
-      "wins": 11,
-      "winrate": 0.6470588235294118,
-      "score": 1897139.017650011
-    },
-    {
-      "itemIds": [
-        3814,
-        6699
-      ],
-      "names": [
-        "Edge of Night",
-        "Voltaic Cyclosword"
+        "Umbral Glaive",
+        "Edge of Night"
       ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1597017.1408646554
+      "wins": 3,
+      "winrate": 1,
+      "score": 11947178.218077306
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Skarner-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2029,
+      "totalGames": 2980,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1186
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 53
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3814,
+          6695
+        ],
+        "names": [
+          "Edge of Night",
+          "Serpent's Fang"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 29940175.085339602
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Skarner-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,20 +255,20 @@
           "purchaseSamples": 223
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 432
-        },
-        {
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 46
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 432
         },
         {
           "itemId": 3121,
@@ -145,10 +288,10 @@
           "Sunfire Aegis",
           "Fimbulwinter"
         ],
-        "games": 36,
-        "wins": 24,
-        "winrate": 0.6666666666666666,
-        "score": 2987645.9552988308
+        "games": 40,
+        "wins": 25,
+        "winrate": 0.625,
+        "score": 15484245.660856659
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +344,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 36,
-        "games": 19,
-        "confidencePct": 0.5277777777777778
+        "sampleGames": 40,
+        "games": 21,
+        "confidencePct": 0.525
       },
       "position": {
         "role": "TOP",
-        "games": 35,
-        "sampleGames": 36,
-        "confidencePct": 0.9722222222222222
+        "games": 39,
+        "sampleGames": 40,
+        "confidencePct": 0.975
       },
       "skillOrder": {
         "order": [
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Skarner-2",
-      "buildIndex": 1,
+      "id": "Skarner-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2029,
+      "totalGames": 2980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -297,10 +440,10 @@
           "Fimbulwinter",
           "Hollow Radiance"
         ],
-        "games": 16,
-        "wins": 9,
-        "winrate": 0.5625,
-        "score": 2370406.015364686
+        "games": 17,
+        "wins": 10,
+        "winrate": 0.5882352941176471,
+        "score": 14964615.881253652
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +496,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 16,
-        "games": 6,
-        "confidencePct": 0.375
+        "sampleGames": 17,
+        "games": 7,
+        "confidencePct": 0.4117647058823529
       },
       "position": {
         "role": "TOP",
-        "games": 16,
-        "sampleGames": 16,
+        "games": 17,
+        "sampleGames": 17,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -380,10 +523,10 @@
       }
     },
     {
-      "id": "Skarner-3",
-      "buildIndex": 2,
+      "id": "Skarner-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2029,
+      "totalGames": 2980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -444,7 +587,7 @@
         "games": 6,
         "wins": 5,
         "winrate": 0.8333333333333334,
-        "score": 2003325.099272218
+        "score": 13761521.850467104
       },
       "runes": {
         "primaryStyle": {
@@ -524,154 +667,10 @@
       }
     },
     {
-      "id": "Skarner-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 2029,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 844
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 571
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1186
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 53
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3814,
-          6699
-        ],
-        "names": [
-          "Edge of Night",
-          "Voltaic Cyclosword"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 1597017.1408646554
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Skarner-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2029,
+      "totalGames": 2980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,73 +695,73 @@
           "purchaseSamples": 844
         },
         {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 103
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1186
         },
         {
-          "itemId": 2502,
-          "name": "Unending Despair",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 965
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 432
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
         "itemIds": [
-          3121,
+          3071,
           3161
         ],
         "names": [
-          "Fimbulwinter",
+          "Black Cleaver",
           "Spear of Shojin"
         ],
-        "games": 5,
-        "wins": 2,
-        "winrate": 0.4,
-        "score": 1098698.999298111
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 7576102.327988261
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 9923,
+          "name": "Hail of Blades"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "subStyle": {
@@ -771,37 +770,37 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8313,
+            "name": "Triple Tonic"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
+        "sampleGames": 6,
+        "games": 5,
+        "confidencePct": 0.8333333333333334
       },
       "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "role": "JUNGLE",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -809,8 +808,8 @@
           "W",
           "E"
         ],
-        "games": 5,
-        "sampleGames": 5,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -821,14 +820,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2029,
+    "totalGames": 2980,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.507639231148349,
+    "winrate": 0.5144295302013423,
     "items": [
       {
         "itemId": 3084,
@@ -839,10 +838,18 @@
         "purchaseSamples": 1444
       },
       {
+        "itemId": 2525,
+        "name": "Protoplasm Harness",
+        "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 571
+      },
+      {
         "itemId": 3047,
         "name": "Plated Steelcaps",
         "isBoots": true,
-        "order": 2,
+        "order": 3,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 1186
       },
@@ -850,7 +857,7 @@
         "itemId": 2502,
         "name": "Unending Despair",
         "isBoots": false,
-        "order": 3,
+        "order": 4,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 965
       },
@@ -858,17 +865,9 @@
         "itemId": 3065,
         "name": "Spirit Visage",
         "isBoots": false,
-        "order": 4,
-        "medianPurchaseOrder": 4,
-        "purchaseSamples": 432
-      },
-      {
-        "itemId": 3075,
-        "name": "Thornmail",
-        "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 223
+        "purchaseSamples": 432
       },
       {
         "itemId": 3143,
@@ -908,12 +907,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8304,
-          "name": "Magical Footwear"
-        },
-        {
           "id": 8410,
           "name": "Approach Velocity"
+        },
+        {
+          "id": 8304,
+          "name": "Magical Footwear"
         }
       ],
       "statPerks": [
@@ -926,19 +925,19 @@
           "name": "Health Scaling"
         },
         {
-          "id": 5011,
-          "name": "Health"
+          "id": 5001,
+          "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2029,
-      "games": 603,
-      "confidencePct": 0.29719073435189747
+      "sampleGames": 2980,
+      "games": 1101,
+      "confidencePct": 0.36946308724832216
     },
     "position": {
       "role": "JUNGLE",
-      "games": 1152,
-      "sampleGames": 2029,
-      "confidencePct": 0.5677673730901922
+      "games": 1942,
+      "sampleGames": 2980,
+      "confidencePct": 0.6516778523489933
     },
     "skillOrder": {
       "order": [

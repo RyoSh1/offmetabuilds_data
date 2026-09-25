@@ -1,8 +1,22 @@
 {
   "championId": "Gnar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2510,
+        3157
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Zhonya's Hourglass"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 7523155.118417729
+    },
     {
       "itemIds": [
         3302,
@@ -15,7 +29,21 @@
       "games": 13,
       "wins": 7,
       "winrate": 0.5384615384615384,
-      "score": 447620.47372285277
+      "score": 4012195.576580773
+    },
+    {
+      "itemIds": [
+        3748,
+        6662
+      ],
+      "names": [
+        "Titanic Hydra",
+        "Iceborn Gauntlet"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 2344968.514083712
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 220147.61195773224
+      "score": 1312452.99971754
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Blade of The Ruined King",
         "Hullbreaker"
       ],
-      "games": 3,
+      "games": 4,
       "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 128026.92553298261
-    },
-    {
-      "itemIds": [
-        2510,
-        6665
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Jak'Sho, The Protean"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 86360.7831412307
-    },
-    {
-      "itemIds": [
-        4401,
-        6665
-      ],
-      "names": [
-        "Force of Nature",
-        "Jak'Sho, The Protean"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 71961.25045780743
+      "winrate": 0.25,
+      "score": 844347.3986103719
     }
   ],
   "builds": [
@@ -79,7 +79,151 @@
       "id": "Gnar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3203,
+      "totalGames": 4605,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3116
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 143
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 656
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3157
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Zhonya's Hourglass"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 7523155.118417729
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gnar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 4605,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +292,7 @@
         "games": 13,
         "wins": 7,
         "winrate": 0.5384615384615384,
-        "score": 447620.47372285277
+        "score": 4012195.576580773
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +372,154 @@
       }
     },
     {
-      "id": "Gnar-2",
-      "buildIndex": 1,
+      "id": "Gnar-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3203,
+      "totalGames": 4605,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 47
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3116
+        },
+        {
+          "itemId": 6662,
+          "name": "Iceborn Gauntlet",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1397
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 656
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3748,
+          6662
+        ],
+        "names": [
+          "Titanic Hydra",
+          "Iceborn Gauntlet"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 2344968.514083712
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gnar-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 4605,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -264,28 +552,28 @@
           "purchaseSamples": 47
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 658
-        },
-        {
           "itemId": 6665,
           "name": "Jak'Sho, The Protean",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 143
         },
         {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 658
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 44
         }
       ],
       "seedPair": {
@@ -300,7 +588,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 220147.61195773224
+        "score": 1312452.99971754
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +668,10 @@
       }
     },
     {
-      "id": "Gnar-3",
-      "buildIndex": 2,
+      "id": "Gnar-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3203,
+      "totalGames": 4605,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,12 +688,12 @@
           "purchaseSamples": 3116
         },
         {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1397
+          "purchaseSamples": 60
         },
         {
           "itemId": 3153,
@@ -449,10 +737,10 @@
           "Blade of The Ruined King",
           "Hullbreaker"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 128026.92553298261
+        "winrate": 0.25,
+        "score": 844347.3986103719
       },
       "runes": {
         "primaryStyle": {
@@ -505,297 +793,9 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Gnar-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3203,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 143
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          6665
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Jak'Sho, The Protean"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 86360.7831412307
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Gnar-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3203,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 658
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 47
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 44
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          3143
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Randuin's Omen"
-        ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 42696.64234883953
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.5
       },
       "position": {
         "role": "TOP",
@@ -809,8 +809,8 @@
           "W",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -821,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3203,
+    "totalGames": 4605,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49203871370590074,
+    "winrate": 0.48751357220412594,
     "items": [
       {
         "itemId": 3047,
@@ -926,19 +926,19 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5001,
-          "name": "Health Scaling"
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 3203,
-      "games": 584,
-      "confidencePct": 0.1823290665001561
+      "sampleGames": 4605,
+      "games": 844,
+      "confidencePct": 0.18327904451682953
     },
     "position": {
       "role": "TOP",
-      "games": 3173,
-      "sampleGames": 3203,
-      "confidencePct": 0.9906337808304714
+      "games": 4559,
+      "sampleGames": 4605,
+      "confidencePct": 0.9900108577633008
     },
     "skillOrder": {
       "order": [

@@ -1,22 +1,8 @@
 {
   "championId": "AurelionSol",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3157,
-        4628
-      ],
-      "names": [
-        "Zhonya's Hourglass",
-        "Horizon Focus"
-      ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 316010.9250110745
-    },
     {
       "itemIds": [
         3040,
@@ -26,52 +12,66 @@
         "Seraph's Embrace",
         "Riftmaker"
       ],
-      "games": 11,
-      "wins": 9,
-      "winrate": 0.8181818181818182,
-      "score": 260641.02344478364
+      "games": 13,
+      "wins": 11,
+      "winrate": 0.8461538461538461,
+      "score": 2959363.995093013
+    },
+    {
+      "itemIds": [
+        3143,
+        3157
+      ],
+      "names": [
+        "Randuin's Omen",
+        "Zhonya's Hourglass"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 2237923.9967739703
     },
     {
       "itemIds": [
         3041,
-        8010
+        4628
       ],
       "names": [
         "Mejai's Soulstealer",
-        "Bloodletter's Curse"
+        "Horizon Focus"
       ],
-      "games": 19,
-      "wins": 15,
-      "winrate": 0.7894736842105263,
-      "score": 236139.36026361614
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 2083867.2994066349
     },
     {
       "itemIds": [
-        3041,
-        3102
+        3089,
+        4633
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Banshee's Veil"
+        "Rabadon's Deathcap",
+        "Riftmaker"
       ],
-      "games": 9,
-      "wins": 8,
-      "winrate": 0.8888888888888888,
-      "score": 78004.34710133955
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 1368934.7955758274
     },
     {
       "itemIds": [
         3102,
-        3165
+        3135
       ],
       "names": [
         "Banshee's Veil",
-        "Morellonomicon"
+        "Void Staff"
       ],
-      "games": 5,
-      "wins": 5,
-      "winrate": 1,
-      "score": 75121.04837690384
+      "games": 16,
+      "wins": 8,
+      "winrate": 0.5,
+      "score": 1104836.0087522627
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "AurelionSol-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1623,
+      "totalGames": 2455,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,162 +88,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 553
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 543
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 141
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 177
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 118
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3157,
-          4628
-        ],
-        "names": [
-          "Zhonya's Hourglass",
-          "Horizon Focus"
-        ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 316010.9250110745
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "AurelionSol-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 1623,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 5
         },
@@ -251,7 +107,7 @@
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 466
         },
@@ -259,7 +115,7 @@
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 48
         },
@@ -267,7 +123,7 @@
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 12
         },
@@ -275,7 +131,7 @@
           "itemId": 3040,
           "name": "Seraph's Embrace",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -289,10 +145,10 @@
           "Seraph's Embrace",
           "Riftmaker"
         ],
-        "games": 11,
-        "wins": 9,
-        "winrate": 0.8181818181818182,
-        "score": 260641.02344478364
+        "games": 13,
+        "wins": 11,
+        "winrate": 0.8461538461538461,
+        "score": 2959363.995093013
       },
       "runes": {
         "primaryStyle": {
@@ -345,15 +201,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 11,
+        "sampleGames": 13,
         "games": 6,
-        "confidencePct": 0.5454545454545454
+        "confidencePct": 0.46153846153846156
       },
       "position": {
         "role": "MIDDLE",
-        "games": 9,
-        "sampleGames": 11,
-        "confidencePct": 0.8181818181818182
+        "games": 10,
+        "sampleGames": 13,
+        "confidencePct": 0.7692307692307693
       },
       "skillOrder": {
         "order": [
@@ -366,16 +222,168 @@
         "confidencePct": 1
       },
       "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "AurelionSol-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2455,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 553
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 543
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 177
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 103
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3143,
+          3157
+        ],
+        "names": [
+          "Randuin's Omen",
+          "Zhonya's Hourglass"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 2237923.9967739703
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
         "games": 2,
-        "wins": 2,
-        "winrate": 1
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "AurelionSol-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1623,
+      "totalGames": 2455,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,28 +408,28 @@
           "purchaseSamples": 141
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 4628,
+          "name": "Horizon Focus",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 466
+          "purchaseSamples": 17
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 118
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 543
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 48
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 32
         },
         {
           "itemId": 3089,
@@ -435,16 +443,320 @@
       "seedPair": {
         "itemIds": [
           3041,
-          8010
+          4628
         ],
         "names": [
           "Mejai's Soulstealer",
-          "Bloodletter's Curse"
+          "Horizon Focus"
         ],
-        "games": 19,
-        "wins": 15,
-        "winrate": 0.7894736842105263,
-        "score": 236139.36026361614
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 2083867.2994066349
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "AurelionSol-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 2455,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 146
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 141
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 177
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 48
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          3135
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Void Staff"
+        ],
+        "games": 16,
+        "wins": 8,
+        "winrate": 0.5,
+        "score": 1104836.0087522627
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 16,
+        "games": 6,
+        "confidencePct": 0.375
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 8,
+        "sampleGames": 16,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 13,
+        "sampleGames": 13,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "AurelionSol-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 2455,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 141
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 177
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 103
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          3102
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Banshee's Veil"
+        ],
+        "games": 20,
+        "wins": 16,
+        "winrate": 0.8,
+        "score": 420539.6643879543
       },
       "runes": {
         "primaryStyle": {
@@ -497,167 +809,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 19,
-        "games": 5,
-        "confidencePct": 0.2631578947368421
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 10,
-        "sampleGames": 19,
-        "confidencePct": 0.5263157894736842
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 18,
-        "sampleGames": 18,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "AurelionSol-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1623,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 553
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 141
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 103
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 118
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2503,
-          3137
-        ],
-        "names": [
-          "Blackfire Torch",
-          "Cryptbloom"
-        ],
-        "games": 13,
-        "wins": 9,
-        "winrate": 0.6923076923076923,
-        "score": 29827.130341227665
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 13,
+        "sampleGames": 20,
         "games": 6,
-        "confidencePct": 0.46153846153846156
+        "confidencePct": 0.3
       },
       "position": {
         "role": "MIDDLE",
-        "games": 13,
-        "sampleGames": 13,
-        "confidencePct": 1
+        "games": 10,
+        "sampleGames": 20,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -665,9 +825,9 @@
           "W",
           "E"
         ],
-        "games": 11,
-        "sampleGames": 13,
-        "confidencePct": 0.8461538461538461
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -677,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 1623,
+    "totalGames": 2455,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5064695009242144,
+    "winrate": 0.5124236252545825,
     "items": [
       {
         "itemId": 3116,
@@ -764,12 +924,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8017,
-          "name": "Cut Down"
-        },
-        {
           "id": 8009,
           "name": "Presence of Mind"
+        },
+        {
+          "id": 8017,
+          "name": "Cut Down"
         }
       ],
       "statPerks": [
@@ -782,19 +942,19 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5001,
-          "name": "Health Scaling"
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 1623,
-      "games": 564,
-      "confidencePct": 0.34750462107208874
+      "sampleGames": 2455,
+      "games": 782,
+      "confidencePct": 0.3185336048879837
     },
     "position": {
       "role": "MIDDLE",
-      "games": 1217,
-      "sampleGames": 1623,
-      "confidencePct": 0.7498459642637092
+      "games": 1564,
+      "sampleGames": 2455,
+      "confidencePct": 0.6370672097759674
     },
     "skillOrder": {
       "order": [

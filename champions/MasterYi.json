@@ -1,8 +1,22 @@
 {
   "championId": "MasterYi",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3181,
+        3748
+      ],
+      "names": [
+        "Hullbreaker",
+        "Titanic Hydra"
+      ],
+      "games": 14,
+      "wins": 12,
+      "winrate": 0.8571428571428571,
+      "score": 23453789.842027232
+    },
     {
       "itemIds": [
         3172,
@@ -12,10 +26,38 @@
         "Gunmetal Greaves",
         "Titanic Hydra"
       ],
-      "games": 13,
+      "games": 17,
       "wins": 7,
-      "winrate": 0.5384615384615384,
-      "score": 5680694.534694849
+      "winrate": 0.4117647058823529,
+      "score": 12321858.952295404
+    },
+    {
+      "itemIds": [
+        3181,
+        3302
+      ],
+      "names": [
+        "Hullbreaker",
+        "Terminus"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 10061309.368512709
+    },
+    {
+      "itemIds": [
+        3153,
+        3181
+      ],
+      "names": [
+        "Blade of The Ruined King",
+        "Hullbreaker"
+      ],
+      "games": 18,
+      "wins": 15,
+      "winrate": 0.8333333333333334,
+      "score": 9180706.991627501
     },
     {
       "itemIds": [
@@ -26,52 +68,10 @@
         "Titanic Hydra",
         "Immortal Shieldbow"
       ],
-      "games": 81,
-      "wins": 51,
-      "winrate": 0.6296296296296297,
-      "score": 3426014.723941377
-    },
-    {
-      "itemIds": [
-        3172,
-        6673
-      ],
-      "names": [
-        "Gunmetal Greaves",
-        "Immortal Shieldbow"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 2029581.4667661553
-    },
-    {
-      "itemIds": [
-        3033,
-        3748
-      ],
-      "names": [
-        "Mortal Reminder",
-        "Titanic Hydra"
-      ],
-      "games": 9,
-      "wins": 6,
-      "winrate": 0.6666666666666666,
-      "score": 1571725.026988972
-    },
-    {
-      "itemIds": [
-        3036,
-        3172
-      ],
-      "names": [
-        "Lord Dominik's Regards",
-        "Gunmetal Greaves"
-      ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 1471968.5677767135
+      "games": 101,
+      "wins": 65,
+      "winrate": 0.6435643564356436,
+      "score": 8674740.44483732
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "MasterYi-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2953,
+      "totalGames": 3965,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 436
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 787
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 786
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 168
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 364
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 28
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3181,
+          3748
+        ],
+        "names": [
+          "Hullbreaker",
+          "Titanic Hydra"
+        ],
+        "games": 14,
+        "wins": 12,
+        "winrate": 0.8571428571428571,
+        "score": 23453789.842027232
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 14,
+        "games": 12,
+        "confidencePct": 0.8571428571428571
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 8,
+        "sampleGames": 14,
+        "confidencePct": 0.5714285714285714
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "MasterYi-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 3965,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,20 +272,20 @@
           "purchaseSamples": 364
         },
         {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 771
-        },
-        {
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 428
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 771
         }
       ],
       "seedPair": {
@@ -145,10 +297,10 @@
           "Gunmetal Greaves",
           "Titanic Hydra"
         ],
-        "games": 13,
+        "games": 17,
         "wins": 7,
-        "winrate": 0.5384615384615384,
-        "score": 5680694.534694849
+        "winrate": 0.4117647058823529,
+        "score": 12321858.952295404
       },
       "runes": {
         "primaryStyle": {
@@ -165,26 +317,26 @@
             "name": "Sudden Impact"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 8137,
+            "name": "Sixth Sense"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8275,
-            "name": "Nimbus Cloak"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           }
         ],
         "statPerks": [
@@ -201,14 +353,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
-        "games": 3,
-        "confidencePct": 0.23076923076923078
+        "sampleGames": 17,
+        "games": 4,
+        "confidencePct": 0.23529411764705882
       },
       "position": {
         "role": "MIDDLE",
-        "games": 13,
-        "sampleGames": 13,
+        "games": 17,
+        "sampleGames": 17,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -228,162 +380,10 @@
       }
     },
     {
-      "id": "MasterYi-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 2953,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 436
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 89
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 786
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 364
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 428
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 189
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3033,
-          3748
-        ],
-        "names": [
-          "Mortal Reminder",
-          "Titanic Hydra"
-        ],
-        "games": 9,
-        "wins": 6,
-        "winrate": 0.6666666666666666,
-        "score": 1571725.026988972
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 5,
-        "confidencePct": 0.5555555555555556
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 9,
-        "confidencePct": 0.4444444444444444
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 6,
-        "sampleGames": 9,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "MasterYi-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2953,
+      "totalGames": 3965,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -449,10 +449,10 @@
           "Sterak's Gage",
           "Black Cleaver"
         ],
-        "games": 21,
-        "wins": 14,
-        "winrate": 0.6666666666666666,
-        "score": 773647.0749396611
+        "games": 22,
+        "wins": 15,
+        "winrate": 0.6818181818181818,
+        "score": 7317489.175557106
       },
       "runes": {
         "primaryStyle": {
@@ -505,14 +505,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 21,
-        "games": 21,
+        "sampleGames": 22,
+        "games": 22,
         "confidencePct": 1
       },
       "position": {
         "role": "JUNGLE",
-        "games": 21,
-        "sampleGames": 21,
+        "games": 22,
+        "sampleGames": 22,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -535,7 +535,7 @@
       "id": "MasterYi-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2953,
+      "totalGames": 3965,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -544,103 +544,103 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
+          "itemId": 3748,
+          "name": "Titanic Hydra",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 787
+          "purchaseSamples": 436
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 89
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 786
         },
         {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 168
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 201
+          "purchaseSamples": 364
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 6675,
+          "name": "Navori Flickerblade",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 26
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 22
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 448
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 189
         }
       ],
       "seedPair": {
         "itemIds": [
-          3153,
-          3302
+          3033,
+          3748
         ],
         "names": [
-          "Blade of The Ruined King",
-          "Terminus"
+          "Mortal Reminder",
+          "Titanic Hydra"
         ],
-        "games": 31,
-        "wins": 16,
-        "winrate": 0.5161290322580645,
-        "score": 658141.6170294114
+        "games": 12,
+        "wins": 9,
+        "winrate": 0.75,
+        "score": 5830938.996809476
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
           {
             "id": 8143,
             "name": "Sudden Impact"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -653,29 +653,29 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 31,
-        "games": 5,
-        "confidencePct": 0.16129032258064516
+        "sampleGames": 12,
+        "games": 6,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "TOP",
-        "games": 17,
-        "sampleGames": 31,
-        "confidencePct": 0.5483870967741935
+        "role": "BOTTOM",
+        "games": 4,
+        "sampleGames": 12,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
-          "Q",
           "E",
+          "Q",
           "W"
         ],
-        "games": 15,
-        "sampleGames": 27,
-        "confidencePct": 0.5555555555555556
+        "games": 6,
+        "sampleGames": 9,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -687,7 +687,7 @@
       "id": "MasterYi-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2953,
+      "totalGames": 3965,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,34 +696,18 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 787
-        },
-        {
           "itemId": 3748,
           "name": "Titanic Hydra",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 436
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 84
         },
         {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 89
         },
@@ -731,93 +715,109 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 786
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
+          "itemId": 6675,
+          "name": "Navori Flickerblade",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 428
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 364
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 35
         }
       ],
       "seedPair": {
         "itemIds": [
-          3153,
-          6695
+          3156,
+          3748
         ],
         "names": [
-          "Blade of The Ruined King",
-          "Serpent's Fang"
+          "Maw of Malmortius",
+          "Titanic Hydra"
         ],
-        "games": 11,
-        "wins": 8,
-        "winrate": 0.7272727272727273,
-        "score": 528510.1459254012
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 4638438.807765659
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
           {
             "id": 8143,
             "name": "Sudden Impact"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 11,
-        "games": 5,
-        "confidencePct": 0.45454545454545453
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "TOP",
-        "games": 5,
-        "sampleGames": 11,
-        "confidencePct": 0.45454545454545453
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -825,9 +825,9 @@
           "E",
           "W"
         ],
-        "games": 9,
-        "sampleGames": 11,
-        "confidencePct": 0.8181818181818182
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2953,
+    "totalGames": 3965,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5035557060616322,
+    "winrate": 0.4973518284993695,
     "items": [
       {
         "itemId": 6672,
@@ -855,28 +855,28 @@
         "purchaseSamples": 2870
       },
       {
-        "itemId": 3124,
-        "name": "Guinsoo's Rageblade",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 1522
-      },
-      {
         "itemId": 6676,
         "name": "The Collector",
         "isBoots": false,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 1434
       },
       {
-        "itemId": 3047,
-        "name": "Plated Steelcaps",
+        "itemId": 3124,
+        "name": "Guinsoo's Rageblade",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 1522
+      },
+      {
+        "itemId": 3006,
+        "name": "Berserker's Greaves",
         "isBoots": true,
         "order": 4,
-        "medianPurchaseOrder": 3,
-        "purchaseSamples": 786
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 603
       },
       {
         "itemId": 3036,
@@ -887,12 +887,12 @@
         "purchaseSamples": 771
       },
       {
-        "itemId": 3073,
-        "name": "Experimental Hexplate",
+        "itemId": 3031,
+        "name": "Infinity Edge",
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 714
+        "purchaseSamples": 428
       }
     ],
     "runes": {
@@ -924,12 +924,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 9104,
-          "name": "Legend: Alacrity"
-        },
-        {
           "id": 9111,
           "name": "Triumph"
+        },
+        {
+          "id": 9104,
+          "name": "Legend: Alacrity"
         }
       ],
       "statPerks": [
@@ -942,19 +942,19 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5013,
-          "name": "Tenacity/Slow Resist"
+          "id": 5001,
+          "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2953,
-      "games": 785,
-      "confidencePct": 0.2658313579410769
+      "sampleGames": 3965,
+      "games": 979,
+      "confidencePct": 0.24691046658259774
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2346,
-      "sampleGames": 2953,
-      "confidencePct": 0.794446325770403
+      "games": 3181,
+      "sampleGames": 3965,
+      "confidencePct": 0.8022698612862548
     },
     "skillOrder": {
       "order": [

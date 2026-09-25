@@ -1,21 +1,35 @@
 {
   "championId": "Sona",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
-        3040,
+        3165,
         6657
       ],
       "names": [
-        "Seraph's Embrace",
+        "Morellonomicon",
         "Rod of Ages"
       ],
-      "games": 9,
-      "wins": 5,
-      "winrate": 0.5555555555555556,
-      "score": 61904.44220453511
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 432122.31549847167
+    },
+    {
+      "itemIds": [
+        3041,
+        3109
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Knight's Vow"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 267410.3835457209
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Mejai's Soulstealer",
         "Zhonya's Hourglass"
       ],
+      "games": 10,
+      "wins": 4,
+      "winrate": 0.4,
+      "score": 230399.9408816853
+    },
+    {
+      "itemIds": [
+        3109,
+        3121
+      ],
+      "names": [
+        "Knight's Vow",
+        "Fimbulwinter"
+      ],
       "games": 9,
-      "wins": 3,
-      "winrate": 0.3333333333333333,
-      "score": 29137.33838223982
+      "wins": 7,
+      "winrate": 0.7777777777777778,
+      "score": 189145.0726451666
     },
     {
       "itemIds": [
         3041,
-        3121
+        3110
       ],
       "names": [
         "Mejai's Soulstealer",
-        "Fimbulwinter"
+        "Frozen Heart"
       ],
-      "games": 5,
-      "wins": 5,
-      "winrate": 1,
-      "score": 23839.51956363225
-    },
-    {
-      "itemIds": [
-        3121,
-        6616
-      ],
-      "names": [
-        "Fimbulwinter",
-        "Staff of Flowing Water"
-      ],
-      "games": 15,
-      "wins": 9,
-      "winrate": 0.6,
-      "score": 17691.747953525446
-    },
-    {
-      "itemIds": [
-        3121,
-        6665
-      ],
-      "names": [
-        "Fimbulwinter",
-        "Jak'Sho, The Protean"
-      ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 17416.18386244266
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 178273.58903048062
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sona-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 613,
+      "totalGames": 1402,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,12 +112,12 @@
           "purchaseSamples": 77
         },
         {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 267
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
         },
         {
           "itemId": 3041,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3040,
+          3165,
           6657
         ],
         "names": [
-          "Seraph's Embrace",
+          "Morellonomicon",
           "Rod of Ages"
         ],
-        "games": 9,
-        "wins": 5,
-        "winrate": 0.5555555555555556,
-        "score": 61904.44220453511
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 432122.31549847167
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +201,14 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 9,
-        "games": 8,
-        "confidencePct": 0.8888888888888888
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -217,8 +217,8 @@
           "W",
           "E"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -231,7 +231,150 @@
       "id": "Sona-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 613,
+      "totalGames": 1402,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 505
+        },
+        {
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 77
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          3109
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Knight's Vow"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 267410.3835457209
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Sona-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 1402,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -264,12 +407,12 @@
           "purchaseSamples": 40
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
+          "itemId": 3504,
+          "name": "Ardent Censer",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 77
+          "purchaseSamples": 41
         },
         {
           "itemId": 3041,
@@ -297,10 +440,10 @@
           "Mejai's Soulstealer",
           "Zhonya's Hourglass"
         ],
-        "games": 9,
-        "wins": 3,
-        "winrate": 0.3333333333333333,
-        "score": 29137.33838223982
+        "games": 10,
+        "wins": 4,
+        "winrate": 0.4,
+        "score": 230399.9408816853
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +496,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
+        "sampleGames": 10,
         "games": 9,
-        "confidencePct": 1
+        "confidencePct": 0.9
       },
       "position": {
         "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -380,10 +523,10 @@
       }
     },
     {
-      "id": "Sona-3",
-      "buildIndex": 2,
+      "id": "Sona-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 613,
+      "totalGames": 1402,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,35 +543,59 @@
           "purchaseSamples": 505
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3110,
+          "name": "Frozen Heart",
           "isBoots": false,
           "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
+          "isBoots": false,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
+          "purchaseSamples": 77
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
         },
         {
           "itemId": 3121,
           "name": "Fimbulwinter",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3121,
-          6665
+          3041,
+          3110
         ],
         "names": [
-          "Fimbulwinter",
-          "Jak'Sho, The Protean"
+          "Mejai's Soulstealer",
+          "Frozen Heart"
         ],
-        "games": 5,
-        "wins": 1,
-        "winrate": 0.2,
-        "score": 17416.18386244266
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 178273.58903048062
       },
       "runes": {
         "primaryStyle": {
@@ -449,160 +616,8 @@
             "name": "Celerity"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 5,
-        "wins": 1,
-        "winrate": 0.2
-      }
-    },
-    {
-      "id": "Sona-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 613,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 505
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 155
-        },
-        {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 77
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 267
-        },
-        {
-          "itemId": 6621,
-          "name": "Dawncore",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 28
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6616,
-          6621
-        ],
-        "names": [
-          "Staff of Flowing Water",
-          "Dawncore"
-        ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 12507.59929583211
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -611,18 +626,18 @@
         },
         "secondaryPerks": [
           {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
             "id": 8453,
             "name": "Revitalize"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5010,
@@ -633,26 +648,17 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -663,7 +669,7 @@
       "id": "Sona-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 613,
+      "totalGames": 1402,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -724,7 +730,7 @@
         "games": 16,
         "wins": 8,
         "winrate": 0.5,
-        "score": 7944.795074315339
+        "score": 125323.4778053528
       },
       "runes": {
         "primaryStyle": {
@@ -805,14 +811,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 613,
+    "totalGames": 1402,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.43066884176182707,
+    "winrate": 0.463623395149786,
     "items": [
       {
         "itemId": 3009,
@@ -831,18 +837,10 @@
         "purchaseSamples": 472
       },
       {
-        "itemId": 2065,
-        "name": "Shurelya's Battlesong",
-        "isBoots": false,
-        "order": 3,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 155
-      },
-      {
         "itemId": 6617,
         "name": "Moonstone Renewer",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 267
       },
@@ -850,13 +848,21 @@
         "itemId": 6616,
         "name": "Staff of Flowing Water",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 77
       },
       {
         "itemId": 2530,
         "name": "Diadem of Songs",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": null,
+        "purchaseSamples": 0
+      },
+      {
+        "itemId": 3040,
+        "name": "Seraph's Embrace",
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": null,
@@ -878,26 +884,26 @@
           "name": "Manaflow Band"
         },
         {
-          "id": 8234,
-          "name": "Celerity"
+          "id": 8210,
+          "name": "Transcendence"
         },
         {
-          "id": 8237,
-          "name": "Scorch"
+          "id": 8236,
+          "name": "Gathering Storm"
         }
       ],
       "subStyle": {
-        "id": 8000,
-        "name": "Precision"
+        "id": 8400,
+        "name": "Resolve"
       },
       "secondaryPerks": [
         {
-          "id": 8009,
-          "name": "Presence of Mind"
+          "id": 8453,
+          "name": "Revitalize"
         },
         {
-          "id": 8017,
-          "name": "Cut Down"
+          "id": 8429,
+          "name": "Conditioning"
         }
       ],
       "statPerks": [
@@ -906,23 +912,23 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5010,
-          "name": "Move Speed"
+          "id": 5008,
+          "name": "Adaptive Force"
         },
         {
           "id": 5011,
           "name": "Health"
         }
       ],
-      "sampleGames": 613,
-      "games": 86,
-      "confidencePct": 0.1402936378466558
+      "sampleGames": 1402,
+      "games": 136,
+      "confidencePct": 0.09700427960057062
     },
     "position": {
       "role": "UTILITY",
-      "games": 611,
-      "sampleGames": 613,
-      "confidencePct": 0.9967373572593801
+      "games": 1392,
+      "sampleGames": 1402,
+      "confidencePct": 0.992867332382311
     },
     "skillOrder": {
       "order": [

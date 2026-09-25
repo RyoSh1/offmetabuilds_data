@@ -1,8 +1,22 @@
 {
   "championId": "Swain",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2530,
+        6620
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Echoes of Helia"
+      ],
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 66848180.330936074
+    },
     {
       "itemIds": [
         3135,
@@ -15,63 +29,49 @@
       "games": 8,
       "wins": 5,
       "winrate": 0.625,
-      "score": 2992183.0283712833
+      "score": 17243576.925282486
     },
     {
       "itemIds": [
-        8010,
-        8020
+        4401,
+        6665
       ],
       "names": [
-        "Bloodletter's Curse",
-        "Abyssal Mask"
+        "Force of Nature",
+        "Jak'Sho, The Protean"
       ],
-      "games": 5,
-      "wins": 2,
-      "winrate": 0.4,
-      "score": 1910221.4320798253
+      "games": 27,
+      "wins": 22,
+      "winrate": 0.8148148148148148,
+      "score": 10611860.100972373
     },
     {
       "itemIds": [
-        3041,
-        3135
+        2502,
+        3084
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Void Staff"
+        "Unending Despair",
+        "Heartsteel"
       ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 1736801.3676050277
-    },
-    {
-      "itemIds": [
-        3110,
-        8020
-      ],
-      "names": [
-        "Frozen Heart",
-        "Abyssal Mask"
-      ],
-      "games": 4,
+      "games": 3,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 1651969.418588645
+      "winrate": 1,
+      "score": 10227613.049679447
     },
     {
       "itemIds": [
-        3137,
-        4645
+        3109,
+        6665
       ],
       "names": [
-        "Cryptbloom",
-        "Shadowflame"
+        "Knight's Vow",
+        "Jak'Sho, The Protean"
       ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 1592516.8568077232
+      "games": 13,
+      "wins": 8,
+      "winrate": 0.6153846153846154,
+      "score": 8953002.281259282
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "Swain-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2496,
+      "totalGames": 3492,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1033
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2530,
+          6620
+        ],
+        "names": [
+          "Diadem of Songs",
+          "Echoes of Helia"
+        ],
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 66848180.330936074
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 7,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714
+      }
+    },
+    {
+      "id": "Swain-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 3492,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +267,7 @@
         "games": 8,
         "wins": 5,
         "winrate": 0.625,
-        "score": 2992183.0283712833
+        "score": 17243576.925282486
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +347,10 @@
       }
     },
     {
-      "id": "Swain-2",
-      "buildIndex": 1,
+      "id": "Swain-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2496,
+      "totalGames": 3492,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,211 +367,59 @@
           "purchaseSamples": 1033
         },
         {
-          "itemId": 3110,
-          "name": "Frozen Heart",
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
+          "purchaseSamples": 27
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 2524,
+          "name": "Bandlepipes",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 798
+          "purchaseSamples": 65
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 4401,
+          "name": "Force of Nature",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 109
+          "purchaseSamples": 50
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 42
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 8020,
+          "name": "Abyssal Mask",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 135
+          "purchaseSamples": 42
         }
       ],
       "seedPair": {
         "itemIds": [
-          8010,
-          8020
+          4401,
+          6665
         ],
         "names": [
-          "Bloodletter's Curse",
-          "Abyssal Mask"
+          "Force of Nature",
+          "Jak'Sho, The Protean"
         ],
-        "games": 5,
-        "wins": 2,
-        "winrate": 0.4,
-        "score": 1910221.4320798253
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Swain-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 2496,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1033
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 798
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 109
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 136
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3050,
-          8010
-        ],
-        "names": [
-          "Zeke's Convergence",
-          "Bloodletter's Curse"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 1480647.55815979
+        "games": 27,
+        "wins": 22,
+        "winrate": 0.8148148148148148,
+        "score": 10611860.100972373
       },
       "runes": {
         "primaryStyle": {
@@ -473,58 +440,49 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5013,
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 27,
+        "games": 27,
+        "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 26,
+        "sampleGames": 27,
+        "confidencePct": 0.9629629629629629
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -535,7 +493,7 @@
       "id": "Swain-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2496,
+      "totalGames": 3492,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -544,103 +502,246 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1033
+        },
+        {
+          "itemId": 2502,
+          "name": "Unending Despair",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 43
         },
         {
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 2,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 183
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 4633,
+          "name": "Riftmaker",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 798
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 162
         },
         {
           "itemId": 3065,
           "name": "Spirit Visage",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 135
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 64
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 50
+          "purchaseSamples": 135
         }
       ],
       "seedPair": {
         "itemIds": [
-          3065,
-          3143
+          2502,
+          3084
         ],
         "names": [
-          "Spirit Visage",
-          "Randuin's Omen"
+          "Unending Despair",
+          "Heartsteel"
         ],
-        "games": 5,
+        "games": 3,
         "wins": 3,
-        "winrate": 0.6,
-        "score": 1418865.698957073
+        "winrate": 1,
+        "score": 10227613.049679447
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8400,
+          "name": "Resolve"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8437,
+          "name": "Grasp of the Undying"
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8446,
+            "name": "Demolish"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Swain-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 3492,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 662
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1033
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 58
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 136
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 37
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3137,
+          4645
+        ],
+        "names": [
+          "Cryptbloom",
+          "Shadowflame"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 8866679.539149437
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
           }
         ],
         "statPerks": [
@@ -657,164 +758,12 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Swain-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 2496,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1033
-        },
-        {
-          "itemId": 2502,
-          "name": "Unending Despair",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 43
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 135
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 50
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 162
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2502,
-          3110
-        ],
-        "names": [
-          "Unending Despair",
-          "Frozen Heart"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 1280030.903540945
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
         "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "TOP",
+        "role": "BOTTOM",
         "games": 4,
         "sampleGames": 4,
         "confidencePct": 1
@@ -825,9 +774,9 @@
           "E",
           "W"
         ],
-        "games": 4,
+        "games": 2,
         "sampleGames": 4,
-        "confidencePct": 1
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +786,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2496,
+    "totalGames": 3492,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5192307692307693,
+    "winrate": 0.5117411225658648,
     "items": [
       {
         "itemId": 3116,
@@ -934,8 +883,8 @@
       ],
       "statPerks": [
         {
-          "id": 5005,
-          "name": "Attack Speed"
+          "id": 5008,
+          "name": "Adaptive Force"
         },
         {
           "id": 5008,
@@ -946,15 +895,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2496,
-      "games": 196,
-      "confidencePct": 0.07852564102564102
+      "sampleGames": 3492,
+      "games": 240,
+      "confidencePct": 0.06872852233676977
     },
     "position": {
       "role": "UTILITY",
-      "games": 1061,
-      "sampleGames": 2496,
-      "confidencePct": 0.4250801282051282
+      "games": 1350,
+      "sampleGames": 3492,
+      "confidencePct": 0.3865979381443299
     },
     "skillOrder": {
       "order": [

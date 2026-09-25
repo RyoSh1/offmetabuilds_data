@@ -1,8 +1,22 @@
 {
   "championId": "Smolder",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2520,
+        6699
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Voltaic Cyclosword"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 12220912.358052647
+    },
     {
       "itemIds": [
         3042,
@@ -12,10 +26,10 @@
         "Muramana",
         "Trinity Force"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 946956.7753544466
+      "winrate": 0.375,
+      "score": 4449700.014478869
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 930800.3656362505
+      "score": 3751033.2315637227
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 633603.5553528157
+      "score": 2370029.5200269097
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 137610.83911111986
-    },
-    {
-      "itemIds": [
-        3026,
-        6673
-      ],
-      "names": [
-        "Guardian Angel",
-        "Immortal Shieldbow"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 102491.02798935921
+      "score": 942226.2503684766
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Smolder-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 681,
+      "totalGames": 920,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,10 +88,146 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2520,
+          6699
+        ],
+        "names": [
+          "Bastionbreaker",
+          "Voltaic Cyclosword"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 12220912.358052647
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Smolder-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 920,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 115
+        },
+        {
           "itemId": 3078,
           "name": "Trinity Force",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 20
         },
@@ -99,17 +235,9 @@
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1
-        },
-        {
-          "itemId": 3094,
-          "name": "Rapid Firecannon",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 401
         },
         {
           "itemId": 2517,
@@ -145,71 +273,71 @@
           "Muramana",
           "Trinity Force"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 946956.7753544466
+        "winrate": 0.375,
+        "score": 4449700.014478869
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 1,
-        "confidencePct": 0.14285714285714285
+        "confidencePct": 0.125
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 5,
+        "sampleGames": 8,
+        "confidencePct": 0.625
       },
       "skillOrder": {
         "order": [
@@ -222,16 +350,16 @@
         "confidencePct": 0.5714285714285714
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
-      "id": "Smolder-2",
-      "buildIndex": 1,
+      "id": "Smolder-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 681,
+      "totalGames": 920,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -300,7 +428,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 930800.3656362505
+        "score": 3751033.2315637227
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +508,10 @@
       }
     },
     {
-      "id": "Smolder-3",
-      "buildIndex": 2,
+      "id": "Smolder-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 681,
+      "totalGames": 920,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +580,7 @@
         "games": 9,
         "wins": 9,
         "winrate": 1,
-        "score": 59424.226429297414
+        "score": 334195.2831907369
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +660,10 @@
       }
     },
     {
-      "id": "Smolder-4",
-      "buildIndex": 3,
+      "id": "Smolder-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 681,
+      "totalGames": 920,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -560,18 +688,10 @@
           "purchaseSamples": 93
         },
         {
-          "itemId": 3094,
-          "name": "Rapid Firecannon",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 401
-        },
-        {
           "itemId": 6673,
           "name": "Immortal Shieldbow",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 9
         },
@@ -579,7 +699,7 @@
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 182
         },
@@ -587,9 +707,17 @@
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 48
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 11
         }
       ],
       "seedPair": {
@@ -604,7 +732,7 @@
         "games": 7,
         "wins": 6,
         "winrate": 0.8571428571428571,
-        "score": 25608.301332158324
+        "score": 130162.30532948626
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +810,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Smolder-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 681,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 61
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 37
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 48
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3031,
-          3072
-        ],
-        "names": [
-          "Infinity Edge",
-          "Bloodthirster"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 8776.679888434002
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 681,
+    "totalGames": 920,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.40969162995594716,
+    "winrate": 0.4108695652173913,
     "items": [
       {
         "itemId": 3508,
@@ -924,12 +900,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8316,
-          "name": "Jack Of All Trades"
-        },
-        {
           "id": 8304,
           "name": "Magical Footwear"
+        },
+        {
+          "id": 8316,
+          "name": "Jack Of All Trades"
         }
       ],
       "statPerks": [
@@ -946,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 681,
-      "games": 166,
-      "confidencePct": 0.24375917767988253
+      "sampleGames": 920,
+      "games": 251,
+      "confidencePct": 0.2728260869565217
     },
     "position": {
       "role": "BOTTOM",
-      "games": 464,
-      "sampleGames": 681,
-      "confidencePct": 0.6813509544787077
+      "games": 621,
+      "sampleGames": 920,
+      "confidencePct": 0.675
     },
     "skillOrder": {
       "order": [

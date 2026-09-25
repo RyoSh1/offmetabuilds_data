@@ -1,8 +1,22 @@
 {
   "championId": "Kassadin",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3003,
+        3143
+      ],
+      "names": [
+        "Archangel's Staff",
+        "Randuin's Omen"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 2513546.2137597306
+    },
     {
       "itemIds": [
         2504,
@@ -12,10 +26,10 @@
         "Kaenic Rookern",
         "Muramana"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 449418.6246439219
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 1784743.4739058057
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Shadowflame",
         "Luden's Echo"
       ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 178144.5132549614
+      "games": 10,
+      "wins": 6,
+      "winrate": 0.6,
+      "score": 864058.413156417
     },
     {
       "itemIds": [
-        3110,
-        3143
+        3100,
+        8010
       ],
       "names": [
-        "Frozen Heart",
-        "Randuin's Omen"
+        "Lich Bane",
+        "Bloodletter's Curse"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 58480.15848062665
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 575412.3947758416
     },
     {
       "itemIds": [
-        3089,
-        3135
+        3102,
+        4645
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Void Staff"
-      ],
-      "games": 13,
-      "wins": 9,
-      "winrate": 0.6923076923076923,
-      "score": 55632.496752483334
-    },
-    {
-      "itemIds": [
-        3041,
-        6655
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Luden's Echo"
+        "Banshee's Veil",
+        "Shadowflame"
       ],
       "games": 5,
-      "wins": 5,
-      "winrate": 1,
-      "score": 47481.0332041708
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 482015.39908606664
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Kassadin-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1253,
+      "totalGames": 2219,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3003,
+          "name": "Archangel's Staff",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 947
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 142
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 169
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3003,
+          3143
+        ],
+        "names": [
+          "Archangel's Staff",
+          "Randuin's Omen"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 2513546.2137597306
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Kassadin-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2219,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,71 +288,71 @@
           "Kaenic Rookern",
           "Muramana"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 449418.6246439219
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 1784743.4739058057
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "TOP",
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Kassadin-2",
-      "buildIndex": 1,
+      "id": "Kassadin-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1253,
+      "totalGames": 2219,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -264,6 +407,293 @@
           "purchaseSamples": 26
         },
         {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 98
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 61
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4645,
+          6655
+        ],
+        "names": [
+          "Shadowflame",
+          "Luden's Echo"
+        ],
+        "games": 10,
+        "wins": 6,
+        "winrate": 0.6,
+        "score": 864058.413156417
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 3,
+        "confidencePct": 0.3
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 9,
+        "sampleGames": 10,
+        "confidencePct": 0.9
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Kassadin-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 2219,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 373
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 98
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 3
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3100,
+          8010
+        ],
+        "names": [
+          "Lich Bane",
+          "Bloodletter's Curse"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 575412.3947758416
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Kassadin-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 2219,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 142
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 10
+        },
+        {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
@@ -290,457 +720,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          4645,
-          6655
+          3110,
+          8020
         ],
         "names": [
-          "Shadowflame",
-          "Luden's Echo"
-        ],
-        "games": 8,
-        "wins": 4,
-        "winrate": 0.5,
-        "score": 178144.5132549614
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 3,
-        "confidencePct": 0.375
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
+          "Frozen Heart",
+          "Abyssal Mask"
         ],
         "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Kassadin-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 1253,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3003,
-          "name": "Archangel's Staff",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 947
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 643
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3003,
-          3121
-        ],
-        "names": [
-          "Archangel's Staff",
-          "Fimbulwinter"
-        ],
-        "games": 3,
-        "wins": 2,
+        "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 46684.92002972724
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
-      }
-    },
-    {
-      "id": "Kassadin-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 1253,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 45
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 142
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6.5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          3110
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Frozen Heart"
-        ],
-        "games": 9,
-        "wins": 7,
-        "winrate": 0.7777777777777778,
-        "score": 34686.907795188185
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 9,
-        "confidencePct": 0.7777777777777778
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Kassadin-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1253,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3003,
-          "name": "Archangel's Staff",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 947
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 142
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 169
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 61
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3003,
-          3110
-        ],
-        "names": [
-          "Archangel's Staff",
-          "Frozen Heart"
-        ],
-        "games": 18,
-        "wins": 12,
-        "winrate": 0.6666666666666666,
-        "score": 24421.376474767338
+        "score": 367131.58715257724
       },
       "runes": {
         "primaryStyle": {
@@ -781,26 +771,26 @@
         ],
         "statPerks": [
           {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 18,
-        "games": 8,
-        "confidencePct": 0.4444444444444444
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 15,
-        "sampleGames": 18,
+        "games": 5,
+        "sampleGames": 6,
         "confidencePct": 0.8333333333333334
       },
       "skillOrder": {
@@ -809,9 +799,9 @@
           "W",
           "Q"
         ],
-        "games": 12,
-        "sampleGames": 17,
-        "confidencePct": 0.7058823529411765
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -821,14 +811,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 1253,
+    "totalGames": 2219,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4948124501197127,
+    "winrate": 0.4925642181162686,
     "items": [
       {
         "itemId": 6657,
@@ -930,15 +920,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 1253,
-      "games": 454,
-      "confidencePct": 0.36233040702314445
+      "sampleGames": 2219,
+      "games": 671,
+      "confidencePct": 0.302388463271744
     },
     "position": {
       "role": "MIDDLE",
-      "games": 1133,
-      "sampleGames": 1253,
-      "confidencePct": 0.9042298483639266
+      "games": 1996,
+      "sampleGames": 2219,
+      "confidencePct": 0.8995042812077513
     },
     "skillOrder": {
       "order": [

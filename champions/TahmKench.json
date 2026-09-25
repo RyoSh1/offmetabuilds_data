@@ -1,8 +1,36 @@
 {
   "championId": "TahmKench",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3083,
+        4633
+      ],
+      "names": [
+        "Warmog's Armor",
+        "Riftmaker"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 16877823.792634975
+    },
+    {
+      "itemIds": [
+        3065,
+        3742
+      ],
+      "names": [
+        "Spirit Visage",
+        "Dead Man's Plate"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 8876794.101780225
+    },
     {
       "itemIds": [
         3065,
@@ -12,24 +40,10 @@
         "Spirit Visage",
         "Jak'Sho, The Protean"
       ],
-      "games": 3,
-      "wins": 2,
+      "games": 6,
+      "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 2247661.364722926
-    },
-    {
-      "itemIds": [
-        2510,
-        6665
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Jak'Sho, The Protean"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 836964.4424038113
+      "score": 8037576.1701619355
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Kaenic Rookern",
         "Sunfire Aegis"
       ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 789242.7182677177
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 4362123.347248517
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 560074.7163115727
-    },
-    {
-      "itemIds": [
-        2510,
-        4633
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Riftmaker"
-      ],
-      "games": 19,
-      "wins": 13,
-      "winrate": 0.6842105263157895,
-      "score": 550765.2316381478
+      "score": 2940612.5541655994
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "TahmKench-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1595,
+      "totalGames": 1980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,12 +88,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6664,
-          "name": "Hollow Radiance",
+          "itemId": 3748,
+          "name": "Titanic Hydra",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 65
+          "purchaseSamples": 39
         },
         {
           "itemId": 3047,
@@ -104,12 +104,12 @@
           "purchaseSamples": 911
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 3083,
+          "name": "Warmog's Armor",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 171
+          "purchaseSamples": 49
         },
         {
           "itemId": 2510,
@@ -120,35 +120,187 @@
           "purchaseSamples": 310
         },
         {
-          "itemId": 3075,
-          "name": "Thornmail",
+          "itemId": 4633,
+          "name": "Riftmaker",
           "isBoots": false,
           "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 37
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 87
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3083,
+          4633
+        ],
+        "names": [
+          "Warmog's Armor",
+          "Riftmaker"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 16877823.792634975
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "TahmKench-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 1980,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 911
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 156
+          "purchaseSamples": 171
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 310
         },
         {
           "itemId": 6665,
           "name": "Jak'Sho, The Protean",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 27
+        },
+        {
+          "itemId": 2502,
+          "name": "Unending Despair",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 53
         }
       ],
       "seedPair": {
         "itemIds": [
           3065,
-          6665
+          3742
         ],
         "names": [
           "Spirit Visage",
-          "Jak'Sho, The Protean"
+          "Dead Man's Plate"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 2247661.364722926
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 8876794.101780225
       },
       "runes": {
         "primaryStyle": {
@@ -169,8 +321,8 @@
             "name": "Second Wind"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "subStyle": {
@@ -179,12 +331,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
             "id": 9111,
             "name": "Triumph"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "statPerks": [
@@ -201,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
       },
       "position": {
         "role": "BOTTOM",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -217,8 +369,8 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "TahmKench-2",
-      "buildIndex": 1,
+      "id": "TahmKench-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1595,
+      "totalGames": 1980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -297,10 +449,10 @@
           "Kaenic Rookern",
           "Sunfire Aegis"
         ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 789242.7182677177
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 4362123.347248517
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +505,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 3,
-        "confidencePct": 0.5
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "TOP",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "TahmKench-3",
-      "buildIndex": 2,
+      "id": "TahmKench-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1595,
+      "totalGames": 1980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +604,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 560074.7163115727
+        "score": 2940612.5541655994
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +684,10 @@
       }
     },
     {
-      "id": "TahmKench-4",
-      "buildIndex": 3,
+      "id": "TahmKench-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1595,
+      "totalGames": 1980,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -560,274 +712,122 @@
           "purchaseSamples": 911
         },
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 310
-        },
-        {
           "itemId": 3065,
           "name": "Spirit Visage",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 171
         },
         {
-          "itemId": 4633,
-          "name": "Riftmaker",
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 37
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          4633
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Riftmaker"
-        ],
-        "games": 19,
-        "wins": 13,
-        "winrate": 0.6842105263157895,
-        "score": 550765.2316381478
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 19,
-        "games": 7,
-        "confidencePct": 0.3684210526315789
-      },
-      "position": {
-        "role": "TOP",
-        "games": 12,
-        "sampleGames": 19,
-        "confidencePct": 0.631578947368421
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 16,
-        "sampleGames": 16,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "TahmKench-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1595,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3068,
-          "name": "Sunfire Aegis",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 127
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 911
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
         },
         {
           "itemId": 2510,
           "name": "Dusk and Dawn",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 310
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 171
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
+          "purchaseSamples": 87
         }
       ],
       "seedPair": {
         "itemIds": [
-          2510,
-          3041
+          3143,
+          3748
         ],
         "names": [
-          "Dusk and Dawn",
-          "Mejai's Soulstealer"
+          "Randuin's Omen",
+          "Titanic Hydra"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 425551.53951346135
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
         "games": 3,
-        "confidencePct": 0.5
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1191926.8534311147
       },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 6,
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
         "confidencePct": 0.6666666666666666
       },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "skillOrder": {
         "order": [
           "Q",
-          "W",
-          "E"
+          "E",
+          "W"
         ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 1595,
+    "totalGames": 1980,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4934169278996865,
+    "winrate": 0.4898989898989899,
     "items": [
       {
         "itemId": 3084,
@@ -855,18 +855,10 @@
         "purchaseSamples": 1128
       },
       {
-        "itemId": 3068,
-        "name": "Sunfire Aegis",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 127
-      },
-      {
         "itemId": 3047,
         "name": "Plated Steelcaps",
         "isBoots": true,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 911
       },
@@ -874,7 +866,7 @@
         "itemId": 2510,
         "name": "Dusk and Dawn",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 310
       },
@@ -882,7 +874,7 @@
         "itemId": 3065,
         "name": "Spirit Visage",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 171
       },
@@ -890,9 +882,17 @@
         "itemId": 3075,
         "name": "Thornmail",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 156
+      },
+      {
+        "itemId": 3143,
+        "name": "Randuin's Omen",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 87
       }
     ],
     "runes": {
@@ -942,19 +942,19 @@
           "name": "Health Scaling"
         },
         {
-          "id": 5011,
-          "name": "Health"
+          "id": 5001,
+          "name": "Health Scaling"
         }
       ],
-      "sampleGames": 1595,
-      "games": 298,
-      "confidencePct": 0.18683385579937303
+      "sampleGames": 1980,
+      "games": 399,
+      "confidencePct": 0.2015151515151515
     },
     "position": {
       "role": "UTILITY",
-      "games": 1133,
-      "sampleGames": 1595,
-      "confidencePct": 0.7103448275862069
+      "games": 1371,
+      "sampleGames": 1980,
+      "confidencePct": 0.6924242424242424
     },
     "skillOrder": {
       "order": [

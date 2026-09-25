@@ -1,77 +1,77 @@
 {
   "championId": "Irelia",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
-        3139,
-        3157
+        3089,
+        3100
       ],
       "names": [
-        "Mercurial Scimitar",
-        "Zhonya's Hourglass"
+        "Rabadon's Deathcap",
+        "Lich Bane"
+      ],
+      "games": 22,
+      "wins": 13,
+      "winrate": 0.5909090909090909,
+      "score": 119119704.14135373
+    },
+    {
+      "itemIds": [
+        3089,
+        3146
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Hextech Gunblade"
+      ],
+      "games": 26,
+      "wins": 14,
+      "winrate": 0.5384615384615384,
+      "score": 104416750.63504316
+    },
+    {
+      "itemIds": [
+        3089,
+        3137
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Cryptbloom"
       ],
       "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 2793159.0533095864
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 104104786.24501397
     },
     {
       "itemIds": [
-        3302,
-        6665
+        3100,
+        3146
       ],
       "names": [
-        "Terminus",
-        "Jak'Sho, The Protean"
+        "Lich Bane",
+        "Hextech Gunblade"
       ],
-      "games": 11,
-      "wins": 7,
-      "winrate": 0.6363636363636364,
-      "score": 2607144.587432425
+      "games": 33,
+      "wins": 15,
+      "winrate": 0.45454545454545453,
+      "score": 100791292.22396354
     },
     {
       "itemIds": [
-        3156,
-        4401
+        3100,
+        3137
       ],
       "names": [
-        "Maw of Malmortius",
-        "Force of Nature"
+        "Lich Bane",
+        "Cryptbloom"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1640382.278373307
-    },
-    {
-      "itemIds": [
-        3026,
-        3156
-      ],
-      "names": [
-        "Guardian Angel",
-        "Maw of Malmortius"
-      ],
-      "games": 30,
-      "wins": 21,
-      "winrate": 0.7,
-      "score": 669939.2933593595
-    },
-    {
-      "itemIds": [
-        3157,
-        3302
-      ],
-      "names": [
-        "Zhonya's Hourglass",
-        "Terminus"
-      ],
-      "games": 10,
-      "wins": 5,
-      "winrate": 0.5,
-      "score": 555682.9490618262
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 93790815.59185618
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Irelia-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5406,
+      "totalGames": 7530,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 4470
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3089,
+          3100
+        ],
+        "names": [
+          "Rabadon's Deathcap",
+          "Lich Bane"
+        ],
+        "games": 22,
+        "wins": 13,
+        "winrate": 0.5909090909090909,
+        "score": 119119704.14135373
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 22,
+        "games": 17,
+        "confidencePct": 0.7727272727272727
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 17,
+        "sampleGames": 22,
+        "confidencePct": 0.7727272727272727
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 2,
+        "wins": 1,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Irelia-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 7530,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,18 +239,10 @@
           "purchaseSamples": 4470
         },
         {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2203
-        },
-        {
           "itemId": 3302,
           "name": "Terminus",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 172
         },
@@ -115,7 +250,7 @@
           "itemId": 3139,
           "name": "Mercurial Scimitar",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 33
         },
@@ -123,17 +258,25 @@
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 43
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 93
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 749
+          "purchaseSamples": 95
         }
       ],
       "seedPair": {
@@ -148,7 +291,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 2793159.0533095864
+        "score": 15387406.965172485
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Irelia-2",
-      "buildIndex": 1,
+      "id": "Irelia-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5406,
+      "totalGames": 7530,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,18 +391,10 @@
           "purchaseSamples": 4470
         },
         {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2203
-        },
-        {
           "itemId": 3302,
           "name": "Terminus",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 172
         },
@@ -267,25 +402,33 @@
           "itemId": 6665,
           "name": "Jak'Sho, The Protean",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 56
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 93
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 95
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 749
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 104
+          "purchaseSamples": 749
         }
       ],
       "seedPair": {
@@ -297,10 +440,10 @@
           "Terminus",
           "Jak'Sho, The Protean"
         ],
-        "games": 11,
+        "games": 13,
         "wins": 7,
-        "winrate": 0.6363636363636364,
-        "score": 2607144.587432425
+        "winrate": 0.5384615384615384,
+        "score": 11447513.084242793
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +496,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 11,
+        "sampleGames": 13,
         "games": 3,
-        "confidencePct": 0.2727272727272727
+        "confidencePct": 0.23076923076923078
       },
       "position": {
         "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 11,
-        "confidencePct": 0.6363636363636364
+        "games": 8,
+        "sampleGames": 13,
+        "confidencePct": 0.6153846153846154
       },
       "skillOrder": {
         "order": [
@@ -380,10 +523,10 @@
       }
     },
     {
-      "id": "Irelia-3",
-      "buildIndex": 2,
+      "id": "Irelia-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5406,
+      "totalGames": 7530,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,12 +543,12 @@
           "purchaseSamples": 4470
         },
         {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2936
+          "purchaseSamples": 172
         },
         {
           "itemId": 3156,
@@ -416,18 +559,26 @@
           "purchaseSamples": 235
         },
         {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 13
+          "purchaseSamples": 104
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 749
         },
         {
           "itemId": 4401,
           "name": "Force of Nature",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 4
         }
@@ -444,7 +595,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1640382.278373307
+        "score": 6884685.294115642
       },
       "runes": {
         "primaryStyle": {
@@ -518,168 +669,16 @@
         "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Irelia-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 5406,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 4470
-        },
-        {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2203
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2200
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 749
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 235
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 104
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          3156
-        ],
-        "names": [
-          "Guardian Angel",
-          "Maw of Malmortius"
-        ],
-        "games": 30,
-        "wins": 21,
-        "winrate": 0.7,
-        "score": 669939.2933593595
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 30,
-        "games": 19,
-        "confidencePct": 0.6333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 20,
-        "sampleGames": 30,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 30,
-        "sampleGames": 30,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     },
     {
       "id": "Irelia-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5406,
+      "totalGames": 7530,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,51 +703,51 @@
           "purchaseSamples": 2203
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 6695,
+          "name": "Serpent's Fang",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2200
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 95
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 93
+          "purchaseSamples": 12
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 6,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 749
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 43
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
         "itemIds": [
-          3053,
-          3143
+          6610,
+          6695
         ],
         "names": [
-          "Sterak's Gage",
-          "Randuin's Omen"
+          "Sundered Sky",
+          "Serpent's Fang"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 312044.20277135586
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 6541986.305382821
       },
       "runes": {
         "primaryStyle": {
@@ -756,8 +755,8 @@
           "name": "Precision"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8005,
+          "name": "Press the Attack"
         },
         "primaryPerks": [
           {
@@ -769,22 +768,22 @@
             "name": "Legend: Alacrity"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
@@ -811,16 +810,7 @@
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -829,14 +819,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5406,
+    "totalGames": 7530,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5,
+    "winrate": 0.500265604249668,
     "items": [
       {
         "itemId": 3153,
@@ -916,12 +906,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8313,
-          "name": "Triple Tonic"
-        },
-        {
           "id": 8316,
           "name": "Jack Of All Trades"
+        },
+        {
+          "id": 8313,
+          "name": "Triple Tonic"
         }
       ],
       "statPerks": [
@@ -938,15 +928,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 5406,
-      "games": 3251,
-      "confidencePct": 0.6013688494265631
+      "sampleGames": 7530,
+      "games": 4148,
+      "confidencePct": 0.550863213811421
     },
     "position": {
       "role": "TOP",
-      "games": 3504,
-      "sampleGames": 5406,
-      "confidencePct": 0.6481687014428413
+      "games": 4832,
+      "sampleGames": 7530,
+      "confidencePct": 0.6416998671978752
     },
     "skillOrder": {
       "order": [

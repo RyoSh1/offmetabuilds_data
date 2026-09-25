@@ -1,21 +1,35 @@
 {
   "championId": "Malzahar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
-        3152,
+        3040,
+        3041
+      ],
+      "names": [
+        "Seraph's Embrace",
+        "Mejai's Soulstealer"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 1047383.8554357053
+    },
+    {
+      "itemIds": [
+        2065,
         6655
       ],
       "names": [
-        "Hextech Rocketbelt",
+        "Shurelya's Battlesong",
         "Luden's Echo"
       ],
-      "games": 17,
-      "wins": 10,
-      "winrate": 0.5882352941176471,
-      "score": 141028.07045979841
+      "games": 14,
+      "wins": 7,
+      "winrate": 0.5,
+      "score": 924726.5960561757
     },
     {
       "itemIds": [
@@ -29,21 +43,21 @@
       "games": 9,
       "wins": 8,
       "winrate": 0.8888888888888888,
-      "score": 140070.77206870026
+      "score": 866495.9895836932
     },
     {
       "itemIds": [
-        3040,
-        3041
+        3152,
+        6655
       ],
       "names": [
-        "Seraph's Embrace",
-        "Mejai's Soulstealer"
+        "Hextech Rocketbelt",
+        "Luden's Echo"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 134752.31255621678
+      "games": 20,
+      "wins": 10,
+      "winrate": 0.5,
+      "score": 861487.6841449941
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 13,
       "wins": 6,
       "winrate": 0.46153846153846156,
-      "score": 125804.90903188351
-    },
-    {
-      "itemIds": [
-        2065,
-        6655
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Luden's Echo"
-      ],
-      "games": 13,
-      "wins": 6,
-      "winrate": 0.46153846153846156,
-      "score": 111191.9545439366
+      "score": 792622.7966195791
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Malzahar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1771,
+      "totalGames": 2244,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 78
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 88
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 91
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3040,
+          3041
+        ],
+        "names": [
+          "Seraph's Embrace",
+          "Mejai's Soulstealer"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 1047383.8554357053
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Malzahar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2244,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -138,17 +290,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3152,
+          2065,
           6655
         ],
         "names": [
-          "Hextech Rocketbelt",
+          "Shurelya's Battlesong",
           "Luden's Echo"
         ],
-        "games": 17,
-        "wins": 10,
-        "winrate": 0.5882352941176471,
-        "score": 141028.07045979841
+        "games": 14,
+        "wins": 7,
+        "winrate": 0.5,
+        "score": 924726.5960561757
       },
       "runes": {
         "primaryStyle": {
@@ -165,8 +317,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -174,17 +326,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8242,
+            "name": "Unflinching"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -193,23 +345,23 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 17,
-        "games": 10,
-        "confidencePct": 0.5882352941176471
+        "sampleGames": 14,
+        "games": 5,
+        "confidencePct": 0.35714285714285715
       },
       "position": {
         "role": "MIDDLE",
-        "games": 17,
-        "sampleGames": 17,
-        "confidencePct": 1
+        "games": 13,
+        "sampleGames": 14,
+        "confidencePct": 0.9285714285714286
       },
       "skillOrder": {
         "order": [
@@ -217,8 +369,8 @@
           "Q",
           "W"
         ],
-        "games": 17,
-        "sampleGames": 17,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -228,138 +380,10 @@
       }
     },
     {
-      "id": "Malzahar-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 1771,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3040,
-          3041
-        ],
-        "names": [
-          "Seraph's Embrace",
-          "Mejai's Soulstealer"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 134752.31255621678
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 3,
-        "wins": 3,
-        "winrate": 1
-      }
-    },
-    {
       "id": "Malzahar-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1771,
+      "totalGames": 2244,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -368,26 +392,34 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 119
-        },
-        {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 10
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 69
         },
         {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 84
         },
@@ -395,17 +427,9 @@
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 67
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 265
+          "purchaseSamples": 67
         },
         {
           "itemId": 4645,
@@ -425,10 +449,10 @@
           "Rabadon's Deathcap",
           "Void Staff"
         ],
-        "games": 8,
-        "wins": 3,
-        "winrate": 0.375,
-        "score": 44970.245393055964
+        "games": 12,
+        "wins": 5,
+        "winrate": 0.4166666666666667,
+        "score": 302804.6691134422
       },
       "runes": {
         "primaryStyle": {
@@ -459,12 +483,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
             "id": 8347,
             "name": "Cosmic Insight"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
           }
         ],
         "statPerks": [
@@ -477,19 +501,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 8,
-        "games": 3,
-        "confidencePct": 0.375
+        "sampleGames": 12,
+        "games": 5,
+        "confidencePct": 0.4166666666666667
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 8,
-        "confidencePct": 0.625
+        "games": 7,
+        "sampleGames": 12,
+        "confidencePct": 0.5833333333333334
       },
       "skillOrder": {
         "order": [
@@ -511,7 +535,7 @@
       "id": "Malzahar-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1771,
+      "totalGames": 2244,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -552,35 +576,187 @@
           "purchaseSamples": 69
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 91
+          "purchaseSamples": 78
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 4645,
+          "name": "Shadowflame",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 265
+          "purchaseSamples": 91
         }
       ],
       "seedPair": {
         "itemIds": [
           3118,
-          4645
+          4646
         ],
         "names": [
           "Malignance",
-          "Shadowflame"
+          "Stormsurge"
         ],
-        "games": 9,
-        "wins": 5,
-        "winrate": 0.5555555555555556,
-        "score": 40280.85146845305
+        "games": 11,
+        "wins": 4,
+        "winrate": 0.36363636363636365,
+        "score": 232419.01950624023
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 11,
+        "games": 3,
+        "confidencePct": 0.2727272727272727
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 10,
+        "sampleGames": 11,
+        "confidencePct": 0.9090909090909091
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Malzahar-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 2244,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 69
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 88
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 265
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 78
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3165,
+          8010
+        ],
+        "names": [
+          "Morellonomicon",
+          "Bloodletter's Curse"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 210718.7415432068
       },
       "runes": {
         "primaryStyle": {
@@ -611,12 +787,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
             "id": 8347,
             "name": "Cosmic Insight"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
           }
         ],
         "statPerks": [
@@ -633,167 +809,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.1111111111111111
+        "confidencePct": 0.25
       },
       "position": {
         "role": "MIDDLE",
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 8,
-        "sampleGames": 9,
-        "confidencePct": 0.8888888888888888
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Malzahar-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1771,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 103
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 118
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 88
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 265
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 91
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3165,
-          8010
-        ],
-        "names": [
-          "Morellonomicon",
-          "Bloodletter's Curse"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 31386.278259884224
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -813,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 1771,
+    "totalGames": 2244,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.47148503670242803,
+    "winrate": 0.4741532976827095,
     "items": [
       {
         "itemId": 2503,
@@ -910,27 +934,27 @@
       ],
       "statPerks": [
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5005,
+          "name": "Attack Speed"
         },
         {
           "id": 5008,
           "name": "Adaptive Force"
         },
         {
-          "id": 5001,
-          "name": "Health Scaling"
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 1771,
-      "games": 449,
-      "confidencePct": 0.25352907961603616
+      "sampleGames": 2244,
+      "games": 602,
+      "confidencePct": 0.26827094474153296
     },
     "position": {
       "role": "MIDDLE",
-      "games": 1559,
-      "sampleGames": 1771,
-      "confidencePct": 0.8802936194240542
+      "games": 1943,
+      "sampleGames": 2244,
+      "confidencePct": 0.8658645276292335
     },
     "skillOrder": {
       "order": [

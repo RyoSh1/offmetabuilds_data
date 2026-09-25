@@ -1,7 +1,7 @@
 {
   "championId": "Volibear",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,24 +12,24 @@
         "Bandlepipes",
         "Zeke's Convergence"
       ],
-      "games": 5,
-      "wins": 5,
+      "games": 6,
+      "wins": 6,
       "winrate": 1,
-      "score": 24230162.93094899
+      "score": 121419393.87484743
     },
     {
       "itemIds": [
-        4645,
+        3089,
         4646
       ],
       "names": [
-        "Shadowflame",
+        "Rabadon's Deathcap",
         "Stormsurge"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 8546426.510742925
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 62701267.15693437
     },
     {
       "itemIds": [
@@ -43,7 +43,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 2899603.178098199
+      "score": 8655804.955257474
+    },
+    {
+      "itemIds": [
+        3053,
+        3071
+      ],
+      "names": [
+        "Sterak's Gage",
+        "Black Cleaver"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 7005210.6995561225
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1628324.862282432
-    },
-    {
-      "itemIds": [
-        3087,
-        4645
-      ],
-      "names": [
-        "Statikk Shiv",
-        "Shadowflame"
-      ],
-      "games": 5,
-      "wins": 2,
-      "winrate": 0.4,
-      "score": 988827.2915495797
+      "score": 4739761.510522056
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Volibear-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1271,
+      "totalGames": 1812,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,20 +120,20 @@
           "purchaseSamples": 206
         },
         {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 54
+        },
+        {
           "itemId": 3065,
           "name": "Spirit Visage",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 462
-        },
-        {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 78
+          "purchaseSamples": 462
         }
       ],
       "seedPair": {
@@ -145,10 +145,10 @@
           "Bandlepipes",
           "Zeke's Convergence"
         ],
-        "games": 5,
-        "wins": 5,
+        "games": 6,
+        "wins": 6,
         "winrate": 1,
-        "score": 24230162.93094899
+        "score": 121419393.87484743
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 6,
         "games": 2,
-        "confidencePct": 0.4
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
         "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,7 @@
       "id": "Volibear-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1271,
+      "totalGames": 1812,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,18 +240,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 186
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 673
         },
@@ -259,9 +251,17 @@
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 238
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 8
         },
         {
           "itemId": 4645,
@@ -272,12 +272,12 @@
           "purchaseSamples": 9
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 120
         },
         {
           "itemId": 3089,
@@ -290,17 +290,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          4645,
+          3089,
           4646
         ],
         "names": [
-          "Shadowflame",
+          "Rabadon's Deathcap",
           "Stormsurge"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 8546426.510742925
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 62701267.15693437
       },
       "runes": {
         "primaryStyle": {
@@ -321,8 +321,8 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
@@ -331,12 +331,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
             "id": 8313,
             "name": "Triple Tonic"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
           }
         ],
         "statPerks": [
@@ -353,25 +353,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
       },
       "position": {
-        "role": "JUNGLE",
+        "role": "MIDDLE",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
-          "E",
+          "W",
           "Q",
-          "W"
+          "E"
         ],
         "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -383,7 +383,7 @@
       "id": "Volibear-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 1271,
+      "totalGames": 1812,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,59 +400,211 @@
           "purchaseSamples": 673
         },
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 6662,
+          "name": "Iceborn Gauntlet",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 849
+          "purchaseSamples": 95
         },
         {
-          "itemId": 6675,
-          "name": "Navori Flickerblade",
+          "itemId": 3071,
+          "name": "Black Cleaver",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 530
+          "purchaseSamples": 54
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 462
+          "purchaseSamples": 127
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3053,
+          3071
+        ],
+        "names": [
+          "Sterak's Gage",
+          "Black Cleaver"
+        ],
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 7005210.6995561225
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Volibear-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 1812,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 673
+        },
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
         },
         {
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 29
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 462
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 15
+          "purchaseSamples": 19
         }
       ],
       "seedPair": {
         "itemIds": [
-          3065,
+          3078,
           3742
         ],
         "names": [
-          "Spirit Visage",
+          "Trinity Force",
           "Dead Man's Plate"
         ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 229069.4392673646
+        "games": 6,
+        "wins": 1,
+        "winrate": 0.16666666666666666,
+        "score": 3291605.087739489
       },
       "runes": {
         "primaryStyle": {
@@ -478,17 +630,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8232,
+            "name": "Waterwalking"
           }
         ],
         "statPerks": [
@@ -505,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -521,21 +673,21 @@
           "W",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     },
     {
-      "id": "Volibear-4",
-      "buildIndex": 3,
+      "id": "Volibear-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1271,
+      "totalGames": 1812,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -544,12 +696,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
+          "itemId": 6692,
+          "name": "Eclipse",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 186
+          "purchaseSamples": 7
         },
         {
           "itemId": 3158,
@@ -560,51 +712,27 @@
           "purchaseSamples": 673
         },
         {
-          "itemId": 3087,
-          "name": "Statikk Shiv",
+          "itemId": 3161,
+          "name": "Spear of Shojin",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 238
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 69
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 120
-        },
-        {
-          "itemId": 3181,
-          "name": "Hullbreaker",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 32
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
         "itemIds": [
-          3124,
-          3302
+          3161,
+          6692
         ],
         "names": [
-          "Guinsoo's Rageblade",
-          "Terminus"
+          "Spear of Shojin",
+          "Eclipse"
         ],
-        "games": 29,
-        "wins": 15,
-        "winrate": 0.5172413793103449,
-        "score": 66786.8024180293
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1860770.8097237004
       },
       "runes": {
         "primaryStyle": {
@@ -657,210 +785,49 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 29,
-        "games": 6,
-        "confidencePct": 0.20689655172413793
-      },
-      "position": {
-        "role": "TOP",
-        "games": 29,
-        "sampleGames": 29,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 18,
-        "sampleGames": 27,
+        "sampleGames": 3,
+        "games": 2,
         "confidencePct": 0.6666666666666666
       },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Volibear-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1271,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 673
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 206
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 54
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 117
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 127
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 16
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          3157
-        ],
-        "names": [
-          "Black Cleaver",
-          "Zhonya's Hourglass"
-        ],
-        "games": 10,
-        "wins": 5,
-        "winrate": 0.5,
-        "score": 46589.951124794985
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 7,
-        "confidencePct": 0.7
-      },
       "position": {
         "role": "TOP",
-        "games": 10,
-        "sampleGames": 10,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 1271,
+    "totalGames": 1812,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.47915027537372146,
+    "winrate": 0.4735099337748344,
     "items": [
-      {
-        "itemId": 3158,
-        "name": "Ionian Boots of Lucidity",
-        "isBoots": true,
-        "order": 1,
-        "medianPurchaseOrder": 1,
-        "purchaseSamples": 673
-      },
       {
         "itemId": 2510,
         "name": "Dusk and Dawn",
         "isBoots": false,
-        "order": 2,
+        "order": 1,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 849
+      },
+      {
+        "itemId": 3047,
+        "name": "Plated Steelcaps",
+        "isBoots": true,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 508
       },
       {
         "itemId": 6675,
@@ -887,12 +854,12 @@
         "purchaseSamples": 462
       },
       {
-        "itemId": 3121,
-        "name": "Fimbulwinter",
+        "itemId": 3143,
+        "name": "Randuin's Omen",
         "isBoots": false,
         "order": 6,
-        "medianPurchaseOrder": null,
-        "purchaseSamples": 0
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 127
       }
     ],
     "runes": {
@@ -934,8 +901,8 @@
       ],
       "statPerks": [
         {
-          "id": 5005,
-          "name": "Attack Speed"
+          "id": 5008,
+          "name": "Adaptive Force"
         },
         {
           "id": 5008,
@@ -946,15 +913,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 1271,
-      "games": 93,
-      "confidencePct": 0.07317073170731707
+      "sampleGames": 1812,
+      "games": 129,
+      "confidencePct": 0.07119205298013245
     },
     "position": {
       "role": "TOP",
-      "games": 1120,
-      "sampleGames": 1271,
-      "confidencePct": 0.8811959087332809
+      "games": 1559,
+      "sampleGames": 1812,
+      "confidencePct": 0.8603752759381899
     },
     "skillOrder": {
       "order": [

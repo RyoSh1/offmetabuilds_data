@@ -1,7 +1,7 @@
 {
   "championId": "Rumble",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-24T16:36:33.506Z",
+  "generatedAt": "2026-09-25T13:36:25.009Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,52 @@
         "Mejai's Soulstealer",
         "Stormsurge"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 7089588.287207361
+      "games": 20,
+      "wins": 17,
+      "winrate": 0.85,
+      "score": 46970219.6352285
+    },
+    {
+      "itemIds": [
+        3135,
+        4646
+      ],
+      "names": [
+        "Void Staff",
+        "Stormsurge"
+      ],
+      "games": 17,
+      "wins": 12,
+      "winrate": 0.7058823529411765,
+      "score": 38733360.223611765
+    },
+    {
+      "itemIds": [
+        3041,
+        3089
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Rabadon's Deathcap"
+      ],
+      "games": 25,
+      "wins": 17,
+      "winrate": 0.68,
+      "score": 31896634.805226907
+    },
+    {
+      "itemIds": [
+        3089,
+        4646
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Stormsurge"
+      ],
+      "games": 27,
+      "wins": 17,
+      "winrate": 0.6296296296296297,
+      "score": 28154325.544897173
     },
     {
       "itemIds": [
@@ -26,52 +68,10 @@
         "Mejai's Soulstealer",
         "Void Staff"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 3742556.3747797506
-    },
-    {
-      "itemIds": [
-        3137,
-        4645
-      ],
-      "names": [
-        "Cryptbloom",
-        "Shadowflame"
-      ],
       "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 1115071.2262080668
-    },
-    {
-      "itemIds": [
-        4645,
-        4646
-      ],
-      "names": [
-        "Shadowflame",
-        "Stormsurge"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 942050.3637369126
-    },
-    {
-      "itemIds": [
-        3118,
-        4645
-      ],
-      "names": [
-        "Malignance",
-        "Shadowflame"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 666364.2107146095
+      "wins": 5,
+      "winrate": 1,
+      "score": 18284103.506902747
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Rumble-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3107,
+      "totalGames": 4193,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1600
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 688
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 124
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 92
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 159
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          4646
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Stormsurge"
+        ],
+        "games": 20,
+        "wins": 17,
+        "winrate": 0.85,
+        "score": 46970219.6352285
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 20,
+        "games": 7,
+        "confidencePct": 0.35
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 15,
+        "sampleGames": 20,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Rumble-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 4193,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,6 +272,149 @@
           "purchaseSamples": 688
         },
         {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1387
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 2
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2504,
+          4646
+        ],
+        "names": [
+          "Kaenic Rookern",
+          "Stormsurge"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 11422039.815455578
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Rumble-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 4193,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1600
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 43
+        },
+        {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
@@ -128,27 +423,27 @@
           "purchaseSamples": 124
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 92
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 159
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          4646
+          3137,
+          4628
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Stormsurge"
+          "Cryptbloom",
+          "Horizon Focus"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 7089588.287207361
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1674155.4550999692
       },
       "runes": {
         "primaryStyle": {
@@ -165,8 +460,8 @@
             "name": "Nimbus Cloak"
           },
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
             "id": 8237,
@@ -174,53 +469,44 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8401,
+            "name": "Shield Bash"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
         "games": 2,
-        "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
+      "position": {
+        "role": "TOP",
         "games": 3,
         "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -228,10 +514,10 @@
       }
     },
     {
-      "id": "Rumble-2",
-      "buildIndex": 1,
+      "id": "Rumble-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3107,
+      "totalGames": 4193,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -264,10 +550,18 @@
           "purchaseSamples": 688
         },
         {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1501
+        },
+        {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 1387
         },
@@ -275,7 +569,7 @@
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 159
         }
@@ -292,7 +586,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 666364.2107146095
+        "score": 1207037.922124086
       },
       "runes": {
         "primaryStyle": {
@@ -372,10 +666,10 @@
       }
     },
     {
-      "id": "Rumble-3",
-      "buildIndex": 2,
+      "id": "Rumble-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3107,
+      "totalGames": 4193,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,34 +686,26 @@
           "purchaseSamples": 1600
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 830
-        },
-        {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 688
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3135,
+          "name": "Void Staff",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1387
+          "purchaseSamples": 92
         },
         {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 159
         },
@@ -427,9 +713,17 @@
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 24
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 96
         }
       ],
       "seedPair": {
@@ -441,10 +735,10 @@
           "Rabadon's Deathcap",
           "Banshee's Veil"
         ],
-        "games": 3,
-        "wins": 3,
+        "games": 4,
+        "wins": 4,
         "winrate": 1,
-        "score": 183194.4178466475
+        "score": 914135.2364240873
       },
       "runes": {
         "primaryStyle": {
@@ -452,8 +746,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
@@ -470,17 +764,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "statPerks": [
@@ -497,14 +791,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.25
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -515,310 +809,6 @@
         ],
         "games": 3,
         "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Rumble-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3107,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1600
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 628
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 688
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 23
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 92
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 96
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3116,
-          3165
-        ],
-        "names": [
-          "Rylai's Crystal Scepter",
-          "Morellonomicon"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 78388.33063113823
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Rumble-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3107,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1600
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 628
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 688
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 124
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 92
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 159
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          4633
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Riftmaker"
-        ],
-        "games": 15,
-        "wins": 13,
-        "winrate": 0.8666666666666667,
-        "score": 52576.065180833066
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 15,
-        "games": 2,
-        "confidencePct": 0.13333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 13,
-        "sampleGames": 15,
-        "confidencePct": 0.8666666666666667
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 14,
-        "sampleGames": 14,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -829,14 +819,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3107,
+    "totalGames": 4193,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4959768265207596,
+    "winrate": 0.49868829000715476,
     "items": [
       {
         "itemId": 3009,
@@ -855,20 +845,20 @@
         "purchaseSamples": 3982
       },
       {
+        "itemId": 3152,
+        "name": "Hextech Rocketbelt",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 830
+      },
+      {
         "itemId": 8010,
         "name": "Bloodletter's Curse",
         "isBoots": false,
-        "order": 3,
-        "medianPurchaseOrder": 3,
-        "purchaseSamples": 1501
-      },
-      {
-        "itemId": 4633,
-        "name": "Riftmaker",
-        "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 628
+        "purchaseSamples": 1501
       },
       {
         "itemId": 4645,
@@ -926,8 +916,8 @@
       ],
       "statPerks": [
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5007,
+          "name": "Ability Haste"
         },
         {
           "id": 5008,
@@ -938,15 +928,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3107,
-      "games": 627,
-      "confidencePct": 0.2018023817186997
+      "sampleGames": 4193,
+      "games": 781,
+      "confidencePct": 0.186262818984021
     },
     "position": {
       "role": "TOP",
-      "games": 2779,
-      "sampleGames": 3107,
-      "confidencePct": 0.8944319279047312
+      "games": 3679,
+      "sampleGames": 4193,
+      "confidencePct": 0.8774147388504651
     },
     "skillOrder": {
       "order": [
