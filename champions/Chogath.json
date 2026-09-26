@@ -1,7 +1,7 @@
 {
   "championId": "Chogath",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,21 +15,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 461209555.8310003
-    },
-    {
-      "itemIds": [
-        3109,
-        3190
-      ],
-      "names": [
-        "Knight's Vow",
-        "Locket of the Iron Solari"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 235708184.75796106
+      "score": 537709849.9176648
     },
     {
       "itemIds": [
@@ -43,7 +29,7 @@
       "games": 22,
       "wins": 13,
       "winrate": 0.5909090909090909,
-      "score": 184498524.85655034
+      "score": 220329263.08165988
     },
     {
       "itemIds": [
@@ -57,7 +43,7 @@
       "games": 10,
       "wins": 5,
       "winrate": 0.5,
-      "score": 178408987.01604024
+      "score": 211760677.40874287
     },
     {
       "itemIds": [
@@ -71,7 +57,21 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 147758032.98981032
+      "score": 183206992.6181344
+    },
+    {
+      "itemIds": [
+        3089,
+        3157
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Zhonya's Hourglass"
+      ],
+      "games": 28,
+      "wins": 20,
+      "winrate": 0.7142857142857143,
+      "score": 175112021.44697532
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Chogath-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8738,
+      "totalGames": 10822,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,20 +120,20 @@
           "purchaseSamples": 59
         },
         {
-          "itemId": 2502,
-          "name": "Unending Despair",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1187
-        },
-        {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 60
+        },
+        {
+          "itemId": 4401,
+          "name": "Force of Nature",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1423
         }
       ],
       "seedPair": {
@@ -148,7 +148,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 461209555.8310003
+        "score": 537709849.9176648
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Chogath-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 8738,
+      "totalGames": 10822,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -300,7 +300,7 @@
         "games": 22,
         "wins": 13,
         "winrate": 0.5909090909090909,
-        "score": 184498524.85655034
+        "score": 220329263.08165988
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Chogath-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8738,
+      "totalGames": 10822,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +452,7 @@
         "games": 10,
         "wins": 5,
         "winrate": 0.5,
-        "score": 178408987.01604024
+        "score": 211760677.40874287
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +535,7 @@
       "id": "Chogath-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 8738,
+      "totalGames": 10822,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +604,7 @@
         "games": 12,
         "wins": 12,
         "winrate": 1,
-        "score": 102562770.07746646
+        "score": 112541862.08488859
       },
       "runes": {
         "primaryStyle": {
@@ -687,7 +687,7 @@
       "id": "Chogath-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 8738,
+      "totalGames": 10822,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,10 +696,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 243
+        },
+        {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 118
         },
@@ -707,56 +715,48 @@
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 3439
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 57
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
+          "itemId": 4633,
+          "name": "Riftmaker",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 52
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 849
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3083,
+          "name": "Warmog's Armor",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 171
+          "purchaseSamples": 146
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 46
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 488
         }
       ],
       "seedPair": {
         "itemIds": [
-          4629,
-          4645
+          3083,
+          6657
         ],
         "names": [
-          "Cosmic Drive",
-          "Shadowflame"
+          "Warmog's Armor",
+          "Rod of Ages"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 63592489.765702054
+        "games": 33,
+        "wins": 21,
+        "winrate": 0.6363636363636364,
+        "score": 82945422.49165986
       },
       "runes": {
         "primaryStyle": {
@@ -777,8 +777,8 @@
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -787,8 +787,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
             "id": 9105,
@@ -805,19 +805,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 33,
+        "games": 12,
+        "confidencePct": 0.36363636363636365
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 19,
+        "sampleGames": 33,
+        "confidencePct": 0.5757575757575758
       },
       "skillOrder": {
         "order": [
@@ -825,9 +825,9 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 21,
+        "sampleGames": 29,
+        "confidencePct": 0.7241379310344828
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 8738,
+    "totalGames": 10822,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49153124284733346,
+    "winrate": 0.4911291812973572,
     "items": [
       {
         "itemId": 3084,
@@ -879,12 +879,12 @@
         "purchaseSamples": 3448
       },
       {
-        "itemId": 2502,
-        "name": "Unending Despair",
+        "itemId": 4633,
+        "name": "Riftmaker",
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1187
+        "purchaseSamples": 849
       },
       {
         "itemId": 4401,
@@ -946,15 +946,15 @@
           "name": "Tenacity/Slow Resist"
         }
       ],
-      "sampleGames": 8738,
-      "games": 4037,
-      "confidencePct": 0.46200503547722593
+      "sampleGames": 10822,
+      "games": 5127,
+      "confidencePct": 0.47375716133801515
     },
     "position": {
       "role": "JUNGLE",
-      "games": 5614,
-      "sampleGames": 8738,
-      "confidencePct": 0.6424811169604029
+      "games": 6720,
+      "sampleGames": 10822,
+      "confidencePct": 0.6209573091849935
     },
     "skillOrder": {
       "order": [

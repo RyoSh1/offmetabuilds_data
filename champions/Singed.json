@@ -1,8 +1,22 @@
 {
   "championId": "Singed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2503,
+        3135
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Void Staff"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 238911209.03031725
+    },
     {
       "itemIds": [
         2503,
@@ -12,24 +26,24 @@
         "Blackfire Torch",
         "Shadowflame"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 48274041.46635518
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 109324111.26695128
     },
     {
       "itemIds": [
-        3041,
+        3135,
         4645
       ],
       "names": [
-        "Mejai's Soulstealer",
+        "Void Staff",
         "Shadowflame"
       ],
-      "games": 5,
-      "wins": 5,
-      "winrate": 1,
-      "score": 11388656.427155485
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 58292888.63032843
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 27,
       "wins": 12,
       "winrate": 0.4444444444444444,
-      "score": 10988826.359561026
+      "score": 14411190.302674789
     },
     {
       "itemIds": [
-        3152,
+        3041,
         4645
       ],
       "names": [
-        "Hextech Rocketbelt",
+        "Mejai's Soulstealer",
         "Shadowflame"
       ],
-      "games": 29,
-      "wins": 15,
-      "winrate": 0.5172413793103449,
-      "score": 7878368.105183143
-    },
-    {
-      "itemIds": [
-        2524,
-        2525
-      ],
-      "names": [
-        "Bandlepipes",
-        "Protoplasm Harness"
-      ],
-      "games": 17,
-      "wins": 10,
-      "winrate": 0.5882352941176471,
-      "score": 3434400.9643473723
+      "games": 5,
+      "wins": 5,
+      "winrate": 1,
+      "score": 14203365.771232529
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Singed-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4328,
+      "totalGames": 5160,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -131,16 +131,16 @@
       "seedPair": {
         "itemIds": [
           2503,
-          4645
+          3135
         ],
         "names": [
           "Blackfire Torch",
-          "Shadowflame"
+          "Void Staff"
         ],
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 48274041.46635518
+        "score": 238911209.03031725
       },
       "runes": {
         "primaryStyle": {
@@ -194,8 +194,8 @@
           }
         ],
         "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
@@ -205,16 +205,168 @@
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 2,
-        "wins": 0,
-        "winrate": 0
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
       }
     },
     {
       "id": "Singed-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4328,
+      "totalGames": 5160,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 2585
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 856
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 619
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 82
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 610
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 4
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4633,
+          4645
+        ],
+        "names": [
+          "Riftmaker",
+          "Shadowflame"
+        ],
+        "games": 27,
+        "wins": 12,
+        "winrate": 0.4444444444444444,
+        "score": 14411190.302674789
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 27,
+        "games": 9,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 12,
+        "sampleGames": 27,
+        "confidencePct": 0.4444444444444444
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 24,
+        "sampleGames": 24,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Singed-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 5160,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -283,7 +435,7 @@
         "games": 5,
         "wins": 5,
         "winrate": 1,
-        "score": 11388656.427155485
+        "score": 14203365.771232529
       },
       "runes": {
         "primaryStyle": {
@@ -354,158 +506,6 @@
         ],
         "games": 4,
         "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Singed-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 4328,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2585
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 941
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 40
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 192
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 294
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2524,
-          2525
-        ],
-        "names": [
-          "Bandlepipes",
-          "Protoplasm Harness"
-        ],
-        "games": 17,
-        "wins": 10,
-        "winrate": 0.5882352941176471,
-        "score": 3434400.9643473723
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 17,
-        "games": 10,
-        "confidencePct": 0.5882352941176471
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 13,
-        "sampleGames": 17,
-        "confidencePct": 0.7647058823529411
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 13,
-        "sampleGames": 13,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -518,7 +518,7 @@
       "id": "Singed-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4328,
+      "totalGames": 5160,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -543,28 +543,180 @@
           "purchaseSamples": 856
         },
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4
+          "purchaseSamples": 220
         },
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 941
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 413
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2524,
+          3050
+        ],
+        "names": [
+          "Bandlepipes",
+          "Zeke's Convergence"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 13649168.479670696
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Singed-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5160,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 2585
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 856
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 513
+          "purchaseSamples": 38
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 82
+          "purchaseSamples": 413
         },
         {
           "itemId": 3143,
@@ -577,17 +729,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3742,
-          4645
+          3152,
+          8020
         ],
         "names": [
-          "Dead Man's Plate",
-          "Shadowflame"
+          "Hextech Rocketbelt",
+          "Abyssal Mask"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 2425364.1425180123
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 2777596.82136133
       },
       "runes": {
         "primaryStyle": {
@@ -618,164 +770,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8299,
-            "name": "Last Stand"
-          },
-          {
             "id": 9111,
             "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Singed-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 4328,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2585
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 856
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 413
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 192
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 294
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          3152
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Hextech Rocketbelt"
-        ],
-        "games": 13,
-        "wins": 6,
-        "winrate": 0.46153846153846156,
-        "score": 1111628.8463635582
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          },
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "statPerks": [
@@ -792,15 +792,15 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 13,
+        "sampleGames": 6,
         "games": 3,
-        "confidencePct": 0.23076923076923078
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 13,
-        "confidencePct": 0.5384615384615384
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -808,9 +808,9 @@
           "W",
           "E"
         ],
-        "games": 5,
-        "sampleGames": 8,
-        "confidencePct": 0.625
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -820,14 +820,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 4328,
+    "totalGames": 5160,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5113216266173752,
+    "winrate": 0.5106589147286822,
     "items": [
       {
         "itemId": 3009,
@@ -854,20 +854,20 @@
         "purchaseSamples": 2842
       },
       {
-        "itemId": 3152,
-        "name": "Hextech Rocketbelt",
-        "isBoots": false,
-        "order": 4,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 856
-      },
-      {
         "itemId": 2525,
         "name": "Protoplasm Harness",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 941
+      },
+      {
+        "itemId": 4633,
+        "name": "Riftmaker",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 619
       },
       {
         "itemId": 3742,
@@ -921,23 +921,23 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5010,
+          "name": "Move Speed"
         },
         {
           "id": 5001,
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4328,
-      "games": 1317,
-      "confidencePct": 0.30429759704251386
+      "sampleGames": 5160,
+      "games": 1512,
+      "confidencePct": 0.2930232558139535
     },
     "position": {
       "role": "TOP",
-      "games": 3187,
-      "sampleGames": 4328,
-      "confidencePct": 0.7363678373382625
+      "games": 3907,
+      "sampleGames": 5160,
+      "confidencePct": 0.7571705426356589
     },
     "skillOrder": {
       "order": [

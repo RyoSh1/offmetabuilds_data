@@ -1,7 +1,7 @@
 {
   "championId": "Vex",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 2904113.7073836527
+      "score": 2814336.4347644285
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Liandry's Torment",
         "Bloodletter's Curse"
       ],
-      "games": 12,
-      "wins": 5,
-      "winrate": 0.4166666666666667,
-      "score": 1481497.6132078334
+      "games": 14,
+      "wins": 6,
+      "winrate": 0.42857142857142855,
+      "score": 1813579.7425958174
     },
     {
       "itemIds": [
@@ -40,10 +40,24 @@
         "Banshee's Veil",
         "Void Staff"
       ],
-      "games": 10,
-      "wins": 8,
-      "winrate": 0.8,
-      "score": 669160.1513247631
+      "games": 12,
+      "wins": 10,
+      "winrate": 0.8333333333333334,
+      "score": 754928.0191808799
+    },
+    {
+      "itemIds": [
+        3152,
+        6653
+      ],
+      "names": [
+        "Hextech Rocketbelt",
+        "Liandry's Torment"
+      ],
+      "games": 22,
+      "wins": 12,
+      "winrate": 0.5454545454545454,
+      "score": 540884.3669579038
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 10,
       "wins": 5,
       "winrate": 0.5,
-      "score": 456983.7475126969
-    },
-    {
-      "itemIds": [
-        3152,
-        6653
-      ],
-      "names": [
-        "Hextech Rocketbelt",
-        "Liandry's Torment"
-      ],
-      "games": 18,
-      "wins": 11,
-      "winrate": 0.6111111111111112,
-      "score": 436758.73035563075
+      "score": 478495.13869766454
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vex-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3284,
+      "totalGames": 3898,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +148,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 2904113.7073836527
+        "score": 2814336.4347644285
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Vex-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3284,
+      "totalGames": 3898,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,12 +248,12 @@
           "purchaseSamples": 12
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 280
+          "purchaseSamples": 25
         },
         {
           "itemId": 3135,
@@ -297,46 +297,46 @@
           "Banshee's Veil",
           "Void Staff"
         ],
-        "games": 10,
-        "wins": 8,
-        "winrate": 0.8,
-        "score": 669160.1513247631
+        "games": 12,
+        "wins": 10,
+        "winrate": 0.8333333333333334,
+        "score": 754928.0191808799
       },
       "runes": {
         "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
+        "secondaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8210,
+            "name": "Transcendence"
           }
         ],
         "statPerks": [
@@ -349,19 +349,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
-        "games": 2,
-        "confidencePct": 0.2
+        "sampleGames": 12,
+        "games": 4,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 9,
-        "sampleGames": 10,
-        "confidencePct": 0.9
+        "games": 11,
+        "sampleGames": 12,
+        "confidencePct": 0.9166666666666666
       },
       "skillOrder": {
         "order": [
@@ -383,7 +383,7 @@
       "id": "Vex-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3284,
+      "totalGames": 3898,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +452,7 @@
         "games": 10,
         "wins": 5,
         "winrate": 0.5,
-        "score": 456983.7475126969
+        "score": 478495.13869766454
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +535,7 @@
       "id": "Vex-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3284,
+      "totalGames": 3898,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -544,12 +544,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
+          "itemId": 3118,
+          "name": "Malignance",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 715
+          "purchaseSamples": 95
         },
         {
           "itemId": 3175,
@@ -560,62 +560,80 @@
           "purchaseSamples": 12
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
-        },
-        {
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 280
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 204
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 6,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 289
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 107
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 279
         }
       ],
       "seedPair": {
         "itemIds": [
-          2503,
-          4629
+          3041,
+          3118
         ],
         "names": [
-          "Blackfire Torch",
-          "Cosmic Drive"
+          "Mejai's Soulstealer",
+          "Malignance"
         ],
-        "games": 49,
-        "wins": 33,
-        "winrate": 0.673469387755102,
-        "score": 281686.48893596674
+        "games": 12,
+        "wins": 6,
+        "winrate": 0.5,
+        "score": 293235.4342652703
       },
       "runes": {
         "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
+        "secondaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
@@ -623,24 +641,6 @@
           {
             "id": 8210,
             "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -653,19 +653,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 49,
-        "games": 15,
-        "confidencePct": 0.30612244897959184
+        "sampleGames": 12,
+        "games": 5,
+        "confidencePct": 0.4166666666666667
       },
       "position": {
         "role": "MIDDLE",
-        "games": 41,
-        "sampleGames": 49,
-        "confidencePct": 0.8367346938775511
+        "games": 12,
+        "sampleGames": 12,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -673,26 +673,26 @@
           "W",
           "E"
         ],
-        "games": 17,
-        "sampleGames": 19,
-        "confidencePct": 0.8947368421052632
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 3284,
+    "totalGames": 3898,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5246650426309378,
+    "winrate": 0.5236018471010775,
     "items": [
       {
         "itemId": 6655,
@@ -794,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3284,
-      "games": 1194,
-      "confidencePct": 0.3635809987819732
+      "sampleGames": 3898,
+      "games": 1481,
+      "confidencePct": 0.37993842996408417
     },
     "position": {
       "role": "MIDDLE",
-      "games": 2930,
-      "sampleGames": 3284,
-      "confidencePct": 0.892204628501827
+      "games": 3501,
+      "sampleGames": 3898,
+      "confidencePct": 0.8981528989225244
     },
     "skillOrder": {
       "order": [

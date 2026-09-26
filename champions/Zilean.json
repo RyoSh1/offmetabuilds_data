@@ -1,50 +1,8 @@
 {
   "championId": "Zilean",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3137,
-        4628
-      ],
-      "names": [
-        "Cryptbloom",
-        "Horizon Focus"
-      ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 47340572.67791442
-    },
-    {
-      "itemIds": [
-        3041,
-        3137
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Cryptbloom"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 39902599.704394676
-    },
-    {
-      "itemIds": [
-        3041,
-        6655
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Luden's Echo"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 36593973.23679483
-    },
     {
       "itemIds": [
         2503,
@@ -57,21 +15,63 @@
       "games": 13,
       "wins": 9,
       "winrate": 0.6923076923076923,
-      "score": 34573147.012117155
+      "score": 62613246.86017664
     },
     {
       "itemIds": [
-        2503,
+        3137,
+        4628
+      ],
+      "names": [
+        "Cryptbloom",
+        "Horizon Focus"
+      ],
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 51116112.81126296
+    },
+    {
+      "itemIds": [
+        3089,
+        4628
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 43131264.74399
+    },
+    {
+      "itemIds": [
+        4645,
+        6655
+      ],
+      "names": [
+        "Shadowflame",
+        "Luden's Echo"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 40662798.58276417
+    },
+    {
+      "itemIds": [
+        3041,
         3137
       ],
       "names": [
-        "Blackfire Torch",
+        "Mejai's Soulstealer",
         "Cryptbloom"
       ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 25019845.72908345
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 35064257.41258091
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Zilean-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3875,
+      "totalGames": 5357,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -104,12 +104,12 @@
           "purchaseSamples": 131
         },
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 105
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 106
         },
         {
           "itemId": 3041,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3137,
-          4628
+          2503,
+          3152
         ],
         "names": [
-          "Cryptbloom",
-          "Horizon Focus"
+          "Blackfire Torch",
+          "Hextech Rocketbelt"
         ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 47340572.67791442
+        "games": 13,
+        "wins": 9,
+        "winrate": 0.6923076923076923,
+        "score": 62613246.86017664
       },
       "runes": {
         "primaryStyle": {
@@ -156,8 +156,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
@@ -169,8 +169,8 @@
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
             "id": 8313,
             "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
@@ -201,24 +201,24 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 13,
+        "games": 9,
+        "confidencePct": 0.6923076923076923
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "role": "BOTTOM",
+        "games": 7,
+        "sampleGames": 13,
+        "confidencePct": 0.5384615384615384
       },
       "skillOrder": {
         "order": [
           "Q",
-          "W",
-          "E"
+          "E",
+          "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -231,7 +231,7 @@
       "id": "Zilean-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3875,
+      "totalGames": 5357,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -256,51 +256,51 @@
           "purchaseSamples": 105
         },
         {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 131
+        },
+        {
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 106
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 138
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 62
+          "purchaseSamples": 106
         },
         {
           "itemId": 4628,
           "name": "Horizon Focus",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 39
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
         "itemIds": [
-          3152,
-          3165
+          3089,
+          4628
         ],
         "names": [
-          "Hextech Rocketbelt",
-          "Morellonomicon"
+          "Rabadon's Deathcap",
+          "Horizon Focus"
         ],
-        "games": 14,
-        "wins": 6,
-        "winrate": 0.42857142857142855,
-        "score": 15747627.132567849
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 43131264.74399
       },
       "runes": {
         "primaryStyle": {
@@ -321,8 +321,8 @@
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -331,12 +331,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8313,
+            "name": "Triple Tonic"
           },
           {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
@@ -349,30 +349,21 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 14,
-        "games": 13,
-        "confidencePct": 0.9285714285714286
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
-        "role": "TOP",
-        "games": 13,
-        "sampleGames": 14,
-        "confidencePct": 0.9285714285714286
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -383,7 +374,302 @@
       "id": "Zilean-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3875,
+      "totalGames": 5357,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 178
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1877
+        },
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 105
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 33
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4645,
+          6655
+        ],
+        "names": [
+          "Shadowflame",
+          "Luden's Echo"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 40662798.58276417
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 1,
+        "confidencePct": 0.16666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 6,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zilean-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 5357,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 178
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1877
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 35
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 113
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 137
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2504,
+          6657
+        ],
+        "names": [
+          "Kaenic Rookern",
+          "Rod of Ages"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 18984236.040796414
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8360,
+          "name": "Unsealed Spellbook"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zilean-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5357,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +738,7 @@
         "games": 13,
         "wins": 7,
         "winrate": 0.5384615384615384,
-        "score": 11824895.075843953
+        "score": 13858333.388049008
       },
       "runes": {
         "primaryStyle": {
@@ -530,288 +816,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Zilean-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3875,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1877
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 138
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 39
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3040,
-          4629
-        ],
-        "names": [
-          "Seraph's Embrace",
-          "Cosmic Drive"
-        ],
-        "games": 188,
-        "wins": 106,
-        "winrate": 0.5638297872340425,
-        "score": 7394505.870739555
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 188,
-        "games": 45,
-        "confidencePct": 0.2393617021276596
-      },
-      "position": {
-        "role": "TOP",
-        "games": 94,
-        "sampleGames": 188,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 12,
-        "sampleGames": 24,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Zilean-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3875,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1877
-        },
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2530,
-          6620
-        ],
-        "names": [
-          "Diadem of Songs",
-          "Echoes of Helia"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 7144786.289238483
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 3875,
+    "totalGames": 5357,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49135483870967744,
+    "winrate": 0.4939331715512414,
     "items": [
       {
         "itemId": 3158,
@@ -913,15 +928,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3875,
-      "games": 441,
-      "confidencePct": 0.11380645161290323
+      "sampleGames": 5357,
+      "games": 691,
+      "confidencePct": 0.1289901064028374
     },
     "position": {
       "role": "UTILITY",
-      "games": 3063,
-      "sampleGames": 3875,
-      "confidencePct": 0.7904516129032259
+      "games": 4214,
+      "sampleGames": 5357,
+      "confidencePct": 0.7866343102482732
     },
     "skillOrder": {
       "order": [

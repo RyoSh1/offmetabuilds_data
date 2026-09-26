@@ -1,8 +1,22 @@
 {
   "championId": "Zeri",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4645,
+        6655
+      ],
+      "names": [
+        "Shadowflame",
+        "Luden's Echo"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 9589119262.306063
+    },
     {
       "itemIds": [
         3087,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 206499300.33386865
+      "score": 221352452.11133817
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Fiendhunter Bolts",
         "Gunmetal Greaves"
       ],
-      "games": 18,
-      "wins": 13,
-      "winrate": 0.7222222222222222,
-      "score": 65033467.91806532
+      "games": 19,
+      "wins": 14,
+      "winrate": 0.7368421052631579,
+      "score": 78568099.47531286
+    },
+    {
+      "itemIds": [
+        2512,
+        3087
+      ],
+      "names": [
+        "Fiendhunter Bolts",
+        "Statikk Shiv"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 33016250.975678783
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 26989024.456480328
-    },
-    {
-      "itemIds": [
-        3073,
-        3172
-      ],
-      "names": [
-        "Experimental Hexplate",
-        "Gunmetal Greaves"
-      ],
-      "games": 29,
-      "wins": 16,
-      "winrate": 0.5517241379310345,
-      "score": 20005730.431126334
-    },
-    {
-      "itemIds": [
-        2523,
-        3172
-      ],
-      "names": [
-        "Hexoptics C44",
-        "Gunmetal Greaves"
-      ],
-      "games": 13,
-      "wins": 6,
-      "winrate": 0.46153846153846156,
-      "score": 19140525.470442284
+      "score": 28779761.217237838
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "Zeri-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9525,
+      "totalGames": 11146,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3091
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4645,
+          6655
+        ],
+        "names": [
+          "Shadowflame",
+          "Luden's Echo"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 9589119262.306063
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Zeri-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11146,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -104,12 +223,12 @@
           "purchaseSamples": 28
         },
         {
-          "itemId": 3168,
-          "name": "Immortal Path",
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 3091
         },
         {
           "itemId": 3172,
@@ -148,7 +267,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 206499300.33386865
+        "score": 221352452.11133817
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +347,10 @@
       }
     },
     {
-      "id": "Zeri-2",
-      "buildIndex": 1,
+      "id": "Zeri-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 9525,
+      "totalGames": 11146,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,12 +359,164 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3168,
-          "name": "Immortal Path",
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1949
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3091
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 807
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 910
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 365
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3172,
+          6673
+        ],
+        "names": [
+          "Gunmetal Greaves",
+          "Immortal Shieldbow"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 14432194.054141074
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9103,
+            "name": "Legend: Bloodline"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 1,
+        "confidencePct": 0.16666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zeri-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 11146,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 3091
         },
         {
           "itemId": 3172,
@@ -300,7 +571,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 12976961.411439348
+        "score": 13957752.233152384
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +651,10 @@
       }
     },
     {
-      "id": "Zeri-3",
-      "buildIndex": 2,
+      "id": "Zeri-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 9525,
+      "totalGames": 11146,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,164 +663,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1949
-        },
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 807
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 910
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 365
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3172,
-          6673
-        ],
-        "names": [
-          "Gunmetal Greaves",
-          "Immortal Shieldbow"
-        ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 12161710.517722946
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Zeri-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 9525,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
+          "purchaseSamples": 3091
         },
         {
           "itemId": 6673,
@@ -604,7 +723,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 4634609.862798961
+        "score": 4335778.38223667
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +801,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Zeri-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 9525,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 83
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 43
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 355
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 365
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 936
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3143,
-          6665
-        ],
-        "names": [
-          "Randuin's Omen",
-          "Jak'Sho, The Protean"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 2674916.5129428394
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 9525,
+    "totalGames": 11146,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5138057742782153,
+    "winrate": 0.5122914049883366,
     "items": [
       {
         "itemId": 3032,
@@ -946,15 +913,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 9525,
-      "games": 2666,
-      "confidencePct": 0.27989501312335957
+      "sampleGames": 11146,
+      "games": 3181,
+      "confidencePct": 0.2853938632693343
     },
     "position": {
       "role": "BOTTOM",
-      "games": 9256,
-      "sampleGames": 9525,
-      "confidencePct": 0.971758530183727
+      "games": 10821,
+      "sampleGames": 11146,
+      "confidencePct": 0.9708415575094205
     },
     "skillOrder": {
       "order": [

@@ -1,8 +1,22 @@
 {
   "championId": "Belveth",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3146,
+        4645
+      ],
+      "names": [
+        "Hextech Gunblade",
+        "Shadowflame"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 1569135521.7091916
+    },
     {
       "itemIds": [
         3115,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 1117223863.3498135
+      "score": 1455690027.2989116
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 359076482.1882745
+      "score": 469230284.6234427
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 316188377.76588297
+      "score": 431841422.5394714
     },
     {
       "itemIds": [
-        3146,
-        3157
-      ],
-      "names": [
-        "Hextech Gunblade",
-        "Zhonya's Hourglass"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 295612779.85569555
-    },
-    {
-      "itemIds": [
-        3100,
+        3089,
         3146
       ],
       "names": [
-        "Lich Bane",
+        "Rabadon's Deathcap",
         "Hextech Gunblade"
       ],
-      "games": 3,
-      "wins": 1,
+      "games": 6,
+      "wins": 2,
       "winrate": 0.3333333333333333,
-      "score": 244710608.81555122
+      "score": 395465150.94484675
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Belveth-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2728,
+      "totalGames": 3427,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,10 +96,18 @@
           "purchaseSamples": 12
         },
         {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
           "itemId": 3115,
           "name": "Nashor's Tooth",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 9
         },
@@ -107,32 +115,24 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 790
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 36
         }
       ],
       "seedPair": {
         "itemIds": [
-          3115,
-          3146
+          3146,
+          4645
         ],
         "names": [
-          "Nashor's Tooth",
-          "Hextech Gunblade"
+          "Hextech Gunblade",
+          "Shadowflame"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 1117223863.3498135
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 1569135521.7091916
       },
       "runes": {
         "primaryStyle": {
@@ -149,26 +149,26 @@
             "name": "Axiom Arcanist"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -185,15 +185,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 4,
-        "confidencePct": 0.8
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -201,21 +201,21 @@
           "Q",
           "E"
         ],
-        "games": 5,
-        "sampleGames": 5,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
       "id": "Belveth-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2728,
+      "totalGames": 3427,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -276,7 +276,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 359076482.1882745
+        "score": 469230284.6234427
       },
       "runes": {
         "primaryStyle": {
@@ -350,7 +350,270 @@
       "id": "Belveth-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2728,
+      "totalGames": 3427,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 790
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 36
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3115,
+          3157
+        ],
+        "names": [
+          "Nashor's Tooth",
+          "Zhonya's Hourglass"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 431841422.5394714
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Belveth-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 3427,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 790
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 7
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3089,
+          3146
+        ],
+        "names": [
+          "Rabadon's Deathcap",
+          "Hextech Gunblade"
+        ],
+        "games": 6,
+        "wins": 2,
+        "winrate": 0.3333333333333333,
+        "score": 395465150.94484675
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Belveth-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 3427,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -416,10 +679,10 @@
           "Infinity Edge",
           "Lord Dominik's Regards"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 4456065.74165598
+        "games": 10,
+        "wins": 9,
+        "winrate": 0.9,
+        "score": 6248270.076477136
       },
       "runes": {
         "primaryStyle": {
@@ -472,14 +735,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 10,
+        "games": 3,
+        "confidencePct": 0.3
       },
       "position": {
         "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -496,306 +759,18 @@
         "games": 0,
         "wins": 0,
         "winrate": null
-      }
-    },
-    {
-      "id": "Belveth-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 2728,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6675,
-          "name": "Navori Flickerblade",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 405
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 790
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 62
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 284
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 71
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          3157
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Zhonya's Hourglass"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 1233881.980401362
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Belveth-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 2728,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3074,
-          "name": "Ravenous Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 926
-        },
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 790
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3124,
-          6662
-        ],
-        "names": [
-          "Guinsoo's Rageblade",
-          "Iceborn Gauntlet"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 1101350.88268951
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 2,
-        "winrate": 1
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 2728,
+    "totalGames": 3427,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49523460410557185,
+    "winrate": 0.49606069448497225,
     "items": [
       {
         "itemId": 6672,
@@ -897,15 +872,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2728,
-      "games": 503,
-      "confidencePct": 0.1843841642228739
+      "sampleGames": 3427,
+      "games": 674,
+      "confidencePct": 0.19667347534286547
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2686,
-      "sampleGames": 2728,
-      "confidencePct": 0.9846041055718475
+      "games": 3383,
+      "sampleGames": 3427,
+      "confidencePct": 0.9871607820250948
     },
     "skillOrder": {
       "order": [

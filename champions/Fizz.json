@@ -1,8 +1,22 @@
 {
   "championId": "Fizz",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3102,
+        3135
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Void Staff"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 8027335.052499209
+    },
     {
       "itemIds": [
         3137,
@@ -12,10 +26,10 @@
         "Cryptbloom",
         "Cosmic Drive"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 2964101.48177674
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 5284586.343902948
     },
     {
       "itemIds": [
@@ -29,21 +43,7 @@
       "games": 9,
       "wins": 3,
       "winrate": 0.3333333333333333,
-      "score": 2318647.8319729697
-    },
-    {
-      "itemIds": [
-        3115,
-        3137
-      ],
-      "names": [
-        "Nashor's Tooth",
-        "Cryptbloom"
-      ],
-      "games": 80,
-      "wins": 51,
-      "winrate": 0.6375,
-      "score": 1764175.194183111
+      "score": 3427275.1951253777
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Dusk and Dawn",
         "Nashor's Tooth"
       ],
-      "games": 510,
-      "wins": 283,
-      "winrate": 0.5549019607843138,
-      "score": 1632074.4058355389
+      "games": 570,
+      "wins": 309,
+      "winrate": 0.5421052631578948,
+      "score": 2804562.118358176
     },
     {
       "itemIds": [
-        4633,
-        8010
+        2510,
+        4629
       ],
       "names": [
-        "Riftmaker",
-        "Bloodletter's Curse"
+        "Dusk and Dawn",
+        "Cosmic Drive"
       ],
-      "games": 32,
-      "wins": 19,
-      "winrate": 0.59375,
-      "score": 1376173.4650855467
+      "games": 10,
+      "wins": 8,
+      "winrate": 0.8,
+      "score": 2563497.910784079
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Fizz-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4586,
+      "totalGames": 5702,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1199
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 773
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 35
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 121
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 13
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          3135
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Void Staff"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 8027335.052499209
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Fizz-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +288,10 @@
           "Cryptbloom",
           "Cosmic Drive"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 2964101.48177674
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 5284586.343902948
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +344,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.25
       },
       "position": {
         "role": "JUNGLE",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Fizz-2",
-      "buildIndex": 1,
+      "id": "Fizz-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4586,
+      "totalGames": 5702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -284,7 +427,7 @@
         "games": 9,
         "wins": 3,
         "winrate": 0.3333333333333333,
-        "score": 2318647.8319729697
+        "score": 3427275.1951253777
       },
       "runes": {
         "primaryStyle": {
@@ -364,10 +507,10 @@
       }
     },
     {
-      "id": "Fizz-3",
-      "buildIndex": 2,
+      "id": "Fizz-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4586,
+      "totalGames": 5702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,18 +535,10 @@
           "purchaseSamples": 2
         },
         {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 229
-        },
-        {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 141
         },
@@ -411,9 +546,17 @@
           "itemId": 3115,
           "name": "Nashor's Tooth",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 773
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 229
         },
         {
           "itemId": 8010,
@@ -426,17 +569,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          4633,
+          6653,
           8010
         ],
         "names": [
-          "Riftmaker",
+          "Liandry's Torment",
           "Bloodletter's Curse"
         ],
-        "games": 32,
-        "wins": 19,
-        "winrate": 0.59375,
-        "score": 1376173.4650855467
+        "games": 28,
+        "wins": 15,
+        "winrate": 0.5357142857142857,
+        "score": 1932194.5016827588
       },
       "runes": {
         "primaryStyle": {
@@ -467,12 +610,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8014,
+            "name": "Coup de Grace"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -489,15 +632,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 32,
-        "games": 18,
-        "confidencePct": 0.5625
+        "sampleGames": 28,
+        "games": 6,
+        "confidencePct": 0.21428571428571427
       },
       "position": {
         "role": "MIDDLE",
-        "games": 27,
-        "sampleGames": 32,
-        "confidencePct": 0.84375
+        "games": 15,
+        "sampleGames": 28,
+        "confidencePct": 0.5357142857142857
       },
       "skillOrder": {
         "order": [
@@ -505,9 +648,9 @@
           "W",
           "Q"
         ],
-        "games": 24,
-        "sampleGames": 25,
-        "confidencePct": 0.96
+        "games": 13,
+        "sampleGames": 16,
+        "confidencePct": 0.8125
       },
       "asWholeSet": {
         "games": 0,
@@ -516,10 +659,10 @@
       }
     },
     {
-      "id": "Fizz-4",
-      "buildIndex": 3,
+      "id": "Fizz-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4586,
+      "totalGames": 5702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -544,51 +687,27 @@
           "purchaseSamples": 2
         },
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 773
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 229
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1011
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 121
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3115,
-          3135
+          2510,
+          3153
         ],
         "names": [
-          "Nashor's Tooth",
-          "Void Staff"
+          "Dusk and Dawn",
+          "Blade of The Ruined King"
         ],
-        "games": 20,
-        "wins": 14,
-        "winrate": 0.7,
-        "score": 994004.9432768355
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 1486064.4672692928
       },
       "runes": {
         "primaryStyle": {
@@ -605,8 +724,8 @@
             "name": "Triumph"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
             "id": 8014,
@@ -614,23 +733,23 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8242,
+            "name": "Unflinching"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -641,194 +760,33 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 20,
-        "games": 8,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 17,
-        "sampleGames": 20,
-        "confidencePct": 0.85
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 12,
-        "sampleGames": 12,
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Fizz-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 4586,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1199
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 773
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 353
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 35
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 434
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          4645
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Shadowflame"
-        ],
-        "games": 10,
-        "wins": 2,
-        "winrate": 0.2,
-        "score": 637539.2836554783
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8237,
-            "name": "Scorch"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 2,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 10,
-        "confidencePct": 0.4
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
         "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "wins": 1,
+        "winrate": 0.3333333333333333
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 4586,
+    "totalGames": 5702,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4986916703009158,
+    "winrate": 0.5015783935461242,
     "items": [
       {
         "itemId": 2503,
@@ -930,15 +888,15 @@
           "name": "Tenacity/Slow Resist"
         }
       ],
-      "sampleGames": 4586,
-      "games": 1138,
-      "confidencePct": 0.24814653292629743
+      "sampleGames": 5702,
+      "games": 1153,
+      "confidencePct": 0.20220975096457383
     },
     "position": {
       "role": "MIDDLE",
-      "games": 3365,
-      "sampleGames": 4586,
-      "confidencePct": 0.7337549062363715
+      "games": 4250,
+      "sampleGames": 5702,
+      "confidencePct": 0.7453525078919677
     },
     "skillOrder": {
       "order": [

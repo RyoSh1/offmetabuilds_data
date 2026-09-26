@@ -1,8 +1,22 @@
 {
   "championId": "Shaco",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2530,
+        6620
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Echoes of Helia"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 216505040.24159715
+    },
     {
       "itemIds": [
         3040,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 33922315.73470038
+      "score": 49516635.83753412
     },
     {
       "itemIds": [
@@ -29,21 +43,21 @@
       "games": 107,
       "wins": 58,
       "winrate": 0.5420560747663551,
-      "score": 21394502.2156086
+      "score": 42978279.37806665
     },
     {
       "itemIds": [
-        4645,
-        4646
+        3110,
+        3742
       ],
       "names": [
-        "Shadowflame",
-        "Stormsurge"
+        "Frozen Heart",
+        "Dead Man's Plate"
       ],
-      "games": 15,
-      "wins": 9,
-      "winrate": 0.6,
-      "score": 7552765.43186295
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 20583778.341303084
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 6731630.009727134
-    },
-    {
-      "itemIds": [
-        3041,
-        4646
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Stormsurge"
-      ],
-      "games": 19,
-      "wins": 15,
-      "winrate": 0.7894736842105263,
-      "score": 6351965.754056169
+      "score": 10231199.304036116
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "Shaco-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4035,
+      "totalGames": 5485,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 903
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2530,
+          6620
+        ],
+        "names": [
+          "Diadem of Songs",
+          "Echoes of Helia"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 216505040.24159715
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 6,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Shaco-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5485,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -140,7 +259,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 33922315.73470038
+        "score": 49516635.83753412
       },
       "runes": {
         "primaryStyle": {
@@ -220,10 +339,10 @@
       }
     },
     {
-      "id": "Shaco-2",
-      "buildIndex": 1,
+      "id": "Shaco-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4035,
+      "totalGames": 5485,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -264,20 +383,20 @@
           "purchaseSamples": 7
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 56
-        },
-        {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 114
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 56
         }
       ],
       "seedPair": {
@@ -292,7 +411,7 @@
         "games": 107,
         "wins": 58,
         "winrate": 0.5420560747663551,
-        "score": 21394502.2156086
+        "score": 42978279.37806665
       },
       "runes": {
         "primaryStyle": {
@@ -372,10 +491,10 @@
       }
     },
     {
-      "id": "Shaco-3",
-      "buildIndex": 2,
+      "id": "Shaco-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4035,
+      "totalGames": 5485,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,59 +511,51 @@
           "purchaseSamples": 274
         },
         {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 199
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 903
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 7.5,
+          "purchaseSamples": 4
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 8020,
+          "name": "Abyssal Mask",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 332
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          6631,
-          6692
+          3110,
+          3742
         ],
         "names": [
-          "Stridebreaker",
-          "Eclipse"
+          "Frozen Heart",
+          "Dead Man's Plate"
         ],
-        "games": 123,
-        "wins": 63,
-        "winrate": 0.5121951219512195,
-        "score": 3533252.0826378157
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 20583778.341303084
       },
       "runes": {
         "primaryStyle": {
@@ -493,193 +604,32 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 123,
-        "games": 78,
-        "confidencePct": 0.6341463414634146
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 123,
-        "sampleGames": 123,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 96,
-        "sampleGames": 111,
-        "confidencePct": 0.8648648648648649
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Shaco-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 4035,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 449
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 903
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 106
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 88
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2520,
-          3033
-        ],
-        "names": [
-          "Bastionbreaker",
-          "Mortal Reminder"
-        ],
-        "games": 12,
-        "wins": 7,
-        "winrate": 0.5833333333333334,
-        "score": 3481939.1750265607
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
-        "games": 3,
-        "confidencePct": 0.25
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 12,
-        "confidencePct": 0.5833333333333334
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 7,
-        "sampleGames": 10,
-        "confidencePct": 0.7
-      },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
       "id": "Shaco-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4035,
+      "totalGames": 5485,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,59 +646,59 @@
           "purchaseSamples": 274
         },
         {
-          "itemId": 3078,
-          "name": "Trinity Force",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 27
+          "purchaseSamples": 1042
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 449
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 903
         },
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 133
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 360
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
+          "medianPurchaseOrder": 7.5,
+          "purchaseSamples": 4
         }
       ],
       "seedPair": {
         "itemIds": [
-          3078,
-          3153
+          3143,
+          3742
         ],
         "names": [
-          "Trinity Force",
-          "Blade of The Ruined King"
+          "Randuin's Omen",
+          "Dead Man's Plate"
         ],
-        "games": 9,
-        "wins": 6,
-        "winrate": 0.6666666666666666,
-        "score": 2908312.5440365295
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 6255909.280160587
       },
       "runes": {
         "primaryStyle": {
@@ -779,12 +729,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           }
         ],
         "statPerks": [
@@ -801,26 +751,17 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 9,
-        "games": 6,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
         "role": "JUNGLE",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -829,14 +770,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 4035,
+    "totalGames": 5485,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49417596034696404,
+    "winrate": 0.49298085688240656,
     "items": [
       {
         "itemId": 2503,
@@ -934,19 +875,19 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5011,
-          "name": "Health"
+          "id": 5001,
+          "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4035,
-      "games": 623,
-      "confidencePct": 0.1543990086741016
+      "sampleGames": 5485,
+      "games": 1127,
+      "confidencePct": 0.20546946216955334
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2916,
-      "sampleGames": 4035,
-      "confidencePct": 0.7226765799256506
+      "games": 4123,
+      "sampleGames": 5485,
+      "confidencePct": 0.7516864175022789
     },
     "skillOrder": {
       "order": [

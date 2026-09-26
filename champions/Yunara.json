@@ -1,8 +1,22 @@
 {
   "championId": "Yunara",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2512,
+        3089
+      ],
+      "names": [
+        "Fiendhunter Bolts",
+        "Rabadon's Deathcap"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 119530139.8125588
+    },
     {
       "itemIds": [
         3026,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 121540637.65676124
+      "score": 99671764.48715952
     },
     {
       "itemIds": [
@@ -26,24 +40,24 @@
         "Yun Tal Wildarrows",
         "Gunmetal Greaves"
       ],
-      "games": 26,
-      "wins": 13,
+      "games": 34,
+      "wins": 17,
       "winrate": 0.5,
-      "score": 112715104.6939674
+      "score": 75994641.64088126
     },
     {
       "itemIds": [
-        3115,
-        3146
+        3172,
+        3302
       ],
       "names": [
-        "Nashor's Tooth",
-        "Hextech Gunblade"
+        "Gunmetal Greaves",
+        "Terminus"
       ],
-      "games": 13,
-      "wins": 9,
-      "winrate": 0.6923076923076923,
-      "score": 73330511.57598644
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 73622058.96119851
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Rabadon's Deathcap",
         "Shadowflame"
       ],
-      "games": 37,
-      "wins": 21,
-      "winrate": 0.5675675675675675,
-      "score": 53538253.61197324
-    },
-    {
-      "itemIds": [
-        3115,
-        3135
-      ],
-      "names": [
-        "Nashor's Tooth",
-        "Void Staff"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 52552593.78800362
+      "games": 58,
+      "wins": 35,
+      "winrate": 0.603448275862069,
+      "score": 54678400.948796794
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Yunara-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 27131,
+      "totalGames": 31920,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3008,
+          "name": "Gluttonous Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 13862
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2278
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2512,
+          3089
+        ],
+        "names": [
+          "Fiendhunter Bolts",
+          "Rabadon's Deathcap"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 119530139.8125588
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Yunara-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 31920,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -104,28 +247,28 @@
           "purchaseSamples": 13862
         },
         {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 80
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 4184
+          "purchaseSamples": 2062
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1549
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 434
+          "purchaseSamples": 1549
         },
         {
           "itemId": 3172,
@@ -148,7 +291,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 121540637.65676124
+        "score": 99671764.48715952
       },
       "runes": {
         "primaryStyle": {
@@ -219,162 +362,10 @@
       }
     },
     {
-      "id": "Yunara-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 27131,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 13862
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3115,
-          3146
-        ],
-        "names": [
-          "Nashor's Tooth",
-          "Hextech Gunblade"
-        ],
-        "games": 13,
-        "wins": 9,
-        "winrate": 0.6923076923076923,
-        "score": 73330511.57598644
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 13,
-        "games": 6,
-        "confidencePct": 0.46153846153846156
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 9,
-        "sampleGames": 13,
-        "confidencePct": 0.6923076923076923
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 2,
-        "winrate": 1
-      }
-    },
-    {
       "id": "Yunara-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 27131,
+      "totalGames": 31920,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -397,12 +388,20 @@
           "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 22
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2278
         },
         {
           "itemId": 3124,
           "name": "Guinsoo's Rageblade",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 9
         },
@@ -410,7 +409,7 @@
           "itemId": 3302,
           "name": "Terminus",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 80
         },
@@ -418,32 +417,24 @@
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 1
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
           3124,
-          4645
+          3302
         ],
         "names": [
           "Guinsoo's Rageblade",
-          "Shadowflame"
+          "Terminus"
         ],
-        "games": 97,
-        "wins": 50,
-        "winrate": 0.5154639175257731,
-        "score": 48213773.183667414
+        "games": 398,
+        "wins": 201,
+        "winrate": 0.5050251256281407,
+        "score": 38625064.89192385
       },
       "runes": {
         "primaryStyle": {
@@ -496,15 +487,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 97,
-        "games": 28,
-        "confidencePct": 0.28865979381443296
+        "sampleGames": 398,
+        "games": 118,
+        "confidencePct": 0.2964824120603015
       },
       "position": {
         "role": "BOTTOM",
-        "games": 96,
-        "sampleGames": 97,
-        "confidencePct": 0.9896907216494846
+        "games": 389,
+        "sampleGames": 398,
+        "confidencePct": 0.9773869346733668
       },
       "skillOrder": {
         "order": [
@@ -512,153 +503,10 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Yunara-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 27131,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 13862
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 8,
-          "purchaseSamples": 2
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3089,
-          3102
-        ],
-        "names": [
-          "Rabadon's Deathcap",
-          "Banshee's Veil"
-        ],
         "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 36439894.975424804
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -667,14 +515,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 27131,
+    "totalGames": 31920,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5156094504441414,
+    "winrate": 0.5131578947368421,
     "items": [
       {
         "itemId": 6672,
@@ -768,23 +616,23 @@
           "name": "Attack Speed"
         },
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5010,
+          "name": "Move Speed"
         },
         {
           "id": 5011,
           "name": "Health"
         }
       ],
-      "sampleGames": 27131,
-      "games": 9933,
-      "confidencePct": 0.3661125649625889
+      "sampleGames": 31920,
+      "games": 11362,
+      "confidencePct": 0.35595238095238096
     },
     "position": {
       "role": "BOTTOM",
-      "games": 26988,
-      "sampleGames": 27131,
-      "confidencePct": 0.9947292764734068
+      "games": 31718,
+      "sampleGames": 31920,
+      "confidencePct": 0.993671679197995
     },
     "skillOrder": {
       "order": [

@@ -1,7 +1,7 @@
 {
   "championId": "Sona",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Lich Bane",
         "Luden's Echo"
       ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 7423911.026646557
+    },
+    {
+      "itemIds": [
+        3100,
+        3137
+      ],
+      "names": [
+        "Lich Bane",
+        "Cryptbloom"
+      ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 4832196.493598028
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 2432510.8724357733
     },
     {
       "itemIds": [
@@ -29,35 +43,21 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 614565.2448117767
+      "score": 879140.1826454193
     },
     {
       "itemIds": [
         3041,
-        3109
+        3100
       ],
       "names": [
         "Mejai's Soulstealer",
-        "Knight's Vow"
+        "Lich Bane"
       ],
-      "games": 6,
+      "games": 9,
       "wins": 6,
-      "winrate": 1,
-      "score": 389061.8066595671
-    },
-    {
-      "itemIds": [
-        3041,
-        3110
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Frozen Heart"
-      ],
-      "games": 6,
-      "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 369974.4972275086
+      "score": 665768.0975371866
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Mejai's Soulstealer",
         "Jak'Sho, The Protean"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 313815.8414508641
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 499502.11011414294
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sona-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 1877,
+      "totalGames": 2883,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -104,10 +104,34 @@
           "purchaseSamples": 505
         },
         {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
+        },
+        {
           "itemId": 6655,
           "name": "Luden's Echo",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -121,10 +145,10 @@
           "Lich Bane",
           "Luden's Echo"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 4832196.493598028
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 7423911.026646557
       },
       "runes": {
         "primaryStyle": {
@@ -177,28 +201,163 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Sona-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 1877,
+      "totalGames": 2883,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 505
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3100,
+          3137
+        ],
+        "names": [
+          "Lich Bane",
+          "Cryptbloom"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 2432510.8724357733
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Sona-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 2883,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -223,18 +382,10 @@
           "purchaseSamples": 24
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 77
-        },
-        {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 11
         },
@@ -242,13 +393,21 @@
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 40
         },
         {
           "itemId": 3040,
           "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -267,7 +426,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 614565.2448117767
+        "score": 879140.1826454193
       },
       "runes": {
         "primaryStyle": {
@@ -347,10 +506,10 @@
       }
     },
     {
-      "id": "Sona-3",
-      "buildIndex": 2,
+      "id": "Sona-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 1877,
+      "totalGames": 2883,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -410,16 +569,16 @@
       "seedPair": {
         "itemIds": [
           3041,
-          3109
+          6665
         ],
         "names": [
           "Mejai's Soulstealer",
-          "Knight's Vow"
+          "Jak'Sho, The Protean"
         ],
         "games": 6,
-        "wins": 6,
-        "winrate": 1,
-        "score": 389061.8066595671
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 499502.11011414294
       },
       "runes": {
         "primaryStyle": {
@@ -473,8 +632,8 @@
           }
         ],
         "sampleGames": 6,
-        "games": 5,
-        "confidencePct": 0.8333333333333334
+        "games": 4,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "UTILITY",
@@ -490,10 +649,10 @@
       }
     },
     {
-      "id": "Sona-4",
-      "buildIndex": 3,
+      "id": "Sona-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 1877,
+      "totalGames": 2883,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -559,10 +718,10 @@
           "Mejai's Soulstealer",
           "Frozen Heart"
         ],
-        "games": 6,
+        "games": 7,
         "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 369974.4972275086
+        "winrate": 0.5714285714285714,
+        "score": 456524.8607268247
       },
       "runes": {
         "primaryStyle": {
@@ -615,157 +774,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 2,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Sona-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 1877,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 505
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 40
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 267
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 40
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          3100
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Lich Bane"
-        ],
-        "games": 5,
-        "wins": 2,
-        "winrate": 0.4,
-        "score": 254029.32479211217
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 4,
-        "confidencePct": 0.8
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -777,14 +793,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 1877,
+    "totalGames": 2883,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.472562599893447,
+    "winrate": 0.4831772459243843,
     "items": [
       {
         "itemId": 3009,
@@ -886,15 +902,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 1877,
-      "games": 212,
-      "confidencePct": 0.11294619072988812
+      "sampleGames": 2883,
+      "games": 373,
+      "confidencePct": 0.1293791189732917
     },
     "position": {
       "role": "UTILITY",
-      "games": 1864,
-      "sampleGames": 1877,
-      "confidencePct": 0.9930740543420352
+      "games": 2861,
+      "sampleGames": 2883,
+      "confidencePct": 0.9923690600069373
     },
     "skillOrder": {
       "order": [

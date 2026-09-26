@@ -1,8 +1,22 @@
 {
   "championId": "KogMaw",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2503,
+        6653
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Liandry's Torment"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 27635902.888489347
+    },
     {
       "itemIds": [
         3031,
@@ -12,10 +26,10 @@
         "Infinity Edge",
         "Yun Tal Wildarrows"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 15627035.75528715
+      "winrate": 0.6,
+      "score": 16621674.231349891
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 11512413.518296663
+      "score": 12849453.210152628
     },
     {
       "itemIds": [
@@ -40,24 +54,10 @@
         "Seraph's Embrace",
         "Malignance"
       ],
-      "games": 5,
+      "games": 6,
       "wins": 3,
-      "winrate": 0.6,
-      "score": 10853624.164448213
-    },
-    {
-      "itemIds": [
-        3040,
-        3116
-      ],
-      "names": [
-        "Seraph's Embrace",
-        "Rylai's Crystal Scepter"
-      ],
-      "games": 4,
-      "wins": 2,
       "winrate": 0.5,
-      "score": 9627818.800173964
+      "score": 12346821.191715425
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Muramana",
         "Void Staff"
       ],
-      "games": 13,
-      "wins": 11,
-      "winrate": 0.8461538461538461,
-      "score": 9135812.526161138
+      "games": 16,
+      "wins": 14,
+      "winrate": 0.875,
+      "score": 12215640.169499245
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "KogMaw-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2826,
+      "totalGames": 3552,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 788
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 584
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 314
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2503,
+          6653
+        ],
+        "names": [
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 27635902.888489347
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "KogMaw-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 3552,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,18 +248,10 @@
           "purchaseSamples": 11
         },
         {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 850
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 7
         },
@@ -115,9 +259,17 @@
           "itemId": 3085,
           "name": "Runaan's Hurricane",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 287
+        },
+        {
+          "itemId": 6675,
+          "name": "Navori Flickerblade",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 397
         },
         {
           "itemId": 3031,
@@ -145,10 +297,10 @@
           "Infinity Edge",
           "Yun Tal Wildarrows"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 3,
-        "winrate": 0.75,
-        "score": 15627035.75528715
+        "winrate": 0.6,
+        "score": 16621674.231349891
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +353,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "KogMaw-2",
-      "buildIndex": 1,
+      "id": "KogMaw-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2826,
+      "totalGames": 3552,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,18 +392,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 18
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 7
         },
@@ -259,9 +403,17 @@
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 17
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
         },
         {
           "itemId": 4646,
@@ -300,7 +452,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 11512413.518296663
+        "score": 12849453.210152628
       },
       "runes": {
         "primaryStyle": {
@@ -380,162 +532,10 @@
       }
     },
     {
-      "id": "KogMaw-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 2826,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 139
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3040,
-          3118
-        ],
-        "names": [
-          "Seraph's Embrace",
-          "Malignance"
-        ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 10853624.164448213
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "KogMaw-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2826,
+      "totalGames": 3552,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -601,10 +601,10 @@
           "Muramana",
           "Void Staff"
         ],
-        "games": 13,
-        "wins": 11,
-        "winrate": 0.8461538461538461,
-        "score": 9135812.526161138
+        "games": 16,
+        "wins": 14,
+        "winrate": 0.875,
+        "score": 12215640.169499245
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 13,
-        "games": 13,
-        "confidencePct": 1
+        "sampleGames": 16,
+        "games": 14,
+        "confidencePct": 0.875
       },
       "position": {
         "role": "MIDDLE",
-        "games": 12,
-        "sampleGames": 13,
-        "confidencePct": 0.9230769230769231
+        "games": 13,
+        "sampleGames": 16,
+        "confidencePct": 0.8125
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -678,7 +678,7 @@
       "id": "KogMaw-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2826,
+      "totalGames": 3552,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -687,20 +687,20 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6672,
+          "name": "Kraken Slayer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 112
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 7
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 116
         },
         {
           "itemId": 3046,
@@ -747,7 +747,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 5559544.348032021
+        "score": 6040960.93864425
       },
       "runes": {
         "primaryStyle": {
@@ -828,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2826,
+    "totalGames": 3552,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5060155697098372,
+    "winrate": 0.5084459459459459,
     "items": [
       {
         "itemId": 2510,
@@ -937,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2826,
-      "games": 537,
-      "confidencePct": 0.19002123142250532
+      "sampleGames": 3552,
+      "games": 630,
+      "confidencePct": 0.17736486486486486
     },
     "position": {
       "role": "BOTTOM",
-      "games": 1796,
-      "sampleGames": 2826,
-      "confidencePct": 0.6355272469922152
+      "games": 2335,
+      "sampleGames": 3552,
+      "confidencePct": 0.6573761261261262
     },
     "skillOrder": {
       "order": [

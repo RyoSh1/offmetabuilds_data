@@ -1,7 +1,7 @@
 {
   "championId": "Darius",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,35 @@
       "games": 9,
       "wins": 5,
       "winrate": 0.5555555555555556,
-      "score": 50814527.360221595
+      "score": 81783285.85444292
+    },
+    {
+      "itemIds": [
+        3031,
+        6676
+      ],
+      "names": [
+        "Infinity Edge",
+        "The Collector"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 9697786.048091825
+    },
+    {
+      "itemIds": [
+        3031,
+        3036
+      ],
+      "names": [
+        "Infinity Edge",
+        "Lord Dominik's Regards"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 6752121.810953545
     },
     {
       "itemIds": [
@@ -29,21 +57,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 4252694.309216229
-    },
-    {
-      "itemIds": [
-        3031,
-        6676
-      ],
-      "names": [
-        "Infinity Edge",
-        "The Collector"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 3941254.1953653735
+      "score": 5251809.873352114
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Lord Dominik's Regards",
         "The Collector"
       ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 2779024.795593743
-    },
-    {
-      "itemIds": [
-        3042,
-        3071
-      ],
-      "names": [
-        "Muramana",
-        "Black Cleaver"
-      ],
-      "games": 3,
+      "games": 8,
       "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1593404.2666794565
+      "winrate": 0.25,
+      "score": 4628717.68939188
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Darius-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4422,
+      "totalGames": 6275,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,20 +112,20 @@
           "purchaseSamples": 661
         },
         {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 910
+        },
+        {
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1185
+          "purchaseSamples": 22
         },
         {
           "itemId": 3053,
@@ -148,7 +148,7 @@
         "games": 9,
         "wins": 5,
         "winrate": 0.5555555555555556,
-        "score": 50814527.360221595
+        "score": 81783285.85444292
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,134 @@
       "id": "Darius-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4422,
+      "totalGames": 6275,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1777
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3031,
+          6676
+        ],
+        "names": [
+          "Infinity Edge",
+          "The Collector"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 9697786.048091825
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25
+      }
+    },
+    {
+      "id": "Darius-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 6275,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -256,20 +383,20 @@
           "purchaseSamples": 48
         },
         {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 661
-        },
-        {
           "itemId": 3078,
           "name": "Trinity Force",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 549
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 661
         },
         {
           "itemId": 6610,
@@ -300,7 +427,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 4252694.309216229
+        "score": 5251809.873352114
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +507,10 @@
       }
     },
     {
-      "id": "Darius-3",
-      "buildIndex": 2,
+      "id": "Darius-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4422,
+      "totalGames": 6275,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,43 +527,59 @@
           "purchaseSamples": 1777
         },
         {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 910
+        },
+        {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 2,
+          "order": 4,
           "medianPurchaseOrder": 2.5,
           "purchaseSamples": 12
         },
         {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1004
         },
         {
-          "itemId": 3031,
-          "name": "Infinity Edge",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 608
         }
       ],
       "seedPair": {
         "itemIds": [
-          3031,
-          6676
+          6676,
+          6699
         ],
         "names": [
-          "Infinity Edge",
-          "The Collector"
+          "The Collector",
+          "Voltaic Cyclosword"
         ],
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 3941254.1953653735
+        "score": 3015771.9764313446
       },
       "runes": {
         "primaryStyle": {
@@ -457,22 +600,22 @@
             "name": "Celerity"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8410,
-            "name": "Approach Velocity"
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -481,12 +624,12 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
         "sampleGames": 3,
@@ -501,16 +644,16 @@
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 2,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     },
     {
-      "id": "Darius-4",
-      "buildIndex": 3,
+      "id": "Darius-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4422,
+      "totalGames": 6275,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -571,7 +714,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1593404.2666794565
+        "score": 2025197.9475784535
       },
       "runes": {
         "primaryStyle": {
@@ -649,169 +792,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Darius-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 4422,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1777
-        },
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 549
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 120
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 145
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 35
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 44
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3065,
-          3156
-        ],
-        "names": [
-          "Spirit Visage",
-          "Maw of Malmortius"
-        ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 1446950.815593341
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "TOP",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 4422,
+    "totalGames": 6275,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5040705563093623,
+    "winrate": 0.5053386454183267,
     "items": [
       {
         "itemId": 3142,
@@ -913,15 +904,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4422,
-      "games": 1105,
-      "confidencePct": 0.2498869289914066
+      "sampleGames": 6275,
+      "games": 1783,
+      "confidencePct": 0.2841434262948207
     },
     "position": {
       "role": "TOP",
-      "games": 3743,
-      "sampleGames": 4422,
-      "confidencePct": 0.8464495703301673
+      "games": 5346,
+      "sampleGames": 6275,
+      "confidencePct": 0.8519521912350597
     },
     "skillOrder": {
       "order": [

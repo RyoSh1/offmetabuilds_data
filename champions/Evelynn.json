@@ -1,7 +1,7 @@
 {
   "championId": "Evelynn",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-25T19:48:47.151Z",
+  "generatedAt": "2026-09-26T08:38:52.376Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Hextech Rocketbelt",
         "Stormsurge"
       ],
-      "games": 43,
-      "wins": 17,
-      "winrate": 0.3953488372093023,
-      "score": 151492.3915149226
+      "games": 45,
+      "wins": 18,
+      "winrate": 0.4,
+      "score": 207292.54825831993
     },
     {
       "itemIds": [
@@ -29,35 +29,7 @@
       "games": 5,
       "wins": 5,
       "winrate": 1,
-      "score": 135000.83633903824
-    },
-    {
-      "itemIds": [
-        3102,
-        3157
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Zhonya's Hourglass"
-      ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 111077.99691460849
-    },
-    {
-      "itemIds": [
-        3102,
-        3135
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Void Staff"
-      ],
-      "games": 79,
-      "wins": 55,
-      "winrate": 0.6962025316455697,
-      "score": 92391.38207414249
+      "score": 174972.77589242297
     },
     {
       "itemIds": [
@@ -68,10 +40,38 @@
         "Hextech Rocketbelt",
         "Zhonya's Hourglass"
       ],
-      "games": 11,
-      "wins": 5,
-      "winrate": 0.45454545454545453,
-      "score": 89841.0094976198
+      "games": 14,
+      "wins": 7,
+      "winrate": 0.5,
+      "score": 162008.71533477557
+    },
+    {
+      "itemIds": [
+        3102,
+        3157
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Zhonya's Hourglass"
+      ],
+      "games": 13,
+      "wins": 10,
+      "winrate": 0.7692307692307693,
+      "score": 146275.85715694106
+    },
+    {
+      "itemIds": [
+        3102,
+        3135
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Void Staff"
+      ],
+      "games": 120,
+      "wins": 77,
+      "winrate": 0.6416666666666667,
+      "score": 85994.52965496376
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Evelynn-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2113,
+      "totalGames": 2701,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,20 +112,20 @@
           "purchaseSamples": 158
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 440
-        },
-        {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 92
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 209
         },
         {
           "itemId": 3102,
@@ -145,10 +145,10 @@
           "Hextech Rocketbelt",
           "Stormsurge"
         ],
-        "games": 43,
-        "wins": 17,
-        "winrate": 0.3953488372093023,
-        "score": 151492.3915149226
+        "games": 45,
+        "wins": 18,
+        "winrate": 0.4,
+        "score": 207292.54825831993
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +201,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 43,
+        "sampleGames": 45,
         "games": 35,
-        "confidencePct": 0.813953488372093
+        "confidencePct": 0.7777777777777778
       },
       "position": {
         "role": "JUNGLE",
-        "games": 43,
-        "sampleGames": 43,
+        "games": 45,
+        "sampleGames": 45,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -226,17 +226,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Evelynn-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 2701,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1406
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 440
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 231
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 267
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 92
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 168
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          3135
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Void Staff"
+        ],
+        "games": 139,
+        "wins": 113,
+        "winrate": 0.8129496402877698,
+        "score": 34546.33822940195
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 139,
+        "games": 33,
+        "confidencePct": 0.23741007194244604
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 139,
+        "sampleGames": 139,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 22,
+        "sampleGames": 33,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 2113,
+    "totalGames": 2701,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5153809749171794,
+    "winrate": 0.5098111810440578,
     "items": [
       {
         "itemId": 3100,
@@ -338,15 +490,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2113,
-      "games": 796,
-      "confidencePct": 0.37671557027922387
+      "sampleGames": 2701,
+      "games": 844,
+      "confidencePct": 0.3124768604220659
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2068,
-      "sampleGames": 2113,
-      "confidencePct": 0.9787032654992901
+      "games": 2627,
+      "sampleGames": 2701,
+      "confidencePct": 0.9726027397260274
     },
     "skillOrder": {
       "order": [
