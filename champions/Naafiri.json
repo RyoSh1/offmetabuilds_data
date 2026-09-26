@@ -1,8 +1,22 @@
 {
   "championId": "Naafiri",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3042,
+        6692
+      ],
+      "names": [
+        "Muramana",
+        "Eclipse"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 11808754.889804712
+    },
     {
       "itemIds": [
         3050,
@@ -15,35 +29,35 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 12967639.847574715
+      "score": 11123832.300260752
     },
     {
       "itemIds": [
-        3042,
+        3179,
+        6695
+      ],
+      "names": [
+        "Umbral Glaive",
+        "Serpent's Fang"
+      ],
+      "games": 10,
+      "wins": 4,
+      "winrate": 0.4,
+      "score": 9868364.87372854
+    },
+    {
+      "itemIds": [
+        6609,
         6692
       ],
       "names": [
-        "Muramana",
+        "Chempunk Chainsword",
         "Eclipse"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 4995674.095349646
-    },
-    {
-      "itemIds": [
-        6692,
-        6694
-      ],
-      "names": [
-        "Eclipse",
-        "Serylda's Grudge"
-      ],
-      "games": 81,
-      "wins": 43,
-      "winrate": 0.5308641975308642,
-      "score": 4937920.167790472
+      "games": 9,
+      "wins": 6,
+      "winrate": 0.6666666666666666,
+      "score": 8968046.951573621
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Mortal Reminder",
         "Eclipse"
       ],
-      "games": 7,
-      "wins": 2,
-      "winrate": 0.2857142857142857,
-      "score": 2630903.175178049
-    },
-    {
-      "itemIds": [
-        3179,
-        6694
-      ],
-      "names": [
-        "Umbral Glaive",
-        "Serylda's Grudge"
-      ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 2464179.450032108
+      "games": 10,
+      "wins": 4,
+      "winrate": 0.4,
+      "score": 4048214.281523038
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Naafiri-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7286,
+      "totalGames": 8415,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -104,20 +104,172 @@
           "purchaseSamples": 327
         },
         {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 900
+          "purchaseSamples": 1803
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 626
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3042,
+          6692
+        ],
+        "names": [
+          "Muramana",
+          "Eclipse"
+        ],
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 11808754.889804712
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Naafiri-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8415,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 785
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 14
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1803
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 354
         },
         {
           "itemId": 3156,
@@ -148,7 +300,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 12967639.847574715
+        "score": 11123832.300260752
       },
       "runes": {
         "primaryStyle": {
@@ -228,314 +380,10 @@
       }
     },
     {
-      "id": "Naafiri-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 7286,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 785
-        },
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 327
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1803
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 483
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 626
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3042,
-          6692
-        ],
-        "names": [
-          "Muramana",
-          "Eclipse"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 4995674.095349646
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Naafiri-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 7286,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 785
-        },
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 245
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1803
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 354
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 626
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3033,
-          6692
-        ],
-        "names": [
-          "Mortal Reminder",
-          "Eclipse"
-        ],
-        "games": 7,
-        "wins": 2,
-        "winrate": 0.2857142857142857,
-        "score": 2630903.175178049
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 2,
-        "confidencePct": 0.2857142857142857
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 7,
-        "confidencePct": 0.42857142857142855
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Naafiri-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 7286,
+      "totalGames": 8415,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -568,12 +416,12 @@
           "purchaseSamples": 1803
         },
         {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
+          "itemId": 6695,
+          "name": "Serpent's Fang",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 354
+          "purchaseSamples": 1126
         },
         {
           "itemId": 6694,
@@ -584,27 +432,179 @@
           "purchaseSamples": 483
         },
         {
-          "itemId": 3814,
-          "name": "Edge of Night",
+          "itemId": 6609,
+          "name": "Chempunk Chainsword",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 626
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 42
         }
       ],
       "seedPair": {
         "itemIds": [
           3179,
-          6694
+          6695
         ],
         "names": [
           "Umbral Glaive",
-          "Serylda's Grudge"
+          "Serpent's Fang"
         ],
-        "games": 5,
-        "wins": 1,
-        "winrate": 0.2,
-        "score": 2464179.450032108
+        "games": 10,
+        "wins": 4,
+        "winrate": 0.4,
+        "score": 9868364.87372854
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 2,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 4,
+        "sampleGames": 10,
+        "confidencePct": 0.4
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Naafiri-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 8415,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 785
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1803
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 354
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 626
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 20
+        },
+        {
+          "itemId": 6609,
+          "name": "Chempunk Chainsword",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 42
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6609,
+          6692
+        ],
+        "names": [
+          "Chempunk Chainsword",
+          "Eclipse"
+        ],
+        "games": 9,
+        "wins": 6,
+        "winrate": 0.6666666666666666,
+        "score": 8968046.951573621
       },
       "runes": {
         "primaryStyle": {
@@ -635,12 +635,164 @@
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 2,
+        "confidencePct": 0.2222222222222222
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 9,
+        "confidencePct": 0.4444444444444444
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Naafiri-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 8415,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 785
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 900
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1803
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 483
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 626
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3142,
+          6696
+        ],
+        "names": [
+          "Youmuu's Ghostblade",
+          "Axiom Arc"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 3180400.7681910293
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8237,
+            "name": "Scorch"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
           }
         ],
         "statPerks": [
@@ -663,9 +815,9 @@
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
+        "games": 3,
         "sampleGames": 5,
-        "confidencePct": 0.4
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -673,160 +825,8 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Naafiri-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 7286,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 245
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1803
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 354
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 626
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 20
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2520,
-          3142
-        ],
-        "names": [
-          "Bastionbreaker",
-          "Youmuu's Ghostblade"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 670883.6429991579
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
         "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 7286,
+    "totalGames": 8415,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4865495470765852,
+    "winrate": 0.4859180035650624,
     "items": [
       {
         "itemId": 6699,
@@ -863,10 +863,18 @@
         "purchaseSamples": 3926
       },
       {
+        "itemId": 6696,
+        "name": "Axiom Arc",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 900
+      },
+      {
         "itemId": 3158,
         "name": "Ionian Boots of Lucidity",
         "isBoots": true,
-        "order": 3,
+        "order": 4,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 1803
       },
@@ -874,7 +882,7 @@
         "itemId": 6695,
         "name": "Serpent's Fang",
         "isBoots": false,
-        "order": 4,
+        "order": 5,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 1126
       },
@@ -882,17 +890,9 @@
         "itemId": 6333,
         "name": "Death's Dance",
         "isBoots": false,
-        "order": 5,
+        "order": 6,
         "medianPurchaseOrder": 4,
         "purchaseSamples": 1945
-      },
-      {
-        "itemId": 3026,
-        "name": "Guardian Angel",
-        "isBoots": false,
-        "order": 6,
-        "medianPurchaseOrder": 5,
-        "purchaseSamples": 645
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 7286,
-      "games": 2357,
-      "confidencePct": 0.3234971177600878
+      "sampleGames": 8415,
+      "games": 2601,
+      "confidencePct": 0.3090909090909091
     },
     "position": {
       "role": "JUNGLE",
-      "games": 6241,
-      "sampleGames": 7286,
-      "confidencePct": 0.856574251990118
+      "games": 6914,
+      "sampleGames": 8415,
+      "confidencePct": 0.8216280451574569
     },
     "skillOrder": {
       "order": [

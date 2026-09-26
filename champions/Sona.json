@@ -1,7 +1,7 @@
 {
   "championId": "Sona",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Lich Bane",
         "Luden's Echo"
       ],
-      "games": 5,
+      "games": 6,
       "wins": 4,
-      "winrate": 0.8,
-      "score": 7423911.026646557
+      "winrate": 0.6666666666666666,
+      "score": 12827209.963619927
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 2432510.8724357733
+      "score": 4514710.945565415
+    },
+    {
+      "itemIds": [
+        3041,
+        6657
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Rod of Ages"
+      ],
+      "games": 17,
+      "wins": 15,
+      "winrate": 0.8823529411764706,
+      "score": 1269586.9935541365
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 879140.1826454193
+      "score": 1115205.4054496745
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 9,
       "wins": 6,
       "winrate": 0.6666666666666666,
-      "score": 665768.0975371866
-    },
-    {
-      "itemIds": [
-        3041,
-        6665
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Jak'Sho, The Protean"
-      ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 499502.11011414294
+      "score": 842991.3020789621
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sona-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2883,
+      "totalGames": 5131,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +145,10 @@
           "Lich Bane",
           "Luden's Echo"
         ],
-        "games": 5,
+        "games": 6,
         "wins": 4,
-        "winrate": 0.8,
-        "score": 7423911.026646557
+        "winrate": 0.6666666666666666,
+        "score": 12827209.963619927
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 6,
         "games": 3,
-        "confidencePct": 0.6
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -222,7 +222,7 @@
       "id": "Sona-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 2883,
+      "totalGames": 5131,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -283,7 +283,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 2432510.8724357733
+        "score": 4514710.945565415
       },
       "runes": {
         "primaryStyle": {
@@ -357,7 +357,7 @@
       "id": "Sona-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2883,
+      "totalGames": 5131,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -382,20 +382,20 @@
           "purchaseSamples": 24
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 11
-        },
-        {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 40
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
         },
         {
           "itemId": 3040,
@@ -416,17 +416,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3165,
+          3041,
           6657
         ],
         "names": [
-          "Morellonomicon",
+          "Mejai's Soulstealer",
           "Rod of Ages"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 879140.1826454193
+        "games": 17,
+        "wins": 15,
+        "winrate": 0.8823529411764706,
+        "score": 1269586.9935541365
       },
       "runes": {
         "primaryStyle": {
@@ -447,8 +447,8 @@
             "name": "Celerity"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
@@ -475,18 +475,18 @@
             "name": "Move Speed"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "sampleGames": 17,
+        "games": 14,
+        "confidencePct": 0.8235294117647058
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 17,
+        "sampleGames": 17,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -495,8 +495,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -509,7 +509,7 @@
       "id": "Sona-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2883,
+      "totalGames": 5131,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -534,51 +534,51 @@
           "purchaseSamples": 505
         },
         {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 35
+        },
+        {
           "itemId": 6665,
           "name": "Jak'Sho, The Protean",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 13
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 77
+          "purchaseSamples": 43
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 40
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          6665
+          3109,
+          3190
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Jak'Sho, The Protean"
+          "Knight's Vow",
+          "Locket of the Iron Solari"
         ],
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 499502.11011414294
+        "score": 804541.3195511182
       },
       "runes": {
         "primaryStyle": {
@@ -604,17 +604,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 9105,
+            "name": "Legend: Haste"
           }
         ],
         "statPerks": [
@@ -632,8 +632,8 @@
           }
         ],
         "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
@@ -652,7 +652,7 @@
       "id": "Sona-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 2883,
+      "totalGames": 5131,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -669,59 +669,59 @@
           "purchaseSamples": 505
         },
         {
-          "itemId": 3110,
-          "name": "Frozen Heart",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 14
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 155
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 77
+          "purchaseSamples": 35
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 40
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 41
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 4,
+          "order": 6,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 40
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          3110
+          2065,
+          3190
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Frozen Heart"
+          "Shurelya's Battlesong",
+          "Locket of the Iron Solari"
         ],
-        "games": 7,
-        "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 456524.8607268247
+        "games": 18,
+        "wins": 8,
+        "winrate": 0.4444444444444444,
+        "score": 676707.3964474009
       },
       "runes": {
         "primaryStyle": {
@@ -752,12 +752,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8453,
-            "name": "Revitalize"
-          },
-          {
             "id": 8473,
             "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "statPerks": [
@@ -766,25 +766,34 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 2,
-        "confidencePct": 0.2857142857142857
+        "sampleGames": 18,
+        "games": 9,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 18,
+        "sampleGames": 18,
         "confidencePct": 1
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 12,
+        "sampleGames": 15,
+        "confidencePct": 0.8
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -793,14 +802,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2883,
+    "totalGames": 5131,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4831772459243843,
+    "winrate": 0.4965893587994543,
     "items": [
       {
         "itemId": 3009,
@@ -866,8 +875,8 @@
           "name": "Manaflow Band"
         },
         {
-          "id": 8210,
-          "name": "Transcendence"
+          "id": 8234,
+          "name": "Celerity"
         },
         {
           "id": 8236,
@@ -875,42 +884,42 @@
         }
       ],
       "subStyle": {
-        "id": 8400,
-        "name": "Resolve"
+        "id": 8300,
+        "name": "Inspiration"
       },
       "secondaryPerks": [
         {
-          "id": 8429,
-          "name": "Conditioning"
+          "id": 8316,
+          "name": "Jack Of All Trades"
         },
         {
-          "id": 8453,
-          "name": "Revitalize"
+          "id": 8304,
+          "name": "Magical Footwear"
         }
       ],
       "statPerks": [
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5007,
+          "name": "Ability Haste"
         },
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5010,
+          "name": "Move Speed"
         },
         {
-          "id": 5001,
-          "name": "Health Scaling"
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 2883,
-      "games": 373,
-      "confidencePct": 0.1293791189732917
+      "sampleGames": 5131,
+      "games": 823,
+      "confidencePct": 0.1603975833170922
     },
     "position": {
       "role": "UTILITY",
-      "games": 2861,
-      "sampleGames": 2883,
-      "confidencePct": 0.9923690600069373
+      "games": 5093,
+      "sampleGames": 5131,
+      "confidencePct": 0.9925940362502437
     },
     "skillOrder": {
       "order": [

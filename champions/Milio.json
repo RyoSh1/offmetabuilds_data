@@ -1,8 +1,22 @@
 {
   "championId": "Milio",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4005,
+        4628
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Horizon Focus"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 15673084.728149084
+    },
     {
       "itemIds": [
         3041,
@@ -12,10 +26,10 @@
         "Mejai's Soulstealer",
         "Staff of Flowing Water"
       ],
-      "games": 4,
-      "wins": 4,
+      "games": 7,
+      "wins": 7,
       "winrate": 1,
-      "score": 1418578.5330678676
+      "score": 1848742.5425382473
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Diadem of Songs",
         "Dawncore"
       ],
-      "games": 9,
-      "wins": 6,
-      "winrate": 0.6666666666666666,
-      "score": 810313.5398676053
+      "games": 12,
+      "wins": 9,
+      "winrate": 0.75,
+      "score": 1089445.8499925146
+    },
+    {
+      "itemIds": [
+        3041,
+        6621
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Dawncore"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 1031166.1551305599
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Mejai's Soulstealer",
         "Redemption"
       ],
-      "games": 6,
-      "wins": 6,
-      "winrate": 1,
-      "score": 664947.2499996497
-    },
-    {
-      "itemIds": [
-        3109,
-        3190
-      ],
-      "names": [
-        "Knight's Vow",
-        "Locket of the Iron Solari"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 627143.9526437854
-    },
-    {
-      "itemIds": [
-        3107,
-        6621
-      ],
-      "names": [
-        "Redemption",
-        "Dawncore"
-      ],
-      "games": 30,
-      "wins": 18,
-      "winrate": 0.6,
-      "score": 611078.5236699407
+      "games": 11,
+      "wins": 10,
+      "winrate": 0.9090909090909091,
+      "score": 876593.5051703795
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "Milio-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6935,
+      "totalGames": 8625,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3951
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4005,
+          4628
+        ],
+        "names": [
+          "Imperial Mandate",
+          "Horizon Focus"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 15673084.728149084
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Milio-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8625,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,20 +231,20 @@
           "purchaseSamples": 7
         },
         {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 172
-        },
-        {
           "itemId": 6621,
           "name": "Dawncore",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 40
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 172
         },
         {
           "itemId": 2530,
@@ -145,10 +264,10 @@
           "Mejai's Soulstealer",
           "Staff of Flowing Water"
         ],
-        "games": 4,
-        "wins": 4,
+        "games": 7,
+        "wins": 7,
         "winrate": 1,
-        "score": 1418578.5330678676
+        "score": 1848742.5425382473
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +320,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 7,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.14285714285714285
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -219,10 +338,10 @@
       }
     },
     {
-      "id": "Milio-2",
-      "buildIndex": 1,
+      "id": "Milio-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6935,
+      "totalGames": 8625,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -291,7 +410,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 627143.9526437854
+        "score": 683036.6766973548
       },
       "runes": {
         "primaryStyle": {
@@ -371,10 +490,10 @@
       }
     },
     {
-      "id": "Milio-3",
-      "buildIndex": 2,
+      "id": "Milio-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6935,
+      "totalGames": 8625,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -391,34 +510,18 @@
           "purchaseSamples": 3951
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 644
-        },
-        {
           "itemId": 3222,
           "name": "Mikael's Blessing",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 590
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 123
         },
         {
           "itemId": 6616,
           "name": "Staff of Flowing Water",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 66
         },
@@ -426,24 +529,40 @@
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 6,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 56
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 172
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 13
         }
       ],
       "seedPair": {
         "itemIds": [
-          2065,
+          3165,
           3222
         ],
         "names": [
-          "Shurelya's Battlesong",
+          "Morellonomicon",
           "Mikael's Blessing"
         ],
-        "games": 90,
-        "wins": 58,
-        "winrate": 0.6444444444444445,
-        "score": 149866.06274192105
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 431437.590264229
       },
       "runes": {
         "primaryStyle": {
@@ -460,8 +579,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -469,17 +588,17 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -488,22 +607,22 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 90,
-        "games": 36,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 90,
-        "sampleGames": 90,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -512,9 +631,9 @@
           "W",
           "Q"
         ],
-        "games": 33,
-        "sampleGames": 52,
-        "confidencePct": 0.6346153846153846
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -524,14 +643,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6935,
+    "totalGames": 8625,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.47368421052631576,
+    "winrate": 0.4747826086956522,
     "items": [
       {
         "itemId": 6620,
@@ -633,15 +752,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6935,
-      "games": 2698,
-      "confidencePct": 0.38904109589041097
+      "sampleGames": 8625,
+      "games": 3409,
+      "confidencePct": 0.3952463768115942
     },
     "position": {
       "role": "UTILITY",
-      "games": 6933,
-      "sampleGames": 6935,
-      "confidencePct": 0.9997116077865897
+      "games": 8619,
+      "sampleGames": 8625,
+      "confidencePct": 0.9993043478260869
     },
     "skillOrder": {
       "order": [

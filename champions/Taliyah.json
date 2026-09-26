@@ -1,8 +1,22 @@
 {
   "championId": "Taliyah",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2524,
+        3190
+      ],
+      "names": [
+        "Bandlepipes",
+        "Locket of the Iron Solari"
+      ],
+      "games": 9,
+      "wins": 5,
+      "winrate": 0.5555555555555556,
+      "score": 659473122.5019226
+    },
     {
       "itemIds": [
         3109,
@@ -15,21 +29,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 493454531.954086
-    },
-    {
-      "itemIds": [
-        2524,
-        3190
-      ],
-      "names": [
-        "Bandlepipes",
-        "Locket of the Iron Solari"
-      ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 459004985.6972398
+      "score": 603235743.5225505
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 279696921.981856
+      "score": 353259383.02559704
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 60128875.03682731
+      "score": 71865527.10486536
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 49006592.06383276
+      "score": 57825380.296971984
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Taliyah-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6796,
+      "totalGames": 8110,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,10 +96,18 @@
           "purchaseSamples": 3003
         },
         {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
+        },
+        {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 119
         },
@@ -107,7 +115,7 @@
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 1566
         },
@@ -115,17 +123,9 @@
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 869
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
         },
         {
           "itemId": 3190,
@@ -138,59 +138,59 @@
       ],
       "seedPair": {
         "itemIds": [
-          3109,
+          2524,
           3190
         ],
         "names": [
-          "Knight's Vow",
+          "Bandlepipes",
           "Locket of the Iron Solari"
         ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 493454531.954086
+        "games": 9,
+        "wins": 5,
+        "winrate": 0.5555555555555556,
+        "score": 659473122.5019226
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
           },
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5010,
@@ -201,14 +201,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 9,
+        "games": 8,
+        "confidencePct": 0.8888888888888888
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -222,7 +222,7 @@
       "id": "Taliyah-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 6796,
+      "totalGames": 8110,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -291,7 +291,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 279696921.981856
+        "score": 353259383.02559704
       },
       "runes": {
         "primaryStyle": {
@@ -365,7 +365,7 @@
       "id": "Taliyah-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6796,
+      "totalGames": 8110,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -426,7 +426,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 49006592.06383276
+        "score": 57825380.296971984
       },
       "runes": {
         "primaryStyle": {
@@ -500,159 +500,7 @@
       "id": "Taliyah-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6796,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3003
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 119
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1566
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 153
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 96
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4005,
-          4628
-        ],
-        "names": [
-          "Imperial Mandate",
-          "Horizon Focus"
-        ],
-        "games": 14,
-        "wins": 9,
-        "winrate": 0.6428571428571429,
-        "score": 9254976.213506935
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 11,
-        "confidencePct": 0.7857142857142857
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Taliyah-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 6796,
+      "totalGames": 8110,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -685,12 +533,12 @@
           "purchaseSamples": 78
         },
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1566
+          "purchaseSamples": 100
         },
         {
           "itemId": 3041,
@@ -718,10 +566,10 @@
           "Imperial Mandate",
           "Stormsurge"
         ],
-        "games": 6,
-        "wins": 2,
+        "games": 9,
+        "wins": 3,
         "winrate": 0.3333333333333333,
-        "score": 7230595.12212849
+        "score": 11619113.81550626
       },
       "runes": {
         "primaryStyle": {
@@ -774,15 +622,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 9,
         "games": 4,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.4444444444444444
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 6,
+        "sampleGames": 9,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -799,17 +647,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Taliyah-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 8110,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3003
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 119
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 100
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 153
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 96
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4005,
+          4628
+        ],
+        "names": [
+          "Imperial Mandate",
+          "Horizon Focus"
+        ],
+        "games": 15,
+        "wins": 9,
+        "winrate": 0.6,
+        "score": 9822884.952747354
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 15,
+        "games": 11,
+        "confidencePct": 0.7333333333333333
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 13,
+        "sampleGames": 15,
+        "confidencePct": 0.8666666666666667
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 6796,
+    "totalGames": 8110,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5051500882872277,
+    "winrate": 0.5053020961775586,
     "items": [
       {
         "itemId": 2503,
@@ -911,15 +911,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6796,
-      "games": 651,
-      "confidencePct": 0.09579164214243673
+      "sampleGames": 8110,
+      "games": 759,
+      "confidencePct": 0.0935881627620222
     },
     "position": {
       "role": "MIDDLE",
-      "games": 3134,
-      "sampleGames": 6796,
-      "confidencePct": 0.461153619776339
+      "games": 3789,
+      "sampleGames": 8110,
+      "confidencePct": 0.46720098643649816
     },
     "skillOrder": {
       "order": [

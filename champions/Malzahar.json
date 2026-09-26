@@ -1,21 +1,49 @@
 {
   "championId": "Malzahar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
-        3041,
-        4645
+        3118,
+        4005
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Shadowflame"
+        "Malignance",
+        "Imperial Mandate"
+      ],
+      "games": 9,
+      "wins": 6,
+      "winrate": 0.6666666666666666,
+      "score": 29786793.71549622
+    },
+    {
+      "itemIds": [
+        2065,
+        3118
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Malignance"
+      ],
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 8382606.06110859
+    },
+    {
+      "itemIds": [
+        3157,
+        4005
+      ],
+      "names": [
+        "Zhonya's Hourglass",
+        "Imperial Mandate"
       ],
       "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 2653653.1345897703
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 4395655.760502081
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 14,
       "wins": 7,
       "winrate": 0.5,
-      "score": 1826469.857320992
+      "score": 2585489.3605997763
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 20,
       "wins": 10,
       "winrate": 0.5,
-      "score": 1611704.6830294672
-    },
-    {
-      "itemIds": [
-        2065,
-        4646
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Stormsurge"
-      ],
-      "games": 14,
-      "wins": 7,
-      "winrate": 0.5,
-      "score": 1455074.5044298205
-    },
-    {
-      "itemIds": [
-        2065,
-        3041
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Mejai's Soulstealer"
-      ],
-      "games": 9,
-      "wins": 8,
-      "winrate": 0.8888888888888888,
-      "score": 1298056.8697121649
+      "score": 2425609.7142801424
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Malzahar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3424,
+      "totalGames": 4426,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 119
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 69
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 265
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          4005
+        ],
+        "names": [
+          "Malignance",
+          "Imperial Mandate"
+        ],
+        "games": 9,
+        "wins": 6,
+        "winrate": 0.6666666666666666,
+        "score": 29786793.71549622
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 2,
+        "confidencePct": 0.2222222222222222
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Malzahar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 4426,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,10 +239,18 @@
           "purchaseSamples": 41
         },
         {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 103
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 6
         },
@@ -107,7 +258,7 @@
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 69
         },
@@ -115,7 +266,7 @@
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 46
         },
@@ -123,32 +274,24 @@
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 91
+          "purchaseSamples": 78
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          4645
+          2065,
+          6655
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Shadowflame"
+          "Shurelya's Battlesong",
+          "Luden's Echo"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 2653653.1345897703
+        "games": 14,
+        "wins": 7,
+        "winrate": 0.5,
+        "score": 2585489.3605997763
       },
       "runes": {
         "primaryStyle": {
@@ -165,8 +308,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -174,312 +317,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8242,
+            "name": "Unflinching"
           },
           {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Malzahar-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 3424,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 119
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 91
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3040,
-          3041
-        ],
-        "names": [
-          "Seraph's Embrace",
-          "Mejai's Soulstealer"
-        ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 1189289.7831983438
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Malzahar-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 3424,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 119
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 69
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 91
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3137,
-          4646
-        ],
-        "names": [
-          "Cryptbloom",
-          "Stormsurge"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 1069474.2411421689
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -492,32 +340,193 @@
             "name": "Move Speed"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
+        "sampleGames": 14,
+        "games": 5,
+        "confidencePct": 0.35714285714285715
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 13,
+        "sampleGames": 14,
+        "confidencePct": 0.9285714285714286
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
-      "skillOrder": null,
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Malzahar-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 4426,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 119
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 69
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 78
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 91
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3041
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Mejai's Soulstealer"
+        ],
+        "games": 9,
+        "wins": 8,
+        "winrate": 0.8888888888888888,
+        "score": 1641483.3849219612
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 5,
+        "confidencePct": 0.5555555555555556
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 7,
+        "sampleGames": 9,
+        "confidencePct": 0.7777777777777778
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 8,
+        "sampleGames": 8,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Malzahar-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3424,
+      "totalGames": 4426,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -534,10 +543,18 @@
           "purchaseSamples": 6
         },
         {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 69
         },
@@ -545,7 +562,7 @@
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 84
         },
@@ -553,7 +570,7 @@
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 67
         },
@@ -561,17 +578,9 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 91
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 78
+          "purchaseSamples": 91
         }
       ],
       "seedPair": {
@@ -583,10 +592,10 @@
           "Rabadon's Deathcap",
           "Void Staff"
         ],
-        "games": 36,
-        "wins": 17,
-        "winrate": 0.4722222222222222,
-        "score": 505736.87850990443
+        "games": 48,
+        "wins": 23,
+        "winrate": 0.4791666666666667,
+        "score": 617909.1857671994
       },
       "runes": {
         "primaryStyle": {
@@ -639,15 +648,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 36,
+        "sampleGames": 48,
         "games": 9,
-        "confidencePct": 0.25
+        "confidencePct": 0.1875
       },
       "position": {
         "role": "MIDDLE",
-        "games": 27,
-        "sampleGames": 36,
-        "confidencePct": 0.75
+        "games": 37,
+        "sampleGames": 48,
+        "confidencePct": 0.7708333333333334
       },
       "skillOrder": {
         "order": [
@@ -669,7 +678,7 @@
       "id": "Malzahar-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3424,
+      "totalGames": 4426,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -678,67 +687,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
+          "itemId": 3118,
+          "name": "Malignance",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 103
+          "purchaseSamples": 119
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 6
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 69
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 88
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 84
+          "purchaseSamples": 78
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          4646
+          3165,
+          8010
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Stormsurge"
+          "Morellonomicon",
+          "Bloodletter's Curse"
         ],
-        "games": 6,
-        "wins": 4,
+        "games": 9,
+        "wins": 6,
         "winrate": 0.6666666666666666,
-        "score": 242241.1322290447
+        "score": 367783.17404620163
       },
       "runes": {
         "primaryStyle": {
@@ -755,8 +764,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -769,37 +778,37 @@
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
             "id": 8347,
             "name": "Cosmic Insight"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
             "id": 5008,
             "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 9,
+        "games": 1,
+        "confidencePct": 0.1111111111111111
       },
       "position": {
         "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
       },
       "skillOrder": {
         "order": [
@@ -807,8 +816,8 @@
           "Q",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -819,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3424,
+    "totalGames": 4426,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4742990654205608,
+    "winrate": 0.47672842295526435,
     "items": [
       {
         "itemId": 2503,
@@ -928,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3424,
-      "games": 1039,
-      "confidencePct": 0.303446261682243
+      "sampleGames": 4426,
+      "games": 1318,
+      "confidencePct": 0.29778581111613195
     },
     "position": {
       "role": "MIDDLE",
-      "games": 2916,
-      "sampleGames": 3424,
-      "confidencePct": 0.8516355140186916
+      "games": 3746,
+      "sampleGames": 4426,
+      "confidencePct": 0.8463624039765025
     },
     "skillOrder": {
       "order": [

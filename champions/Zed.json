@@ -1,7 +1,7 @@
 {
   "championId": "Zed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 64921863.746959575
+      "score": 76458207.27991398
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 48568240.80259992
+      "score": 50258629.19631303
+    },
+    {
+      "itemIds": [
+        3071,
+        6609
+      ],
+      "names": [
+        "Black Cleaver",
+        "Chempunk Chainsword"
+      ],
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 24916440.606843583
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Mortal Reminder",
         "Umbral Glaive"
       ],
-      "games": 4,
+      "games": 6,
       "wins": 2,
-      "winrate": 0.5,
-      "score": 24633516.751427777
+      "winrate": 0.3333333333333333,
+      "score": 22943051.513970222
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 18790980.22746626
-    },
-    {
-      "itemIds": [
-        3071,
-        6609
-      ],
-      "names": [
-        "Black Cleaver",
-        "Chempunk Chainsword"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 18129777.81232513
+      "score": 17827993.201053824
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Zed-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 12940,
+      "totalGames": 15834,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,20 +120,20 @@
           "purchaseSamples": 392
         },
         {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 81
+        },
+        {
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5.5,
           "purchaseSamples": 6
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 257
         }
       ],
       "seedPair": {
@@ -148,7 +148,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 64921863.746959575
+        "score": 76458207.27991398
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Zed-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 12940,
+      "totalGames": 15834,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,18 +240,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 248
-        },
-        {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 9
         },
@@ -259,7 +251,7 @@
           "itemId": 3071,
           "name": "Black Cleaver",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 430
         },
@@ -267,7 +259,7 @@
           "itemId": 3161,
           "name": "Spear of Shojin",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 188
         },
@@ -275,9 +267,17 @@
           "itemId": 6609,
           "name": "Chempunk Chainsword",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 16
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 81
         },
         {
           "itemId": 3026,
@@ -300,7 +300,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 48568240.80259992
+        "score": 50258629.19631303
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Zed-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 12940,
+      "totalGames": 15834,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,18 +392,34 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 248
+        },
+        {
           "itemId": 3179,
           "name": "Umbral Glaive",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 134
+        },
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 42
         },
         {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 9
         },
@@ -411,33 +427,17 @@
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 3,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 131
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 81
         },
         {
           "itemId": 3142,
           "name": "Youmuu's Ghostblade",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 392
+          "purchaseSamples": 182
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Mortal Reminder",
           "Umbral Glaive"
         ],
-        "games": 4,
+        "games": 6,
         "wins": 2,
-        "winrate": 0.5,
-        "score": 24633516.751427777
+        "winrate": 0.3333333333333333,
+        "score": 22943051.513970222
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
         "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "sampleGames": 6,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
@@ -535,7 +535,7 @@
       "id": "Zed-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 12940,
+      "totalGames": 15834,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -594,17 +594,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          6697,
+          3142,
           6698
         ],
         "names": [
-          "Hubris",
+          "Youmuu's Ghostblade",
           "Profane Hydra"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 7089513.919850137
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 11668107.733209213
       },
       "runes": {
         "primaryStyle": {
@@ -657,178 +657,17 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "JUNGLE",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Zed-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 12940,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2649
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 188
-        },
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 16
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 257
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          3814
-        ],
-        "names": [
-          "Guardian Angel",
-          "Edge of Night"
-        ],
-        "games": 144,
-        "wins": 97,
-        "winrate": 0.6736111111111112,
-        "score": 4049117.1648862273
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 144,
-        "games": 52,
-        "confidencePct": 0.3611111111111111
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 75,
-        "sampleGames": 144,
-        "confidencePct": 0.5208333333333334
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 76,
-        "sampleGames": 76,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -837,14 +676,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 12940,
+    "totalGames": 15834,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5112055641421948,
+    "winrate": 0.5126942023493748,
     "items": [
       {
         "itemId": 6699,
@@ -946,15 +785,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 12940,
-      "games": 3658,
-      "confidencePct": 0.2826893353941267
+      "sampleGames": 15834,
+      "games": 4557,
+      "confidencePct": 0.28779840848806365
     },
     "position": {
       "role": "MIDDLE",
-      "games": 9034,
-      "sampleGames": 12940,
-      "confidencePct": 0.698145285935085
+      "games": 11184,
+      "sampleGames": 15834,
+      "confidencePct": 0.7063281546040167
     },
     "skillOrder": {
       "order": [

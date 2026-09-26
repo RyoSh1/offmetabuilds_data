@@ -1,63 +1,49 @@
 {
   "championId": "Corki",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
         3179,
-        6694
+        3814
       ],
       "names": [
         "Umbral Glaive",
-        "Serylda's Grudge"
+        "Edge of Night"
       ],
-      "games": 11,
-      "wins": 10,
-      "winrate": 0.9090909090909091,
-      "score": 130770820.82690871
-    },
-    {
-      "itemIds": [
-        6694,
-        6699
-      ],
-      "names": [
-        "Serylda's Grudge",
-        "Voltaic Cyclosword"
-      ],
-      "games": 17,
-      "wins": 11,
-      "winrate": 0.6470588235294118,
-      "score": 98617319.32063287
+      "games": 7,
+      "wins": 2,
+      "winrate": 0.2857142857142857,
+      "score": 228414796.48472193
     },
     {
       "itemIds": [
         3179,
-        6699
+        6694
       ],
       "names": [
         "Umbral Glaive",
-        "Voltaic Cyclosword"
+        "Serylda's Grudge"
       ],
-      "games": 9,
-      "wins": 8,
-      "winrate": 0.8888888888888888,
-      "score": 98153930.41799895
+      "games": 13,
+      "wins": 10,
+      "winrate": 0.7692307692307693,
+      "score": 115284517.10848515
     },
     {
       "itemIds": [
-        2520,
-        6699
+        3156,
+        3814
       ],
       "names": [
-        "Bastionbreaker",
-        "Voltaic Cyclosword"
+        "Maw of Malmortius",
+        "Edge of Night"
       ],
-      "games": 30,
-      "wins": 18,
-      "winrate": 0.6,
-      "score": 89395647.39788781
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 90075128.14463368
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Bastionbreaker",
         "Serylda's Grudge"
       ],
-      "games": 30,
+      "games": 31,
       "wins": 16,
-      "winrate": 0.5333333333333333,
-      "score": 84694848.05737367
+      "winrate": 0.5161290322580645,
+      "score": 88507684.40332791
+    },
+    {
+      "itemIds": [
+        2520,
+        6699
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Voltaic Cyclosword"
+      ],
+      "games": 36,
+      "wins": 20,
+      "winrate": 0.5555555555555556,
+      "score": 82814953.79113175
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Corki-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5452,
+      "totalGames": 6233,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -139,16 +139,16 @@
       "seedPair": {
         "itemIds": [
           3179,
-          6694
+          3814
         ],
         "names": [
           "Umbral Glaive",
-          "Serylda's Grudge"
+          "Edge of Night"
         ],
-        "games": 11,
-        "wins": 10,
-        "winrate": 0.9090909090909091,
-        "score": 130770820.82690871
+        "games": 7,
+        "wins": 2,
+        "winrate": 0.2857142857142857,
+        "score": 228414796.48472193
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 11,
-        "games": 10,
-        "confidencePct": 0.9090909090909091
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 10,
-        "sampleGames": 11,
-        "confidencePct": 0.9090909090909091
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -222,7 +222,7 @@
       "id": "Corki-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5452,
+      "totalGames": 6233,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -231,10 +231,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2067
         },
@@ -242,7 +250,7 @@
           "itemId": 3161,
           "name": "Spear of Shojin",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 100
         },
@@ -250,17 +258,9 @@
           "itemId": 3071,
           "name": "Black Cleaver",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 156
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 151
+          "purchaseSamples": 156
         },
         {
           "itemId": 2501,
@@ -271,12 +271,12 @@
           "purchaseSamples": 7
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 324
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -288,10 +288,10 @@
           "Overlord's Bloodmail",
           "Spear of Shojin"
         ],
-        "games": 9,
+        "games": 10,
         "wins": 6,
-        "winrate": 0.6666666666666666,
-        "score": 73002012.59811673
+        "winrate": 0.6,
+        "score": 74245640.86861503
       },
       "runes": {
         "primaryStyle": {
@@ -344,15 +344,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
+        "sampleGames": 10,
         "games": 3,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.3
       },
       "position": {
         "role": "MIDDLE",
         "games": 4,
-        "sampleGames": 9,
-        "confidencePct": 0.4444444444444444
+        "sampleGames": 10,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -374,7 +374,7 @@
       "id": "Corki-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5452,
+      "totalGames": 6233,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -399,65 +399,73 @@
           "purchaseSamples": 2067
         },
         {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 100
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 3072,
+          "name": "Bloodthirster",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 156
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 73
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 324
         },
         {
           "itemId": 3042,
           "name": "Muramana",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3161,
-          6610
+          6610,
+          6699
         ],
         "names": [
-          "Spear of Shojin",
-          "Sundered Sky"
+          "Sundered Sky",
+          "Voltaic Cyclosword"
         ],
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 39136810.020187125
+        "score": 64559107.097065166
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
+          "id": 9923,
+          "name": "Hail of Blades"
         },
         "primaryPerks": [
           {
-            "id": 9101,
-            "name": "Absorb Life"
+            "id": 8139,
+            "name": "Taste of Blood"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8105,
+            "name": "Relentless Hunter"
           }
         ],
         "subStyle": {
@@ -466,12 +474,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
             "id": 8321,
             "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -489,27 +497,27 @@
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 1,
+        "role": "TOP",
+        "games": 3,
         "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 1
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Corki-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5452,
+      "totalGames": 6233,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -550,20 +558,20 @@
           "purchaseSamples": 100
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 252
-        },
-        {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 324
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 57
         }
       ],
       "seedPair": {
@@ -578,7 +586,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 27999965.156453233
+        "score": 30230213.46043654
       },
       "runes": {
         "primaryStyle": {
@@ -661,7 +669,7 @@
       "id": "Corki-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5452,
+      "totalGames": 6233,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -670,89 +678,89 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 2
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2067
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 156
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 100
-        },
-        {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 11
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
+          "itemId": 6695,
+          "name": "Serpent's Fang",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 117
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 151
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 324
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
         "itemIds": [
-          3071,
-          6609
+          6695,
+          6697
         ],
         "names": [
-          "Black Cleaver",
-          "Chempunk Chainsword"
+          "Serpent's Fang",
+          "Hubris"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 13999982.578226617
+        "games": 7,
+        "wins": 2,
+        "winrate": 0.2857142857142857,
+        "score": 28885490.055356067
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 8369,
+          "name": "First Strike"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8313,
+            "name": "Triple Tonic"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "subStyle": {
@@ -761,18 +769,18 @@
         },
         "secondaryPerks": [
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -783,25 +791,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 7,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.14285714285714285
       },
       "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 7,
+        "confidencePct": 0.42857142857142855
       },
       "skillOrder": {
         "order": [
-          "E",
           "Q",
+          "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -811,14 +819,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5452,
+    "totalGames": 6233,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.47175348495964786,
+    "winrate": 0.4702390502165891,
     "items": [
       {
         "itemId": 3078,
@@ -920,15 +928,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 5452,
-      "games": 1603,
-      "confidencePct": 0.2940205429200293
+      "sampleGames": 6233,
+      "games": 1852,
+      "confidencePct": 0.2971281886731911
     },
     "position": {
       "role": "BOTTOM",
-      "games": 4064,
-      "sampleGames": 5452,
-      "confidencePct": 0.7454145267791636
+      "games": 4614,
+      "sampleGames": 6233,
+      "confidencePct": 0.7402534894914167
     },
     "skillOrder": {
       "order": [

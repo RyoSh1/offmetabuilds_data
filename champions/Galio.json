@@ -1,7 +1,7 @@
 {
   "championId": "Galio",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Dead Man's Plate",
         "Force of Nature"
       ],
-      "games": 4,
-      "wins": 2,
+      "games": 6,
+      "wins": 3,
       "winrate": 0.5,
-      "score": 62814251.160537295
+      "score": 91494697.87850508
+    },
+    {
+      "itemIds": [
+        3165,
+        6653
+      ],
+      "names": [
+        "Morellonomicon",
+        "Liandry's Torment"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 66452105.33438788
     },
     {
       "itemIds": [
@@ -26,24 +40,10 @@
         "Zeke's Convergence",
         "Mikael's Blessing"
       ],
-      "games": 10,
+      "games": 11,
       "wins": 6,
-      "winrate": 0.6,
-      "score": 62112916.78504348
-    },
-    {
-      "itemIds": [
-        6653,
-        8010
-      ],
-      "names": [
-        "Liandry's Torment",
-        "Bloodletter's Curse"
-      ],
-      "games": 10,
-      "wins": 3,
-      "winrate": 0.3,
-      "score": 59786912.43359199
+      "winrate": 0.5454545454545454,
+      "score": 64249965.52208605
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Bandlepipes",
         "Protoplasm Harness"
       ],
-      "games": 17,
+      "games": 19,
       "wins": 12,
-      "winrate": 0.7058823529411765,
-      "score": 45991447.3868263
+      "winrate": 0.631578947368421,
+      "score": 48955158.60084843
     },
     {
       "itemIds": [
-        2065,
-        2525
+        2524,
+        3109
       ],
       "names": [
-        "Shurelya's Battlesong",
-        "Protoplasm Harness"
+        "Bandlepipes",
+        "Knight's Vow"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 40831545.55128521
+      "games": 41,
+      "wins": 25,
+      "winrate": 0.6097560975609756,
+      "score": 44029420.440327786
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Galio-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10770,
+      "totalGames": 12864,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,10 +112,18 @@
           "purchaseSamples": 17
         },
         {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 304
+        },
+        {
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 196
         },
@@ -123,17 +131,9 @@
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 157
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 207
+          "purchaseSamples": 157
         }
       ],
       "seedPair": {
@@ -145,10 +145,10 @@
           "Dead Man's Plate",
           "Force of Nature"
         ],
-        "games": 4,
-        "wins": 2,
+        "games": 6,
+        "wins": 3,
         "winrate": 0.5,
-        "score": 62814251.160537295
+        "score": 91494697.87850508
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 6,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,150 @@
       "id": "Galio-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 10770,
+      "totalGames": 12864,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 3173,
+          "name": "Chainlaced Crushers",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 643
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 57
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 631
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 56
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3165,
+          6653
+        ],
+        "names": [
+          "Morellonomicon",
+          "Liandry's Torment"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 66452105.33438788
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Galio-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 12864,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,18 +391,10 @@
           "purchaseSamples": 204
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 873
-        },
-        {
           "itemId": 3173,
           "name": "Chainlaced Crushers",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 19
         },
@@ -267,7 +402,7 @@
           "itemId": 3222,
           "name": "Mikael's Blessing",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 42
         },
@@ -275,9 +410,17 @@
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 207
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 141
         },
         {
           "itemId": 2524,
@@ -297,10 +440,10 @@
           "Zeke's Convergence",
           "Mikael's Blessing"
         ],
-        "games": 10,
+        "games": 11,
         "wins": 6,
-        "winrate": 0.6,
-        "score": 62112916.78504348
+        "winrate": 0.5454545454545454,
+        "score": 64249965.52208605
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +496,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 11,
         "games": 5,
-        "confidencePct": 0.5
+        "confidencePct": 0.45454545454545453
       },
       "position": {
         "role": "UTILITY",
-        "games": 10,
-        "sampleGames": 10,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -380,162 +523,10 @@
       }
     },
     {
-      "id": "Galio-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 10770,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 49
-        },
-        {
-          "itemId": 3173,
-          "name": "Chainlaced Crushers",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 643
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 57
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 631
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6653,
-          8010
-        ],
-        "names": [
-          "Liandry's Torment",
-          "Bloodletter's Curse"
-        ],
-        "games": 10,
-        "wins": 3,
-        "winrate": 0.3,
-        "score": 59786912.43359199
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 3,
-        "confidencePct": 0.3
-      },
-      "position": {
-        "role": "TOP",
-        "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Galio-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10770,
+      "totalGames": 12864,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +595,7 @@
         "games": 6,
         "wins": 5,
         "winrate": 0.8333333333333334,
-        "score": 40831545.55128521
+        "score": 43822100.12698521
       },
       "runes": {
         "primaryStyle": {
@@ -687,7 +678,7 @@
       "id": "Galio-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10770,
+      "totalGames": 12864,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,12 +687,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 61
+          "purchaseSamples": 873
         },
         {
           "itemId": 3173,
@@ -712,51 +703,51 @@
           "purchaseSamples": 19
         },
         {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 304
-        },
-        {
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 196
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 304
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 89
+          "purchaseSamples": 207
         },
         {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 141
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 28
         }
       ],
       "seedPair": {
         "itemIds": [
-          3075,
-          3110
+          3110,
+          6665
         ],
         "names": [
-          "Thornmail",
-          "Frozen Heart"
+          "Frozen Heart",
+          "Jak'Sho, The Protean"
         ],
-        "games": 30,
-        "wins": 16,
-        "winrate": 0.5333333333333333,
-        "score": 19826793.580592804
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 33655107.65124557
       },
       "runes": {
         "primaryStyle": {
@@ -777,8 +768,8 @@
             "name": "Bone Plating"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "subStyle": {
@@ -809,25 +800,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 30,
-        "games": 10,
+        "sampleGames": 3,
+        "games": 1,
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "UTILITY",
-        "games": 16,
-        "sampleGames": 30,
-        "confidencePct": 0.5333333333333333
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
+          "Q",
           "W",
-          "E",
-          "Q"
+          "E"
         ],
-        "games": 10,
-        "sampleGames": 15,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 10770,
+    "totalGames": 12864,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5029712163416898,
+    "winrate": 0.5011660447761194,
     "items": [
       {
         "itemId": 3152,
@@ -946,15 +937,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 10770,
-      "games": 2543,
-      "confidencePct": 0.23611884865366758
+      "sampleGames": 12864,
+      "games": 2976,
+      "confidencePct": 0.23134328358208955
     },
     "position": {
       "role": "MIDDLE",
-      "games": 8410,
-      "sampleGames": 10770,
-      "confidencePct": 0.7808727948003714
+      "games": 10104,
+      "sampleGames": 12864,
+      "confidencePct": 0.7854477611940298
     },
     "skillOrder": {
       "order": [

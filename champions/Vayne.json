@@ -1,7 +1,7 @@
 {
   "championId": "Vayne",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Umbral Glaive",
         "Voltaic Cyclosword"
       ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 177796135.241795
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 260742877.63221586
+    },
+    {
+      "itemIds": [
+        6697,
+        6698
+      ],
+      "names": [
+        "Hubris",
+        "Profane Hydra"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 195724740.4129229
     },
     {
       "itemIds": [
@@ -29,7 +43,21 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 119919632.59816898
+      "score": 99516097.90466613
+    },
+    {
+      "itemIds": [
+        3142,
+        6694
+      ],
+      "names": [
+        "Youmuu's Ghostblade",
+        "Serylda's Grudge"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 51208153.079365335
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 7,
       "wins": 3,
       "winrate": 0.42857142857142855,
-      "score": 48045470.70461034
-    },
-    {
-      "itemIds": [
-        3142,
-        6694
-      ],
-      "names": [
-        "Youmuu's Ghostblade",
-        "Serylda's Grudge"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 36895101.32176644
-    },
-    {
-      "itemIds": [
-        6676,
-        6699
-      ],
-      "names": [
-        "The Collector",
-        "Voltaic Cyclosword"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 35946850.81744478
+      "score": 46329016.50443214
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vayne-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3862,
+      "totalGames": 4668,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,20 +112,20 @@
           "purchaseSamples": 26
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 30
-        },
-        {
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 4
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 30
         },
         {
           "itemId": 6676,
@@ -145,39 +145,21 @@
           "Umbral Glaive",
           "Voltaic Cyclosword"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 177796135.241795
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 260742877.63221586
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8000,
           "name": "Precision"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
           {
             "id": 9111,
             "name": "Triumph"
@@ -185,31 +167,49 @@
           {
             "id": 9104,
             "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,150 @@
       "id": "Vayne-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3862,
+      "totalGames": 4668,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1902
+        },
+        {
+          "itemId": 2523,
+          "name": "Hexoptics C44",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 390
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6697,
+          6698
+        ],
+        "names": [
+          "Hubris",
+          "Profane Hydra"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 195724740.4129229
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9103,
+            "name": "Legend: Bloodline"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Vayne-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 4668,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -272,12 +415,12 @@
           "purchaseSamples": 30
         },
         {
-          "itemId": 3031,
-          "name": "Infinity Edge",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 138
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 26
         },
         {
           "itemId": 3142,
@@ -300,7 +443,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 119919632.59816898
+        "score": 99516097.90466613
       },
       "runes": {
         "primaryStyle": {
@@ -371,153 +514,10 @@
       }
     },
     {
-      "id": "Vayne-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 3862,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1902
-        },
-        {
-          "itemId": 3094,
-          "name": "Rapid Firecannon",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 103
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 6
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3094,
-          6676
-        ],
-        "names": [
-          "Rapid Firecannon",
-          "The Collector"
-        ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 48045470.70461034
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 6,
-        "confidencePct": 0.8571428571428571
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Vayne-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3862,
+      "totalGames": 4668,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -583,10 +583,10 @@
           "Youmuu's Ghostblade",
           "Serylda's Grudge"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 36895101.32176644
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 51208153.079365335
       },
       "runes": {
         "primaryStyle": {
@@ -639,14 +639,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
       },
       "position": {
         "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -660,7 +660,7 @@
       "id": "Vayne-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3862,
+      "totalGames": 4668,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -685,93 +685,93 @@
           "purchaseSamples": 1
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 3814,
+          "name": "Edge of Night",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 30
+          "purchaseSamples": 4
         },
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 3094,
-          "name": "Rapid Firecannon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 20
+          "purchaseSamples": 103
         },
         {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4.5,
           "purchaseSamples": 6
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 22
         }
       ],
       "seedPair": {
         "itemIds": [
-          3033,
-          3172
+          3172,
+          6673
         ],
         "names": [
-          "Mortal Reminder",
-          "Gunmetal Greaves"
+          "Gunmetal Greaves",
+          "Immortal Shieldbow"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 19203899.108894538
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 24509257.241623517
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8000,
           "name": "Precision"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
           {
-            "id": 9103,
-            "name": "Legend: Bloodline"
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
             "id": 8014,
             "name": "Coup de Grace"
           }
         ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -782,14 +782,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 4,
-        "confidencePct": 0.8
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -801,14 +801,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3862,
+    "totalGames": 4668,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4611600207146556,
+    "winrate": 0.46743787489288774,
     "items": [
       {
         "itemId": 3006,
@@ -910,15 +910,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3862,
-      "games": 866,
-      "confidencePct": 0.2242361470740549
+      "sampleGames": 4668,
+      "games": 1018,
+      "confidencePct": 0.21808054841473865
     },
     "position": {
       "role": "TOP",
-      "games": 2468,
-      "sampleGames": 3862,
-      "confidencePct": 0.6390471258415329
+      "games": 2865,
+      "sampleGames": 4668,
+      "confidencePct": 0.6137532133676092
     },
     "skillOrder": {
       "order": [

@@ -1,7 +1,7 @@
 {
   "championId": "Shaco",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 6,
       "wins": 3,
       "winrate": 0.5,
-      "score": 216505040.24159715
+      "score": 277364479.3367102
+    },
+    {
+      "itemIds": [
+        4646,
+        6655
+      ],
+      "names": [
+        "Stormsurge",
+        "Luden's Echo"
+      ],
+      "games": 110,
+      "wins": 60,
+      "winrate": 0.5454545454545454,
+      "score": 69667632.5342426
     },
     {
       "itemIds": [
@@ -29,21 +43,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 49516635.83753412
-    },
-    {
-      "itemIds": [
-        4646,
-        6655
-      ],
-      "names": [
-        "Stormsurge",
-        "Luden's Echo"
-      ],
-      "games": 107,
-      "wins": 58,
-      "winrate": 0.5420560747663551,
-      "score": 42978279.37806665
+      "score": 42156829.672337085
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 20583778.341303084
+      "score": 23663552.711670198
     },
     {
       "itemIds": [
-        3135,
-        6655
+        4645,
+        4646
       ],
       "names": [
-        "Void Staff",
-        "Luden's Echo"
+        "Shadowflame",
+        "Stormsurge"
       ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 10231199.304036116
+      "games": 18,
+      "wins": 12,
+      "winrate": 0.6666666666666666,
+      "score": 14938029.027901623
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Shaco-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5485,
+      "totalGames": 6900,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -124,7 +124,7 @@
         "games": 6,
         "wins": 3,
         "winrate": 0.5,
-        "score": 216505040.24159715
+        "score": 277364479.3367102
       },
       "runes": {
         "primaryStyle": {
@@ -198,7 +198,159 @@
       "id": "Shaco-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5485,
+      "totalGames": 6900,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 212
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 903
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 108
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 56
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 114
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4646,
+          6655
+        ],
+        "names": [
+          "Stormsurge",
+          "Luden's Echo"
+        ],
+        "games": 110,
+        "wins": 60,
+        "winrate": 0.5454545454545454,
+        "score": 69667632.5342426
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 110,
+        "games": 59,
+        "confidencePct": 0.5363636363636364
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 110,
+        "sampleGames": 110,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 60,
+        "sampleGames": 89,
+        "confidencePct": 0.6741573033707865
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Shaco-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 6900,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -259,7 +411,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 49516635.83753412
+        "score": 42156829.672337085
       },
       "runes": {
         "primaryStyle": {
@@ -339,162 +491,10 @@
       }
     },
     {
-      "id": "Shaco-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 5485,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 212
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 903
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 108
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 114
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 56
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4646,
-          6655
-        ],
-        "names": [
-          "Stormsurge",
-          "Luden's Echo"
-        ],
-        "games": 107,
-        "wins": 58,
-        "winrate": 0.5420560747663551,
-        "score": 42978279.37806665
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 107,
-        "games": 58,
-        "confidencePct": 0.5420560747663551
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 107,
-        "sampleGames": 107,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 60,
-        "sampleGames": 89,
-        "confidencePct": 0.6741573033707865
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Shaco-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5485,
+      "totalGames": 6900,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -555,7 +555,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 20583778.341303084
+        "score": 23663552.711670198
       },
       "runes": {
         "primaryStyle": {
@@ -629,7 +629,7 @@
       "id": "Shaco-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5485,
+      "totalGames": 6900,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -646,59 +646,59 @@
           "purchaseSamples": 274
         },
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
+          "itemId": 6631,
+          "name": "Stridebreaker",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1042
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 449
+          "purchaseSamples": 199
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 903
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 2
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
         },
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 121
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 7.5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 19
         }
       ],
       "seedPair": {
         "itemIds": [
-          3143,
-          3742
+          6631,
+          6692
         ],
         "names": [
-          "Randuin's Omen",
-          "Dead Man's Plate"
+          "Stridebreaker",
+          "Eclipse"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 6255909.280160587
+        "games": 127,
+        "wins": 65,
+        "winrate": 0.5118110236220472,
+        "score": 7898553.42528227
       },
       "runes": {
         "primaryStyle": {
@@ -719,22 +719,22 @@
             "name": "Sixth Sense"
           },
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 8410,
+            "name": "Approach Velocity"
           }
         ],
         "statPerks": [
@@ -747,21 +747,30 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "sampleGames": 127,
+        "games": 78,
+        "confidencePct": 0.6141732283464567
       },
       "position": {
         "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 123,
+        "sampleGames": 127,
+        "confidencePct": 0.968503937007874
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 96,
+        "sampleGames": 111,
+        "confidencePct": 0.8648648648648649
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -770,14 +779,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5485,
+    "totalGames": 6900,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49298085688240656,
+    "winrate": 0.4965217391304348,
     "items": [
       {
         "itemId": 2503,
@@ -879,15 +888,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 5485,
-      "games": 1127,
-      "confidencePct": 0.20546946216955334
+      "sampleGames": 6900,
+      "games": 1463,
+      "confidencePct": 0.2120289855072464
     },
     "position": {
       "role": "JUNGLE",
-      "games": 4123,
-      "sampleGames": 5485,
-      "confidencePct": 0.7516864175022789
+      "games": 5263,
+      "sampleGames": 6900,
+      "confidencePct": 0.7627536231884058
     },
     "skillOrder": {
       "order": [

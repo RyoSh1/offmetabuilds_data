@@ -1,8 +1,22 @@
 {
   "championId": "Aurora",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4633,
+        8010
+      ],
+      "names": [
+        "Riftmaker",
+        "Bloodletter's Curse"
+      ],
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 29627958.29213236
+    },
     {
       "itemIds": [
         6653,
@@ -12,10 +26,24 @@
         "Liandry's Torment",
         "Bloodletter's Curse"
       ],
-      "games": 36,
-      "wins": 20,
-      "winrate": 0.5555555555555556,
-      "score": 19755604.9036542
+      "games": 44,
+      "wins": 25,
+      "winrate": 0.5681818181818182,
+      "score": 24233455.47401144
+    },
+    {
+      "itemIds": [
+        4633,
+        6653
+      ],
+      "names": [
+        "Riftmaker",
+        "Liandry's Torment"
+      ],
+      "games": 18,
+      "wins": 9,
+      "winrate": 0.5,
+      "score": 20066961.54103225
     },
     {
       "itemIds": [
@@ -26,38 +54,10 @@
         "Blackfire Torch",
         "Cosmic Drive"
       ],
-      "games": 9,
-      "wins": 6,
-      "winrate": 0.6666666666666666,
-      "score": 12138046.817226019
-    },
-    {
-      "itemIds": [
-        4629,
-        6653
-      ],
-      "names": [
-        "Cosmic Drive",
-        "Liandry's Torment"
-      ],
-      "games": 11,
-      "wins": 6,
-      "winrate": 0.5454545454545454,
-      "score": 12082279.34210306
-    },
-    {
-      "itemIds": [
-        4633,
-        8010
-      ],
-      "names": [
-        "Riftmaker",
-        "Bloodletter's Curse"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 8080863.255149407
+      "games": 13,
+      "wins": 8,
+      "winrate": 0.6153846153846154,
+      "score": 14003674.862513892
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Blackfire Torch",
         "Bloodletter's Curse"
       ],
-      "games": 17,
-      "wins": 8,
-      "winrate": 0.47058823529411764,
-      "score": 7938715.880787958
+      "games": 27,
+      "wins": 14,
+      "winrate": 0.5185185185185185,
+      "score": 12978484.488718115
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Aurora-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5474,
+      "totalGames": 6818,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          6653,
+          4633,
           8010
         ],
         "names": [
-          "Liandry's Torment",
+          "Riftmaker",
           "Bloodletter's Curse"
         ],
-        "games": 36,
-        "wins": 20,
-        "winrate": 0.5555555555555556,
-        "score": 19755604.9036542
+        "games": 8,
+        "wins": 4,
+        "winrate": 0.5,
+        "score": 29627958.29213236
       },
       "runes": {
         "primaryStyle": {
@@ -179,12 +179,164 @@
         },
         "secondaryPerks": [
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 3,
+        "confidencePct": 0.375
+      },
+      "position": {
+        "role": "TOP",
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Aurora-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6818,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 186
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 89
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 394
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 45
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3100,
+          3102
+        ],
+        "names": [
+          "Lich Bane",
+          "Banshee's Veil"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 3358488.24249472
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8237,
+            "name": "Scorch"
+          },
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
           }
         ],
         "statPerks": [
@@ -201,14 +353,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 36,
-        "games": 5,
-        "confidencePct": 0.1388888888888889
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
       },
       "position": {
-        "role": "TOP",
-        "games": 27,
-        "sampleGames": 36,
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 4,
         "confidencePct": 0.75
       },
       "skillOrder": {
@@ -217,8 +369,8 @@
           "E",
           "W"
         ],
-        "games": 19,
-        "sampleGames": 19,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Aurora-2",
-      "buildIndex": 1,
+      "id": "Aurora-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5474,
+      "totalGames": 6818,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,10 +400,18 @@
           "purchaseSamples": 194
         },
         {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 90
+        },
+        {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 186
         },
@@ -259,7 +419,7 @@
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 18
         },
@@ -267,7 +427,7 @@
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 13
         },
@@ -275,17 +435,9 @@
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 89
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 394
+          "purchaseSamples": 89
         }
       ],
       "seedPair": {
@@ -297,10 +449,10 @@
           "Cryptbloom",
           "Cosmic Drive"
         ],
-        "games": 3,
-        "wins": 3,
+        "games": 6,
+        "wins": 6,
         "winrate": 1,
-        "score": 1516627.9785527552
+        "score": 2503135.040703907
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 6,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "skillOrder": {
         "order": [
@@ -378,169 +530,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Aurora-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 5474,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 194
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 89
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 394
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 332
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2503,
-          4628
-        ],
-        "names": [
-          "Blackfire Torch",
-          "Horizon Focus"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 771178.3175711595
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 5474,
+    "totalGames": 6818,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4963463646328096,
+    "winrate": 0.4932531534174245,
     "items": [
       {
         "itemId": 6655,
@@ -559,18 +559,10 @@
         "purchaseSamples": 1863
       },
       {
-        "itemId": 3152,
-        "name": "Hextech Rocketbelt",
-        "isBoots": false,
-        "order": 3,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 933
-      },
-      {
         "itemId": 4645,
         "name": "Shadowflame",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 1990
       },
@@ -578,7 +570,7 @@
         "itemId": 3175,
         "name": "Spellslinger's Shoes",
         "isBoots": true,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 13
       },
@@ -586,9 +578,17 @@
         "itemId": 3089,
         "name": "Rabadon's Deathcap",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 4,
         "purchaseSamples": 693
+      },
+      {
+        "itemId": 3135,
+        "name": "Void Staff",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 5,
+        "purchaseSamples": 274
       }
     ],
     "runes": {
@@ -642,15 +642,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 5474,
-      "games": 1325,
-      "confidencePct": 0.24205334307636098
+      "sampleGames": 6818,
+      "games": 1641,
+      "confidencePct": 0.24068641830448811
     },
     "position": {
       "role": "MIDDLE",
-      "games": 4015,
-      "sampleGames": 5474,
-      "confidencePct": 0.7334672999634636
+      "games": 4959,
+      "sampleGames": 6818,
+      "confidencePct": 0.7273393957172192
     },
     "skillOrder": {
       "order": [

@@ -1,22 +1,8 @@
 {
   "championId": "Seraphine",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
-    {
-      "itemIds": [
-        2522,
-        4645
-      ],
-      "names": [
-        "Actualizer",
-        "Shadowflame"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 226561214.3932297
-    },
     {
       "itemIds": [
         3119,
@@ -29,21 +15,21 @@
       "games": 6,
       "wins": 3,
       "winrate": 0.5,
-      "score": 191448895.0874332
+      "score": 185764716.10794175
     },
     {
       "itemIds": [
-        3042,
-        3100
+        2522,
+        4645
       ],
       "names": [
-        "Muramana",
-        "Lich Bane"
+        "Actualizer",
+        "Shadowflame"
       ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 167101324.33221707
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 179712287.91065198
     },
     {
       "itemIds": [
@@ -57,21 +43,35 @@
       "games": 13,
       "wins": 7,
       "winrate": 0.5384615384615384,
-      "score": 130947822.74278328
+      "score": 126106944.87769403
     },
     {
       "itemIds": [
-        4645,
-        4646
+        3100,
+        4645
       ],
       "names": [
-        "Shadowflame",
-        "Stormsurge"
+        "Lich Bane",
+        "Shadowflame"
       ],
-      "games": 4,
+      "games": 30,
+      "wins": 18,
+      "winrate": 0.6,
+      "score": 115592603.78953089
+    },
+    {
+      "itemIds": [
+        3089,
+        4628
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Horizon Focus"
+      ],
+      "games": 7,
       "wins": 4,
-      "winrate": 1,
-      "score": 115977536.15329029
+      "winrate": 0.5714285714285714,
+      "score": 114129807.0700975
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Seraphine-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7529,
+      "totalGames": 10344,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,10 +88,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 423
+        },
+        {
           "itemId": 6655,
           "name": "Luden's Echo",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 94
         },
@@ -99,7 +107,150 @@
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4054
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 672
+        },
+        {
+          "itemId": 3119,
+          "name": "Winter's Approach",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3119,
+          6655
+        ],
+        "names": [
+          "Winter's Approach",
+          "Luden's Echo"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 185764716.10794175
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 6,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Seraphine-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 10344,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
           "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 94
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4054
         },
@@ -107,7 +258,7 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 21
         },
@@ -115,7 +266,7 @@
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 46
         },
@@ -123,17 +274,9 @@
           "itemId": 2522,
           "name": "Actualizer",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 7,
           "purchaseSamples": 2
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -148,7 +291,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 226561214.3932297
+        "score": 179712287.91065198
       },
       "runes": {
         "primaryStyle": {
@@ -219,289 +362,10 @@
       }
     },
     {
-      "id": "Seraphine-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 7529,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1483
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4054
-        },
-        {
-          "itemId": 3119,
-          "name": "Winter's Approach",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3119,
-          6655
-        ],
-        "names": [
-          "Winter's Approach",
-          "Luden's Echo"
-        ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 191448895.0874332
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 6,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5
-      }
-    },
-    {
       "id": "Seraphine-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 7529,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 423
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4054
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3042,
-          3100
-        ],
-        "names": [
-          "Muramana",
-          "Lich Bane"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 167101324.33221707
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Seraphine-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 7529,
+      "totalGames": 10344,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -570,7 +434,7 @@
         "games": 13,
         "wins": 7,
         "winrate": 0.5384615384615384,
-        "score": 130947822.74278328
+        "score": 126106944.87769403
       },
       "runes": {
         "primaryStyle": {
@@ -650,10 +514,153 @@
       }
     },
     {
+      "id": "Seraphine-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 10344,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4054
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 61
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 4
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3089,
+          4628
+        ],
+        "names": [
+          "Rabadon's Deathcap",
+          "Horizon Focus"
+        ],
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 114129807.0700975
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
       "id": "Seraphine-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7529,
+      "totalGames": 10344,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -686,24 +693,24 @@
           "purchaseSamples": 4054
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 21
-        },
-        {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 46
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -712,17 +719,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3100,
-          4645
+          3042,
+          3100
         ],
         "names": [
-          "Lich Bane",
-          "Shadowflame"
+          "Muramana",
+          "Lich Bane"
         ],
-        "games": 7,
+        "games": 5,
         "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 68146281.52585022
+        "winrate": 0.8,
+        "score": 96845029.39677475
       },
       "runes": {
         "primaryStyle": {
@@ -730,8 +737,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
+          "id": 8214,
+          "name": "Summon Aery"
         },
         "primaryPerks": [
           {
@@ -743,49 +750,58 @@
             "name": "Transcendence"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 4,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "BOTTOM",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -794,14 +810,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 7529,
+    "totalGames": 10344,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49183158453977954,
+    "winrate": 0.48849574632637277,
     "items": [
       {
         "itemId": 6620,
@@ -903,15 +919,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 7529,
-      "games": 1768,
-      "confidencePct": 0.23482534201089122
+      "sampleGames": 10344,
+      "games": 2449,
+      "confidencePct": 0.23675560711523588
     },
     "position": {
       "role": "UTILITY",
-      "games": 5983,
-      "sampleGames": 7529,
-      "confidencePct": 0.794660645504051
+      "games": 7824,
+      "sampleGames": 10344,
+      "confidencePct": 0.7563805104408353
     },
     "skillOrder": {
       "order": [

@@ -1,8 +1,22 @@
 {
   "championId": "Blitzcrank",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3118,
+        4645
+      ],
+      "names": [
+        "Malignance",
+        "Shadowflame"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 911192544.7432134
+    },
     {
       "itemIds": [
         3089,
@@ -12,10 +26,10 @@
         "Rabadon's Deathcap",
         "Stormsurge"
       ],
-      "games": 5,
+      "games": 6,
       "wins": 4,
-      "winrate": 0.8,
-      "score": 23964382.833916083
+      "winrate": 0.6666666666666666,
+      "score": 22480466.303356905
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Malignance",
         "Stormsurge"
       ],
-      "games": 26,
-      "wins": 14,
-      "winrate": 0.5384615384615384,
-      "score": 13847510.159260595
+      "games": 33,
+      "wins": 15,
+      "winrate": 0.45454545454545453,
+      "score": 13533771.43388488
+    },
+    {
+      "itemIds": [
+        4629,
+        6655
+      ],
+      "names": [
+        "Cosmic Drive",
+        "Luden's Echo"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 13228350.99818776
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Rabadon's Deathcap",
         "Malignance"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 10188407.166079484
-    },
-    {
-      "itemIds": [
-        3157,
-        4646
-      ],
-      "names": [
-        "Zhonya's Hourglass",
-        "Stormsurge"
-      ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 9278881.355574057
-    },
-    {
-      "itemIds": [
-        3042,
-        3118
-      ],
-      "names": [
-        "Muramana",
-        "Malignance"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 8508462.86622437
+      "winrate": 0.6,
+      "score": 9920532.86366558
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Blitzcrank-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10864,
+      "totalGames": 13056,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 8263
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 51
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 85
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 17
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          4645
+        ],
+        "names": [
+          "Malignance",
+          "Shadowflame"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 911192544.7432134
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Blitzcrank-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 13056,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -137,10 +280,10 @@
           "Rabadon's Deathcap",
           "Stormsurge"
         ],
-        "games": 5,
+        "games": 6,
         "wins": 4,
-        "winrate": 0.8,
-        "score": 23964382.833916083
+        "winrate": 0.6666666666666666,
+        "score": 22480466.303356905
       },
       "runes": {
         "primaryStyle": {
@@ -193,15 +336,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 6,
         "games": 3,
-        "confidencePct": 0.6
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "skillOrder": {
         "order": [
@@ -220,10 +363,10 @@
       }
     },
     {
-      "id": "Blitzcrank-2",
-      "buildIndex": 1,
+      "id": "Blitzcrank-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10864,
+      "totalGames": 13056,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -232,103 +375,79 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 22
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 8263
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
         "itemIds": [
-          3157,
-          4646
+          4629,
+          6655
         ],
         "names": [
-          "Zhonya's Hourglass",
-          "Stormsurge"
+          "Cosmic Drive",
+          "Luden's Echo"
         ],
-        "games": 8,
-        "wins": 4,
-        "winrate": 0.5,
-        "score": 9278881.355574057
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 13228350.99818776
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8400,
+          "name": "Resolve"
         },
         "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
+          "id": 8439,
+          "name": "Aftershock"
         },
         "primaryPerks": [
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8463,
+            "name": "Font of Life"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "statPerks": [
@@ -337,45 +456,36 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
             "id": 5001,
             "name": "Health Scaling"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 8,
-        "games": 4,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 8,
-        "sampleGames": 8,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
       }
     },
     {
-      "id": "Blitzcrank-3",
-      "buildIndex": 2,
+      "id": "Blitzcrank-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10864,
+      "totalGames": 13056,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -420,7 +530,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 8508462.86622437
+        "score": 8947550.38000461
       },
       "runes": {
         "primaryStyle": {
@@ -500,10 +610,10 @@
       }
     },
     {
-      "id": "Blitzcrank-4",
-      "buildIndex": 3,
+      "id": "Blitzcrank-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10864,
+      "totalGames": 13056,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -512,18 +622,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 22
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 8263
         },
@@ -531,25 +633,33 @@
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 51
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 85
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 812
+        },
+        {
+          "itemId": 4401,
+          "name": "Force of Nature",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 797
         },
         {
           "itemId": 3041,
@@ -563,16 +673,16 @@
       "seedPair": {
         "itemIds": [
           3041,
-          3118
+          4401
         ],
         "names": [
           "Mejai's Soulstealer",
-          "Malignance"
+          "Force of Nature"
         ],
-        "games": 4,
+        "games": 3,
         "wins": 3,
-        "winrate": 0.75,
-        "score": 5735972.298724328
+        "winrate": 1,
+        "score": 7440560.87289652
       },
       "runes": {
         "primaryStyle": {
@@ -580,8 +690,8 @@
           "name": "Domination"
         },
         "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
+          "id": 8112,
+          "name": "Electrocute"
         },
         "primaryPerks": [
           {
@@ -593,8 +703,8 @@
             "name": "Grisly Mementos"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8105,
+            "name": "Relentless Hunter"
           }
         ],
         "subStyle": {
@@ -602,131 +712,6 @@
           "name": "Sorcery"
         },
         "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Blitzcrank-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 10864,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 8263
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 83
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3100,
-          3118
-        ],
-        "names": [
-          "Lich Bane",
-          "Malignance"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 5141015.00572524
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
           {
             "id": 8275,
             "name": "Nimbus Cloak"
@@ -734,24 +719,6 @@
           {
             "id": 8234,
             "name": "Celerity"
-          },
-          {
-            "id": 8232,
-            "name": "Waterwalking"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8306,
-            "name": "Hextech Flashtraption"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -764,28 +731,28 @@
             "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 4,
-        "confidencePct": 1
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "W",
-          "E"
+          "E",
+          "W"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -796,14 +763,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 10864,
+    "totalGames": 13056,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5134388807069219,
+    "winrate": 0.5131740196078431,
     "items": [
       {
         "itemId": 3009,
@@ -905,15 +872,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10864,
-      "games": 5902,
-      "confidencePct": 0.5432621502209131
+      "sampleGames": 13056,
+      "games": 7135,
+      "confidencePct": 0.5464920343137255
     },
     "position": {
       "role": "UTILITY",
-      "games": 10844,
-      "sampleGames": 10864,
-      "confidencePct": 0.998159057437408
+      "games": 13028,
+      "sampleGames": 13056,
+      "confidencePct": 0.9978553921568627
     },
     "skillOrder": {
       "order": [

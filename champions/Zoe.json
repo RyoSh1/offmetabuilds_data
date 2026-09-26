@@ -1,8 +1,22 @@
 {
   "championId": "Zoe",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2503,
+        3121
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Fimbulwinter"
+      ],
+      "games": 22,
+      "wins": 12,
+      "winrate": 0.5454545454545454,
+      "score": 37285593.601948954
+    },
     {
       "itemIds": [
         3040,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 43612778.23483763
+      "score": 25090289.37659372
     },
     {
       "itemIds": [
@@ -26,24 +40,10 @@
         "Shurelya's Battlesong",
         "Mikael's Blessing"
       ],
-      "games": 10,
+      "games": 11,
       "wins": 6,
-      "winrate": 0.6,
-      "score": 24228418.339922294
-    },
-    {
-      "itemIds": [
-        2065,
-        3107
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Redemption"
-      ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 19043442.83385385
+      "winrate": 0.5454545454545454,
+      "score": 19298531.675601326
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Shurelya's Battlesong",
         "Morellonomicon"
       ],
-      "games": 12,
-      "wins": 6,
-      "winrate": 0.5,
-      "score": 15932734.444490852
+      "games": 15,
+      "wins": 9,
+      "winrate": 0.6,
+      "score": 18718022.23373838
     },
     {
       "itemIds": [
-        3089,
-        3152
+        2065,
+        3190
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Hextech Rocketbelt"
+        "Shurelya's Battlesong",
+        "Locket of the Iron Solari"
       ],
-      "games": 36,
-      "wins": 26,
-      "winrate": 0.7222222222222222,
-      "score": 12715396.007738955
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 18185073.49475939
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Zoe-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6506,
+      "totalGames": 8092,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 336
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 175
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 258
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 85
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2503,
+          3121
+        ],
+        "names": [
+          "Blackfire Torch",
+          "Fimbulwinter"
+        ],
+        "games": 22,
+        "wins": 12,
+        "winrate": 0.5454545454545454,
+        "score": 37285593.601948954
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 22,
+        "games": 6,
+        "confidencePct": 0.2727272727272727
+      },
+      "position": {
+        "role": "TOP",
+        "games": 22,
+        "sampleGames": 22,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zoe-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8092,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,10 +263,18 @@
           "purchaseSamples": 175
         },
         {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 623
+        },
+        {
           "itemId": 3040,
           "name": "Seraph's Embrace",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -140,7 +291,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 43612778.23483763
+        "score": 25090289.37659372
       },
       "runes": {
         "primaryStyle": {
@@ -211,10 +362,10 @@
       }
     },
     {
-      "id": "Zoe-2",
-      "buildIndex": 1,
+      "id": "Zoe-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6506,
+      "totalGames": 8092,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -280,10 +431,10 @@
           "Shurelya's Battlesong",
           "Mikael's Blessing"
         ],
-        "games": 10,
+        "games": 11,
         "wins": 6,
-        "winrate": 0.6,
-        "score": 24228418.339922294
+        "winrate": 0.5454545454545454,
+        "score": 19298531.675601326
       },
       "runes": {
         "primaryStyle": {
@@ -336,14 +487,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 11,
         "games": 6,
-        "confidencePct": 0.6
+        "confidencePct": 0.5454545454545454
       },
       "position": {
         "role": "UTILITY",
-        "games": 10,
-        "sampleGames": 10,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -363,162 +514,10 @@
       }
     },
     {
-      "id": "Zoe-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 6506,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 215
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 258
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 175
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 327
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 36
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3089,
-          3152
-        ],
-        "names": [
-          "Rabadon's Deathcap",
-          "Hextech Rocketbelt"
-        ],
-        "games": 36,
-        "wins": 26,
-        "winrate": 0.7222222222222222,
-        "score": 12715396.007738955
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 36,
-        "games": 7,
-        "confidencePct": 0.19444444444444445
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 19,
-        "sampleGames": 36,
-        "confidencePct": 0.5277777777777778
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 19,
-        "sampleGames": 19,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Zoe-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6506,
+      "totalGames": 8092,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -533,38 +532,38 @@
           "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 175
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 445
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 67
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 175
         },
         {
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 189
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 623
         },
         {
           "itemId": 8010,
@@ -584,10 +583,10 @@
           "Banshee's Veil",
           "Bloodletter's Curse"
         ],
-        "games": 16,
-        "wins": 10,
-        "winrate": 0.625,
-        "score": 3285177.782570889
+        "games": 27,
+        "wins": 18,
+        "winrate": 0.6666666666666666,
+        "score": 5014494.516884483
       },
       "runes": {
         "primaryStyle": {
@@ -632,23 +631,23 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 16,
-        "games": 16,
+        "sampleGames": 27,
+        "games": 27,
         "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 11,
-        "sampleGames": 16,
-        "confidencePct": 0.6875
+        "games": 21,
+        "sampleGames": 27,
+        "confidencePct": 0.7777777777777778
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -661,7 +660,7 @@
       "id": "Zoe-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 6506,
+      "totalGames": 8092,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -727,10 +726,10 @@
           "Zhonya's Hourglass",
           "Cosmic Drive"
         ],
-        "games": 11,
-        "wins": 5,
-        "winrate": 0.45454545454545453,
-        "score": 3278621.4244401017
+        "games": 15,
+        "wins": 7,
+        "winrate": 0.4666666666666667,
+        "score": 4145273.283972552
       },
       "runes": {
         "primaryStyle": {
@@ -783,15 +782,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 11,
+        "sampleGames": 15,
         "games": 2,
-        "confidencePct": 0.18181818181818182
+        "confidencePct": 0.13333333333333333
       },
       "position": {
         "role": "TOP",
-        "games": 6,
-        "sampleGames": 11,
-        "confidencePct": 0.5454545454545454
+        "games": 8,
+        "sampleGames": 15,
+        "confidencePct": 0.5333333333333333
       },
       "skillOrder": {
         "order": [
@@ -811,14 +810,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6506,
+    "totalGames": 8092,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5241315708576698,
+    "winrate": 0.5232328225407811,
     "items": [
       {
         "itemId": 6655,
@@ -853,20 +852,20 @@
         "purchaseSamples": 1028
       },
       {
-        "itemId": 3157,
-        "name": "Zhonya's Hourglass",
-        "isBoots": false,
-        "order": 5,
-        "medianPurchaseOrder": 4,
-        "purchaseSamples": 623
-      },
-      {
         "itemId": 3089,
         "name": "Rabadon's Deathcap",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 4,
         "purchaseSamples": 327
+      },
+      {
+        "itemId": 3157,
+        "name": "Zhonya's Hourglass",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 623
       }
     ],
     "runes": {
@@ -920,15 +919,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 6506,
-      "games": 1652,
-      "confidencePct": 0.25391945896095913
+      "sampleGames": 8092,
+      "games": 1785,
+      "confidencePct": 0.22058823529411764
     },
     "position": {
       "role": "MIDDLE",
-      "games": 4763,
-      "sampleGames": 6506,
-      "confidencePct": 0.7320934521979711
+      "games": 5747,
+      "sampleGames": 8092,
+      "confidencePct": 0.7102076124567474
     },
     "skillOrder": {
       "order": [

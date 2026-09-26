@@ -1,22 +1,8 @@
 {
   "championId": "Sett",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T08:38:52.376Z",
+  "generatedAt": "2026-09-26T22:52:57.936Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3742,
-        4401
-      ],
-      "names": [
-        "Dead Man's Plate",
-        "Force of Nature"
-      ],
-      "games": 13,
-      "wins": 8,
-      "winrate": 0.6153846153846154,
-      "score": 80553686.23667039
-    },
     {
       "itemIds": [
         3190,
@@ -26,10 +12,24 @@
         "Locket of the Iron Solari",
         "Dead Man's Plate"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 65740233.044432305
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 111108000.04536508
+    },
+    {
+      "itemIds": [
+        3742,
+        4401
+      ],
+      "names": [
+        "Dead Man's Plate",
+        "Force of Nature"
+      ],
+      "games": 16,
+      "wins": 9,
+      "winrate": 0.5625,
+      "score": 92355122.90385196
     },
     {
       "itemIds": [
@@ -40,10 +40,24 @@
         "Zeke's Convergence",
         "Dead Man's Plate"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 52025231.79880759
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 67097036.018286355
+    },
+    {
+      "itemIds": [
+        3143,
+        3742
+      ],
+      "names": [
+        "Randuin's Omen",
+        "Dead Man's Plate"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 27378669.988273155
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 9392979.314313529
-    },
-    {
-      "itemIds": [
-        3142,
-        3814
-      ],
-      "names": [
-        "Youmuu's Ghostblade",
-        "Edge of Night"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 8875880.611151217
+      "score": 12132954.036773631
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sett-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3600,
+      "totalGames": 4568,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -104,35 +104,43 @@
           "purchaseSamples": 886
         },
         {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
           "itemId": 4401,
           "name": "Force of Nature",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 14
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "purchaseSamples": 9
         }
       ],
       "seedPair": {
         "itemIds": [
-          3742,
-          4401
+          3190,
+          3742
         ],
         "names": [
-          "Dead Man's Plate",
-          "Force of Nature"
+          "Locket of the Iron Solari",
+          "Dead Man's Plate"
         ],
-        "games": 13,
-        "wins": 8,
-        "winrate": 0.6153846153846154,
-        "score": 80553686.23667039
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 111108000.04536508
       },
       "runes": {
         "primaryStyle": {
@@ -185,37 +193,37 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 13,
-        "games": 6,
-        "confidencePct": 0.46153846153846156
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
       },
       "position": {
         "role": "UTILITY",
-        "games": 12,
-        "sampleGames": 13,
-        "confidencePct": 0.9230769230769231
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
-          "W",
           "Q",
+          "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 7,
-        "confidencePct": 0.42857142857142855
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Sett-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3600,
+      "totalGames": 4568,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,71 +248,87 @@
           "purchaseSamples": 886
         },
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
+          "itemId": 4401,
+          "name": "Force of Nature",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
+          "purchaseSamples": 14
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 77
+        },
+        {
+          "itemId": 3083,
+          "name": "Warmog's Armor",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 270
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 15
         }
       ],
       "seedPair": {
         "itemIds": [
-          3050,
+          3143,
           3742
         ],
         "names": [
-          "Zeke's Convergence",
+          "Randuin's Omen",
           "Dead Man's Plate"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 52025231.79880759
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 27378669.988273155
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
+          "id": 8351,
+          "name": "Glacial Augment"
         },
         "primaryPerks": [
           {
-            "id": 8446,
-            "name": "Demolish"
+            "id": 8306,
+            "name": "Hextech Flashtraption"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8345,
+            "name": "Biscuit Delivery"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8234,
+            "name": "Celerity"
           }
         ],
         "statPerks": [
@@ -317,29 +341,29 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
+          "E",
           "W",
-          "Q",
-          "E"
+          "Q"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -351,7 +375,7 @@
       "id": "Sett-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3600,
+      "totalGames": 4568,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -412,7 +436,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 9392979.314313529
+        "score": 12132954.036773631
       },
       "runes": {
         "primaryStyle": {
@@ -486,7 +510,7 @@
       "id": "Sett-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3600,
+      "totalGames": 4568,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -539,7 +563,7 @@
         "games": 8,
         "wins": 6,
         "winrate": 0.75,
-        "score": 3705601.4911106713
+        "score": 4575833.7111533005
       },
       "runes": {
         "primaryStyle": {
@@ -622,7 +646,7 @@
       "id": "Sett-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3600,
+      "totalGames": 4568,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -655,18 +679,10 @@
           "purchaseSamples": 886
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 440
-        },
-        {
           "itemId": 3083,
           "name": "Warmog's Armor",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 270
         },
@@ -674,9 +690,17 @@
           "itemId": 3161,
           "name": "Spear of Shojin",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 49
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 330
         }
       ],
       "seedPair": {
@@ -688,10 +712,10 @@
           "Heartsteel",
           "Titanic Hydra"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 1205125.522448758
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 3308726.8073409246
       },
       "runes": {
         "primaryStyle": {
@@ -744,15 +768,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.4
       },
       "position": {
         "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -772,14 +796,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3600,
+    "totalGames": 4568,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.495,
+    "winrate": 0.4978108581436077,
     "items": [
       {
         "itemId": 6631,
@@ -790,12 +814,12 @@
         "purchaseSamples": 2035
       },
       {
-        "itemId": 3009,
-        "name": "Boots of Swiftness",
+        "itemId": 3047,
+        "name": "Plated Steelcaps",
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 695
+        "purchaseSamples": 886
       },
       {
         "itemId": 2501,
@@ -822,12 +846,12 @@
         "purchaseSamples": 330
       },
       {
-        "itemId": 3083,
-        "name": "Warmog's Armor",
+        "itemId": 3161,
+        "name": "Spear of Shojin",
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 270
+        "purchaseSamples": 49
       }
     ],
     "runes": {
@@ -881,15 +905,15 @@
           "name": "Tenacity/Slow Resist"
         }
       ],
-      "sampleGames": 3600,
-      "games": 1158,
-      "confidencePct": 0.32166666666666666
+      "sampleGames": 4568,
+      "games": 1481,
+      "confidencePct": 0.32421190893169877
     },
     "position": {
       "role": "TOP",
-      "games": 3157,
-      "sampleGames": 3600,
-      "confidencePct": 0.8769444444444444
+      "games": 4054,
+      "sampleGames": 4568,
+      "confidencePct": 0.887478108581436
     },
     "skillOrder": {
       "order": [
