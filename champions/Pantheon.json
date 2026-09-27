@@ -1,8 +1,22 @@
 {
   "championId": "Pantheon",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3031,
+        3036
+      ],
+      "names": [
+        "Infinity Edge",
+        "Lord Dominik's Regards"
+      ],
+      "games": 12,
+      "wins": 6,
+      "winrate": 0.5,
+      "score": 400675774.1496423
+    },
     {
       "itemIds": [
         3031,
@@ -15,21 +29,21 @@
       "games": 8,
       "wins": 4,
       "winrate": 0.5,
-      "score": 457579508.5596485
+      "score": 366422929.64466614
     },
     {
       "itemIds": [
-        3031,
-        3036
+        3036,
+        3153
       ],
       "names": [
-        "Infinity Edge",
-        "Lord Dominik's Regards"
+        "Lord Dominik's Regards",
+        "Blade of The Ruined King"
       ],
-      "games": 10,
-      "wins": 5,
-      "winrate": 0.5,
-      "score": 370622814.1817417
+      "games": 49,
+      "wins": 26,
+      "winrate": 0.5306122448979592,
+      "score": 227020185.77460295
     },
     {
       "itemIds": [
@@ -43,21 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 286575989.7832781
-    },
-    {
-      "itemIds": [
-        3036,
-        3153
-      ],
-      "names": [
-        "Lord Dominik's Regards",
-        "Blade of The Ruined King"
-      ],
-      "games": 40,
-      "wins": 22,
-      "winrate": 0.55,
-      "score": 218343678.3862776
+      "score": 226645007.56025878
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 205023805.02652928
+      "score": 179296140.71483752
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Pantheon-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13727,
+      "totalGames": 15638,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,44 +88,44 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2194
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3162
+          "purchaseSamples": 3573
         },
         {
           "itemId": 3153,
           "name": "Blade of The Ruined King",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 90
+          "purchaseSamples": 99
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 276
+          "purchaseSamples": 306
         },
         {
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 940
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 867
+          "purchaseSamples": 31
         },
         {
           "itemId": 3031,
@@ -139,16 +139,16 @@
       "seedPair": {
         "itemIds": [
           3031,
-          3153
+          3036
         ],
         "names": [
           "Infinity Edge",
-          "Blade of The Ruined King"
+          "Lord Dominik's Regards"
         ],
-        "games": 8,
-        "wins": 4,
+        "games": 12,
+        "wins": 6,
         "winrate": 0.5,
-        "score": 457579508.5596485
+        "score": 400675774.1496423
       },
       "runes": {
         "primaryStyle": {
@@ -201,28 +201,28 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 8,
+        "sampleGames": 12,
         "games": 8,
-        "confidencePct": 1
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "BOTTOM",
         "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
+        "sampleGames": 12,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": null,
       "asWholeSet": {
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Pantheon-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 13727,
+      "totalGames": 15638,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -236,7 +236,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3162
+          "purchaseSamples": 3573
         },
         {
           "itemId": 6333,
@@ -244,31 +244,31 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 691
+          "purchaseSamples": 801
         },
         {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 359
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 22
+          "purchaseSamples": 26
         },
         {
           "itemId": 3065,
           "name": "Spirit Visage",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4.5,
           "purchaseSamples": 2
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 26
         },
         {
           "itemId": 3042,
@@ -291,7 +291,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 286575989.7832781
+        "score": 226645007.56025878
       },
       "runes": {
         "primaryStyle": {
@@ -365,7 +365,7 @@
       "id": "Pantheon-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 13727,
+      "totalGames": 15638,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -379,7 +379,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 205
+          "purchaseSamples": 216
         },
         {
           "itemId": 6631,
@@ -387,7 +387,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 66
+          "purchaseSamples": 69
         },
         {
           "itemId": 3047,
@@ -395,7 +395,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3162
+          "purchaseSamples": 3573
         },
         {
           "itemId": 3153,
@@ -403,7 +403,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 90
+          "purchaseSamples": 99
         },
         {
           "itemId": 3036,
@@ -411,7 +411,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 276
+          "purchaseSamples": 306
         },
         {
           "itemId": 3156,
@@ -419,7 +419,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 359
+          "purchaseSamples": 405
         }
       ],
       "seedPair": {
@@ -434,7 +434,7 @@
         "games": 30,
         "wins": 17,
         "winrate": 0.5666666666666667,
-        "score": 166468907.10911533
+        "score": 156601208.62722537
       },
       "runes": {
         "primaryStyle": {
@@ -503,8 +503,8 @@
           "E",
           "W"
         ],
-        "games": 25,
-        "sampleGames": 25,
+        "games": 26,
+        "sampleGames": 26,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -517,7 +517,7 @@
       "id": "Pantheon-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 13727,
+      "totalGames": 15638,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -526,20 +526,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6610,
-          "name": "Sundered Sky",
+          "itemId": 3179,
+          "name": "Umbral Glaive",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 2453
+          "purchaseSamples": 1356
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 6610,
+          "name": "Sundered Sky",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3949
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 2755
         },
         {
           "itemId": 3047,
@@ -547,31 +547,31 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3162
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 35
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 24
+          "purchaseSamples": 3573
         },
         {
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 38
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 24
         }
       ],
       "seedPair": {
@@ -586,7 +586,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 114649499.12836654
+        "score": 119939875.78518751
       },
       "runes": {
         "primaryStyle": {
@@ -655,9 +655,9 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "asWholeSet": {
         "games": 0,
@@ -669,7 +669,7 @@
       "id": "Pantheon-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 13727,
+      "totalGames": 15638,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -678,20 +678,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
+          "itemId": 6698,
+          "name": "Profane Hydra",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 2194
+          "purchaseSamples": 130
         },
         {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
+          "itemId": 6696,
+          "name": "Axiom Arc",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1208
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3047,
@@ -699,82 +699,82 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3162
+          "purchaseSamples": 3573
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 3814,
+          "name": "Edge of Night",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 940
         },
         {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 24
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 141
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 26
+          "purchaseSamples": 566
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
-          3742
+          6696,
+          6698
         ],
         "names": [
-          "Bandlepipes",
-          "Dead Man's Plate"
+          "Axiom Arc",
+          "Profane Hydra"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 87246367.52417587
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 100300631.16052431
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8232,
-            "name": "Waterwalking"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -783,29 +783,29 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 7,
         "games": 3,
-        "confidencePct": 1
+        "confidencePct": 0.42857142857142855
       },
       "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "role": "JUNGLE",
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "W",
-          "E"
+          "E",
+          "W"
         ],
         "games": 3,
         "sampleGames": 3,
@@ -819,14 +819,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 13727,
+    "totalGames": 15638,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4922415677132658,
+    "winrate": 0.4938611075585113,
     "items": [
       {
         "itemId": 6692,
@@ -834,7 +834,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 2248
+        "purchaseSamples": 2603
       },
       {
         "itemId": 6610,
@@ -842,7 +842,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 2453
+        "purchaseSamples": 2755
       },
       {
         "itemId": 3071,
@@ -850,7 +850,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3949
+        "purchaseSamples": 4452
       },
       {
         "itemId": 6699,
@@ -858,7 +858,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2839
+        "purchaseSamples": 3124
       },
       {
         "itemId": 3047,
@@ -866,7 +866,7 @@
         "isBoots": true,
         "order": 5,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3162
+        "purchaseSamples": 3573
       },
       {
         "itemId": 6333,
@@ -874,7 +874,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 691
+        "purchaseSamples": 801
       }
     ],
     "runes": {
@@ -928,15 +928,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 13727,
-      "games": 1294,
-      "confidencePct": 0.09426677351205653
+      "sampleGames": 15638,
+      "games": 1518,
+      "confidencePct": 0.09707123673103978
     },
     "position": {
-      "role": "UTILITY",
-      "games": 5242,
-      "sampleGames": 13727,
-      "confidencePct": 0.38187513659211775
+      "role": "TOP",
+      "games": 5904,
+      "sampleGames": 15638,
+      "confidencePct": 0.3775418851515539
     },
     "skillOrder": {
       "order": [
@@ -944,9 +944,9 @@
         "W",
         "E"
       ],
-      "games": 3359,
-      "sampleGames": 6549,
-      "confidencePct": 0.5129027332417163
+      "games": 4032,
+      "sampleGames": 7571,
+      "confidencePct": 0.5325584467045305
     }
   }
 }

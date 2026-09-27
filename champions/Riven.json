@@ -1,7 +1,7 @@
 {
   "championId": "Riven",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Bastionbreaker",
         "Voltaic Cyclosword"
       ],
-      "games": 39,
-      "wins": 19,
-      "winrate": 0.48717948717948717,
-      "score": 37599367.074199215
+      "games": 40,
+      "wins": 20,
+      "winrate": 0.5,
+      "score": 50121222.44600804
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 10,
       "wins": 6,
       "winrate": 0.6,
-      "score": 30891202.515776254
+      "score": 38234474.81661855
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 9,
       "wins": 7,
       "winrate": 0.7777777777777778,
-      "score": 25749480.599960756
+      "score": 32991236.411968198
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 22569623.79994046
+      "score": 24556301.749944985
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 10,
       "wins": 6,
       "winrate": 0.6,
-      "score": 18891900.806071155
+      "score": 21319197.24195693
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Riven-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5737,
+      "totalGames": 7041,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,20 +88,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 15
-        },
-        {
           "itemId": 3179,
           "name": "Umbral Glaive",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 77
+          "purchaseSamples": 139
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 19
         },
         {
           "itemId": 3158,
@@ -109,23 +109,23 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1240
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 20
+          "purchaseSamples": 1493
         },
         {
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 20
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 23
         },
         {
           "itemId": 3033,
@@ -133,7 +133,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 135
+          "purchaseSamples": 153
         }
       ],
       "seedPair": {
@@ -145,10 +145,10 @@
           "Bastionbreaker",
           "Voltaic Cyclosword"
         ],
-        "games": 39,
-        "wins": 19,
-        "winrate": 0.48717948717948717,
-        "score": 37599367.074199215
+        "games": 40,
+        "wins": 20,
+        "winrate": 0.5,
+        "score": 50121222.44600804
       },
       "runes": {
         "primaryStyle": {
@@ -201,17 +201,26 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 39,
+        "sampleGames": 40,
         "games": 13,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.325
       },
       "position": {
         "role": "MIDDLE",
-        "games": 32,
-        "sampleGames": 39,
-        "confidencePct": 0.8205128205128205
+        "games": 33,
+        "sampleGames": 40,
+        "confidencePct": 0.825
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -222,7 +231,7 @@
       "id": "Riven-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5737,
+      "totalGames": 7041,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -231,36 +240,44 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 304
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1240
+          "purchaseSamples": 1493
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
+          "purchaseSamples": 149
         },
         {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
+          "order": 4,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 6
         },
         {
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 12
+          "purchaseSamples": 16
         }
       ],
       "seedPair": {
@@ -275,7 +292,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 22569623.79994046
+        "score": 24556301.749944985
       },
       "runes": {
         "primaryStyle": {
@@ -344,21 +361,21 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Riven-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5737,
+      "totalGames": 7041,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -372,7 +389,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 20
+          "purchaseSamples": 33
         },
         {
           "itemId": 6698,
@@ -380,15 +397,15 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 26
+          "purchaseSamples": 31
         },
         {
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 15
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 19
         },
         {
           "itemId": 3158,
@@ -396,7 +413,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1240
+          "purchaseSamples": 1493
         },
         {
           "itemId": 3036,
@@ -404,7 +421,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
+          "purchaseSamples": 149
         },
         {
           "itemId": 2520,
@@ -412,7 +429,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 20
         }
       ],
       "seedPair": {
@@ -427,7 +444,7 @@
         "games": 10,
         "wins": 6,
         "winrate": 0.6,
-        "score": 18891900.806071155
+        "score": 21319197.24195693
       },
       "runes": {
         "primaryStyle": {
@@ -490,7 +507,16 @@
         "sampleGames": 10,
         "confidencePct": 0.6
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -501,7 +527,7 @@
       "id": "Riven-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5737,
+      "totalGames": 7041,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -514,8 +540,8 @@
           "name": "Axiom Arc",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 198
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 304
         },
         {
           "itemId": 3158,
@@ -523,7 +549,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1240
+          "purchaseSamples": 1493
         },
         {
           "itemId": 3036,
@@ -531,7 +557,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
+          "purchaseSamples": 149
         },
         {
           "itemId": 2520,
@@ -539,7 +565,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 20
         },
         {
           "itemId": 6673,
@@ -547,7 +573,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
+          "purchaseSamples": 2
         },
         {
           "itemId": 2512,
@@ -555,7 +581,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 8
+          "purchaseSamples": 10
         }
       ],
       "seedPair": {
@@ -570,7 +596,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 8747025.773267627
+        "score": 10353672.37357997
       },
       "runes": {
         "primaryStyle": {
@@ -644,7 +670,7 @@
       "id": "Riven-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5737,
+      "totalGames": 7041,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -653,12 +679,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
+          "itemId": 3179,
+          "name": "Umbral Glaive",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 15
+          "purchaseSamples": 139
         },
         {
           "itemId": 3158,
@@ -666,54 +692,54 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1240
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 20
+          "purchaseSamples": 1493
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 149
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
+          "purchaseSamples": 139
         },
         {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 94
         },
         {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 11
         }
       ],
       "seedPair": {
         "itemIds": [
-          2512,
-          3036
+          3036,
+          3139
         ],
         "names": [
-          "Fiendhunter Bolts",
-          "Lord Dominik's Regards"
+          "Lord Dominik's Regards",
+          "Mercurial Scimitar"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 4453017.998859558
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 9416703.739632046
       },
       "runes": {
         "primaryStyle": {
@@ -766,15 +792,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -794,38 +820,38 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5737,
+    "totalGames": 7041,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5007843820812271,
+    "winrate": 0.5064621502627468,
     "items": [
+      {
+        "itemId": 6696,
+        "name": "Axiom Arc",
+        "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 304
+      },
       {
         "itemId": 6692,
         "name": "Eclipse",
         "isBoots": false,
-        "order": 1,
+        "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 486
+        "purchaseSamples": 567
       },
       {
         "itemId": 6333,
         "name": "Death's Dance",
         "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 1622
-      },
-      {
-        "itemId": 6696,
-        "name": "Axiom Arc",
-        "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 198
+        "purchaseSamples": 1942
       },
       {
         "itemId": 3158,
@@ -833,7 +859,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 1240
+        "purchaseSamples": 1493
       },
       {
         "itemId": 2517,
@@ -841,7 +867,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1252
+        "purchaseSamples": 1543
       },
       {
         "itemId": 3156,
@@ -849,7 +875,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 499
+        "purchaseSamples": 626
       }
     ],
     "runes": {
@@ -903,15 +929,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 5737,
-      "games": 3360,
-      "confidencePct": 0.5856719539829179
+      "sampleGames": 7041,
+      "games": 4197,
+      "confidencePct": 0.596080102258202
     },
     "position": {
       "role": "TOP",
-      "games": 4075,
-      "sampleGames": 5737,
-      "confidencePct": 0.7103015513334495
+      "games": 5059,
+      "sampleGames": 7041,
+      "confidencePct": 0.7185058940491408
     },
     "skillOrder": {
       "order": [
@@ -919,9 +945,9 @@
         "E",
         "W"
       ],
-      "games": 1349,
-      "sampleGames": 1430,
-      "confidencePct": 0.9433566433566434
+      "games": 1702,
+      "sampleGames": 1801,
+      "confidencePct": 0.9450305385896725
     }
   }
 }

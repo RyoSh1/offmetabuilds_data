@@ -1,8 +1,22 @@
 {
   "championId": "MissFortune",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4646,
+        6655
+      ],
+      "names": [
+        "Stormsurge",
+        "Luden's Echo"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 2949866693.2858996
+    },
     {
       "itemIds": [
         2503,
@@ -12,10 +26,24 @@
         "Blackfire Torch",
         "Liandry's Torment"
       ],
-      "games": 21,
-      "wins": 8,
-      "winrate": 0.38095238095238093,
-      "score": 582337611.8694826
+      "games": 27,
+      "wins": 12,
+      "winrate": 0.4444444444444444,
+      "score": 723194337.5203874
+    },
+    {
+      "itemIds": [
+        2503,
+        3116
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Rylai's Crystal Scepter"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 623284189.6692618
     },
     {
       "itemIds": [
@@ -26,10 +54,10 @@
         "Bastionbreaker",
         "Umbral Glaive"
       ],
-      "games": 41,
-      "wins": 25,
-      "winrate": 0.6097560975609756,
-      "score": 2366743.189808071
+      "games": 43,
+      "wins": 26,
+      "winrate": 0.6046511627906976,
+      "score": 2988767.7359806704
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 2191607.332035724
-    },
-    {
-      "itemIds": [
-        3179,
-        6694
-      ],
-      "names": [
-        "Umbral Glaive",
-        "Serylda's Grudge"
-      ],
-      "games": 51,
-      "wins": 29,
-      "winrate": 0.5686274509803921,
-      "score": 1887135.5973027253
-    },
-    {
-      "itemIds": [
-        2520,
-        6699
-      ],
-      "names": [
-        "Bastionbreaker",
-        "Voltaic Cyclosword"
-      ],
-      "games": 14,
-      "wins": 6,
-      "winrate": 0.42857142857142855,
-      "score": 1511479.0622416923
+      "score": 2471841.780431701
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "MissFortune-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4825,
+      "totalGames": 5818,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 37
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4646,
+          6655
+        ],
+        "names": [
+          "Stormsurge",
+          "Luden's Echo"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 2949866693.2858996
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 4,
+        "wins": 4,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "MissFortune-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5818,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,7 +212,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 19
+          "purchaseSamples": 22
         },
         {
           "itemId": 3158,
@@ -101,7 +220,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 32
+          "purchaseSamples": 37
         },
         {
           "itemId": 6653,
@@ -110,6 +229,14 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 12
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
@@ -121,10 +248,10 @@
           "Blackfire Torch",
           "Liandry's Torment"
         ],
-        "games": 21,
-        "wins": 8,
-        "winrate": 0.38095238095238093,
-        "score": 582337611.8694826
+        "games": 27,
+        "wins": 12,
+        "winrate": 0.4444444444444444,
+        "score": 723194337.5203874
       },
       "runes": {
         "primaryStyle": {
@@ -177,15 +304,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 21,
+        "sampleGames": 27,
         "games": 4,
-        "confidencePct": 0.19047619047619047
+        "confidencePct": 0.14814814814814814
       },
       "position": {
         "role": "UTILITY",
-        "games": 19,
-        "sampleGames": 21,
-        "confidencePct": 0.9047619047619048
+        "games": 24,
+        "sampleGames": 27,
+        "confidencePct": 0.8888888888888888
       },
       "skillOrder": {
         "order": [
@@ -198,16 +325,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 21,
-        "wins": 8,
-        "winrate": 0.38095238095238093
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
-      "id": "MissFortune-2",
-      "buildIndex": 1,
+      "id": "MissFortune-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4825,
+      "totalGames": 5818,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -221,7 +348,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 439
+          "purchaseSamples": 491
         },
         {
           "itemId": 3158,
@@ -229,23 +356,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 128
+          "purchaseSamples": 37
         },
         {
           "itemId": 3179,
           "name": "Umbral Glaive",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 132
+          "purchaseSamples": 150
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 148
         },
         {
           "itemId": 6694,
@@ -253,7 +380,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 203
+          "purchaseSamples": 227
         },
         {
           "itemId": 3814,
@@ -261,7 +388,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 333
+          "purchaseSamples": 369
         }
       ],
       "seedPair": {
@@ -273,10 +400,10 @@
           "Bastionbreaker",
           "Umbral Glaive"
         ],
-        "games": 41,
-        "wins": 25,
-        "winrate": 0.6097560975609756,
-        "score": 2366743.189808071
+        "games": 43,
+        "wins": 26,
+        "winrate": 0.6046511627906976,
+        "score": 2988767.7359806704
       },
       "runes": {
         "primaryStyle": {
@@ -329,14 +456,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 41,
-        "games": 21,
-        "confidencePct": 0.5121951219512195
+        "sampleGames": 43,
+        "games": 22,
+        "confidencePct": 0.5116279069767442
       },
       "position": {
         "role": "BOTTOM",
-        "games": 41,
-        "sampleGames": 41,
+        "games": 43,
+        "sampleGames": 43,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -345,21 +472,21 @@
           "W",
           "E"
         ],
-        "games": 24,
-        "sampleGames": 24,
+        "games": 31,
+        "sampleGames": 31,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 6,
+        "games": 7,
         "wins": 5,
-        "winrate": 0.8333333333333334
+        "winrate": 0.7142857142857143
       }
     },
     {
-      "id": "MissFortune-3",
-      "buildIndex": 2,
+      "id": "MissFortune-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4825,
+      "totalGames": 5818,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -373,7 +500,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 439
+          "purchaseSamples": 491
         },
         {
           "itemId": 3158,
@@ -381,23 +508,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 128
+          "purchaseSamples": 37
         },
         {
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
+          "purchaseSamples": 148
         },
         {
           "itemId": 3814,
@@ -405,7 +532,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 333
+          "purchaseSamples": 369
         },
         {
           "itemId": 3095,
@@ -413,7 +540,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
+          "purchaseSamples": 21
         }
       ],
       "seedPair": {
@@ -428,7 +555,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 2191607.332035724
+        "score": 2471841.780431701
       },
       "runes": {
         "primaryStyle": {
@@ -508,10 +635,10 @@
       }
     },
     {
-      "id": "MissFortune-4",
-      "buildIndex": 3,
+      "id": "MissFortune-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4825,
+      "totalGames": 5818,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -525,7 +652,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 32
+          "purchaseSamples": 37
         },
         {
           "itemId": 6694,
@@ -533,31 +660,31 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 203
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 333
+          "purchaseSamples": 227
         },
         {
           "itemId": 6696,
           "name": "Axiom Arc",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 57
+          "purchaseSamples": 65
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 369
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 170
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 148
         },
         {
           "itemId": 3042,
@@ -577,10 +704,10 @@
           "Muramana",
           "Serylda's Grudge"
         ],
-        "games": 15,
-        "wins": 8,
-        "winrate": 0.5333333333333333,
-        "score": 1296042.0470777515
+        "games": 18,
+        "wins": 9,
+        "winrate": 0.5,
+        "score": 1483963.0073256867
       },
       "runes": {
         "primaryStyle": {
@@ -633,167 +760,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
+        "sampleGames": 18,
         "games": 9,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 14,
-        "sampleGames": 15,
-        "confidencePct": 0.9333333333333333
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
-      }
-    },
-    {
-      "id": "MissFortune-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 4825,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 49
-        },
-        {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3046,
-          "name": "Phantom Dancer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 170
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2523,
-          3046
-        ],
-        "names": [
-          "Hexoptics C44",
-          "Phantom Dancer"
-        ],
-        "games": 10,
-        "wins": 7,
-        "winrate": 0.7,
-        "score": 1004096.1117332692
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 5,
         "confidencePct": 0.5
       },
       "position": {
         "role": "BOTTOM",
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
+        "games": 17,
+        "sampleGames": 18,
+        "confidencePct": 0.9444444444444444
       },
       "skillOrder": {
         "order": [
@@ -801,26 +776,26 @@
           "W",
           "E"
         ],
+        "games": 13,
+        "sampleGames": 13,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
         "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "wins": 1,
+        "winrate": 1
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 4825,
+    "totalGames": 5818,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4750259067357513,
+    "winrate": 0.47524922653832935,
     "items": [
       {
         "itemId": 3072,
@@ -828,7 +803,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 1602
+        "purchaseSamples": 1807
       },
       {
         "itemId": 6697,
@@ -836,7 +811,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 1176
+        "purchaseSamples": 1360
       },
       {
         "itemId": 6676,
@@ -844,7 +819,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2131
+        "purchaseSamples": 2400
       },
       {
         "itemId": 3031,
@@ -852,7 +827,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1225
+        "purchaseSamples": 1397
       },
       {
         "itemId": 3036,
@@ -860,7 +835,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 657
+        "purchaseSamples": 767
       },
       {
         "itemId": 3170,
@@ -922,15 +897,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4825,
-      "games": 575,
-      "confidencePct": 0.11917098445595854
+      "sampleGames": 5818,
+      "games": 686,
+      "confidencePct": 0.11790993468545892
     },
     "position": {
       "role": "BOTTOM",
-      "games": 4736,
-      "sampleGames": 4825,
-      "confidencePct": 0.9815544041450778
+      "games": 5698,
+      "sampleGames": 5818,
+      "confidencePct": 0.9793743554486077
     },
     "skillOrder": {
       "order": [
@@ -938,9 +913,9 @@
         "W",
         "E"
       ],
-      "games": 2047,
-      "sampleGames": 2097,
-      "confidencePct": 0.9761564139246542
+      "games": 2436,
+      "sampleGames": 2493,
+      "confidencePct": 0.9771359807460891
     }
   }
 }

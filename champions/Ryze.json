@@ -1,8 +1,36 @@
 {
   "championId": "Ryze",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2503,
+        3121
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Fimbulwinter"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 522063749.4273312
+    },
+    {
+      "itemIds": [
+        3119,
+        3135
+      ],
+      "names": [
+        "Winter's Approach",
+        "Void Staff"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 42265604.74739329
+    },
     {
       "itemIds": [
         2503,
@@ -12,10 +40,24 @@
         "Blackfire Torch",
         "Luden's Echo"
       ],
-      "games": 8,
-      "wins": 3,
-      "winrate": 0.375,
-      "score": 9633476.854722733
+      "games": 10,
+      "wins": 4,
+      "winrate": 0.4,
+      "score": 9805045.350156117
+    },
+    {
+      "itemIds": [
+        3135,
+        8020
+      ],
+      "names": [
+        "Void Staff",
+        "Abyssal Mask"
+      ],
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 7084927.787948897
     },
     {
       "itemIds": [
@@ -29,49 +71,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 3815709.2152815387
-    },
-    {
-      "itemIds": [
-        3135,
-        3152
-      ],
-      "names": [
-        "Void Staff",
-        "Hextech Rocketbelt"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 3151041.8504733867
-    },
-    {
-      "itemIds": [
-        3110,
-        3119
-      ],
-      "names": [
-        "Frozen Heart",
-        "Winter's Approach"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 1341579.8148990562
-    },
-    {
-      "itemIds": [
-        3135,
-        4629
-      ],
-      "names": [
-        "Void Staff",
-        "Cosmic Drive"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 1313290.3876229308
+      "score": 4008842.044856586
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ryze-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10289,
+      "totalGames": 11235,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,23 +93,23 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 10
+          "purchaseSamples": 9
         },
         {
           "itemId": 2503,
           "name": "Blackfire Torch",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 5
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 640
         },
         {
           "itemId": 3135,
@@ -117,30 +117,181 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 309
+          "purchaseSamples": 351
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 532
+          "purchaseSamples": 1228
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
           2503,
-          6655
+          3121
         ],
         "names": [
           "Blackfire Torch",
-          "Luden's Echo"
+          "Fimbulwinter"
         ],
-        "games": 8,
-        "wins": 3,
-        "winrate": 0.375,
-        "score": 9633476.854722733
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 522063749.4273312
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ryze-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11235,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3173,
+          "name": "Chainlaced Crushers",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3119,
+          "name": "Winter's Approach",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 351
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 183
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 640
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3119,
+          3135
+        ],
+        "names": [
+          "Winter's Approach",
+          "Void Staff"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 42265604.74739329
       },
       "runes": {
         "primaryStyle": {
@@ -161,8 +312,8 @@
             "name": "Transcendence"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
@@ -175,33 +326,33 @@
             "name": "Cash Back"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 2,
-        "confidencePct": 0.25
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 8,
-        "confidencePct": 0.75
+        "role": "BOTTOM",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -211,10 +362,146 @@
       }
     },
     {
-      "id": "Ryze-2",
-      "buildIndex": 1,
+      "id": "Ryze-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10289,
+      "totalGames": 11235,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3173,
+          "name": "Chainlaced Crushers",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 351
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1228
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3135,
+          8020
+        ],
+        "names": [
+          "Void Staff",
+          "Abyssal Mask"
+        ],
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25,
+        "score": 7084927.787948897
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ryze-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 11235,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -228,7 +515,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 29
+          "purchaseSamples": 30
         },
         {
           "itemId": 3173,
@@ -236,7 +523,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 9
         },
         {
           "itemId": 3157,
@@ -244,7 +531,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1108
+          "purchaseSamples": 1228
         },
         {
           "itemId": 3089,
@@ -252,7 +539,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 532
+          "purchaseSamples": 640
         },
         {
           "itemId": 3110,
@@ -260,7 +547,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 165
+          "purchaseSamples": 183
         }
       ],
       "seedPair": {
@@ -275,7 +562,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 3815709.2152815387
+        "score": 4008842.044856586
       },
       "runes": {
         "primaryStyle": {
@@ -355,10 +642,10 @@
       }
     },
     {
-      "id": "Ryze-3",
-      "buildIndex": 2,
+      "id": "Ryze-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10289,
+      "totalGames": 11235,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -372,7 +659,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 9
         },
         {
           "itemId": 3152,
@@ -380,39 +667,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 47
+          "purchaseSamples": 61
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 34
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 309
+          "purchaseSamples": 351
         },
         {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 532
+          "purchaseSamples": 640
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 97
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1108
+          "purchaseSamples": 112
         }
       ],
       "seedPair": {
@@ -427,7 +714,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 3151041.8504733867
+        "score": 2777949.779503946
       },
       "runes": {
         "primaryStyle": {
@@ -505,321 +792,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Ryze-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 10289,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3173,
-          "name": "Chainlaced Crushers",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3119,
-          "name": "Winter's Approach",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 165
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 532
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 309
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 31
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3110,
-          3119
-        ],
-        "names": [
-          "Frozen Heart",
-          "Winter's Approach"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 1341579.8148990562
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ryze-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 10289,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3173,
-          "name": "Chainlaced Crushers",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 532
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 309
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1108
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 165
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3089,
-          4645
-        ],
-        "names": [
-          "Rabadon's Deathcap",
-          "Shadowflame"
-        ],
-        "games": 14,
-        "wins": 7,
-        "winrate": 0.5,
-        "score": 1038817.6504711395
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 3,
-        "confidencePct": 0.21428571428571427
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 9,
-        "sampleGames": 14,
-        "confidencePct": 0.6428571428571429
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 10289,
+    "totalGames": 11235,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4651569637476917,
+    "winrate": 0.46622162883845125,
     "items": [
       {
         "itemId": 6657,
@@ -827,7 +810,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 8024
+        "purchaseSamples": 9072
       },
       {
         "itemId": 3173,
@@ -835,7 +818,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 8
+        "purchaseSamples": 9
       },
       {
         "itemId": 2522,
@@ -843,7 +826,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4093
+        "purchaseSamples": 4705
       },
       {
         "itemId": 3157,
@@ -851,7 +834,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 1108
+        "purchaseSamples": 1228
       },
       {
         "itemId": 3089,
@@ -859,7 +842,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 532
+        "purchaseSamples": 640
       },
       {
         "itemId": 3040,
@@ -921,15 +904,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10289,
-      "games": 2221,
-      "confidencePct": 0.21586159976674119
+      "sampleGames": 11235,
+      "games": 2327,
+      "confidencePct": 0.20712060525144638
     },
     "position": {
       "role": "MIDDLE",
-      "games": 8369,
-      "sampleGames": 10289,
-      "confidencePct": 0.813392943920692
+      "games": 9123,
+      "sampleGames": 11235,
+      "confidencePct": 0.8120160213618157
     },
     "skillOrder": {
       "order": [
@@ -937,9 +920,9 @@
         "E",
         "W"
       ],
-      "games": 5480,
-      "sampleGames": 5587,
-      "confidencePct": 0.9808483980669411
+      "games": 6373,
+      "sampleGames": 6494,
+      "confidencePct": 0.9813674160763782
     }
   }
 }

@@ -1,8 +1,22 @@
 {
   "championId": "Zyra",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2530,
+        6620
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Echoes of Helia"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 170316879.82299793
+    },
     {
       "itemIds": [
         4646,
@@ -15,21 +29,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 115793862.8424035
-    },
-    {
-      "itemIds": [
-        2530,
-        6620
-      ],
-      "names": [
-        "Diadem of Songs",
-        "Echoes of Helia"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 115663997.89839089
+      "score": 130255993.58619414
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 24147100.639861137
+      "score": 26395322.791023407
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 14055448.372023972
+      "score": 13715995.14141004
     },
     {
       "itemIds": [
-        3089,
-        6655
+        3152,
+        4646
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Luden's Echo"
+        "Hextech Rocketbelt",
+        "Stormsurge"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 11846349.334912144
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 13111742.262278248
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Zyra-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6980,
+      "totalGames": 8114,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 436
+          "purchaseSamples": 491
         },
         {
           "itemId": 3020,
@@ -101,15 +101,150 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3494
+          "purchaseSamples": 3948
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 360
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2530,
+          6620
+        ],
+        "names": [
+          "Diadem of Songs",
+          "Echoes of Helia"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 170316879.82299793
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          },
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zyra-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8114,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 491
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3948
         },
         {
           "itemId": 6655,
           "name": "Luden's Echo",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
         },
         {
           "itemId": 4646,
@@ -117,7 +252,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 45
+          "purchaseSamples": 49
         },
         {
           "itemId": 3137,
@@ -125,7 +260,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 281
+          "purchaseSamples": 314
         },
         {
           "itemId": 3089,
@@ -133,7 +268,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 264
+          "purchaseSamples": 307
         }
       ],
       "seedPair": {
@@ -148,7 +283,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 115793862.8424035
+        "score": 130255993.58619414
       },
       "runes": {
         "primaryStyle": {
@@ -219,129 +354,10 @@
       }
     },
     {
-      "id": "Zyra-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 6980,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3494
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2530,
-          6620
-        ],
-        "names": [
-          "Diadem of Songs",
-          "Echoes of Helia"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 115663997.89839089
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          },
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333
-      }
-    },
-    {
       "id": "Zyra-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6980,
+      "totalGames": 8114,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -355,7 +371,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 436
+          "purchaseSamples": 491
         },
         {
           "itemId": 3020,
@@ -363,7 +379,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3494
+          "purchaseSamples": 3948
         },
         {
           "itemId": 4645,
@@ -371,7 +387,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1847
+          "purchaseSamples": 2061
         },
         {
           "itemId": 4633,
@@ -379,23 +395,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1439
+          "purchaseSamples": 3
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 185
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 167
+          "purchaseSamples": 198
         }
       ],
       "seedPair": {
@@ -410,7 +426,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 14055448.372023972
+        "score": 13715995.14141004
       },
       "runes": {
         "primaryStyle": {
@@ -484,7 +500,7 @@
       "id": "Zyra-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6980,
+      "totalGames": 8114,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -498,7 +514,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3494
+          "purchaseSamples": 3948
         },
         {
           "itemId": 3116,
@@ -506,7 +522,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1105
+          "purchaseSamples": 1257
         },
         {
           "itemId": 4005,
@@ -514,15 +530,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 318
+          "purchaseSamples": 360
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 10
         },
         {
           "itemId": 3137,
@@ -530,7 +546,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 281
+          "purchaseSamples": 314
         },
         {
           "itemId": 3165,
@@ -538,7 +554,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 185
+          "purchaseSamples": 198
         }
       ],
       "seedPair": {
@@ -553,7 +569,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 4351773.945854124
+        "score": 3750501.771970771
       },
       "runes": {
         "primaryStyle": {
@@ -619,12 +635,12 @@
       "skillOrder": {
         "order": [
           "E",
-          "Q",
-          "W"
+          "W",
+          "Q"
         ],
         "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -636,7 +652,7 @@
       "id": "Zyra-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 6980,
+      "totalGames": 8114,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -650,7 +666,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 436
+          "purchaseSamples": 491
         },
         {
           "itemId": 3020,
@@ -658,54 +674,54 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3494
+          "purchaseSamples": 3948
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 162
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 49
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 281
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 185
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 264
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 314
         }
       ],
       "seedPair": {
         "itemIds": [
-          3118,
-          3165
+          2503,
+          4628
         ],
         "names": [
-          "Malignance",
-          "Morellonomicon"
+          "Blackfire Torch",
+          "Horizon Focus"
         ],
-        "games": 5,
-        "wins": 1,
-        "winrate": 0.2,
-        "score": 4134085.8714201828
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 3715198.2825089768
       },
       "runes": {
         "primaryStyle": {
@@ -718,12 +734,12 @@
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -731,17 +747,17 @@
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8139,
-            "name": "Taste of Blood"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -750,23 +766,23 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -774,9 +790,9 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -786,14 +802,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6980,
+    "totalGames": 8114,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5170487106017192,
+    "winrate": 0.5166379097855558,
     "items": [
       {
         "itemId": 6653,
@@ -801,7 +817,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4343
+        "purchaseSamples": 4857
       },
       {
         "itemId": 2503,
@@ -809,7 +825,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 436
+        "purchaseSamples": 491
       },
       {
         "itemId": 3020,
@@ -817,7 +833,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3494
+        "purchaseSamples": 3948
       },
       {
         "itemId": 4645,
@@ -825,7 +841,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1847
+        "purchaseSamples": 2061
       },
       {
         "itemId": 3116,
@@ -833,7 +849,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1105
+        "purchaseSamples": 1257
       },
       {
         "itemId": 3157,
@@ -841,7 +857,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1439
+        "purchaseSamples": 1623
       }
     ],
     "runes": {
@@ -895,15 +911,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6980,
-      "games": 2331,
-      "confidencePct": 0.3339541547277937
+      "sampleGames": 8114,
+      "games": 2562,
+      "confidencePct": 0.31575055459699286
     },
     "position": {
       "role": "JUNGLE",
-      "games": 4052,
-      "sampleGames": 6980,
-      "confidencePct": 0.5805157593123209
+      "games": 4498,
+      "sampleGames": 8114,
+      "confidencePct": 0.5543505052994824
     },
     "skillOrder": {
       "order": [
@@ -911,9 +927,9 @@
         "E",
         "W"
       ],
-      "games": 2310,
-      "sampleGames": 3118,
-      "confidencePct": 0.7408595253367544
+      "games": 2674,
+      "sampleGames": 3616,
+      "confidencePct": 0.7394911504424779
     }
   }
 }

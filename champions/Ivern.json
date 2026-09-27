@@ -1,7 +1,7 @@
 {
   "championId": "Ivern",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 501773566.84586155
+      "score": 550384156.477389
     },
     {
       "itemIds": [
@@ -26,10 +26,10 @@
         "Imperial Mandate",
         "Horizon Focus"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 35000072.23487933
+      "winrate": 0.75,
+      "score": 33963613.39117083
     },
     {
       "itemIds": [
@@ -43,35 +43,35 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 26482106.652712062
+      "score": 22953859.30032777
     },
     {
       "itemIds": [
         3115,
-        3157
+        8010
       ],
       "names": [
         "Nashor's Tooth",
-        "Zhonya's Hourglass"
+        "Bloodletter's Curse"
       ],
-      "games": 12,
-      "wins": 5,
-      "winrate": 0.4166666666666667,
-      "score": 9288042.754044658
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 22731912.69875462
     },
     {
       "itemIds": [
-        3157,
-        4628
+        4005,
+        4645
       ],
       "names": [
-        "Zhonya's Hourglass",
-        "Horizon Focus"
+        "Imperial Mandate",
+        "Shadowflame"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 9079316.26093619
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 10756587.2464637
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ivern-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4205,
+      "totalGames": 4845,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -101,7 +101,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1698
+          "purchaseSamples": 2104
         },
         {
           "itemId": 2510,
@@ -124,7 +124,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 501773566.84586155
+        "score": 550384156.477389
       },
       "runes": {
         "primaryStyle": {
@@ -207,7 +207,7 @@
       "id": "Ivern-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4205,
+      "totalGames": 4845,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -221,7 +221,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1698
+          "purchaseSamples": 2104
         },
         {
           "itemId": 3118,
@@ -229,7 +229,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 532
+          "purchaseSamples": 599
         },
         {
           "itemId": 4005,
@@ -237,7 +237,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 152
+          "purchaseSamples": 175
         },
         {
           "itemId": 4628,
@@ -245,15 +245,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 7
+          "purchaseSamples": 9
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 3100,
+          "name": "Lich Bane",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 63
+          "purchaseSamples": 23
         },
         {
           "itemId": 3157,
@@ -261,7 +261,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 132
+          "purchaseSamples": 141
         }
       ],
       "seedPair": {
@@ -273,10 +273,10 @@
           "Imperial Mandate",
           "Horizon Focus"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 35000072.23487933
+        "winrate": 0.75,
+        "score": 33963613.39117083
       },
       "runes": {
         "primaryStyle": {
@@ -329,17 +329,26 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 5,
-        "confidencePct": 0.7142857142857143
+        "confidencePct": 0.625
       },
       "position": {
         "role": "TOP",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
+        "games": 6,
+        "sampleGames": 8,
+        "confidencePct": 0.75
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -350,7 +359,7 @@
       "id": "Ivern-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4205,
+      "totalGames": 4845,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -364,39 +373,39 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1698
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 532
+          "purchaseSamples": 2104
         },
         {
           "itemId": 3115,
           "name": "Nashor's Tooth",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 15
+          "purchaseSamples": 19
         },
         {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 35
+          "purchaseSamples": 43
         },
         {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 63
+          "purchaseSamples": 72
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 28
         },
         {
           "itemId": 3157,
@@ -404,7 +413,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 132
+          "purchaseSamples": 141
         }
       ],
       "seedPair": {
@@ -419,7 +428,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 26482106.652712062
+        "score": 22953859.30032777
       },
       "runes": {
         "primaryStyle": {
@@ -502,7 +511,7 @@
       "id": "Ivern-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4205,
+      "totalGames": 4845,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -516,7 +525,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1698
+          "purchaseSamples": 2104
         },
         {
           "itemId": 4005,
@@ -524,39 +533,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 152
+          "purchaseSamples": 175
         },
         {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 7
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 9
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
@@ -568,52 +577,52 @@
           "Imperial Mandate",
           "Shadowflame"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 8940914.407496039
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 10756587.2464637
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
+          "id": 8005,
+          "name": "Press the Attack"
         },
         "primaryPerks": [
           {
-            "id": 8401,
-            "name": "Shield Bash"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
           {
             "id": 8473,
             "name": "Bone Plating"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -624,14 +633,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -654,7 +663,7 @@
       "id": "Ivern-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4205,
+      "totalGames": 4845,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -668,7 +677,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1698
+          "purchaseSamples": 2104
         },
         {
           "itemId": 3100,
@@ -676,7 +685,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 12
+          "purchaseSamples": 23
         },
         {
           "itemId": 8010,
@@ -684,7 +693,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 25
+          "purchaseSamples": 28
         },
         {
           "itemId": 3041,
@@ -692,15 +701,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 412
+          "purchaseSamples": 474
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 15
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 56
         },
         {
           "itemId": 3071,
@@ -723,7 +732,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 4653221.954476478
+        "score": 4478573.145164044
       },
       "runes": {
         "primaryStyle": {
@@ -795,14 +804,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 4205,
+    "totalGames": 4845,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.527705112960761,
+    "winrate": 0.5277605779153767,
     "items": [
       {
         "itemId": 3158,
@@ -810,7 +819,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 1698
+        "purchaseSamples": 2104
       },
       {
         "itemId": 3107,
@@ -818,7 +827,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 479
+        "purchaseSamples": 678
       },
       {
         "itemId": 6620,
@@ -826,7 +835,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 862
+        "purchaseSamples": 964
       },
       {
         "itemId": 6617,
@@ -834,7 +843,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 897
+        "purchaseSamples": 1163
       },
       {
         "itemId": 3504,
@@ -842,7 +851,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 323
+        "purchaseSamples": 460
       },
       {
         "itemId": 6621,
@@ -850,7 +859,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 119
+        "purchaseSamples": 163
       }
     ],
     "runes": {
@@ -904,15 +913,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4205,
-      "games": 1458,
-      "confidencePct": 0.3467300832342449
+      "sampleGames": 4845,
+      "games": 1687,
+      "confidencePct": 0.3481940144478844
     },
     "position": {
       "role": "JUNGLE",
-      "games": 3612,
-      "sampleGames": 4205,
-      "confidencePct": 0.8589774078478002
+      "games": 4149,
+      "sampleGames": 4845,
+      "confidencePct": 0.8563467492260062
     },
     "skillOrder": {
       "order": [
@@ -920,9 +929,9 @@
         "Q",
         "W"
       ],
-      "games": 1226,
-      "sampleGames": 1244,
-      "confidencePct": 0.9855305466237942
+      "games": 1576,
+      "sampleGames": 1601,
+      "confidencePct": 0.9843847595252967
     }
   }
 }

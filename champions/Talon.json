@@ -1,8 +1,22 @@
 {
   "championId": "Talon",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3089,
+        4645
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Shadowflame"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 783619735.928419
+    },
     {
       "itemIds": [
         3031,
@@ -15,7 +29,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 102073088.03777698
+      "score": 100527570.75577575
+    },
+    {
+      "itemIds": [
+        6697,
+        6698
+      ],
+      "names": [
+        "Hubris",
+        "Profane Hydra"
+      ],
+      "games": 20,
+      "wins": 13,
+      "winrate": 0.65,
+      "score": 48786471.35995432
     },
     {
       "itemIds": [
@@ -26,10 +54,10 @@
         "Sterak's Gage",
         "Eclipse"
       ],
-      "games": 29,
-      "wins": 19,
-      "winrate": 0.6551724137931034,
-      "score": 44231677.49492121
+      "games": 33,
+      "wins": 21,
+      "winrate": 0.6363636363636364,
+      "score": 48515853.54478911
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Black Cleaver",
         "Eclipse"
       ],
-      "games": 685,
-      "wins": 382,
-      "winrate": 0.5576642335766423,
-      "score": 36554421.77666245
-    },
-    {
-      "itemIds": [
-        3053,
-        3071
-      ],
-      "names": [
-        "Sterak's Gage",
-        "Black Cleaver"
-      ],
-      "games": 37,
-      "wins": 24,
-      "winrate": 0.6486486486486487,
-      "score": 34351293.53122321
-    },
-    {
-      "itemIds": [
-        3053,
-        6333
-      ],
-      "names": [
-        "Sterak's Gage",
-        "Death's Dance"
-      ],
-      "games": 23,
-      "wins": 15,
-      "winrate": 0.6521739130434783,
-      "score": 31438944.751905344
+      "games": 748,
+      "wins": 416,
+      "winrate": 0.5561497326203209,
+      "score": 42336665.62695329
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "Talon-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17766,
+      "totalGames": 20076,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3016
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 7,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3089,
+          4645
+        ],
+        "names": [
+          "Rabadon's Deathcap",
+          "Shadowflame"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 783619735.928419
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Talon-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 20076,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,15 +212,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1000
+          "purchaseSamples": 1044
         },
         {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
+          "itemId": 6697,
+          "name": "Hubris",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3335
+          "purchaseSamples": 355
         },
         {
           "itemId": 3009,
@@ -109,7 +228,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2521
+          "purchaseSamples": 3016
         },
         {
           "itemId": 3036,
@@ -117,7 +236,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 916
+          "purchaseSamples": 1215
         },
         {
           "itemId": 6676,
@@ -125,7 +244,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 30
+          "purchaseSamples": 37
         },
         {
           "itemId": 3031,
@@ -148,7 +267,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 102073088.03777698
+        "score": 100527570.75577575
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +347,10 @@
       }
     },
     {
-      "id": "Talon-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 17766,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1191
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1506
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2521
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 644
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 58
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 8
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3053,
-          6692
-        ],
-        "names": [
-          "Sterak's Gage",
-          "Eclipse"
-        ],
-        "games": 29,
-        "wins": 19,
-        "winrate": 0.6551724137931034,
-        "score": 44231677.49492121
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 29,
-        "games": 13,
-        "confidencePct": 0.4482758620689655
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 21,
-        "sampleGames": 29,
-        "confidencePct": 0.7241379310344828
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 28,
-        "sampleGames": 28,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Talon-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 17766,
+      "totalGames": 20076,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,219 +359,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6692,
-          "name": "Eclipse",
+          "itemId": 6697,
+          "name": "Hubris",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1191
+          "purchaseSamples": 355
         },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 98
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1506
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2521
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 644
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 177
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6610,
-          6692
-        ],
-        "names": [
-          "Sundered Sky",
-          "Eclipse"
-        ],
-        "games": 40,
-        "wins": 19,
-        "winrate": 0.475,
-        "score": 31230106.441790253
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 40,
-        "games": 18,
-        "confidencePct": 0.45
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 36,
-        "sampleGames": 40,
-        "confidencePct": 0.9
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 26,
-        "sampleGames": 26,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Talon-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 17766,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
         {
           "itemId": 6698,
           "name": "Profane Hydra",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1000
+          "purchaseSamples": 1044
         },
         {
           "itemId": 6692,
           "name": "Eclipse",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1191
+          "purchaseSamples": 1260
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1631
         },
         {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2521
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 530
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 30
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3016
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 776
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 767
         }
       ],
       "seedPair": {
         "itemIds": [
-          3033,
-          6676
+          6697,
+          6698
         ],
         "names": [
-          "Mortal Reminder",
-          "The Collector"
+          "Hubris",
+          "Profane Hydra"
         ],
-        "games": 6,
-        "wins": 6,
-        "winrate": 1,
-        "score": 16994731.007952
+        "games": 20,
+        "wins": 13,
+        "winrate": 0.65,
+        "score": 48786471.35995432
       },
       "runes": {
         "primaryStyle": {
@@ -612,8 +427,8 @@
           "name": "Precision"
         },
         "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
@@ -621,8 +436,8 @@
             "name": "Triumph"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
             "id": 8014,
@@ -635,12 +450,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8352,
+            "name": "Time Warp Tonic"
           }
         ],
         "statPerks": [
@@ -657,15 +472,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 1,
-        "confidencePct": 0.16666666666666666
+        "sampleGames": 20,
+        "games": 2,
+        "confidencePct": 0.1
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "role": "BOTTOM",
+        "games": 8,
+        "sampleGames": 20,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -682,17 +497,321 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Talon-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 20076,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1260
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1631
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 100
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3016
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 767
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 59
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3053,
+          6692
+        ],
+        "names": [
+          "Sterak's Gage",
+          "Eclipse"
+        ],
+        "games": 33,
+        "wins": 21,
+        "winrate": 0.6363636363636364,
+        "score": 48515853.54478911
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 33,
+        "games": 16,
+        "confidencePct": 0.48484848484848486
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 25,
+        "sampleGames": 33,
+        "confidencePct": 0.7575757575757576
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 29,
+        "sampleGames": 29,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Talon-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 20076,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1260
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1631
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3016
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 767
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 212
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 19
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3156,
+          3161
+        ],
+        "names": [
+          "Maw of Malmortius",
+          "Spear of Shojin"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 40385902.35833492
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 17766,
+    "totalGames": 20076,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5118203309692672,
+    "winrate": 0.5099123331340905,
     "items": [
       {
         "itemId": 3179,
@@ -700,7 +819,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7077
+        "purchaseSamples": 8439
       },
       {
         "itemId": 6699,
@@ -708,7 +827,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 5866
+        "purchaseSamples": 6891
       },
       {
         "itemId": 2520,
@@ -716,7 +835,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3598
+        "purchaseSamples": 4571
       },
       {
         "itemId": 3009,
@@ -724,7 +843,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2521
+        "purchaseSamples": 3016
       },
       {
         "itemId": 3814,
@@ -732,7 +851,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4360
+        "purchaseSamples": 4870
       },
       {
         "itemId": 6695,
@@ -740,7 +859,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3127
+        "purchaseSamples": 3510
       }
     ],
     "runes": {
@@ -794,15 +913,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17766,
-      "games": 5873,
-      "confidencePct": 0.330575256107171
+      "sampleGames": 20076,
+      "games": 6965,
+      "confidencePct": 0.346931659693166
     },
     "position": {
       "role": "JUNGLE",
-      "games": 13668,
-      "sampleGames": 17766,
-      "confidencePct": 0.7693346842283012
+      "games": 15492,
+      "sampleGames": 20076,
+      "confidencePct": 0.771667662881052
     },
     "skillOrder": {
       "order": [
@@ -810,9 +929,9 @@
         "Q",
         "E"
       ],
-      "games": 7698,
-      "sampleGames": 7786,
-      "confidencePct": 0.988697662471102
+      "games": 9161,
+      "sampleGames": 9258,
+      "confidencePct": 0.9895225750702096
     }
   }
 }

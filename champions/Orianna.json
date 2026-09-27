@@ -1,8 +1,22 @@
 {
   "championId": "Orianna",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4005,
+        6621
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Dawncore"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 1281252472.2834883
+    },
     {
       "itemIds": [
         2530,
@@ -15,7 +29,21 @@
       "games": 11,
       "wins": 8,
       "winrate": 0.7272727272727273,
-      "score": 1318943302.6370704
+      "score": 1059130455.1048094
+    },
+    {
+      "itemIds": [
+        2530,
+        6621
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Dawncore"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 1023266998.9962507
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 1123562247.1234744
+      "score": 1008252398.433951
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Moonstone Renewer",
         "Echoes of Helia"
       ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 935485088.6823015
-    },
-    {
-      "itemIds": [
-        2530,
-        6617
-      ],
-      "names": [
-        "Diadem of Songs",
-        "Moonstone Renewer"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 770524710.9583255
-    },
-    {
-      "itemIds": [
-        2530,
-        3190
-      ],
-      "names": [
-        "Diadem of Songs",
-        "Locket of the Iron Solari"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 662250874.8873601
+      "games": 9,
+      "wins": 5,
+      "winrate": 0.5555555555555556,
+      "score": 992663783.3712298
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Orianna-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8219,
+      "totalGames": 9074,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
+          "purchaseSamples": 7
         },
         {
           "itemId": 3171,
@@ -104,10 +104,18 @@
           "purchaseSamples": 5
         },
         {
+          "itemId": 6621,
+          "name": "Dawncore",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
+        },
+        {
           "itemId": 6617,
           "name": "Moonstone Renewer",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 2
         },
@@ -115,17 +123,152 @@
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 4
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4005,
+          6621
+        ],
+        "names": [
+          "Imperial Mandate",
+          "Dawncore"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 1281252472.2834883
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Orianna-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 9074,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
         },
         {
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
         },
         {
           "itemId": 2530,
@@ -148,7 +291,7 @@
         "games": 11,
         "wins": 8,
         "winrate": 0.7272727272727273,
-        "score": 1318943302.6370704
+        "score": 1059130455.1048094
       },
       "runes": {
         "primaryStyle": {
@@ -211,7 +354,16 @@
         "sampleGames": 11,
         "confidencePct": 1
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -219,10 +371,10 @@
       }
     },
     {
-      "id": "Orianna-2",
-      "buildIndex": 1,
+      "id": "Orianna-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8219,
+      "totalGames": 9074,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -231,10 +383,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
+        },
+        {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 5
         },
@@ -242,29 +402,21 @@
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 2530,
+          "name": "Diadem of Songs",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": null,
@@ -283,7 +435,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 1123562247.1234744
+        "score": 1008252398.433951
       },
       "runes": {
         "primaryStyle": {
@@ -354,10 +506,10 @@
       }
     },
     {
-      "id": "Orianna-3",
-      "buildIndex": 2,
+      "id": "Orianna-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 8219,
+      "totalGames": 9074,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -371,7 +523,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 12
+          "purchaseSamples": 16
         },
         {
           "itemId": 6620,
@@ -379,21 +531,13 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1669
+          "purchaseSamples": 7
         },
         {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 5
         },
@@ -401,32 +545,40 @@
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
+          "purchaseSamples": 12
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 4
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 58
         }
       ],
       "seedPair": {
         "itemIds": [
-          2065,
-          3118
+          3118,
+          4005
         ],
         "names": [
-          "Shurelya's Battlesong",
-          "Malignance"
+          "Malignance",
+          "Imperial Mandate"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 403286568.55850995
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 537408309.0474519
       },
       "runes": {
         "primaryStyle": {
@@ -434,13 +586,13 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           },
           {
             "id": 8210,
@@ -452,17 +604,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 8345,
-            "name": "Biscuit Delivery"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "statPerks": [
@@ -475,153 +627,18 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 7,
+        "games": 4,
+        "confidencePct": 0.5714285714285714
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Orianna-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 8219,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4005,
-          6620
-        ],
-        "names": [
-          "Imperial Mandate",
-          "Echoes of Helia"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 216206872.2892608
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -635,7 +652,7 @@
       "id": "Orianna-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 8219,
+      "totalGames": 9074,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -644,67 +661,59 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 6620,
+          "name": "Echoes of Helia",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1669
+          "purchaseSamples": 7
         },
         {
           "itemId": 3171,
           "name": "Crimson Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 5
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 108
+          "purchaseSamples": 12
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
+          "itemId": 2530,
+          "name": "Diadem of Songs",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2486
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 574
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3118,
-          4646
+          6616,
+          6620
         ],
         "names": [
-          "Malignance",
-          "Stormsurge"
+          "Staff of Flowing Water",
+          "Echoes of Helia"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 48523074.93237913
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 304871257.62252486
       },
       "runes": {
         "primaryStyle": {
@@ -712,8 +721,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
+          "id": 8214,
+          "name": "Summon Aery"
         },
         "primaryPerks": [
           {
@@ -725,22 +734,22 @@
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8453,
+            "name": "Revitalize"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -749,34 +758,25 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 3,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -785,14 +785,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 8219,
+    "totalGames": 9074,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4850955104027254,
+    "winrate": 0.4835794577914922,
     "items": [
       {
         "itemId": 2503,
@@ -800,7 +800,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3357
+        "purchaseSamples": 3822
       },
       {
         "itemId": 6655,
@@ -808,7 +808,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 1669
+        "purchaseSamples": 1927
       },
       {
         "itemId": 3175,
@@ -816,7 +816,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 5
+        "purchaseSamples": 6
       },
       {
         "itemId": 3152,
@@ -824,7 +824,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2486
+        "purchaseSamples": 2818
       },
       {
         "itemId": 4645,
@@ -832,7 +832,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1435
+        "purchaseSamples": 1691
       },
       {
         "itemId": 3089,
@@ -840,7 +840,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 679
+        "purchaseSamples": 837
       }
     ],
     "runes": {
@@ -894,15 +894,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 8219,
-      "games": 866,
-      "confidencePct": 0.10536561625501886
+      "sampleGames": 9074,
+      "games": 1011,
+      "confidencePct": 0.11141723605906988
     },
     "position": {
       "role": "MIDDLE",
-      "games": 7917,
-      "sampleGames": 8219,
-      "confidencePct": 0.9632558705438617
+      "games": 8727,
+      "sampleGames": 9074,
+      "confidencePct": 0.9617588715009918
     },
     "skillOrder": {
       "order": [
@@ -910,9 +910,9 @@
         "W",
         "E"
       ],
-      "games": 3534,
-      "sampleGames": 3658,
-      "confidencePct": 0.9661016949152542
+      "games": 4250,
+      "sampleGames": 4409,
+      "confidencePct": 0.9639374007711499
     }
   }
 }

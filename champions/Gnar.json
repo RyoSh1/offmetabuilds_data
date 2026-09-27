@@ -1,35 +1,49 @@
 {
   "championId": "Gnar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-26T22:52:57.936Z",
+  "generatedAt": "2026-09-27T21:38:40.886Z",
   "corePairs": [
     {
       "itemIds": [
-        2510,
-        3124
+        3814,
+        6695
       ],
       "names": [
-        "Dusk and Dawn",
-        "Guinsoo's Rageblade"
+        "Edge of Night",
+        "Serpent's Fang"
       ],
-      "games": 7,
-      "wins": 2,
-      "winrate": 0.2857142857142857,
-      "score": 4954418.620764563
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 16660244.215128422
     },
     {
       "itemIds": [
         2510,
-        3157
+        3146
       ],
       "names": [
         "Dusk and Dawn",
-        "Zhonya's Hourglass"
+        "Hextech Gunblade"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 11766766.093310833
+    },
+    {
+      "itemIds": [
+        2510,
+        3087
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Statikk Shiv"
       ],
       "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 4160911.236991561
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 6983801.007125388
     },
     {
       "itemIds": [
@@ -40,38 +54,24 @@
         "Dusk and Dawn",
         "Terminus"
       ],
-      "games": 12,
-      "wins": 6,
-      "winrate": 0.5,
-      "score": 3520976.4134385
+      "games": 19,
+      "wins": 9,
+      "winrate": 0.47368421052631576,
+      "score": 4771540.68462279
     },
     {
       "itemIds": [
-        3302,
-        3748
+        3146,
+        3302
       ],
       "names": [
-        "Terminus",
-        "Titanic Hydra"
-      ],
-      "games": 14,
-      "wins": 7,
-      "winrate": 0.5,
-      "score": 3418919.275597195
-    },
-    {
-      "itemIds": [
-        2504,
-        3065
-      ],
-      "names": [
-        "Kaenic Rookern",
-        "Spirit Visage"
+        "Hextech Gunblade",
+        "Terminus"
       ],
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 3154352.6764916196
+      "score": 4640248.462519129
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Gnar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7434,
+      "totalGames": 8368,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,12 +88,140 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3639
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 10
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3814,
+          6695
+        ],
+        "names": [
+          "Edge of Night",
+          "Serpent's Fang"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 16660244.215128422
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 3,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Gnar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8368,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3087,
+          "name": "Statikk Shiv",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
+          "purchaseSamples": 4
         },
         {
           "itemId": 3047,
@@ -101,7 +229,142 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
+          "purchaseSamples": 3639
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3146
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Hextech Gunblade"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 11766766.093310833
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 2,
+        "wins": 1,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Gnar-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 8368,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3639
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
         },
         {
           "itemId": 3124,
@@ -117,7 +380,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 60
+          "purchaseSamples": 67
         },
         {
           "itemId": 6665,
@@ -125,7 +388,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 143
+          "purchaseSamples": 160
         },
         {
           "itemId": 3091,
@@ -133,7 +396,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
+          "purchaseSamples": 780
         }
       ],
       "seedPair": {
@@ -145,10 +408,10 @@
           "Dusk and Dawn",
           "Guinsoo's Rageblade"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 2,
-        "winrate": 0.2857142857142857,
-        "score": 4954418.620764563
+        "winrate": 0.25,
+        "score": 4394565.953454195
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +464,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 5,
-        "confidencePct": 0.7142857142857143
+        "confidencePct": 0.625
       },
       "position": {
         "role": "TOP",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 8,
+        "sampleGames": 8,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -219,10 +482,10 @@
       }
     },
     {
-      "id": "Gnar-2",
-      "buildIndex": 1,
+      "id": "Gnar-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7434,
+      "totalGames": 8368,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -231,20 +494,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
+          "purchaseSamples": 3639
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
         },
         {
           "itemId": 6665,
@@ -252,7 +515,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 143
+          "purchaseSamples": 160
         },
         {
           "itemId": 3091,
@@ -260,7 +523,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
+          "purchaseSamples": 780
         },
         {
           "itemId": 3143,
@@ -268,7 +531,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 658
+          "purchaseSamples": 791
         },
         {
           "itemId": 3157,
@@ -276,7 +539,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
@@ -291,7 +554,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 4160911.236991561
+        "score": 3962314.452538631
       },
       "runes": {
         "primaryStyle": {
@@ -360,8 +623,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -371,10 +634,10 @@
       }
     },
     {
-      "id": "Gnar-3",
-      "buildIndex": 2,
+      "id": "Gnar-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7434,
+      "totalGames": 8368,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -383,28 +646,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3639
+        },
+        {
           "itemId": 3748,
           "name": "Titanic Hydra",
           "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 47
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 50
         },
         {
           "itemId": 2510,
           "name": "Dusk and Dawn",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
           "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
         },
         {
           "itemId": 3302,
@@ -412,7 +675,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 60
+          "purchaseSamples": 67
         },
         {
           "itemId": 3091,
@@ -420,7 +683,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
+          "purchaseSamples": 780
         },
         {
           "itemId": 3143,
@@ -428,7 +691,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 658
+          "purchaseSamples": 791
         }
       ],
       "seedPair": {
@@ -443,7 +706,7 @@
         "games": 14,
         "wins": 7,
         "winrate": 0.5,
-        "score": 3418919.275597195
+        "score": 3369474.977281521
       },
       "runes": {
         "primaryStyle": {
@@ -521,312 +784,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Gnar-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 7434,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 47
-        },
-        {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 143
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          3065
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Spirit Visage"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 3154352.6764916196
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Gnar-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 7434,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 47
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3116
-        },
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1397
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 656
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 658
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3748,
-          6662
-        ],
-        "names": [
-          "Titanic Hydra",
-          "Iceborn Gauntlet"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 2316248.9678190053
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 7434,
+    "totalGames": 8368,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4808985741189131,
+    "winrate": 0.47956500956022946,
     "items": [
       {
         "itemId": 3047,
@@ -834,7 +802,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 3116
+        "purchaseSamples": 3639
       },
       {
         "itemId": 3078,
@@ -842,7 +810,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 4265
+        "purchaseSamples": 5053
       },
       {
         "itemId": 3071,
@@ -850,7 +818,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2188
+        "purchaseSamples": 2578
       },
       {
         "itemId": 3053,
@@ -858,7 +826,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1397
+        "purchaseSamples": 1717
       },
       {
         "itemId": 3143,
@@ -866,7 +834,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 658
+        "purchaseSamples": 791
       },
       {
         "itemId": 3091,
@@ -874,7 +842,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 656
+        "purchaseSamples": 780
       }
     ],
     "runes": {
@@ -928,15 +896,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 7434,
-      "games": 1501,
-      "confidencePct": 0.2019101425881087
+      "sampleGames": 8368,
+      "games": 1691,
+      "confidencePct": 0.20207934990439771
     },
     "position": {
       "role": "TOP",
-      "games": 7341,
-      "sampleGames": 7434,
-      "confidencePct": 0.9874899112187248
+      "games": 8261,
+      "sampleGames": 8368,
+      "confidencePct": 0.9872131931166348
     },
     "skillOrder": {
       "order": [
@@ -944,9 +912,9 @@
         "W",
         "E"
       ],
-      "games": 3007,
-      "sampleGames": 3037,
-      "confidencePct": 0.9901218307540336
+      "games": 3736,
+      "sampleGames": 3773,
+      "confidencePct": 0.9901934799893983
     }
   }
 }
