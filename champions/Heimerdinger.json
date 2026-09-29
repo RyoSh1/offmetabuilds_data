@@ -1,7 +1,7 @@
 {
   "championId": "Heimerdinger",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-28T22:05:44.739Z",
+  "generatedAt": "2026-09-29T21:26:06.862Z",
   "corePairs": [
     {
       "itemIds": [
@@ -88,28 +88,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 955
-        },
-        {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2282
+          "purchaseSamples": 3120
         },
         {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 188
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 150
+          "purchaseSamples": 1162
         },
         {
           "itemId": 4645,
@@ -117,15 +117,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 674
+          "purchaseSamples": 1083
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 14
         },
         {
           "itemId": 4628,
@@ -133,7 +133,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 22
         }
       ],
       "seedPair": {
@@ -245,7 +245,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2282
+          "purchaseSamples": 3120
         },
         {
           "itemId": 4646,
@@ -253,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 131
+          "purchaseSamples": 189
         },
         {
           "itemId": 4645,
@@ -261,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 674
+          "purchaseSamples": 1083
         },
         {
           "itemId": 3041,
@@ -269,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 153
+          "purchaseSamples": 218
         },
         {
           "itemId": 3102,
@@ -277,15 +277,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 163
+          "purchaseSamples": 213
         },
         {
           "itemId": 2522,
           "name": "Actualizer",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 21
         }
       ],
       "seedPair": {
@@ -363,7 +363,16 @@
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -388,7 +397,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2282
+          "purchaseSamples": 3120
         },
         {
           "itemId": 4646,
@@ -396,39 +405,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 131
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 79
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 153
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 163
+          "purchaseSamples": 189
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 102
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 218
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 79
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 213
         }
       ],
       "seedPair": {
@@ -512,9 +521,9 @@
           "W",
           "E"
         ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -540,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 326
+          "purchaseSamples": 383
         },
         {
           "itemId": 3020,
@@ -548,7 +557,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2282
+          "purchaseSamples": 3120
         },
         {
           "itemId": 3118,
@@ -556,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
+          "purchaseSamples": 36
         },
         {
           "itemId": 3102,
@@ -564,23 +573,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 163
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 153
+          "purchaseSamples": 213
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 79
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 218
         }
       ],
       "seedPair": {
@@ -692,7 +701,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 326
+          "purchaseSamples": 383
         },
         {
           "itemId": 3020,
@@ -700,7 +709,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2282
+          "purchaseSamples": 3120
         },
         {
           "itemId": 2525,
@@ -716,7 +725,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1382
+          "purchaseSamples": 2056
         },
         {
           "itemId": 3116,
@@ -724,15 +733,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 669
+          "purchaseSamples": 846
         },
         {
           "itemId": 3143,
           "name": "Randuin's Omen",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 15
         }
       ],
       "seedPair": {
@@ -843,47 +852,47 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 2412
-      },
-      {
-        "itemId": 6653,
-        "name": "Liandry's Torment",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 955
+        "purchaseSamples": 3213
       },
       {
         "itemId": 3020,
         "name": "Sorcerer's Shoes",
         "isBoots": true,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2282
+        "purchaseSamples": 3120
       },
       {
         "itemId": 3089,
         "name": "Rabadon's Deathcap",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1382
+        "purchaseSamples": 2056
       },
       {
         "itemId": 3157,
         "name": "Zhonya's Hourglass",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 963
+        "purchaseSamples": 1336
       },
       {
         "itemId": 4645,
         "name": "Shadowflame",
         "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 1083
+      },
+      {
+        "itemId": 6653,
+        "name": "Liandry's Torment",
+        "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 674
+        "purchaseSamples": 1162
       }
     ],
     "runes": {
@@ -953,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 1926,
-      "sampleGames": 2461,
-      "confidencePct": 0.782608695652174
+      "games": 2540,
+      "sampleGames": 3292,
+      "confidencePct": 0.7715674362089915
     }
   }
 }
