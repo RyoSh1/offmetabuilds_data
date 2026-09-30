@@ -1,7 +1,7 @@
 {
   "championId": "Illaoi",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-29T21:26:06.862Z",
+  "generatedAt": "2026-09-30T19:54:06.883Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 8339717.054178703
+      "score": 8398058.196798457
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 4210175.03639341
+      "score": 4240956.191539145
+    },
+    {
+      "itemIds": [
+        3050,
+        6695
+      ],
+      "names": [
+        "Zeke's Convergence",
+        "Serpent's Fang"
+      ],
+      "games": 9,
+      "wins": 7,
+      "winrate": 0.7777777777777778,
+      "score": 2859039.608470066
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 2373706.285578768
+      "score": 2392429.6726750494
     },
     {
       "itemIds": [
-        3026,
+        3050,
         6694
       ],
       "names": [
-        "Guardian Angel",
+        "Zeke's Convergence",
         "Serylda's Grudge"
       ],
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 1630390.726866523
-    },
-    {
-      "itemIds": [
-        6609,
-        6694
-      ],
-      "names": [
-        "Chempunk Chainsword",
-        "Serylda's Grudge"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 1371221.2135836652
+      "score": 1603264.7682928613
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Illaoi-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3639,
+      "totalGames": 3660,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,15 +93,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4
+          "purchaseSamples": 8
         },
         {
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 26
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 34
         },
         {
           "itemId": 3047,
@@ -109,7 +109,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2165
+          "purchaseSamples": 2512
         },
         {
           "itemId": 3036,
@@ -117,7 +117,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
+          "purchaseSamples": 48
         }
       ],
       "seedPair": {
@@ -132,7 +132,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 8339717.054178703
+        "score": 8398058.196798457
       },
       "runes": {
         "primaryStyle": {
@@ -201,8 +201,8 @@
           "Q",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -215,7 +215,159 @@
       "id": "Illaoi-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3639,
+      "totalGames": 3660,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 64
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 58
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2512
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 245
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 305
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3050,
+          6695
+        ],
+        "names": [
+          "Zeke's Convergence",
+          "Serpent's Fang"
+        ],
+        "games": 9,
+        "wins": 7,
+        "winrate": 0.7777777777777778,
+        "score": 2859039.608470066
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 4,
+        "confidencePct": 0.4444444444444444
+      },
+      "position": {
+        "role": "TOP",
+        "games": 8,
+        "sampleGames": 9,
+        "confidencePct": 0.8888888888888888
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Illaoi-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 3660,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -237,7 +389,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2165
+          "purchaseSamples": 2512
         },
         {
           "itemId": 3181,
@@ -245,7 +397,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 229
+          "purchaseSamples": 245
         },
         {
           "itemId": 6609,
@@ -253,7 +405,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 70
+          "purchaseSamples": 73
         },
         {
           "itemId": 2504,
@@ -261,7 +413,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 286
+          "purchaseSamples": 305
         },
         {
           "itemId": 3026,
@@ -269,7 +421,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 82
+          "purchaseSamples": 85
         }
       ],
       "seedPair": {
@@ -284,7 +436,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 1630390.726866523
+        "score": 1553320.1551355585
       },
       "runes": {
         "primaryStyle": {
@@ -364,10 +516,10 @@
       }
     },
     {
-      "id": "Illaoi-3",
-      "buildIndex": 2,
+      "id": "Illaoi-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3639,
+      "totalGames": 3660,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -381,7 +533,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 346
+          "purchaseSamples": 439
         },
         {
           "itemId": 3156,
@@ -389,7 +541,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 336
+          "purchaseSamples": 362
         },
         {
           "itemId": 3047,
@@ -397,31 +549,31 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2165
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 91
+          "purchaseSamples": 2512
         },
         {
           "itemId": 3146,
           "name": "Hextech Gunblade",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 31
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
+          "purchaseSamples": 48
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 104
         }
       ],
       "seedPair": {
@@ -436,7 +588,7 @@
         "games": 6,
         "wins": 3,
         "winrate": 0.5,
-        "score": 1222605.1425027656
+        "score": 1233927.6348660302
       },
       "runes": {
         "primaryStyle": {
@@ -505,8 +657,8 @@
           "Q",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -516,10 +668,10 @@
       }
     },
     {
-      "id": "Illaoi-4",
-      "buildIndex": 3,
+      "id": "Illaoi-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3639,
+      "totalGames": 3660,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -533,7 +685,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 270
+          "purchaseSamples": 306
         },
         {
           "itemId": 3156,
@@ -541,7 +693,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 336
+          "purchaseSamples": 362
         },
         {
           "itemId": 3047,
@@ -549,15 +701,15 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2165
+          "purchaseSamples": 2512
         },
         {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 91
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 104
         },
         {
           "itemId": 6609,
@@ -565,7 +717,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 70
+          "purchaseSamples": 73
         },
         {
           "itemId": 3026,
@@ -573,7 +725,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 82
+          "purchaseSamples": 85
         }
       ],
       "seedPair": {
@@ -588,7 +740,7 @@
         "games": 9,
         "wins": 5,
         "winrate": 0.5555555555555556,
-        "score": 1181853.6446639714
+        "score": 1193616.6761620156
       },
       "runes": {
         "primaryStyle": {
@@ -666,169 +818,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Illaoi-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3639,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 346
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 336
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2165
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 2501,
-          "name": "Overlord's Bloodmail",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2501,
-          3036
-        ],
-        "names": [
-          "Overlord's Bloodmail",
-          "Lord Dominik's Regards"
-        ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 1027345.5539947754
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 5,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "TOP",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 3639,
+    "totalGames": 3660,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48942017037647706,
+    "winrate": 0.4901639344262295,
     "items": [
       {
         "itemId": 3071,
@@ -836,7 +836,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 3227
+        "purchaseSamples": 3673
       },
       {
         "itemId": 6662,
@@ -844,7 +844,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 1909
+        "purchaseSamples": 2180
       },
       {
         "itemId": 3111,
@@ -852,7 +852,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 1569
+        "purchaseSamples": 1771
       },
       {
         "itemId": 3053,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2282
+        "purchaseSamples": 2639
       },
       {
         "itemId": 6333,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 975
+        "purchaseSamples": 1143
       },
       {
         "itemId": 3065,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 698
+        "purchaseSamples": 835
       }
     ],
     "runes": {
@@ -930,15 +930,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 3639,
+      "sampleGames": 3660,
       "games": 1063,
-      "confidencePct": 0.29211321791701017
+      "confidencePct": 0.29043715846994533
     },
     "position": {
       "role": "TOP",
-      "games": 3408,
-      "sampleGames": 3639,
-      "confidencePct": 0.9365210222588624
+      "games": 3428,
+      "sampleGames": 3660,
+      "confidencePct": 0.9366120218579235
     },
     "skillOrder": {
       "order": [
@@ -946,9 +946,9 @@
         "Q",
         "W"
       ],
-      "games": 1985,
-      "sampleGames": 3287,
-      "confidencePct": 0.6038941283845451
+      "games": 2157,
+      "sampleGames": 3558,
+      "confidencePct": 0.606239460370995
     }
   }
 }
