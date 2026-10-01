@@ -1,8 +1,22 @@
 {
   "championId": "Seraphine",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4645,
+        4646
+      ],
+      "names": [
+        "Shadowflame",
+        "Stormsurge"
+      ],
+      "games": 10,
+      "wins": 8,
+      "winrate": 0.8,
+      "score": 517555126.7295891
+    },
     {
       "itemIds": [
         3119,
@@ -12,10 +26,24 @@
         "Winter's Approach",
         "Luden's Echo"
       ],
-      "games": 6,
+      "games": 7,
       "wins": 3,
-      "winrate": 0.5,
-      "score": 203912983.52937186
+      "winrate": 0.42857142857142855,
+      "score": 207601065.78942686
+    },
+    {
+      "itemIds": [
+        3089,
+        4646
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Stormsurge"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 179131351.95859995
     },
     {
       "itemIds": [
@@ -26,10 +54,10 @@
         "Lich Bane",
         "Shadowflame"
       ],
-      "games": 35,
-      "wins": 22,
-      "winrate": 0.6285714285714286,
-      "score": 127297047.59565821
+      "games": 48,
+      "wins": 30,
+      "winrate": 0.625,
+      "score": 156493356.85040134
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Malignance",
         "Void Staff"
       ],
-      "games": 13,
-      "wins": 7,
-      "winrate": 0.5384615384615384,
-      "score": 114415802.67616846
-    },
-    {
-      "itemIds": [
-        3042,
-        3100
-      ],
-      "names": [
-        "Muramana",
-        "Lich Bane"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 104272037.90086836
-    },
-    {
-      "itemIds": [
-        4645,
-        4646
-      ],
-      "names": [
-        "Shadowflame",
-        "Stormsurge"
-      ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 81918525.82638343
+      "games": 15,
+      "wins": 8,
+      "winrate": 0.5333333333333333,
+      "score": 148251274.60125527
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Seraphine-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13099,
+      "totalGames": 17506,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17449
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 280
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 24
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 121
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 335
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 352
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4645,
+          4646
+        ],
+        "names": [
+          "Shadowflame",
+          "Stormsurge"
+        ],
+        "games": 10,
+        "wins": 8,
+        "winrate": 0.8,
+        "score": 517555126.7295891
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 2,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 6,
+        "sampleGames": 10,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Seraphine-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 17506,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +297,10 @@
           "Winter's Approach",
           "Luden's Echo"
         ],
-        "games": 6,
+        "games": 7,
         "wins": 3,
-        "winrate": 0.5,
-        "score": 203912983.52937186
+        "winrate": 0.42857142857142855,
+        "score": 207601065.78942686
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 6,
+        "sampleGames": 7,
+        "games": 7,
         "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
@@ -220,158 +372,6 @@
         "games": 6,
         "sampleGames": 6,
         "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Seraphine-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 13099,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 397
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 17449
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 121
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 280
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 335
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 352
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3100,
-          4645
-        ],
-        "names": [
-          "Lich Bane",
-          "Shadowflame"
-        ],
-        "games": 35,
-        "wins": 22,
-        "winrate": 0.6285714285714286,
-        "score": 127297047.59565821
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 35,
-        "games": 15,
-        "confidencePct": 0.42857142857142855
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 31,
-        "sampleGames": 35,
-        "confidencePct": 0.8857142857142857
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 33,
-        "sampleGames": 35,
-        "confidencePct": 0.9428571428571428
       },
       "asWholeSet": {
         "games": 0,
@@ -383,7 +383,7 @@
       "id": "Seraphine-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 13099,
+      "totalGames": 17506,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -449,10 +449,10 @@
           "Malignance",
           "Void Staff"
         ],
-        "games": 13,
-        "wins": 7,
-        "winrate": 0.5384615384615384,
-        "score": 114415802.67616846
+        "games": 15,
+        "wins": 8,
+        "winrate": 0.5333333333333333,
+        "score": 148251274.60125527
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 13,
-        "games": 11,
-        "confidencePct": 0.8461538461538461
+        "sampleGames": 15,
+        "games": 13,
+        "confidencePct": 0.8666666666666667
       },
       "position": {
         "role": "BOTTOM",
-        "games": 12,
-        "sampleGames": 13,
-        "confidencePct": 0.9230769230769231
+        "games": 14,
+        "sampleGames": 15,
+        "confidencePct": 0.9333333333333333
       },
       "skillOrder": {
         "order": [
@@ -535,7 +535,7 @@
       "id": "Seraphine-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 13099,
+      "totalGames": 17506,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -568,20 +568,20 @@
           "purchaseSamples": 121
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 352
-        },
-        {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 93
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 352
         },
         {
           "itemId": 3042,
@@ -601,10 +601,10 @@
           "Muramana",
           "Lich Bane"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 104272037.90086836
+        "games": 10,
+        "wins": 7,
+        "winrate": 0.7,
+        "score": 133805098.54135643
       },
       "runes": {
         "primaryStyle": {
@@ -612,8 +612,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
@@ -630,23 +630,23 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8017,
+            "name": "Cut Down"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8009,
+            "name": "Presence of Mind"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -657,14 +657,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
+        "sampleGames": 10,
+        "games": 4,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "BOTTOM",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -687,7 +687,7 @@
       "id": "Seraphine-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 13099,
+      "totalGames": 17506,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,10 +696,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 27
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 17449
         },
@@ -707,7 +715,7 @@
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 309
         },
@@ -715,7 +723,7 @@
           "itemId": 6616,
           "name": "Staff of Flowing Water",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 539
         },
@@ -723,40 +731,32 @@
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 93
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 402
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 252
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          4629,
-          6616
+          6616,
+          6657
         ],
         "names": [
-          "Cosmic Drive",
-          "Staff of Flowing Water"
+          "Staff of Flowing Water",
+          "Rod of Ages"
         ],
-        "games": 5,
+        "games": 4,
         "wins": 3,
-        "winrate": 0.6,
-        "score": 58952159.79398725
+        "winrate": 0.75,
+        "score": 101435068.31610158
       },
       "runes": {
         "primaryStyle": {
@@ -809,15 +809,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 4,
-        "confidencePct": 0.8
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -825,9 +825,9 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 13099,
+    "totalGames": 17506,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4882052065043133,
+    "winrate": 0.48783274305952246,
     "items": [
       {
         "itemId": 6620,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 13099,
-      "games": 3223,
-      "confidencePct": 0.24604931674173602
+      "sampleGames": 17506,
+      "games": 4370,
+      "confidencePct": 0.24962869873186336
     },
     "position": {
       "role": "UTILITY",
-      "games": 9758,
-      "sampleGames": 13099,
-      "confidencePct": 0.7449423620123674
+      "games": 13182,
+      "sampleGames": 17506,
+      "confidencePct": 0.7529989717811036
     },
     "skillOrder": {
       "order": [

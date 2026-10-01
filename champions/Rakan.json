@@ -1,21 +1,21 @@
 {
   "championId": "Rakan",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
-        3118,
-        4645
+        4645,
+        6655
       ],
       "names": [
-        "Malignance",
-        "Shadowflame"
+        "Shadowflame",
+        "Luden's Echo"
       ],
-      "games": 4,
-      "wins": 4,
+      "games": 3,
+      "wins": 3,
       "winrate": 1,
-      "score": 1738457389.139211
+      "score": 2659252322.924487
     },
     {
       "itemIds": [
@@ -26,10 +26,24 @@
         "Shadowflame",
         "Stormsurge"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 1569044570.5664396
+      "winrate": 0.625,
+      "score": 1663159570.8660445
+    },
+    {
+      "itemIds": [
+        3118,
+        4645
+      ],
+      "names": [
+        "Malignance",
+        "Shadowflame"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 1562190510.0996087
     },
     {
       "itemIds": [
@@ -40,38 +54,24 @@
         "Malignance",
         "Zhonya's Hourglass"
       ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 1055273523.5390487
+    },
+    {
+      "itemIds": [
+        3118,
+        4629
+      ],
+      "names": [
+        "Malignance",
+        "Cosmic Drive"
+      ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 752074043.6454612
-    },
-    {
-      "itemIds": [
-        3152,
-        3157
-      ],
-      "names": [
-        "Hextech Rocketbelt",
-        "Zhonya's Hourglass"
-      ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 383600972.083464
-    },
-    {
-      "itemIds": [
-        3504,
-        6617
-      ],
-      "names": [
-        "Ardent Censer",
-        "Moonstone Renewer"
-      ],
-      "games": 19,
-      "wins": 15,
-      "winrate": 0.7894736842105263,
-      "score": 19514038.277172983
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 903723252.083822
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Rakan-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10906,
+      "totalGames": 15012,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3118,
-          4645
+          4645,
+          6655
         ],
         "names": [
-          "Malignance",
-          "Shadowflame"
+          "Shadowflame",
+          "Luden's Echo"
         ],
-        "games": 4,
-        "wins": 4,
+        "games": 3,
+        "wins": 3,
         "winrate": 1,
-        "score": 1738457389.139211
+        "score": 2659252322.924487
       },
       "runes": {
         "primaryStyle": {
@@ -174,17 +174,17 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8226,
+            "name": "Manaflow Band"
           }
         ],
         "statPerks": [
@@ -201,14 +201,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 3,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -217,8 +217,8 @@
           "Q",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -231,7 +231,159 @@
       "id": "Rakan-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 10906,
+      "totalGames": 15012,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 9688
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 85
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 454
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 134
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 20
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          3157
+        ],
+        "names": [
+          "Malignance",
+          "Zhonya's Hourglass"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 1055273523.5390487
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8128,
+          "name": "Dark Harvest"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Rakan-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 15012,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -264,115 +416,98 @@
           "purchaseSamples": 454
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 134
+          "purchaseSamples": 1509
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 20
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
           3118,
-          3157
+          4629
         ],
         "names": [
           "Malignance",
-          "Zhonya's Hourglass"
+          "Cosmic Drive"
         ],
         "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 752074043.6454612
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 903723252.083822
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
+          "id": 8369,
+          "name": "First Strike"
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8345,
+            "name": "Biscuit Delivery"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8401,
-            "name": "Shield Bash"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8210,
+            "name": "Transcendence"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
-        "role": "MIDDLE",
+        "role": "TOP",
         "games": 2,
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -380,10 +515,10 @@
       }
     },
     {
-      "id": "Rakan-3",
-      "buildIndex": 2,
+      "id": "Rakan-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10906,
+      "totalGames": 15012,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,10 +535,18 @@
           "purchaseSamples": 125
         },
         {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 51
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 9688
         },
@@ -411,7 +554,7 @@
           "itemId": 6617,
           "name": "Moonstone Renewer",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 67
         },
@@ -419,17 +562,9 @@
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 605
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1509
+          "purchaseSamples": 605
         },
         {
           "itemId": 3041,
@@ -449,10 +584,162 @@
           "Ardent Censer",
           "Moonstone Renewer"
         ],
-        "games": 19,
-        "wins": 15,
-        "winrate": 0.7894736842105263,
-        "score": 19514038.277172983
+        "games": 28,
+        "wins": 21,
+        "winrate": 0.75,
+        "score": 26560741.375171598
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 28,
+        "games": 22,
+        "confidencePct": 0.7857142857142857
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 28,
+        "sampleGames": 28,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 15,
+        "sampleGames": 19,
+        "confidencePct": 0.7894736842105263
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Rakan-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 15012,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 51
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 9688
+        },
+        {
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 50
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 107
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 509
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6616,
+          6617
+        ],
+        "names": [
+          "Staff of Flowing Water",
+          "Moonstone Renewer"
+        ],
+        "games": 9,
+        "wins": 6,
+        "winrate": 0.6666666666666666,
+        "score": 14958846.763761785
       },
       "runes": {
         "primaryStyle": {
@@ -505,166 +792,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 19,
-        "games": 15,
-        "confidencePct": 0.7894736842105263
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 19,
-        "sampleGames": 19,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 15,
-        "sampleGames": 19,
-        "confidencePct": 0.7894736842105263
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Rakan-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 10906,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 9688
-        },
-        {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 50
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 67
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 605
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 509
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6617,
-          6620
-        ],
-        "names": [
-          "Moonstone Renewer",
-          "Echoes of Helia"
-        ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 14502074.977509463
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8465,
-          "name": "Guardian"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 2,
+        "sampleGames": 9,
+        "games": 3,
         "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -673,161 +808,9 @@
           "E",
           "Q"
         ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Rakan-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 10906,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 9688
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 454
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 605
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 134
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 107
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          4005
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Imperial Mandate"
-        ],
-        "games": 12,
-        "wins": 10,
-        "winrate": 0.8333333333333334,
-        "score": 2454630.911871709
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 12,
-        "games": 6,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 12,
-        "sampleGames": 12,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 8,
-        "sampleGames": 11,
-        "confidencePct": 0.7272727272727273
+        "games": 3,
+        "sampleGames": 7,
+        "confidencePct": 0.42857142857142855
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +820,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 10906,
+    "totalGames": 15012,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5078855675774803,
+    "winrate": 0.5110578204103384,
     "items": [
       {
         "itemId": 3158,
@@ -946,15 +929,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 10906,
-      "games": 1886,
-      "confidencePct": 0.17293233082706766
+      "sampleGames": 15012,
+      "games": 2585,
+      "confidencePct": 0.17219557687183587
     },
     "position": {
       "role": "UTILITY",
-      "games": 10856,
-      "sampleGames": 10906,
-      "confidencePct": 0.9954153676875115
+      "games": 14945,
+      "sampleGames": 15012,
+      "confidencePct": 0.9955369038102851
     },
     "skillOrder": {
       "order": [

@@ -1,7 +1,7 @@
 {
   "championId": "Sivir",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 120761530.69947736
+      "score": 112946398.66958013
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 69016961.70977056
+      "score": 63788954.31668024
     },
     {
       "itemIds": [
@@ -40,10 +40,10 @@
         "Gunmetal Greaves",
         "The Collector"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 1,
-      "winrate": 0.25,
-      "score": 35669515.88973471
+      "winrate": 0.2,
+      "score": 32624898.766912848
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 26654270.362468734
+      "score": 24552954.338434316
     },
     {
       "itemIds": [
-        3153,
-        3302
+        2523,
+        3172
       ],
       "names": [
-        "Blade of The Ruined King",
-        "Terminus"
+        "Hexoptics C44",
+        "Gunmetal Greaves"
       ],
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 8437367.005574085
+      "score": 22397885.39688407
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sivir-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7429,
+      "totalGames": 10218,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,18 +96,10 @@
           "purchaseSamples": 164
         },
         {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2958
-        },
-        {
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 32
         },
@@ -115,7 +107,7 @@
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 6962
         },
@@ -123,9 +115,17 @@
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 2439
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 937
         },
         {
           "itemId": 3172,
@@ -148,7 +148,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 120761530.69947736
+        "score": 112946398.66958013
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,159 @@
       "id": "Sivir-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 7429,
+      "totalGames": 10218,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 164
+        },
+        {
+          "itemId": 2523,
+          "name": "Hexoptics C44",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 330
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6962
+        },
+        {
+          "itemId": 3046,
+          "name": "Phantom Dancer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 224
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 937
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3046,
+          3172
+        ],
+        "names": [
+          "Phantom Dancer",
+          "Gunmetal Greaves"
+        ],
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25,
+        "score": 24552954.338434316
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Sivir-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 10218,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -284,7 +436,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 8437367.005574085
+        "score": 9848748.944738738
       },
       "runes": {
         "primaryStyle": {
@@ -364,10 +516,10 @@
       }
     },
     {
-      "id": "Sivir-3",
-      "buildIndex": 2,
+      "id": "Sivir-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7429,
+      "totalGames": 10218,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,12 +544,12 @@
           "purchaseSamples": 56
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2439
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3041
         },
         {
           "itemId": 2517,
@@ -436,7 +588,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 7013462.871357278
+        "score": 7836015.161593226
       },
       "runes": {
         "primaryStyle": {
@@ -516,10 +668,10 @@
       }
     },
     {
-      "id": "Sivir-4",
-      "buildIndex": 3,
+      "id": "Sivir-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7429,
+      "totalGames": 10218,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -568,12 +720,12 @@
           "purchaseSamples": 224
         },
         {
-          "itemId": 3072,
-          "name": "Bloodthirster",
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 937
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 137
         }
       ],
       "seedPair": {
@@ -585,10 +737,10 @@
           "Hexoptics C44",
           "Kraken Slayer"
         ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 4428083.550616947
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 5031817.600172206
       },
       "runes": {
         "primaryStyle": {
@@ -641,15 +793,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 6,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "skillOrder": {
         "order": [
@@ -660,158 +812,6 @@
         "games": 3,
         "sampleGames": 4,
         "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Sivir-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 7429,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6962
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 56
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2439
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 23
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 937
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 937
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          2512
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Fiendhunter Bolts"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 2452727.764895603
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -821,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 7429,
+    "totalGames": 10218,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5007403419033517,
+    "winrate": 0.497259737717753,
     "items": [
       {
         "itemId": 3032,
@@ -847,18 +847,10 @@
         "purchaseSamples": 2958
       },
       {
-        "itemId": 3006,
-        "name": "Berserker's Greaves",
-        "isBoots": true,
-        "order": 3,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 6962
-      },
-      {
         "itemId": 6675,
         "name": "Navori Flickerblade",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 8085
       },
@@ -866,7 +858,7 @@
         "itemId": 3031,
         "name": "Infinity Edge",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 4,
         "purchaseSamples": 7753
       },
@@ -874,9 +866,17 @@
         "itemId": 3036,
         "name": "Lord Dominik's Regards",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 5,
         "purchaseSamples": 3041
+      },
+      {
+        "itemId": 3168,
+        "name": "Immortal Path",
+        "isBoots": true,
+        "order": 6,
+        "medianPurchaseOrder": null,
+        "purchaseSamples": 0
       }
     ],
     "runes": {
@@ -930,15 +930,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 7429,
-      "games": 3113,
-      "confidencePct": 0.419033517297079
+      "sampleGames": 10218,
+      "games": 4239,
+      "confidencePct": 0.414856136230182
     },
     "position": {
       "role": "BOTTOM",
-      "games": 7341,
-      "sampleGames": 7429,
-      "confidencePct": 0.9881545295463723
+      "games": 10093,
+      "sampleGames": 10218,
+      "confidencePct": 0.9877666862399687
     },
     "skillOrder": {
       "order": [

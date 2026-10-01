@@ -1,8 +1,36 @@
 {
   "championId": "Gnar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2524,
+        6631
+      ],
+      "names": [
+        "Bandlepipes",
+        "Stridebreaker"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 259498836.57664058
+    },
+    {
+      "itemIds": [
+        2510,
+        3146
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Hextech Gunblade"
+      ],
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 21015849.130567048
+    },
     {
       "itemIds": [
         3814,
@@ -15,21 +43,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 16922977.844212092
+      "score": 20147284.483013574
     },
     {
       "itemIds": [
-        2510,
-        3146
+        3033,
+        6695
       ],
       "names": [
-        "Dusk and Dawn",
-        "Hextech Gunblade"
+        "Mortal Reminder",
+        "Serpent's Fang"
       ],
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 11954459.9699462
+      "score": 10753485.925280834
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Dusk and Dawn",
         "Statikk Shiv"
       ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 7102354.3709291695
-    },
-    {
-      "itemIds": [
-        2510,
-        3302
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Terminus"
-      ],
-      "games": 19,
-      "wins": 9,
-      "winrate": 0.47368421052631576,
-      "score": 4877780.299388265
-    },
-    {
-      "itemIds": [
-        3146,
-        3302
-      ],
-      "names": [
-        "Hextech Gunblade",
-        "Terminus"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 4727992.91828982
+      "games": 7,
+      "wins": 3,
+      "winrate": 0.42857142857142855,
+      "score": 9908622.764063789
     }
   ],
   "builds": [
@@ -79,7 +79,311 @@
       "id": "Gnar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8488,
+      "totalGames": 11785,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7688
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 72
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 242
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 303
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 373
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2524,
+          6631
+        ],
+        "names": [
+          "Bandlepipes",
+          "Stridebreaker"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 259498836.57664058
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gnar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11785,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7688
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 219
+        },
+        {
+          "itemId": 3124,
+          "name": "Guinsoo's Rageblade",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 373
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 3
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3146
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Hextech Gunblade"
+        ],
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 21015849.130567048
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9101,
+            "name": "Absorb Life"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
+      },
+      "position": {
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gnar-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 11785,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -110,6 +414,14 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 25
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 112
         }
       ],
       "seedPair": {
@@ -124,7 +436,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 16922977.844212092
+        "score": 20147284.483013574
       },
       "runes": {
         "primaryStyle": {
@@ -198,16 +510,168 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 3,
-        "wins": 3,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
-      "id": "Gnar-2",
-      "buildIndex": 1,
+      "id": "Gnar-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 8488,
+      "totalGames": 11785,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7688
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 242
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 87
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1881
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3033,
+          6695
+        ],
+        "names": [
+          "Mortal Reminder",
+          "Serpent's Fang"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 10753485.925280834
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9101,
+            "name": "Absorb Life"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gnar-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 11785,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,302 +712,6 @@
           "purchaseSamples": 219
         },
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 3
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          3146
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Hextech Gunblade"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 11954459.9699462
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
-      }
-    },
-    {
-      "id": "Gnar-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 8488,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7688
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 219
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1881
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 373
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          3124
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Guinsoo's Rageblade"
-        ],
-        "games": 8,
-        "wins": 2,
-        "winrate": 0.25,
-        "score": 4473769.007382536
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 5,
-        "confidencePct": 0.625
-      },
-      "position": {
-        "role": "TOP",
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Gnar-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 8488,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7688
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1881
-        },
-        {
           "itemId": 3143,
           "name": "Randuin's Omen",
           "isBoots": false,
@@ -552,27 +720,27 @@
           "purchaseSamples": 1936
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 373
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 3
         }
       ],
       "seedPair": {
         "itemIds": [
           2510,
-          3157
+          3087
         ],
         "names": [
           "Dusk and Dawn",
-          "Zhonya's Hourglass"
+          "Statikk Shiv"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 3769550.5288641364
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 9908622.764063789
       },
       "runes": {
         "primaryStyle": {
@@ -603,12 +771,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
             "id": 8451,
             "name": "Overgrowth"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -625,166 +793,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Gnar-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 8488,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7688
-        },
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 64
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 219
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1881
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1936
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3302,
-          3748
-        ],
-        "names": [
-          "Terminus",
-          "Titanic Hydra"
-        ],
-        "games": 14,
-        "wins": 7,
-        "winrate": 0.5,
-        "score": 3445417.93480672
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 14,
+        "sampleGames": 7,
         "games": 3,
-        "confidencePct": 0.21428571428571427
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "TOP",
-        "games": 14,
-        "sampleGames": 14,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -793,9 +809,9 @@
           "W",
           "E"
         ],
-        "games": 13,
-        "sampleGames": 13,
-        "confidencePct": 1
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -805,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 8488,
+    "totalGames": 11785,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4799717247879359,
+    "winrate": 0.4822231650403055,
     "items": [
       {
         "itemId": 3047,
@@ -914,15 +930,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 8488,
-      "games": 1695,
-      "confidencePct": 0.19969368520263903
+      "sampleGames": 11785,
+      "games": 2442,
+      "confidencePct": 0.2072125583368689
     },
     "position": {
       "role": "TOP",
-      "games": 8381,
-      "sampleGames": 8488,
-      "confidencePct": 0.9873939679547596
+      "games": 11634,
+      "sampleGames": 11785,
+      "confidencePct": 0.9871871022486212
     },
     "skillOrder": {
       "order": [

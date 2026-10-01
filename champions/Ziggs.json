@@ -1,8 +1,22 @@
 {
   "championId": "Ziggs",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3116,
+        3118
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Malignance"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 43682167.505712666
+    },
     {
       "itemIds": [
         3100,
@@ -15,7 +29,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 24047032.004650876
+      "score": 26570412.65908528
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Banshee's Veil",
         "Stormsurge"
       ],
-      "games": 9,
-      "wins": 5,
-      "winrate": 0.5555555555555556,
-      "score": 2672528.7549130716
+      "games": 12,
+      "wins": 7,
+      "winrate": 0.5833333333333334,
+      "score": 3708878.817542468
     },
     {
       "itemIds": [
-        3137,
-        4646
+        3040,
+        3116
       ],
       "names": [
-        "Cryptbloom",
-        "Stormsurge"
+        "Seraph's Embrace",
+        "Rylai's Crystal Scepter"
       ],
-      "games": 8,
-      "wins": 4,
+      "games": 4,
+      "wins": 2,
       "winrate": 0.5,
-      "score": 1573095.5960082689
+      "score": 2319625.866251184
     },
     {
       "itemIds": [
-        3041,
-        3152
+        3116,
+        3135
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Hextech Rocketbelt"
+        "Rylai's Crystal Scepter",
+        "Void Staff"
       ],
-      "games": 5,
-      "wins": 5,
-      "winrate": 1,
-      "score": 712607.4605649608
-    },
-    {
-      "itemIds": [
-        4628,
-        4646
-      ],
-      "names": [
-        "Horizon Focus",
-        "Stormsurge"
-      ],
-      "games": 21,
-      "wins": 9,
-      "winrate": 0.42857142857142855,
-      "score": 683179.6188791646
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 1861665.822977402
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Ziggs-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4652,
+      "totalGames": 6258,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1632
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1099
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3116,
+          3118
+        ],
+        "names": [
+          "Rylai's Crystal Scepter",
+          "Malignance"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 43682167.505712666
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ziggs-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6258,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,20 +272,20 @@
           "purchaseSamples": 1099
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 148
-        },
-        {
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 222
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -148,7 +300,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 24047032.004650876
+        "score": 26570412.65908528
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Ziggs-2",
-      "buildIndex": 1,
+      "id": "Ziggs-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 4652,
+      "totalGames": 6258,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -297,10 +449,10 @@
           "Banshee's Veil",
           "Stormsurge"
         ],
-        "games": 9,
-        "wins": 5,
-        "winrate": 0.5555555555555556,
-        "score": 2672528.7549130716
+        "games": 12,
+        "wins": 7,
+        "winrate": 0.5833333333333334,
+        "score": 3708878.817542468
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 9,
+        "sampleGames": 12,
         "games": 4,
-        "confidencePct": 0.4444444444444444
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 9,
-        "confidencePct": 0.6666666666666666
+        "games": 7,
+        "sampleGames": 12,
+        "confidencePct": 0.5833333333333334
       },
       "skillOrder": {
         "order": [
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Ziggs-3",
-      "buildIndex": 2,
+      "id": "Ziggs-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4652,
+      "totalGames": 6258,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -416,18 +568,10 @@
           "purchaseSamples": 526
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 76
-        },
-        {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 46
         },
@@ -435,9 +579,17 @@
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 451
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
@@ -449,10 +601,10 @@
           "Liandry's Torment",
           "Bloodletter's Curse"
         ],
-        "games": 10,
-        "wins": 5,
-        "winrate": 0.5,
-        "score": 669988.3400232325
+        "games": 14,
+        "wins": 8,
+        "winrate": 0.5714285714285714,
+        "score": 1131028.391513799
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 14,
         "games": 2,
-        "confidencePct": 0.2
+        "confidencePct": 0.14285714285714285
       },
       "position": {
         "role": "BOTTOM",
-        "games": 7,
-        "sampleGames": 10,
-        "confidencePct": 0.7
+        "games": 10,
+        "sampleGames": 14,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -524,158 +676,6 @@
         "games": 10,
         "sampleGames": 10,
         "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ziggs-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 4652,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 526
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 322
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 148
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 296
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 222
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3165,
-          6653
-        ],
-        "names": [
-          "Morellonomicon",
-          "Liandry's Torment"
-        ],
-        "games": 16,
-        "wins": 7,
-        "winrate": 0.4375,
-        "score": 399583.5716146798
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 16,
-        "games": 7,
-        "confidencePct": 0.4375
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 12,
-        "sampleGames": 16,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 14,
-        "sampleGames": 15,
-        "confidencePct": 0.9333333333333333
       },
       "asWholeSet": {
         "games": 0,
@@ -687,7 +687,7 @@
       "id": "Ziggs-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4652,
+      "totalGames": 6258,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,20 +704,20 @@
           "purchaseSamples": 6
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 526
-        },
-        {
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 76
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 526
         },
         {
           "itemId": 3041,
@@ -728,35 +728,35 @@
           "purchaseSamples": 451
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1099
+          "purchaseSamples": 222
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 148
+          "purchaseSamples": 296
         }
       ],
       "seedPair": {
         "itemIds": [
-          3135,
-          3165
+          3041,
+          3152
         ],
         "names": [
-          "Void Staff",
-          "Morellonomicon"
+          "Mejai's Soulstealer",
+          "Hextech Rocketbelt"
         ],
-        "games": 33,
-        "wins": 18,
-        "winrate": 0.5454545454545454,
-        "score": 327830.37273476715
+        "games": 6,
+        "wins": 6,
+        "winrate": 1,
+        "score": 863846.4106104545
       },
       "runes": {
         "primaryStyle": {
@@ -773,8 +773,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
             "id": 8237,
@@ -782,23 +782,23 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -809,15 +809,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 33,
-        "games": 7,
-        "confidencePct": 0.21212121212121213
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "BOTTOM",
-        "games": 31,
-        "sampleGames": 33,
-        "confidencePct": 0.9393939393939394
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "skillOrder": {
         "order": [
@@ -825,8 +825,8 @@
           "E",
           "W"
         ],
-        "games": 32,
-        "sampleGames": 32,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 4652,
+    "totalGames": 6258,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4967755803955288,
+    "winrate": 0.497283477149249,
     "items": [
       {
         "itemId": 6655,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4652,
-      "games": 946,
-      "confidencePct": 0.20335339638865005
+      "sampleGames": 6258,
+      "games": 1269,
+      "confidencePct": 0.2027804410354746
     },
     "position": {
       "role": "BOTTOM",
-      "games": 3677,
-      "sampleGames": 4652,
-      "confidencePct": 0.7904127257093723
+      "games": 4963,
+      "sampleGames": 6258,
+      "confidencePct": 0.7930648769574944
     },
     "skillOrder": {
       "order": [

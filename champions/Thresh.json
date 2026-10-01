@@ -1,8 +1,36 @@
 {
   "championId": "Thresh",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2510,
+        3146
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Hextech Gunblade"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 18136088282.603462
+    },
+    {
+      "itemIds": [
+        3146,
+        3152
+      ],
+      "names": [
+        "Hextech Gunblade",
+        "Hextech Rocketbelt"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 6882134156.409351
+    },
     {
       "itemIds": [
         3068,
@@ -15,63 +43,35 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 3850654813.5537763
+      "score": 3729330848.251719
     },
     {
       "itemIds": [
-        3152,
-        4645
+        3146,
+        8020
       ],
       "names": [
-        "Hextech Rocketbelt",
-        "Shadowflame"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 91928141.5044403
-    },
-    {
-      "itemIds": [
-        3152,
-        3157
-      ],
-      "names": [
-        "Hextech Rocketbelt",
-        "Zhonya's Hourglass"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 37717873.899534576
-    },
-    {
-      "itemIds": [
-        3041,
-        4401
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Force of Nature"
+        "Hextech Gunblade",
+        "Abyssal Mask"
       ],
       "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 29378779.345133997
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 669998343.9991935
     },
     {
       "itemIds": [
-        3742,
-        4401
+        2504,
+        3146
       ],
       "names": [
-        "Dead Man's Plate",
-        "Force of Nature"
+        "Kaenic Rookern",
+        "Hextech Gunblade"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 8879646.516575476
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 475635121.39951354
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Thresh-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 26012,
+      "totalGames": 36578,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 23582
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 619
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 290
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3146
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Hextech Gunblade"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 18136088282.603462
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Thresh-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 36578,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,10 +272,18 @@
           "purchaseSamples": 147
         },
         {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 619
+        },
+        {
           "itemId": 2504,
           "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 811
         }
@@ -140,7 +300,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 3850654813.5537763
+        "score": 3729330848.251719
       },
       "runes": {
         "primaryStyle": {
@@ -220,10 +380,162 @@
       }
     },
     {
-      "id": "Thresh-2",
-      "buildIndex": 1,
+      "id": "Thresh-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 26012,
+      "totalGames": 36578,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 23582
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 811
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 619
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2504,
+          3146
+        ],
+        "names": [
+          "Kaenic Rookern",
+          "Hextech Gunblade"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 475635121.39951354
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Thresh-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 36578,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -256,12 +568,20 @@
           "purchaseSamples": 5
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 15
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 290
         }
       ],
       "seedPair": {
@@ -273,10 +593,10 @@
           "Hextech Rocketbelt",
           "Shadowflame"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 91928141.5044403
+        "games": 9,
+        "wins": 6,
+        "winrate": 0.6666666666666666,
+        "score": 102952477.85919534
       },
       "runes": {
         "primaryStyle": {
@@ -329,169 +649,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Thresh-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 26012,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 23582
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 147
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3522
-        },
-        {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6173
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 9
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          4401
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Force of Nature"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 29378779.345133997
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
+        "sampleGames": 9,
+        "games": 6,
         "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
-          "Q",
           "E",
+          "Q",
           "W"
         ],
         "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "asWholeSet": {
         "games": 0,
@@ -500,10 +676,10 @@
       }
     },
     {
-      "id": "Thresh-4",
-      "buildIndex": 3,
+      "id": "Thresh-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 26012,
+      "totalGames": 36578,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -520,59 +696,51 @@
           "purchaseSamples": 23582
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 312
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 41
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
+          "itemId": 4645,
+          "name": "Shadowflame",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 138
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 619
+          "purchaseSamples": 15
         },
         {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
+          "itemId": 3100,
+          "name": "Lich Bane",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 811
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 397
+          "purchaseSamples": 2
         }
       ],
       "seedPair": {
         "itemIds": [
-          3107,
-          4005
+          3152,
+          3157
         ],
         "names": [
-          "Redemption",
-          "Imperial Mandate"
+          "Hextech Rocketbelt",
+          "Zhonya's Hourglass"
         ],
-        "games": 15,
-        "wins": 11,
-        "winrate": 0.7333333333333333,
-        "score": 7327251.994486165
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 65637218.44971474
       },
       "runes": {
         "primaryStyle": {
@@ -593,22 +761,22 @@
             "name": "Biscuit Delivery"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "statPerks": [
@@ -617,202 +785,50 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 15,
-        "games": 10,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 15,
-        "sampleGames": 15,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 11,
-        "sampleGames": 15,
-        "confidencePct": 0.7333333333333333
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Thresh-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 26012,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 23582
-        },
-        {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 196
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 147
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 811
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5823
-        },
-        {
-          "itemId": 3083,
-          "name": "Warmog's Armor",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3083,
-          4401
-        ],
-        "names": [
-          "Warmog's Armor",
-          "Force of Nature"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 6981895.132879245
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
-          "E",
           "Q",
+          "E",
           "W"
         ],
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 26012,
+    "totalGames": 36578,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5289866215592803,
+    "winrate": 0.528897151293127,
     "items": [
       {
         "itemId": 3009,
@@ -839,20 +855,20 @@
         "purchaseSamples": 18302
       },
       {
-        "itemId": 3050,
-        "name": "Zeke's Convergence",
-        "isBoots": false,
-        "order": 4,
-        "medianPurchaseOrder": 3,
-        "purchaseSamples": 5823
-      },
-      {
         "itemId": 3222,
         "name": "Mikael's Blessing",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 6173
+      },
+      {
+        "itemId": 3050,
+        "name": "Zeke's Convergence",
+        "isBoots": false,
+        "order": 5,
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 5823
       },
       {
         "itemId": 2524,
@@ -914,15 +930,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 26012,
-      "games": 7019,
-      "confidencePct": 0.269836998308473
+      "sampleGames": 36578,
+      "games": 9878,
+      "confidencePct": 0.2700530373448521
     },
     "position": {
       "role": "UTILITY",
-      "games": 25987,
-      "sampleGames": 26012,
-      "confidencePct": 0.9990389051207135
+      "games": 36538,
+      "sampleGames": 36578,
+      "confidencePct": 0.998906446497895
     },
     "skillOrder": {
       "order": [

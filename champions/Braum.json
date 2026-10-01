@@ -1,8 +1,22 @@
 {
   "championId": "Braum",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2065,
+        3222
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Mikael's Blessing"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 2751995.0407951875
+    },
     {
       "itemIds": [
         2504,
@@ -12,10 +26,24 @@
         "Kaenic Rookern",
         "Randuin's Omen"
       ],
-      "games": 11,
-      "wins": 4,
-      "winrate": 0.36363636363636365,
-      "score": 1489076.128058645
+      "games": 17,
+      "wins": 7,
+      "winrate": 0.4117647058823529,
+      "score": 2526186.037564564
+    },
+    {
+      "itemIds": [
+        2504,
+        3075
+      ],
+      "names": [
+        "Kaenic Rookern",
+        "Thornmail"
+      ],
+      "games": 19,
+      "wins": 12,
+      "winrate": 0.631578947368421,
+      "score": 1395250.6350389323
     },
     {
       "itemIds": [
@@ -26,24 +54,10 @@
         "Thornmail",
         "Randuin's Omen"
       ],
-      "games": 9,
-      "wins": 7,
-      "winrate": 0.7777777777777778,
-      "score": 1061035.7932502478
-    },
-    {
-      "itemIds": [
-        2504,
-        8020
-      ],
-      "names": [
-        "Kaenic Rookern",
-        "Abyssal Mask"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 849985.1092848463
+      "games": 12,
+      "wins": 9,
+      "winrate": 0.75,
+      "score": 1317322.7439148973
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Thornmail",
         "Frozen Heart"
       ],
-      "games": 28,
-      "wins": 14,
-      "winrate": 0.5,
-      "score": 746138.8215887812
-    },
-    {
-      "itemIds": [
-        2525,
-        3050
-      ],
-      "names": [
-        "Protoplasm Harness",
-        "Zeke's Convergence"
-      ],
-      "games": 15,
-      "wins": 8,
-      "winrate": 0.5333333333333333,
-      "score": 719463.9636243767
+      "games": 40,
+      "wins": 23,
+      "winrate": 0.575,
+      "score": 1201236.6176836456
     }
   ],
   "builds": [
@@ -79,7 +79,151 @@
       "id": "Braum-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11793,
+      "totalGames": 16293,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5529
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9265
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 787
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 963
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3222
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Mikael's Blessing"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 2751995.0407951875
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8360,
+          "name": "Unsealed Spellbook"
+        },
+        "primaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Braum-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 16293,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +289,10 @@
           "Kaenic Rookern",
           "Randuin's Omen"
         ],
-        "games": 11,
-        "wins": 4,
-        "winrate": 0.36363636363636365,
-        "score": 1489076.128058645
+        "games": 17,
+        "wins": 7,
+        "winrate": 0.4117647058823529,
+        "score": 2526186.037564564
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +345,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 11,
-        "games": 7,
-        "confidencePct": 0.6363636363636364
+        "sampleGames": 17,
+        "games": 10,
+        "confidencePct": 0.5882352941176471
       },
       "position": {
         "role": "UTILITY",
-        "games": 11,
-        "sampleGames": 11,
+        "games": 17,
+        "sampleGames": 17,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -228,10 +372,162 @@
       }
     },
     {
-      "id": "Braum-2",
-      "buildIndex": 1,
+      "id": "Braum-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11793,
+      "totalGames": 16293,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9265
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 787
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 963
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 220
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 592
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3107,
+          3222
+        ],
+        "names": [
+          "Redemption",
+          "Mikael's Blessing"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 958759.5208973176
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Braum-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 16293,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -300,7 +596,7 @@
         "games": 6,
         "wins": 3,
         "winrate": 0.5,
-        "score": 398917.1312926056
+        "score": 413954.08752685384
       },
       "runes": {
         "primaryStyle": {
@@ -381,14 +677,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 11793,
+    "totalGames": 16293,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5231069278385483,
+    "winrate": 0.5193641441109679,
     "items": [
       {
         "itemId": 3190,
@@ -490,15 +786,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 11793,
-      "games": 5200,
-      "confidencePct": 0.4409395404053252
+      "sampleGames": 16293,
+      "games": 7279,
+      "confidencePct": 0.4467562757012214
     },
     "position": {
       "role": "UTILITY",
-      "games": 11785,
-      "sampleGames": 11793,
-      "confidencePct": 0.9993216314762995
+      "games": 16283,
+      "sampleGames": 16293,
+      "confidencePct": 0.9993862394893512
     },
     "skillOrder": {
       "order": [

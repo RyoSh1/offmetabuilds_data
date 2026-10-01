@@ -1,7 +1,7 @@
 {
   "championId": "Zac",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,38 +12,52 @@
         "Shadowflame",
         "Stormsurge"
       ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 590388241.9250362
+      "games": 12,
+      "wins": 5,
+      "winrate": 0.4166666666666667,
+      "score": 717120965.1850556
     },
     {
       "itemIds": [
         3089,
-        3102
+        4646
       ],
       "names": [
         "Rabadon's Deathcap",
-        "Banshee's Veil"
+        "Stormsurge"
       ],
-      "games": 6,
-      "wins": 2,
+      "games": 3,
+      "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 102900756.6505189
+      "score": 128823134.45857334
     },
     {
       "itemIds": [
-        2524,
-        3109
+        3089,
+        4645
       ],
       "names": [
-        "Bandlepipes",
-        "Knight's Vow"
+        "Rabadon's Deathcap",
+        "Shadowflame"
       ],
-      "games": 16,
-      "wins": 9,
-      "winrate": 0.5625,
-      "score": 37095956.02045236
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 125041421.10873547
+    },
+    {
+      "itemIds": [
+        3102,
+        4646
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Stormsurge"
+      ],
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 59222047.19047854
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Imperial Mandate",
         "Abyssal Mask"
       ],
-      "games": 48,
-      "wins": 27,
-      "winrate": 0.5625,
-      "score": 33199611.29993703
-    },
-    {
-      "itemIds": [
-        2065,
-        3050
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Zeke's Convergence"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 28185844.837754056
+      "games": 64,
+      "wins": 38,
+      "winrate": 0.59375,
+      "score": 54846532.96021047
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Zac-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7735,
+      "totalGames": 10600,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,10 +120,18 @@
           "purchaseSamples": 51
         },
         {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1179
+        },
+        {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 4.5,
           "purchaseSamples": 18
         }
@@ -137,10 +145,10 @@
           "Shadowflame",
           "Stormsurge"
         ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 590388241.9250362
+        "games": 12,
+        "wins": 5,
+        "winrate": 0.4166666666666667,
+        "score": 717120965.1850556
       },
       "runes": {
         "primaryStyle": {
@@ -193,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 6,
-        "confidencePct": 1
+        "sampleGames": 12,
+        "games": 8,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 7,
+        "sampleGames": 12,
+        "confidencePct": 0.5833333333333334
       },
       "skillOrder": {
         "order": [
@@ -223,7 +231,159 @@
       "id": "Zac-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 7735,
+      "totalGames": 10600,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 811
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5358
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 442
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 84
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 469
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 564
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4005,
+          8020
+        ],
+        "names": [
+          "Imperial Mandate",
+          "Abyssal Mask"
+        ],
+        "games": 64,
+        "wins": 38,
+        "winrate": 0.59375,
+        "score": 54846532.96021047
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 64,
+        "games": 20,
+        "confidencePct": 0.3125
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 26,
+        "sampleGames": 64,
+        "confidencePct": 0.40625
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 31,
+        "sampleGames": 48,
+        "confidencePct": 0.6458333333333334
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zac-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 10600,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -289,10 +449,10 @@
           "Bandlepipes",
           "Knight's Vow"
         ],
-        "games": 16,
-        "wins": 9,
-        "winrate": 0.5625,
-        "score": 37095956.02045236
+        "games": 19,
+        "wins": 12,
+        "winrate": 0.631578947368421,
+        "score": 52590334.73121036
       },
       "runes": {
         "primaryStyle": {
@@ -345,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 16,
+        "sampleGames": 19,
         "games": 4,
-        "confidencePct": 0.25
+        "confidencePct": 0.21052631578947367
       },
       "position": {
         "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 16,
-        "confidencePct": 0.5625
+        "games": 10,
+        "sampleGames": 19,
+        "confidencePct": 0.5263157894736842
       },
       "skillOrder": {
         "order": [
@@ -372,162 +532,10 @@
       }
     },
     {
-      "id": "Zac-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 7735,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 402
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5358
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 442
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 469
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 564
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 412
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4005,
-          8020
-        ],
-        "names": [
-          "Imperial Mandate",
-          "Abyssal Mask"
-        ],
-        "games": 48,
-        "wins": 27,
-        "winrate": 0.5625,
-        "score": 33199611.29993703
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 48,
-        "games": 18,
-        "confidencePct": 0.375
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 23,
-        "sampleGames": 48,
-        "confidencePct": 0.4791666666666667
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 31,
-        "sampleGames": 48,
-        "confidencePct": 0.6458333333333334
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Zac-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7735,
+      "totalGames": 10600,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -596,7 +604,7 @@
         "games": 6,
         "wins": 3,
         "winrate": 0.5,
-        "score": 28185844.837754056
+        "score": 40130254.135463566
       },
       "runes": {
         "primaryStyle": {
@@ -679,7 +687,7 @@
       "id": "Zac-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7735,
+      "totalGames": 10600,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,28 +704,28 @@
           "purchaseSamples": 5358
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 84
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 651
-        },
-        {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 442
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 82
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 412
         },
         {
           "itemId": 8020,
@@ -738,46 +746,32 @@
       ],
       "seedPair": {
         "itemIds": [
-          4629,
-          4633
+          3109,
+          4005
         ],
         "names": [
-          "Cosmic Drive",
-          "Riftmaker"
+          "Knight's Vow",
+          "Imperial Mandate"
         ],
-        "games": 10,
-        "wins": 6,
-        "winrate": 0.6,
-        "score": 23964703.159304414
+        "games": 25,
+        "wins": 14,
+        "winrate": 0.56,
+        "score": 22233292.582748987
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
           "id": 8400,
           "name": "Resolve"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
           {
             "id": 8444,
             "name": "Second Wind"
@@ -785,6 +779,20 @@
           {
             "id": 8453,
             "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -797,18 +805,18 @@
             "name": "Health Scaling"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
-        "games": 5,
-        "confidencePct": 0.5
+        "sampleGames": 25,
+        "games": 7,
+        "confidencePct": 0.28
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 10,
+        "games": 10,
+        "sampleGames": 25,
         "confidencePct": 0.4
       },
       "skillOrder": {
@@ -817,9 +825,9 @@
           "W",
           "Q"
         ],
-        "games": 8,
-        "sampleGames": 10,
-        "confidencePct": 0.8
+        "games": 19,
+        "sampleGames": 22,
+        "confidencePct": 0.8636363636363636
       },
       "asWholeSet": {
         "games": 0,
@@ -829,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 7735,
+    "totalGames": 10600,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5027795733678087,
+    "winrate": 0.5028301886792453,
     "items": [
       {
         "itemId": 3152,
@@ -938,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 7735,
-      "games": 2892,
-      "confidencePct": 0.37388493859082095
+      "sampleGames": 10600,
+      "games": 3967,
+      "confidencePct": 0.37424528301886795
     },
     "position": {
       "role": "JUNGLE",
-      "games": 5199,
-      "sampleGames": 7735,
-      "confidencePct": 0.6721396250808016
+      "games": 7197,
+      "sampleGames": 10600,
+      "confidencePct": 0.6789622641509434
     },
     "skillOrder": {
       "order": [

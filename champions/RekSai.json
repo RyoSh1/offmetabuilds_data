@@ -1,8 +1,22 @@
 {
   "championId": "RekSai",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4628,
+        6655
+      ],
+      "names": [
+        "Horizon Focus",
+        "Luden's Echo"
+      ],
+      "games": 7,
+      "wins": 3,
+      "winrate": 0.42857142857142855,
+      "score": 1213657855.1986377
+    },
     {
       "itemIds": [
         6676,
@@ -12,10 +26,10 @@
         "The Collector",
         "Voltaic Cyclosword"
       ],
-      "games": 10,
+      "games": 11,
       "wins": 7,
-      "winrate": 0.7,
-      "score": 321541085.43476474
+      "winrate": 0.6363636363636364,
+      "score": 361002336.9677769
     },
     {
       "itemIds": [
@@ -26,24 +40,10 @@
         "Protoplasm Harness",
         "Jak'Sho, The Protean"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 249414353.1550088
-    },
-    {
-      "itemIds": [
-        3031,
-        6699
-      ],
-      "names": [
-        "Infinity Edge",
-        "Voltaic Cyclosword"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 170042055.5637666
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 332931909.19031596
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 167417869.36890462
+      "score": 179966111.69559994
     },
     {
       "itemIds": [
-        2525,
-        3143
+        2501,
+        3084
       ],
       "names": [
-        "Protoplasm Harness",
-        "Randuin's Omen"
+        "Overlord's Bloodmail",
+        "Heartsteel"
       ],
-      "games": 16,
-      "wins": 5,
-      "winrate": 0.3125,
-      "score": 90922678.80061184
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 175498294.07323363
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "RekSai-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6658,
+      "totalGames": 8955,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,10 +88,137 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4101
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4628,
+          6655
+        ],
+        "names": [
+          "Horizon Focus",
+          "Luden's Echo"
+        ],
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 1213657855.1986377
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8237,
+            "name": "Scorch"
+          },
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 7,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855
+      }
+    },
+    {
+      "id": "RekSai-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8955,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 184
+        },
+        {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 124
         },
@@ -99,17 +226,9 @@
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 149
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 108
+          "purchaseSamples": 149
         },
         {
           "itemId": 3047,
@@ -145,10 +264,10 @@
           "The Collector",
           "Voltaic Cyclosword"
         ],
-        "games": 10,
+        "games": 11,
         "wins": 7,
-        "winrate": 0.7,
-        "score": 321541085.43476474
+        "winrate": 0.6363636363636364,
+        "score": 361002336.9677769
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +320,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 11,
         "games": 7,
-        "confidencePct": 0.7
+        "confidencePct": 0.6363636363636364
       },
       "position": {
         "role": "BOTTOM",
         "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
+        "sampleGames": 11,
+        "confidencePct": 0.5454545454545454
       },
       "skillOrder": {
         "order": [
@@ -228,10 +347,10 @@
       }
     },
     {
-      "id": "RekSai-2",
-      "buildIndex": 1,
+      "id": "RekSai-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6658,
+      "totalGames": 8955,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -278,6 +397,14 @@
           "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 499
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2294
         }
       ],
       "seedPair": {
@@ -289,10 +416,10 @@
           "Protoplasm Harness",
           "Jak'Sho, The Protean"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 249414353.1550088
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 332931909.19031596
       },
       "runes": {
         "primaryStyle": {
@@ -345,14 +472,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 5,
+        "sampleGames": 6,
+        "games": 6,
         "confidencePct": 1
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -366,16 +493,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     },
     {
-      "id": "RekSai-3",
-      "buildIndex": 2,
+      "id": "RekSai-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6658,
+      "totalGames": 8955,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -416,20 +543,20 @@
           "purchaseSamples": 712
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 676
-        },
-        {
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 45
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 736
         }
       ],
       "seedPair": {
@@ -444,7 +571,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 167417869.36890462
+        "score": 179966111.69559994
       },
       "runes": {
         "primaryStyle": {
@@ -524,10 +651,10 @@
       }
     },
     {
-      "id": "RekSai-4",
-      "buildIndex": 3,
+      "id": "RekSai-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 6658,
+      "totalGames": 8955,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -535,173 +662,29 @@
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 11
+        },
         {
           "itemId": 3748,
           "name": "Titanic Hydra",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 4148
         },
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 149
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4101
-        },
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 163
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3095,
-          6699
-        ],
-        "names": [
-          "Stormrazor",
-          "Voltaic Cyclosword"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 86497076.03046912
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "RekSai-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 6658,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 184
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4101
-        },
-        {
-          "itemId": 3181,
-          "name": "Hullbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 99
         },
         {
           "itemId": 3033,
@@ -712,12 +695,12 @@
           "purchaseSamples": 676
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 499
+          "purchaseSamples": 41
         },
         {
           "itemId": 2501,
@@ -731,38 +714,38 @@
       "seedPair": {
         "itemIds": [
           2501,
-          3181
+          3084
         ],
         "names": [
           "Overlord's Bloodmail",
-          "Hullbreaker"
+          "Heartsteel"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 68251554.37804672
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 175498294.07323363
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
-            "id": 8446,
-            "name": "Demolish"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
@@ -771,12 +754,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -794,23 +777,23 @@
           }
         ],
         "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "TOP",
-        "games": 3,
+        "games": 2,
         "sampleGames": 3,
-        "confidencePct": 1
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
-          "E",
           "Q",
+          "E",
           "W"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -821,14 +804,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6658,
+    "totalGames": 8955,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5190747972364074,
+    "winrate": 0.5191513121161362,
     "items": [
       {
         "itemId": 6631,
@@ -930,15 +913,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6658,
-      "games": 3033,
-      "confidencePct": 0.45554220486632624
+      "sampleGames": 8955,
+      "games": 4041,
+      "confidencePct": 0.45125628140703516
     },
     "position": {
       "role": "JUNGLE",
-      "games": 5990,
-      "sampleGames": 6658,
-      "confidencePct": 0.899669570441574
+      "games": 8043,
+      "sampleGames": 8955,
+      "confidencePct": 0.8981574539363484
     },
     "skillOrder": {
       "order": [

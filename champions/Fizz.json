@@ -1,7 +1,7 @@
 {
   "championId": "Fizz",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 850178600.3906116
+      "score": 920976109.2734112
     },
     {
       "itemIds": [
@@ -26,10 +26,24 @@
         "Blade of The Ruined King",
         "Terminus"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 2,
-      "winrate": 0.2857142857142857,
-      "score": 287959044.8246679
+      "winrate": 0.25,
+      "score": 299635425.46344227
+    },
+    {
+      "itemIds": [
+        3116,
+        6653
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Liandry's Torment"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 254024532.51569238
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 236016636.81505233
+      "score": 243440736.44006094
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Randuin's Omen",
         "Liandry's Torment"
       ],
-      "games": 31,
-      "wins": 16,
-      "winrate": 0.5161290322580645,
-      "score": 192383979.49739042
-    },
-    {
-      "itemIds": [
-        3143,
-        4633
-      ],
-      "names": [
-        "Randuin's Omen",
-        "Riftmaker"
-      ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 96869903.59618026
+      "games": 38,
+      "wins": 19,
+      "winrate": 0.5,
+      "score": 226683679.80809003
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Fizz-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8672,
+      "totalGames": 11673,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -132,7 +132,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 850178600.3906116
+        "score": 920976109.2734112
       },
       "runes": {
         "primaryStyle": {
@@ -215,7 +215,7 @@
       "id": "Fizz-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 8672,
+      "totalGames": 11673,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -273,10 +273,10 @@
           "Blade of The Ruined King",
           "Terminus"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 2,
-        "winrate": 0.2857142857142857,
-        "score": 287959044.8246679
+        "winrate": 0.25,
+        "score": 299635425.46344227
       },
       "runes": {
         "primaryStyle": {
@@ -329,15 +329,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 1,
-        "confidencePct": 0.14285714285714285
+        "confidencePct": 0.125
       },
       "position": {
         "role": "TOP",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
+        "games": 6,
+        "sampleGames": 8,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -359,7 +359,143 @@
       "id": "Fizz-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8672,
+      "totalGames": 11673,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 378
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3116,
+          6653
+        ],
+        "names": [
+          "Rylai's Crystal Scepter",
+          "Liandry's Torment"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 254024532.51569238
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Fizz-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 11673,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -425,10 +561,10 @@
           "Randuin's Omen",
           "Liandry's Torment"
         ],
-        "games": 31,
-        "wins": 16,
-        "winrate": 0.5161290322580645,
-        "score": 192383979.49739042
+        "games": 38,
+        "wins": 19,
+        "winrate": 0.5,
+        "score": 226683679.80809003
       },
       "runes": {
         "primaryStyle": {
@@ -481,15 +617,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 31,
+        "sampleGames": 38,
         "games": 13,
-        "confidencePct": 0.41935483870967744
+        "confidencePct": 0.34210526315789475
       },
       "position": {
         "role": "TOP",
-        "games": 23,
-        "sampleGames": 31,
-        "confidencePct": 0.7419354838709677
+        "games": 29,
+        "sampleGames": 38,
+        "confidencePct": 0.7631578947368421
       },
       "skillOrder": {
         "order": [
@@ -508,10 +644,10 @@
       }
     },
     {
-      "id": "Fizz-4",
-      "buildIndex": 3,
+      "id": "Fizz-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 8672,
+      "totalGames": 11673,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -520,12 +656,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 6672,
+          "name": "Kraken Slayer",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2462
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7
         },
         {
           "itemId": 3171,
@@ -542,29 +678,21 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 1210
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 11
         }
       ],
       "seedPair": {
         "itemIds": [
           3115,
-          3124
+          6672
         ],
         "names": [
           "Nashor's Tooth",
-          "Guinsoo's Rageblade"
+          "Kraken Slayer"
         ],
-        "games": 9,
+        "games": 3,
         "wins": 3,
-        "winrate": 0.3333333333333333,
-        "score": 6743782.621331547
+        "winrate": 1,
+        "score": 10828192.479164252
       },
       "runes": {
         "primaryStyle": {
@@ -617,15 +745,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 9,
-        "games": 9,
-        "confidencePct": 1
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 9,
-        "confidencePct": 0.5555555555555556
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -633,178 +761,26 @@
           "E",
           "Q"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Fizz-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 8672,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2462
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1210
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 378
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 364
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 735
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3115,
-          3137
-        ],
-        "names": [
-          "Nashor's Tooth",
-          "Cryptbloom"
-        ],
-        "games": 90,
-        "wins": 54,
-        "winrate": 0.6,
-        "score": 5823084.456458727
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 90,
-        "games": 47,
-        "confidencePct": 0.5222222222222223
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 87,
-        "sampleGames": 90,
-        "confidencePct": 0.9666666666666667
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 75,
-        "sampleGames": 79,
-        "confidencePct": 0.9493670886075949
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 3,
+        "wins": 3,
+        "winrate": 1
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 8672,
+    "totalGames": 11673,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4993081180811808,
+    "winrate": 0.49558810931208774,
     "items": [
       {
         "itemId": 3100,
@@ -906,15 +882,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 8672,
-      "games": 1556,
-      "confidencePct": 0.17942804428044282
+      "sampleGames": 11673,
+      "games": 2130,
+      "confidencePct": 0.18247237214083784
     },
     "position": {
       "role": "MIDDLE",
-      "games": 6603,
-      "sampleGames": 8672,
-      "confidencePct": 0.7614160516605166
+      "games": 8876,
+      "sampleGames": 11673,
+      "confidencePct": 0.7603872183671722
     },
     "skillOrder": {
       "order": [

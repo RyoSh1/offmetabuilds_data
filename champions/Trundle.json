@@ -1,22 +1,8 @@
 {
   "championId": "Trundle",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3109,
-        3222
-      ],
-      "names": [
-        "Knight's Vow",
-        "Mikael's Blessing"
-      ],
-      "games": 21,
-      "wins": 14,
-      "winrate": 0.6666666666666666,
-      "score": 38384575.43472431
-    },
     {
       "itemIds": [
         3222,
@@ -26,10 +12,24 @@
         "Mikael's Blessing",
         "Imperial Mandate"
       ],
-      "games": 3,
-      "wins": 2,
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 65019441.44434532
+    },
+    {
+      "itemIds": [
+        3109,
+        3222
+      ],
+      "names": [
+        "Knight's Vow",
+        "Mikael's Blessing"
+      ],
+      "games": 24,
+      "wins": 16,
       "winrate": 0.6666666666666666,
-      "score": 28466301.1673868
+      "score": 54885050.1988977
     },
     {
       "itemIds": [
@@ -40,10 +40,10 @@
         "Bandlepipes",
         "Imperial Mandate"
       ],
-      "games": 29,
-      "wins": 18,
-      "winrate": 0.6206896551724138,
-      "score": 26860692.799223673
+      "games": 38,
+      "wins": 23,
+      "winrate": 0.6052631578947368,
+      "score": 36809170.18143711
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 45,
-      "wins": 25,
-      "winrate": 0.5555555555555556,
-      "score": 24966270.66800533
+      "games": 49,
+      "wins": 27,
+      "winrate": 0.5510204081632653,
+      "score": 34744184.130358614
     },
     {
       "itemIds": [
-        3050,
-        8020
+        2525,
+        3190
       ],
       "names": [
-        "Zeke's Convergence",
-        "Abyssal Mask"
+        "Protoplasm Harness",
+        "Locket of the Iron Solari"
       ],
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 21441340.166554842
+      "score": 30718920.662519943
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Trundle-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3958,
+      "totalGames": 5241,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 436
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2533
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 38
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 37
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 244
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 144
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3222,
+          4005
+        ],
+        "names": [
+          "Mikael's Blessing",
+          "Imperial Mandate"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 65019441.44434532
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Trundle-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5241,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -112,43 +264,43 @@
           "purchaseSamples": 244
         },
         {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 37
-        },
-        {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 6,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 144
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 187
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 40
         }
       ],
       "seedPair": {
         "itemIds": [
           3109,
-          3222
+          8020
         ],
         "names": [
           "Knight's Vow",
-          "Mikael's Blessing"
+          "Abyssal Mask"
         ],
-        "games": 21,
-        "wins": 14,
-        "winrate": 0.6666666666666666,
-        "score": 38384575.43472431
+        "games": 14,
+        "wins": 7,
+        "winrate": 0.5,
+        "score": 26699678.97537589
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 21,
-        "games": 17,
-        "confidencePct": 0.8095238095238095
+        "sampleGames": 14,
+        "games": 11,
+        "confidencePct": 0.7857142857142857
       },
       "position": {
         "role": "UTILITY",
-        "games": 21,
-        "sampleGames": 21,
-        "confidencePct": 1
+        "games": 12,
+        "sampleGames": 14,
+        "confidencePct": 0.8571428571428571
       },
       "skillOrder": {
         "order": [
@@ -217,161 +369,9 @@
           "W",
           "Q"
         ],
-        "games": 18,
-        "sampleGames": 21,
-        "confidencePct": 0.8571428571428571
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Trundle-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 3958,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 436
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2533
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 187
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 144
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 244
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 40
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3050,
-          8020
-        ],
-        "names": [
-          "Zeke's Convergence",
-          "Abyssal Mask"
-        ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 21441340.166554842
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 10,
+        "sampleGames": 12,
+        "confidencePct": 0.8333333333333334
       },
       "asWholeSet": {
         "games": 0,
@@ -383,311 +383,7 @@
       "id": "Trundle-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3958,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 436
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2533
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 144
-        },
-        {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 38
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 187
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2524,
-          3121
-        ],
-        "names": [
-          "Bandlepipes",
-          "Fimbulwinter"
-        ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 19100796.476499025
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Trundle-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3958,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2533
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 45
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1163
-        },
-        {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 307
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 144
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2512,
-          3031
-        ],
-        "names": [
-          "Fiendhunter Bolts",
-          "Infinity Edge"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 16315063.486667562
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8446,
-            "name": "Demolish"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Trundle-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 3958,
+      "totalGames": 5241,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,10 +400,18 @@
           "purchaseSamples": 112
         },
         {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 86
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2533
         },
@@ -715,7 +419,7 @@
           "itemId": 2504,
           "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 101
         },
@@ -723,7 +427,7 @@
           "itemId": 3143,
           "name": "Randuin's Omen",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 528
         },
@@ -731,17 +435,9 @@
           "itemId": 3075,
           "name": "Thornmail",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 312
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 59
         }
       ],
       "seedPair": {
@@ -756,7 +452,7 @@
         "games": 27,
         "wins": 16,
         "winrate": 0.5925925925925926,
-        "score": 15517888.31849878
+        "score": 19508145.605940007
       },
       "runes": {
         "primaryStyle": {
@@ -834,17 +530,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Trundle-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 5241,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2533
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 45
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1163
+        },
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 307
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 144
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2512,
+          3031
+        ],
+        "names": [
+          "Fiendhunter Bolts",
+          "Infinity Edge"
+        ],
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 18800390.414615177
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "TOP",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 3958,
+    "totalGames": 5241,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48534613441131885,
+    "winrate": 0.4752909750047701,
     "items": [
       {
         "itemId": 3074,
@@ -946,15 +794,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 3958,
-      "games": 834,
-      "confidencePct": 0.21071248105103588
+      "sampleGames": 5241,
+      "games": 1099,
+      "confidencePct": 0.20969280671627552
     },
     "position": {
       "role": "TOP",
-      "games": 2118,
-      "sampleGames": 3958,
-      "confidencePct": 0.5351187468418394
+      "games": 2835,
+      "sampleGames": 5241,
+      "confidencePct": 0.540927303949628
     },
     "skillOrder": {
       "order": [

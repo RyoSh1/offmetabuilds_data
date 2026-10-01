@@ -1,7 +1,7 @@
 {
   "championId": "Vi",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Bandlepipes",
         "Zeke's Convergence"
       ],
-      "games": 6,
+      "games": 7,
       "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 761764891.0333401
+      "winrate": 0.5714285714285714,
+      "score": 698357235.004486
+    },
+    {
+      "itemIds": [
+        3042,
+        3814
+      ],
+      "names": [
+        "Muramana",
+        "Edge of Night"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 632015848.9922086
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Umbral Glaive",
         "Serylda's Grudge"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 555531192.534112
+      "winrate": 0.8,
+      "score": 530274193.0998107
+    },
+    {
+      "itemIds": [
+        3109,
+        3190
+      ],
+      "names": [
+        "Knight's Vow",
+        "Locket of the Iron Solari"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 396616589.5825582
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Zeke's Convergence",
         "Locket of the Iron Solari"
       ],
-      "games": 4,
+      "games": 7,
       "wins": 2,
-      "winrate": 0.5,
-      "score": 462979272.5353725
-    },
-    {
-      "itemIds": [
-        2512,
-        3508
-      ],
-      "names": [
-        "Fiendhunter Bolts",
-        "Essence Reaver"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 415250525.6864613
-    },
-    {
-      "itemIds": [
-        3142,
-        3814
-      ],
-      "names": [
-        "Youmuu's Ghostblade",
-        "Edge of Night"
-      ],
-      "games": 22,
-      "wins": 14,
-      "winrate": 0.6363636363636364,
-      "score": 361394600.29390806
+      "winrate": 0.2857142857142857,
+      "score": 393996484.0510554
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vi-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10581,
+      "totalGames": 13479,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,18 +88,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4355
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 6610
         },
@@ -107,7 +99,7 @@
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 13
         },
@@ -115,17 +107,25 @@
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 80
         },
         {
-          "itemId": 3075,
-          "name": "Thornmail",
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 31
+          "purchaseSamples": 24
         },
         {
           "itemId": 6333,
@@ -145,10 +145,10 @@
           "Bandlepipes",
           "Zeke's Convergence"
         ],
-        "games": 6,
+        "games": 7,
         "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 761764891.0333401
+        "winrate": 0.5714285714285714,
+        "score": 698357235.004486
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 3,
-        "confidencePct": 0.5
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,135 @@
       "id": "Vi-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 10581,
+      "totalGames": 13479,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6610
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 188
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3042,
+          3814
+        ],
+        "names": [
+          "Muramana",
+          "Edge of Night"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 632015848.9922086
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 6,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Vi-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 13479,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -256,18 +384,10 @@
           "purchaseSamples": 803
         },
         {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 146
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 6610
         },
@@ -275,9 +395,17 @@
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 188
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 415
         },
         {
           "itemId": 6694,
@@ -297,10 +425,10 @@
           "Umbral Glaive",
           "Serylda's Grudge"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 555531192.534112
+        "winrate": 0.8,
+        "score": 530274193.0998107
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +481,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -380,146 +508,10 @@
       }
     },
     {
-      "id": "Vi-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 10581,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6610
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 80
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 24
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3050,
-          3190
-        ],
-        "names": [
-          "Zeke's Convergence",
-          "Locket of the Iron Solari"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 462979272.5353725
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
-      }
-    },
-    {
       "id": "Vi-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10581,
+      "totalGames": 13479,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -544,12 +536,12 @@
           "purchaseSamples": 6610
         },
         {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
+          "itemId": 6695,
+          "name": "Serpent's Fang",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 617
+          "purchaseSamples": 415
         },
         {
           "itemId": 2512,
@@ -585,10 +577,10 @@
           "Fiendhunter Bolts",
           "Essence Reaver"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 1,
-        "winrate": 0.25,
-        "score": 415250525.6864613
+        "winrate": 0.2,
+        "score": 358686407.1939933
       },
       "runes": {
         "primaryStyle": {
@@ -641,14 +633,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 4,
+        "sampleGames": 5,
+        "games": 5,
         "confidencePct": 1
       },
       "position": {
         "role": "TOP",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -671,7 +663,7 @@
       "id": "Vi-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10581,
+      "totalGames": 13479,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,12 +688,12 @@
           "purchaseSamples": 155
         },
         {
-          "itemId": 6698,
-          "name": "Profane Hydra",
+          "itemId": 2520,
+          "name": "Bastionbreaker",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 81
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 146
         },
         {
           "itemId": 3047,
@@ -731,16 +723,16 @@
       "seedPair": {
         "itemIds": [
           3142,
-          3814
+          6673
         ],
         "names": [
           "Youmuu's Ghostblade",
-          "Edge of Night"
+          "Immortal Shieldbow"
         ],
-        "games": 22,
-        "wins": 14,
-        "winrate": 0.6363636363636364,
-        "score": 361394600.29390806
+        "games": 17,
+        "wins": 9,
+        "winrate": 0.5294117647058824,
+        "score": 335247275.9927486
       },
       "runes": {
         "primaryStyle": {
@@ -771,12 +763,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
             "id": 8453,
             "name": "Revitalize"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -793,15 +785,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 22,
-        "games": 4,
-        "confidencePct": 0.18181818181818182
+        "sampleGames": 17,
+        "games": 12,
+        "confidencePct": 0.7058823529411765
       },
       "position": {
         "role": "TOP",
-        "games": 9,
-        "sampleGames": 22,
-        "confidencePct": 0.4090909090909091
+        "games": 14,
+        "sampleGames": 17,
+        "confidencePct": 0.8235294117647058
       },
       "skillOrder": {
         "order": [
@@ -809,9 +801,9 @@
           "W",
           "E"
         ],
-        "games": 11,
-        "sampleGames": 22,
-        "confidencePct": 0.5
+        "games": 9,
+        "sampleGames": 11,
+        "confidencePct": 0.8181818181818182
       },
       "asWholeSet": {
         "games": 0,
@@ -821,14 +813,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 10581,
+    "totalGames": 13479,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4921084963614025,
+    "winrate": 0.4846798723940945,
     "items": [
       {
         "itemId": 3078,
@@ -930,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10581,
-      "games": 3498,
-      "confidencePct": 0.3305925715905869
+      "sampleGames": 13479,
+      "games": 4496,
+      "confidencePct": 0.33355590177312855
     },
     "position": {
       "role": "JUNGLE",
-      "games": 10192,
-      "sampleGames": 10581,
-      "confidencePct": 0.9632359890369531
+      "games": 12960,
+      "sampleGames": 13479,
+      "confidencePct": 0.961495659915424
     },
     "skillOrder": {
       "order": [

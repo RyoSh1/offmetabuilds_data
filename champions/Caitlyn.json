@@ -1,7 +1,7 @@
 {
   "championId": "Caitlyn",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,38 @@
         "Umbral Glaive",
         "Voltaic Cyclosword"
       ],
-      "games": 3,
+      "games": 4,
       "wins": 3,
-      "winrate": 1,
-      "score": 2509275185.4872236
+      "winrate": 0.75,
+      "score": 2749092576.3536034
+    },
+    {
+      "itemIds": [
+        3814,
+        6699
+      ],
+      "names": [
+        "Edge of Night",
+        "Voltaic Cyclosword"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 409965288.17494994
+    },
+    {
+      "itemIds": [
+        3172,
+        3814
+      ],
+      "names": [
+        "Gunmetal Greaves",
+        "Edge of Night"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 254535261.52511582
     },
     {
       "itemIds": [
@@ -26,10 +54,10 @@
         "Guardian Angel",
         "Gunmetal Greaves"
       ],
-      "games": 14,
-      "wins": 12,
-      "winrate": 0.8571428571428571,
-      "score": 114816233.39560585
+      "games": 26,
+      "wins": 22,
+      "winrate": 0.8461538461538461,
+      "score": 201126383.1570885
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Mortal Reminder",
         "Gunmetal Greaves"
       ],
-      "games": 34,
-      "wins": 19,
-      "winrate": 0.5588235294117647,
-      "score": 95096911.68818812
-    },
-    {
-      "itemIds": [
-        3172,
-        6676
-      ],
-      "names": [
-        "Gunmetal Greaves",
-        "The Collector"
-      ],
-      "games": 98,
-      "wins": 47,
-      "winrate": 0.47959183673469385,
-      "score": 27274683.023622982
-    },
-    {
-      "itemIds": [
-        3095,
-        3172
-      ],
-      "names": [
-        "Stormrazor",
-        "Gunmetal Greaves"
-      ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 15131316.870006975
+      "games": 58,
+      "wins": 35,
+      "winrate": 0.603448275862069,
+      "score": 170159264.6258778
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Caitlyn-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 19866,
+      "totalGames": 27769,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,10 +96,18 @@
           "purchaseSamples": 15
         },
         {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 411
+        },
+        {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 8252
         },
@@ -107,17 +115,9 @@
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 21573
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10087
         },
         {
           "itemId": 6699,
@@ -145,10 +145,10 @@
           "Umbral Glaive",
           "Voltaic Cyclosword"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 3,
-        "winrate": 1,
-        "score": 2509275185.4872236
+        "winrate": 0.75,
+        "score": 2749092576.3536034
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.25
       },
       "position": {
         "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,7 @@
       "id": "Caitlyn-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 19866,
+      "totalGames": 27769,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,26 +240,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 8252
-        },
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2671
-        },
-        {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 21573
         },
@@ -267,9 +251,25 @@
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 3018
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 73
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 99
         },
         {
           "itemId": 3026,
@@ -290,17 +290,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3026,
-          3172
+          3172,
+          3814
         ],
         "names": [
-          "Guardian Angel",
-          "Gunmetal Greaves"
+          "Gunmetal Greaves",
+          "Edge of Night"
         ],
-        "games": 14,
-        "wins": 12,
-        "winrate": 0.8571428571428571,
-        "score": 114816233.39560585
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 254535261.52511582
       },
       "runes": {
         "primaryStyle": {
@@ -353,25 +353,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 14,
-        "games": 13,
-        "confidencePct": 0.9285714285714286
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 14,
-        "sampleGames": 14,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -383,7 +383,7 @@
       "id": "Caitlyn-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 19866,
+      "totalGames": 27769,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +452,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 7481618.248543715
+        "score": 8940517.584712802
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +535,159 @@
       "id": "Caitlyn-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 19866,
+      "totalGames": 27769,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 411
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 8252
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 21573
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 10087
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 99
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6696,
+          6697
+        ],
+        "names": [
+          "Axiom Arc",
+          "Hubris"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 6493359.553673726
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Caitlyn-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 27769,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +756,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 5511636.86329872
+        "score": 5705660.00090023
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Caitlyn-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 19866,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1935
-        },
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 21573
-        },
-        {
-          "itemId": 3085,
-          "name": "Runaan's Hurricane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 633
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1808
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 239
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3085,
-          6665
-        ],
-        "names": [
-          "Runaan's Hurricane",
-          "Jak'Sho, The Protean"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 4614134.071087264
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 19866,
+    "totalGames": 27769,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48318735528037854,
+    "winrate": 0.484893226259498,
     "items": [
       {
         "itemId": 2523,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 19866,
-      "games": 4518,
-      "confidencePct": 0.22742373905164603
+      "sampleGames": 27769,
+      "games": 6275,
+      "confidencePct": 0.2259714069646008
     },
     "position": {
       "role": "BOTTOM",
-      "games": 19562,
-      "sampleGames": 19866,
-      "confidencePct": 0.9846974730695661
+      "games": 27322,
+      "sampleGames": 27769,
+      "confidencePct": 0.9839029133206093
     },
     "skillOrder": {
       "order": [

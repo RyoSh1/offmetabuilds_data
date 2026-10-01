@@ -1,7 +1,7 @@
 {
   "championId": "Viego",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-09-30T20:04:02.646Z",
+  "generatedAt": "2026-10-01T21:56:15.724Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Wit's End",
         "Terminus"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 440162492.57121867
+      "games": 9,
+      "wins": 8,
+      "winrate": 0.8888888888888888,
+      "score": 709340372.5385556
     },
     {
       "itemIds": [
@@ -26,10 +26,38 @@
         "Terminus",
         "Titanic Hydra"
       ],
-      "games": 19,
-      "wins": 15,
-      "winrate": 0.7894736842105263,
-      "score": 418910106.54599893
+      "games": 25,
+      "wins": 18,
+      "winrate": 0.72,
+      "score": 567458443.7552836
+    },
+    {
+      "itemIds": [
+        3153,
+        3302
+      ],
+      "names": [
+        "Blade of The Ruined King",
+        "Terminus"
+      ],
+      "games": 20,
+      "wins": 12,
+      "winrate": 0.6,
+      "score": 420808401.0548531
+    },
+    {
+      "itemIds": [
+        3091,
+        3153
+      ],
+      "names": [
+        "Wit's End",
+        "Blade of The Ruined King"
+      ],
+      "games": 22,
+      "wins": 16,
+      "winrate": 0.7272727272727273,
+      "score": 397155106.57462937
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 11,
       "wins": 5,
       "winrate": 0.45454545454545453,
-      "score": 318703099.1720507
-    },
-    {
-      "itemIds": [
-        3153,
-        3302
-      ],
-      "names": [
-        "Blade of The Ruined King",
-        "Terminus"
-      ],
-      "games": 13,
-      "wins": 7,
-      "winrate": 0.5384615384615384,
-      "score": 254402027.82774097
-    },
-    {
-      "itemIds": [
-        3091,
-        3153
-      ],
-      "names": [
-        "Wit's End",
-        "Blade of The Ruined King"
-      ],
-      "games": 13,
-      "wins": 8,
-      "winrate": 0.6153846153846154,
-      "score": 197143747.79334185
+      "score": 391624061.50246656
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Viego-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 15866,
+      "totalGames": 21553,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +145,10 @@
           "Wit's End",
           "Terminus"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 440162492.57121867
+        "games": 9,
+        "wins": 8,
+        "winrate": 0.8888888888888888,
+        "score": 709340372.5385556
       },
       "runes": {
         "primaryStyle": {
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "statPerks": [
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 1,
-        "confidencePct": 0.16666666666666666
+        "sampleGames": 9,
+        "games": 2,
+        "confidencePct": 0.2222222222222222
       },
       "position": {
         "role": "MIDDLE",
         "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "sampleGames": 9,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
@@ -231,7 +231,7 @@
       "id": "Viego-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 15866,
+      "totalGames": 21553,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -292,7 +292,7 @@
         "games": 11,
         "wins": 5,
         "winrate": 0.45454545454545453,
-        "score": 318703099.1720507
+        "score": 391624061.50246656
       },
       "runes": {
         "primaryStyle": {
@@ -375,7 +375,159 @@
       "id": "Viego-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 15866,
+      "totalGames": 21553,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 3181,
+          "name": "Hullbreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 121
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7334
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 3091,
+          "name": "Wit's End",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 106
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1251
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3181,
+          6631
+        ],
+        "names": [
+          "Hullbreaker",
+          "Stridebreaker"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 256531300.77254438
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Viego-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 21553,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -436,7 +588,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 174570304.3703563
+        "score": 207713054.0184009
       },
       "runes": {
         "primaryStyle": {
@@ -516,10 +668,10 @@
       }
     },
     {
-      "id": "Viego-4",
-      "buildIndex": 3,
+      "id": "Viego-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 15866,
+      "totalGames": 21553,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -585,10 +737,10 @@
           "Sterak's Gage",
           "Black Cleaver"
         ],
-        "games": 25,
-        "wins": 17,
-        "winrate": 0.68,
-        "score": 13202738.294085484
+        "games": 27,
+        "wins": 19,
+        "winrate": 0.7037037037037037,
+        "score": 17613485.440392625
       },
       "runes": {
         "primaryStyle": {
@@ -641,15 +793,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 25,
+        "sampleGames": 27,
         "games": 7,
-        "confidencePct": 0.28
+        "confidencePct": 0.25925925925925924
       },
       "position": {
         "role": "JUNGLE",
-        "games": 24,
-        "sampleGames": 25,
-        "confidencePct": 0.96
+        "games": 25,
+        "sampleGames": 27,
+        "confidencePct": 0.9259259259259259
       },
       "skillOrder": {
         "order": [
@@ -666,169 +818,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Viego-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 15866,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1586
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 170
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 70
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 7334
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4328
-        },
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 48
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3142,
-          6699
-        ],
-        "names": [
-          "Youmuu's Ghostblade",
-          "Voltaic Cyclosword"
-        ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 12638751.21815842
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 15866,
+    "totalGames": 21553,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4878986512038321,
+    "winrate": 0.48990859741103326,
     "items": [
       {
         "itemId": 6672,
@@ -930,15 +930,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 15866,
-      "games": 6278,
-      "confidencePct": 0.3956888944913652
+      "sampleGames": 21553,
+      "games": 8455,
+      "confidencePct": 0.39228877650443095
     },
     "position": {
       "role": "JUNGLE",
-      "games": 14756,
-      "sampleGames": 15866,
-      "confidencePct": 0.9300390772721543
+      "games": 20060,
+      "sampleGames": 21553,
+      "confidencePct": 0.9307289008490698
     },
     "skillOrder": {
       "order": [
