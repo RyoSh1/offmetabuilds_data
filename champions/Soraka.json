@@ -1,7 +1,7 @@
 {
   "championId": "Soraka",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-01T21:56:15.724Z",
+  "generatedAt": "2026-10-02T22:07:57.232Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 3796447420.5615892
+      "score": 4120555889.2465177
+    },
+    {
+      "itemIds": [
+        6653,
+        6657
+      ],
+      "names": [
+        "Liandry's Torment",
+        "Rod of Ages"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 512322160.4504621
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 444919771.02635634
+      "score": 442674118.2080086
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 7,
       "wins": 4,
       "winrate": 0.5714285714285714,
-      "score": 252847567.9812145
+      "score": 275122684.98042876
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 11120094.557865746
-    },
-    {
-      "itemIds": [
-        2065,
-        2524
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Bandlepipes"
-      ],
-      "games": 6,
-      "wins": 6,
-      "winrate": 1,
-      "score": 5705956.580604216
+      "score": 10950821.794244738
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Soraka-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10952,
+      "totalGames": 11873,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,7 +93,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6855
+          "purchaseSamples": 7873
         },
         {
           "itemId": 2522,
@@ -124,7 +124,7 @@
         "games": 6,
         "wins": 5,
         "winrate": 0.8333333333333334,
-        "score": 3796447420.5615892
+        "score": 4120555889.2465177
       },
       "runes": {
         "primaryStyle": {
@@ -207,7 +207,7 @@
       "id": "Soraka-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 10952,
+      "totalGames": 11873,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -221,7 +221,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 32
+          "purchaseSamples": 36
         },
         {
           "itemId": 3158,
@@ -229,7 +229,135 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6855
+          "purchaseSamples": 7873
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6653,
+          6657
+        ],
+        "names": [
+          "Liandry's Torment",
+          "Rod of Ages"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 512322160.4504621
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Soraka-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 11873,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7873
         },
         {
           "itemId": 3107,
@@ -237,7 +365,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 5296
+          "purchaseSamples": 6056
         },
         {
           "itemId": 3041,
@@ -245,7 +373,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 163
+          "purchaseSamples": 211
         },
         {
           "itemId": 3040,
@@ -276,7 +404,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 444919771.02635634
+        "score": 442674118.2080086
       },
       "runes": {
         "primaryStyle": {
@@ -342,12 +470,12 @@
       "skillOrder": {
         "order": [
           "Q",
-          "W",
-          "E"
+          "E",
+          "W"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -356,10 +484,10 @@
       }
     },
     {
-      "id": "Soraka-3",
-      "buildIndex": 2,
+      "id": "Soraka-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10952,
+      "totalGames": 11873,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -373,7 +501,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 236
+          "purchaseSamples": 266
         },
         {
           "itemId": 3158,
@@ -381,7 +509,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6855
+          "purchaseSamples": 7873
         },
         {
           "itemId": 2524,
@@ -389,7 +517,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 22
         },
         {
           "itemId": 2065,
@@ -397,7 +525,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 206
+          "purchaseSamples": 261
         },
         {
           "itemId": 3190,
@@ -405,7 +533,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 591
+          "purchaseSamples": 646
         },
         {
           "itemId": 3041,
@@ -413,7 +541,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 163
+          "purchaseSamples": 211
         }
       ],
       "seedPair": {
@@ -428,7 +556,7 @@
         "games": 7,
         "wins": 4,
         "winrate": 0.5714285714285714,
-        "score": 252847567.9812145
+        "score": 275122684.98042876
       },
       "runes": {
         "primaryStyle": {
@@ -508,10 +636,10 @@
       }
     },
     {
-      "id": "Soraka-4",
-      "buildIndex": 3,
+      "id": "Soraka-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10952,
+      "totalGames": 11873,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -525,7 +653,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 32
+          "purchaseSamples": 36
         },
         {
           "itemId": 3158,
@@ -533,7 +661,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6855
+          "purchaseSamples": 7873
         },
         {
           "itemId": 6621,
@@ -541,7 +669,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2313
+          "purchaseSamples": 2638
         },
         {
           "itemId": 3107,
@@ -549,7 +677,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 5296
+          "purchaseSamples": 6056
         },
         {
           "itemId": 3041,
@@ -557,7 +685,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 163
+          "purchaseSamples": 211
         },
         {
           "itemId": 6616,
@@ -565,7 +693,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 505
+          "purchaseSamples": 560
         }
       ],
       "seedPair": {
@@ -580,7 +708,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 11120094.557865746
+        "score": 10950821.794244738
       },
       "runes": {
         "primaryStyle": {
@@ -658,169 +786,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Soraka-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 10952,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 236
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6855
-        },
-        {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 505
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 163
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2530,
-          6616
-        ],
-        "names": [
-          "Diadem of Songs",
-          "Staff of Flowing Water"
-        ],
-        "games": 14,
-        "wins": 9,
-        "winrate": 0.6428571428571429,
-        "score": 973384.6531051849
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 5,
-        "confidencePct": 0.35714285714285715
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 9,
-        "sampleGames": 13,
-        "confidencePct": 0.6923076923076923
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 10952,
+    "totalGames": 11873,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49196493791088386,
+    "winrate": 0.49170386591425924,
     "items": [
       {
         "itemId": 6617,
@@ -828,7 +804,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 10355
+        "purchaseSamples": 11782
       },
       {
         "itemId": 3158,
@@ -836,7 +812,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 6855
+        "purchaseSamples": 7873
       },
       {
         "itemId": 3107,
@@ -844,7 +820,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5296
+        "purchaseSamples": 6056
       },
       {
         "itemId": 6621,
@@ -852,7 +828,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2313
+        "purchaseSamples": 2638
       },
       {
         "itemId": 3222,
@@ -860,7 +836,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1600
+        "purchaseSamples": 1881
       },
       {
         "itemId": 3504,
@@ -868,7 +844,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 775
+        "purchaseSamples": 867
       }
     ],
     "runes": {
@@ -922,15 +898,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10952,
-      "games": 2046,
-      "confidencePct": 0.18681519357195034
+      "sampleGames": 11873,
+      "games": 2286,
+      "confidencePct": 0.19253769055840983
     },
     "position": {
       "role": "UTILITY",
-      "games": 10632,
-      "sampleGames": 10952,
-      "confidencePct": 0.970781592403214
+      "games": 11531,
+      "sampleGames": 11873,
+      "confidencePct": 0.9711951486566158
     },
     "skillOrder": {
       "order": [
@@ -938,9 +914,9 @@
         "Q",
         "E"
       ],
-      "games": 6492,
-      "sampleGames": 7731,
-      "confidencePct": 0.8397361272797826
+      "games": 7837,
+      "sampleGames": 9383,
+      "confidencePct": 0.8352339337099008
     }
   }
 }
