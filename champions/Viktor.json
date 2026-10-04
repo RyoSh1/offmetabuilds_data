@@ -1,8 +1,22 @@
 {
   "championId": "Viktor",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3040,
+        6662
+      ],
+      "names": [
+        "Seraph's Embrace",
+        "Iceborn Gauntlet"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 262572597.70728344
+    },
     {
       "itemIds": [
         3116,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 78406766.24045318
+      "score": 79395287.04528016
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 57099454.8792797
+      "score": 53291102.62169183
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Seraph's Embrace",
         "Stormsurge"
       ],
-      "games": 13,
+      "games": 14,
       "wins": 6,
-      "winrate": 0.46153846153846156,
-      "score": 32708386.41300913
+      "winrate": 0.42857142857142855,
+      "score": 33887423.39065392
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Dusk and Dawn",
         "Rabadon's Deathcap"
       ],
-      "games": 7,
-      "wins": 4,
-      "winrate": 0.5714285714285714,
-      "score": 20997126.931969296
-    },
-    {
-      "itemIds": [
-        3040,
-        3102
-      ],
-      "names": [
-        "Seraph's Embrace",
-        "Banshee's Veil"
-      ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 20955835.4488905
+      "games": 9,
+      "wins": 5,
+      "winrate": 0.5555555555555556,
+      "score": 24473572.68440062
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Viktor-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 40334,
+      "totalGames": 46382,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6662,
+          "name": "Iceborn Gauntlet",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 63
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7694
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1285
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3621
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3040,
+          6662
+        ],
+        "names": [
+          "Seraph's Embrace",
+          "Iceborn Gauntlet"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 262572597.70728344
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Viktor-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 46382,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +300,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 78406766.24045318
+        "score": 79395287.04528016
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +380,10 @@
       }
     },
     {
-      "id": "Viktor-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 40334,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 63
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 7694
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1285
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3621
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6662,
-          8010
-        ],
-        "names": [
-          "Iceborn Gauntlet",
-          "Bloodletter's Curse"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 57099454.8792797
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Viktor-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 40334,
+      "totalGames": 46382,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -449,10 +449,10 @@
           "Seraph's Embrace",
           "Stormsurge"
         ],
-        "games": 13,
+        "games": 14,
         "wins": 6,
-        "winrate": 0.46153846153846156,
-        "score": 32708386.41300913
+        "winrate": 0.42857142857142855,
+        "score": 33887423.39065392
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
+        "sampleGames": 14,
         "games": 3,
-        "confidencePct": 0.23076923076923078
+        "confidencePct": 0.21428571428571427
       },
       "position": {
         "role": "BOTTOM",
-        "games": 8,
-        "sampleGames": 13,
-        "confidencePct": 0.6153846153846154
+        "games": 9,
+        "sampleGames": 14,
+        "confidencePct": 0.6428571428571429
       },
       "skillOrder": {
         "order": [
@@ -535,7 +535,7 @@
       "id": "Viktor-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 40334,
+      "totalGames": 46382,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -560,36 +560,36 @@
           "purchaseSamples": 13
         },
         {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7694
+        },
+        {
           "itemId": 3089,
           "name": "Rabadon's Deathcap",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 9499
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 4645,
+          "name": "Shadowflame",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 14909
+          "purchaseSamples": 9553
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 4541
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 12
         }
       ],
       "seedPair": {
@@ -601,10 +601,10 @@
           "Dusk and Dawn",
           "Rabadon's Deathcap"
         ],
-        "games": 7,
-        "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 20997126.931969296
+        "games": 9,
+        "wins": 5,
+        "winrate": 0.5555555555555556,
+        "score": 24473572.68440062
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 6,
-        "confidencePct": 0.8571428571428571
+        "sampleGames": 9,
+        "games": 7,
+        "confidencePct": 0.7777777777777778
       },
       "position": {
         "role": "TOP",
-        "games": 6,
-        "sampleGames": 7,
-        "confidencePct": 0.8571428571428571
+        "games": 7,
+        "sampleGames": 9,
+        "confidencePct": 0.7777777777777778
       },
       "skillOrder": {
         "order": [
@@ -687,7 +687,7 @@
       "id": "Viktor-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 40334,
+      "totalGames": 46382,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -704,59 +704,59 @@
           "purchaseSamples": 63
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
+          "itemId": 2522,
+          "name": "Actualizer",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1207
+          "purchaseSamples": 27
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 4646,
+          "name": "Stormsurge",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1022
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1285
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 934
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 3621
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2040
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 449
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3102,
-          3165
+          2522,
+          3040
         ],
         "names": [
-          "Banshee's Veil",
-          "Morellonomicon"
+          "Actualizer",
+          "Seraph's Embrace"
         ],
-        "games": 10,
-        "wins": 7,
-        "winrate": 0.7,
-        "score": 20160427.047070935
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 23483153.69100199
       },
       "runes": {
         "primaryStyle": {
@@ -773,8 +773,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -782,42 +782,42 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8401,
-            "name": "Shield Bash"
+            "id": 9105,
+            "name": "Legend: Haste"
           }
         ],
         "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 10,
-        "games": 6,
-        "confidencePct": 0.6
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -825,8 +825,8 @@
           "Q",
           "W"
         ],
-        "games": 10,
-        "sampleGames": 10,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 40334,
+    "totalGames": 46382,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4991818317052611,
+    "winrate": 0.49933163727308005,
     "items": [
       {
         "itemId": 2503,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 40334,
-      "games": 13657,
-      "confidencePct": 0.33859770912877474
+      "sampleGames": 46382,
+      "games": 15601,
+      "confidencePct": 0.336358932344444
     },
     "position": {
       "role": "MIDDLE",
-      "games": 28571,
-      "sampleGames": 40334,
-      "confidencePct": 0.7083601923935141
+      "games": 32887,
+      "sampleGames": 46382,
+      "confidencePct": 0.7090466129101807
     },
     "skillOrder": {
       "order": [

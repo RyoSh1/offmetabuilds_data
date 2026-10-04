@@ -1,7 +1,7 @@
 {
   "championId": "Lucian",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Serylda's Grudge",
         "Axiom Arc"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 991348794.2520082
+      "winrate": 0.8,
+      "score": 866819656.6234114
+    },
+    {
+      "itemIds": [
+        3179,
+        6699
+      ],
+      "names": [
+        "Umbral Glaive",
+        "Voltaic Cyclosword"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 744334557.1702385
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 435290431.0496544
+      "score": 406818986.89408296
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 396902533.46527326
+      "score": 351116710.95228004
     },
     {
       "itemIds": [
-        2520,
-        3042
+        3142,
+        6699
       ],
       "names": [
-        "Bastionbreaker",
-        "Muramana"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 328171293.1823529
-    },
-    {
-      "itemIds": [
-        6696,
-        6697
-      ],
-      "names": [
-        "Axiom Arc",
-        "Hubris"
+        "Youmuu's Ghostblade",
+        "Voltaic Cyclosword"
       ],
       "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 237135233.07081214
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 300495960.2311721
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Lucian-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 24720,
+      "totalGames": 28534,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -145,10 +145,10 @@
           "Serylda's Grudge",
           "Axiom Arc"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 991348794.2520082
+        "winrate": 0.8,
+        "score": 866819656.6234114
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +201,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -231,7 +231,311 @@
       "id": "Lucian-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 24720,
+      "totalGames": 28534,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 374
+        },
+        {
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 98
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 51
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3179,
+          6699
+        ],
+        "names": [
+          "Umbral Glaive",
+          "Voltaic Cyclosword"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 744334557.1702385
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Lucian-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 28534,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 374
+        },
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 23
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2577
+        },
+        {
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 98
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3142,
+          6699
+        ],
+        "names": [
+          "Youmuu's Ghostblade",
+          "Voltaic Cyclosword"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 300495960.2311721
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Lucian-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 28534,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,10 +552,18 @@
           "purchaseSamples": 7
         },
         {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2577
+        },
+        {
           "itemId": 3168,
           "name": "Immortal Path",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 17
         },
@@ -259,7 +571,7 @@
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 15
         },
@@ -267,17 +579,9 @@
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 98
-        },
-        {
-          "itemId": 3094,
-          "name": "Rapid Firecannon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 886
         },
         {
           "itemId": 3042,
@@ -300,7 +604,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 328171293.1823529
+        "score": 243432298.46631426
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +684,10 @@
       }
     },
     {
-      "id": "Lucian-3",
-      "buildIndex": 2,
+      "id": "Lucian-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 24720,
+      "totalGames": 28534,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -449,10 +753,10 @@
           "Hexoptics C44",
           "Gunmetal Greaves"
         ],
-        "games": 17,
-        "wins": 8,
-        "winrate": 0.47058823529411764,
-        "score": 94012974.35648254
+        "games": 23,
+        "wins": 11,
+        "winrate": 0.4782608695652174,
+        "score": 86813772.01212385
       },
       "runes": {
         "primaryStyle": {
@@ -505,14 +809,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 17,
+        "sampleGames": 23,
         "games": 5,
-        "confidencePct": 0.29411764705882354
+        "confidencePct": 0.21739130434782608
       },
       "position": {
         "role": "MIDDLE",
-        "games": 17,
-        "sampleGames": 17,
+        "games": 23,
+        "sampleGames": 23,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -530,321 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Lucian-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 24720,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 161
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2577
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3387
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          3153
-        ],
-        "names": [
-          "Black Cleaver",
-          "Blade of The Ruined King"
-        ],
-        "games": 38,
-        "wins": 24,
-        "winrate": 0.631578947368421,
-        "score": 81141898.43506545
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 38,
-        "games": 5,
-        "confidencePct": 0.13157894736842105
-      },
-      "position": {
-        "role": "TOP",
-        "games": 20,
-        "sampleGames": 38,
-        "confidencePct": 0.5263157894736842
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 37,
-        "sampleGames": 38,
-        "confidencePct": 0.9736842105263158
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Lucian-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 24720,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 16
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 7
-        },
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 340
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 745
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3042,
-          3078
-        ],
-        "names": [
-          "Muramana",
-          "Trinity Force"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 38336086.56080185
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 24720,
+    "totalGames": 28534,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4809870550161812,
+    "winrate": 0.47970841802761616,
     "items": [
       {
         "itemId": 3508,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 24720,
-      "games": 4529,
-      "confidencePct": 0.18321197411003237
+      "sampleGames": 28534,
+      "games": 5196,
+      "confidencePct": 0.1820985490993201
     },
     "position": {
       "role": "BOTTOM",
-      "games": 22015,
-      "sampleGames": 24720,
-      "confidencePct": 0.8905744336569579
+      "games": 24861,
+      "sampleGames": 28534,
+      "confidencePct": 0.8712763720473821
     },
     "skillOrder": {
       "order": [

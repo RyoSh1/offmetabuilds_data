@@ -1,7 +1,7 @@
 {
   "championId": "Ambessa",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 98927550.08605039
+      "score": 96493943.15972511
+    },
+    {
+      "itemIds": [
+        3031,
+        3036
+      ],
+      "names": [
+        "Infinity Edge",
+        "Lord Dominik's Regards"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 70428686.2717909
     },
     {
       "itemIds": [
@@ -26,10 +40,10 @@
         "Sundered Sky",
         "Serylda's Grudge"
       ],
-      "games": 16,
-      "wins": 10,
-      "winrate": 0.625,
-      "score": 44956843.26501324
+      "games": 19,
+      "wins": 11,
+      "winrate": 0.5789473684210527,
+      "score": 47916496.99343761
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Kaenic Rookern",
         "Maw of Malmortius"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 33693163.34235805
+      "winrate": 0.8,
+      "score": 32255232.14353394
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Guardian Angel",
         "Mortal Reminder"
       ],
-      "games": 32,
-      "wins": 21,
-      "winrate": 0.65625,
-      "score": 27509592.65797453
-    },
-    {
-      "itemIds": [
-        3143,
-        6694
-      ],
-      "names": [
-        "Randuin's Omen",
-        "Serylda's Grudge"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 26462547.05826622
+      "games": 35,
+      "wins": 23,
+      "winrate": 0.6571428571428571,
+      "score": 31490855.047432486
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ambessa-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 24696,
+      "totalGames": 28335,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,18 +96,10 @@
           "purchaseSamples": 442
         },
         {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1778
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 14703
         },
@@ -115,9 +107,17 @@
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 5175
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 727
         },
         {
           "itemId": 6665,
@@ -148,7 +148,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 98927550.08605039
+        "score": 96493943.15972511
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,159 @@
       "id": "Ambessa-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 24696,
+      "totalGames": 28335,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1778
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1761
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 14703
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 691
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5175
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3031,
+          3036
+        ],
+        "names": [
+          "Infinity Edge",
+          "Lord Dominik's Regards"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 70428686.2717909
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ambessa-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 28335,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -297,10 +449,10 @@
           "Sundered Sky",
           "Serylda's Grudge"
         ],
-        "games": 16,
-        "wins": 10,
-        "winrate": 0.625,
-        "score": 44956843.26501324
+        "games": 19,
+        "wins": 11,
+        "winrate": 0.5789473684210527,
+        "score": 47916496.99343761
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 16,
-        "games": 15,
-        "confidencePct": 0.9375
+        "sampleGames": 19,
+        "games": 16,
+        "confidencePct": 0.8421052631578947
       },
       "position": {
         "role": "JUNGLE",
-        "games": 15,
-        "sampleGames": 16,
-        "confidencePct": 0.9375
+        "games": 18,
+        "sampleGames": 19,
+        "confidencePct": 0.9473684210526315
       },
       "skillOrder": {
         "order": [
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Ambessa-3",
-      "buildIndex": 2,
+      "id": "Ambessa-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 24696,
+      "totalGames": 28335,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -449,10 +601,10 @@
           "Kaenic Rookern",
           "Maw of Malmortius"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 33693163.34235805
+        "winrate": 0.8,
+        "score": 32255232.14353394
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +657,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "MIDDLE",
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -532,10 +684,10 @@
       }
     },
     {
-      "id": "Ambessa-4",
-      "buildIndex": 3,
+      "id": "Ambessa-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 24696,
+      "totalGames": 28335,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -576,158 +728,6 @@
           "purchaseSamples": 709
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1111
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 94
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          3033
-        ],
-        "names": [
-          "Guardian Angel",
-          "Mortal Reminder"
-        ],
-        "games": 32,
-        "wins": 21,
-        "winrate": 0.65625,
-        "score": 27509592.65797453
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 32,
-        "games": 3,
-        "confidencePct": 0.09375
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 20,
-        "sampleGames": 32,
-        "confidencePct": 0.625
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 31,
-        "sampleGames": 32,
-        "confidencePct": 0.96875
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ambessa-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 24696,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1778
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1761
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 14703
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 691
-        },
-        {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
@@ -746,17 +746,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3036,
-          6697
+          3026,
+          3033
         ],
         "names": [
-          "Lord Dominik's Regards",
-          "Hubris"
+          "Guardian Angel",
+          "Mortal Reminder"
         ],
-        "games": 69,
-        "wins": 39,
-        "winrate": 0.5652173913043478,
-        "score": 24016016.533504613
+        "games": 35,
+        "wins": 23,
+        "winrate": 0.6571428571428571,
+        "score": 31490855.047432486
       },
       "runes": {
         "primaryStyle": {
@@ -777,22 +777,22 @@
             "name": "Sixth Sense"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8401,
+            "name": "Shield Bash"
           }
         ],
         "statPerks": [
@@ -809,15 +809,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 69,
-        "games": 17,
-        "confidencePct": 0.2463768115942029
+        "sampleGames": 35,
+        "games": 4,
+        "confidencePct": 0.11428571428571428
       },
       "position": {
         "role": "JUNGLE",
-        "games": 38,
-        "sampleGames": 69,
-        "confidencePct": 0.5507246376811594
+        "games": 20,
+        "sampleGames": 35,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
@@ -825,9 +825,9 @@
           "E",
           "W"
         ],
-        "games": 69,
-        "sampleGames": 69,
-        "confidencePct": 1
+        "games": 31,
+        "sampleGames": 32,
+        "confidencePct": 0.96875
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 24696,
+    "totalGames": 28335,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48566569484936833,
+    "winrate": 0.48664196223751544,
     "items": [
       {
         "itemId": 6692,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 24696,
-      "games": 2360,
-      "confidencePct": 0.09556203433754454
+      "sampleGames": 28335,
+      "games": 2729,
+      "confidencePct": 0.09631198164813834
     },
     "position": {
       "role": "TOP",
-      "games": 17950,
-      "sampleGames": 24696,
-      "confidencePct": 0.7268383543893748
+      "games": 20646,
+      "sampleGames": 28335,
+      "confidencePct": 0.7286394917946003
     },
     "skillOrder": {
       "order": [

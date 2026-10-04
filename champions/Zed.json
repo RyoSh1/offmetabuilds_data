@@ -1,7 +1,7 @@
 {
   "championId": "Zed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 205153430.26939496
+      "score": 211979803.12771857
     },
     {
       "itemIds": [
@@ -26,10 +26,24 @@
         "Sterak's Gage",
         "Black Cleaver"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 84805539.75739498
+      "winrate": 0.625,
+      "score": 87262588.06608208
+    },
+    {
+      "itemIds": [
+        3179,
+        6698
+      ],
+      "names": [
+        "Umbral Glaive",
+        "Profane Hydra"
+      ],
+      "games": 11,
+      "wins": 8,
+      "winrate": 0.7272727272727273,
+      "score": 36132772.93774266
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Spear of Shojin",
         "Death's Dance"
       ],
-      "games": 23,
-      "wins": 15,
-      "winrate": 0.6521739130434783,
-      "score": 26966480.780650254
+      "games": 26,
+      "wins": 16,
+      "winrate": 0.6153846153846154,
+      "score": 28788185.67542755
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Guardian Angel",
         "Spear of Shojin"
       ],
-      "games": 18,
-      "wins": 13,
-      "winrate": 0.7222222222222222,
-      "score": 25460852.607689798
-    },
-    {
-      "itemIds": [
-        3026,
-        6697
-      ],
-      "names": [
-        "Guardian Angel",
-        "Hubris"
-      ],
-      "games": 35,
-      "wins": 25,
-      "winrate": 0.7142857142857143,
-      "score": 20230287.49249191
+      "games": 20,
+      "wins": 14,
+      "winrate": 0.7,
+      "score": 26767197.040541008
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Zed-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 26904,
+      "totalGames": 30962,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -124,7 +124,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 205153430.26939496
+        "score": 211979803.12771857
       },
       "runes": {
         "primaryStyle": {
@@ -207,7 +207,7 @@
       "id": "Zed-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 26904,
+      "totalGames": 30962,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -240,20 +240,20 @@
           "purchaseSamples": 726
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 3765
-        },
-        {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 814
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3765
         },
         {
           "itemId": 3053,
@@ -273,10 +273,10 @@
           "Sterak's Gage",
           "Black Cleaver"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 84805539.75739498
+        "winrate": 0.625,
+        "score": 87262588.06608208
       },
       "runes": {
         "primaryStyle": {
@@ -329,15 +329,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 2,
-        "confidencePct": 0.2857142857142857
+        "confidencePct": 0.25
       },
       "position": {
         "role": "TOP",
         "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 8,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -359,7 +359,159 @@
       "id": "Zed-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 26904,
+      "totalGames": 30962,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 788
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 283
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 726
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 814
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 929
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3179,
+          6698
+        ],
+        "names": [
+          "Umbral Glaive",
+          "Profane Hydra"
+        ],
+        "games": 11,
+        "wins": 8,
+        "winrate": 0.7272727272727273,
+        "score": 36132772.93774266
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 11,
+        "games": 4,
+        "confidencePct": 0.36363636363636365
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 5,
+        "sampleGames": 11,
+        "confidencePct": 0.45454545454545453
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 10,
+        "sampleGames": 10,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zed-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 30962,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -400,187 +552,35 @@
           "purchaseSamples": 814
         },
         {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 92
-        },
-        {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 929
+        },
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 650
         }
       ],
       "seedPair": {
         "itemIds": [
-          3161,
-          6333
+          3026,
+          3161
         ],
         "names": [
-          "Spear of Shojin",
-          "Death's Dance"
-        ],
-        "games": 23,
-        "wins": 15,
-        "winrate": 0.6521739130434783,
-        "score": 26966480.780650254
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 23,
-        "games": 2,
-        "confidencePct": 0.08695652173913043
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 8,
-        "sampleGames": 23,
-        "confidencePct": 0.34782608695652173
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
+          "Guardian Angel",
+          "Spear of Shojin"
         ],
         "games": 20,
-        "sampleGames": 22,
-        "confidencePct": 0.9090909090909091
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Zed-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 26904,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 788
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 726
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 743
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 814
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 929
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3156,
-          3179
-        ],
-        "names": [
-          "Maw of Malmortius",
-          "Umbral Glaive"
-        ],
-        "games": 11,
-        "wins": 6,
-        "winrate": 0.5454545454545454,
-        "score": 11950432.506680775
+        "wins": 14,
+        "winrate": 0.7,
+        "score": 26767197.040541008
       },
       "runes": {
         "primaryStyle": {
@@ -601,22 +601,22 @@
             "name": "Triple Tonic"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
@@ -629,19 +629,171 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 11,
+        "sampleGames": 20,
         "games": 3,
-        "confidencePct": 0.2727272727272727
+        "confidencePct": 0.15
       },
       "position": {
         "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 11,
-        "confidencePct": 0.36363636363636365
+        "games": 13,
+        "sampleGames": 20,
+        "confidencePct": 0.65
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 16,
+        "sampleGames": 17,
+        "confidencePct": 0.9411764705882353
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zed-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 30962,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1798
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 788
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 283
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 929
+        },
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 650
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3026,
+          3179
+        ],
+        "names": [
+          "Guardian Angel",
+          "Umbral Glaive"
+        ],
+        "games": 14,
+        "wins": 8,
+        "winrate": 0.5714285714285714,
+        "score": 15273904.589484181
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 14,
+        "games": 10,
+        "confidencePct": 0.7142857142857143
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 11,
+        "sampleGames": 14,
+        "confidencePct": 0.7857142857142857
       },
       "skillOrder": {
         "order": [
@@ -658,169 +810,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Zed-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 26904,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1321
-        },
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 283
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 726
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 814
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 929
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          6698
-        ],
-        "names": [
-          "Black Cleaver",
-          "Profane Hydra"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 11751964.597679885
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 26904,
+    "totalGames": 30962,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5093666369313113,
+    "winrate": 0.5081390091079387,
     "items": [
       {
         "itemId": 6699,
@@ -922,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 26904,
-      "games": 7760,
-      "confidencePct": 0.28843294677371395
+      "sampleGames": 30962,
+      "games": 8910,
+      "confidencePct": 0.2877721077449777
     },
     "position": {
       "role": "MIDDLE",
-      "games": 18878,
-      "sampleGames": 26904,
-      "confidencePct": 0.7016800475765685
+      "games": 21604,
+      "sampleGames": 30962,
+      "confidencePct": 0.6977585427297979
     },
     "skillOrder": {
       "order": [

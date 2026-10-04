@@ -1,7 +1,7 @@
 {
   "championId": "Singed",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,35 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 523244437.2849091
+      "score": 503943541.18198234
+    },
+    {
+      "itemIds": [
+        4645,
+        4646
+      ],
+      "names": [
+        "Shadowflame",
+        "Stormsurge"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 256886495.0225747
+    },
+    {
+      "itemIds": [
+        2503,
+        4645
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Shadowflame"
+      ],
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 202161215.04962793
     },
     {
       "itemIds": [
@@ -29,21 +57,7 @@
       "games": 6,
       "wins": 3,
       "winrate": 0.5,
-      "score": 213098941.97478977
-    },
-    {
-      "itemIds": [
-        2503,
-        4645
-      ],
-      "names": [
-        "Blackfire Torch",
-        "Shadowflame"
-      ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 158446167.60889745
+      "score": 195755373.38539308
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Bandlepipes",
         "Frozen Heart"
       ],
-      "games": 11,
+      "games": 12,
       "wins": 7,
-      "winrate": 0.6363636363636364,
-      "score": 80249021.8453908
-    },
-    {
-      "itemIds": [
-        2065,
-        2524
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Bandlepipes"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 58684447.91508226
+      "winrate": 0.5833333333333334,
+      "score": 82462033.26602054
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Singed-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10703,
+      "totalGames": 12150,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +148,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 523244437.2849091
+        "score": 503943541.18198234
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Singed-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 10703,
+      "totalGames": 12150,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,10 +248,18 @@
           "purchaseSamples": 8815
         },
         {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1712
+        },
+        {
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 231
         },
@@ -259,33 +267,25 @@
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 165
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 8020,
+          "name": "Abyssal Mask",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 83
+          "purchaseSamples": 102
         },
         {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 333
+          "purchaseSamples": 1054
         }
       ],
       "seedPair": {
@@ -297,10 +297,10 @@
           "Bandlepipes",
           "Frozen Heart"
         ],
-        "games": 11,
+        "games": 12,
         "wins": 7,
-        "winrate": 0.6363636363636364,
-        "score": 80249021.8453908
+        "winrate": 0.5833333333333334,
+        "score": 82462033.26602054
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 11,
+        "sampleGames": 12,
         "games": 6,
-        "confidencePct": 0.5454545454545454
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 11,
-        "confidencePct": 0.6363636363636364
+        "games": 8,
+        "sampleGames": 12,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -383,7 +383,7 @@
       "id": "Singed-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10703,
+      "totalGames": 12150,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -449,10 +449,10 @@
           "Mejai's Soulstealer",
           "Shadowflame"
         ],
-        "games": 16,
-        "wins": 15,
-        "winrate": 0.9375,
-        "score": 51788777.2841308
+        "games": 18,
+        "wins": 17,
+        "winrate": 0.9444444444444444,
+        "score": 56174282.78093181
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 16,
+        "sampleGames": 18,
         "games": 6,
-        "confidencePct": 0.375
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "BOTTOM",
         "games": 9,
-        "sampleGames": 16,
-        "confidencePct": 0.5625
+        "sampleGames": 18,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -535,7 +535,7 @@
       "id": "Singed-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10703,
+      "totalGames": 12150,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +604,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 30038281.716844425
+        "score": 28297060.26518722
       },
       "runes": {
         "primaryStyle": {
@@ -687,7 +687,7 @@
       "id": "Singed-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10703,
+      "totalGames": 12150,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -756,7 +756,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 17343848.084509216
+        "score": 16883476.232530642
       },
       "runes": {
         "primaryStyle": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 10703,
+    "totalGames": 12150,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5097636176772867,
+    "winrate": 0.5070781893004115,
     "items": [
       {
         "itemId": 3009,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10703,
-      "games": 2689,
-      "confidencePct": 0.2512379706624311
+      "sampleGames": 12150,
+      "games": 3137,
+      "confidencePct": 0.25818930041152266
     },
     "position": {
       "role": "TOP",
-      "games": 8243,
-      "sampleGames": 10703,
-      "confidencePct": 0.7701578996543025
+      "games": 9373,
+      "sampleGames": 12150,
+      "confidencePct": 0.771440329218107
     },
     "skillOrder": {
       "order": [

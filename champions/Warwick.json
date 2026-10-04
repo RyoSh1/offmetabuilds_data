@@ -1,8 +1,22 @@
 {
   "championId": "Warwick",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3742,
+        4005
+      ],
+      "names": [
+        "Dead Man's Plate",
+        "Imperial Mandate"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 547111958.50845
+    },
     {
       "itemIds": [
         3050,
@@ -12,66 +26,52 @@
         "Zeke's Convergence",
         "Imperial Mandate"
       ],
-      "games": 5,
-      "wins": 2,
-      "winrate": 0.4,
-      "score": 98676453.86510482
-    },
-    {
-      "itemIds": [
-        3050,
-        3109
-      ],
-      "names": [
-        "Zeke's Convergence",
-        "Knight's Vow"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 44777163.03840163
-    },
-    {
-      "itemIds": [
-        3041,
-        6662
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Iceborn Gauntlet"
-      ],
-      "games": 3,
+      "games": 7,
       "wins": 3,
-      "winrate": 1,
-      "score": 44248358.92754379
+      "winrate": 0.42857142857142855,
+      "score": 141630769.29298404
     },
     {
       "itemIds": [
-        2501,
-        3084
+        3089,
+        4645
       ],
       "names": [
-        "Overlord's Bloodmail",
-        "Heartsteel"
+        "Rabadon's Deathcap",
+        "Shadowflame"
       ],
-      "games": 8,
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 66551699.503472626
+    },
+    {
+      "itemIds": [
+        3100,
+        4645
+      ],
+      "names": [
+        "Lich Bane",
+        "Shadowflame"
+      ],
+      "games": 20,
       "wins": 6,
-      "winrate": 0.75,
-      "score": 31854126.713290922
+      "winrate": 0.3,
+      "score": 59013681.805128336
     },
     {
       "itemIds": [
-        6698,
-        6699
+        3089,
+        3100
       ],
       "names": [
-        "Profane Hydra",
-        "Voltaic Cyclosword"
+        "Rabadon's Deathcap",
+        "Lich Bane"
       ],
-      "games": 3,
+      "games": 7,
       "wins": 3,
-      "winrate": 1,
-      "score": 22054623.380968895
+      "winrate": 0.42857142857142855,
+      "score": 54221518.916624755
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Warwick-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7885,
+      "totalGames": 9156,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,20 +96,20 @@
           "purchaseSamples": 4523
         },
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 581
-        },
-        {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 12
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 581
         },
         {
           "itemId": 3302,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3050,
+          3742,
           4005
         ],
         "names": [
-          "Zeke's Convergence",
+          "Dead Man's Plate",
           "Imperial Mandate"
         ],
-        "games": 5,
-        "wins": 2,
-        "winrate": 0.4,
-        "score": 98676453.86510482
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 547111958.50845
       },
       "runes": {
         "primaryStyle": {
@@ -179,8 +179,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8224,
-            "name": "Axiom Arcanist"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
             "id": 8234,
@@ -201,15 +201,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
         "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "W",
           "Q"
         ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Warwick-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 7885,
+      "totalGames": 9156,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -248,95 +248,87 @@
           "purchaseSamples": 4523
         },
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
+          "itemId": 3100,
+          "name": "Lich Bane",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 581
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 4645,
+          "name": "Shadowflame",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3
         },
         {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 437
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2306
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
         "itemIds": [
-          3050,
-          3109
+          3089,
+          4645
         ],
         "names": [
-          "Zeke's Convergence",
-          "Knight's Vow"
+          "Rabadon's Deathcap",
+          "Shadowflame"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 44777163.03840163
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 66551699.503472626
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
+          "id": 8008,
+          "name": "Lethal Tempo"
         },
         "primaryPerks": [
           {
-            "id": 8463,
-            "name": "Font of Life"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8429,
-            "name": "Conditioning"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8232,
+            "name": "Waterwalking"
           }
         ],
         "statPerks": [
@@ -353,37 +345,28 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "UTILITY",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5
       }
     },
     {
       "id": "Warwick-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 7885,
+      "totalGames": 9156,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +435,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 44248358.92754379
+        "score": 49490489.86540759
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +518,159 @@
       "id": "Warwick-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7885,
+      "totalGames": 9156,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4523
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 581
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 644
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 437
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3050,
+          3109
+        ],
+        "names": [
+          "Zeke's Convergence",
+          "Knight's Vow"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 40788912.01556201
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Warwick-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 9156,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +739,7 @@
         "games": 8,
         "wins": 6,
         "winrate": 0.75,
-        "score": 31854126.713290922
+        "score": 37619882.93805319
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +817,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Warwick-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 7885,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3115
-        },
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4523
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 644
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 65
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6698,
-          6699
-        ],
-        "names": [
-          "Profane Hydra",
-          "Voltaic Cyclosword"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 22054623.380968895
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 7885,
+    "totalGames": 9156,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5076727964489537,
+    "winrate": 0.5052424639580603,
     "items": [
       {
         "itemId": 3153,
@@ -946,15 +929,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 7885,
-      "games": 2703,
-      "confidencePct": 0.3428027901077996
+      "sampleGames": 9156,
+      "games": 3192,
+      "confidencePct": 0.3486238532110092
     },
     "position": {
       "role": "TOP",
-      "games": 4264,
-      "sampleGames": 7885,
-      "confidencePct": 0.5407736207989854
+      "games": 4984,
+      "sampleGames": 9156,
+      "confidencePct": 0.5443425076452599
     },
     "skillOrder": {
       "order": [

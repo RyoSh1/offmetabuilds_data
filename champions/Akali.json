@@ -1,8 +1,22 @@
 {
   "championId": "Akali",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-03T22:58:49.606Z",
+  "generatedAt": "2026-10-04T21:10:48.768Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2065,
+        3050
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Zeke's Convergence"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 452163961.1688551
+    },
     {
       "itemIds": [
         6333,
@@ -15,7 +29,21 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 207892308.94626784
+      "score": 235914317.528568
+    },
+    {
+      "itemIds": [
+        2524,
+        3050
+      ],
+      "names": [
+        "Bandlepipes",
+        "Zeke's Convergence"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 226081980.58442754
     },
     {
       "itemIds": [
@@ -26,10 +54,10 @@
         "Riftmaker",
         "Bloodletter's Curse"
       ],
-      "games": 49,
-      "wins": 32,
-      "winrate": 0.6530612244897959,
-      "score": 95843280.55226263
+      "games": 59,
+      "wins": 40,
+      "winrate": 0.6779661016949152,
+      "score": 120376025.86531693
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Riftmaker",
         "Liandry's Torment"
       ],
-      "games": 182,
-      "wins": 99,
-      "winrate": 0.5439560439560439,
-      "score": 85962077.67069615
-    },
-    {
-      "itemIds": [
-        3156,
-        6692
-      ],
-      "names": [
-        "Maw of Malmortius",
-        "Eclipse"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 83163609.88246785
-    },
-    {
-      "itemIds": [
-        2504,
-        3143
-      ],
-      "names": [
-        "Kaenic Rookern",
-        "Randuin's Omen"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 78631512.42725295
+      "games": 200,
+      "wins": 108,
+      "winrate": 0.54,
+      "score": 98920926.49356207
     }
   ],
   "builds": [
@@ -79,7 +79,134 @@
       "id": "Akali-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 24816,
+      "totalGames": 28538,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 82
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3050
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Zeke's Convergence"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 452163961.1688551
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Akali-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 28538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -132,7 +259,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 207892308.94626784
+        "score": 235914317.528568
       },
       "runes": {
         "primaryStyle": {
@@ -212,10 +339,10 @@
       }
     },
     {
-      "id": "Akali-2",
-      "buildIndex": 1,
+      "id": "Akali-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 24816,
+      "totalGames": 28538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -281,10 +408,10 @@
           "Riftmaker",
           "Bloodletter's Curse"
         ],
-        "games": 49,
-        "wins": 32,
-        "winrate": 0.6530612244897959,
-        "score": 95843280.55226263
+        "games": 59,
+        "wins": 40,
+        "winrate": 0.6779661016949152,
+        "score": 120376025.86531693
       },
       "runes": {
         "primaryStyle": {
@@ -337,15 +464,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 49,
-        "games": 11,
-        "confidencePct": 0.22448979591836735
+        "sampleGames": 59,
+        "games": 13,
+        "confidencePct": 0.22033898305084745
       },
       "position": {
         "role": "TOP",
-        "games": 28,
-        "sampleGames": 49,
-        "confidencePct": 0.5714285714285714
+        "games": 35,
+        "sampleGames": 59,
+        "confidencePct": 0.5932203389830508
       },
       "skillOrder": {
         "order": [
@@ -364,10 +491,10 @@
       }
     },
     {
-      "id": "Akali-3",
-      "buildIndex": 2,
+      "id": "Akali-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 24816,
+      "totalGames": 28538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -436,7 +563,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 78631512.42725295
+        "score": 84722352.74970514
       },
       "runes": {
         "primaryStyle": {
@@ -516,10 +643,10 @@
       }
     },
     {
-      "id": "Akali-4",
-      "buildIndex": 3,
+      "id": "Akali-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 24816,
+      "totalGames": 28538,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -536,18 +663,10 @@
           "purchaseSamples": 904
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2728
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 82
         },
@@ -555,7 +674,7 @@
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 14
         },
@@ -563,9 +682,17 @@
           "itemId": 3100,
           "name": "Lich Bane",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 1214
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 10481
         },
         {
           "itemId": 3041,
@@ -588,7 +715,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 28639611.335142538
+        "score": 26567552.69334766
       },
       "runes": {
         "primaryStyle": {
@@ -666,161 +793,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Akali-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 24816,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3742,
-          "name": "Dead Man's Plate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 904
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 82
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 651
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10481
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3742,
-          6653
-        ],
-        "names": [
-          "Dead Man's Plate",
-          "Liandry's Torment"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 10720933.467991278
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 24816,
+    "totalGames": 28538,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4928272082527402,
+    "winrate": 0.4905038895507744,
     "items": [
       {
         "itemId": 3146,
@@ -922,15 +905,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 24816,
-      "games": 7903,
-      "confidencePct": 0.3184638942617666
+      "sampleGames": 28538,
+      "games": 9022,
+      "confidencePct": 0.31613988366388673
     },
     "position": {
       "role": "MIDDLE",
-      "games": 17560,
-      "sampleGames": 24816,
-      "confidencePct": 0.7076079948420374
+      "games": 20191,
+      "sampleGames": 28538,
+      "confidencePct": 0.7075127899642581
     },
     "skillOrder": {
       "order": [
