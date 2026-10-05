@@ -1,22 +1,8 @@
 {
   "championId": "Qiyana",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-04T21:17:47.777Z",
+  "generatedAt": "2026-10-05T16:48:34.089Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3087,
-        3146
-      ],
-      "names": [
-        "Statikk Shiv",
-        "Hextech Gunblade"
-      ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 1545863533.8803098
-    },
     {
       "itemIds": [
         3071,
@@ -29,7 +15,21 @@
       "games": 25,
       "wins": 15,
       "winrate": 0.6,
-      "score": 1532724748.8055146
+      "score": 1579321359.1139414
+    },
+    {
+      "itemIds": [
+        3087,
+        3146
+      ],
+      "names": [
+        "Statikk Shiv",
+        "Hextech Gunblade"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 1563667724.0309782
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 13,
       "wins": 6,
       "winrate": 0.46153846153846156,
-      "score": 1148575170.9380932
+      "score": 1141387946.0290635
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 710629373.9255538
+      "score": 681330987.0615944
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 666164261.2002072
+      "score": 673420445.0250779
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Qiyana-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 46435,
+      "totalGames": 48712,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,28 +88,180 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
+          "itemId": 6692,
+          "name": "Eclipse",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 300
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 32372
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 35718
         },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 164
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 103
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1141
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3071,
+          6692
+        ],
+        "names": [
+          "Black Cleaver",
+          "Eclipse"
+        ],
+        "games": 25,
+        "wins": 15,
+        "winrate": 0.6,
+        "score": 1579321359.1139414
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 25,
+        "games": 3,
+        "confidencePct": 0.12
+      },
+      "position": {
+        "role": "TOP",
+        "games": 12,
+        "sampleGames": 25,
+        "confidencePct": 0.48
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 22,
+        "sampleGames": 23,
+        "confidencePct": 0.9565217391304348
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Qiyana-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 48712,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
         {
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 7
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 35718
         }
       ],
       "seedPair": {
@@ -124,7 +276,7 @@
         "games": 5,
         "wins": 1,
         "winrate": 0.2,
-        "score": 1545863533.8803098
+        "score": 1563667724.0309782
       },
       "runes": {
         "primaryStyle": {
@@ -204,162 +356,10 @@
       }
     },
     {
-      "id": "Qiyana-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 46435,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 279
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 32372
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 148
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 93
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1059
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          6692
-        ],
-        "names": [
-          "Black Cleaver",
-          "Eclipse"
-        ],
-        "games": 25,
-        "wins": 15,
-        "winrate": 0.6,
-        "score": 1532724748.8055146
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 25,
-        "games": 3,
-        "confidencePct": 0.12
-      },
-      "position": {
-        "role": "TOP",
-        "games": 12,
-        "sampleGames": 25,
-        "confidencePct": 0.48
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 20,
-        "sampleGames": 21,
-        "confidencePct": 0.9523809523809523
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Qiyana-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 46435,
+      "totalGames": 48712,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -373,15 +373,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 6720
+          "purchaseSamples": 7164
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 32372
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 35718
         },
         {
           "itemId": 3033,
@@ -389,7 +389,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1698
+          "purchaseSamples": 1883
         },
         {
           "itemId": 6333,
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2517
+          "purchaseSamples": 2693
         },
         {
           "itemId": 3139,
@@ -405,7 +405,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 24
+          "purchaseSamples": 26
         },
         {
           "itemId": 3042,
@@ -428,7 +428,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 124612161.15756774
+        "score": 121498277.4152138
       },
       "runes": {
         "primaryStyle": {
@@ -511,7 +511,7 @@
       "id": "Qiyana-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 46435,
+      "totalGames": 48712,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -525,15 +525,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 279
+          "purchaseSamples": 300
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 32372
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 35718
         },
         {
           "itemId": 3071,
@@ -541,7 +541,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 148
+          "purchaseSamples": 164
         },
         {
           "itemId": 6610,
@@ -549,23 +549,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 681
+          "purchaseSamples": 11
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2693
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2517
+          "purchaseSamples": 743
         }
       ],
       "seedPair": {
@@ -580,7 +580,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 68692023.42033374
+        "score": 71096510.37832779
       },
       "runes": {
         "primaryStyle": {
@@ -661,38 +661,38 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 46435,
+    "totalGames": 48712,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.520727899213955,
+    "winrate": 0.5203440630645426,
     "items": [
-      {
-        "itemId": 2520,
-        "name": "Bastionbreaker",
-        "isBoots": false,
-        "order": 1,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 30222
-      },
       {
         "itemId": 6699,
         "name": "Voltaic Cyclosword",
         "isBoots": false,
+        "order": 1,
+        "medianPurchaseOrder": 1,
+        "purchaseSamples": 46271
+      },
+      {
+        "itemId": 2520,
+        "name": "Bastionbreaker",
+        "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 41792
+        "purchaseSamples": 34145
       },
       {
         "itemId": 3158,
         "name": "Ionian Boots of Lucidity",
         "isBoots": true,
         "order": 3,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 32372
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 35718
       },
       {
         "itemId": 3814,
@@ -700,7 +700,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 18496
+        "purchaseSamples": 20709
       },
       {
         "itemId": 6694,
@@ -708,7 +708,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 17942
+        "purchaseSamples": 19416
       },
       {
         "itemId": 6695,
@@ -716,7 +716,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 13087
+        "purchaseSamples": 14332
       }
     ],
     "runes": {
@@ -770,15 +770,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 46435,
-      "games": 15747,
-      "confidencePct": 0.33911919888015507
+      "sampleGames": 48712,
+      "games": 16249,
+      "confidencePct": 0.333572836262112
     },
     "position": {
       "role": "JUNGLE",
-      "games": 34511,
-      "sampleGames": 46435,
-      "confidencePct": 0.743210940023689
+      "games": 36008,
+      "sampleGames": 48712,
+      "confidencePct": 0.7392018393824931
     },
     "skillOrder": {
       "order": [
@@ -786,9 +786,9 @@
         "W",
         "E"
       ],
-      "games": 38511,
-      "sampleGames": 39289,
-      "confidencePct": 0.9801980198019802
+      "games": 43682,
+      "sampleGames": 44554,
+      "confidencePct": 0.9804282443776092
     }
   }
 }

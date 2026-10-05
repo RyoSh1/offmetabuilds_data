@@ -1,7 +1,7 @@
 {
   "championId": "Yorick",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-04T21:17:47.777Z",
+  "generatedAt": "2026-10-05T16:48:34.089Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 1602701776.2873125
+      "score": 1610704216.8859406
+    },
+    {
+      "itemIds": [
+        2504,
+        4401
+      ],
+      "names": [
+        "Kaenic Rookern",
+        "Force of Nature"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 101565977.83921993
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 38219184.026645906
+      "score": 39279200.31140227
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 19420552.487211633
+      "score": 19716652.897502035
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 7,
       "wins": 6,
       "winrate": 0.8571428571428571,
-      "score": 19001353.90619687
-    },
-    {
-      "itemIds": [
-        3031,
-        3033
-      ],
-      "names": [
-        "Infinity Edge",
-        "Mortal Reminder"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 6308273.221557817
+      "score": 19598826.76603608
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Yorick-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7289,
+      "totalGames": 7702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -88,12 +88,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 6662,
+          "name": "Iceborn Gauntlet",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3000
+          "purchaseSamples": 492
         },
         {
           "itemId": 3047,
@@ -101,7 +101,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4518
+          "purchaseSamples": 4994
         },
         {
           "itemId": 3190,
@@ -109,7 +109,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 19
         },
         {
           "itemId": 2524,
@@ -117,23 +117,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 32
+          "purchaseSamples": 194
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 18
+          "purchaseSamples": 334
         }
       ],
       "seedPair": {
@@ -148,7 +148,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 1602701776.2873125
+        "score": 1610704216.8859406
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,159 @@
       "id": "Yorick-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 7289,
+      "totalGames": 7702,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 145
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4994
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 157
+        },
+        {
+          "itemId": 4401,
+          "name": "Force of Nature",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 88
+        },
+        {
+          "itemId": 6609,
+          "name": "Chempunk Chainsword",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 131
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2504,
+          4401
+        ],
+        "names": [
+          "Kaenic Rookern",
+          "Force of Nature"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 101565977.83921993
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Yorick-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 7702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -245,7 +397,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4518
+          "purchaseSamples": 4994
         },
         {
           "itemId": 8010,
@@ -261,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2740
+          "purchaseSamples": 3003
         },
         {
           "itemId": 6653,
@@ -269,15 +421,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 281
+          "purchaseSamples": 310
         },
         {
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
@@ -292,7 +444,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 38219184.026645906
+        "score": 39279200.31140227
       },
       "runes": {
         "primaryStyle": {
@@ -372,10 +524,10 @@
       }
     },
     {
-      "id": "Yorick-3",
-      "buildIndex": 2,
+      "id": "Yorick-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7289,
+      "totalGames": 7702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -389,7 +541,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4518
+          "purchaseSamples": 4994
         },
         {
           "itemId": 2520,
@@ -397,7 +549,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 227
+          "purchaseSamples": 256
         },
         {
           "itemId": 3142,
@@ -405,7 +557,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 176
+          "purchaseSamples": 200
         },
         {
           "itemId": 3033,
@@ -413,7 +565,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 82
+          "purchaseSamples": 89
         },
         {
           "itemId": 6676,
@@ -421,7 +573,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 11
+          "purchaseSamples": 13
         },
         {
           "itemId": 3031,
@@ -444,7 +596,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 19420552.487211633
+        "score": 19716652.897502035
       },
       "runes": {
         "primaryStyle": {
@@ -524,10 +676,10 @@
       }
     },
     {
-      "id": "Yorick-4",
-      "buildIndex": 3,
+      "id": "Yorick-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7289,
+      "totalGames": 7702,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -541,7 +693,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 445
+          "purchaseSamples": 492
         },
         {
           "itemId": 3047,
@@ -549,7 +701,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4518
+          "purchaseSamples": 4994
         },
         {
           "itemId": 2525,
@@ -557,7 +709,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 32
+          "purchaseSamples": 33
         },
         {
           "itemId": 2524,
@@ -565,7 +717,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 182
+          "purchaseSamples": 194
         },
         {
           "itemId": 2502,
@@ -573,7 +725,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 19
+          "purchaseSamples": 20
         },
         {
           "itemId": 6653,
@@ -581,7 +733,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 281
+          "purchaseSamples": 310
         }
       ],
       "seedPair": {
@@ -596,7 +748,7 @@
         "games": 7,
         "wins": 6,
         "winrate": 0.8571428571428571,
-        "score": 19001353.90619687
+        "score": 19598826.76603608
       },
       "runes": {
         "primaryStyle": {
@@ -674,169 +826,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Yorick-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 7289,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4518
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 32
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 281
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2525,
-          8020
-        ],
-        "names": [
-          "Protoplasm Harness",
-          "Abyssal Mask"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 5917410.512306491
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 7289,
+    "totalGames": 7702,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48278227466044726,
+    "winrate": 0.4816930667359127,
     "items": [
       {
         "itemId": 3078,
@@ -844,7 +844,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4515
+        "purchaseSamples": 4995
       },
       {
         "itemId": 3071,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3000
+        "purchaseSamples": 3307
       },
       {
         "itemId": 3047,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 4518
+        "purchaseSamples": 4994
       },
       {
         "itemId": 3161,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2740
+        "purchaseSamples": 3003
       },
       {
         "itemId": 3181,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 923
+        "purchaseSamples": 1008
       },
       {
         "itemId": 3053,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1169
+        "purchaseSamples": 1275
       }
     ],
     "runes": {
@@ -938,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 7289,
-      "games": 731,
-      "confidencePct": 0.1002881053642475
+      "sampleGames": 7702,
+      "games": 784,
+      "confidencePct": 0.10179174240457024
     },
     "position": {
       "role": "TOP",
-      "games": 6903,
-      "sampleGames": 7289,
-      "confidencePct": 0.9470434901906983
+      "games": 7293,
+      "sampleGames": 7702,
+      "confidencePct": 0.9468969098935341
     },
     "skillOrder": {
       "order": [
@@ -954,9 +954,9 @@
         "E",
         "W"
       ],
-      "games": 4883,
-      "sampleGames": 6068,
-      "confidencePct": 0.8047132498352011
+      "games": 5584,
+      "sampleGames": 6914,
+      "confidencePct": 0.8076366792016199
     }
   }
 }

@@ -1,8 +1,22 @@
 {
   "championId": "Sejuani",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-04T21:17:47.777Z",
+  "generatedAt": "2026-10-05T16:48:34.089Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4005,
+        4646
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Stormsurge"
+      ],
+      "games": 9,
+      "wins": 5,
+      "winrate": 0.5555555555555556,
+      "score": 265106593.53389058
+    },
     {
       "itemIds": [
         3157,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 1,
       "winrate": 0.2,
-      "score": 117939868.06611507
+      "score": 108969364.67866652
     },
     {
       "itemIds": [
@@ -29,35 +43,21 @@
       "games": 12,
       "wins": 6,
       "winrate": 0.5,
-      "score": 45285412.09896357
+      "score": 47389853.65469247
     },
     {
       "itemIds": [
-        3152,
-        4005
+        2510,
+        4646
       ],
       "names": [
-        "Hextech Rocketbelt",
-        "Imperial Mandate"
+        "Dusk and Dawn",
+        "Stormsurge"
       ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 24652341.90477836
-    },
-    {
-      "itemIds": [
-        3116,
-        3152
-      ],
-      "names": [
-        "Rylai's Crystal Scepter",
-        "Hextech Rocketbelt"
-      ],
-      "games": 12,
+      "games": 10,
       "wins": 6,
-      "winrate": 0.5,
-      "score": 21875406.160079908
+      "winrate": 0.6,
+      "score": 31207375.915426794
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Mejai's Soulstealer",
         "Rylai's Crystal Scepter"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 17705748.84162668
+      "games": 8,
+      "wins": 7,
+      "winrate": 0.875,
+      "score": 23251535.242322482
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sejuani-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6093,
+      "totalGames": 6566,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
+          "purchaseSamples": 59
         },
         {
           "itemId": 3116,
@@ -101,7 +101,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 161
+          "purchaseSamples": 173
         },
         {
           "itemId": 3047,
@@ -109,23 +109,23 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3562
+          "purchaseSamples": 3825
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 88
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 94
         },
         {
           "itemId": 3157,
@@ -133,58 +133,58 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 19
+          "purchaseSamples": 21
         }
       ],
       "seedPair": {
         "itemIds": [
-          3157,
-          4005
+          4005,
+          4646
         ],
         "names": [
-          "Zhonya's Hourglass",
-          "Imperial Mandate"
+          "Imperial Mandate",
+          "Stormsurge"
         ],
-        "games": 5,
-        "wins": 1,
-        "winrate": 0.2,
-        "score": 117939868.06611507
+        "games": 9,
+        "wins": 5,
+        "winrate": 0.5555555555555556,
+        "score": 265106593.53389058
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
+          "id": 8230,
+          "name": "Stormraider's Surge"
         },
         "primaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
             "id": 8106,
             "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -197,41 +197,41 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
+        "sampleGames": 9,
+        "games": 5,
+        "confidencePct": 0.5555555555555556
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "role": "MIDDLE",
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
       },
       "skillOrder": {
         "order": [
-          "Q",
           "W",
+          "Q",
           "E"
         ],
         "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
+        "games": 1,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     },
     {
       "id": "Sejuani-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 6093,
+      "totalGames": 6566,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -245,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
+          "purchaseSamples": 59
         },
         {
           "itemId": 3116,
@@ -253,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 161
+          "purchaseSamples": 173
         },
         {
           "itemId": 2510,
@@ -261,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 750
+          "purchaseSamples": 806
         },
         {
           "itemId": 3047,
@@ -269,7 +269,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3562
+          "purchaseSamples": 3825
         },
         {
           "itemId": 3742,
@@ -277,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 65
+          "purchaseSamples": 71
         },
         {
           "itemId": 4005,
@@ -285,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 88
+          "purchaseSamples": 94
         }
       ],
       "seedPair": {
@@ -300,7 +300,7 @@
         "games": 12,
         "wins": 6,
         "winrate": 0.5,
-        "score": 45285412.09896357
+        "score": 47389853.65469247
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Sejuani-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6093,
+      "totalGames": 6566,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -392,36 +392,36 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 161
-        },
-        {
           "itemId": 2510,
           "name": "Dusk and Dawn",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 750
+          "purchaseSamples": 806
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3562
+          "purchaseSamples": 3825
         },
         {
-          "itemId": 4633,
-          "name": "Riftmaker",
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 94
         },
         {
           "itemId": 3041,
@@ -429,30 +429,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 73
+          "purchaseSamples": 76
         },
         {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 21
         }
       ],
       "seedPair": {
         "itemIds": [
           3041,
-          3116
+          4005
         ],
         "names": [
           "Mejai's Soulstealer",
-          "Rylai's Crystal Scepter"
+          "Imperial Mandate"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 17705748.84162668
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 19520890.49840989
       },
       "runes": {
         "primaryStyle": {
@@ -460,8 +460,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
+          "id": 8214,
+          "name": "Summon Aery"
         },
         "primaryPerks": [
           {
@@ -497,23 +497,23 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "TOP",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -521,8 +521,8 @@
           "Q",
           "E"
         ],
-        "games": 5,
-        "sampleGames": 5,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -535,7 +535,7 @@
       "id": "Sejuani-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6093,
+      "totalGames": 6566,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 287
+          "purchaseSamples": 313
         },
         {
           "itemId": 3047,
@@ -565,15 +565,15 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3562
+          "purchaseSamples": 3825
         },
         {
-          "itemId": 4401,
-          "name": "Force of Nature",
+          "itemId": 3065,
+          "name": "Spirit Visage",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 158
+          "purchaseSamples": 47
         },
         {
           "itemId": 8020,
@@ -581,30 +581,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 242
+          "purchaseSamples": 263
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3121,
+          "name": "Fimbulwinter",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 773
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          6662,
-          6664
+          3065,
+          6662
         ],
         "names": [
-          "Iceborn Gauntlet",
-          "Hollow Radiance"
+          "Spirit Visage",
+          "Iceborn Gauntlet"
         ],
-        "games": 9,
-        "wins": 6,
-        "winrate": 0.6666666666666666,
-        "score": 16352981.663000459
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 15105618.726566799
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 9,
-        "games": 3,
+        "sampleGames": 3,
+        "games": 1,
         "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "TOP",
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -673,8 +673,8 @@
           "Q",
           "E"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -687,7 +687,7 @@
       "id": "Sejuani-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 6093,
+      "totalGames": 6566,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,89 +696,89 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6664,
-          "name": "Hollow Radiance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 287
-        },
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
-        },
-        {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 161
+          "purchaseSamples": 173
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3562
+          "purchaseSamples": 3825
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 94
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 242
+          "purchaseSamples": 143
         },
         {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 76
         }
       ],
       "seedPair": {
         "itemIds": [
-          3121,
-          6664
+          3041,
+          4633
         ],
         "names": [
-          "Fimbulwinter",
-          "Hollow Radiance"
+          "Mejai's Soulstealer",
+          "Riftmaker"
         ],
-        "games": 14,
-        "wins": 12,
-        "winrate": 0.8571428571428571,
-        "score": 10358225.98545399
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 13995554.958853668
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
-            "id": 8446,
-            "name": "Demolish"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -791,33 +791,33 @@
             "name": "Presence of Mind"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 9105,
+            "name": "Legend: Haste"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 14,
-        "games": 2,
-        "confidencePct": 0.14285714285714285
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
       },
       "position": {
         "role": "TOP",
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -825,9 +825,9 @@
           "Q",
           "E"
         ],
-        "games": 8,
-        "sampleGames": 10,
-        "confidencePct": 0.8
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6093,
+    "totalGames": 6566,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5036927621861153,
+    "winrate": 0.5051781906792567,
     "items": [
       {
         "itemId": 3084,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4512
+        "purchaseSamples": 4892
       },
       {
         "itemId": 3047,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3562
+        "purchaseSamples": 3825
       },
       {
         "itemId": 2502,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2127
+        "purchaseSamples": 2283
       },
       {
         "itemId": 2504,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1138
+        "purchaseSamples": 1222
       },
       {
         "itemId": 3075,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1133
+        "purchaseSamples": 1217
       },
       {
         "itemId": 6665,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 671
+        "purchaseSamples": 721
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 6093,
-      "games": 2685,
-      "confidencePct": 0.44066962087641554
+      "sampleGames": 6566,
+      "games": 2920,
+      "confidencePct": 0.4447151995126409
     },
     "position": {
       "role": "JUNGLE",
-      "games": 4659,
-      "sampleGames": 6093,
-      "confidencePct": 0.7646479566715904
+      "games": 4994,
+      "sampleGames": 6566,
+      "confidencePct": 0.7605848309473043
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "Q",
         "E"
       ],
-      "games": 4923,
-      "sampleGames": 5271,
-      "confidencePct": 0.9339783722253842
+      "games": 5448,
+      "sampleGames": 5836,
+      "confidencePct": 0.9335161069225497
     }
   }
 }
