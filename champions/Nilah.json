@@ -1,8 +1,22 @@
 {
   "championId": "Nilah",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-06T21:35:08.444Z",
+  "generatedAt": "2026-10-07T20:40:41.258Z",
   "corePairs": [
+    {
+      "itemIds": [
+        6695,
+        6699
+      ],
+      "names": [
+        "Serpent's Fang",
+        "Voltaic Cyclosword"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 60348557.13819068
+    },
     {
       "itemIds": [
         2520,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 3002229.243708379
+      "score": 3205041.9722715775
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 2862820.8981735315
+      "score": 2893165.7676506294
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 2610550.8328336044
+      "score": 2678394.043816106
     },
     {
       "itemIds": [
-        2520,
-        6695
+        3036,
+        6699
       ],
       "names": [
-        "Bastionbreaker",
-        "Serpent's Fang"
+        "Lord Dominik's Regards",
+        "Voltaic Cyclosword"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 1602063.7002011463
-    },
-    {
-      "itemIds": [
-        2517,
-        2523
-      ],
-      "names": [
-        "Endless Hunger",
-        "Hexoptics C44"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1497253.856629288
+      "games": 16,
+      "wins": 14,
+      "winrate": 0.875,
+      "score": 2650891.656349654
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Nilah-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3211,
+      "totalGames": 3419,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 71
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 243
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 23
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1300
+        },
+        {
+          "itemId": 6675,
+          "name": "Navori Flickerblade",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 80
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6695,
+          6699
+        ],
+        "names": [
+          "Serpent's Fang",
+          "Voltaic Cyclosword"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 60348557.13819068
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Nilah-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 3419,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -120,12 +272,12 @@
           "purchaseSamples": 23
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 505
+          "purchaseSamples": 1300
         }
       ],
       "seedPair": {
@@ -140,7 +292,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 3002229.243708379
+        "score": 3205041.9722715775
       },
       "runes": {
         "primaryStyle": {
@@ -214,168 +366,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Nilah-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 3211,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 14
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 71
-        },
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 243
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 23
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 505
-        },
-        {
-          "itemId": 6675,
-          "name": "Navori Flickerblade",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 80
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2520,
-          6695
-        ],
-        "names": [
-          "Bastionbreaker",
-          "Serpent's Fang"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 1602063.7002011463
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
         "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
       "id": "Nilah-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3211,
+      "totalGames": 3419,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -444,7 +444,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1497253.856629288
+        "score": 1481258.080796662
       },
       "runes": {
         "primaryStyle": {
@@ -527,7 +527,7 @@
       "id": "Nilah-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3211,
+      "totalGames": 3419,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -596,7 +596,7 @@
         "games": 13,
         "wins": 10,
         "winrate": 0.7692307692307693,
-        "score": 1377142.6735205615
+        "score": 1403882.6848781367
       },
       "runes": {
         "primaryStyle": {
@@ -679,7 +679,7 @@
       "id": "Nilah-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 3211,
+      "totalGames": 3419,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -696,10 +696,18 @@
           "purchaseSamples": 243
         },
         {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 23
+        },
+        {
           "itemId": 6673,
           "name": "Immortal Shieldbow",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 1005
         },
@@ -707,17 +715,9 @@
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 1300
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 90
         },
         {
           "itemId": 3172,
@@ -740,7 +740,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 1037465.4176374619
+        "score": 1094695.6310791206
       },
       "runes": {
         "primaryStyle": {
@@ -821,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 3211,
+    "totalGames": 3419,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49174711927748366,
+    "winrate": 0.49137174612459783,
     "items": [
       {
         "itemId": 6676,
@@ -930,15 +930,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3211,
-      "games": 1339,
-      "confidencePct": 0.41700404858299595
+      "sampleGames": 3419,
+      "games": 1410,
+      "confidencePct": 0.41240128692600175
     },
     "position": {
       "role": "BOTTOM",
-      "games": 3149,
-      "sampleGames": 3211,
-      "confidencePct": 0.980691373403924
+      "games": 3350,
+      "sampleGames": 3419,
+      "confidencePct": 0.9798186604270255
     },
     "skillOrder": {
       "order": [

@@ -1,7 +1,7 @@
 {
   "championId": "Varus",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-06T21:35:08.444Z",
+  "generatedAt": "2026-10-07T20:40:41.258Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 9,
       "wins": 4,
       "winrate": 0.4444444444444444,
-      "score": 1140469606.275969
+      "score": 1245547880.20152
+    },
+    {
+      "itemIds": [
+        4645,
+        4646
+      ],
+      "names": [
+        "Shadowflame",
+        "Stormsurge"
+      ],
+      "games": 15,
+      "wins": 8,
+      "winrate": 0.5333333333333333,
+      "score": 752703538.0196158
     },
     {
       "itemIds": [
@@ -29,21 +43,7 @@
       "games": 8,
       "wins": 4,
       "winrate": 0.5,
-      "score": 722132801.7199751
-    },
-    {
-      "itemIds": [
-        4645,
-        4646
-      ],
-      "names": [
-        "Shadowflame",
-        "Stormsurge"
-      ],
-      "games": 14,
-      "wins": 8,
-      "winrate": 0.5714285714285714,
-      "score": 720259187.6774067
+      "score": 715415363.6977996
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 14,
       "wins": 5,
       "winrate": 0.35714285714285715,
-      "score": 491105383.5455618
+      "score": 530321619.3228177
     },
     {
       "itemIds": [
-        2512,
+        3041,
         3172
       ],
       "names": [
-        "Fiendhunter Bolts",
+        "Mejai's Soulstealer",
         "Gunmetal Greaves"
       ],
-      "games": 3,
+      "games": 4,
       "wins": 3,
-      "winrate": 1,
-      "score": 227309941.3165433
+      "winrate": 0.75,
+      "score": 409328141.1950293
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Varus-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 14691,
+      "totalGames": 15895,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +148,7 @@
         "games": 9,
         "wins": 4,
         "winrate": 0.4444444444444444,
-        "score": 1140469606.275969
+        "score": 1245547880.20152
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,159 @@
       "id": "Varus-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 14691,
+      "totalGames": 15895,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3673
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2202
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 221
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 275
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          3172
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Gunmetal Greaves"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 409328141.1950293
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Varus-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 15895,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -256,18 +408,10 @@
           "purchaseSamples": 1
         },
         {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 210
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 3673
         },
@@ -275,7 +419,7 @@
           "itemId": 2512,
           "name": "Fiendhunter Bolts",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 68
         },
@@ -283,9 +427,17 @@
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 129
+        },
+        {
+          "itemId": 3085,
+          "name": "Runaan's Hurricane",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 229
         }
       ],
       "seedPair": {
@@ -300,7 +452,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 227309941.3165433
+        "score": 213968471.49388468
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +532,162 @@
       }
     },
     {
-      "id": "Varus-3",
-      "buildIndex": 2,
+      "id": "Varus-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 14691,
+      "totalGames": 15895,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3673
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 47
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1034
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 221
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          4005
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Imperial Mandate"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 173809740.78225765
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Varus-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 15895,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +756,7 @@
         "games": 16,
         "wins": 11,
         "winrate": 0.6875,
-        "score": 53900292.17184562
+        "score": 58649510.96480237
       },
       "runes": {
         "primaryStyle": {
@@ -530,169 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Varus-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 14691,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 95
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3673
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 86
-        },
-        {
-          "itemId": 2512,
-          "name": "Fiendhunter Bolts",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 68
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 129
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3095,
-          6676
-        ],
-        "names": [
-          "Stormrazor",
-          "The Collector"
-        ],
-        "games": 17,
-        "wins": 9,
-        "winrate": 0.5294117647058824,
-        "score": 30653984.92674091
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 17,
-        "games": 9,
-        "confidencePct": 0.5294117647058824
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 17,
-        "sampleGames": 17,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 17,
-        "sampleGames": 17,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 14691,
+    "totalGames": 15895,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.47906881764345516,
+    "winrate": 0.4804655552060396,
     "items": [
       {
         "itemId": 3087,
@@ -794,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 14691,
-      "games": 1390,
-      "confidencePct": 0.09461575114015383
+      "sampleGames": 15895,
+      "games": 1503,
+      "confidencePct": 0.09455803711859075
     },
     "position": {
       "role": "BOTTOM",
-      "games": 8732,
-      "sampleGames": 14691,
-      "confidencePct": 0.5943775100401606
+      "games": 9404,
+      "sampleGames": 15895,
+      "confidencePct": 0.5916325888644228
     },
     "skillOrder": {
       "order": [

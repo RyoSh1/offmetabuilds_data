@@ -1,7 +1,7 @@
 {
   "championId": "Zoe",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-06T21:35:08.444Z",
+  "generatedAt": "2026-10-07T20:40:41.258Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 193405038.4947124
+      "score": 194650161.45047218
+    },
+    {
+      "itemIds": [
+        4629,
+        4633
+      ],
+      "names": [
+        "Cosmic Drive",
+        "Riftmaker"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 89806558.80390547
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 90889397.2809595
+      "score": 85807791.79007882
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 35,
       "wins": 15,
       "winrate": 0.42857142857142855,
-      "score": 48665742.75819867
+      "score": 52177034.56375696
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Shurelya's Battlesong",
         "Mikael's Blessing"
       ],
-      "games": 23,
-      "wins": 11,
-      "winrate": 0.4782608695652174,
-      "score": 31413787.585707776
-    },
-    {
-      "itemIds": [
-        2065,
-        3165
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Morellonomicon"
-      ],
-      "games": 26,
-      "wins": 14,
-      "winrate": 0.5384615384615384,
-      "score": 26032153.46293792
+      "games": 25,
+      "wins": 12,
+      "winrate": 0.48,
+      "score": 34274603.18290733
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Zoe-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 16898,
+      "totalGames": 18290,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -148,7 +148,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 193405038.4947124
+        "score": 194650161.45047218
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,159 @@
       "id": "Zoe-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 16898,
+      "totalGames": 18290,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1796
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3188
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 383
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 20
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 77
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4629,
+          4633
+        ],
+        "names": [
+          "Cosmic Drive",
+          "Riftmaker"
+        ],
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 89806558.80390547
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zoe-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 18290,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -300,7 +452,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 90889397.2809595
+        "score": 85807791.79007882
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Zoe-3",
-      "buildIndex": 2,
+      "id": "Zoe-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 16898,
+      "totalGames": 18290,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +604,7 @@
         "games": 35,
         "wins": 15,
         "winrate": 0.42857142857142855,
-        "score": 48665742.75819867
+        "score": 52177034.56375696
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +684,10 @@
       }
     },
     {
-      "id": "Zoe-4",
-      "buildIndex": 3,
+      "id": "Zoe-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 16898,
+      "totalGames": 18290,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -601,10 +753,10 @@
           "Shurelya's Battlesong",
           "Mikael's Blessing"
         ],
-        "games": 23,
-        "wins": 11,
-        "winrate": 0.4782608695652174,
-        "score": 31413787.585707776
+        "games": 25,
+        "wins": 12,
+        "winrate": 0.48,
+        "score": 34274603.18290733
       },
       "runes": {
         "primaryStyle": {
@@ -657,14 +809,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 23,
+        "sampleGames": 25,
         "games": 9,
-        "confidencePct": 0.391304347826087
+        "confidencePct": 0.36
       },
       "position": {
         "role": "UTILITY",
-        "games": 23,
-        "sampleGames": 23,
+        "games": 25,
+        "sampleGames": 25,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -682,169 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Zoe-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 16898,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3188
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 820
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 77
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 521
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          3165
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Morellonomicon"
-        ],
-        "games": 26,
-        "wins": 14,
-        "winrate": 0.5384615384615384,
-        "score": 26032153.46293792
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 26,
-        "games": 5,
-        "confidencePct": 0.19230769230769232
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 26,
-        "sampleGames": 26,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 19,
-        "sampleGames": 26,
-        "confidencePct": 0.7307692307692307
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 16898,
+    "totalGames": 18290,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5151497218605752,
+    "winrate": 0.5164024056861674,
     "items": [
       {
         "itemId": 6655,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 16898,
-      "games": 3296,
-      "confidencePct": 0.19505266895490592
+      "sampleGames": 18290,
+      "games": 3620,
+      "confidencePct": 0.1979223619464188
     },
     "position": {
       "role": "MIDDLE",
-      "games": 11766,
-      "sampleGames": 16898,
-      "confidencePct": 0.6962954195762813
+      "games": 12768,
+      "sampleGames": 18290,
+      "confidencePct": 0.6980863860032804
     },
     "skillOrder": {
       "order": [

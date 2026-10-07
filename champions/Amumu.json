@@ -1,8 +1,22 @@
 {
   "championId": "Amumu",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-06T21:35:08.444Z",
+  "generatedAt": "2026-10-07T20:40:41.258Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3121,
+        4005
+      ],
+      "names": [
+        "Fimbulwinter",
+        "Imperial Mandate"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 48283413.313853666
+    },
     {
       "itemIds": [
         3137,
@@ -12,10 +26,10 @@
         "Cryptbloom",
         "Imperial Mandate"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 18418230.50005803
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 34070561.33622561
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 7589744.2020518845
+      "score": 7486183.350021705
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 13,
       "wins": 10,
       "winrate": 0.7692307692307693,
-      "score": 7203669.425572495
+      "score": 6814633.180163405
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 6,
       "wins": 1,
       "winrate": 0.16666666666666666,
-      "score": 6662281.178322997
-    },
-    {
-      "itemIds": [
-        4401,
-        6664
-      ],
-      "names": [
-        "Force of Nature",
-        "Hollow Radiance"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 5652920.957826214
+      "score": 6638556.492635632
     }
   ],
   "builds": [
@@ -79,7 +79,151 @@
       "id": "Amumu-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5623,
+      "totalGames": 5984,
+      "patchesUsed": [
+        "16.19",
+        "16.18"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 2093
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2260
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 494
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 618
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3121,
+          4005
+        ],
+        "names": [
+          "Fimbulwinter",
+          "Imperial Mandate"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 48283413.313853666
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Amumu-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5984,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -96,18 +240,10 @@
           "purchaseSamples": 175
         },
         {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 33
-        },
-        {
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2281
         },
@@ -115,7 +251,7 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2260
         },
@@ -123,7 +259,7 @@
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 7
         },
@@ -131,9 +267,17 @@
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 494
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 10
         }
       ],
       "seedPair": {
@@ -145,10 +289,10 @@
           "Cryptbloom",
           "Imperial Mandate"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 18418230.50005803
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 34070561.33622561
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +345,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 2,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.5
       },
       "position": {
         "role": "TOP",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -228,10 +372,10 @@
       }
     },
     {
-      "id": "Amumu-2",
-      "buildIndex": 1,
+      "id": "Amumu-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5623,
+      "totalGames": 5984,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -272,20 +416,20 @@
           "purchaseSamples": 84
         },
         {
-          "itemId": 3110,
-          "name": "Frozen Heart",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 182
+          "purchaseSamples": 276
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3110,
+          "name": "Frozen Heart",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 31
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 182
         }
       ],
       "seedPair": {
@@ -300,7 +444,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 7589744.2020518845
+        "score": 7486183.350021705
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +524,10 @@
       }
     },
     {
-      "id": "Amumu-3",
-      "buildIndex": 2,
+      "id": "Amumu-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5623,
+      "totalGames": 5984,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -452,7 +596,7 @@
         "games": 13,
         "wins": 10,
         "winrate": 0.7692307692307693,
-        "score": 7203669.425572495
+        "score": 6814633.180163405
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +676,10 @@
       }
     },
     {
-      "id": "Amumu-4",
-      "buildIndex": 3,
+      "id": "Amumu-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5623,
+      "totalGames": 5984,
       "patchesUsed": [
         "16.19",
         "16.18"
@@ -604,7 +748,7 @@
         "games": 6,
         "wins": 1,
         "winrate": 0.16666666666666666,
-        "score": 6662281.178322997
+        "score": 6638556.492635632
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +826,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Amumu-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 5623,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2260
-        },
-        {
-          "itemId": 6664,
-          "name": "Hollow Radiance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 131
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 187
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 276
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 244
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4401,
-          6664
-        ],
-        "names": [
-          "Force of Nature",
-          "Hollow Radiance"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 5652920.957826214
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 5623,
+    "totalGames": 5984,
     "patchesUsed": [
       "16.19",
       "16.18"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4970656233327405,
+    "winrate": 0.4974933155080214,
     "items": [
       {
         "itemId": 6653,
@@ -946,15 +938,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 5623,
-      "games": 2251,
-      "confidencePct": 0.4003201138182465
+      "sampleGames": 5984,
+      "games": 2425,
+      "confidencePct": 0.4052473262032086
     },
     "position": {
       "role": "UTILITY",
-      "games": 3252,
-      "sampleGames": 5623,
-      "confidencePct": 0.578338964965321
+      "games": 3481,
+      "sampleGames": 5984,
+      "confidencePct": 0.5817179144385026
     },
     "skillOrder": {
       "order": [
