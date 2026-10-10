@@ -1,22 +1,8 @@
 {
   "championId": "Locke",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-09T21:58:00.433Z",
+  "generatedAt": "2026-10-10T21:55:02.419Z",
   "corePairs": [
-    {
-      "itemIds": [
-        4633,
-        6657
-      ],
-      "names": [
-        "Riftmaker",
-        "Rod of Ages"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 28451155.214593504
-    },
     {
       "itemIds": [
         2510,
@@ -26,10 +12,10 @@
         "Dusk and Dawn",
         "Riftmaker"
       ],
-      "games": 59,
-      "wins": 31,
-      "winrate": 0.5254237288135594,
-      "score": 25139349.781392805
+      "games": 28,
+      "wins": 15,
+      "winrate": 0.5357142857142857,
+      "score": 15149891.894072486
     },
     {
       "itemIds": [
@@ -40,10 +26,10 @@
         "Dusk and Dawn",
         "Nashor's Tooth"
       ],
-      "games": 14,
-      "wins": 8,
-      "winrate": 0.5714285714285714,
-      "score": 17444857.124393005
+      "games": 10,
+      "wins": 5,
+      "winrate": 0.5,
+      "score": 13332335.442469912
     },
     {
       "itemIds": [
@@ -54,24 +40,38 @@
         "Riftmaker",
         "Liandry's Torment"
       ],
-      "games": 13,
-      "wins": 7,
-      "winrate": 0.5384615384615384,
-      "score": 13575833.217912676
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 10009615.127874646
     },
     {
       "itemIds": [
-        3115,
-        4633
+        2510,
+        6653
       ],
       "names": [
-        "Nashor's Tooth",
-        "Riftmaker"
+        "Dusk and Dawn",
+        "Liandry's Torment"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 9270519.366276957
+      "winrate": 0.8,
+      "score": 8300261.231699944
+    },
+    {
+      "itemIds": [
+        2504,
+        3089
+      ],
+      "names": [
+        "Kaenic Rookern",
+        "Rabadon's Deathcap"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 2794529.4204098512
     }
   ],
   "builds": [
@@ -79,27 +79,19 @@
       "id": "Locke-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 39890,
+      "totalGames": 22924,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 6
-        },
-        {
           "itemId": 2510,
           "name": "Dusk and Dawn",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 373
         },
@@ -107,70 +99,78 @@
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 78
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 81
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 73
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4012
         },
         {
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
-          "order": 4,
+          "order": 6,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 352
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 8002
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 2789
         }
       ],
       "seedPair": {
         "itemIds": [
-          4633,
-          6657
+          2510,
+          4633
         ],
         "names": [
-          "Riftmaker",
-          "Rod of Ages"
+          "Dusk and Dawn",
+          "Riftmaker"
         ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 28451155.214593504
+        "games": 28,
+        "wins": 15,
+        "winrate": 0.5357142857142857,
+        "score": 15149891.894072486
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8453,
-            "name": "Revitalize"
-          },
-          {
             "id": 8473,
             "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 28,
+        "games": 5,
+        "confidencePct": 0.17857142857142858
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 23,
+        "sampleGames": 28,
+        "confidencePct": 0.8214285714285714
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 14,
+        "sampleGames": 23,
+        "confidencePct": 0.6086956521739131
       },
       "asWholeSet": {
         "games": 0,
@@ -231,98 +231,98 @@
       "id": "Locke-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 39890,
+      "totalGames": 22924,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 373
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 78
         },
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 8578
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 73
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 8002
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 331
         },
         {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4012
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1727
         },
         {
-          "itemId": 4633,
-          "name": "Riftmaker",
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 352
+          "medianPurchaseOrder": 5.5,
+          "purchaseSamples": 12
         }
       ],
       "seedPair": {
         "itemIds": [
-          2510,
-          3115
+          2504,
+          3089
         ],
         "names": [
-          "Dusk and Dawn",
-          "Nashor's Tooth"
+          "Kaenic Rookern",
+          "Rabadon's Deathcap"
         ],
-        "games": 14,
-        "wins": 8,
-        "winrate": 0.5714285714285714,
-        "score": 17444857.124393005
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 2794529.4204098512
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8230,
+          "name": "Stormraider's Surge"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -331,170 +331,18 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8444,
+            "name": "Second Wind"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
           {
             "id": 5008,
             "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 2,
-        "confidencePct": 0.14285714285714285
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 9,
-        "sampleGames": 14,
-        "confidencePct": 0.6428571428571429
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 12,
-        "confidencePct": 0.8333333333333334
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Locke-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 39890,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 373
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4012
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1356
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 158
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 352
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          4629
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Cosmic Drive"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 3902585.4614771935
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -510,10 +358,10 @@
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 2,
+        "role": "BOTTOM",
+        "games": 1,
         "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
@@ -532,13 +380,13 @@
       }
     },
     {
-      "id": "Locke-4",
-      "buildIndex": 3,
+      "id": "Locke-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 39890,
+      "totalGames": 22924,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -568,12 +416,12 @@
           "purchaseSamples": 1356
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
+          "purchaseSamples": 4012
         },
         {
           "itemId": 4633,
@@ -584,27 +432,27 @@
           "purchaseSamples": 352
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 331
+          "purchaseSamples": 94
         }
       ],
       "seedPair": {
         "itemIds": [
-          3137,
-          3152
+          3165,
+          4633
         ],
         "names": [
-          "Cryptbloom",
-          "Hextech Rocketbelt"
+          "Morellonomicon",
+          "Riftmaker"
         ],
-        "games": 18,
-        "wins": 12,
-        "winrate": 0.6666666666666666,
-        "score": 3290905.4345226665
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 2472209.3839723333
       },
       "runes": {
         "primaryStyle": {
@@ -621,26 +469,26 @@
             "name": "Sudden Impact"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8017,
+            "name": "Cut Down"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -657,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 18,
-        "games": 6,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 13,
-        "sampleGames": 18,
-        "confidencePct": 0.7222222222222222
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -673,9 +521,9 @@
           "W",
           "E"
         ],
-        "games": 9,
-        "sampleGames": 17,
-        "confidencePct": 0.5294117647058824
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -684,46 +532,38 @@
       }
     },
     {
-      "id": "Locke-5",
-      "buildIndex": 4,
+      "id": "Locke-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 39890,
+      "totalGames": 22924,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 373
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 78
         },
         {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 158
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1356
         },
         {
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 352
         },
@@ -731,32 +571,40 @@
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 1727
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 331
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2789
+          "purchaseSamples": 94
         }
       ],
       "seedPair": {
         "itemIds": [
           3102,
-          3135
+          3137
         ],
         "names": [
           "Banshee's Veil",
-          "Void Staff"
+          "Cryptbloom"
         ],
-        "games": 179,
-        "wins": 83,
-        "winrate": 0.46368715083798884,
-        "score": 1990023.5181230507
+        "games": 23,
+        "wins": 12,
+        "winrate": 0.5217391304347826,
+        "score": 2313444.1443645773
       },
       "runes": {
         "primaryStyle": {
@@ -797,8 +645,160 @@
         ],
         "statPerks": [
           {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
             "id": 5008,
             "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 23,
+        "games": 3,
+        "confidencePct": 0.13043478260869565
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 17,
+        "sampleGames": 23,
+        "confidencePct": 0.7391304347826086
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 12,
+        "sampleGames": 18,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Locke-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 22924,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 78
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4012
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 8002
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 8578
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1727
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          8010,
+          8020
+        ],
+        "names": [
+          "Bloodletter's Curse",
+          "Abyssal Mask"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 1100616.7337798434
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
@@ -809,25 +809,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 179,
-        "games": 41,
-        "confidencePct": 0.22905027932960895
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "MIDDLE",
-        "games": 126,
-        "sampleGames": 179,
-        "confidencePct": 0.7039106145251397
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 99,
-        "sampleGames": 156,
-        "confidencePct": 0.6346153846153846
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 39890,
+    "totalGames": 22924,
     "patchesUsed": [
-      "16.19",
-      "16.18"
+      "16.20",
+      "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49884682877914266,
+    "winrate": 0.5018321409876112,
     "items": [
       {
         "itemId": 3100,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 39890,
-      "games": 8351,
-      "confidencePct": 0.20935071446477815
+      "sampleGames": 22924,
+      "games": 4659,
+      "confidencePct": 0.20323678241144652
     },
     "position": {
       "role": "MIDDLE",
-      "games": 33286,
-      "sampleGames": 39890,
-      "confidencePct": 0.8344447229882176
+      "games": 19032,
+      "sampleGames": 22924,
+      "confidencePct": 0.8302216018146921
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "E",
         "W"
       ],
-      "games": 17864,
-      "sampleGames": 34893,
-      "confidencePct": 0.5119651506032729
+      "games": 9050,
+      "sampleGames": 17723,
+      "confidencePct": 0.5106358968571912
     }
   }
 }

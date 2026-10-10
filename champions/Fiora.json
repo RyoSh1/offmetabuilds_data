@@ -1,8 +1,22 @@
 {
   "championId": "Fiora",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-09T21:58:00.433Z",
+  "generatedAt": "2026-10-10T21:55:02.419Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2520,
+        6698
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Profane Hydra"
+      ],
+      "games": 9,
+      "wins": 4,
+      "winrate": 0.4444444444444444,
+      "score": 2524080393.0135827
+    },
     {
       "itemIds": [
         2524,
@@ -15,49 +29,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 2057666260.8521883
+      "score": 1710936840.7354965
     },
     {
       "itemIds": [
         2520,
-        6698
+        6697
       ],
       "names": [
         "Bastionbreaker",
-        "Profane Hydra"
+        "Hubris"
       ],
-      "games": 18,
-      "wins": 12,
-      "winrate": 0.6666666666666666,
-      "score": 2053688382.5443783
-    },
-    {
-      "itemIds": [
-        2520,
-        3142
-      ],
-      "names": [
-        "Bastionbreaker",
-        "Youmuu's Ghostblade"
-      ],
-      "games": 3,
+      "games": 8,
       "wins": 3,
-      "winrate": 1,
-      "score": 872672354.7107447
-    },
-    {
-      "itemIds": [
-        3031,
-        6698
-      ],
-      "names": [
-        "Infinity Edge",
-        "Profane Hydra"
-      ],
-      "games": 6,
-      "wins": 2,
-      "winrate": 0.3333333333333333,
-      "score": 708299717.66986
+      "winrate": 0.375,
+      "score": 437096229.0124288
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Stormrazor",
         "Hubris"
       ],
-      "games": 36,
-      "wins": 22,
-      "winrate": 0.6111111111111112,
-      "score": 612253064.4549685
+      "games": 25,
+      "wins": 14,
+      "winrate": 0.56,
+      "score": 388551538.49266773
+    },
+    {
+      "itemIds": [
+        6697,
+        6699
+      ],
+      "names": [
+        "Hubris",
+        "Voltaic Cyclosword"
+      ],
+      "games": 19,
+      "wins": 9,
+      "winrate": 0.47368421052631576,
+      "score": 206581178.30994272
     }
   ],
   "builds": [
@@ -79,10 +79,162 @@
       "id": "Fiora-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 22460,
+      "totalGames": 14144,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 87
+        },
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 534
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 10786
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 116
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 31
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3448
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2520,
+          6698
+        ],
+        "names": [
+          "Bastionbreaker",
+          "Profane Hydra"
+        ],
+        "games": 9,
+        "wins": 4,
+        "winrate": 0.4444444444444444,
+        "score": 2524080393.0135827
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 4,
+        "confidencePct": 0.4444444444444444
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 9,
+        "confidencePct": 0.4444444444444444
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 8,
+        "sampleGames": 8,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Fiora-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 14144,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -132,7 +284,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 2057666260.8521883
+        "score": 1710936840.7354965
       },
       "runes": {
         "primaryStyle": {
@@ -212,30 +364,22 @@
       }
     },
     {
-      "id": "Fiora-2",
-      "buildIndex": 1,
+      "id": "Fiora-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 22460,
+      "totalGames": 14144,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 87
-        },
-        {
           "itemId": 6697,
           "name": "Hubris",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 534
         },
@@ -243,48 +387,56 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 10786
         },
         {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
+          "itemId": 3095,
+          "name": "Stormrazor",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 31
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 62
         },
         {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 116
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 43
+          "purchaseSamples": 3448
         },
         {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 95
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1936
         }
       ],
       "seedPair": {
         "itemIds": [
-          2520,
-          6698
+          3095,
+          6697
         ],
         "names": [
-          "Bastionbreaker",
-          "Profane Hydra"
+          "Stormrazor",
+          "Hubris"
         ],
-        "games": 18,
-        "wins": 12,
-        "winrate": 0.6666666666666666,
-        "score": 2053688382.5443783
+        "games": 25,
+        "wins": 14,
+        "winrate": 0.56,
+        "score": 388551538.49266773
       },
       "runes": {
         "primaryStyle": {
@@ -319,166 +471,14 @@
             "name": "Cash Back"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 18,
-        "games": 5,
-        "confidencePct": 0.2777777777777778
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 18,
-        "confidencePct": 0.3333333333333333
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 17,
-        "sampleGames": 17,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Fiora-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 22460,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 87
-        },
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 534
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10786
-        },
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 62
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 335
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 12
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3031,
-          6698
-        ],
-        "names": [
-          "Infinity Edge",
-          "Profane Hydra"
-        ],
-        "games": 6,
-        "wins": 2,
-        "winrate": 0.3333333333333333,
-        "score": 708299717.66986
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
             "id": 8316,
             "name": "Jack Of All Trades"
           }
         ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -489,15 +489,15 @@
             "name": "Tenacity/Slow Resist"
           }
         ],
-        "sampleGames": 6,
-        "games": 5,
-        "confidencePct": 0.8333333333333334
+        "sampleGames": 25,
+        "games": 15,
+        "confidencePct": 0.6
       },
       "position": {
-        "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "role": "BOTTOM",
+        "games": 18,
+        "sampleGames": 25,
+        "confidencePct": 0.72
       },
       "skillOrder": {
         "order": [
@@ -505,9 +505,9 @@
           "E",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "games": 19,
+        "sampleGames": 20,
+        "confidencePct": 0.95
       },
       "asWholeSet": {
         "games": 0,
@@ -519,27 +519,19 @@
       "id": "Fiora-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 22460,
+      "totalGames": 14144,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 87
-        },
-        {
           "itemId": 6697,
           "name": "Hubris",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 534
         },
@@ -547,7 +539,7 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 10786
         },
@@ -555,76 +547,84 @@
           "itemId": 3095,
           "name": "Stormrazor",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 62
         },
         {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 248
+          "purchaseSamples": 3448
         },
         {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 31
+          "purchaseSamples": 7799
         }
       ],
       "seedPair": {
         "itemIds": [
-          6695,
-          6698
+          3095,
+          6673
         ],
         "names": [
-          "Serpent's Fang",
-          "Profane Hydra"
+          "Stormrazor",
+          "Immortal Shieldbow"
         ],
-        "games": 15,
+        "games": 5,
         "wins": 5,
-        "winrate": 0.3333333333333333,
-        "score": 281375697.3578231
+        "winrate": 1,
+        "score": 29899215.383578412
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
           {
             "id": 8143,
             "name": "Sudden Impact"
           },
           {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
             "id": 8135,
             "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
           }
         ],
         "statPerks": [
@@ -641,15 +641,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
-        "games": 3,
-        "confidencePct": 0.2
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
-        "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 15,
-        "confidencePct": 0.4666666666666667
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -657,8 +657,8 @@
           "E",
           "W"
         ],
-        "games": 12,
-        "sampleGames": 12,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -671,27 +671,19 @@
       "id": "Fiora-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 22460,
+      "totalGames": 14144,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 44
-        },
-        {
           "itemId": 6697,
           "name": "Hubris",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 534
         },
@@ -699,17 +691,25 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 10786
         },
         {
-          "itemId": 3095,
-          "name": "Stormrazor",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 116
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 62
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1183
         },
         {
           "itemId": 2517,
@@ -720,49 +720,49 @@
           "purchaseSamples": 3448
         },
         {
-          "itemId": 3072,
-          "name": "Bloodthirster",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 70
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 424
         }
       ],
       "seedPair": {
         "itemIds": [
-          6631,
+          3161,
           6697
         ],
         "names": [
-          "Stridebreaker",
+          "Spear of Shojin",
           "Hubris"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 76284325.514842
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 16092051.828593643
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 9923,
+          "name": "Hail of Blades"
         },
         "primaryPerks": [
           {
-            "id": 8224,
-            "name": "Axiom Arcanist"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8137,
+            "name": "Sixth Sense"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "subStyle": {
@@ -789,19 +789,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 6,
+        "games": 1,
+        "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "BOTTOM",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -809,9 +809,9 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -821,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 22460,
+    "totalGames": 14144,
     "patchesUsed": [
-      "16.19",
-      "16.18"
+      "16.20",
+      "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.51273374888691,
+    "winrate": 0.5148472850678733,
     "items": [
       {
         "itemId": 3074,
@@ -930,15 +930,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 22460,
-      "games": 1332,
-      "confidencePct": 0.059305431878895816
+      "sampleGames": 14144,
+      "games": 811,
+      "confidencePct": 0.05733880090497737
     },
     "position": {
       "role": "TOP",
-      "games": 21125,
-      "sampleGames": 22460,
-      "confidencePct": 0.9405609973285841
+      "games": 13368,
+      "sampleGames": 14144,
+      "confidencePct": 0.9451357466063348
     },
     "skillOrder": {
       "order": [
@@ -946,9 +946,9 @@
         "E",
         "W"
       ],
-      "games": 18677,
-      "sampleGames": 19549,
-      "confidencePct": 0.9553941378075604
+      "games": 10555,
+      "sampleGames": 11036,
+      "confidencePct": 0.9564153678869155
     }
   }
 }

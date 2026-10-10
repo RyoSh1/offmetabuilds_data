@@ -1,8 +1,22 @@
 {
   "championId": "Gangplank",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-09T21:58:00.433Z",
+  "generatedAt": "2026-10-10T21:55:02.419Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3100,
+        3118
+      ],
+      "names": [
+        "Lich Bane",
+        "Malignance"
+      ],
+      "games": 15,
+      "wins": 10,
+      "winrate": 0.6666666666666666,
+      "score": 560799208.2676129
+    },
     {
       "itemIds": [
         3041,
@@ -12,24 +26,10 @@
         "Mejai's Soulstealer",
         "Lich Bane"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 872687370.6099406
-    },
-    {
-      "itemIds": [
-        3118,
-        6696
-      ],
-      "names": [
-        "Malignance",
-        "Axiom Arc"
-      ],
-      "games": 11,
-      "wins": 7,
-      "winrate": 0.6363636363636364,
-      "score": 404284171.6259604
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 506199557.64052063
     },
     {
       "itemIds": [
@@ -40,38 +40,38 @@
         "Void Staff",
         "Liandry's Torment"
       ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 383777345.9936293
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 283202400.30452543
     },
     {
       "itemIds": [
-        3137,
+        3100,
         4645
       ],
       "names": [
-        "Cryptbloom",
+        "Lich Bane",
         "Shadowflame"
       ],
       "games": 6,
-      "wins": 2,
-      "winrate": 0.3333333333333333,
-      "score": 272030871.74378407
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 272995138.7251194
     },
     {
       "itemIds": [
-        6653,
-        6696
+        3100,
+        6653
       ],
       "names": [
-        "Liandry's Torment",
-        "Axiom Arc"
+        "Lich Bane",
+        "Liandry's Torment"
       ],
-      "games": 7,
-      "wins": 4,
-      "winrate": 0.5714285714285714,
-      "score": 135551242.7263808
+      "games": 15,
+      "wins": 8,
+      "winrate": 0.5333333333333333,
+      "score": 263733085.6946871
     }
   ],
   "builds": [
@@ -79,10 +79,10 @@
       "id": "Gangplank-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 22988,
+      "totalGames": 12832,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -128,27 +128,27 @@
           "purchaseSamples": 297
         },
         {
-          "itemId": 6696,
-          "name": "Axiom Arc",
+          "itemId": 4646,
+          "name": "Stormsurge",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 29
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          3100
+          3100,
+          3118
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Lich Bane"
+          "Lich Bane",
+          "Malignance"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 872687370.6099406
+        "games": 15,
+        "wins": 10,
+        "winrate": 0.6666666666666666,
+        "score": 560799208.2676129
       },
       "runes": {
         "primaryStyle": {
@@ -156,21 +156,21 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
-            "id": 8224,
-            "name": "Axiom Arcanist"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -197,19 +197,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 15,
+        "games": 2,
+        "confidencePct": 0.13333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 9,
+        "sampleGames": 15,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "E",
           "W"
         ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 9,
+        "sampleGames": 10,
+        "confidencePct": 0.9
       },
       "asWholeSet": {
         "games": 0,
@@ -231,10 +231,10 @@
       "id": "Gangplank-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 22988,
+      "totalGames": 12832,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -248,12 +248,12 @@
           "purchaseSamples": 8397
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 155
+          "purchaseSamples": 7862
         },
         {
           "itemId": 6653,
@@ -264,18 +264,10 @@
           "purchaseSamples": 297
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
-        },
-        {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 7
         },
@@ -283,7 +275,7 @@
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 62
         }
@@ -297,10 +289,10 @@
           "Void Staff",
           "Liandry's Torment"
         ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 383777345.9936293
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 283202400.30452543
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +345,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 6,
         "games": 2,
-        "confidencePct": 0.2857142857142857
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
         "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -369,8 +361,8 @@
           "E",
           "W"
         ],
-        "games": 5,
-        "sampleGames": 5,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -383,10 +375,10 @@
       "id": "Gangplank-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 22988,
+      "totalGames": 12832,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -424,35 +416,35 @@
           "purchaseSamples": 297
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 13
-        },
-        {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 62
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 38
         }
       ],
       "seedPair": {
         "itemIds": [
-          3137,
+          3100,
           4645
         ],
         "names": [
-          "Cryptbloom",
+          "Lich Bane",
           "Shadowflame"
         ],
         "games": 6,
-        "wins": 2,
-        "winrate": 0.3333333333333333,
-        "score": 272030871.74378407
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 272995138.7251194
       },
       "runes": {
         "primaryStyle": {
@@ -460,21 +452,21 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
-            "id": 8224,
-            "name": "Axiom Arcanist"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
             "id": 8210,
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -483,8 +475,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8139,
+            "name": "Taste of Blood"
           },
           {
             "id": 8106,
@@ -501,8 +493,8 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
         "sampleGames": 6,
@@ -535,10 +527,162 @@
       "id": "Gangplank-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 22988,
+      "totalGames": 12832,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8397
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 155
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 297
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3583
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 62
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          6696
+        ],
+        "names": [
+          "Malignance",
+          "Axiom Arc"
+        ],
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 206430747.6190453
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 3,
+        "confidencePct": 0.42857142857142855
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gangplank-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 12832,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -568,18 +712,10 @@
           "purchaseSamples": 3
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        },
-        {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 297
         },
@@ -587,7 +723,7 @@
           "itemId": 3121,
           "name": "Fimbulwinter",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -604,7 +740,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 88402358.15184925
+        "score": 75750858.17486437
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +818,17 @@
         "wins": 2,
         "winrate": 1
       }
-    },
-    {
-      "id": "Gangplank-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 22988,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 31
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8397
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2477
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3583
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7095
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3042,
-          6662
-        ],
-        "names": [
-          "Muramana",
-          "Iceborn Gauntlet"
-        ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 44083278.42319701
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "TOP",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 22988,
+    "totalGames": 12832,
     "patchesUsed": [
-      "16.19",
-      "16.18"
+      "16.20",
+      "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5149208282582217,
+    "winrate": 0.5108322942643392,
     "items": [
       {
         "itemId": 3508,
@@ -946,15 +930,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 22988,
-      "games": 5472,
-      "confidencePct": 0.23803723681921002
+      "sampleGames": 12832,
+      "games": 3112,
+      "confidencePct": 0.24251870324189526
     },
     "position": {
       "role": "TOP",
-      "games": 21129,
-      "sampleGames": 22988,
-      "confidencePct": 0.9191317208978598
+      "games": 11862,
+      "sampleGames": 12832,
+      "confidencePct": 0.9244077306733167
     },
     "skillOrder": {
       "order": [
@@ -962,9 +946,9 @@
         "E",
         "W"
       ],
-      "games": 19403,
-      "sampleGames": 20051,
-      "confidencePct": 0.9676824098548701
+      "games": 9638,
+      "sampleGames": 9995,
+      "confidencePct": 0.9642821410705352
     }
   }
 }

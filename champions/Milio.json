@@ -1,8 +1,22 @@
 {
   "championId": "Milio",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-09T21:58:00.433Z",
+  "generatedAt": "2026-10-10T21:55:02.419Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4005,
+        4628
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Horizon Focus"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 3281321245.4152064
+    },
     {
       "itemIds": [
         4005,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 2647939182.707153
+      "score": 1692647364.0803077
     },
     {
       "itemIds": [
@@ -26,10 +40,10 @@
         "Horizon Focus",
         "Luden's Echo"
       ],
-      "games": 4,
+      "games": 3,
       "wins": 1,
-      "winrate": 0.25,
-      "score": 2177666147.4934316
+      "winrate": 0.3333333333333333,
+      "score": 1619713061.8927786
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 1396352918.5020082
+      "score": 987253260.9451667
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Cryptbloom",
         "Shadowflame"
       ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 49211534.18831348
-    },
-    {
-      "itemIds": [
-        4005,
-        4628
-      ],
-      "names": [
-        "Imperial Mandate",
-        "Horizon Focus"
-      ],
-      "games": 8,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.375,
-      "score": 34368930.96164897
+      "winrate": 0.6,
+      "score": 24453049.97023193
     }
   ],
   "builds": [
@@ -79,10 +79,154 @@
       "id": "Milio-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 20507,
+      "totalGames": 11360,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17210
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 8
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4005,
+          4628
+        ],
+        "names": [
+          "Imperial Mandate",
+          "Horizon Focus"
+        ],
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 3281321245.4152064
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Milio-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11360,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -124,7 +268,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 2647939182.707153
+        "score": 1692647364.0803077
       },
       "runes": {
         "primaryStyle": {
@@ -204,38 +348,22 @@
       }
     },
     {
-      "id": "Milio-2",
-      "buildIndex": 1,
+      "id": "Milio-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 20507,
+      "totalGames": 11360,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 22
-        },
-        {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 28
         },
@@ -243,76 +371,68 @@
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 17210
         },
         {
-          "itemId": 4628,
-          "name": "Horizon Focus",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 127
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
         "itemIds": [
-          4628,
-          6655
+          3137,
+          4645
         ],
         "names": [
-          "Horizon Focus",
-          "Luden's Echo"
+          "Cryptbloom",
+          "Shadowflame"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 2177666147.4934316
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 24453049.97023193
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
+          "id": 8128,
+          "name": "Dark Harvest"
         },
         "primaryPerks": [
           {
-            "id": 8275,
-            "name": "Nimbus Cloak"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
             "id": 8236,
             "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -329,40 +449,40 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
       },
       "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "role": "UTILITY",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 3,
+        "games": 2,
         "sampleGames": 3,
-        "confidencePct": 1
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6
       }
     },
     {
-      "id": "Milio-3",
-      "buildIndex": 2,
+      "id": "Milio-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 20507,
+      "totalGames": 11360,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -404,7 +524,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 16543986.95212764
+        "score": 11086368.098422851
       },
       "runes": {
         "primaryStyle": {
@@ -484,13 +604,13 @@
       }
     },
     {
-      "id": "Milio-4",
-      "buildIndex": 3,
+      "id": "Milio-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 20507,
+      "totalGames": 11360,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -553,10 +673,10 @@
           "Morellonomicon",
           "Locket of the Iron Solari"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 3459041.5960430265
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 2345941.488887803
       },
       "runes": {
         "primaryStyle": {
@@ -609,14 +729,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 3,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -625,161 +745,9 @@
           "W",
           "Q"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Milio-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 20507,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 17210
-        },
-        {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 721
-        },
-        {
-          "itemId": 6621,
-          "name": "Dawncore",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 455
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 127
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1581
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2530,
-          6621
-        ],
-        "names": [
-          "Diadem of Songs",
-          "Dawncore"
-        ],
-        "games": 39,
-        "wins": 26,
-        "winrate": 0.6666666666666666,
-        "score": 2688335.8513474152
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 39,
-        "games": 14,
-        "confidencePct": 0.358974358974359
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 39,
-        "sampleGames": 39,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 27,
-        "sampleGames": 35,
-        "confidencePct": 0.7714285714285715
       },
       "asWholeSet": {
         "games": 0,
@@ -789,14 +757,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 20507,
+    "totalGames": 11360,
     "patchesUsed": [
-      "16.19",
-      "16.18"
+      "16.20",
+      "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4830058028965719,
+    "winrate": 0.4821302816901408,
     "items": [
       {
         "itemId": 6620,
@@ -890,23 +858,23 @@
           "name": "Ability Haste"
         },
         {
-          "id": 5008,
-          "name": "Adaptive Force"
-        },
-        {
           "id": 5001,
           "name": "Health Scaling"
+        },
+        {
+          "id": 5011,
+          "name": "Health"
         }
       ],
-      "sampleGames": 20507,
-      "games": 8540,
-      "confidencePct": 0.41644316574828105
+      "sampleGames": 11360,
+      "games": 4708,
+      "confidencePct": 0.41443661971830986
     },
     "position": {
       "role": "UTILITY",
-      "games": 20486,
-      "sampleGames": 20507,
-      "confidencePct": 0.9989759594284878
+      "games": 11345,
+      "sampleGames": 11360,
+      "confidencePct": 0.9986795774647887
     },
     "skillOrder": {
       "order": [
@@ -914,9 +882,9 @@
         "W",
         "Q"
       ],
-      "games": 13787,
-      "sampleGames": 17967,
-      "confidencePct": 0.7673512550787555
+      "games": 6975,
+      "sampleGames": 8932,
+      "confidencePct": 0.7809001343484102
     }
   }
 }

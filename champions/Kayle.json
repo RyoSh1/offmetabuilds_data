@@ -1,7 +1,7 @@
 {
   "championId": "Kayle",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-09T21:58:00.433Z",
+  "generatedAt": "2026-10-10T21:55:02.419Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,66 +12,66 @@
         "Redemption",
         "Locket of the Iron Solari"
       ],
-      "games": 13,
-      "wins": 9,
-      "winrate": 0.6923076923076923,
-      "score": 2209217254.6841855
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 1100014589.9382913
     },
     {
       "itemIds": [
-        2524,
+        3107,
+        6617
+      ],
+      "names": [
+        "Redemption",
+        "Moonstone Renewer"
+      ],
+      "games": 13,
+      "wins": 7,
+      "winrate": 0.5384615384615384,
+      "score": 887070745.7733145
+    },
+    {
+      "itemIds": [
+        3504,
+        6617
+      ],
+      "names": [
+        "Ardent Censer",
+        "Moonstone Renewer"
+      ],
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 742736501.752133
+    },
+    {
+      "itemIds": [
+        3107,
         3504
       ],
       "names": [
-        "Bandlepipes",
+        "Redemption",
         "Ardent Censer"
       ],
-      "games": 3,
+      "games": 4,
       "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1420610548.9511297
+      "winrate": 0.5,
+      "score": 362764054.4494379
     },
     {
       "itemIds": [
-        3107,
-        6617
+        3094,
+        3508
       ],
       "names": [
-        "Redemption",
-        "Moonstone Renewer"
-      ],
-      "games": 17,
-      "wins": 8,
-      "winrate": 0.47058823529411764,
-      "score": 1187583992.913198
-    },
-    {
-      "itemIds": [
-        3107,
-        3222
-      ],
-      "names": [
-        "Redemption",
-        "Mikael's Blessing"
+        "Rapid Firecannon",
+        "Essence Reaver"
       ],
       "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 1165208911.8928323
-    },
-    {
-      "itemIds": [
-        2530,
-        6617
-      ],
-      "names": [
-        "Diadem of Songs",
-        "Moonstone Renewer"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1076155860.9235952
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 66934734.653617166
     }
   ],
   "builds": [
@@ -79,10 +79,10 @@
       "id": "Kayle-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10392,
+      "totalGames": 6273,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -118,14 +118,6 @@
           "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 13
-        },
-        {
-          "itemId": 6621,
-          "name": "Dawncore",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 2
         }
       ],
       "seedPair": {
@@ -137,10 +129,10 @@
           "Redemption",
           "Locket of the Iron Solari"
         ],
-        "games": 13,
-        "wins": 9,
-        "winrate": 0.6923076923076923,
-        "score": 2209217254.6841855
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 1100014589.9382913
       },
       "runes": {
         "primaryStyle": {
@@ -193,9 +185,145 @@
             "name": "Health"
           }
         ],
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Kayle-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6273,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7730
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 26
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3107,
+          6617
+        ],
+        "names": [
+          "Redemption",
+          "Moonstone Renewer"
+        ],
+        "games": 13,
+        "wins": 7,
+        "winrate": 0.5384615384615384,
+        "score": 887070745.7733145
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
         "sampleGames": 13,
-        "games": 10,
-        "confidencePct": 0.7692307692307693
+        "games": 3,
+        "confidencePct": 0.23076923076923078
       },
       "position": {
         "role": "UTILITY",
@@ -209,24 +337,24 @@
           "Q",
           "E"
         ],
-        "games": 11,
-        "sampleGames": 11,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
       }
     },
     {
-      "id": "Kayle-2",
-      "buildIndex": 1,
+      "id": "Kayle-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10392,
+      "totalGames": 6273,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -240,109 +368,109 @@
           "purchaseSamples": 7730
         },
         {
-          "itemId": 3107,
-          "name": "Redemption",
+          "itemId": 3508,
+          "name": "Essence Reaver",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 32
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
         },
         {
-          "itemId": 3504,
-          "name": "Ardent Censer",
+          "itemId": 3095,
+          "name": "Stormrazor",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 26
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 22
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 3094,
+          "name": "Rapid Firecannon",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 4
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
-          3504
+          3094,
+          3508
         ],
         "names": [
-          "Bandlepipes",
-          "Ardent Censer"
+          "Rapid Firecannon",
+          "Essence Reaver"
         ],
         "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 1420610548.9511297
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 66934734.653617166
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8465,
-          "name": "Guardian"
+          "id": 8021,
+          "name": "Fleet Footwork"
         },
         "primaryPerks": [
           {
-            "id": 8463,
-            "name": "Font of Life"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
           }
         ],
         "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "UTILITY",
-        "games": 3,
+        "role": "MIDDLE",
+        "games": 2,
         "sampleGames": 3,
-        "confidencePct": 1
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
-          "W",
           "Q",
+          "W",
           "E"
         ],
         "games": 3,
@@ -350,19 +478,19 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 3,
         "wins": 1,
-        "winrate": 1
+        "winrate": 0.3333333333333333
       }
     },
     {
-      "id": "Kayle-3",
-      "buildIndex": 2,
+      "id": "Kayle-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10392,
+      "totalGames": 6273,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -376,95 +504,95 @@
           "purchaseSamples": 7730
         },
         {
-          "itemId": 3107,
-          "name": "Redemption",
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 32
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 80
         },
         {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 222
         },
         {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 29
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 2,
+          "medianPurchaseOrder": 3,
           "purchaseSamples": 26
         },
         {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 45
+        },
+        {
+          "itemId": 2523,
+          "name": "Hexoptics C44",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 38
         }
       ],
       "seedPair": {
         "itemIds": [
-          3107,
-          3222
+          3032,
+          3146
         ],
         "names": [
-          "Redemption",
-          "Mikael's Blessing"
+          "Yun Tal Wildarrows",
+          "Hextech Gunblade"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 1165208911.8928323
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 63472242.15221871
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8465,
-          "name": "Guardian"
+          "id": 8008,
+          "name": "Lethal Tempo"
         },
         "primaryPerks": [
           {
-            "id": 8463,
-            "name": "Font of Life"
+            "id": 9101,
+            "name": "Absorb Life"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8236,
+            "name": "Gathering Storm"
           },
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8234,
+            "name": "Celerity"
           }
         ],
         "statPerks": [
@@ -482,160 +610,24 @@
           }
         ],
         "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Kayle-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 10392,
-      "patchesUsed": [
-        "16.19",
-        "16.18"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7730
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 29
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2530,
-          6617
-        ],
-        "names": [
-          "Diadem of Songs",
-          "Moonstone Renewer"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 1076155860.9235952
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
         "games": 1,
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "UTILITY",
-        "games": 3,
+        "role": "BOTTOM",
+        "games": 2,
         "sampleGames": 3,
-        "confidencePct": 1
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
-          "W",
+          "E",
           "Q",
-          "E"
+          "W"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -647,10 +639,10 @@
       "id": "Kayle-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10392,
+      "totalGames": 6273,
       "patchesUsed": [
-        "16.19",
-        "16.18"
+        "16.20",
+        "16.19"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -664,131 +656,147 @@
           "purchaseSamples": 7730
         },
         {
-          "itemId": 3107,
-          "name": "Redemption",
+          "itemId": 6672,
+          "name": "Kraken Slayer",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 32
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 264
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 3124,
+          "name": "Guinsoo's Rageblade",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 494
+        },
+        {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 222
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 118
         }
       ],
       "seedPair": {
         "itemIds": [
-          3107,
-          3109
+          3041,
+          3124
         ],
         "names": [
-          "Redemption",
-          "Knight's Vow"
+          "Mejai's Soulstealer",
+          "Guinsoo's Rageblade"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 338439265.6257472
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 30781807.97124394
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8465,
-          "name": "Guardian"
+          "id": 8008,
+          "name": "Lethal Tempo"
         },
         "primaryPerks": [
           {
-            "id": 8463,
-            "name": "Font of Life"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
       },
       "position": {
-        "role": "UTILITY",
+        "role": "JUNGLE",
         "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
-          "W",
+          "E",
           "Q",
-          "E"
+          "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 10392,
+    "totalGames": 6273,
     "patchesUsed": [
-      "16.19",
-      "16.18"
+      "16.20",
+      "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49759430331023863,
+    "winrate": 0.5018332536266539,
     "items": [
       {
         "itemId": 3009,
@@ -882,23 +890,23 @@
           "name": "Attack Speed"
         },
         {
-          "id": 5010,
-          "name": "Move Speed"
+          "id": 5008,
+          "name": "Adaptive Force"
         },
         {
-          "id": 5011,
-          "name": "Health"
+          "id": 5001,
+          "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10392,
-      "games": 3043,
-      "confidencePct": 0.2928214010777521
+      "sampleGames": 6273,
+      "games": 1942,
+      "confidencePct": 0.3095807428662522
     },
     "position": {
       "role": "TOP",
-      "games": 6752,
-      "sampleGames": 10392,
-      "confidencePct": 0.6497305619707467
+      "games": 3930,
+      "sampleGames": 6273,
+      "confidencePct": 0.62649450023912
     },
     "skillOrder": {
       "order": [
@@ -906,9 +914,9 @@
         "E",
         "W"
       ],
-      "games": 5730,
-      "sampleGames": 9145,
-      "confidencePct": 0.626571897211591
+      "games": 3187,
+      "sampleGames": 4988,
+      "confidencePct": 0.6389334402566159
     }
   }
 }
