@@ -1,8 +1,22 @@
 {
   "championId": "Lissandra",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-15T20:12:43.639Z",
+  "generatedAt": "2026-10-17T18:23:07.940Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3109,
+        3190
+      ],
+      "names": [
+        "Knight's Vow",
+        "Locket of the Iron Solari"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 990916895.4542376
+    },
     {
       "itemIds": [
         2524,
@@ -12,10 +26,10 @@
         "Bandlepipes",
         "Locket of the Iron Solari"
       ],
-      "games": 11,
-      "wins": 7,
-      "winrate": 0.6363636363636364,
-      "score": 529665142.4292494
+      "games": 15,
+      "wins": 9,
+      "winrate": 0.6,
+      "score": 781638417.6018648
     },
     {
       "itemIds": [
@@ -26,38 +40,10 @@
         "Bandlepipes",
         "Knight's Vow"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 505091133.8317826
-    },
-    {
-      "itemIds": [
-        3110,
-        3190
-      ],
-      "names": [
-        "Frozen Heart",
-        "Locket of the Iron Solari"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 335942162.1192963
-    },
-    {
-      "itemIds": [
-        2524,
-        3050
-      ],
-      "names": [
-        "Bandlepipes",
-        "Zeke's Convergence"
-      ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 317987309.9194647
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 750775865.6414076
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Frozen Heart",
         "Abyssal Mask"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 263359423.16051114
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 430984220.69769955
+    },
+    {
+      "itemIds": [
+        3110,
+        3190
+      ],
+      "names": [
+        "Frozen Heart",
+        "Locket of the Iron Solari"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 411975230.15380305
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Lissandra-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13348,
+      "totalGames": 21048,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -93,23 +93,23 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 42
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 60
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 85
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 52
         },
         {
           "itemId": 3109,
@@ -117,342 +117,38 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3610
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 42
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2124
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
+          3109,
           3190
         ],
         "names": [
-          "Bandlepipes",
+          "Knight's Vow",
           "Locket of the Iron Solari"
         ],
-        "games": 11,
-        "wins": 7,
-        "winrate": 0.6363636363636364,
-        "score": 529665142.4292494
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 11,
         "games": 5,
-        "confidencePct": 0.45454545454545453
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 11,
-        "sampleGames": 11,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Lissandra-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 13348,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 217
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
-          "itemId": 2522,
-          "name": "Actualizer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 804
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 820
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 211
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2522,
-          6657
-        ],
-        "names": [
-          "Actualizer",
-          "Rod of Ages"
-        ],
-        "games": 45,
-        "wins": 22,
-        "winrate": 0.4888888888888889,
-        "score": 28610199.707621746
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 45,
-        "games": 45,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 34,
-        "sampleGames": 45,
-        "confidencePct": 0.7555555555555555
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 30,
-        "sampleGames": 30,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Lissandra-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 13348,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 107
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3610
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 8755
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 3
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4005,
-          6665
-        ],
-        "names": [
-          "Imperial Mandate",
-          "Jak'Sho, The Protean"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 20422384.79713384
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 990916895.4542376
       },
       "runes": {
         "primaryStyle": {
@@ -478,6 +174,158 @@
           }
         ],
         "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Lissandra-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 21048,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2124
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 23
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3110,
+          8020
+        ],
+        "names": [
+          "Frozen Heart",
+          "Abyssal Mask"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 430984220.69769955
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
@@ -501,29 +349,29 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 5,
+        "confidencePct": 1
       },
       "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -532,10 +380,10 @@
       }
     },
     {
-      "id": "Lissandra-4",
-      "buildIndex": 3,
+      "id": "Lissandra-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 13348,
+      "totalGames": 21048,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -549,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 217
+          "purchaseSamples": 125
         },
         {
           "itemId": 3175,
@@ -557,7 +405,159 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2124
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 494
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3121,
+          6657
+        ],
+        "names": [
+          "Fimbulwinter",
+          "Rod of Ages"
+        ],
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 162571039.5426821
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Lissandra-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 21048,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 125
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 52
         },
         {
           "itemId": 2522,
@@ -565,15 +565,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
+          "purchaseSamples": 31
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 820
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 120
         },
         {
           "itemId": 8020,
@@ -581,30 +581,182 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 42
+          "purchaseSamples": 23
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 135
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          8010,
+          8020
+        ],
+        "names": [
+          "Bloodletter's Curse",
+          "Abyssal Mask"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 59041654.510294475
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Lissandra-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 21048,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 125
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 52
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 494
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2124
         },
         {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 170
+          "purchaseSamples": 120
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          2522,
-          8020
+          3040,
+          6653
         ],
         "names": [
-          "Actualizer",
-          "Abyssal Mask"
+          "Seraph's Embrace",
+          "Liandry's Torment"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 7857827.185519866
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 42775255.448134065
       },
       "runes": {
         "primaryStyle": {
@@ -645,188 +797,36 @@
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Lissandra-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 13348,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 107
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6740
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3610
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3107,
-          3152
-        ],
-        "names": [
-          "Redemption",
-          "Hextech Rocketbelt"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 3183029.681188134
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8465,
-          "name": "Guardian"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
         "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "UTILITY",
         "games": 2,
-        "sampleGames": 4,
         "confidencePct": 0.5
       },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
       "skillOrder": {
         "order": [
           "Q",
           "W",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 13348,
+    "totalGames": 21048,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5101887923284387,
+    "winrate": 0.5097396427213987,
     "items": [
       {
         "itemId": 3118,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 10287
+        "purchaseSamples": 6585
       },
       {
         "itemId": 2503,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7831
+        "purchaseSamples": 5256
       },
       {
         "itemId": 3175,
@@ -868,7 +868,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 93
+        "purchaseSamples": 52
       },
       {
         "itemId": 4645,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 7029
+        "purchaseSamples": 4553
       },
       {
         "itemId": 3152,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6740
+        "purchaseSamples": 4120
       },
       {
         "itemId": 3157,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 8755
+        "purchaseSamples": 5753
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 13348,
-      "games": 2966,
-      "confidencePct": 0.22220557386874437
+      "sampleGames": 21048,
+      "games": 4777,
+      "confidencePct": 0.22695743063473964
     },
     "position": {
       "role": "MIDDLE",
-      "games": 10966,
-      "sampleGames": 13348,
-      "confidencePct": 0.8215462990710218
+      "games": 17262,
+      "sampleGames": 21048,
+      "confidencePct": 0.8201254275940707
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 9539,
-      "sampleGames": 10507,
-      "confidencePct": 0.9078709431807367
+      "games": 12642,
+      "sampleGames": 14004,
+      "confidencePct": 0.9027420736932305
     }
   }
 }

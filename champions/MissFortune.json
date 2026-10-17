@@ -1,8 +1,22 @@
 {
   "championId": "MissFortune",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-15T20:12:43.639Z",
+  "generatedAt": "2026-10-17T18:23:07.940Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2503,
+        6653
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Liandry's Torment"
+      ],
+      "games": 66,
+      "wins": 28,
+      "winrate": 0.42424242424242425,
+      "score": 808102334.3071505
+    },
     {
       "itemIds": [
         4645,
@@ -15,49 +29,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 796244701.1423603
-    },
-    {
-      "itemIds": [
-        4646,
-        6655
-      ],
-      "names": [
-        "Stormsurge",
-        "Luden's Echo"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 684791130.6327823
+      "score": 722609282.7826382
     },
     {
       "itemIds": [
         2503,
-        4645
+        3116
       ],
       "names": [
         "Blackfire Torch",
-        "Shadowflame"
+        "Rylai's Crystal Scepter"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 663902758.2684274
-    },
-    {
-      "itemIds": [
-        2503,
-        6653
-      ],
-      "names": [
-        "Blackfire Torch",
-        "Liandry's Torment"
-      ],
-      "games": 34,
-      "wins": 16,
-      "winrate": 0.47058823529411764,
-      "score": 574494863.220488
+      "games": 14,
+      "wins": 8,
+      "winrate": 0.5714285714285714,
+      "score": 709161616.8551354
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Horizon Focus",
         "Luden's Echo"
       ],
-      "games": 6,
-      "wins": 3,
+      "games": 8,
+      "wins": 4,
       "winrate": 0.5,
-      "score": 539059642.2199606
+      "score": 632922085.4499315
+    },
+    {
+      "itemIds": [
+        4646,
+        6655
+      ],
+      "names": [
+        "Stormsurge",
+        "Luden's Echo"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 582396051.1389852
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "MissFortune-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6853,
+      "totalGames": 11157,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -93,15 +93,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 101
+          "purchaseSamples": 73
         },
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 27
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 2
         },
         {
           "itemId": 3158,
@@ -109,15 +109,167 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 160
+          "purchaseSamples": 120
         },
         {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
           "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 66
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 78
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 14
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2503,
+          6653
+        ],
+        "names": [
+          "Blackfire Torch",
+          "Liandry's Torment"
+        ],
+        "games": 66,
+        "wins": 28,
+        "winrate": 0.42424242424242425,
+        "score": 808102334.3071505
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 66,
+        "games": 14,
+        "confidencePct": 0.21212121212121213
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 52,
+        "sampleGames": 66,
+        "confidencePct": 0.7878787878787878
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 21,
+        "sampleGames": 36,
+        "confidencePct": 0.5833333333333334
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "MissFortune-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11157,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 73
+        },
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 39
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 120
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 66
         },
         {
           "itemId": 4628,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 14
         },
         {
           "itemId": 4645,
@@ -133,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
@@ -148,7 +300,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 796244701.1423603
+        "score": 722609282.7826382
       },
       "runes": {
         "primaryStyle": {
@@ -214,12 +366,12 @@
       "skillOrder": {
         "order": [
           "E",
-          "Q",
-          "W"
+          "W",
+          "Q"
         ],
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "MissFortune-2",
-      "buildIndex": 1,
+      "id": "MissFortune-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6853,
+      "totalGames": 11157,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -245,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 27
+          "purchaseSamples": 39
         },
         {
           "itemId": 3158,
@@ -253,7 +405,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 160
+          "purchaseSamples": 120
         },
         {
           "itemId": 4646,
@@ -261,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
+          "purchaseSamples": 4
         },
         {
           "itemId": 3089,
@@ -274,17 +426,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          4646,
+          3089,
           6655
         ],
         "names": [
-          "Stormsurge",
+          "Rabadon's Deathcap",
           "Luden's Echo"
         ],
-        "games": 3,
+        "games": 5,
         "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 684791130.6327823
+        "winrate": 0.4,
+        "score": 508150103.8859647
       },
       "runes": {
         "primaryStyle": {
@@ -301,32 +453,32 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -337,159 +489,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.2
       },
       "position": {
         "role": "UTILITY",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "MissFortune-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 6853,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 101
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 160
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 13
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2503,
-          3116
-        ],
-        "names": [
-          "Blackfire Torch",
-          "Rylai's Crystal Scepter"
-        ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 492247785.2978871
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -497,8 +505,8 @@
           "W",
           "Q"
         ],
-        "games": 6,
-        "sampleGames": 6,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -511,7 +519,7 @@
       "id": "MissFortune-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6853,
+      "totalGames": 11157,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -520,52 +528,52 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 45
+        },
+        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 160
+          "purchaseSamples": 120
         },
         {
           "itemId": 3179,
           "name": "Umbral Glaive",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 292
+          "purchaseSamples": 151
         },
         {
           "itemId": 6696,
           "name": "Axiom Arc",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 229
+          "purchaseSamples": 148
         },
         {
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 285
+          "purchaseSamples": 147
         },
         {
           "itemId": 6694,
           "name": "Serylda's Grudge",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 449
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 270
         }
       ],
       "seedPair": {
@@ -577,10 +585,10 @@
           "Umbral Glaive",
           "Axiom Arc"
         ],
-        "games": 9,
-        "wins": 4,
-        "winrate": 0.4444444444444444,
-        "score": 38463163.87712295
+        "games": 12,
+        "wins": 6,
+        "winrate": 0.5,
+        "score": 60390840.82745478
       },
       "runes": {
         "primaryStyle": {
@@ -633,15 +641,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
-        "games": 3,
+        "sampleGames": 12,
+        "games": 4,
         "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 9,
-        "confidencePct": 0.5555555555555556
+        "games": 6,
+        "sampleGames": 12,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -658,169 +666,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "MissFortune-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 6853,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 101
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 160
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 78
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 930
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 449
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3814,
-          6653
-        ],
-        "names": [
-          "Edge of Night",
-          "Liandry's Torment"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 8824921.380279701
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 6853,
+    "totalGames": 11157,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48329198890996644,
+    "winrate": 0.4876758985390338,
     "items": [
       {
         "itemId": 3072,
@@ -828,7 +684,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 5368
+        "purchaseSamples": 3242
       },
       {
         "itemId": 6697,
@@ -836,7 +692,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4701
+        "purchaseSamples": 3016
       },
       {
         "itemId": 6676,
@@ -844,7 +700,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 8094
+        "purchaseSamples": 5002
       },
       {
         "itemId": 3170,
@@ -860,7 +716,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 5596
+        "purchaseSamples": 3426
       },
       {
         "itemId": 3036,
@@ -868,7 +724,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3329
+        "purchaseSamples": 2051
       }
     ],
     "runes": {
@@ -922,15 +778,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6853,
-      "games": 796,
-      "confidencePct": 0.11615350941193638
+      "sampleGames": 11157,
+      "games": 1369,
+      "confidencePct": 0.12270323563681994
     },
     "position": {
       "role": "BOTTOM",
-      "games": 6678,
-      "sampleGames": 6853,
-      "confidencePct": 0.9744637385086823
+      "games": 10857,
+      "sampleGames": 11157,
+      "confidencePct": 0.9731110513578919
     },
     "skillOrder": {
       "order": [
@@ -938,9 +794,9 @@
         "W",
         "E"
       ],
-      "games": 5184,
-      "sampleGames": 5370,
-      "confidencePct": 0.9653631284916201
+      "games": 6790,
+      "sampleGames": 7048,
+      "confidencePct": 0.9633938706015891
     }
   }
 }

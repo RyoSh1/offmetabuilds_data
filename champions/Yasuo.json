@@ -1,8 +1,22 @@
 {
   "championId": "Yasuo",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-15T20:12:43.639Z",
+  "generatedAt": "2026-10-17T18:23:07.940Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3050,
+        6631
+      ],
+      "names": [
+        "Zeke's Convergence",
+        "Stridebreaker"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 3339533753.333911
+    },
     {
       "itemIds": [
         2520,
@@ -12,10 +26,10 @@
         "Bastionbreaker",
         "Voltaic Cyclosword"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 400901235.8815289
+      "winrate": 0.75,
+      "score": 468796620.1050328
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 5,
       "wins": 5,
       "winrate": 1,
-      "score": 213843058.67424867
+      "score": 247255773.89344007
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "The Collector",
         "Voltaic Cyclosword"
       ],
-      "games": 73,
-      "wins": 40,
-      "winrate": 0.547945205479452,
-      "score": 119242857.13669248
+      "games": 107,
+      "wins": 57,
+      "winrate": 0.5327102803738317,
+      "score": 187315591.17437983
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 113854832.71301237
-    },
-    {
-      "itemIds": [
-        2512,
-        3073
-      ],
-      "names": [
-        "Fiendhunter Bolts",
-        "Experimental Hexplate"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 70768965.98664802
+      "score": 111546297.44714242
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Yasuo-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 28119,
+      "totalGames": 45878,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3046,
+          "name": "Phantom Dancer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1278
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 26643
+        },
+        {
+          "itemId": 6672,
+          "name": "Kraken Slayer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3244
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 6631,
+          "name": "Stridebreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 115
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 347
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3050,
+          6631
+        ],
+        "names": [
+          "Zeke's Convergence",
+          "Stridebreaker"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 3339533753.333911
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Yasuo-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 45878,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -93,7 +245,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 42140
+          "purchaseSamples": 26643
         },
         {
           "itemId": 6676,
@@ -101,39 +253,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 329
+          "purchaseSamples": 195
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 45
         },
         {
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 143
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 6204
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 862
+          "purchaseSamples": 92
         },
         {
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5.5,
-          "purchaseSamples": 10
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 591
         }
       ],
       "seedPair": {
@@ -145,10 +297,10 @@
           "Bastionbreaker",
           "Voltaic Cyclosword"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 400901235.8815289
+        "winrate": 0.75,
+        "score": 468796620.1050328
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
+        "sampleGames": 8,
         "games": 3,
-        "confidencePct": 0.42857142857142855
+        "confidencePct": 0.375
       },
       "position": {
         "role": "TOP",
         "games": 3,
-        "sampleGames": 7,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 8,
+        "confidencePct": 0.375
       },
       "skillOrder": {
         "order": [
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Yasuo-2",
-      "buildIndex": 1,
+      "id": "Yasuo-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 28119,
+      "totalGames": 45878,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -245,47 +397,47 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 42140
+          "purchaseSamples": 26643
+        },
+        {
+          "itemId": 6672,
+          "name": "Kraken Slayer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3244
         },
         {
           "itemId": 6675,
           "name": "Navori Flickerblade",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 26
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4277
+          "purchaseSamples": 2480
         },
         {
           "itemId": 3181,
           "name": "Hullbreaker",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 51
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 10831
+          "purchaseSamples": 22
         },
         {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 862
+          "purchaseSamples": 1936
         }
       ],
       "seedPair": {
@@ -300,7 +452,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 113854832.71301237
+        "score": 111546297.44714242
       },
       "runes": {
         "primaryStyle": {
@@ -369,8 +521,8 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Yasuo-3",
-      "buildIndex": 2,
+      "id": "Yasuo-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 28119,
+      "totalGames": 45878,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -397,39 +549,47 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 42140
+          "purchaseSamples": 26643
         },
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
+          "itemId": 6676,
+          "name": "The Collector",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 14547
+          "purchaseSamples": 195
+        },
+        {
+          "itemId": 3095,
+          "name": "Stormrazor",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3758
         },
         {
           "itemId": 2512,
           "name": "Fiendhunter Bolts",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 10831
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 45
         },
         {
           "itemId": 3073,
           "name": "Experimental Hexplate",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 16
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3927
         }
       ],
       "seedPair": {
@@ -441,10 +601,10 @@
           "Fiendhunter Bolts",
           "Experimental Hexplate"
         ],
-        "games": 4,
-        "wins": 2,
+        "games": 8,
+        "wins": 4,
         "winrate": 0.5,
-        "score": 70768965.98664802
+        "score": 99639833.62832528
       },
       "runes": {
         "primaryStyle": {
@@ -497,14 +657,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
+        "sampleGames": 8,
+        "games": 4,
         "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 4,
+        "games": 4,
+        "sampleGames": 8,
         "confidencePct": 0.5
       },
       "skillOrder": {
@@ -513,8 +673,8 @@
           "E",
           "W"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -524,10 +684,10 @@
       }
     },
     {
-      "id": "Yasuo-4",
-      "buildIndex": 3,
+      "id": "Yasuo-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 28119,
+      "totalGames": 45878,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -541,7 +701,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 42140
+          "purchaseSamples": 26643
         },
         {
           "itemId": 3095,
@@ -549,39 +709,39 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6459
-        },
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1617
+          "purchaseSamples": 3758
         },
         {
           "itemId": 3156,
           "name": "Maw of Malmortius",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 135
+          "purchaseSamples": 73
         },
         {
           "itemId": 4401,
           "name": "Force of Nature",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 276
+          "purchaseSamples": 180
         },
         {
-          "itemId": 3072,
-          "name": "Bloodthirster",
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 892
+          "purchaseSamples": 591
         }
       ],
       "seedPair": {
@@ -593,10 +753,10 @@
           "Maw of Malmortius",
           "Force of Nature"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 47619606.59331347
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 62622170.29961635
       },
       "runes": {
         "primaryStyle": {
@@ -649,15 +809,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 3,
-        "confidencePct": 0.75
+        "confidencePct": 0.6
       },
       "position": {
         "role": "BOTTOM",
         "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -667,158 +827,6 @@
         ],
         "games": 4,
         "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Yasuo-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 28119,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 42140
-        },
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1617
-        },
-        {
-          "itemId": 3091,
-          "name": "Wit's End",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 803
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 892
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 395
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 534
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3032,
-          3072
-        ],
-        "names": [
-          "Yun Tal Wildarrows",
-          "Bloodthirster"
-        ],
-        "games": 43,
-        "wins": 26,
-        "winrate": 0.6046511627906976,
-        "score": 25702685.657610763
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 43,
-        "games": 8,
-        "confidencePct": 0.18604651162790697
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 17,
-        "sampleGames": 43,
-        "confidencePct": 0.3953488372093023
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 40,
-        "sampleGames": 40,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -829,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 28119,
+    "totalGames": 45878,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5081261780290907,
+    "winrate": 0.508261040149963,
     "items": [
       {
         "itemId": 3172,
@@ -844,23 +852,23 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 173
-      },
-      {
-        "itemId": 3153,
-        "name": "Blade of The Ruined King",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 14547
+        "purchaseSamples": 114
       },
       {
         "itemId": 6673,
         "name": "Immortal Shieldbow",
         "isBoots": false,
+        "order": 2,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 22972
+      },
+      {
+        "itemId": 3153,
+        "name": "Blade of The Ruined King",
+        "isBoots": false,
         "order": 3,
-        "medianPurchaseOrder": 3,
-        "purchaseSamples": 35662
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 7913
       },
       {
         "itemId": 3031,
@@ -868,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 20533
+        "purchaseSamples": 13716
       },
       {
         "itemId": 6333,
@@ -876,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 10831
+        "purchaseSamples": 7253
       }
     ],
     "runes": {
@@ -930,15 +938,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 28119,
-      "games": 4916,
-      "confidencePct": 0.17482840783811657
+      "sampleGames": 45878,
+      "games": 7990,
+      "confidencePct": 0.17415754828022145
     },
     "position": {
       "role": "MIDDLE",
-      "games": 15538,
-      "sampleGames": 28119,
-      "confidencePct": 0.5525801059781642
+      "games": 25460,
+      "sampleGames": 45878,
+      "confidencePct": 0.5549500850080649
     },
     "skillOrder": {
       "order": [
@@ -946,9 +954,9 @@
         "E",
         "W"
       ],
-      "games": 21629,
-      "sampleGames": 22128,
-      "confidencePct": 0.9774493853940709
+      "games": 28339,
+      "sampleGames": 28957,
+      "confidencePct": 0.9786580101529855
     }
   }
 }

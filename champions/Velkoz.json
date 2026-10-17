@@ -1,8 +1,36 @@
 {
   "championId": "Velkoz",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-15T20:12:43.639Z",
+  "generatedAt": "2026-10-17T18:23:07.940Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2530,
+        6620
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Echoes of Helia"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 148437833.6627326
+    },
+    {
+      "itemIds": [
+        2522,
+        3040
+      ],
+      "names": [
+        "Actualizer",
+        "Seraph's Embrace"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 64779522.51782452
+    },
     {
       "itemIds": [
         3040,
@@ -12,66 +40,38 @@
         "Seraph's Embrace",
         "Rod of Ages"
       ],
-      "games": 12,
-      "wins": 7,
-      "winrate": 0.5833333333333334,
-      "score": 30439039.233877473
-    },
-    {
-      "itemIds": [
-        2504,
-        4629
-      ],
-      "names": [
-        "Kaenic Rookern",
-        "Cosmic Drive"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 8822503.222413998
-    },
-    {
-      "itemIds": [
-        3135,
-        4646
-      ],
-      "names": [
-        "Void Staff",
-        "Stormsurge"
-      ],
       "games": 15,
-      "wins": 13,
-      "winrate": 0.8666666666666667,
-      "score": 7275027.582226342
+      "wins": 10,
+      "winrate": 0.6666666666666666,
+      "score": 54110132.892219275
     },
     {
       "itemIds": [
-        2522,
-        3041
+        4633,
+        6657
       ],
       "names": [
-        "Actualizer",
-        "Mejai's Soulstealer"
+        "Riftmaker",
+        "Rod of Ages"
       ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 7077586.455946948
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 19469170.95102611
     },
     {
       "itemIds": [
-        3118,
-        3152
+        4633,
+        8010
       ],
       "names": [
-        "Malignance",
-        "Hextech Rocketbelt"
+        "Riftmaker",
+        "Bloodletter's Curse"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 7051320.346550733
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 17746131.627458896
     }
   ],
   "builds": [
@@ -79,7 +79,135 @@
       "id": "Velkoz-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8966,
+      "totalGames": 14581,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3481
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2530,
+          6620
+        ],
+        "names": [
+          "Diadem of Songs",
+          "Echoes of Helia"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 148437833.6627326
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Velkoz-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 14581,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -93,7 +221,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 102
+          "purchaseSamples": 63
         },
         {
           "itemId": 3020,
@@ -101,31 +229,31 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5392
+          "purchaseSamples": 3481
+        },
+        {
+          "itemId": 2522,
+          "name": "Actualizer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 284
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1021
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1088
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 247
+          "purchaseSamples": 574
         },
         {
           "itemId": 3040,
@@ -138,515 +266,59 @@
       ],
       "seedPair": {
         "itemIds": [
-          3040,
-          6657
-        ],
-        "names": [
-          "Seraph's Embrace",
-          "Rod of Ages"
-        ],
-        "games": 12,
-        "wins": 7,
-        "winrate": 0.5833333333333334,
-        "score": 30439039.233877473
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 12,
-        "games": 4,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 12,
-        "confidencePct": 0.5833333333333334
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 11,
-        "confidencePct": 0.9090909090909091
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Velkoz-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 8966,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5392
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 476
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 814
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1021
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1088
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          4629
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Cosmic Drive"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 8822503.222413998
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Velkoz-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 8966,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 751
-        },
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5392
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 814
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1021
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1088
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 187
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3135,
-          4646
-        ],
-        "names": [
-          "Void Staff",
-          "Stormsurge"
-        ],
-        "games": 15,
-        "wins": 13,
-        "winrate": 0.8666666666666667,
-        "score": 7275027.582226342
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 15,
-        "games": 4,
-        "confidencePct": 0.26666666666666666
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 12,
-        "sampleGames": 15,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 11,
-        "sampleGames": 11,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Velkoz-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 8966,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5392
-        },
-        {
-          "itemId": 2522,
-          "name": "Actualizer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 476
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1021
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1088
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 247
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
           2522,
-          3041
+          3040
         ],
         "names": [
           "Actualizer",
-          "Mejai's Soulstealer"
+          "Seraph's Embrace"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 7077586.455946948
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 64779522.51782452
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
+          "id": 8369,
+          "name": "First Strike"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8321,
+            "name": "Cash Back"
           },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
           {
             "id": 8210,
             "name": "Transcendence"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8226,
+            "name": "Manaflow Band"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -657,26 +329,17 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
       },
       "position": {
         "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -684,10 +347,10 @@
       }
     },
     {
-      "id": "Velkoz-5",
-      "buildIndex": 4,
+      "id": "Velkoz-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8966,
+      "totalGames": 14581,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -696,67 +359,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 6657,
+          "name": "Rod of Ages",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 348
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 751
+          "purchaseSamples": 63
         },
         {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5392
+          "purchaseSamples": 3481
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 814
+          "purchaseSamples": 1055
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 247
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 284
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1021
+          "purchaseSamples": 83
         }
       ],
       "seedPair": {
         "itemIds": [
-          3118,
-          3152
+          4633,
+          6657
         ],
         "names": [
-          "Malignance",
-          "Hextech Rocketbelt"
+          "Riftmaker",
+          "Rod of Ages"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 7051320.346550733
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 19469170.95102611
       },
       "runes": {
         "primaryStyle": {
@@ -764,8 +427,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
@@ -777,8 +440,8 @@
             "name": "Transcendence"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
@@ -805,19 +468,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 3,
         "games": 2,
-        "confidencePct": 0.4
+        "confidencePct": 0.6666666666666666
       },
       "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
+        "role": "BOTTOM",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
       },
       "skillOrder": {
         "order": [
@@ -825,8 +488,303 @@
           "W",
           "E"
         ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Velkoz-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 14581,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 63
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1131
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3481
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 486
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 574
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3100,
+          4646
+        ],
+        "names": [
+          "Lich Bane",
+          "Stormsurge"
+        ],
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 15073982.559527319
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          },
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 1,
+        "confidencePct": 0.16666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Velkoz-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 14581,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3481
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 284
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 486
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 574
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 717
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3116,
+          4629
+        ],
+        "names": [
+          "Rylai's Crystal Scepter",
+          "Cosmic Drive"
+        ],
+        "games": 11,
+        "wins": 6,
+        "winrate": 0.5454545454545454,
+        "score": 12739482.686468704
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 11,
+        "games": 6,
+        "confidencePct": 0.5454545454545454
+      },
+      "position": {
+        "role": "BOTTOM",
         "games": 4,
-        "sampleGames": 4,
+        "sampleGames": 11,
+        "confidencePct": 0.36363636363636365
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +795,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 8966,
+    "totalGames": 14581,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5080303368280169,
+    "winrate": 0.5079898498045402,
     "items": [
       {
         "itemId": 6655,
@@ -852,47 +810,47 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 6670
-      },
-      {
-        "itemId": 3171,
-        "name": "Crimson Lucidity",
-        "isBoots": true,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 2
+        "purchaseSamples": 4142
       },
       {
         "itemId": 4645,
         "name": "Shadowflame",
         "isBoots": false,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4580
+        "purchaseSamples": 2957
       },
       {
         "itemId": 4628,
         "name": "Horizon Focus",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4042
+        "purchaseSamples": 2514
       },
       {
         "itemId": 3157,
         "name": "Zhonya's Hourglass",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3308
+        "purchaseSamples": 2063
       },
       {
         "itemId": 3089,
         "name": "Rabadon's Deathcap",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2009
+        "purchaseSamples": 1275
+      },
+      {
+        "itemId": 3171,
+        "name": "Crimson Lucidity",
+        "isBoots": true,
+        "order": 6,
+        "medianPurchaseOrder": null,
+        "purchaseSamples": 0
       }
     ],
     "runes": {
@@ -946,15 +904,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 8966,
-      "games": 1878,
-      "confidencePct": 0.20945795226410885
+      "sampleGames": 14581,
+      "games": 3026,
+      "confidencePct": 0.2075303477127769
     },
     "position": {
       "role": "UTILITY",
-      "games": 4271,
-      "sampleGames": 8966,
-      "confidencePct": 0.47635511933972785
+      "games": 7034,
+      "sampleGames": 14581,
+      "confidencePct": 0.4824086139496605
     },
     "skillOrder": {
       "order": [
@@ -962,9 +920,9 @@
         "W",
         "E"
       ],
-      "games": 6612,
-      "sampleGames": 6996,
-      "confidencePct": 0.9451114922813036
+      "games": 8506,
+      "sampleGames": 9051,
+      "confidencePct": 0.9397856590431997
     }
   }
 }

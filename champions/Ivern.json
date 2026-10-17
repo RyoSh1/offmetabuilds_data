@@ -1,8 +1,50 @@
 {
   "championId": "Ivern",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-15T20:12:43.639Z",
+  "generatedAt": "2026-10-17T18:23:07.940Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4645,
+        4646
+      ],
+      "names": [
+        "Shadowflame",
+        "Stormsurge"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 195975888.48743752
+    },
+    {
+      "itemIds": [
+        4629,
+        4646
+      ],
+      "names": [
+        "Cosmic Drive",
+        "Stormsurge"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 82072119.74539366
+    },
+    {
+      "itemIds": [
+        3190,
+        8020
+      ],
+      "names": [
+        "Locket of the Iron Solari",
+        "Abyssal Mask"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 51464788.6627992
+    },
     {
       "itemIds": [
         3109,
@@ -12,66 +54,24 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 13,
-      "wins": 9,
-      "winrate": 0.6923076923076923,
-      "score": 27831848.595117748
+      "games": 15,
+      "wins": 10,
+      "winrate": 0.6666666666666666,
+      "score": 24189504.82819302
     },
     {
       "itemIds": [
         3115,
-        3157
+        4645
       ],
       "names": [
         "Nashor's Tooth",
-        "Zhonya's Hourglass"
+        "Shadowflame"
       ],
-      "games": 28,
-      "wins": 18,
-      "winrate": 0.6428571428571429,
-      "score": 12886878.785520434
-    },
-    {
-      "itemIds": [
-        4005,
-        8010
-      ],
-      "names": [
-        "Imperial Mandate",
-        "Bloodletter's Curse"
-      ],
-      "games": 22,
-      "wins": 14,
-      "winrate": 0.6363636363636364,
-      "score": 12035548.652241053
-    },
-    {
-      "itemIds": [
-        2524,
-        3050
-      ],
-      "names": [
-        "Bandlepipes",
-        "Zeke's Convergence"
-      ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 11637074.00520339
-    },
-    {
-      "itemIds": [
-        3115,
-        8010
-      ],
-      "names": [
-        "Nashor's Tooth",
-        "Bloodletter's Curse"
-      ],
-      "games": 9,
+      "games": 4,
       "wins": 3,
-      "winrate": 0.3333333333333333,
-      "score": 9240220.166649718
+      "winrate": 0.75,
+      "score": 24016958.724649284
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ivern-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5387,
+      "totalGames": 8423,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -93,62 +93,214 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 8326
+          "purchaseSamples": 4956
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 612
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 401
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
           "isBoots": false,
           "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 122
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 444
+          "purchaseSamples": 403
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4645,
+          4646
+        ],
+        "names": [
+          "Shadowflame",
+          "Stormsurge"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 195975888.48743752
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ivern-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8423,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 4956
         },
         {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 67
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 54
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 249
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 65
+          "purchaseSamples": 522
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
+          "itemId": 6621,
+          "name": "Dawncore",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1606
+          "purchaseSamples": 712
         }
       ],
       "seedPair": {
         "itemIds": [
-          3109,
-          3190
+          3190,
+          8020
         ],
         "names": [
-          "Knight's Vow",
-          "Locket of the Iron Solari"
+          "Locket of the Iron Solari",
+          "Abyssal Mask"
         ],
-        "games": 13,
-        "wins": 9,
-        "winrate": 0.6923076923076923,
-        "score": 27831848.595117748
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 51464788.6627992
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
-        "games": 9,
-        "confidencePct": 0.6923076923076923
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "TOP",
-        "games": 9,
-        "sampleGames": 13,
-        "confidencePct": 0.6923076923076923
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -217,161 +369,9 @@
           "Q",
           "W"
         ],
-        "games": 10,
-        "sampleGames": 10,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ivern-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 5387,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 8326
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 131
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 612
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 239
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 694
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 180
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3115,
-          3157
-        ],
-        "names": [
-          "Nashor's Tooth",
-          "Zhonya's Hourglass"
-        ],
-        "games": 28,
-        "wins": 18,
-        "winrate": 0.6428571428571429,
-        "score": 12886878.785520434
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 28,
-        "games": 21,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "TOP",
-        "games": 27,
-        "sampleGames": 28,
-        "confidencePct": 0.9642857142857143
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 14,
-        "sampleGames": 16,
-        "confidencePct": 0.875
       },
       "asWholeSet": {
         "games": 0,
@@ -383,7 +383,7 @@
       "id": "Ivern-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5387,
+      "totalGames": 8423,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -397,62 +397,54 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 8326
+          "purchaseSamples": 4956
         },
         {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2707
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 713
         },
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
+          "itemId": 2522,
+          "name": "Actualizer",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 612
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 2530,
+          "name": "Diadem of Songs",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 65
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 444
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
-          3050
+          2522,
+          3040
         ],
         "names": [
-          "Bandlepipes",
-          "Zeke's Convergence"
+          "Actualizer",
+          "Seraph's Embrace"
         ],
-        "games": 8,
-        "wins": 6,
-        "winrate": 0.75,
-        "score": 11637074.00520339
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 20862207.072578095
       },
       "runes": {
         "primaryStyle": {
@@ -465,160 +457,8 @@
         },
         "primaryPerks": [
           {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8232,
-            "name": "Waterwalking"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 6,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ivern-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 5387,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 8326
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 131
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 522
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 694
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 180
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3089,
-          3100
-        ],
-        "names": [
-          "Rabadon's Deathcap",
-          "Lich Bane"
-        ],
-        "games": 72,
-        "wins": 43,
-        "winrate": 0.5972222222222222,
-        "score": 3120900.8503390695
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
             "id": 8210,
@@ -657,37 +497,28 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 72,
-        "games": 42,
-        "confidencePct": 0.5833333333333334
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "JUNGLE",
-        "games": 69,
-        "sampleGames": 72,
-        "confidencePct": 0.9583333333333334
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 58,
-        "sampleGames": 58,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
+        "games": 1,
         "wins": 0,
-        "winrate": null
+        "winrate": 0
       }
     },
     {
-      "id": "Ivern-5",
-      "buildIndex": 4,
+      "id": "Ivern-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5387,
+      "totalGames": 8423,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -701,31 +532,174 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 8326
+          "purchaseSamples": 4956
         },
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 3107,
+          "name": "Redemption",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 239
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2393
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 612
+          "purchaseSamples": 54
         },
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
+          "itemId": 3065,
+          "name": "Spirit Visage",
           "isBoots": false,
           "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1280
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3065,
+          3110
+        ],
+        "names": [
+          "Spirit Visage",
+          "Frozen Heart"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 19050938.231110893
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Ivern-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 8423,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 4956
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 122
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 181
+          "purchaseSamples": 266
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 16
         },
         {
           "itemId": 8010,
@@ -733,30 +707,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 180
+          "purchaseSamples": 108
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 69
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 403
         }
       ],
       "seedPair": {
         "itemIds": [
-          3165,
-          6653
+          3115,
+          8010
         ],
         "names": [
-          "Morellonomicon",
-          "Liandry's Torment"
+          "Nashor's Tooth",
+          "Bloodletter's Curse"
         ],
-        "games": 12,
-        "wins": 8,
-        "winrate": 0.6666666666666666,
-        "score": 2747293.8383221496
+        "games": 16,
+        "wins": 7,
+        "winrate": 0.4375,
+        "score": 17758211.742202386
       },
       "runes": {
         "primaryStyle": {
@@ -769,30 +743,30 @@
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
             "id": 9105,
             "name": "Legend: Haste"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           }
         ],
         "statPerks": [
@@ -805,19 +779,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
-        "games": 11,
-        "confidencePct": 0.9166666666666666
+        "sampleGames": 16,
+        "games": 4,
+        "confidencePct": 0.25
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 11,
-        "sampleGames": 12,
-        "confidencePct": 0.9166666666666666
+        "role": "TOP",
+        "games": 15,
+        "sampleGames": 16,
+        "confidencePct": 0.9375
       },
       "skillOrder": {
         "order": [
@@ -825,8 +799,8 @@
           "Q",
           "W"
         ],
-        "games": 7,
-        "sampleGames": 7,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +811,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5387,
+    "totalGames": 8423,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.511602004826434,
+    "winrate": 0.5111005579959634,
     "items": [
       {
         "itemId": 3158,
@@ -852,7 +826,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 8326
+        "purchaseSamples": 4956
       },
       {
         "itemId": 3107,
@@ -860,7 +834,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 4021
+        "purchaseSamples": 2393
       },
       {
         "itemId": 6620,
@@ -868,7 +842,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2707
+        "purchaseSamples": 1536
       },
       {
         "itemId": 6617,
@@ -876,7 +850,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5089
+        "purchaseSamples": 3066
       },
       {
         "itemId": 3504,
@@ -884,7 +858,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1970
+        "purchaseSamples": 1280
       },
       {
         "itemId": 6621,
@@ -892,7 +866,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1286
+        "purchaseSamples": 712
       }
     ],
     "runes": {
@@ -946,15 +920,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 5387,
-      "games": 1950,
-      "confidencePct": 0.36198255058474105
+      "sampleGames": 8423,
+      "games": 3070,
+      "confidencePct": 0.364478214412917
     },
     "position": {
       "role": "JUNGLE",
-      "games": 4373,
-      "sampleGames": 5387,
-      "confidencePct": 0.8117690736959347
+      "games": 6832,
+      "sampleGames": 8423,
+      "confidencePct": 0.8111124302505046
     },
     "skillOrder": {
       "order": [
@@ -962,9 +936,9 @@
         "Q",
         "W"
       ],
-      "games": 4087,
-      "sampleGames": 4298,
-      "confidencePct": 0.950907398790135
+      "games": 5193,
+      "sampleGames": 5473,
+      "confidencePct": 0.9488397588160058
     }
   }
 }

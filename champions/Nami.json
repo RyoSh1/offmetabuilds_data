@@ -1,8 +1,36 @@
 {
   "championId": "Nami",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-15T20:12:43.639Z",
+  "generatedAt": "2026-10-17T18:23:07.940Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3040,
+        3089
+      ],
+      "names": [
+        "Seraph's Embrace",
+        "Rabadon's Deathcap"
+      ],
+      "games": 24,
+      "wins": 16,
+      "winrate": 0.6666666666666666,
+      "score": 66082100.419667475
+    },
+    {
+      "itemIds": [
+        3137,
+        6655
+      ],
+      "names": [
+        "Cryptbloom",
+        "Luden's Echo"
+      ],
+      "games": 8,
+      "wins": 6,
+      "winrate": 0.75,
+      "score": 64069814.45580572
+    },
     {
       "itemIds": [
         4646,
@@ -12,66 +40,38 @@
         "Stormsurge",
         "Luden's Echo"
       ],
-      "games": 4,
+      "games": 11,
+      "wins": 5,
+      "winrate": 0.45454545454545453,
+      "score": 49963941.56043425
+    },
+    {
+      "itemIds": [
+        4645,
+        4646
+      ],
+      "names": [
+        "Shadowflame",
+        "Stormsurge"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 27467100.60908985
+    },
+    {
+      "itemIds": [
+        3089,
+        3137
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "games": 3,
       "wins": 2,
-      "winrate": 0.5,
-      "score": 32569461.7285157
-    },
-    {
-      "itemIds": [
-        2530,
-        3040
-      ],
-      "names": [
-        "Diadem of Songs",
-        "Seraph's Embrace"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 4343691.124962558
-    },
-    {
-      "itemIds": [
-        3041,
-        3089
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Rabadon's Deathcap"
-      ],
-      "games": 6,
-      "wins": 6,
-      "winrate": 1,
-      "score": 4273511.254170047
-    },
-    {
-      "itemIds": [
-        3041,
-        6621
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Dawncore"
-      ],
-      "games": 51,
-      "wins": 41,
-      "winrate": 0.803921568627451,
-      "score": 3281857.6204314474
-    },
-    {
-      "itemIds": [
-        3041,
-        3157
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Zhonya's Hourglass"
-      ],
-      "games": 18,
-      "wins": 14,
-      "winrate": 0.7777777777777778,
-      "score": 2647275.63534154
+      "winrate": 0.6666666666666666,
+      "score": 18437816.438829243
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Nami-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 15963,
+      "totalGames": 26512,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -93,23 +93,199 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5
+          "purchaseSamples": 22
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 20120
+          "purchaseSamples": 12180
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 689
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3040,
+          3089
+        ],
+        "names": [
+          "Seraph's Embrace",
+          "Rabadon's Deathcap"
+        ],
+        "games": 24,
+        "wins": 16,
+        "winrate": 0.6666666666666666,
+        "score": 66082100.419667475
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 24,
+        "games": 14,
+        "confidencePct": 0.5833333333333334
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 24,
+        "sampleGames": 24,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Nami-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 26512,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 12180
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 689
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
         }
       ],
       "seedPair": {
@@ -121,10 +297,10 @@
           "Stormsurge",
           "Luden's Echo"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 32569461.7285157
+        "games": 11,
+        "wins": 5,
+        "winrate": 0.45454545454545453,
+        "score": 49963941.56043425
       },
       "runes": {
         "primaryStyle": {
@@ -177,37 +353,37 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
+        "sampleGames": 11,
+        "games": 7,
+        "confidencePct": 0.6363636363636364
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
-          "E",
           "W",
+          "E",
           "Q"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
       },
       "asWholeSet": {
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
-      "id": "Nami-2",
-      "buildIndex": 1,
+      "id": "Nami-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 15963,
+      "totalGames": 26512,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -221,62 +397,62 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 20120
+          "purchaseSamples": 12180
         },
         {
-          "itemId": 6621,
-          "name": "Dawncore",
+          "itemId": 3109,
+          "name": "Knight's Vow",
           "isBoots": false,
           "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 653
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 535
+          "purchaseSamples": 347
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 37
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1186
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 199
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 689
         },
         {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
+          "itemId": 6621,
+          "name": "Dawncore",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 322
         }
       ],
       "seedPair": {
         "itemIds": [
-          2530,
-          3040
+          3109,
+          3190
         ],
         "names": [
-          "Diadem of Songs",
-          "Seraph's Embrace"
+          "Knight's Vow",
+          "Locket of the Iron Solari"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 4343691.124962558
+        "games": 95,
+        "wins": 64,
+        "winrate": 0.6736842105263158,
+        "score": 4916626.93901958
       },
       "runes": {
         "primaryStyle": {
@@ -307,8 +483,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8429,
+            "name": "Conditioning"
           },
           {
             "id": 8453,
@@ -317,8 +493,8 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
@@ -329,14 +505,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 95,
+        "games": 39,
+        "confidencePct": 0.4105263157894737
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 95,
+        "sampleGames": 95,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -345,9 +521,9 @@
           "E",
           "Q"
         ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
+        "games": 41,
+        "sampleGames": 47,
+        "confidencePct": 0.8723404255319149
       },
       "asWholeSet": {
         "games": 0,
@@ -356,10 +532,10 @@
       }
     },
     {
-      "id": "Nami-3",
-      "buildIndex": 2,
+      "id": "Nami-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 15963,
+      "totalGames": 26512,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -368,44 +544,44 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1980
-        },
-        {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 20120
+          "purchaseSamples": 12180
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 127
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1186
+          "purchaseSamples": 689
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 6621,
+          "name": "Dawncore",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 322
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 30
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         },
         {
           "itemId": 3040,
@@ -418,321 +594,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3041,
-          3089
+          2530,
+          3040
         ],
         "names": [
-          "Mejai's Soulstealer",
-          "Rabadon's Deathcap"
+          "Diadem of Songs",
+          "Seraph's Embrace"
         ],
-        "games": 6,
+        "games": 9,
         "wins": 6,
-        "winrate": 1,
-        "score": 4273511.254170047
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 2,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Nami-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 15963,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 20120
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 162
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2929
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1186
-        },
-        {
-          "itemId": 6621,
-          "name": "Dawncore",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 535
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 199
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          6621
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Dawncore"
-        ],
-        "games": 51,
-        "wins": 41,
-        "winrate": 0.803921568627451,
-        "score": 3281857.6204314474
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 51,
-        "games": 21,
-        "confidencePct": 0.4117647058823529
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 51,
-        "sampleGames": 51,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 42,
-        "sampleGames": 46,
-        "confidencePct": 0.9130434782608695
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Nami-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 15963,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 20120
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 962
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 73
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 578
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2285
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1186
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2524,
-          3109
-        ],
-        "names": [
-          "Bandlepipes",
-          "Knight's Vow"
-        ],
-        "games": 8,
-        "wins": 7,
-        "winrate": 0.875,
-        "score": 2433047.128066656
+        "winrate": 0.6666666666666666,
+        "score": 4902497.221650681
       },
       "runes": {
         "primaryStyle": {
@@ -781,18 +653,18 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 4,
-        "confidencePct": 0.5
+        "sampleGames": 9,
+        "games": 3,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 8,
-        "sampleGames": 8,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -801,9 +673,161 @@
           "E",
           "Q"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Nami-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 26512,
+      "patchesUsed": [
+        "16.20",
+        "16.19"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 12180
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 127
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1770
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 689
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          3157
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Zhonya's Hourglass"
+        ],
+        "games": 27,
+        "wins": 21,
+        "winrate": 0.7777777777777778,
+        "score": 3872726.902486535
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 27,
+        "games": 7,
+        "confidencePct": 0.25925925925925924
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 27,
+        "sampleGames": 27,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 12,
+        "sampleGames": 19,
+        "confidencePct": 0.631578947368421
       },
       "asWholeSet": {
         "games": 0,
@@ -813,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 15963,
+    "totalGames": 26512,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4880661529787634,
+    "winrate": 0.4925316837658419,
     "items": [
       {
         "itemId": 6620,
@@ -828,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 17082
+        "purchaseSamples": 10339
       },
       {
         "itemId": 6616,
@@ -836,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 7466
+        "purchaseSamples": 4315
       },
       {
         "itemId": 3158,
@@ -844,7 +868,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 20120
+        "purchaseSamples": 12180
       },
       {
         "itemId": 6617,
@@ -852,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 9696
+        "purchaseSamples": 5757
       },
       {
         "itemId": 3504,
@@ -860,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4252
+        "purchaseSamples": 2643
       },
       {
         "itemId": 3222,
@@ -868,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4094
+        "purchaseSamples": 2453
       }
     ],
     "runes": {
@@ -922,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 15963,
-      "games": 7112,
-      "confidencePct": 0.4455302887928334
+      "sampleGames": 26512,
+      "games": 11783,
+      "confidencePct": 0.4444402534701267
     },
     "position": {
       "role": "UTILITY",
-      "games": 15951,
-      "sampleGames": 15963,
-      "confidencePct": 0.9992482616049615
+      "games": 26479,
+      "sampleGames": 26512,
+      "confidencePct": 0.9987552806276403
     },
     "skillOrder": {
       "order": [
@@ -938,9 +962,9 @@
         "E",
         "Q"
       ],
-      "games": 11076,
-      "sampleGames": 12707,
-      "confidencePct": 0.8716455496970174
+      "games": 13025,
+      "sampleGames": 15034,
+      "confidencePct": 0.8663695623253957
     }
   }
 }
