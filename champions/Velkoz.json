@@ -1,7 +1,7 @@
 {
   "championId": "Velkoz",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-17T18:23:07.940Z",
+  "generatedAt": "2026-10-21T12:10:34.538Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,38 @@
         "Diadem of Songs",
         "Echoes of Helia"
       ],
-      "games": 6,
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 179133091.33423135
+    },
+    {
+      "itemIds": [
+        2530,
+        3107
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Redemption"
+      ],
+      "games": 3,
       "wins": 3,
-      "winrate": 0.5,
-      "score": 148437833.6627326
+      "winrate": 1,
+      "score": 175495311.28799158
+    },
+    {
+      "itemIds": [
+        3107,
+        6620
+      ],
+      "names": [
+        "Redemption",
+        "Echoes of Helia"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 166071414.79129022
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 64779522.51782452
+      "score": 65201112.281415544
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 15,
       "wins": 10,
       "winrate": 0.6666666666666666,
-      "score": 54110132.892219275
-    },
-    {
-      "itemIds": [
-        4633,
-        6657
-      ],
-      "names": [
-        "Riftmaker",
-        "Rod of Ages"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 19469170.95102611
-    },
-    {
-      "itemIds": [
-        4633,
-        8010
-      ],
-      "names": [
-        "Riftmaker",
-        "Bloodletter's Curse"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 17746131.627458896
+      "score": 54666650.446012035
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Velkoz-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 14581,
+      "totalGames": 14874,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -92,8 +92,8 @@
           "name": "Echoes of Helia",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 8
         },
         {
           "itemId": 3020,
@@ -101,13 +101,21 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3481
+          "purchaseSamples": 5088
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 4
         },
         {
           "itemId": 2530,
           "name": "Diadem of Songs",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -121,71 +129,71 @@
           "Diadem of Songs",
           "Echoes of Helia"
         ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 148437833.6627326
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 179133091.33423135
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
+          "id": 8128,
+          "name": "Dark Harvest"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
             "id": 8237,
             "name": "Scorch"
           }
         ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 2,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -193,21 +201,21 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 6,
+        "games": 3,
         "wins": 3,
-        "winrate": 0.5
+        "winrate": 1
       }
     },
     {
       "id": "Velkoz-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 14581,
+      "totalGames": 14874,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -221,7 +229,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 63
+          "purchaseSamples": 90
         },
         {
           "itemId": 3020,
@@ -229,7 +237,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3481
+          "purchaseSamples": 5088
         },
         {
           "itemId": 2522,
@@ -237,7 +245,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 11
+          "purchaseSamples": 17
         },
         {
           "itemId": 4629,
@@ -245,7 +253,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 284
+          "purchaseSamples": 395
         },
         {
           "itemId": 3041,
@@ -253,7 +261,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 574
+          "purchaseSamples": 893
         },
         {
           "itemId": 3040,
@@ -276,7 +284,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 64779522.51782452
+        "score": 65201112.281415544
       },
       "runes": {
         "primaryStyle": {
@@ -339,7 +347,16 @@
         "sampleGames": 4,
         "confidencePct": 1
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -350,7 +367,7 @@
       "id": "Velkoz-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 14581,
+      "totalGames": 14874,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -364,7 +381,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 63
+          "purchaseSamples": 90
         },
         {
           "itemId": 3020,
@@ -372,7 +389,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3481
+          "purchaseSamples": 5088
         },
         {
           "itemId": 4633,
@@ -380,7 +397,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 14
+          "purchaseSamples": 18
         },
         {
           "itemId": 6653,
@@ -388,7 +405,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1055
+          "purchaseSamples": 1446
         },
         {
           "itemId": 4629,
@@ -396,7 +413,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 284
+          "purchaseSamples": 395
         },
         {
           "itemId": 8010,
@@ -404,7 +421,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 83
+          "purchaseSamples": 130
         }
       ],
       "seedPair": {
@@ -419,7 +436,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 19469170.95102611
+        "score": 20024836.316792432
       },
       "runes": {
         "primaryStyle": {
@@ -488,8 +505,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -502,7 +519,7 @@
       "id": "Velkoz-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 14581,
+      "totalGames": 14874,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -516,7 +533,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 63
+          "purchaseSamples": 90
         },
         {
           "itemId": 2065,
@@ -524,7 +541,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1131
+          "purchaseSamples": 1436
         },
         {
           "itemId": 3020,
@@ -532,31 +549,31 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3481
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 486
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 574
+          "purchaseSamples": 5088
         },
         {
           "itemId": 3100,
           "name": "Lich Bane",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 777
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 893
         }
       ],
       "seedPair": {
@@ -568,10 +585,10 @@
           "Lich Bane",
           "Stormsurge"
         ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 15073982.559527319
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 19161079.58148327
       },
       "runes": {
         "primaryStyle": {
@@ -624,17 +641,26 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 1,
-        "confidencePct": 0.16666666666666666
+        "confidencePct": 0.14285714285714285
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -645,7 +671,7 @@
       "id": "Velkoz-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 14581,
+      "totalGames": 14874,
       "patchesUsed": [
         "16.20",
         "16.19"
@@ -654,52 +680,52 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1436
+        },
+        {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 3481
+          "purchaseSamples": 5088
         },
         {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 67
+          "purchaseSamples": 88
         },
         {
           "itemId": 4629,
           "name": "Cosmic Drive",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 284
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 486
+          "purchaseSamples": 395
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
+          "itemId": 2524,
+          "name": "Bandlepipes",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 574
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 21
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 717
+          "purchaseSamples": 285
         }
       ],
       "seedPair": {
@@ -714,7 +740,7 @@
         "games": 11,
         "wins": 6,
         "winrate": 0.5454545454545454,
-        "score": 12739482.686468704
+        "score": 12584435.935715675
       },
       "runes": {
         "primaryStyle": {
@@ -783,8 +809,8 @@
           "W",
           "E"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -795,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 14581,
+    "totalGames": 14874,
     "patchesUsed": [
       "16.20",
       "16.19"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5079898498045402,
+    "winrate": 0.5082022320828291,
     "items": [
       {
         "itemId": 6655,
@@ -810,7 +836,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4142
+        "purchaseSamples": 6037
       },
       {
         "itemId": 4645,
@@ -818,7 +844,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2957
+        "purchaseSamples": 4324
       },
       {
         "itemId": 4628,
@@ -826,7 +852,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2514
+        "purchaseSamples": 3537
       },
       {
         "itemId": 3157,
@@ -834,7 +860,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2063
+        "purchaseSamples": 3081
       },
       {
         "itemId": 3089,
@@ -842,7 +868,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1275
+        "purchaseSamples": 1901
       },
       {
         "itemId": 3171,
@@ -904,15 +930,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 14581,
-      "games": 3026,
-      "confidencePct": 0.2075303477127769
+      "sampleGames": 14874,
+      "games": 3090,
+      "confidencePct": 0.20774505849132716
     },
     "position": {
       "role": "UTILITY",
-      "games": 7034,
-      "sampleGames": 14581,
-      "confidencePct": 0.4824086139496605
+      "games": 7181,
+      "sampleGames": 14874,
+      "confidencePct": 0.4827887589081619
     },
     "skillOrder": {
       "order": [
@@ -920,9 +946,9 @@
         "W",
         "E"
       ],
-      "games": 8506,
-      "sampleGames": 9051,
-      "confidencePct": 0.9397856590431997
+      "games": 12176,
+      "sampleGames": 12922,
+      "confidencePct": 0.9422689986070267
     }
   }
 }
