@@ -1,8 +1,22 @@
 {
   "championId": "Smolder",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T16:39:11.362Z",
+  "generatedAt": "2026-10-24T22:22:35.233Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3042,
+        3078
+      ],
+      "names": [
+        "Muramana",
+        "Trinity Force"
+      ],
+      "games": 18,
+      "wins": 9,
+      "winrate": 0.5,
+      "score": 120402370.71339199
+    },
     {
       "itemIds": [
         2520,
@@ -12,10 +26,10 @@
         "Bastionbreaker",
         "Voltaic Cyclosword"
       ],
-      "games": 12,
-      "wins": 8,
-      "winrate": 0.6666666666666666,
-      "score": 36317132.83150754
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 17318662.90290544
     },
     {
       "itemIds": [
@@ -26,24 +40,24 @@
         "Trinity Force",
         "Titanic Hydra"
       ],
-      "games": 10,
-      "wins": 9,
-      "winrate": 0.9,
-      "score": 15228570.382708425
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 8762724.812341504
     },
     {
       "itemIds": [
-        3026,
+        2517,
         3042
       ],
       "names": [
-        "Guardian Angel",
+        "Endless Hunger",
         "Muramana"
       ],
-      "games": 3,
+      "games": 6,
       "wins": 3,
-      "winrate": 1,
-      "score": 11659746.059976572
+      "winrate": 0.5,
+      "score": 8564556.82956697
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Guardian Angel",
         "Trinity Force"
       ],
-      "games": 5,
-      "wins": 5,
+      "games": 3,
+      "wins": 3,
       "winrate": 1,
-      "score": 10531308.642015716
-    },
-    {
-      "itemIds": [
-        3156,
-        3748
-      ],
-      "names": [
-        "Maw of Malmortius",
-        "Titanic Hydra"
-      ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 9521941.097589705
+      "score": 7863473.504395541
     }
   ],
   "builds": [
@@ -79,10 +79,162 @@
       "id": "Smolder-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9688,
+      "totalGames": 5469,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 167
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3223
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 809
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 465
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3042,
+          3078
+        ],
+        "names": [
+          "Muramana",
+          "Trinity Force"
+        ],
+        "games": 18,
+        "wins": 9,
+        "winrate": 0.5,
+        "score": 120402370.71339199
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 18,
+        "games": 3,
+        "confidencePct": 0.16666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 7,
+        "sampleGames": 18,
+        "confidencePct": 0.3888888888888889
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 15,
+        "sampleGames": 18,
+        "confidencePct": 0.8333333333333334
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Smolder-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5469,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -120,12 +272,12 @@
           "purchaseSamples": 16
         },
         {
-          "itemId": 3094,
-          "name": "Rapid Firecannon",
+          "itemId": 3814,
+          "name": "Edge of Night",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3785
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 26
         },
         {
           "itemId": 3042,
@@ -145,10 +297,10 @@
           "Bastionbreaker",
           "Voltaic Cyclosword"
         ],
-        "games": 12,
-        "wins": 8,
-        "winrate": 0.6666666666666666,
-        "score": 36317132.83150754
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 17318662.90290544
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 12,
+        "sampleGames": 4,
         "games": 2,
-        "confidencePct": 0.16666666666666666
+        "confidencePct": 0.5
       },
       "position": {
         "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 12,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -217,24 +369,24 @@
           "W",
           "E"
         ],
-        "games": 12,
-        "sampleGames": 12,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
-      "id": "Smolder-2",
-      "buildIndex": 1,
+      "id": "Smolder-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 9688,
+      "totalGames": 5469,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -297,10 +449,10 @@
           "Trinity Force",
           "Titanic Hydra"
         ],
-        "games": 10,
-        "wins": 9,
-        "winrate": 0.9,
-        "score": 15228570.382708425
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 8762724.812341504
       },
       "runes": {
         "primaryStyle": {
@@ -331,12 +483,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
             "id": 8429,
             "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "statPerks": [
@@ -353,192 +505,40 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
-        "games": 6,
-        "confidencePct": 0.6
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "BOTTOM",
-        "games": 9,
-        "sampleGames": 10,
-        "confidencePct": 0.9
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
           "E",
           "W"
-        ],
-        "games": 9,
-        "sampleGames": 10,
-        "confidencePct": 0.9
-      },
-      "asWholeSet": {
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571
-      }
-    },
-    {
-      "id": "Smolder-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 9688,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 167
-        },
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 809
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 465
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 142
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          3042
-        ],
-        "names": [
-          "Guardian Angel",
-          "Muramana"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 11659746.059976572
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 3,
+        "wins": 3,
+        "winrate": 1
       }
     },
     {
       "id": "Smolder-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 9688,
+      "totalGames": 5469,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -576,158 +576,6 @@
           "purchaseSamples": 809
         },
         {
-          "itemId": 2501,
-          "name": "Overlord's Bloodmail",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 465
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3156,
-          6333
-        ],
-        "names": [
-          "Maw of Malmortius",
-          "Death's Dance"
-        ],
-        "games": 10,
-        "wins": 8,
-        "winrate": 0.8,
-        "score": 3962649.7429693555
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 5,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 10,
-        "sampleGames": 10,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Smolder-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 9688,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3171,
-          "name": "Crimson Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 138
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 809
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 42
-        },
-        {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
@@ -746,17 +594,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3143,
-          6673
+          3156,
+          6333
         ],
         "names": [
-          "Randuin's Omen",
-          "Immortal Shieldbow"
+          "Maw of Malmortius",
+          "Death's Dance"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 2325506.4695689203
+        "games": 5,
+        "wins": 5,
+        "winrate": 1,
+        "score": 3406354.086500588
       },
       "runes": {
         "primaryStyle": {
@@ -773,8 +621,8 @@
             "name": "Nimbus Cloak"
           },
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
             "id": 8236,
@@ -787,8 +635,8 @@
         },
         "secondaryPerks": [
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           },
           {
             "id": 8304,
@@ -805,19 +653,171 @@
             "name": "Move Speed"
           },
           {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Smolder-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5469,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1081
+        },
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 167
+        },
+        {
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 809
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3042,
+          6699
+        ],
+        "names": [
+          "Muramana",
+          "Voltaic Cyclosword"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 3137946.240678923
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8021,
+          "name": "Fleet Footwork"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 3,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "BOTTOM",
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -826,8 +826,8 @@
           "E"
         ],
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 9688,
+    "totalGames": 5469,
     "patchesUsed": [
-      "16.20",
-      "16.19"
+      "16.21",
+      "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.444364161849711,
+    "winrate": 0.44157981349424025,
     "items": [
       {
         "itemId": 3508,
@@ -938,23 +938,23 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5010,
-          "name": "Move Speed"
+          "id": 5008,
+          "name": "Adaptive Force"
         },
         {
           "id": 5001,
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 9688,
-      "games": 3858,
-      "confidencePct": 0.39822460776218
+      "sampleGames": 5469,
+      "games": 2064,
+      "confidencePct": 0.37739989029072957
     },
     "position": {
       "role": "BOTTOM",
-      "games": 7757,
-      "sampleGames": 9688,
-      "confidencePct": 0.800681255161024
+      "games": 4588,
+      "sampleGames": 5469,
+      "confidencePct": 0.8389102212470287
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 8186,
-      "sampleGames": 8978,
-      "confidencePct": 0.9117843617732234
+      "games": 4476,
+      "sampleGames": 4947,
+      "confidencePct": 0.9047907822922984
     }
   }
 }

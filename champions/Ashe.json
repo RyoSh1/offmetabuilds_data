@@ -1,35 +1,49 @@
 {
   "championId": "Ashe",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T16:39:11.362Z",
+  "generatedAt": "2026-10-24T22:22:35.233Z",
   "corePairs": [
     {
       "itemIds": [
-        2503,
-        4628
+        3118,
+        6653
       ],
       "names": [
-        "Blackfire Torch",
-        "Horizon Focus"
+        "Malignance",
+        "Liandry's Torment"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 1035730386.6459732
+      "games": 22,
+      "wins": 12,
+      "winrate": 0.5454545454545454,
+      "score": 235514913.5345295
     },
     {
       "itemIds": [
-        3071,
-        3161
+        2503,
+        3137
       ],
       "names": [
-        "Black Cleaver",
-        "Spear of Shojin"
+        "Blackfire Torch",
+        "Cryptbloom"
       ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 1009393042.3457507
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 197162867.91840583
+    },
+    {
+      "itemIds": [
+        3137,
+        6653
+      ],
+      "names": [
+        "Cryptbloom",
+        "Liandry's Torment"
+      ],
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 197162867.91840583
     },
     {
       "itemIds": [
@@ -40,24 +54,10 @@
         "Blackfire Torch",
         "Malignance"
       ],
-      "games": 41,
-      "wins": 21,
-      "winrate": 0.5121951219512195,
-      "score": 687001480.604586
-    },
-    {
-      "itemIds": [
-        4646,
-        6653
-      ],
-      "names": [
-        "Stormsurge",
-        "Liandry's Torment"
-      ],
-      "games": 8,
-      "wins": 3,
-      "winrate": 0.375,
-      "score": 634321876.4276413
+      "games": 20,
+      "wins": 10,
+      "winrate": 0.5,
+      "score": 196262427.94544128
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Muramana",
         "Black Cleaver"
       ],
-      "games": 23,
-      "wins": 15,
-      "winrate": 0.6521739130434783,
-      "score": 613522075.7497886
+      "games": 7,
+      "wins": 6,
+      "winrate": 0.8571428571428571,
+      "score": 192074898.32982725
     }
   ],
   "builds": [
@@ -79,10 +79,10 @@
       "id": "Ashe-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 18465,
+      "totalGames": 6230,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -96,20 +96,620 @@
           "purchaseSamples": 1046
         },
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
+          "itemId": 3118,
+          "name": "Malignance",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
+          "purchaseSamples": 440
+        },
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
           "purchaseSamples": 55
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 70
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 399
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          6653
+        ],
+        "names": [
+          "Malignance",
+          "Liandry's Torment"
+        ],
+        "games": 22,
+        "wins": 12,
+        "winrate": 0.5454545454545454,
+        "score": 235514913.5345295
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 22,
+        "games": 7,
+        "confidencePct": 0.3181818181818182
+      },
+      "position": {
+        "role": "TOP",
+        "games": 10,
+        "sampleGames": 22,
+        "confidencePct": 0.45454545454545453
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 18,
+        "sampleGames": 20,
+        "confidencePct": 0.9
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ashe-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6230,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1046
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 86
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 517
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 138
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3042,
+          3071
+        ],
+        "names": [
+          "Muramana",
+          "Black Cleaver"
+        ],
+        "games": 7,
+        "wins": 6,
+        "winrate": 0.8571428571428571,
+        "score": 192074898.32982725
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 7,
+        "confidencePct": 0.42857142857142855
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ashe-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 6230,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1046
         },
         {
           "itemId": 3118,
           "name": "Malignance",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 440
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 399
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 27
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3040,
+          3118
+        ],
+        "names": [
+          "Seraph's Embrace",
+          "Malignance"
+        ],
+        "games": 8,
+        "wins": 2,
+        "winrate": 0.25,
+        "score": 99759505.79388782
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 4,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 7,
+        "sampleGames": 8,
+        "confidencePct": 0.875
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ashe-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 6230,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1046
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 440
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 517
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 42
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 399
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2524,
+          4005
+        ],
+        "names": [
+          "Bandlepipes",
+          "Imperial Mandate"
+        ],
+        "games": 8,
+        "wins": 6,
+        "winrate": 0.75,
+        "score": 71410557.72573426
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 4,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 8,
+        "sampleGames": 8,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ashe-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 6230,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1046
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 440
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 517
         },
         {
           "itemId": 4005,
@@ -128,179 +728,27 @@
           "purchaseSamples": 70
         },
         {
-          "itemId": 4628,
-          "name": "Horizon Focus",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 14
+          "medianPurchaseOrder": 4.5,
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
         "itemIds": [
-          2503,
-          4628
+          3165,
+          4005
         ],
         "names": [
-          "Blackfire Torch",
-          "Horizon Focus"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 1035730386.6459732
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          },
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ashe-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 18465,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 133
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1046
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 86
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 517
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          3161
-        ],
-        "names": [
-          "Black Cleaver",
-          "Spear of Shojin"
+          "Morellonomicon",
+          "Imperial Mandate"
         ],
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1009393042.3457507
+        "score": 68557700.7830625
       },
       "runes": {
         "primaryStyle": {
@@ -321,8 +769,8 @@
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -331,12 +779,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
             "id": 8106,
             "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
           }
         ],
         "statPerks": [
@@ -345,8 +793,8 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
@@ -354,20 +802,20 @@
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 1,
+        "role": "UTILITY",
+        "games": 2,
         "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
           "W",
-          "Q",
-          "E"
+          "E",
+          "Q"
         ],
         "games": 2,
         "sampleGames": 2,
@@ -378,473 +826,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Ashe-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 18465,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1046
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 517
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 86
-        },
-        {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 73
-        },
-        {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3073,
-          6696
-        ],
-        "names": [
-          "Experimental Hexplate",
-          "Axiom Arc"
-        ],
-        "games": 35,
-        "wins": 21,
-        "winrate": 0.6,
-        "score": 601394116.2220253
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          },
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 35,
-        "games": 24,
-        "confidencePct": 0.6857142857142857
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 16,
-        "sampleGames": 35,
-        "confidencePct": 0.45714285714285713
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 30,
-        "sampleGames": 34,
-        "confidencePct": 0.8823529411764706
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ashe-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 18465,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1046
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 86
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 118
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 138
-        },
-        {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3071,
-          6695
-        ],
-        "names": [
-          "Black Cleaver",
-          "Serpent's Fang"
-        ],
-        "games": 22,
-        "wins": 13,
-        "winrate": 0.5909090909090909,
-        "score": 413920680.6705082
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 22,
-        "games": 6,
-        "confidencePct": 0.2727272727272727
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 13,
-        "sampleGames": 22,
-        "confidencePct": 0.5909090909090909
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 18,
-        "sampleGames": 22,
-        "confidencePct": 0.8181818181818182
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Ashe-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 18465,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1046
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 118
-        },
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 517
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 138
-        },
-        {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 73
-        },
-        {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 36
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3179,
-          6609
-        ],
-        "names": [
-          "Umbral Glaive",
-          "Chempunk Chainsword"
-        ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 299107296.45619696
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 18465,
+    "totalGames": 6230,
     "patchesUsed": [
-      "16.20",
-      "16.19"
+      "16.21",
+      "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48724614134849714,
+    "winrate": 0.4796147672552167,
     "items": [
       {
         "itemId": 3006,
@@ -946,15 +938,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 18465,
-      "games": 5480,
-      "confidencePct": 0.2967776875169239
+      "sampleGames": 6230,
+      "games": 1815,
+      "confidencePct": 0.2913322632423756
     },
     "position": {
       "role": "BOTTOM",
-      "games": 17133,
-      "sampleGames": 18465,
-      "confidencePct": 0.927863525588952
+      "games": 5691,
+      "sampleGames": 6230,
+      "confidencePct": 0.9134831460674158
     },
     "skillOrder": {
       "order": [
@@ -962,9 +954,9 @@
         "Q",
         "E"
       ],
-      "games": 16128,
-      "sampleGames": 17298,
-      "confidencePct": 0.9323621227887617
+      "games": 5143,
+      "sampleGames": 5583,
+      "confidencePct": 0.9211893247358052
     }
   }
 }

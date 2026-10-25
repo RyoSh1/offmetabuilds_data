@@ -1,21 +1,35 @@
 {
   "championId": "Chogath",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T16:39:11.362Z",
+  "generatedAt": "2026-10-24T22:22:35.233Z",
   "corePairs": [
     {
       "itemIds": [
-        3190,
-        3222
+        3135,
+        4646
       ],
       "names": [
-        "Locket of the Iron Solari",
-        "Mikael's Blessing"
+        "Void Staff",
+        "Stormsurge"
       ],
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1802748476.8572946
+      "score": 665338541.1051228
+    },
+    {
+      "itemIds": [
+        3109,
+        3190
+      ],
+      "names": [
+        "Knight's Vow",
+        "Locket of the Iron Solari"
+      ],
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 519551747.1599445
     },
     {
       "itemIds": [
@@ -26,24 +40,10 @@
         "Dusk and Dawn",
         "Sterak's Gage"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 593404518.1674818
-    },
-    {
-      "itemIds": [
-        3050,
-        3190
-      ],
-      "names": [
-        "Zeke's Convergence",
-        "Locket of the Iron Solari"
-      ],
-      "games": 5,
+      "games": 3,
       "wins": 2,
-      "winrate": 0.4,
-      "score": 568887628.0006185
+      "winrate": 0.6666666666666666,
+      "score": 346293727.6291189
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Shurelya's Battlesong",
         "Zeke's Convergence"
       ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 560717341.106846
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 275012715.10324866
     },
     {
       "itemIds": [
-        3135,
-        4646
+        2065,
+        4005
       ],
       "names": [
-        "Void Staff",
-        "Stormsurge"
+        "Shurelya's Battlesong",
+        "Imperial Mandate"
       ],
-      "games": 10,
-      "wins": 5,
-      "winrate": 0.5,
-      "score": 507486178.390899
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 266950918.52970618
     }
   ],
   "builds": [
@@ -79,21 +79,173 @@
       "id": "Chogath-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 31544,
+      "totalGames": 11824,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 14623
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 156
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 426
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 153
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 20
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 244
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3135,
+          4646
+        ],
+        "names": [
+          "Void Staff",
+          "Stormsurge"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 665338541.1051228
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Chogath-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11824,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 9
+          "purchaseSamples": 229
         },
         {
           "itemId": 3009,
@@ -120,35 +272,35 @@
           "purchaseSamples": 313
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 53
-        },
-        {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 330
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 53
         }
       ],
       "seedPair": {
         "itemIds": [
-          3190,
-          3222
+          3109,
+          3190
         ],
         "names": [
-          "Locket of the Iron Solari",
-          "Mikael's Blessing"
+          "Knight's Vow",
+          "Locket of the Iron Solari"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 1802748476.8572946
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 519551747.1599445
       },
       "runes": {
         "primaryStyle": {
@@ -174,52 +326,52 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8234,
+            "name": "Celerity"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5010,
             "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
+        "sampleGames": 6,
+        "games": 2,
         "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
         "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
+          "W",
           "E",
-          "Q",
-          "W"
+          "Q"
         ],
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "asWholeSet": {
         "games": 0,
@@ -228,13 +380,13 @@
       }
     },
     {
-      "id": "Chogath-2",
-      "buildIndex": 1,
+      "id": "Chogath-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 31544,
+      "totalGames": 11824,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -256,20 +408,20 @@
           "purchaseSamples": 14623
         },
         {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
+          "itemId": 4401,
+          "name": "Force of Nature",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 114
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6984
         },
         {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 15
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3486
         },
         {
           "itemId": 3053,
@@ -297,32 +449,32 @@
           "Dusk and Dawn",
           "Sterak's Gage"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 593404518.1674818
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 346293727.6291189
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
+          "id": 9923,
+          "name": "Hail of Blades"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "subStyle": {
@@ -335,8 +487,8 @@
             "name": "Axiom Arcanist"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8234,
+            "name": "Celerity"
           }
         ],
         "statPerks": [
@@ -345,23 +497,23 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -369,9 +521,9 @@
           "W",
           "Q"
         ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -380,13 +532,13 @@
       }
     },
     {
-      "id": "Chogath-3",
-      "buildIndex": 2,
+      "id": "Chogath-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 31544,
+      "totalGames": 11824,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -424,20 +576,20 @@
           "purchaseSamples": 168
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 3110,
+          "name": "Frozen Heart",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 217
+          "purchaseSamples": 811
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 330
+          "purchaseSamples": 1064
         }
       ],
       "seedPair": {
@@ -449,10 +601,10 @@
           "Shurelya's Battlesong",
           "Zeke's Convergence"
         ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 560717341.106846
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 275012715.10324866
       },
       "runes": {
         "primaryStyle": {
@@ -493,8 +645,8 @@
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5010,
@@ -505,14 +657,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -521,9 +673,9 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -532,24 +684,24 @@
       }
     },
     {
-      "id": "Chogath-4",
-      "buildIndex": 3,
+      "id": "Chogath-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 31544,
+      "totalGames": 11824,
       "patchesUsed": [
-        "16.20",
-        "16.19"
+        "16.21",
+        "16.20"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 104
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 229
         },
         {
           "itemId": 3009,
@@ -560,51 +712,51 @@
           "purchaseSamples": 14623
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 4005,
+          "name": "Imperial Mandate",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 156
+          "purchaseSamples": 168
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
+          "itemId": 2524,
+          "name": "Bandlepipes",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 426
+          "purchaseSamples": 217
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 20
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 150
         },
         {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 3110,
+          "name": "Frozen Heart",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 244
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 811
         }
       ],
       "seedPair": {
         "itemIds": [
-          3135,
-          4646
+          2524,
+          4005
         ],
         "names": [
-          "Void Staff",
-          "Stormsurge"
+          "Bandlepipes",
+          "Imperial Mandate"
         ],
-        "games": 10,
-        "wins": 5,
-        "winrate": 0.5,
-        "score": 507486178.390899
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 184002812.67112568
       },
       "runes": {
         "primaryStyle": {
@@ -630,23 +782,23 @@
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
-            "id": 8105,
-            "name": "Relentless Hunter"
+            "id": 9105,
+            "name": "Legend: Haste"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
             "id": 5008,
@@ -657,194 +809,42 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 10,
-        "games": 6,
-        "confidencePct": 0.6
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 8,
-        "sampleGames": 10,
-        "confidencePct": 0.8
+        "role": "UTILITY",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "Q",
-          "W",
-          "E"
+          "E",
+          "W"
         ],
-        "games": 9,
-        "sampleGames": 10,
-        "confidencePct": 0.9
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Chogath-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 31544,
-      "patchesUsed": [
-        "16.20",
-        "16.19"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 501
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 14623
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 7399
-        },
-        {
-          "itemId": 2522,
-          "name": "Actualizer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3121,
-          "name": "Fimbulwinter",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2522,
-          3040
-        ],
-        "names": [
-          "Actualizer",
-          "Seraph's Embrace"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 379461213.34065545
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 2,
-        "wins": 2,
-        "winrate": 1
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 31544,
+    "totalGames": 11824,
     "patchesUsed": [
-      "16.20",
-      "16.19"
+      "16.21",
+      "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4935645447628709,
+    "winrate": 0.4879059539918809,
     "items": [
       {
         "itemId": 3084,
@@ -938,23 +938,23 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5008,
-          "name": "Adaptive Force"
+          "id": 5010,
+          "name": "Move Speed"
         },
         {
           "id": 5001,
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 31544,
-      "games": 15187,
-      "confidencePct": 0.48145447628709104
+      "sampleGames": 11824,
+      "games": 5605,
+      "confidencePct": 0.4740358592692828
     },
     "position": {
       "role": "JUNGLE",
-      "games": 19021,
-      "sampleGames": 31544,
-      "confidencePct": 0.602998985544002
+      "games": 6970,
+      "sampleGames": 11824,
+      "confidencePct": 0.5894790257104194
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "Q",
         "W"
       ],
-      "games": 13759,
-      "sampleGames": 29679,
-      "confidencePct": 0.4635937868526568
+      "games": 4731,
+      "sampleGames": 10278,
+      "confidencePct": 0.4603035610040864
     }
   }
 }
