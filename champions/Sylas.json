@@ -1,21 +1,49 @@
 {
   "championId": "Sylas",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T22:22:35.233Z",
+  "generatedAt": "2026-10-25T21:40:29.405Z",
   "corePairs": [
     {
       "itemIds": [
-        6653,
+        3161,
+        6610
+      ],
+      "names": [
+        "Spear of Shojin",
+        "Sundered Sky"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 342949365.76328665
+    },
+    {
+      "itemIds": [
+        2510,
+        3042
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Muramana"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 149041876.004616
+    },
+    {
+      "itemIds": [
+        3042,
         6657
       ],
       "names": [
-        "Liandry's Torment",
+        "Muramana",
         "Rod of Ages"
       ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 86313925.53418985
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 126154249.7385612
     },
     {
       "itemIds": [
@@ -26,52 +54,24 @@
         "Cosmic Drive",
         "Rod of Ages"
       ],
-      "games": 30,
-      "wins": 16,
-      "winrate": 0.5333333333333333,
-      "score": 75322816.56342547
+      "games": 40,
+      "wins": 23,
+      "winrate": 0.575,
+      "score": 118954042.46624877
     },
     {
       "itemIds": [
-        2503,
-        6662
+        6653,
+        6657
       ],
       "names": [
-        "Blackfire Torch",
-        "Iceborn Gauntlet"
+        "Liandry's Torment",
+        "Rod of Ages"
       ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 52777187.7932202
-    },
-    {
-      "itemIds": [
-        3121,
-        8010
-      ],
-      "names": [
-        "Fimbulwinter",
-        "Bloodletter's Curse"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 48782788.52875094
-    },
-    {
-      "itemIds": [
-        3190,
-        4646
-      ],
-      "names": [
-        "Locket of the Iron Solari",
-        "Stormsurge"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 35130926.66526168
+      "games": 8,
+      "wins": 5,
+      "winrate": 0.625,
+      "score": 88718710.03895758
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sylas-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 26287,
+      "totalGames": 36917,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -88,10 +88,146 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 23771
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3161,
+          6610
+        ],
+        "names": [
+          "Spear of Shojin",
+          "Sundered Sky"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 342949365.76328665
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Sylas-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 36917,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 275
+        },
+        {
           "itemId": 6657,
           "name": "Rod of Ages",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 866
         },
@@ -99,17 +235,9 @@
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 23771
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 251
         },
         {
           "itemId": 4629,
@@ -128,27 +256,27 @@
           "purchaseSamples": 4633
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3042,
+          "name": "Muramana",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 588
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          6653,
-          6657
+          2510,
+          3042
         ],
         "names": [
-          "Liandry's Torment",
-          "Rod of Ages"
+          "Dusk and Dawn",
+          "Muramana"
         ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 86313925.53418985
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 149041876.004616
       },
       "runes": {
         "primaryStyle": {
@@ -169,8 +297,8 @@
             "name": "Legend: Haste"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
@@ -179,12 +307,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8429,
+            "name": "Conditioning"
           },
           {
-            "id": 8242,
-            "name": "Unflinching"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
@@ -201,15 +329,158 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "TOP",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Sylas-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 36917,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 23771
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 108
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6548
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 4633
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 293
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3110,
+          6665
+        ],
+        "names": [
+          "Frozen Heart",
+          "Jak'Sho, The Protean"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 68510730.73225597
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -217,9 +488,9 @@
           "E",
           "Q"
         ],
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -228,10 +499,10 @@
       }
     },
     {
-      "id": "Sylas-2",
-      "buildIndex": 1,
+      "id": "Sylas-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 26287,
+      "totalGames": 36917,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -292,7 +563,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 52777187.7932202
+        "score": 62769752.75019753
       },
       "runes": {
         "primaryStyle": {
@@ -372,10 +643,10 @@
       }
     },
     {
-      "id": "Sylas-3",
-      "buildIndex": 2,
+      "id": "Sylas-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 26287,
+      "totalGames": 36917,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -392,20 +663,20 @@
           "purchaseSamples": 23771
         },
         {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 251
+        },
+        {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4633
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 6548
+          "purchaseSamples": 4633
         },
         {
           "itemId": 4629,
@@ -416,12 +687,12 @@
           "purchaseSamples": 1112
         },
         {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 68
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6548
         },
         {
           "itemId": 3121,
@@ -441,10 +712,10 @@
           "Fimbulwinter",
           "Bloodletter's Curse"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 48782788.52875094
+        "winrate": 0.8,
+        "score": 54033348.3808433
       },
       "runes": {
         "primaryStyle": {
@@ -497,329 +768,25 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.4
       },
       "position": {
         "role": "TOP",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
         "games": 2,
         "sampleGames": 4,
         "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Sylas-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 26287,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3308
-        },
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 23771
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 24
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 12774
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 213
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 243
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3190,
-          4646
-        ],
-        "names": [
-          "Locket of the Iron Solari",
-          "Stormsurge"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 35130926.66526168
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Sylas-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 26287,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 866
-        },
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 23771
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4633
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1112
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6548
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 199
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3165,
-          8010
-        ],
-        "names": [
-          "Morellonomicon",
-          "Bloodletter's Curse"
-        ],
-        "games": 9,
-        "wins": 8,
-        "winrate": 0.8888888888888888,
-        "score": 31139358.082804706
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 4,
-        "confidencePct": 0.4444444444444444
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 9,
-        "confidencePct": 0.4444444444444444
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 5,
-        "sampleGames": 9,
-        "confidencePct": 0.5555555555555556
       },
       "asWholeSet": {
         "games": 0,
@@ -829,14 +796,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 26287,
+    "totalGames": 36917,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.486590329820824,
+    "winrate": 0.4843568003900642,
     "items": [
       {
         "itemId": 3152,
@@ -938,15 +905,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 26287,
-      "games": 6575,
-      "confidencePct": 0.2501236352569711
+      "sampleGames": 36917,
+      "games": 9537,
+      "confidencePct": 0.25833626784408265
     },
     "position": {
       "role": "MIDDLE",
-      "games": 11990,
-      "sampleGames": 26287,
-      "confidencePct": 0.45611899417963253
+      "games": 16671,
+      "sampleGames": 36917,
+      "confidencePct": 0.451580572635913
     },
     "skillOrder": {
       "order": [

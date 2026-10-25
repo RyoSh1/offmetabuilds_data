@@ -1,22 +1,8 @@
 {
   "championId": "Yunara",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T22:22:35.233Z",
+  "generatedAt": "2026-10-25T21:40:29.405Z",
   "corePairs": [
-    {
-      "itemIds": [
-        2510,
-        3115
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Nashor's Tooth"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 5139206169.656221
-    },
     {
       "itemIds": [
         3115,
@@ -26,10 +12,10 @@
         "Nashor's Tooth",
         "Shadowflame"
       ],
-      "games": 17,
-      "wins": 10,
-      "winrate": 0.5882352941176471,
-      "score": 4557643596.420504
+      "games": 24,
+      "wins": 12,
+      "winrate": 0.5,
+      "score": 5155698897.656479
     },
     {
       "itemIds": [
@@ -40,10 +26,38 @@
         "Hextech Gunblade",
         "Shadowflame"
       ],
-      "games": 25,
-      "wins": 12,
-      "winrate": 0.48,
-      "score": 3630387005.5652547
+      "games": 39,
+      "wins": 18,
+      "winrate": 0.46153846153846156,
+      "score": 4854687108.082174
+    },
+    {
+      "itemIds": [
+        2510,
+        3115
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Nashor's Tooth"
+      ],
+      "games": 6,
+      "wins": 3,
+      "winrate": 0.5,
+      "score": 4814872252.146447
+    },
+    {
+      "itemIds": [
+        3115,
+        3146
+      ],
+      "names": [
+        "Nashor's Tooth",
+        "Hextech Gunblade"
+      ],
+      "games": 14,
+      "wins": 7,
+      "winrate": 0.5,
+      "score": 3258296618.852495
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Dusk and Dawn",
         "Hextech Gunblade"
       ],
-      "games": 4,
+      "games": 6,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 3411358468.9344487
-    },
-    {
-      "itemIds": [
-        2510,
-        4645
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Shadowflame"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 3153859750.1271925
+      "winrate": 0.5,
+      "score": 3022506254.8659062
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Yunara-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 18417,
+      "totalGames": 24020,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -138,46 +138,32 @@
       ],
       "seedPair": {
         "itemIds": [
-          2510,
-          3115
+          3115,
+          4645
         ],
         "names": [
-          "Dusk and Dawn",
-          "Nashor's Tooth"
+          "Nashor's Tooth",
+          "Shadowflame"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 5139206169.656221
+        "games": 24,
+        "wins": 12,
+        "winrate": 0.5,
+        "score": 5155698897.656479
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8000,
           "name": "Precision"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
           {
             "id": 9104,
             "name": "Legend: Alacrity"
@@ -185,6 +171,20 @@
           {
             "id": 8017,
             "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
+        "sampleGames": 24,
+        "games": 4,
+        "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
+        "games": 13,
+        "sampleGames": 24,
+        "confidencePct": 0.5416666666666666
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 10,
+        "sampleGames": 13,
+        "confidencePct": 0.7692307692307693
       },
       "asWholeSet": {
         "games": 1,
@@ -231,7 +231,7 @@
       "id": "Yunara-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 18417,
+      "totalGames": 24020,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -240,28 +240,28 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3087,
-          "name": "Statikk Shiv",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 151
-        },
-        {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 3,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 15319
+        },
+        {
+          "itemId": 3124,
+          "name": "Guinsoo's Rageblade",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 168
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 764
         },
         {
           "itemId": 4645,
@@ -290,59 +290,59 @@
       ],
       "seedPair": {
         "itemIds": [
-          3087,
-          4645
+          3124,
+          3302
         ],
         "names": [
-          "Statikk Shiv",
-          "Shadowflame"
+          "Guinsoo's Rageblade",
+          "Terminus"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 720799576.9349997
+        "games": 56,
+        "wins": 22,
+        "winrate": 0.39285714285714285,
+        "score": 30351162.614657775
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
+          "id": 8008,
+          "name": "Lethal Tempo"
         },
         "primaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 9103,
+            "name": "Legend: Bloodline"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -353,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 56,
+        "games": 12,
+        "confidencePct": 0.21428571428571427
       },
       "position": {
-        "role": "TOP",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "role": "BOTTOM",
+        "games": 52,
+        "sampleGames": 56,
+        "confidencePct": 0.9285714285714286
       },
       "skillOrder": {
         "order": [
@@ -369,21 +369,21 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 23,
+        "sampleGames": 34,
+        "confidencePct": 0.6764705882352942
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 2,
+        "wins": 1,
+        "winrate": 0.5
       }
     },
     {
       "id": "Yunara-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 18417,
+      "totalGames": 24020,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -452,7 +452,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 22963635.860423293
+        "score": 24300736.527890686
       },
       "runes": {
         "primaryStyle": {
@@ -530,169 +530,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Yunara-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 18417,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3087,
-          "name": "Statikk Shiv",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 15319
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 168
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 764
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 221
-        },
-        {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 66
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3124,
-          3302
-        ],
-        "names": [
-          "Guinsoo's Rageblade",
-          "Terminus"
-        ],
-        "games": 36,
-        "wins": 12,
-        "winrate": 0.3333333333333333,
-        "score": 18693092.387203217
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 36,
-        "games": 8,
-        "confidencePct": 0.2222222222222222
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 33,
-        "sampleGames": 36,
-        "confidencePct": 0.9166666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 23,
-        "sampleGames": 34,
-        "confidencePct": 0.6764705882352942
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 18417,
+    "totalGames": 24020,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.496606396264321,
+    "winrate": 0.49870940882597836,
     "items": [
       {
         "itemId": 6672,
@@ -794,15 +642,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 18417,
-      "games": 5046,
-      "confidencePct": 0.27398599120377914
+      "sampleGames": 24020,
+      "games": 6226,
+      "confidencePct": 0.25920066611157366
     },
     "position": {
       "role": "BOTTOM",
-      "games": 18307,
-      "sampleGames": 18417,
-      "confidencePct": 0.9940272574252049
+      "games": 23875,
+      "sampleGames": 24020,
+      "confidencePct": 0.9939633638634471
     },
     "skillOrder": {
       "order": [

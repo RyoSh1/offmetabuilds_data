@@ -1,8 +1,22 @@
 {
   "championId": "MasterYi",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T22:22:35.233Z",
+  "generatedAt": "2026-10-25T21:40:29.405Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3074,
+        3172
+      ],
+      "names": [
+        "Ravenous Hydra",
+        "Gunmetal Greaves"
+      ],
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 273825645.5474388
+    },
     {
       "itemIds": [
         3172,
@@ -12,10 +26,24 @@
         "Gunmetal Greaves",
         "Profane Hydra"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 75550349.07697222
+      "games": 8,
+      "wins": 6,
+      "winrate": 0.75,
+      "score": 121682138.16168943
+    },
+    {
+      "itemIds": [
+        2517,
+        3074
+      ],
+      "names": [
+        "Endless Hunger",
+        "Ravenous Hydra"
+      ],
+      "games": 8,
+      "wins": 6,
+      "winrate": 0.75,
+      "score": 89556602.64997795
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 48098373.73512343
+      "score": 49164603.194563754
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Gunmetal Greaves",
         "Titanic Hydra"
       ],
-      "games": 32,
-      "wins": 15,
-      "winrate": 0.46875,
-      "score": 37031213.08080205
-    },
-    {
-      "itemIds": [
-        2517,
-        3074
-      ],
-      "names": [
-        "Endless Hunger",
-        "Ravenous Hydra"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 32339665.00606688
-    },
-    {
-      "itemIds": [
-        3181,
-        3748
-      ],
-      "names": [
-        "Hullbreaker",
-        "Titanic Hydra"
-      ],
-      "games": 18,
-      "wins": 11,
-      "winrate": 0.6111111111111112,
-      "score": 28143655.119738247
+      "games": 43,
+      "wins": 20,
+      "winrate": 0.46511627906976744,
+      "score": 40440869.838648655
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "MasterYi-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6957,
+      "totalGames": 9427,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -88,18 +88,10 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 124
-        },
-        {
           "itemId": 3172,
           "name": "Gunmetal Greaves",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4
         },
@@ -107,9 +99,17 @@
           "itemId": 3153,
           "name": "Blade of The Ruined King",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 3151
+        },
+        {
+          "itemId": 3074,
+          "name": "Ravenous Hydra",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 20
         },
         {
           "itemId": 3047,
@@ -128,27 +128,27 @@
           "purchaseSamples": 650
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1482
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2934
         }
       ],
       "seedPair": {
         "itemIds": [
-          3172,
-          6698
+          3074,
+          3172
         ],
         "names": [
-          "Gunmetal Greaves",
-          "Profane Hydra"
+          "Ravenous Hydra",
+          "Gunmetal Greaves"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 75550349.07697222
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 273825645.5474388
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +201,166 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 7,
+        "games": 7,
+        "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "MasterYi-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 9427,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 124
+        },
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 343
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2832
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 292
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 650
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3172,
+          6698
+        ],
+        "names": [
+          "Gunmetal Greaves",
+          "Profane Hydra"
+        ],
+        "games": 8,
+        "wins": 6,
+        "winrate": 0.75,
+        "score": 121682138.16168943
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 3,
+        "confidencePct": 0.375
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 8,
+        "sampleGames": 8,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "MasterYi-2",
-      "buildIndex": 1,
+      "id": "MasterYi-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6957,
+      "totalGames": 9427,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -264,28 +416,28 @@
           "purchaseSamples": 2832
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 650
+          "purchaseSamples": 113
         },
         {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 241
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2934
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 830
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 62
         }
       ],
       "seedPair": {
@@ -300,7 +452,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 48098373.73512343
+        "score": 49164603.194563754
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +532,162 @@
       }
     },
     {
-      "id": "MasterYi-3",
-      "buildIndex": 2,
+      "id": "MasterYi-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6957,
+      "totalGames": 9427,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1338
+        },
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 343
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2832
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 650
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1482
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3172,
+          3748
+        ],
+        "names": [
+          "Gunmetal Greaves",
+          "Titanic Hydra"
+        ],
+        "games": 43,
+        "wins": 20,
+        "winrate": 0.46511627906976744,
+        "score": 40440869.838648655
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 43,
+        "games": 17,
+        "confidencePct": 0.3953488372093023
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 43,
+        "sampleGames": 43,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 17,
+        "sampleGames": 31,
+        "confidencePct": 0.5483870967741935
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "MasterYi-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 9427,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -424,158 +728,6 @@
           "purchaseSamples": 655
         },
         {
-          "itemId": 3181,
-          "name": "Hullbreaker",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 84
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1482
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3172,
-          3748
-        ],
-        "names": [
-          "Gunmetal Greaves",
-          "Titanic Hydra"
-        ],
-        "games": 32,
-        "wins": 15,
-        "winrate": 0.46875,
-        "score": 37031213.08080205
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 32,
-        "games": 15,
-        "confidencePct": 0.46875
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 32,
-        "sampleGames": 32,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 17,
-        "sampleGames": 31,
-        "confidencePct": 0.5483870967741935
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "MasterYi-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 6957,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5451
-        },
-        {
-          "itemId": 3074,
-          "name": "Ravenous Hydra",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2832
-        },
-        {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
@@ -584,27 +736,27 @@
           "purchaseSamples": 650
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 3181,
+          "name": "Hullbreaker",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2934
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 84
         }
       ],
       "seedPair": {
         "itemIds": [
-          2517,
-          3074
+          3181,
+          3302
         ],
         "names": [
-          "Endless Hunger",
-          "Ravenous Hydra"
+          "Hullbreaker",
+          "Terminus"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 32339665.00606688
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 29345022.974874984
       },
       "runes": {
         "primaryStyle": {
@@ -621,8 +773,8 @@
             "name": "Sudden Impact"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
             "id": 8135,
@@ -653,19 +805,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 7,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "TOP",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
@@ -673,161 +825,9 @@
           "E",
           "W"
         ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "MasterYi-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 6957,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 343
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 14
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 237
-        },
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2832
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 61
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3179,
-          3814
-        ],
-        "names": [
-          "Umbral Glaive",
-          "Edge of Night"
-        ],
-        "games": 18,
-        "wins": 12,
-        "winrate": 0.6666666666666666,
-        "score": 18002543.97048173
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 18,
-        "games": 15,
-        "confidencePct": 0.8333333333333334
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 18,
-        "sampleGames": 18,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6957,
+    "totalGames": 9427,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49978438982319967,
+    "winrate": 0.49803755171316433,
     "items": [
       {
         "itemId": 6672,
@@ -855,20 +855,20 @@
         "purchaseSamples": 13506
       },
       {
-        "itemId": 6676,
-        "name": "The Collector",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 7429
-      },
-      {
         "itemId": 3124,
         "name": "Guinsoo's Rageblade",
         "isBoots": false,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 5451
+      },
+      {
+        "itemId": 6676,
+        "name": "The Collector",
+        "isBoots": false,
+        "order": 3,
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 7429
       },
       {
         "itemId": 3006,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6957,
-      "games": 1509,
-      "confidencePct": 0.21690383786114706
+      "sampleGames": 9427,
+      "games": 2042,
+      "confidencePct": 0.21661185955234963
     },
     "position": {
       "role": "JUNGLE",
-      "games": 5960,
-      "sampleGames": 6957,
-      "confidencePct": 0.856691102486704
+      "games": 7964,
+      "sampleGames": 9427,
+      "confidencePct": 0.8448074679113186
     },
     "skillOrder": {
       "order": [

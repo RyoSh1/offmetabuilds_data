@@ -1,8 +1,36 @@
 {
   "championId": "Sejuani",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-24T22:22:35.233Z",
+  "generatedAt": "2026-10-25T21:40:29.405Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3157,
+        4005
+      ],
+      "names": [
+        "Zhonya's Hourglass",
+        "Imperial Mandate"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 44230852.4861523
+    },
+    {
+      "itemIds": [
+        3116,
+        3157
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Zhonya's Hourglass"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 19571738.95661986
+    },
     {
       "itemIds": [
         2510,
@@ -12,10 +40,24 @@
         "Dusk and Dawn",
         "Mejai's Soulstealer"
       ],
-      "games": 5,
-      "wins": 5,
+      "games": 7,
+      "wins": 7,
       "winrate": 1,
-      "score": 12221130.671105292
+      "score": 18104477.26902102
+    },
+    {
+      "itemIds": [
+        3116,
+        3152
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Hextech Rocketbelt"
+      ],
+      "games": 13,
+      "wins": 4,
+      "winrate": 0.3076923076923077,
+      "score": 16287623.06583352
     },
     {
       "itemIds": [
@@ -26,52 +68,10 @@
         "Rylai's Crystal Scepter",
         "Riftmaker"
       ],
-      "games": 19,
-      "wins": 6,
-      "winrate": 0.3157894736842105,
-      "score": 10829353.123609114
-    },
-    {
-      "itemIds": [
-        4629,
-        6653
-      ],
-      "names": [
-        "Cosmic Drive",
-        "Liandry's Torment"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 10617203.629078252
-    },
-    {
-      "itemIds": [
-        4629,
-        4633
-      ],
-      "names": [
-        "Cosmic Drive",
-        "Riftmaker"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 7719235.710259651
-    },
-    {
-      "itemIds": [
-        3041,
-        6664
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Hollow Radiance"
-      ],
-      "games": 6,
-      "wins": 6,
-      "winrate": 1,
-      "score": 7393384.346056293
+      "games": 22,
+      "wins": 7,
+      "winrate": 0.3181818181818182,
+      "score": 14161754.613106992
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Sejuani-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 2886,
+      "totalGames": 3823,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 183
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 726
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3489
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 83
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 16
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3157,
+          4005
+        ],
+        "names": [
+          "Zhonya's Hourglass",
+          "Imperial Mandate"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 44230852.4861523
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Sejuani-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 3823,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -145,10 +288,10 @@
           "Dusk and Dawn",
           "Mejai's Soulstealer"
         ],
-        "games": 5,
-        "wins": 5,
+        "games": 7,
+        "wins": 7,
         "winrate": 1,
-        "score": 12221130.671105292
+        "score": 18104477.26902102
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +344,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 7,
         "games": 2,
-        "confidencePct": 0.4
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Sejuani-2",
-      "buildIndex": 1,
+      "id": "Sejuani-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 2886,
+      "totalGames": 3823,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -240,20 +383,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 183
-        },
-        {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 84
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 183
         },
         {
           "itemId": 2510,
@@ -290,191 +433,39 @@
       ],
       "seedPair": {
         "itemIds": [
-          3116,
-          4633
+          4629,
+          6653
         ],
         "names": [
-          "Rylai's Crystal Scepter",
-          "Riftmaker"
-        ],
-        "games": 19,
-        "wins": 6,
-        "winrate": 0.3157894736842105,
-        "score": 10829353.123609114
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 19,
-        "games": 5,
-        "confidencePct": 0.2631578947368421
-      },
-      "position": {
-        "role": "TOP",
-        "games": 10,
-        "sampleGames": 19,
-        "confidencePct": 0.5263157894736842
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 18,
-        "sampleGames": 18,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Sejuani-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 2886,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 183
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 726
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3489
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 83
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 135
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 16
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3116,
-          3157
-        ],
-        "names": [
-          "Rylai's Crystal Scepter",
-          "Zhonya's Hourglass"
+          "Cosmic Drive",
+          "Liandry's Torment"
         ],
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 6704150.368286079
+        "score": 13197246.820522066
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
@@ -487,8 +478,8 @@
             "name": "Ultimate Hunter"
           },
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8143,
+            "name": "Sudden Impact"
           }
         ],
         "statPerks": [
@@ -511,9 +502,9 @@
       },
       "position": {
         "role": "TOP",
-        "games": 2,
+        "games": 3,
         "sampleGames": 4,
-        "confidencePct": 0.5
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -521,8 +512,8 @@
           "Q",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -535,7 +526,7 @@
       "id": "Sejuani-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 2886,
+      "totalGames": 3823,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -601,10 +592,10 @@
           "Fimbulwinter",
           "Hollow Radiance"
         ],
-        "games": 6,
+        "games": 7,
         "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 2887164.8950077225
+        "winrate": 0.5714285714285714,
+        "score": 3427064.8961977055
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +648,167 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 7,
         "games": 1,
-        "confidencePct": 0.16666666666666666
+        "confidencePct": 0.14285714285714285
+      },
+      "position": {
+        "role": "TOP",
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Sejuani-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 3823,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 726
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 183
+        },
+        {
+          "itemId": 6664,
+          "name": "Hollow Radiance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 388
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3489
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 71
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          4633
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Riftmaker"
+        ],
+        "games": 10,
+        "wins": 6,
+        "winrate": 0.6,
+        "score": 3151911.80215268
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 6,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "TOP",
         "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "sampleGames": 10,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -685,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 2886,
+    "totalGames": 3823,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5024255024255024,
+    "winrate": 0.5056238556107768,
     "items": [
       {
         "itemId": 3084,
@@ -794,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 2886,
-      "games": 1280,
-      "confidencePct": 0.4435204435204435
+      "sampleGames": 3823,
+      "games": 1679,
+      "confidencePct": 0.4391838869997384
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2112,
-      "sampleGames": 2886,
-      "confidencePct": 0.7318087318087318
+      "games": 2831,
+      "sampleGames": 3823,
+      "confidencePct": 0.7405179178655507
     },
     "skillOrder": {
       "order": [
