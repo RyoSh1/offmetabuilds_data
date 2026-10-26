@@ -1,7 +1,7 @@
 {
   "championId": "Graves",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,35 +15,7 @@
       "games": 15,
       "wins": 10,
       "winrate": 0.6666666666666666,
-      "score": 369742112.7977367
-    },
-    {
-      "itemIds": [
-        3071,
-        3074
-      ],
-      "names": [
-        "Black Cleaver",
-        "Ravenous Hydra"
-      ],
-      "games": 6,
-      "wins": 2,
-      "winrate": 0.3333333333333333,
-      "score": 117763067.78897877
-    },
-    {
-      "itemIds": [
-        3026,
-        3094
-      ],
-      "names": [
-        "Guardian Angel",
-        "Rapid Firecannon"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 87708915.86238734
+      "score": 384457933.9120736
     },
     {
       "itemIds": [
@@ -54,10 +26,24 @@
         "Bloodthirster",
         "Essence Reaver"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 69652606.50375934
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 236186227.35965165
+    },
+    {
+      "itemIds": [
+        3071,
+        3074
+      ],
+      "names": [
+        "Black Cleaver",
+        "Ravenous Hydra"
+      ],
+      "games": 7,
+      "wins": 3,
+      "winrate": 0.42857142857142855,
+      "score": 167504235.7998532
     },
     {
       "itemIds": [
@@ -71,7 +57,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 51684621.381935686
+      "score": 51639889.88405085
+    },
+    {
+      "itemIds": [
+        3053,
+        3078
+      ],
+      "names": [
+        "Sterak's Gage",
+        "Trinity Force"
+      ],
+      "games": 5,
+      "wins": 5,
+      "winrate": 1,
+      "score": 50868291.37390226
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Graves-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17186,
+      "totalGames": 20888,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -128,12 +128,12 @@
           "purchaseSamples": 70
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 3072,
+          "name": "Bloodthirster",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1626
+          "purchaseSamples": 527
         }
       ],
       "seedPair": {
@@ -148,7 +148,7 @@
         "games": 15,
         "wins": 10,
         "winrate": 0.6666666666666666,
-        "score": 369742112.7977367
+        "score": 384457933.9120736
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Graves-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 17186,
+      "totalGames": 20888,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -240,20 +240,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3074,
-          "name": "Ravenous Hydra",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 25
-        },
-        {
           "itemId": 3508,
           "name": "Essence Reaver",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 115
+        },
+        {
+          "itemId": 3074,
+          "name": "Ravenous Hydra",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 25
         },
         {
           "itemId": 3071,
@@ -290,17 +290,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3071,
-          3074
+          3072,
+          3508
         ],
         "names": [
-          "Black Cleaver",
-          "Ravenous Hydra"
+          "Bloodthirster",
+          "Essence Reaver"
         ],
-        "games": 6,
-        "wins": 2,
-        "winrate": 0.3333333333333333,
-        "score": 117763067.78897877
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 236186227.35965165
       },
       "runes": {
         "primaryStyle": {
@@ -326,17 +326,17 @@
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8347,
+            "name": "Cosmic Insight"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -353,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 1,
-        "confidencePct": 0.16666666666666666
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
       },
       "position": {
         "role": "TOP",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -369,8 +369,8 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -383,7 +383,7 @@
       "id": "Graves-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 17186,
+      "totalGames": 20888,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -408,18 +408,10 @@
           "purchaseSamples": 1338
         },
         {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 802
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 9980
         },
@@ -427,7 +419,7 @@
           "itemId": 6609,
           "name": "Chempunk Chainsword",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 24
         },
@@ -435,9 +427,17 @@
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 35
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 711
         }
       ],
       "seedPair": {
@@ -452,7 +452,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 51684621.381935686
+        "score": 51639889.88405085
       },
       "runes": {
         "primaryStyle": {
@@ -535,159 +535,7 @@
       "id": "Graves-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17186,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 979
-        },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1344
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1338
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9980
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 112
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 35
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3179,
-          3814
-        ],
-        "names": [
-          "Umbral Glaive",
-          "Edge of Night"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 32125273.23417607
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Graves-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 17186,
+      "totalGames": 20888,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -756,7 +604,7 @@
         "games": 12,
         "wins": 10,
         "winrate": 0.8333333333333334,
-        "score": 22553270.585695725
+        "score": 25427258.875803538
       },
       "runes": {
         "primaryStyle": {
@@ -834,17 +682,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Graves-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 20888,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 979
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1344
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1338
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9980
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 112
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 35
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3179,
+          3814
+        ],
+        "names": [
+          "Umbral Glaive",
+          "Edge of Night"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 24878407.54941099
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 17186,
+    "totalGames": 20888,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4961014779471663,
+    "winrate": 0.49607430103408656,
     "items": [
       {
         "itemId": 6697,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17186,
-      "games": 4779,
-      "confidencePct": 0.27807517747003374
+      "sampleGames": 20888,
+      "games": 5670,
+      "confidencePct": 0.2714477211796247
     },
     "position": {
       "role": "JUNGLE",
-      "games": 16907,
-      "sampleGames": 17186,
-      "confidencePct": 0.9837658559292447
+      "games": 20530,
+      "sampleGames": 20888,
+      "confidencePct": 0.9828609728073535
     },
     "skillOrder": {
       "order": [

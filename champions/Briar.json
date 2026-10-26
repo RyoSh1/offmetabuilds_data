@@ -1,8 +1,50 @@
 {
   "championId": "Briar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2501,
+        6692
+      ],
+      "names": [
+        "Overlord's Bloodmail",
+        "Eclipse"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 10674252.246643454
+    },
+    {
+      "itemIds": [
+        6695,
+        6699
+      ],
+      "names": [
+        "Serpent's Fang",
+        "Voltaic Cyclosword"
+      ],
+      "games": 14,
+      "wins": 6,
+      "winrate": 0.42857142857142855,
+      "score": 9025138.03147022
+    },
+    {
+      "itemIds": [
+        3156,
+        6699
+      ],
+      "names": [
+        "Maw of Malmortius",
+        "Voltaic Cyclosword"
+      ],
+      "games": 11,
+      "wins": 4,
+      "winrate": 0.36363636363636365,
+      "score": 7428320.095807439
+    },
     {
       "itemIds": [
         3053,
@@ -15,63 +57,21 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 7453918.578016576
-    },
-    {
-      "itemIds": [
-        6610,
-        6662
-      ],
-      "names": [
-        "Sundered Sky",
-        "Iceborn Gauntlet"
-      ],
-      "games": 9,
-      "wins": 4,
-      "winrate": 0.4444444444444444,
-      "score": 5137751.9060129
-    },
-    {
-      "itemIds": [
-        3156,
-        6610
-      ],
-      "names": [
-        "Maw of Malmortius",
-        "Sundered Sky"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 4498404.931168473
-    },
-    {
-      "itemIds": [
-        3033,
-        3156
-      ],
-      "names": [
-        "Mortal Reminder",
-        "Maw of Malmortius"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 2786305.780608056
+      "score": 7366165.113110814
     },
     {
       "itemIds": [
         2501,
-        3153
+        2525
       ],
       "names": [
         "Overlord's Bloodmail",
-        "Blade of The Ruined King"
+        "Protoplasm Harness"
       ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 1787131.1723535988
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 6678649.818030744
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Briar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4676,
+      "totalGames": 5775,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -120,35 +120,35 @@
           "purchaseSamples": 111
         },
         {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 206
-        },
-        {
           "itemId": 2501,
           "name": "Overlord's Bloodmail",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 76
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 206
         }
       ],
       "seedPair": {
         "itemIds": [
-          3053,
+          2501,
           6692
         ],
         "names": [
-          "Sterak's Gage",
+          "Overlord's Bloodmail",
           "Eclipse"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 7453918.578016576
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 10674252.246643454
       },
       "runes": {
         "primaryStyle": {
@@ -179,12 +179,316 @@
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
             "id": 8453,
             "name": "Revitalize"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Briar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5775,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 403
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 107
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 308
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3824
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 220
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 363
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6695,
+          6699
+        ],
+        "names": [
+          "Serpent's Fang",
+          "Voltaic Cyclosword"
+        ],
+        "games": 14,
+        "wins": 6,
+        "winrate": 0.42857142857142855,
+        "score": 9025138.03147022
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 14,
+        "games": 3,
+        "confidencePct": 0.21428571428571427
+      },
+      "position": {
+        "role": "TOP",
+        "games": 6,
+        "sampleGames": 14,
+        "confidencePct": 0.42857142857142855
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Briar-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 5775,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 3824
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 2501,
+          "name": "Overlord's Bloodmail",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 76
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 141
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 652
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 992
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2501,
+          2525
+        ],
+        "names": [
+          "Overlord's Bloodmail",
+          "Protoplasm Harness"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 6678649.818030744
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
@@ -201,26 +505,17 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 5,
-        "confidencePct": 0.4
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 5,
+        "sampleGames": 4,
+        "games": 4,
         "confidencePct": 1
       },
+      "position": {
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -228,10 +523,10 @@
       }
     },
     {
-      "id": "Briar-2",
-      "buildIndex": 1,
+      "id": "Briar-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4676,
+      "totalGames": 5775,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -272,20 +567,20 @@
           "purchaseSamples": 8
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 652
-        },
-        {
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 206
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 652
         }
       ],
       "seedPair": {
@@ -300,7 +595,7 @@
         "games": 9,
         "wins": 4,
         "winrate": 0.4444444444444444,
-        "score": 5137751.9060129
+        "score": 6149258.058166304
       },
       "runes": {
         "primaryStyle": {
@@ -371,314 +666,10 @@
       }
     },
     {
-      "id": "Briar-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 4676,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 581
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3824
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 394
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 220
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 141
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 652
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3033,
-          3156
-        ],
-        "names": [
-          "Mortal Reminder",
-          "Maw of Malmortius"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 2786305.780608056
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Briar-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 4676,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 403
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 107
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 3824
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 363
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 394
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 220
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2520,
-          6699
-        ],
-        "names": [
-          "Bastionbreaker",
-          "Voltaic Cyclosword"
-        ],
-        "games": 37,
-        "wins": 16,
-        "winrate": 0.43243243243243246,
-        "score": 1784198.2226159233
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 37,
-        "games": 20,
-        "confidencePct": 0.5405405405405406
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 32,
-        "sampleGames": 37,
-        "confidencePct": 0.8648648648648649
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 16,
-        "sampleGames": 16,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Briar-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4676,
+      "totalGames": 5775,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -687,67 +678,67 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 3824
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 394
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 40
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1853
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 6333,
+          "name": "Death's Dance",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 141
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 652
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3069
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 992
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 206
         }
       ],
       "seedPair": {
         "itemIds": [
-          2504,
-          3143
+          3036,
+          3172
         ],
         "names": [
-          "Kaenic Rookern",
-          "Randuin's Omen"
+          "Lord Dominik's Regards",
+          "Gunmetal Greaves"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 1410474.3139370915
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 2367116.009456832
       },
       "runes": {
         "primaryStyle": {
@@ -764,8 +755,8 @@
             "name": "Triumph"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
             "id": 8014,
@@ -796,18 +787,18 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 7,
+        "games": 7,
+        "confidencePct": 1
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
+        "role": "MIDDLE",
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -816,8 +807,8 @@
           "Q",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -828,14 +819,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 4676,
+    "totalGames": 5775,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5004277159965783,
+    "winrate": 0.49558441558441557,
     "items": [
       {
         "itemId": 3748,
@@ -937,15 +928,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4676,
-      "games": 1221,
-      "confidencePct": 0.2611206159110351
+      "sampleGames": 5775,
+      "games": 1532,
+      "confidencePct": 0.2652813852813853
     },
     "position": {
       "role": "JUNGLE",
-      "games": 4069,
-      "sampleGames": 4676,
-      "confidencePct": 0.8701881950384944
+      "games": 5001,
+      "sampleGames": 5775,
+      "confidencePct": 0.865974025974026
     },
     "skillOrder": {
       "order": [

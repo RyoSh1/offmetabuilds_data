@@ -1,8 +1,22 @@
 {
   "championId": "Swain",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2530,
+        6617
+      ],
+      "names": [
+        "Diadem of Songs",
+        "Moonstone Renewer"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 644805174.1573402
+    },
     {
       "itemIds": [
         2530,
@@ -12,24 +26,38 @@
         "Diadem of Songs",
         "Echoes of Helia"
       ],
-      "games": 9,
-      "wins": 4,
-      "winrate": 0.4444444444444444,
-      "score": 175127321.66741037
+      "games": 17,
+      "wins": 8,
+      "winrate": 0.47058823529411764,
+      "score": 234634188.00271338
     },
     {
       "itemIds": [
-        2522,
-        3040
+        3222,
+        6621
       ],
       "names": [
-        "Actualizer",
-        "Seraph's Embrace"
+        "Mikael's Blessing",
+        "Dawncore"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 120973548.56782581
+    },
+    {
+      "itemIds": [
+        3107,
+        6621
+      ],
+      "names": [
+        "Redemption",
+        "Dawncore"
       ],
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 76854600.04527883
+      "score": 87213831.03915855
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 12,
       "wins": 8,
       "winrate": 0.6666666666666666,
-      "score": 58789034.50692224
-    },
-    {
-      "itemIds": [
-        3137,
-        6655
-      ],
-      "names": [
-        "Cryptbloom",
-        "Luden's Echo"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 43260331.27759922
-    },
-    {
-      "itemIds": [
-        3089,
-        3135
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Void Staff"
-      ],
-      "games": 9,
-      "wins": 4,
-      "winrate": 0.4444444444444444,
-      "score": 33887335.81675992
+      "score": 67901645.66226861
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Swain-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9491,
+      "totalGames": 11850,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -96,10 +96,18 @@
           "purchaseSamples": 8
         },
         {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 5205
         },
@@ -107,7 +115,7 @@
           "itemId": 2530,
           "name": "Diadem of Songs",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -115,160 +123,16 @@
       "seedPair": {
         "itemIds": [
           2530,
-          6620
+          6617
         ],
         "names": [
           "Diadem of Songs",
-          "Echoes of Helia"
-        ],
-        "games": 9,
-        "wins": 4,
-        "winrate": 0.4444444444444444,
-        "score": 175127321.66741037
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 5,
-        "confidencePct": 0.5555555555555556
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 9,
-        "confidencePct": 0.5555555555555556
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 5,
-        "confidencePct": 0.4
-      },
-      "asWholeSet": {
-        "games": 9,
-        "wins": 4,
-        "winrate": 0.4444444444444444
-      }
-    },
-    {
-      "id": "Swain-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 9491,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2522,
-          "name": "Actualizer",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 57
-        },
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 454
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5205
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 5128
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2522,
-          3040
-        ],
-        "names": [
-          "Actualizer",
-          "Seraph's Embrace"
+          "Moonstone Renewer"
         ],
         "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 76854600.04527883
+        "wins": 3,
+        "winrate": 1,
+        "score": 644805174.1573402
       },
       "runes": {
         "primaryStyle": {
@@ -276,13 +140,13 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           },
           {
             "id": 8210,
@@ -294,17 +158,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "statPerks": [
@@ -317,32 +181,177 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
         "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 3,
+        "role": "TOP",
+        "games": 1,
         "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 1,
+        "sampleGames": 1,
         "confidencePct": 1
       },
-      "skillOrder": null,
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 2,
+        "wins": 2,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Swain-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11850,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5205
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 6621,
+          "name": "Dawncore",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3222,
+          6621
+        ],
+        "names": [
+          "Mikael's Blessing",
+          "Dawncore"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 120973548.56782581
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8351,
+          "name": "Glacial Augment"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8410,
+            "name": "Approach Velocity"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 2,
+        "wins": 2,
+        "winrate": 1
       }
     },
     {
       "id": "Swain-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 9491,
+      "totalGames": 11850,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -411,7 +420,7 @@
         "games": 12,
         "wins": 8,
         "winrate": 0.6666666666666666,
-        "score": 58789034.50692224
+        "score": 67901645.66226861
       },
       "runes": {
         "primaryStyle": {
@@ -494,7 +503,7 @@
       "id": "Swain-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 9491,
+      "totalGames": 11850,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -563,7 +572,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 43260331.27759922
+        "score": 55937687.7005622
       },
       "runes": {
         "primaryStyle": {
@@ -646,7 +655,7 @@
       "id": "Swain-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 9491,
+      "totalGames": 11850,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -655,103 +664,103 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 2522,
+          "name": "Actualizer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 57
+        },
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 454
+        },
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 435
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 5205
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 220
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 80
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 624
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
+          "itemId": 3065,
+          "name": "Spirit Visage",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 100
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 746
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 55
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          3135
+          2522,
+          3040
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Void Staff"
+          "Actualizer",
+          "Seraph's Embrace"
         ],
-        "games": 9,
-        "wins": 4,
-        "winrate": 0.4444444444444444,
-        "score": 33887335.81675992
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 51918915.625891544
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
+          "id": 8230,
+          "name": "Stormraider's Surge"
         },
         "primaryPerks": [
           {
-            "id": 8126,
-            "name": "Cheap Shot"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -768,42 +777,33 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
-        "games": 2,
-        "confidencePct": 0.2222222222222222
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 9491,
+    "totalGames": 11850,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5137498682962807,
+    "winrate": 0.5131645569620253,
     "items": [
       {
         "itemId": 2503,
@@ -905,15 +905,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 9491,
-      "games": 1072,
-      "confidencePct": 0.11294910968285744
+      "sampleGames": 11850,
+      "games": 1313,
+      "confidencePct": 0.11080168776371307
     },
     "position": {
       "role": "BOTTOM",
-      "games": 3169,
-      "sampleGames": 9491,
-      "confidencePct": 0.33389526920240226
+      "games": 4092,
+      "sampleGames": 11850,
+      "confidencePct": 0.3453164556962025
     },
     "skillOrder": {
       "order": [

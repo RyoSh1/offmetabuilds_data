@@ -1,8 +1,22 @@
 {
   "championId": "Gnar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2510,
+        6672
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Kraken Slayer"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 393655127.1568358
+    },
     {
       "itemIds": [
         3302,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 223824350.4165235
+      "score": 215340830.61606863
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Dusk and Dawn",
         "Terminus"
       ],
-      "games": 68,
-      "wins": 37,
-      "winrate": 0.5441176470588235,
-      "score": 11643791.628689213
+      "games": 101,
+      "wins": 55,
+      "winrate": 0.5445544554455446,
+      "score": 14190624.144481568
+    },
+    {
+      "itemIds": [
+        2501,
+        3084
+      ],
+      "names": [
+        "Overlord's Bloodmail",
+        "Heartsteel"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 10738702.505422592
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Dusk and Dawn",
         "Abyssal Mask"
       ],
-      "games": 9,
-      "wins": 3,
-      "winrate": 0.3333333333333333,
-      "score": 5006710.168307538
-    },
-    {
-      "itemIds": [
-        3033,
-        3181
-      ],
-      "names": [
-        "Mortal Reminder",
-        "Hullbreaker"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 4608424.227100917
-    },
-    {
-      "itemIds": [
-        2501,
-        3181
-      ],
-      "names": [
-        "Overlord's Bloodmail",
-        "Hullbreaker"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 3085416.6841838653
+      "games": 15,
+      "wins": 6,
+      "winrate": 0.4,
+      "score": 7308713.254485422
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Gnar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8705,
+      "totalGames": 10759,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -96,12 +96,12 @@
           "purchaseSamples": 9804
         },
         {
-          "itemId": 3302,
-          "name": "Terminus",
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 347
+          "purchaseSamples": 166
         },
         {
           "itemId": 6672,
@@ -112,12 +112,12 @@
           "purchaseSamples": 9
         },
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 166
+          "purchaseSamples": 347
         },
         {
           "itemId": 3181,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3302,
+          2510,
           6672
         ],
         "names": [
-          "Terminus",
+          "Dusk and Dawn",
           "Kraken Slayer"
         ],
         "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 223824350.4165235
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 393655127.1568358
       },
       "runes": {
         "primaryStyle": {
@@ -156,8 +156,8 @@
           "name": "Precision"
         },
         "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
+          "id": 8021,
+          "name": "Fleet Footwork"
         },
         "primaryPerks": [
           {
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8429,
-            "name": "Conditioning"
+            "id": 8451,
+            "name": "Overgrowth"
           }
         ],
         "statPerks": [
@@ -193,23 +193,175 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
         "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 1,
+        "role": "MIDDLE",
+        "games": 2,
         "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gnar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 10759,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 47
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 9804
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2526
+        },
+        {
+          "itemId": 2501,
+          "name": "Overlord's Bloodmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 23
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 186
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 464
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2501,
+          3084
+        ],
+        "names": [
+          "Overlord's Bloodmail",
+          "Heartsteel"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 10738702.505422592
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
         "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Gnar-2",
-      "buildIndex": 1,
+      "id": "Gnar-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8705,
+      "totalGames": 10759,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -264,20 +416,20 @@
           "purchaseSamples": 347
         },
         {
-          "itemId": 3075,
-          "name": "Thornmail",
+          "itemId": 4401,
+          "name": "Force of Nature",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 420
+          "purchaseSamples": 319
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3075,
+          "name": "Thornmail",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2526
+          "purchaseSamples": 420
         },
         {
           "itemId": 8020,
@@ -297,10 +449,10 @@
           "Dusk and Dawn",
           "Abyssal Mask"
         ],
-        "games": 9,
-        "wins": 3,
-        "winrate": 0.3333333333333333,
-        "score": 5006710.168307538
+        "games": 15,
+        "wins": 6,
+        "winrate": 0.4,
+        "score": 7308713.254485422
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +505,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 9,
-        "games": 6,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 15,
+        "games": 12,
+        "confidencePct": 0.8
       },
       "position": {
         "role": "TOP",
-        "games": 9,
-        "sampleGames": 9,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Gnar-3",
-      "buildIndex": 2,
+      "id": "Gnar-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 8705,
+      "totalGames": 10759,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -449,10 +601,10 @@
           "Mortal Reminder",
           "Hullbreaker"
         ],
-        "games": 4,
-        "wins": 4,
+        "games": 5,
+        "wins": 5,
         "winrate": 1,
-        "score": 4608424.227100917
+        "score": 6047025.171637286
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.4
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -532,162 +684,10 @@
       }
     },
     {
-      "id": "Gnar-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 8705,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 9804
-        },
-        {
-          "itemId": 3181,
-          "name": "Hullbreaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 373
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2526
-        },
-        {
-          "itemId": 2501,
-          "name": "Overlord's Bloodmail",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 23
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 186
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 464
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2501,
-          3181
-        ],
-        "names": [
-          "Overlord's Bloodmail",
-          "Hullbreaker"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 3085416.6841838653
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Gnar-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 8705,
+      "totalGames": 10759,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -720,28 +720,28 @@
           "purchaseSamples": 347
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 3181,
+          "name": "Hullbreaker",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 464
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 373
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 186
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 148
         },
         {
-          "itemId": 6609,
-          "name": "Chempunk Chainsword",
+          "itemId": 3075,
+          "name": "Thornmail",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 75
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 420
         }
       ],
       "seedPair": {
@@ -753,10 +753,10 @@
           "Terminus",
           "Titanic Hydra"
         ],
-        "games": 10,
-        "wins": 4,
-        "winrate": 0.4,
-        "score": 2482309.024598994
+        "games": 11,
+        "wins": 5,
+        "winrate": 0.45454545454545453,
+        "score": 3244046.2441811007
       },
       "runes": {
         "primaryStyle": {
@@ -809,14 +809,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 11,
         "games": 3,
-        "confidencePct": 0.3
+        "confidencePct": 0.2727272727272727
       },
       "position": {
         "role": "TOP",
-        "games": 10,
-        "sampleGames": 10,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 8705,
+    "totalGames": 10759,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48604250430786905,
+    "winrate": 0.4847104749512036,
     "items": [
       {
         "itemId": 3047,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 8705,
-      "games": 1795,
-      "confidencePct": 0.20620333141872488
+      "sampleGames": 10759,
+      "games": 2320,
+      "confidencePct": 0.215633423180593
     },
     "position": {
       "role": "TOP",
-      "games": 8637,
-      "sampleGames": 8705,
-      "confidencePct": 0.9921883974727168
+      "games": 10675,
+      "sampleGames": 10759,
+      "confidencePct": 0.9921925829538061
     },
     "skillOrder": {
       "order": [

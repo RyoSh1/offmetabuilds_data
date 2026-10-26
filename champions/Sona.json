@@ -1,21 +1,35 @@
 {
   "championId": "Sona",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
     {
       "itemIds": [
-        3041,
-        6665
+        2065,
+        3102
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Jak'Sho, The Protean"
+        "Shurelya's Battlesong",
+        "Banshee's Veil"
       ],
-      "games": 22,
-      "wins": 16,
-      "winrate": 0.7272727272727273,
-      "score": 2868176.528243221
+      "games": 15,
+      "wins": 10,
+      "winrate": 0.6666666666666666,
+      "score": 3484557.138008817
+    },
+    {
+      "itemIds": [
+        3100,
+        6655
+      ],
+      "names": [
+        "Lich Bane",
+        "Luden's Echo"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 3481384.6379878013
     },
     {
       "itemIds": [
@@ -26,10 +40,10 @@
         "Banshee's Veil",
         "Rod of Ages"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 2747406.837729206
+      "winrate": 0.6,
+      "score": 3345390.192126179
     },
     {
       "itemIds": [
@@ -43,21 +57,7 @@
       "games": 9,
       "wins": 7,
       "winrate": 0.7777777777777778,
-      "score": 2452014.542544337
-    },
-    {
-      "itemIds": [
-        2065,
-        3102
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Banshee's Veil"
-      ],
-      "games": 14,
-      "wins": 9,
-      "winrate": 0.6428571428571429,
-      "score": 2273701.540176595
+      "score": 2979348.326184238
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 49,
       "wins": 32,
       "winrate": 0.6530612244897959,
-      "score": 2203731.0045789964
+      "score": 2814229.9616363454
     }
   ],
   "builds": [
@@ -79,7 +79,303 @@
       "id": "Sona-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6335,
+      "totalGames": 8422,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7903
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 312
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 42
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 306
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 112
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 569
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3102
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Banshee's Veil"
+        ],
+        "games": 15,
+        "wins": 10,
+        "winrate": 0.6666666666666666,
+        "score": 3484557.138008817
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 15,
+        "games": 10,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 15,
+        "sampleGames": 15,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Sona-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 8422,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7903
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 94
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 112
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3100,
+          6655
+        ],
+        "names": [
+          "Lich Bane",
+          "Luden's Echo"
+        ],
+        "games": 5,
+        "wins": 1,
+        "winrate": 0.2,
+        "score": 3481384.6379878013
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Sona-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 8422,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -145,10 +441,10 @@
           "Mejai's Soulstealer",
           "Jak'Sho, The Protean"
         ],
-        "games": 22,
-        "wins": 16,
-        "winrate": 0.7272727272727273,
-        "score": 2868176.528243221
+        "games": 25,
+        "wins": 18,
+        "winrate": 0.72,
+        "score": 2805801.2635295293
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +497,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 22,
-        "games": 14,
-        "confidencePct": 0.6363636363636364
+        "sampleGames": 25,
+        "games": 17,
+        "confidencePct": 0.68
       },
       "position": {
         "role": "UTILITY",
-        "games": 22,
-        "sampleGames": 22,
+        "games": 25,
+        "sampleGames": 25,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -228,314 +524,10 @@
       }
     },
     {
-      "id": "Sona-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 6335,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 170
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7903
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 312
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 112
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          6657
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Rod of Ages"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 2747406.837729206
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 4,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Sona-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 6335,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7903
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 312
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 194
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 306
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 112
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          3190
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Locket of the Iron Solari"
-        ],
-        "games": 9,
-        "wins": 7,
-        "winrate": 0.7777777777777778,
-        "score": 2452014.542544337
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 6,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Sona-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6335,
+      "totalGames": 8422,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -568,20 +560,20 @@
           "purchaseSamples": 312
         },
         {
-          "itemId": 3504,
-          "name": "Ardent Censer",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 569
+          "purchaseSamples": 112
         },
         {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
+          "itemId": 3504,
+          "name": "Ardent Censer",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 429
+          "purchaseSamples": 569
         },
         {
           "itemId": 3041,
@@ -601,10 +593,10 @@
           "Mejai's Soulstealer",
           "Lich Bane"
         ],
-        "games": 8,
-        "wins": 8,
+        "games": 12,
+        "wins": 12,
         "winrate": 1,
-        "score": 2091189.4243521963
+        "score": 2704990.7702316465
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +649,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 7,
-        "confidencePct": 0.875
+        "sampleGames": 12,
+        "games": 8,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "UTILITY",
-        "games": 7,
-        "sampleGames": 8,
-        "confidencePct": 0.875
+        "games": 11,
+        "sampleGames": 12,
+        "confidencePct": 0.9166666666666666
       },
       "skillOrder": {
         "order": [
@@ -687,7 +679,7 @@
       "id": "Sona-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 6335,
+      "totalGames": 8422,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -720,12 +712,12 @@
           "purchaseSamples": 312
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
+          "itemId": 3504,
+          "name": "Ardent Censer",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 3321
+          "purchaseSamples": 569
         },
         {
           "itemId": 3165,
@@ -736,12 +728,12 @@
           "purchaseSamples": 30
         },
         {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 594
         }
       ],
       "seedPair": {
@@ -756,7 +748,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 1647493.7928047166
+        "score": 1589187.908838765
       },
       "runes": {
         "primaryStyle": {
@@ -837,14 +829,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 6335,
+    "totalGames": 8422,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5152328334648777,
+    "winrate": 0.519354072666825,
     "items": [
       {
         "itemId": 3009,
@@ -946,15 +938,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 6335,
-      "games": 941,
-      "confidencePct": 0.14853985793212313
+      "sampleGames": 8422,
+      "games": 1315,
+      "confidencePct": 0.1561386843980052
     },
     "position": {
       "role": "UTILITY",
-      "games": 6293,
-      "sampleGames": 6335,
-      "confidencePct": 0.9933701657458563
+      "games": 8363,
+      "sampleGames": 8422,
+      "confidencePct": 0.9929945381144621
     },
     "skillOrder": {
       "order": [

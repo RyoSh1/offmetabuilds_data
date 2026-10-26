@@ -1,8 +1,64 @@
 {
   "championId": "Kayle",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3109,
+        3222
+      ],
+      "names": [
+        "Knight's Vow",
+        "Mikael's Blessing"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 1810399283.077659
+    },
+    {
+      "itemIds": [
+        3107,
+        3222
+      ],
+      "names": [
+        "Redemption",
+        "Mikael's Blessing"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 1398530294.8697128
+    },
+    {
+      "itemIds": [
+        3109,
+        3190
+      ],
+      "names": [
+        "Knight's Vow",
+        "Locket of the Iron Solari"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 1041420408.5828379
+    },
+    {
+      "itemIds": [
+        3107,
+        3109
+      ],
+      "names": [
+        "Redemption",
+        "Knight's Vow"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 905057384.4685642
+    },
     {
       "itemIds": [
         3107,
@@ -12,66 +68,10 @@
         "Redemption",
         "Locket of the Iron Solari"
       ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 1049863926.8682978
-    },
-    {
-      "itemIds": [
-        2530,
-        6617
-      ],
-      "names": [
-        "Diadem of Songs",
-        "Moonstone Renewer"
-      ],
-      "games": 3,
+      "games": 8,
       "wins": 3,
-      "winrate": 1,
-      "score": 806200801.5031804
-    },
-    {
-      "itemIds": [
-        3107,
-        6617
-      ],
-      "names": [
-        "Redemption",
-        "Moonstone Renewer"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 371215144.4199746
-    },
-    {
-      "itemIds": [
-        6616,
-        6617
-      ],
-      "names": [
-        "Staff of Flowing Water",
-        "Moonstone Renewer"
-      ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 244717429.31817746
-    },
-    {
-      "itemIds": [
-        6617,
-        6620
-      ],
-      "names": [
-        "Moonstone Renewer",
-        "Echoes of Helia"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 209998236.34385487
+      "winrate": 0.375,
+      "score": 905057384.4685642
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Kayle-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5001,
+      "totalGames": 6394,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7874
+        },
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 45
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3109,
+          3222
+        ],
+        "names": [
+          "Knight's Vow",
+          "Mikael's Blessing"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 1810399283.077659
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Kayle-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -112,27 +264,35 @@
           "purchaseSamples": 45
         },
         {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 8
         }
       ],
       "seedPair": {
         "itemIds": [
-          3107,
+          3109,
           3190
         ],
         "names": [
-          "Redemption",
+          "Knight's Vow",
           "Locket of the Iron Solari"
         ],
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 1049863926.8682978
+        "score": 1041420408.5828379
       },
       "runes": {
         "primaryStyle": {
@@ -186,8 +346,8 @@
           }
         ],
         "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
@@ -201,9 +361,9 @@
           "Q",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 1,
@@ -212,10 +372,10 @@
       }
     },
     {
-      "id": "Kayle-2",
-      "buildIndex": 1,
+      "id": "Kayle-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5001,
+      "totalGames": 6394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -224,10 +384,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 10
+        },
+        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 7874
         },
@@ -235,7 +403,7 @@
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 1.5,
           "purchaseSamples": 30
         },
@@ -243,23 +411,23 @@
           "itemId": 6617,
           "name": "Moonstone Renewer",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 45
         },
         {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
+          "order": 5,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
         },
         {
           "itemId": 2530,
           "name": "Diadem of Songs",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -273,10 +441,10 @@
           "Diadem of Songs",
           "Moonstone Renewer"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 3,
-        "winrate": 1,
-        "score": 806200801.5031804
+        "winrate": 0.75,
+        "score": 727095272.4362402
       },
       "runes": {
         "primaryStyle": {
@@ -329,14 +497,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -356,162 +524,10 @@
       }
     },
     {
-      "id": "Kayle-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 5001,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7874
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 45
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6617,
-          6620
-        ],
-        "names": [
-          "Moonstone Renewer",
-          "Echoes of Helia"
-        ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 209998236.34385487
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Kayle-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5001,
+      "totalGames": 6394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -580,7 +596,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 29702558.27241619
+        "score": 35224773.542156756
       },
       "runes": {
         "primaryStyle": {
@@ -663,7 +679,7 @@
       "id": "Kayle-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 5001,
+      "totalGames": 6394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -732,7 +748,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 14722542.401562214
+        "score": 19725906.662802987
       },
       "runes": {
         "primaryStyle": {
@@ -813,14 +829,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5001,
+    "totalGames": 6394,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49610077984403117,
+    "winrate": 0.49436972161401316,
     "items": [
       {
         "itemId": 3009,
@@ -922,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 5001,
-      "games": 1236,
-      "confidencePct": 0.2471505698860228
+      "sampleGames": 6394,
+      "games": 1730,
+      "confidencePct": 0.2705661557710353
     },
     "position": {
       "role": "TOP",
-      "games": 3233,
-      "sampleGames": 5001,
-      "confidencePct": 0.6464707058588283
+      "games": 4126,
+      "sampleGames": 6394,
+      "confidencePct": 0.6452924616828276
     },
     "skillOrder": {
       "order": [

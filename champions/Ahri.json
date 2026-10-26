@@ -1,8 +1,22 @@
 {
   "championId": "Ahri",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4005,
+        4628
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Horizon Focus"
+      ],
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 452509651.7832036
+    },
     {
       "itemIds": [
         3116,
@@ -15,7 +29,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 257396461.20625535
+      "score": 256328243.62048247
+    },
+    {
+      "itemIds": [
+        4005,
+        8010
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Bloodletter's Curse"
+      ],
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 99895318.34899087
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 80708467.9506145
+      "score": 84870951.91302247
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Rylai's Crystal Scepter",
         "Cosmic Drive"
       ],
-      "games": 60,
-      "wins": 34,
-      "winrate": 0.5666666666666667,
-      "score": 49862694.814079374
-    },
-    {
-      "itemIds": [
-        4401,
-        4629
-      ],
-      "names": [
-        "Force of Nature",
-        "Cosmic Drive"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 43161729.03458196
-    },
-    {
-      "itemIds": [
-        4633,
-        6653
-      ],
-      "names": [
-        "Riftmaker",
-        "Liandry's Torment"
-      ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 40341731.64670668
+      "games": 74,
+      "wins": 44,
+      "winrate": 0.5945945945945946,
+      "score": 64086115.15600363
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ahri-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17458,
+      "totalGames": 22734,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -88,20 +88,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
+          "isBoots": true,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 10519
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 19
         },
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 71
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 263
         },
         {
           "itemId": 3116,
@@ -138,46 +138,28 @@
       ],
       "seedPair": {
         "itemIds": [
-          3116,
-          4005
+          4005,
+          4628
         ],
         "names": [
-          "Rylai's Crystal Scepter",
-          "Imperial Mandate"
+          "Imperial Mandate",
+          "Horizon Focus"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 257396461.20625535
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 452509651.7832036
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
@@ -185,41 +167,59 @@
           {
             "id": 8210,
             "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5010,
             "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.4
       },
       "position": {
         "role": "UTILITY",
         "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
           "Q",
-          "E",
-          "W"
+          "W",
+          "E"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Ahri-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 17458,
+      "totalGames": 22734,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -240,12 +240,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 71
+          "purchaseSamples": 19
         },
         {
           "itemId": 4629,
@@ -272,20 +272,20 @@
           "purchaseSamples": 6959
         },
         {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7771
-        },
-        {
           "itemId": 4401,
           "name": "Force of Nature",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 19
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 10
         }
       ],
       "seedPair": {
@@ -297,70 +297,70 @@
           "Force of Nature",
           "Cosmic Drive"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 43161729.03458196
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 57929514.92296711
       },
       "runes": {
         "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
+        "secondaryPerks": [
           {
             "id": 8139,
             "name": "Taste of Blood"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
             "id": 5008,
             "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -374,16 +374,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Ahri-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 17458,
+      "totalGames": 22734,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -400,12 +400,12 @@
           "purchaseSamples": 10519
         },
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 71
+          "purchaseSamples": 19
         },
         {
           "itemId": 6653,
@@ -452,7 +452,7 @@
         "games": 5,
         "wins": 1,
         "winrate": 0.2,
-        "score": 40341731.64670668
+        "score": 47589693.87158511
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +535,7 @@
       "id": "Ahri-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17458,
+      "totalGames": 22734,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -552,12 +552,12 @@
           "purchaseSamples": 10519
         },
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 71
+          "purchaseSamples": 19
         },
         {
           "itemId": 2065,
@@ -576,12 +576,12 @@
           "purchaseSamples": 2869
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
+          "itemId": 3100,
+          "name": "Lich Bane",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 118
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12506
         },
         {
           "itemId": 3041,
@@ -604,7 +604,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 36284834.5057431
+        "score": 34757708.95378027
       },
       "runes": {
         "primaryStyle": {
@@ -678,16 +678,16 @@
         "confidencePct": 0.5
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     },
     {
       "id": "Ahri-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 17458,
+      "totalGames": 22734,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -696,128 +696,128 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6655,
-          "name": "Luden's Echo",
+          "itemId": 2503,
+          "name": "Blackfire Torch",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1325
+          "purchaseSamples": 10519
         },
         {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
+          "itemId": 3171,
+          "name": "Crimson Lucidity",
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 71
+          "purchaseSamples": 19
         },
         {
-          "itemId": 4646,
-          "name": "Stormsurge",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 797
+          "purchaseSamples": 2869
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 427
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 4096
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 938
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1359
+          "purchaseSamples": 10
         }
       ],
       "seedPair": {
         "itemIds": [
-          4646,
-          6655
+          3742,
+          4629
         ],
         "names": [
-          "Stormsurge",
-          "Luden's Echo"
+          "Dead Man's Plate",
+          "Cosmic Drive"
         ],
-        "games": 92,
-        "wins": 45,
-        "winrate": 0.4891304347826087,
-        "score": 3030120.1152382484
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 34757708.95378027
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
           },
           {
             "id": 8106,
             "name": "Ultimate Hunter"
           }
         ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          }
-        ],
         "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
           {
             "id": 5008,
             "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
             "name": "Health"
           }
         ],
-        "sampleGames": 92,
-        "games": 53,
-        "confidencePct": 0.5760869565217391
+        "sampleGames": 7,
+        "games": 4,
+        "confidencePct": 0.5714285714285714
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 85,
-        "sampleGames": 92,
-        "confidencePct": 0.9239130434782609
+        "role": "TOP",
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
       },
       "skillOrder": {
         "order": [
@@ -825,26 +825,26 @@
           "W",
           "E"
         ],
-        "games": 54,
-        "sampleGames": 63,
-        "confidencePct": 0.8571428571428571
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 17458,
+    "totalGames": 22734,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5112269446672013,
+    "winrate": 0.5110407319433448,
     "items": [
       {
         "itemId": 3118,
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17458,
-      "games": 6628,
-      "confidencePct": 0.3796540268071944
+      "sampleGames": 22734,
+      "games": 8878,
+      "confidencePct": 0.3905164071434855
     },
     "position": {
       "role": "MIDDLE",
-      "games": 16274,
-      "sampleGames": 17458,
-      "confidencePct": 0.9321800893573147
+      "games": 21196,
+      "sampleGames": 22734,
+      "confidencePct": 0.9323480249846046
     },
     "skillOrder": {
       "order": [

@@ -1,22 +1,8 @@
 {
   "championId": "Shen",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-25T21:40:29.405Z",
+  "generatedAt": "2026-10-26T20:35:45.189Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3041,
-        8020
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Abyssal Mask"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 168418336.04484394
-    },
     {
       "itemIds": [
         4629,
@@ -26,10 +12,24 @@
         "Cosmic Drive",
         "Abyssal Mask"
       ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 149112652.2319592
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 223699381.41336125
+    },
+    {
+      "itemIds": [
+        3041,
+        8020
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Abyssal Mask"
+      ],
+      "games": 8,
+      "wins": 3,
+      "winrate": 0.375,
+      "score": 161917310.4291043
     },
     {
       "itemIds": [
@@ -40,10 +40,10 @@
         "Unending Despair",
         "Abyssal Mask"
       ],
-      "games": 33,
-      "wins": 21,
-      "winrate": 0.6363636363636364,
-      "score": 67720423.46031117
+      "games": 43,
+      "wins": 27,
+      "winrate": 0.627906976744186,
+      "score": 78651440.23343416
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 37536351.043541685
+      "score": 36911828.42407896
     },
     {
       "itemIds": [
-        3107,
-        3742
+        2502,
+        2525
       ],
       "names": [
-        "Redemption",
-        "Dead Man's Plate"
+        "Unending Despair",
+        "Protoplasm Harness"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 35234673.4226424
+      "games": 101,
+      "wins": 65,
+      "winrate": 0.6435643564356436,
+      "score": 33385244.027579065
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Shen-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9113,
+      "totalGames": 11571,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -112,20 +112,20 @@
           "purchaseSamples": 1946
         },
         {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 22
-        },
-        {
           "itemId": 8020,
           "name": "Abyssal Mask",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 433
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 22
         },
         {
           "itemId": 4629,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3041,
+          4629,
           8020
         ],
         "names": [
-          "Mejai's Soulstealer",
+          "Cosmic Drive",
           "Abyssal Mask"
         ],
-        "games": 6,
+        "games": 5,
         "wins": 3,
-        "winrate": 0.5,
-        "score": 168418336.04484394
+        "winrate": 0.6,
+        "score": 223699381.41336125
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -217,8 +217,8 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -231,7 +231,7 @@
       "id": "Shen-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 9113,
+      "totalGames": 11571,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -264,28 +264,28 @@
           "purchaseSamples": 1294
         },
         {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1946
+        },
+        {
+          "itemId": 2502,
+          "name": "Unending Despair",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 665
+        },
+        {
           "itemId": 3107,
           "name": "Redemption",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 44
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1779
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1928
+          "purchaseSamples": 44
         }
       ],
       "seedPair": {
@@ -300,7 +300,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 35234673.4226424
+        "score": 30888614.905037276
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Shen-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 9113,
+      "totalGames": 11571,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -408,20 +408,20 @@
           "purchaseSamples": 8957
         },
         {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1946
-        },
-        {
           "itemId": 2502,
           "name": "Unending Despair",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 665
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1946
         },
         {
           "itemId": 6665,
@@ -449,10 +449,10 @@
           "Heartsteel",
           "Jak'Sho, The Protean"
         ],
-        "games": 26,
-        "wins": 19,
-        "winrate": 0.7307692307692307,
-        "score": 25186817.538327057
+        "games": 29,
+        "wins": 22,
+        "winrate": 0.7586206896551724,
+        "score": 29420067.7193744
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 26,
+        "sampleGames": 29,
         "games": 14,
-        "confidencePct": 0.5384615384615384
+        "confidencePct": 0.4827586206896552
       },
       "position": {
         "role": "JUNGLE",
         "games": 14,
-        "sampleGames": 26,
-        "confidencePct": 0.5384615384615384
+        "sampleGames": 29,
+        "confidencePct": 0.4827586206896552
       },
       "skillOrder": {
         "order": [
@@ -535,7 +535,159 @@
       "id": "Shen-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 9113,
+      "totalGames": 11571,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1750
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1301
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 8957
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 130
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1083
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1946
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3190,
+          3222
+        ],
+        "names": [
+          "Locket of the Iron Solari",
+          "Mikael's Blessing"
+        ],
+        "games": 42,
+        "wins": 29,
+        "winrate": 0.6904761904761905,
+        "score": 17653898.430598814
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 42,
+        "games": 15,
+        "confidencePct": 0.35714285714285715
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 41,
+        "sampleGames": 42,
+        "confidencePct": 0.9761904761904762
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 13,
+        "sampleGames": 19,
+        "confidencePct": 0.6842105263157895
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Shen-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 11571,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -604,7 +756,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 14049621.368031671
+        "score": 14344080.060128087
       },
       "runes": {
         "primaryStyle": {
@@ -682,161 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Shen-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 9113,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3084,
-          "name": "Heartsteel",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1641
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8957
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5028
-        },
-        {
-          "itemId": 3087,
-          "name": "Statikk Shiv",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2067
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          3087
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Statikk Shiv"
-        ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 11948605.199434996
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 9113,
+    "totalGames": 11571,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.504663667288489,
+    "winrate": 0.5085990839166883,
     "items": [
       {
         "itemId": 3748,
@@ -938,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 9113,
-      "games": 3261,
-      "confidencePct": 0.3578404477120597
+      "sampleGames": 11571,
+      "games": 4210,
+      "confidencePct": 0.363840636072941
     },
     "position": {
       "role": "TOP",
-      "games": 6604,
-      "sampleGames": 9113,
-      "confidencePct": 0.724679029957204
+      "games": 8584,
+      "sampleGames": 11571,
+      "confidencePct": 0.7418546365914787
     },
     "skillOrder": {
       "order": [
