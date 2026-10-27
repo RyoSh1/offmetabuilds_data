@@ -1,8 +1,36 @@
 {
   "championId": "Jhin",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3179,
+        6696
+      ],
+      "names": [
+        "Umbral Glaive",
+        "Axiom Arc"
+      ],
+      "games": 13,
+      "wins": 6,
+      "winrate": 0.46153846153846156,
+      "score": 357611758.6763909
+    },
+    {
+      "itemIds": [
+        3032,
+        3095
+      ],
+      "names": [
+        "Yun Tal Wildarrows",
+        "Stormrazor"
+      ],
+      "games": 49,
+      "wins": 29,
+      "winrate": 0.5918367346938775,
+      "score": 307245948.9366613
+    },
     {
       "itemIds": [
         3179,
@@ -15,21 +43,21 @@
       "games": 9,
       "wins": 1,
       "winrate": 0.1111111111111111,
-      "score": 309194892.2483137
+      "score": 290265734.6408454
     },
     {
       "itemIds": [
-        3032,
-        3095
+        3179,
+        6699
       ],
       "names": [
-        "Yun Tal Wildarrows",
-        "Stormrazor"
+        "Umbral Glaive",
+        "Voltaic Cyclosword"
       ],
-      "games": 41,
-      "wins": 23,
-      "winrate": 0.5609756097560976,
-      "score": 237938332.70588526
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 202512612.10839
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Mortal Reminder",
         "Umbral Glaive"
       ],
-      "games": 5,
-      "wins": 2,
-      "winrate": 0.4,
-      "score": 67823532.62469961
-    },
-    {
-      "itemIds": [
-        3095,
-        3172
-      ],
-      "names": [
-        "Stormrazor",
-        "Gunmetal Greaves"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 54226642.33157174
-    },
-    {
-      "itemIds": [
-        2517,
-        3042
-      ],
-      "names": [
-        "Endless Hunger",
-        "Muramana"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 37565780.40765587
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 127779033.85188593
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Jhin-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 51757,
+      "totalGames": 60800,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -96,10 +96,18 @@
           "purchaseSamples": 110
         },
         {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1499
+        },
+        {
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 852
         },
@@ -107,17 +115,9 @@
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 50285
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 350
         },
         {
           "itemId": 3033,
@@ -139,38 +139,38 @@
       "seedPair": {
         "itemIds": [
           3179,
-          3814
+          6696
         ],
         "names": [
           "Umbral Glaive",
-          "Edge of Night"
+          "Axiom Arc"
         ],
-        "games": 9,
-        "wins": 1,
-        "winrate": 0.1111111111111111,
-        "score": 309194892.2483137
+        "games": 13,
+        "wins": 6,
+        "winrate": 0.46153846153846156,
+        "score": 357611758.6763909
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
-            "id": 8139,
-            "name": "Taste of Blood"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8140,
-            "name": "Grisly Mementos"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -197,24 +197,24 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 9,
-        "games": 2,
-        "confidencePct": 0.2222222222222222
+        "sampleGames": 13,
+        "games": 3,
+        "confidencePct": 0.23076923076923078
       },
       "position": {
         "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 9,
-        "confidencePct": 0.5555555555555556
+        "games": 6,
+        "sampleGames": 13,
+        "confidencePct": 0.46153846153846156
       },
       "skillOrder": {
         "order": [
-          "W",
           "Q",
+          "W",
           "E"
         ],
         "games": 2,
@@ -231,7 +231,7 @@
       "id": "Jhin-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 51757,
+      "totalGames": 60800,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -264,12 +264,12 @@
           "purchaseSamples": 8486
         },
         {
-          "itemId": 6676,
-          "name": "The Collector",
+          "itemId": 3046,
+          "name": "Phantom Dancer",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 22280
+          "purchaseSamples": 26336
         },
         {
           "itemId": 3036,
@@ -297,10 +297,10 @@
           "Yun Tal Wildarrows",
           "Stormrazor"
         ],
-        "games": 41,
-        "wins": 23,
-        "winrate": 0.5609756097560976,
-        "score": 237938332.70588526
+        "games": 49,
+        "wins": 29,
+        "winrate": 0.5918367346938775,
+        "score": 307245948.9366613
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 41,
-        "games": 8,
-        "confidencePct": 0.1951219512195122
+        "sampleGames": 49,
+        "games": 9,
+        "confidencePct": 0.1836734693877551
       },
       "position": {
         "role": "TOP",
-        "games": 22,
-        "sampleGames": 41,
-        "confidencePct": 0.5365853658536586
+        "games": 26,
+        "sampleGames": 49,
+        "confidencePct": 0.5306122448979592
       },
       "skillOrder": {
         "order": [
@@ -383,7 +383,7 @@
       "id": "Jhin-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 51757,
+      "totalGames": 60800,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -449,10 +449,10 @@
           "Endless Hunger",
           "Muramana"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 37565780.40765587
+        "games": 13,
+        "wins": 8,
+        "winrate": 0.6153846153846154,
+        "score": 102682656.64257342
       },
       "runes": {
         "primaryStyle": {
@@ -505,14 +505,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
+        "sampleGames": 13,
+        "games": 13,
         "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 13,
+        "sampleGames": 13,
         "confidencePct": 1
       },
       "skillOrder": null,
@@ -526,7 +526,7 @@
       "id": "Jhin-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 51757,
+      "totalGames": 60800,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -543,12 +543,12 @@
           "purchaseSamples": 50285
         },
         {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
+          "itemId": 3033,
+          "name": "Mortal Reminder",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 2613
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5272
         },
         {
           "itemId": 3156,
@@ -595,7 +595,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 14698017.540281001
+        "score": 14808667.526225684
       },
       "runes": {
         "primaryStyle": {
@@ -673,169 +673,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Jhin-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 51757,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6696,
-          "name": "Axiom Arc",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1499
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 852
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 50285
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 350
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 112
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 583
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3814,
-          6694
-        ],
-        "names": [
-          "Edge of Night",
-          "Serylda's Grudge"
-        ],
-        "games": 8,
-        "wins": 4,
-        "winrate": 0.5,
-        "score": 11854025.790561823
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 2,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 8,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 0,
-        "winrate": 0
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 51757,
+    "totalGames": 60800,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49419402206464824,
+    "winrate": 0.4945230263157895,
     "items": [
       {
         "itemId": 6697,
@@ -937,15 +785,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 51757,
-      "games": 10099,
-      "confidencePct": 0.19512336495546495
+      "sampleGames": 60800,
+      "games": 11080,
+      "confidencePct": 0.18223684210526317
     },
     "position": {
       "role": "BOTTOM",
-      "games": 50977,
-      "sampleGames": 51757,
-      "confidencePct": 0.984929574743513
+      "games": 59855,
+      "sampleGames": 60800,
+      "confidencePct": 0.9844572368421053
     },
     "skillOrder": {
       "order": [

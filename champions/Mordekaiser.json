@@ -1,8 +1,36 @@
 {
   "championId": "Mordekaiser",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3742,
+        4401
+      ],
+      "names": [
+        "Dead Man's Plate",
+        "Force of Nature"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 82659387.90096621
+    },
+    {
+      "itemIds": [
+        3050,
+        4629
+      ],
+      "names": [
+        "Zeke's Convergence",
+        "Cosmic Drive"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 63240325.24826437
+    },
     {
       "itemIds": [
         3742,
@@ -15,7 +43,21 @@
       "games": 5,
       "wins": 5,
       "winrate": 1,
-      "score": 68355324.99370638
+      "score": 56062274.43997554
+    },
+    {
+      "itemIds": [
+        3041,
+        3050
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Zeke's Convergence"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 45310686.56845722
     },
     {
       "itemIds": [
@@ -29,49 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 42924454.99673946
-    },
-    {
-      "itemIds": [
-        3102,
-        3146
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Hextech Gunblade"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 28169423.80676572
-    },
-    {
-      "itemIds": [
-        3050,
-        3073
-      ],
-      "names": [
-        "Zeke's Convergence",
-        "Experimental Hexplate"
-      ],
-      "games": 14,
-      "wins": 9,
-      "winrate": 0.6428571428571429,
-      "score": 24797096.911061857
-    },
-    {
-      "itemIds": [
-        2504,
-        3146
-      ],
-      "names": [
-        "Kaenic Rookern",
-        "Hextech Gunblade"
-      ],
-      "games": 7,
-      "wins": 6,
-      "winrate": 0.8571428571428571,
-      "score": 19510244.192548
+      "score": 45054559.89117204
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Mordekaiser-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8773,
+      "totalGames": 10878,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -88,26 +88,34 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3146,
+          "name": "Hextech Gunblade",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 461
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 6594
         },
         {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1651
+          "purchaseSamples": 548
         },
         {
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 41
         },
@@ -115,17 +123,9 @@
           "itemId": 4401,
           "name": "Force of Nature",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 108
+          "purchaseSamples": 94
         },
         {
           "itemId": 6665,
@@ -139,16 +139,16 @@
       "seedPair": {
         "itemIds": [
           3742,
-          6665
+          4401
         ],
         "names": [
           "Dead Man's Plate",
-          "Jak'Sho, The Protean"
+          "Force of Nature"
         ],
         "games": 5,
-        "wins": 5,
-        "winrate": 1,
-        "score": 68355324.99370638
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 82659387.90096621
       },
       "runes": {
         "primaryStyle": {
@@ -165,12 +165,12 @@
             "name": "Triumph"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8410,
-            "name": "Approach Velocity"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8410,
+            "name": "Approach Velocity"
           }
         ],
         "statPerks": [
@@ -193,8 +193,8 @@
             "name": "Ability Haste"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5013,
@@ -202,16 +202,25 @@
           }
         ],
         "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "JUNGLE",
-        "games": 3,
+        "games": 4,
         "sampleGames": 5,
-        "confidencePct": 0.6
+        "confidencePct": 0.8
       },
-      "skillOrder": null,
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -222,7 +231,7 @@
       "id": "Mordekaiser-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 8773,
+      "totalGames": 10878,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -255,12 +264,12 @@
           "purchaseSamples": 87
         },
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
+          "purchaseSamples": 84
         },
         {
           "itemId": 3073,
@@ -271,27 +280,27 @@
           "purchaseSamples": 1651
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 782
+          "purchaseSamples": 175
         }
       ],
       "seedPair": {
         "itemIds": [
           3050,
-          3115
+          4629
         ],
         "names": [
           "Zeke's Convergence",
-          "Nashor's Tooth"
+          "Cosmic Drive"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 42924454.99673946
+        "winrate": 0.5,
+        "score": 63240325.24826437
       },
       "runes": {
         "primaryStyle": {
@@ -317,23 +326,23 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8473,
+            "name": "Bone Plating"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -344,26 +353,17 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -374,7 +374,7 @@
       "id": "Mordekaiser-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8773,
+      "totalGames": 10878,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -407,12 +407,12 @@
           "purchaseSamples": 1651
         },
         {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 108
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 87
         },
         {
           "itemId": 3143,
@@ -423,27 +423,27 @@
           "purchaseSamples": 782
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 68
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 19
         }
       ],
       "seedPair": {
         "itemIds": [
-          2504,
+          3102,
           3146
         ],
         "names": [
-          "Kaenic Rookern",
+          "Banshee's Veil",
           "Hextech Gunblade"
         ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 19510244.192548
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 26694511.64960072
       },
       "runes": {
         "primaryStyle": {
@@ -469,17 +469,17 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8401,
-            "name": "Shield Bash"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8410,
+            "name": "Approach Velocity"
           }
         ],
         "statPerks": [
@@ -496,15 +496,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 5,
-        "confidencePct": 0.7142857142857143
+        "sampleGames": 6,
+        "games": 3,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
+        "games": 3,
+        "sampleGames": 6,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -512,8 +512,8 @@
           "E",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 6,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -526,7 +526,7 @@
       "id": "Mordekaiser-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 8773,
+      "totalGames": 10878,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -595,7 +595,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 19291606.039271872
+        "score": 20042094.158365685
       },
       "runes": {
         "primaryStyle": {
@@ -678,7 +678,7 @@
       "id": "Mordekaiser-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 8773,
+      "totalGames": 10878,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -703,73 +703,73 @@
           "purchaseSamples": 6594
         },
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
-        },
-        {
           "itemId": 3073,
           "name": "Experimental Hexplate",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 1651
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 68
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 108
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 782
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 17
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 27
         }
       ],
       "seedPair": {
         "itemIds": [
-          3115,
-          3135
+          2504,
+          3146
         ],
         "names": [
-          "Nashor's Tooth",
-          "Void Staff"
+          "Kaenic Rookern",
+          "Hextech Gunblade"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 8302660.75167749
+        "games": 8,
+        "wins": 6,
+        "winrate": 0.75,
+        "score": 18280130.80085517
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
+          "id": 8230,
+          "name": "Stormraider's Surge"
         },
         "primaryPerks": [
           {
-            "id": 9101,
-            "name": "Absorb Life"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
@@ -778,39 +778,48 @@
         },
         "secondaryPerks": [
           {
-            "id": 8429,
-            "name": "Conditioning"
+            "id": 8401,
+            "name": "Shield Bash"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 8,
+        "games": 5,
+        "confidencePct": 0.625
       },
       "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
+        "role": "JUNGLE",
+        "games": 5,
+        "sampleGames": 8,
+        "confidencePct": 0.625
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
-      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -819,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 8773,
+    "totalGames": 10878,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49720734070443406,
+    "winrate": 0.49439235153520866,
     "items": [
       {
         "itemId": 3116,
@@ -928,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 8773,
-      "games": 2146,
-      "confidencePct": 0.24461415707283712
+      "sampleGames": 10878,
+      "games": 2820,
+      "confidencePct": 0.2592388306674021
     },
     "position": {
       "role": "TOP",
-      "games": 7860,
-      "sampleGames": 8773,
-      "confidencePct": 0.8959306964550325
+      "games": 9714,
+      "sampleGames": 10878,
+      "confidencePct": 0.8929950358521788
     },
     "skillOrder": {
       "order": [

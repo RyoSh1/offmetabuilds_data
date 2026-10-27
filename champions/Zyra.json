@@ -1,8 +1,22 @@
 {
   "championId": "Zyra",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3083,
+        3084
+      ],
+      "names": [
+        "Warmog's Armor",
+        "Heartsteel"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 138357322.88613382
+    },
     {
       "itemIds": [
         3109,
@@ -15,7 +29,35 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 112901940.66117674
+      "score": 113576834.36575145
+    },
+    {
+      "itemIds": [
+        3041,
+        4646
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Stormsurge"
+      ],
+      "games": 23,
+      "wins": 20,
+      "winrate": 0.8695652173913043,
+      "score": 108667176.61451623
+    },
+    {
+      "itemIds": [
+        4646,
+        6655
+      ],
+      "names": [
+        "Stormsurge",
+        "Luden's Echo"
+      ],
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 100611246.24565013
     },
     {
       "itemIds": [
@@ -29,49 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 76982891.0139405
-    },
-    {
-      "itemIds": [
-        4646,
-        6655
-      ],
-      "names": [
-        "Stormsurge",
-        "Luden's Echo"
-      ],
-      "games": 7,
-      "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 74875595.50111644
-    },
-    {
-      "itemIds": [
-        3041,
-        4646
-      ],
-      "names": [
-        "Mejai's Soulstealer",
-        "Stormsurge"
-      ],
-      "games": 16,
-      "wins": 13,
-      "winrate": 0.8125,
-      "score": 72523484.39636981
-    },
-    {
-      "itemIds": [
-        3084,
-        3143
-      ],
-      "names": [
-        "Heartsteel",
-        "Randuin's Omen"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 51062179.82283102
+      "score": 80299267.08604148
     }
   ],
   "builds": [
@@ -79,7 +79,126 @@
       "id": "Zyra-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11060,
+      "totalGames": 12969,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 35
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 10890
+        },
+        {
+          "itemId": 3083,
+          "name": "Warmog's Armor",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3083,
+          3084
+        ],
+        "names": [
+          "Warmog's Armor",
+          "Heartsteel"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 138357322.88613382
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 3,
+        "wins": 3,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Zyra-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 12969,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -120,20 +239,20 @@
           "purchaseSamples": 4409
         },
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 660
-        },
-        {
           "itemId": 2524,
           "name": "Bandlepipes",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 19
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 4
         }
       ],
       "seedPair": {
@@ -148,7 +267,7 @@
         "games": 5,
         "wins": 4,
         "winrate": 0.8,
-        "score": 112901940.66117674
+        "score": 113576834.36575145
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +347,10 @@
       }
     },
     {
-      "id": "Zyra-2",
-      "buildIndex": 1,
+      "id": "Zyra-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11060,
+      "totalGames": 12969,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -240,12 +359,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3084,
-          "name": "Heartsteel",
+          "itemId": 6655,
+          "name": "Luden's Echo",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 35
+          "purchaseSamples": 56
         },
         {
           "itemId": 3020,
@@ -256,51 +375,51 @@
           "purchaseSamples": 10890
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 4646,
+          "name": "Stormsurge",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
+          "purchaseSamples": 139
         },
         {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4409
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 848
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 3135,
+          "name": "Void Staff",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 18
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1051
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 818
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
-          8020
+          3041,
+          4646
         ],
         "names": [
-          "Bandlepipes",
-          "Abyssal Mask"
+          "Mejai's Soulstealer",
+          "Stormsurge"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 76982891.0139405
+        "games": 23,
+        "wins": 20,
+        "winrate": 0.8695652173913043,
+        "score": 108667176.61451623
       },
       "runes": {
         "primaryStyle": {
@@ -326,160 +445,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": null,
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Zyra-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 11060,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 56
-        },
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2543
-        },
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10890
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 139
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 848
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1051
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4646,
-          6655
-        ],
-        "names": [
-          "Stormsurge",
-          "Luden's Echo"
-        ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 74875595.50111644
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "subStyle": {
           "id": 8000,
           "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
             "id": 8017,
             "name": "Cut Down"
+          },
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
           }
         ],
         "statPerks": [
@@ -496,15 +472,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 7,
-        "games": 5,
-        "confidencePct": 0.7142857142857143
+        "sampleGames": 23,
+        "games": 7,
+        "confidencePct": 0.30434782608695654
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
+        "role": "MIDDLE",
+        "games": 11,
+        "sampleGames": 23,
+        "confidencePct": 0.4782608695652174
       },
       "skillOrder": {
         "order": [
@@ -512,8 +488,8 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -526,7 +502,7 @@
       "id": "Zyra-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 11060,
+      "totalGames": 12969,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -587,7 +563,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 51062179.82283102
+        "score": 53567129.86863249
       },
       "runes": {
         "primaryStyle": {
@@ -670,7 +646,7 @@
       "id": "Zyra-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 11060,
+      "totalGames": 12969,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -695,18 +671,10 @@
           "purchaseSamples": 68
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 18
-        },
-        {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 660
         },
@@ -714,17 +682,25 @@
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 514
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 744
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 699
+          "purchaseSamples": 848
         }
       ],
       "seedPair": {
@@ -739,7 +715,7 @@
         "games": 14,
         "wins": 11,
         "winrate": 0.7857142857142857,
-        "score": 14583888.809217878
+        "score": 13448997.989321936
       },
       "runes": {
         "primaryStyle": {
@@ -820,14 +796,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 11060,
+    "totalGames": 12969,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5088607594936709,
+    "winrate": 0.5060528953658725,
     "items": [
       {
         "itemId": 6653,
@@ -929,15 +905,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 11060,
-      "games": 3001,
-      "confidencePct": 0.2713381555153707
+      "sampleGames": 12969,
+      "games": 3399,
+      "confidencePct": 0.26208651399491095
     },
     "position": {
       "role": "JUNGLE",
-      "games": 5827,
-      "sampleGames": 11060,
-      "confidencePct": 0.5268535262206149
+      "games": 6628,
+      "sampleGames": 12969,
+      "confidencePct": 0.5110648469427095
     },
     "skillOrder": {
       "order": [

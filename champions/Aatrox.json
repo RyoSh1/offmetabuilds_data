@@ -1,7 +1,7 @@
 {
   "championId": "Aatrox",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 339365540.25510854
+      "score": 400072452.7684722
+    },
+    {
+      "itemIds": [
+        2501,
+        2502
+      ],
+      "names": [
+        "Overlord's Bloodmail",
+        "Unending Despair"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 119569563.79098786
     },
     {
       "itemIds": [
@@ -26,10 +40,24 @@
         "Unending Despair",
         "Spirit Visage"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 83500843.2594249
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 112511575.60545088
+    },
+    {
+      "itemIds": [
+        2520,
+        3814
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Edge of Night"
+      ],
+      "games": 193,
+      "wins": 114,
+      "winrate": 0.5906735751295337,
+      "score": 69690364.93516605
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 61937115.65705233
-    },
-    {
-      "itemIds": [
-        2520,
-        3814
-      ],
-      "names": [
-        "Bastionbreaker",
-        "Edge of Night"
-      ],
-      "games": 171,
-      "wins": 101,
-      "winrate": 0.5906432748538012,
-      "score": 59700520.206638634
-    },
-    {
-      "itemIds": [
-        3814,
-        6698
-      ],
-      "names": [
-        "Edge of Night",
-        "Profane Hydra"
-      ],
-      "games": 182,
-      "wins": 94,
-      "winrate": 0.5164835164835165,
-      "score": 44813230.28899715
+      "score": 66386802.24967769
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Aatrox-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 16396,
+      "totalGames": 19317,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -124,7 +124,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 339365540.25510854
+        "score": 400072452.7684722
       },
       "runes": {
         "primaryStyle": {
@@ -198,7 +198,7 @@
       "id": "Aatrox-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 16396,
+      "totalGames": 19317,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -207,12 +207,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 3084,
+          "name": "Heartsteel",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3582
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 70
         },
         {
           "itemId": 3047,
@@ -223,10 +223,18 @@
           "purchaseSamples": 13542
         },
         {
+          "itemId": 2501,
+          "name": "Overlord's Bloodmail",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 128
+        },
+        {
           "itemId": 2502,
           "name": "Unending Despair",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 25
         },
@@ -234,17 +242,9 @@
           "itemId": 3053,
           "name": "Sterak's Gage",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1898
-        },
-        {
-          "itemId": 2501,
-          "name": "Overlord's Bloodmail",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 128
+          "purchaseSamples": 1898
         },
         {
           "itemId": 3065,
@@ -257,17 +257,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          2502,
-          3065
+          2501,
+          2502
         ],
         "names": [
-          "Unending Despair",
-          "Spirit Visage"
+          "Overlord's Bloodmail",
+          "Unending Despair"
         ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 83500843.2594249
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 119569563.79098786
       },
       "runes": {
         "primaryStyle": {
@@ -320,15 +320,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 5,
-        "confidencePct": 1
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -336,21 +336,21 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 2,
-        "wins": 1,
-        "winrate": 0.5
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Aatrox-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 16396,
+      "totalGames": 19317,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -367,18 +367,10 @@
           "purchaseSamples": 1111
         },
         {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 511
         },
@@ -386,7 +378,7 @@
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 13542
         },
@@ -394,7 +386,7 @@
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 880
         },
@@ -402,176 +394,32 @@
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 169
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3036,
-          3179
-        ],
-        "names": [
-          "Lord Dominik's Regards",
-          "Umbral Glaive"
-        ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 61937115.65705233
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 2,
-        "confidencePct": 0.2857142857142857
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Aatrox-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 16396,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3084,
-          "name": "Heartsteel",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 70
-        },
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1989
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 13542
-        },
-        {
-          "itemId": 2501,
-          "name": "Overlord's Bloodmail",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 128
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2347
+          "purchaseSamples": 169
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 310
+          "purchaseSamples": 351
         }
       ],
       "seedPair": {
         "itemIds": [
-          2501,
-          3084
+          2520,
+          3814
         ],
         "names": [
-          "Overlord's Bloodmail",
-          "Heartsteel"
+          "Bastionbreaker",
+          "Edge of Night"
         ],
-        "games": 12,
-        "wins": 8,
-        "winrate": 0.6666666666666666,
-        "score": 23419764.93957211
+        "games": 193,
+        "wins": 114,
+        "winrate": 0.5906735751295337,
+        "score": 69690364.93516605
       },
       "runes": {
         "primaryStyle": {
@@ -597,17 +445,17 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8347,
+            "name": "Cosmic Insight"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -624,15 +472,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
-        "games": 3,
-        "confidencePct": 0.25
+        "sampleGames": 193,
+        "games": 66,
+        "confidencePct": 0.34196891191709844
       },
       "position": {
-        "role": "TOP",
-        "games": 10,
-        "sampleGames": 12,
-        "confidencePct": 0.8333333333333334
+        "role": "JUNGLE",
+        "games": 95,
+        "sampleGames": 193,
+        "confidencePct": 0.49222797927461137
       },
       "skillOrder": {
         "order": [
@@ -640,9 +488,9 @@
           "E",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
+        "games": 44,
+        "sampleGames": 45,
+        "confidencePct": 0.9777777777777777
       },
       "asWholeSet": {
         "games": 0,
@@ -651,10 +499,10 @@
       }
     },
     {
-      "id": "Aatrox-5",
-      "buildIndex": 4,
+      "id": "Aatrox-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 16396,
+      "totalGames": 19317,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -695,12 +543,12 @@
           "purchaseSamples": 19
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1128
+          "purchaseSamples": 1898
         },
         {
           "itemId": 3143,
@@ -723,7 +571,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 20338615.822253186
+        "score": 22664709.43541801
       },
       "runes": {
         "primaryStyle": {
@@ -801,17 +649,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Aatrox-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 19317,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1989
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 93
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 511
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 13542
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 880
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 169
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3036,
+          6697
+        ],
+        "names": [
+          "Lord Dominik's Regards",
+          "Hubris"
+        ],
+        "games": 56,
+        "wins": 33,
+        "winrate": 0.5892857142857143,
+        "score": 20527426.17957819
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 56,
+        "games": 19,
+        "confidencePct": 0.3392857142857143
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 35,
+        "sampleGames": 56,
+        "confidencePct": 0.625
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 21,
+        "sampleGames": 21,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 16396,
+    "totalGames": 19317,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4854842644547451,
+    "winrate": 0.48568618315473416,
     "items": [
       {
         "itemId": 6692,
@@ -913,15 +913,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 16396,
-      "games": 3997,
-      "confidencePct": 0.24377897048060504
+      "sampleGames": 19317,
+      "games": 4755,
+      "confidencePct": 0.24615623544028575
     },
     "position": {
       "role": "TOP",
-      "games": 12944,
-      "sampleGames": 16396,
-      "confidencePct": 0.7894608441083191
+      "games": 15362,
+      "sampleGames": 19317,
+      "confidencePct": 0.7952580628461976
     },
     "skillOrder": {
       "order": [

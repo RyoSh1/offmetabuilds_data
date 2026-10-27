@@ -1,7 +1,7 @@
 {
   "championId": "Varus",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 439228036.7405664
+      "score": 506537807.56760365
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 208017665.55597347
+      "score": 212468305.5565397
     },
     {
       "itemIds": [
@@ -40,24 +40,10 @@
         "Rabadon's Deathcap",
         "Shadowflame"
       ],
-      "games": 54,
-      "wins": 28,
-      "winrate": 0.5185185185185185,
-      "score": 170138802.8552033
-    },
-    {
-      "itemIds": [
-        3118,
-        4645
-      ],
-      "names": [
-        "Malignance",
-        "Shadowflame"
-      ],
-      "games": 18,
-      "wins": 9,
-      "winrate": 0.5,
-      "score": 162274832.62715825
+      "games": 62,
+      "wins": 32,
+      "winrate": 0.5161290322580645,
+      "score": 206797453.5949431
     },
     {
       "itemIds": [
@@ -71,7 +57,21 @@
       "games": 16,
       "wins": 9,
       "winrate": 0.5625,
-      "score": 160273744.85539275
+      "score": 182746436.91759995
+    },
+    {
+      "itemIds": [
+        3118,
+        4645
+      ],
+      "names": [
+        "Malignance",
+        "Shadowflame"
+      ],
+      "games": 19,
+      "wins": 9,
+      "winrate": 0.47368421052631576,
+      "score": 177403708.72152123
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Varus-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11560,
+      "totalGames": 13378,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -148,7 +148,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 439228036.7405664
+        "score": 506537807.56760365
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,7 @@
       "id": "Varus-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 11560,
+      "totalGames": 13378,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -300,7 +300,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 208017665.55597347
+        "score": 212468305.5565397
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Varus-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11560,
+      "totalGames": 13378,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -408,12 +408,12 @@
           "purchaseSamples": 3427
         },
         {
-          "itemId": 3091,
-          "name": "Wit's End",
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 455
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 973
         },
         {
           "itemId": 4645,
@@ -442,17 +442,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3091,
-          3172
+          3172,
+          4645
         ],
         "names": [
-          "Wit's End",
-          "Gunmetal Greaves"
+          "Gunmetal Greaves",
+          "Shadowflame"
         ],
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 36815681.24814914
+        "score": 58448484.46188687
       },
       "runes": {
         "primaryStyle": {
@@ -465,30 +465,30 @@
         },
         "primaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
             "id": 9104,
             "name": "Legend: Alacrity"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8014,
+            "name": "Coup de Grace"
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8139,
+            "name": "Taste of Blood"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
@@ -501,13 +501,13 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
         "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "games": 2,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
@@ -517,13 +517,13 @@
       },
       "skillOrder": {
         "order": [
-          "W",
           "Q",
+          "W",
           "E"
         ],
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -535,159 +535,7 @@
       "id": "Varus-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 11560,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 75
-        },
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 196
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3427
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 73
-        },
-        {
-          "itemId": 3046,
-          "name": "Phantom Dancer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 44
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 149
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3031,
-          3032
-        ],
-        "names": [
-          "Infinity Edge",
-          "Yun Tal Wildarrows"
-        ],
-        "games": 31,
-        "wins": 19,
-        "winrate": 0.6129032258064516,
-        "score": 36324972.52259173
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 31,
-        "games": 10,
-        "confidencePct": 0.3225806451612903
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 29,
-        "sampleGames": 31,
-        "confidencePct": 0.9354838709677419
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 11,
-        "sampleGames": 13,
-        "confidencePct": 0.8461538461538461
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Varus-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 11560,
+      "totalGames": 13378,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -753,10 +601,10 @@
           "Thornmail",
           "Randuin's Omen"
         ],
-        "games": 3,
-        "wins": 3,
+        "games": 4,
+        "wins": 4,
         "winrate": 1,
-        "score": 31923675.68513207
+        "score": 42297438.79407907
       },
       "runes": {
         "primaryStyle": {
@@ -809,15 +657,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.25
       },
       "position": {
         "role": "TOP",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -834,17 +682,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Varus-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 13378,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 75
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3427
+        },
+        {
+          "itemId": 2523,
+          "name": "Hexoptics C44",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 73
+        },
+        {
+          "itemId": 3046,
+          "name": "Phantom Dancer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 149
+        },
+        {
+          "itemId": 3085,
+          "name": "Runaan's Hurricane",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 178
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3031,
+          3032
+        ],
+        "names": [
+          "Infinity Edge",
+          "Yun Tal Wildarrows"
+        ],
+        "games": 40,
+        "wins": 27,
+        "winrate": 0.675,
+        "score": 39640381.21888549
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 40,
+        "games": 10,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 38,
+        "sampleGames": 40,
+        "confidencePct": 0.95
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 11,
+        "sampleGames": 13,
+        "confidencePct": 0.8461538461538461
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 11560,
+    "totalGames": 13378,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4788062283737024,
+    "winrate": 0.4789953655254896,
     "items": [
       {
         "itemId": 3087,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 11560,
-      "games": 1135,
-      "confidencePct": 0.09818339100346021
+      "sampleGames": 13378,
+      "games": 1341,
+      "confidencePct": 0.10023919868440724
     },
     "position": {
       "role": "BOTTOM",
-      "games": 7926,
-      "sampleGames": 11560,
-      "confidencePct": 0.6856401384083045
+      "games": 9395,
+      "sampleGames": 13378,
+      "confidencePct": 0.7022723875018687
     },
     "skillOrder": {
       "order": [

@@ -1,7 +1,7 @@
 {
   "championId": "Xayah",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Hexoptics C44",
         "Gunmetal Greaves"
       ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 188400736.22384816
+      "games": 7,
+      "wins": 6,
+      "winrate": 0.8571428571428571,
+      "score": 272744565.99034834
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 46802685.905220985
+      "score": 43377717.49477344
     },
     {
       "itemIds": [
@@ -43,7 +43,21 @@
       "games": 8,
       "wins": 5,
       "winrate": 0.625,
-      "score": 43128260.21271545
+      "score": 41749712.147205204
+    },
+    {
+      "itemIds": [
+        6694,
+        6699
+      ],
+      "names": [
+        "Serylda's Grudge",
+        "Voltaic Cyclosword"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 34008299.07297189
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Muramana",
         "Voltaic Cyclosword"
       ],
-      "games": 5,
+      "games": 6,
       "wins": 2,
-      "winrate": 0.4,
-      "score": 32931224.203333706
-    },
-    {
-      "itemIds": [
-        3033,
-        3172
-      ],
-      "names": [
-        "Mortal Reminder",
-        "Gunmetal Greaves"
-      ],
-      "games": 5,
-      "wins": 2,
-      "winrate": 0.4,
-      "score": 28959501.915162228
+      "winrate": 0.3333333333333333,
+      "score": 29765883.72324044
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Xayah-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17081,
+      "totalGames": 19907,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -145,10 +145,10 @@
           "Hexoptics C44",
           "Gunmetal Greaves"
         ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 188400736.22384816
+        "games": 7,
+        "wins": 6,
+        "winrate": 0.8571428571428571,
+        "score": 272744565.99034834
       },
       "runes": {
         "primaryStyle": {
@@ -201,14 +201,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 7,
         "games": 3,
-        "confidencePct": 0.75
+        "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 4,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -231,7 +231,7 @@
       "id": "Xayah-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 17081,
+      "totalGames": 19907,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -282,39 +282,191 @@
       ],
       "seedPair": {
         "itemIds": [
-          3042,
+          6694,
           6699
         ],
         "names": [
-          "Muramana",
+          "Serylda's Grudge",
           "Voltaic Cyclosword"
         ],
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 32931224.203333706
+        "score": 34008299.07297189
       },
       "runes": {
         "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
+        "secondaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
-          },
-          {
             "id": 8237,
             "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Xayah-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 19907,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 963
+        },
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 7
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9654
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3142,
+          6699
+        ],
+        "names": [
+          "Youmuu's Ghostblade",
+          "Voltaic Cyclosword"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 17931856.736645747
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
@@ -327,8 +479,8 @@
             "name": "Cash Back"
           },
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
@@ -337,23 +489,23 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -361,21 +513,21 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
-      "id": "Xayah-3",
-      "buildIndex": 2,
+      "id": "Xayah-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17081,
+      "totalGames": 19907,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -441,10 +593,10 @@
           "Endless Hunger",
           "Phantom Dancer"
         ],
-        "games": 8,
-        "wins": 4,
-        "winrate": 0.5,
-        "score": 8893699.388850903
+        "games": 9,
+        "wins": 5,
+        "winrate": 0.5555555555555556,
+        "score": 11060431.935224595
       },
       "runes": {
         "primaryStyle": {
@@ -497,14 +649,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 8,
+        "sampleGames": 9,
+        "games": 9,
         "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
-        "games": 8,
-        "sampleGames": 8,
+        "games": 9,
+        "sampleGames": 9,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -524,10 +676,10 @@
       }
     },
     {
-      "id": "Xayah-4",
-      "buildIndex": 3,
+      "id": "Xayah-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 17081,
+      "totalGames": 19907,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -596,7 +748,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 7239596.284447634
+        "score": 6694151.152993746
       },
       "runes": {
         "primaryStyle": {
@@ -674,169 +826,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Xayah-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 17081,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 118
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 10
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 963
-        },
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 9654
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6.5,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3042,
-          "name": "Muramana",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3042,
-          6697
-        ],
-        "names": [
-          "Muramana",
-          "Hubris"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 6413027.317804957
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 17081,
+    "totalGames": 19907,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5226860254083484,
+    "winrate": 0.5208720550560104,
     "items": [
       {
         "itemId": 3032,
@@ -847,18 +847,10 @@
         "purchaseSamples": 12328
       },
       {
-        "itemId": 3508,
-        "name": "Essence Reaver",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 1,
-        "purchaseSamples": 3365
-      },
-      {
         "itemId": 3006,
         "name": "Berserker's Greaves",
         "isBoots": true,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 2,
         "purchaseSamples": 9654
       },
@@ -866,7 +858,7 @@
         "itemId": 6675,
         "name": "Navori Flickerblade",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 3,
         "purchaseSamples": 15128
       },
@@ -874,7 +866,7 @@
         "itemId": 3031,
         "name": "Infinity Edge",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 4,
         "purchaseSamples": 12270
       },
@@ -882,9 +874,17 @@
         "itemId": 3036,
         "name": "Lord Dominik's Regards",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 5,
         "purchaseSamples": 5836
+      },
+      {
+        "itemId": 3026,
+        "name": "Guardian Angel",
+        "isBoots": false,
+        "order": 6,
+        "medianPurchaseOrder": 6,
+        "purchaseSamples": 1574
       }
     ],
     "runes": {
@@ -938,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17081,
-      "games": 2329,
-      "confidencePct": 0.1363503307768866
+      "sampleGames": 19907,
+      "games": 2945,
+      "confidencePct": 0.14793791128748682
     },
     "position": {
       "role": "BOTTOM",
-      "games": 16964,
-      "sampleGames": 17081,
-      "confidencePct": 0.9931502839412213
+      "games": 19765,
+      "sampleGames": 19907,
+      "confidencePct": 0.9928668307630482
     },
     "skillOrder": {
       "order": [

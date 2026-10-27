@@ -1,22 +1,8 @@
 {
   "championId": "Rammus",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3050,
-        3190
-      ],
-      "names": [
-        "Zeke's Convergence",
-        "Locket of the Iron Solari"
-      ],
-      "games": 12,
-      "wins": 8,
-      "winrate": 0.6666666666666666,
-      "score": 13419750.751940574
-    },
     {
       "itemIds": [
         3109,
@@ -26,10 +12,38 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 5,
-      "wins": 4,
+      "games": 10,
+      "wins": 8,
       "winrate": 0.8,
-      "score": 12219125.053251427
+      "score": 24269581.873166226
+    },
+    {
+      "itemIds": [
+        3050,
+        3190
+      ],
+      "names": [
+        "Zeke's Convergence",
+        "Locket of the Iron Solari"
+      ],
+      "games": 14,
+      "wins": 10,
+      "winrate": 0.7142857142857143,
+      "score": 20123356.77918424
+    },
+    {
+      "itemIds": [
+        3050,
+        3109
+      ],
+      "names": [
+        "Zeke's Convergence",
+        "Knight's Vow"
+      ],
+      "games": 12,
+      "wins": 8,
+      "winrate": 0.6666666666666666,
+      "score": 9123726.064852703
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 7338668.840271094
+      "score": 8529625.488858625
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Bandlepipes",
         "Zeke's Convergence"
       ],
-      "games": 7,
-      "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 3748288.006032518
-    },
-    {
-      "itemIds": [
-        2502,
-        3065
-      ],
-      "names": [
-        "Unending Despair",
-        "Spirit Visage"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 1294192.5205134396
+      "games": 8,
+      "wins": 4,
+      "winrate": 0.5,
+      "score": 6830866.562737492
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Rammus-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 3447,
+      "totalGames": 4074,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -112,24 +112,24 @@
           "purchaseSamples": 187
         },
         {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 127
+        },
+        {
           "itemId": 2525,
           "name": "Protoplasm Harness",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 1166
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 101
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3050,
+          3109,
           3190
         ],
         "names": [
-          "Zeke's Convergence",
+          "Knight's Vow",
           "Locket of the Iron Solari"
         ],
-        "games": 12,
+        "games": 10,
         "wins": 8,
-        "winrate": 0.6666666666666666,
-        "score": 13419750.751940574
+        "winrate": 0.8,
+        "score": 24269581.873166226
       },
       "runes": {
         "primaryStyle": {
@@ -165,8 +165,8 @@
             "name": "Font of Life"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8429,
+            "name": "Conditioning"
           },
           {
             "id": 8242,
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
             "id": 9111,
             "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
           }
         ],
         "statPerks": [
@@ -197,19 +197,19 @@
             "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
-        "games": 9,
-        "confidencePct": 0.75
+        "sampleGames": 10,
+        "games": 3,
+        "confidencePct": 0.3
       },
       "position": {
         "role": "UTILITY",
-        "games": 12,
-        "sampleGames": 12,
-        "confidencePct": 1
+        "games": 7,
+        "sampleGames": 10,
+        "confidencePct": 0.7
       },
       "skillOrder": {
         "order": [
@@ -218,8 +218,8 @@
           "E"
         ],
         "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Rammus-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 3447,
+      "totalGames": 4074,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -276,7 +276,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 7338668.840271094
+        "score": 8529625.488858625
       },
       "runes": {
         "primaryStyle": {
@@ -359,159 +359,7 @@
       "id": "Rammus-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 3447,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2253
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 127
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 187
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1166
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 101
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 286
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2524,
-          3050
-        ],
-        "names": [
-          "Bandlepipes",
-          "Zeke's Convergence"
-        ],
-        "games": 7,
-        "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 3748288.006032518
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 6,
-        "confidencePct": 0.8571428571428571
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Rammus-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 3447,
+      "totalGames": 4074,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -536,20 +384,20 @@
           "purchaseSamples": 82
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 434
-        },
-        {
           "itemId": 2504,
           "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 286
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 434
         },
         {
           "itemId": 4401,
@@ -580,7 +428,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 1294192.5205134396
+        "score": 1286183.5890326404
       },
       "runes": {
         "primaryStyle": {
@@ -660,10 +508,10 @@
       }
     },
     {
-      "id": "Rammus-5",
-      "buildIndex": 4,
+      "id": "Rammus-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 3447,
+      "totalGames": 4074,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -732,7 +580,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 893853.7408746439
+        "score": 870970.9878891648
       },
       "runes": {
         "primaryStyle": {
@@ -810,17 +658,169 @@
         "wins": 0,
         "winrate": null
       }
+    },
+    {
+      "id": "Rammus-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 4074,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 65
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2253
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 187
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 74
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 101
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 101
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3110,
+          8020
+        ],
+        "names": [
+          "Frozen Heart",
+          "Abyssal Mask"
+        ],
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 709966.6484535258
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
     }
   ],
   "metaBuild": {
-    "totalGames": 3447,
+    "totalGames": 4074,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5163910646939368,
+    "winrate": 0.5152184585174275,
     "items": [
       {
         "itemId": 3075,
@@ -847,12 +847,12 @@
         "purchaseSamples": 1166
       },
       {
-        "itemId": 6664,
-        "name": "Hollow Radiance",
+        "itemId": 3068,
+        "name": "Sunfire Aegis",
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 971
+        "purchaseSamples": 1091
       },
       {
         "itemId": 3742,
@@ -922,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 3447,
-      "games": 1727,
-      "confidencePct": 0.5010153756890049
+      "sampleGames": 4074,
+      "games": 2105,
+      "confidencePct": 0.5166912125675013
     },
     "position": {
       "role": "JUNGLE",
-      "games": 2705,
-      "sampleGames": 3447,
-      "confidencePct": 0.7847403539309544
+      "games": 3272,
+      "sampleGames": 4074,
+      "confidencePct": 0.8031418753068238
     },
     "skillOrder": {
       "order": [

@@ -1,7 +1,7 @@
 {
   "championId": "Kalista",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 6,
       "wins": 1,
       "winrate": 0.16666666666666666,
-      "score": 1120857586.7364335
+      "score": 1057310199.3303083
+    },
+    {
+      "itemIds": [
+        6697,
+        6699
+      ],
+      "names": [
+        "Hubris",
+        "Voltaic Cyclosword"
+      ],
+      "games": 5,
+      "wins": 1,
+      "winrate": 0.2,
+      "score": 251122049.88438892
     },
     {
       "itemIds": [
@@ -26,24 +40,10 @@
         "Gunmetal Greaves",
         "Voltaic Cyclosword"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 218745871.53425384
-    },
-    {
-      "itemIds": [
-        3153,
-        3172
-      ],
-      "names": [
-        "Blade of The Ruined King",
-        "Gunmetal Greaves"
-      ],
-      "games": 36,
-      "wins": 22,
-      "winrate": 0.6111111111111112,
-      "score": 107668613.73028043
+      "winrate": 0.6,
+      "score": 181514086.30477592
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Runaan's Hurricane",
         "Gunmetal Greaves"
       ],
-      "games": 14,
-      "wins": 10,
-      "winrate": 0.7142857142857143,
-      "score": 102701785.9272292
+      "games": 15,
+      "wins": 11,
+      "winrate": 0.7333333333333333,
+      "score": 106544912.32421057
     },
     {
       "itemIds": [
-        3072,
+        3153,
         3172
       ],
       "names": [
-        "Bloodthirster",
+        "Blade of The Ruined King",
         "Gunmetal Greaves"
       ],
-      "games": 9,
-      "wins": 5,
-      "winrate": 0.5555555555555556,
-      "score": 65577836.392302044
+      "games": 38,
+      "wins": 22,
+      "winrate": 0.5789473684210527,
+      "score": 99534627.40002868
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Kalista-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 16911,
+      "totalGames": 18955,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -112,10 +112,18 @@
           "purchaseSamples": 30
         },
         {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 48
+        },
+        {
           "itemId": 2520,
           "name": "Bastionbreaker",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 18
         },
@@ -123,17 +131,9 @@
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 46
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 5
         }
       ],
       "seedPair": {
@@ -148,7 +148,7 @@
         "games": 6,
         "wins": 1,
         "winrate": 0.16666666666666666,
-        "score": 1120857586.7364335
+        "score": 1057310199.3303083
       },
       "runes": {
         "primaryStyle": {
@@ -222,16 +222,16 @@
         "confidencePct": 0.75
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Kalista-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 16911,
+      "totalGames": 18955,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -240,10 +240,18 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 32
+        },
+        {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 1,
           "purchaseSamples": 5039
         },
@@ -251,7 +259,7 @@
           "itemId": 3172,
           "name": "Gunmetal Greaves",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 11
         },
@@ -259,7 +267,7 @@
           "itemId": 6699,
           "name": "Voltaic Cyclosword",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 2.5,
           "purchaseSamples": 48
         },
@@ -267,7 +275,7 @@
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 46
         },
@@ -275,68 +283,60 @@
           "itemId": 3085,
           "name": "Runaan's Hurricane",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 788
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 743
         }
       ],
       "seedPair": {
         "itemIds": [
-          3172,
+          6697,
           6699
         ],
         "names": [
-          "Gunmetal Greaves",
+          "Hubris",
           "Voltaic Cyclosword"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 218745871.53425384
+        "games": 5,
+        "wins": 1,
+        "winrate": 0.2,
+        "score": 251122049.88438892
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
           {
             "id": 8143,
             "name": "Sudden Impact"
           },
           {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
             "id": 8135,
             "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
           }
         ],
         "statPerks": [
@@ -349,19 +349,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -383,7 +383,7 @@
       "id": "Kalista-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 16911,
+      "totalGames": 18955,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -400,20 +400,20 @@
           "purchaseSamples": 5039
         },
         {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1380
-        },
-        {
           "itemId": 3172,
           "name": "Gunmetal Greaves",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 11
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1380
         },
         {
           "itemId": 3085,
@@ -442,17 +442,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3153,
+          3072,
           3172
         ],
         "names": [
-          "Blade of The Ruined King",
+          "Bloodthirster",
           "Gunmetal Greaves"
         ],
-        "games": 36,
-        "wins": 22,
-        "winrate": 0.6111111111111112,
-        "score": 107668613.73028043
+        "games": 11,
+        "wins": 6,
+        "winrate": 0.5454545454545454,
+        "score": 75987776.90546243
       },
       "runes": {
         "primaryStyle": {
@@ -493,37 +493,37 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 36,
-        "games": 14,
-        "confidencePct": 0.3888888888888889
+        "sampleGames": 11,
+        "games": 6,
+        "confidencePct": 0.5454545454545454
       },
       "position": {
         "role": "MIDDLE",
-        "games": 36,
-        "sampleGames": 36,
+        "games": 11,
+        "sampleGames": 11,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
-          "E",
           "Q",
+          "E",
           "W"
         ],
-        "games": 15,
-        "sampleGames": 23,
-        "confidencePct": 0.6521739130434783
+        "games": 5,
+        "sampleGames": 8,
+        "confidencePct": 0.625
       },
       "asWholeSet": {
         "games": 0,
@@ -535,7 +535,7 @@
       "id": "Kalista-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 16911,
+      "totalGames": 18955,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -560,28 +560,28 @@
           "purchaseSamples": 5039
         },
         {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 30
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 48
         },
         {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 24
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
         },
         {
           "itemId": 3036,
@@ -604,7 +604,7 @@
         "games": 6,
         "wins": 5,
         "winrate": 0.8333333333333334,
-        "score": 53341416.17180434
+        "score": 50610165.08030905
       },
       "runes": {
         "primaryStyle": {
@@ -687,7 +687,7 @@
       "id": "Kalista-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 16911,
+      "totalGames": 18955,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -756,7 +756,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 40252921.61645376
+        "score": 40795859.47933776
       },
       "runes": {
         "primaryStyle": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 16911,
+    "totalGames": 18955,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5016852935958843,
+    "winrate": 0.501134265365339,
     "items": [
       {
         "itemId": 3087,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 16911,
-      "games": 6695,
-      "confidencePct": 0.3958961622612501
+      "sampleGames": 18955,
+      "games": 7609,
+      "confidencePct": 0.40142442627275127
     },
     "position": {
       "role": "BOTTOM",
-      "games": 15689,
-      "sampleGames": 16911,
-      "confidencePct": 0.9277393412571698
+      "games": 17529,
+      "sampleGames": 18955,
+      "confidencePct": 0.9247691901872857
     },
     "skillOrder": {
       "order": [

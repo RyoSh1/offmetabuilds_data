@@ -1,7 +1,7 @@
 {
   "championId": "Nidalee",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 1781131596.4748423
+      "score": 1819140217.0117114
+    },
+    {
+      "itemIds": [
+        6610,
+        6692
+      ],
+      "names": [
+        "Sundered Sky",
+        "Eclipse"
+      ],
+      "games": 15,
+      "wins": 5,
+      "winrate": 0.3333333333333333,
+      "score": 1151300409.741687
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 6,
       "wins": 6,
       "winrate": 1,
-      "score": 1051152302.5992308
+      "score": 1067561609.3054689
     },
     {
       "itemIds": [
@@ -40,38 +54,24 @@
         "Trinity Force",
         "Hullbreaker"
       ],
-      "games": 86,
-      "wins": 45,
-      "winrate": 0.5232558139534884,
-      "score": 1017553218.3900748
+      "games": 90,
+      "wins": 46,
+      "winrate": 0.5111111111111111,
+      "score": 1060114253.4245294
     },
     {
       "itemIds": [
-        6610,
-        6692
-      ],
-      "names": [
-        "Sundered Sky",
-        "Eclipse"
-      ],
-      "games": 13,
-      "wins": 4,
-      "winrate": 0.3076923076923077,
-      "score": 973725345.2758862
-    },
-    {
-      "itemIds": [
-        4401,
+        3143,
         4633
       ],
       "names": [
-        "Force of Nature",
+        "Randuin's Omen",
         "Riftmaker"
       ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 817236008.0760268
+      "games": 9,
+      "wins": 6,
+      "winrate": 0.6666666666666666,
+      "score": 888999503.8157746
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Nidalee-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17062,
+      "totalGames": 18790,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -110,6 +110,30 @@
           "order": 3,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 16
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 75
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1305
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 10737
         }
       ],
       "seedPair": {
@@ -124,7 +148,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 1781131596.4748423
+        "score": 1819140217.0117114
       },
       "runes": {
         "primaryStyle": {
@@ -198,16 +222,168 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 3,
-        "wins": 3,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Nidalee-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 17062,
+      "totalGames": 18790,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 394
+        },
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 16305
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 81
+        },
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9548
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 31
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6610,
+          6692
+        ],
+        "names": [
+          "Sundered Sky",
+          "Eclipse"
+        ],
+        "games": 15,
+        "wins": 5,
+        "winrate": 0.3333333333333333,
+        "score": 1151300409.741687
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 15,
+        "games": 8,
+        "confidencePct": 0.5333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 15,
+        "sampleGames": 15,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Nidalee-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 18790,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -276,7 +452,7 @@
         "games": 6,
         "wins": 6,
         "winrate": 1,
-        "score": 1051152302.5992308
+        "score": 1067561609.3054689
       },
       "runes": {
         "primaryStyle": {
@@ -356,10 +532,10 @@
       }
     },
     {
-      "id": "Nidalee-3",
-      "buildIndex": 2,
+      "id": "Nidalee-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17062,
+      "totalGames": 18790,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -425,10 +601,10 @@
           "Trinity Force",
           "Hullbreaker"
         ],
-        "games": 86,
-        "wins": 45,
-        "winrate": 0.5232558139534884,
-        "score": 1017553218.3900748
+        "games": 90,
+        "wins": 46,
+        "winrate": 0.5111111111111111,
+        "score": 1060114253.4245294
       },
       "runes": {
         "primaryStyle": {
@@ -481,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 86,
+        "sampleGames": 90,
         "games": 10,
-        "confidencePct": 0.11627906976744186
+        "confidencePct": 0.1111111111111111
       },
       "position": {
         "role": "TOP",
-        "games": 85,
-        "sampleGames": 86,
-        "confidencePct": 0.9883720930232558
+        "games": 89,
+        "sampleGames": 90,
+        "confidencePct": 0.9888888888888889
       },
       "skillOrder": {
         "order": [
@@ -508,162 +684,10 @@
       }
     },
     {
-      "id": "Nidalee-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 17062,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 394
-        },
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 16305
-        },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
-        },
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 9548
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 31
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6610,
-          6692
-        ],
-        "names": [
-          "Sundered Sky",
-          "Eclipse"
-        ],
-        "games": 13,
-        "wins": 4,
-        "winrate": 0.3076923076923077,
-        "score": 973725345.2758862
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 13,
-        "games": 7,
-        "confidencePct": 0.5384615384615384
-      },
-      "position": {
-        "role": "TOP",
-        "games": 13,
-        "sampleGames": 13,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Nidalee-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 17062,
+      "totalGames": 18790,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -732,7 +756,7 @@
         "games": 8,
         "wins": 4,
         "winrate": 0.5,
-        "score": 817236008.0760268
+        "score": 800809374.8658965
       },
       "runes": {
         "primaryStyle": {
@@ -813,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 17062,
+    "totalGames": 18790,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5240886179814793,
+    "winrate": 0.52299095263438,
     "items": [
       {
         "itemId": 3100,
@@ -922,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 17062,
-      "games": 4656,
-      "confidencePct": 0.27288711757121087
+      "sampleGames": 18790,
+      "games": 4989,
+      "confidencePct": 0.26551357104843004
     },
     "position": {
       "role": "JUNGLE",
-      "games": 15602,
-      "sampleGames": 17062,
-      "confidencePct": 0.9144297268784434
+      "games": 17040,
+      "sampleGames": 18790,
+      "confidencePct": 0.9068653539116551
     },
     "skillOrder": {
       "order": [

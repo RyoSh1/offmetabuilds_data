@@ -1,8 +1,22 @@
 {
   "championId": "Garen",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
+    {
+      "itemIds": [
+        6676,
+        6699
+      ],
+      "names": [
+        "The Collector",
+        "Voltaic Cyclosword"
+      ],
+      "games": 15,
+      "wins": 10,
+      "winrate": 0.6666666666666666,
+      "score": 32212375.828969363
+    },
     {
       "itemIds": [
         3172,
@@ -12,10 +26,10 @@
         "Gunmetal Greaves",
         "The Collector"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 20581813.4116725
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 30285094.338677462
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Sunfire Aegis",
         "Thornmail"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 3,
-      "winrate": 0.75,
-      "score": 17225414.466790073
+      "winrate": 0.6,
+      "score": 17075171.525355298
     },
     {
       "itemIds": [
-        3031,
-        3172
+        3181,
+        6333
       ],
       "names": [
-        "Infinity Edge",
-        "Gunmetal Greaves"
+        "Hullbreaker",
+        "Death's Dance"
       ],
-      "games": 38,
-      "wins": 25,
-      "winrate": 0.6578947368421053,
-      "score": 10737270.876903215
-    },
-    {
-      "itemIds": [
-        2504,
-        3172
-      ],
-      "names": [
-        "Kaenic Rookern",
-        "Gunmetal Greaves"
-      ],
-      "games": 3,
+      "games": 4,
       "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 10066185.324152244
+      "winrate": 0.5,
+      "score": 11805379.516347216
     },
     {
       "itemIds": [
-        2517,
-        3172
+        3036,
+        6333
       ],
       "names": [
-        "Endless Hunger",
-        "Gunmetal Greaves"
+        "Lord Dominik's Regards",
+        "Death's Dance"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 9186613.984177496
+      "games": 36,
+      "wins": 19,
+      "winrate": 0.5277777777777778,
+      "score": 11778914.167725798
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Garen-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11732,
+      "totalGames": 14352,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -104,10 +104,18 @@
           "purchaseSamples": 2
         },
         {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1206
+        },
+        {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 5,
           "purchaseSamples": 37
         },
@@ -115,17 +123,9 @@
           "itemId": 3031,
           "name": "Infinity Edge",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1100
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 996
+          "purchaseSamples": 1100
         },
         {
           "itemId": 3143,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3172,
-          6676
+          6676,
+          6699
         ],
         "names": [
-          "Gunmetal Greaves",
-          "The Collector"
+          "The Collector",
+          "Voltaic Cyclosword"
         ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 20581813.4116725
+        "games": 15,
+        "wins": 10,
+        "winrate": 0.6666666666666666,
+        "score": 32212375.828969363
       },
       "runes": {
         "primaryStyle": {
@@ -201,17 +201,26 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
+        "sampleGames": 15,
+        "games": 10,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 8,
+        "sampleGames": 15,
+        "confidencePct": 0.5333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
-      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -222,7 +231,7 @@
       "id": "Garen-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 11732,
+      "totalGames": 14352,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -271,12 +280,12 @@
           "purchaseSamples": 393
         },
         {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
+          "itemId": 4401,
+          "name": "Force of Nature",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 54
+          "purchaseSamples": 1064
         }
       ],
       "seedPair": {
@@ -288,10 +297,10 @@
           "Sunfire Aegis",
           "Thornmail"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 3,
-        "winrate": 0.75,
-        "score": 17225414.466790073
+        "winrate": 0.6,
+        "score": 17075171.525355298
       },
       "runes": {
         "primaryStyle": {
@@ -344,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 1,
-        "confidencePct": 0.25
+        "confidencePct": 0.2
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "skillOrder": null,
       "asWholeSet": {
@@ -365,7 +374,7 @@
       "id": "Garen-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11732,
+      "totalGames": 14352,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -390,18 +399,162 @@
           "purchaseSamples": 2
         },
         {
-          "itemId": 3071,
-          "name": "Black Cleaver",
+          "itemId": 3181,
+          "name": "Hullbreaker",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1042
+          "purchaseSamples": 145
+        },
+        {
+          "itemId": 3036,
+          "name": "Lord Dominik's Regards",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1498
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1206
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 242
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3181,
+          6333
+        ],
+        "names": [
+          "Hullbreaker",
+          "Death's Dance"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 11805379.516347216
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Garen-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 14352,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 10057
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2
         },
         {
           "itemId": 2504,
           "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 60
         },
@@ -409,17 +562,25 @@
           "itemId": 3161,
           "name": "Spear of Shojin",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 833
         },
         {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1100
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 996
+          "purchaseSamples": 54
         }
       ],
       "seedPair": {
@@ -434,7 +595,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 10066185.324152244
+        "score": 10751707.45647398
       },
       "runes": {
         "primaryStyle": {
@@ -514,162 +675,10 @@
       }
     },
     {
-      "id": "Garen-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 11732,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 10057
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3181,
-          "name": "Hullbreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 145
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1498
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1206
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 242
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3036,
-          6333
-        ],
-        "names": [
-          "Lord Dominik's Regards",
-          "Death's Dance"
-        ],
-        "games": 22,
-        "wins": 10,
-        "winrate": 0.45454545454545453,
-        "score": 6721160.602672189
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 22,
-        "games": 6,
-        "confidencePct": 0.2727272727272727
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 12,
-        "sampleGames": 22,
-        "confidencePct": 0.5454545454545454
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 14,
-        "sampleGames": 16,
-        "confidencePct": 0.875
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Garen-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 11732,
+      "totalGames": 14352,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -692,64 +701,82 @@
           "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 2
+        },
+        {
+          "itemId": 3071,
+          "name": "Black Cleaver",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1042
         },
         {
           "itemId": 3161,
           "name": "Spear of Shojin",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 833
         },
         {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1100
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 242
+          "purchaseSamples": 137
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 44
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 996
         }
       ],
       "seedPair": {
         "itemIds": [
-          3031,
-          6673
+          3161,
+          3172
         ],
         "names": [
-          "Infinity Edge",
-          "Immortal Shieldbow"
+          "Spear of Shojin",
+          "Gunmetal Greaves"
         ],
-        "games": 20,
-        "wins": 12,
-        "winrate": 0.6,
-        "score": 3016698.892896916
+        "games": 22,
+        "wins": 17,
+        "winrate": 0.7727272727272727,
+        "score": 9905229.181912184
       },
       "runes": {
         "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
+        "secondaryPerks": [
           {
             "id": 8224,
             "name": "Axiom Arcanist"
@@ -757,24 +784,6 @@
           {
             "id": 8234,
             "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
           }
         ],
         "statPerks": [
@@ -787,19 +796,19 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 20,
-        "games": 7,
-        "confidencePct": 0.35
+        "sampleGames": 22,
+        "games": 10,
+        "confidencePct": 0.45454545454545453
       },
       "position": {
-        "role": "TOP",
-        "games": 15,
-        "sampleGames": 20,
-        "confidencePct": 0.75
+        "role": "MIDDLE",
+        "games": 22,
+        "sampleGames": 22,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -807,9 +816,9 @@
           "Q",
           "W"
         ],
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
       },
       "asWholeSet": {
         "games": 0,
@@ -819,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 11732,
+    "totalGames": 14352,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4992328673712922,
+    "winrate": 0.5003483835005574,
     "items": [
       {
         "itemId": 3006,
@@ -928,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 11732,
-      "games": 4409,
-      "confidencePct": 0.37580975110808046
+      "sampleGames": 14352,
+      "games": 5264,
+      "confidencePct": 0.36677814938684505
     },
     "position": {
       "role": "TOP",
-      "games": 10036,
-      "sampleGames": 11732,
-      "confidencePct": 0.8554381179679509
+      "games": 12322,
+      "sampleGames": 14352,
+      "confidencePct": 0.8585562987736901
     },
     "skillOrder": {
       "order": [

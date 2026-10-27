@@ -1,8 +1,22 @@
 {
   "championId": "Xerath",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-26T20:35:45.189Z",
+  "generatedAt": "2026-10-27T21:13:45.055Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3165,
+        6653
+      ],
+      "names": [
+        "Morellonomicon",
+        "Liandry's Torment"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 17253471.679422557
+    },
     {
       "itemIds": [
         3102,
@@ -12,10 +26,10 @@
         "Banshee's Veil",
         "Cryptbloom"
       ],
-      "games": 11,
+      "games": 12,
       "wins": 5,
-      "winrate": 0.45454545454545453,
-      "score": 12294581.45403275
+      "winrate": 0.4166666666666667,
+      "score": 12090041.748004004
     },
     {
       "itemIds": [
@@ -29,35 +43,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 9601457.089215223
-    },
-    {
-      "itemIds": [
-        3116,
-        3165
-      ],
-      "names": [
-        "Rylai's Crystal Scepter",
-        "Morellonomicon"
-      ],
-      "games": 13,
-      "wins": 7,
-      "winrate": 0.5384615384615384,
-      "score": 6683156.983777182
-    },
-    {
-      "itemIds": [
-        2503,
-        6653
-      ],
-      "names": [
-        "Blackfire Torch",
-        "Liandry's Torment"
-      ],
-      "games": 65,
-      "wins": 32,
-      "winrate": 0.49230769230769234,
-      "score": 6589276.874579044
+      "score": 9260682.130549565
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Rylai's Crystal Scepter",
         "Void Staff"
       ],
-      "games": 167,
-      "wins": 96,
-      "winrate": 0.5748502994011976,
-      "score": 6161650.370353708
+      "games": 201,
+      "wins": 113,
+      "winrate": 0.5621890547263682,
+      "score": 7672109.075819101
+    },
+    {
+      "itemIds": [
+        3116,
+        3165
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Morellonomicon"
+      ],
+      "games": 14,
+      "wins": 7,
+      "winrate": 0.5,
+      "score": 6920776.018659813
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Xerath-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13641,
+      "totalGames": 16394,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 68
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 184
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 182
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 352
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 218
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1104
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3165,
+          6653
+        ],
+        "names": [
+          "Morellonomicon",
+          "Liandry's Torment"
+        ],
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 17253471.679422557
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 1,
+        "sampleGames": 1,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Xerath-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 16394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -112,146 +264,10 @@
           "purchaseSamples": 184
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 352
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 218
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1104
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          3137
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Cryptbloom"
-        ],
-        "games": 11,
-        "wins": 5,
-        "winrate": 0.45454545454545453,
-        "score": 12294581.45403275
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 11,
-        "games": 4,
-        "confidencePct": 0.36363636363636365
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 11,
-        "confidencePct": 0.36363636363636365
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Xerath-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 13641,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 68
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 2,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 1104
         },
@@ -259,25 +275,9 @@
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 182
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1301
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 352
+          "purchaseSamples": 182
         },
         {
           "itemId": 3135,
@@ -290,17 +290,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3116,
-          3165
+          2503,
+          3116
         ],
         "names": [
-          "Rylai's Crystal Scepter",
-          "Morellonomicon"
+          "Blackfire Torch",
+          "Rylai's Crystal Scepter"
         ],
-        "games": 13,
-        "wins": 7,
-        "winrate": 0.5384615384615384,
-        "score": 6683156.983777182
+        "games": 298,
+        "wins": 171,
+        "winrate": 0.5738255033557047,
+        "score": 6705207.018147759
       },
       "runes": {
         "primaryStyle": {
@@ -331,12 +331,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
             "id": 8321,
             "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -353,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
-        "games": 4,
-        "confidencePct": 0.3076923076923077
+        "sampleGames": 298,
+        "games": 134,
+        "confidencePct": 0.44966442953020136
       },
       "position": {
         "role": "BOTTOM",
-        "games": 6,
-        "sampleGames": 13,
-        "confidencePct": 0.46153846153846156
+        "games": 210,
+        "sampleGames": 298,
+        "confidencePct": 0.7046979865771812
       },
       "skillOrder": {
         "order": [
@@ -369,8 +369,8 @@
           "W",
           "E"
         ],
-        "games": 8,
-        "sampleGames": 8,
+        "games": 149,
+        "sampleGames": 149,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -383,7 +383,7 @@
       "id": "Xerath-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 13641,
+      "totalGames": 16394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -408,51 +408,51 @@
           "purchaseSamples": 116
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 352
+          "purchaseSamples": 1301
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 218
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1104
+          "purchaseSamples": 352
         },
         {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 182
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1104
         }
       ],
       "seedPair": {
         "itemIds": [
-          3102,
-          3152
+          3152,
+          3157
         ],
         "names": [
-          "Banshee's Veil",
-          "Hextech Rocketbelt"
+          "Hextech Rocketbelt",
+          "Zhonya's Hourglass"
         ],
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 4881158.3611617135
+        "score": 4420001.1262242105
       },
       "runes": {
         "primaryStyle": {
@@ -465,12 +465,12 @@
         },
         "primaryPerks": [
           {
-            "id": 8224,
-            "name": "Axiom Arcanist"
+            "id": 8226,
+            "name": "Manaflow Band"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
             "id": 8237,
@@ -478,17 +478,17 @@
           }
         ],
         "subStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8009,
-            "name": "Presence of Mind"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8017,
-            "name": "Cut Down"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -506,25 +506,16 @@
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
-        "role": "MIDDLE",
+        "role": "BOTTOM",
         "games": 2,
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
       },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
+      "skillOrder": null,
       "asWholeSet": {
         "games": 0,
         "wins": 0,
@@ -535,7 +526,159 @@
       "id": "Xerath-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 13641,
+      "totalGames": 16394,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 68
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2478
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2715
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1104
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 352
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          3041
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Mejai's Soulstealer"
+        ],
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 3942604.024774253
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Xerath-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 16394,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -604,7 +747,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 3533743.552475137
+        "score": 3772409.1398463985
       },
       "runes": {
         "primaryStyle": {
@@ -685,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 13641,
+    "totalGames": 16394,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4933655890330621,
+    "winrate": 0.49347322191045506,
     "items": [
       {
         "itemId": 6655,
@@ -735,12 +878,12 @@
         "purchaseSamples": 4687
       },
       {
-        "itemId": 3135,
-        "name": "Void Staff",
+        "itemId": 3041,
+        "name": "Mejai's Soulstealer",
         "isBoots": false,
         "order": 6,
-        "medianPurchaseOrder": 5,
-        "purchaseSamples": 2007
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 2715
       }
     ],
     "runes": {
@@ -794,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 13641,
-      "games": 3671,
-      "confidencePct": 0.26911516750971337
+      "sampleGames": 16394,
+      "games": 4443,
+      "confidencePct": 0.27101378553129196
     },
     "position": {
       "role": "MIDDLE",
-      "games": 7375,
-      "sampleGames": 13641,
-      "confidencePct": 0.5406495124990837
+      "games": 8880,
+      "sampleGames": 16394,
+      "confidencePct": 0.5416615835061608
     },
     "skillOrder": {
       "order": [
