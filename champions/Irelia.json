@@ -1,8 +1,22 @@
 {
   "championId": "Irelia",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-27T21:13:45.055Z",
+  "generatedAt": "2026-10-28T23:33:33.783Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2503,
+        4628
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Horizon Focus"
+      ],
+      "games": 4,
+      "wins": 1,
+      "winrate": 0.25,
+      "score": 1296589413.4877455
+    },
     {
       "itemIds": [
         3089,
@@ -12,10 +26,24 @@
         "Rabadon's Deathcap",
         "Horizon Focus"
       ],
-      "games": 7,
+      "games": 9,
       "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 631993865.1591897
+      "winrate": 0.3333333333333333,
+      "score": 587368276.8671256
+    },
+    {
+      "itemIds": [
+        2503,
+        3089
+      ],
+      "names": [
+        "Blackfire Torch",
+        "Rabadon's Deathcap"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 510741314.4710048
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 292586464.49138635
+      "score": 285746658.5310406
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Rabadon's Deathcap",
         "Lich Bane"
       ],
-      "games": 141,
-      "wins": 65,
-      "winrate": 0.46099290780141844,
-      "score": 225105370.7558863
-    },
-    {
-      "itemIds": [
-        3100,
-        3146
-      ],
-      "names": [
-        "Lich Bane",
-        "Hextech Gunblade"
-      ],
-      "games": 208,
-      "wins": 87,
-      "winrate": 0.4182692307692308,
-      "score": 211516718.020571
-    },
-    {
-      "itemIds": [
-        3089,
-        3146
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Hextech Gunblade"
-      ],
-      "games": 164,
-      "wins": 75,
-      "winrate": 0.4573170731707317,
-      "score": 210264178.11878428
+      "games": 152,
+      "wins": 71,
+      "winrate": 0.46710526315789475,
+      "score": 239556223.11194906
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Irelia-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 22290,
+      "totalGames": 23953,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 15883
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 254
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 32
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2503,
+          4628
+        ],
+        "names": [
+          "Blackfire Torch",
+          "Horizon Focus"
+        ],
+        "games": 4,
+        "wins": 1,
+        "winrate": 0.25,
+        "score": 1296589413.4877455
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Irelia-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 23953,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -101,7 +244,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 13893
+          "purchaseSamples": 15883
         },
         {
           "itemId": 4628,
@@ -117,7 +260,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 252
+          "purchaseSamples": 254
         },
         {
           "itemId": 3135,
@@ -130,17 +273,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3089,
+          3118,
           4628
         ],
         "names": [
-          "Rabadon's Deathcap",
+          "Malignance",
           "Horizon Focus"
         ],
-        "games": 7,
+        "games": 5,
         "wins": 3,
-        "winrate": 0.42857142857142855,
-        "score": 631993865.1591897
+        "winrate": 0.6,
+        "score": 285746658.5310406
       },
       "runes": {
         "primaryStyle": {
@@ -193,15 +336,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 4,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -220,10 +363,10 @@
       }
     },
     {
-      "id": "Irelia-2",
-      "buildIndex": 1,
+      "id": "Irelia-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 22290,
+      "totalGames": 23953,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -237,7 +380,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 421
+          "purchaseSamples": 422
         },
         {
           "itemId": 3047,
@@ -245,7 +388,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 13893
+          "purchaseSamples": 15883
         },
         {
           "itemId": 3100,
@@ -261,7 +404,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 252
+          "purchaseSamples": 254
         },
         {
           "itemId": 4645,
@@ -289,10 +432,10 @@
           "Rabadon's Deathcap",
           "Lich Bane"
         ],
-        "games": 141,
-        "wins": 65,
-        "winrate": 0.46099290780141844,
-        "score": 225105370.7558863
+        "games": 152,
+        "wins": 71,
+        "winrate": 0.46710526315789475,
+        "score": 239556223.11194906
       },
       "runes": {
         "primaryStyle": {
@@ -345,15 +488,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 141,
-        "games": 71,
-        "confidencePct": 0.5035460992907801
+        "sampleGames": 152,
+        "games": 76,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 100,
-        "sampleGames": 141,
-        "confidencePct": 0.7092198581560284
+        "games": 108,
+        "sampleGames": 152,
+        "confidencePct": 0.7105263157894737
       },
       "skillOrder": {
         "order": [
@@ -372,10 +515,10 @@
       }
     },
     {
-      "id": "Irelia-3",
-      "buildIndex": 2,
+      "id": "Irelia-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 22290,
+      "totalGames": 23953,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -389,62 +532,62 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 13893
+          "purchaseSamples": 15883
         },
         {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
+          "itemId": 3302,
+          "name": "Terminus",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 51
+          "purchaseSamples": 1513
         },
         {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
+          "itemId": 3072,
+          "name": "Bloodthirster",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 8338
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 6
         },
         {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 51
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1140
         },
         {
-          "itemId": 6333,
-          "name": "Death's Dance",
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 9903
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 907
         },
         {
-          "itemId": 3031,
-          "name": "Infinity Edge",
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3031,
-          6673
+          3072,
+          3172
         ],
         "names": [
-          "Infinity Edge",
-          "Immortal Shieldbow"
+          "Bloodthirster",
+          "Gunmetal Greaves"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 59152496.27717397
+        "winrate": 0.5,
+        "score": 101402129.35089152
       },
       "runes": {
         "primaryStyle": {
@@ -470,17 +613,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "statPerks": [
@@ -493,46 +636,37 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
       },
       "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
+      "skillOrder": null,
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 22290,
+    "totalGames": 23953,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5023777478689996,
+    "winrate": 0.5004801068759654,
     "items": [
       {
         "itemId": 3153,
@@ -540,7 +674,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 25121
+        "purchaseSamples": 28613
       },
       {
         "itemId": 3047,
@@ -548,7 +682,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 13893
+        "purchaseSamples": 15883
       },
       {
         "itemId": 3181,
@@ -556,7 +690,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12152
+        "purchaseSamples": 13949
       },
       {
         "itemId": 6672,
@@ -564,7 +698,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 8338
+        "purchaseSamples": 9371
       },
       {
         "itemId": 6333,
@@ -572,7 +706,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 9903
+        "purchaseSamples": 10919
       },
       {
         "itemId": 3091,
@@ -580,7 +714,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 8825
+        "purchaseSamples": 10133
       }
     ],
     "runes": {
@@ -612,12 +746,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8313,
-          "name": "Triple Tonic"
-        },
-        {
           "id": 8316,
           "name": "Jack Of All Trades"
+        },
+        {
+          "id": 8313,
+          "name": "Triple Tonic"
         }
       ],
       "statPerks": [
@@ -634,15 +768,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 22290,
-      "games": 10865,
-      "confidencePct": 0.48743831314490804
+      "sampleGames": 23953,
+      "games": 11702,
+      "confidencePct": 0.4885400576128251
     },
     "position": {
       "role": "TOP",
-      "games": 14404,
-      "sampleGames": 22290,
-      "confidencePct": 0.6462090623598026
+      "games": 15491,
+      "sampleGames": 23953,
+      "confidencePct": 0.6467248361374358
     },
     "skillOrder": {
       "order": [

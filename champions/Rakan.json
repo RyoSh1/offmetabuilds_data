@@ -1,8 +1,50 @@
 {
   "championId": "Rakan",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-27T21:13:45.055Z",
+  "generatedAt": "2026-10-28T23:33:33.783Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3118,
+        4629
+      ],
+      "names": [
+        "Malignance",
+        "Cosmic Drive"
+      ],
+      "games": 10,
+      "wins": 7,
+      "winrate": 0.7,
+      "score": 2981109341.292057
+    },
+    {
+      "itemIds": [
+        3157,
+        4629
+      ],
+      "names": [
+        "Zhonya's Hourglass",
+        "Cosmic Drive"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 2607642235.757118
+    },
+    {
+      "itemIds": [
+        3118,
+        3157
+      ],
+      "names": [
+        "Malignance",
+        "Zhonya's Hourglass"
+      ],
+      "games": 10,
+      "wins": 7,
+      "winrate": 0.7,
+      "score": 1749495699.7648365
+    },
     {
       "itemIds": [
         4645,
@@ -15,35 +57,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 1694264385.5434709
-    },
-    {
-      "itemIds": [
-        3118,
-        3157
-      ],
-      "names": [
-        "Malignance",
-        "Zhonya's Hourglass"
-      ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 1441364111.4970665
-    },
-    {
-      "itemIds": [
-        3118,
-        4646
-      ],
-      "names": [
-        "Malignance",
-        "Stormsurge"
-      ],
-      "games": 15,
-      "wins": 8,
-      "winrate": 0.5333333333333333,
-      "score": 1371426057.6008909
+      "score": 1710716299.3882682
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 1311695200.265528
-    },
-    {
-      "itemIds": [
-        3118,
-        4629
-      ],
-      "names": [
-        "Malignance",
-        "Cosmic Drive"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 1149403413.5421338
+      "score": 1290177300.8865695
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Rakan-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 18543,
+      "totalGames": 19776,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 14996
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 155
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 821
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 202
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          4629
+        ],
+        "names": [
+          "Malignance",
+          "Cosmic Drive"
+        ],
+        "games": 10,
+        "wins": 7,
+        "winrate": 0.7,
+        "score": 2981109341.292057
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 7,
+        "confidencePct": 0.7
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 10,
+        "sampleGames": 10,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Rakan-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 19776,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -101,7 +244,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 735
+          "purchaseSamples": 765
         },
         {
           "itemId": 3158,
@@ -109,7 +252,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13066
+          "purchaseSamples": 14996
         },
         {
           "itemId": 4645,
@@ -125,7 +268,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 133
+          "purchaseSamples": 134
         },
         {
           "itemId": 3118,
@@ -133,7 +276,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 140
+          "purchaseSamples": 155
         }
       ],
       "seedPair": {
@@ -148,7 +291,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 1694264385.5434709
+        "score": 1710716299.3882682
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +371,10 @@
       }
     },
     {
-      "id": "Rakan-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 18543,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 13066
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 140
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 52
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 746
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 189
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3118,
-          3157
-        ],
-        "names": [
-          "Malignance",
-          "Zhonya's Hourglass"
-        ],
-        "games": 7,
-        "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 1441364111.4970665
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 1,
-        "confidencePct": 0.14285714285714285
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
       "id": "Rakan-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 18543,
+      "totalGames": 19776,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -397,7 +388,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 159
+          "purchaseSamples": 192
         },
         {
           "itemId": 3158,
@@ -405,7 +396,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13066
+          "purchaseSamples": 14996
         },
         {
           "itemId": 4646,
@@ -413,7 +404,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 133
+          "purchaseSamples": 134
         },
         {
           "itemId": 3118,
@@ -421,7 +412,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 140
+          "purchaseSamples": 155
         },
         {
           "itemId": 6617,
@@ -429,7 +420,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 76
+          "purchaseSamples": 87
         },
         {
           "itemId": 3041,
@@ -437,7 +428,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 189
+          "purchaseSamples": 202
         }
       ],
       "seedPair": {
@@ -452,7 +443,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 819559844.2180967
+        "score": 873656210.690452
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +526,7 @@
       "id": "Rakan-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 18543,
+      "totalGames": 19776,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -549,7 +540,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 735
+          "purchaseSamples": 765
         },
         {
           "itemId": 3158,
@@ -557,7 +548,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13066
+          "purchaseSamples": 14996
         },
         {
           "itemId": 3089,
@@ -565,7 +556,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 35
+          "purchaseSamples": 36
         },
         {
           "itemId": 4005,
@@ -573,7 +564,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 746
+          "purchaseSamples": 821
         },
         {
           "itemId": 4646,
@@ -581,7 +572,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 133
+          "purchaseSamples": 134
         },
         {
           "itemId": 3041,
@@ -589,7 +580,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 189
+          "purchaseSamples": 202
         }
       ],
       "seedPair": {
@@ -604,7 +595,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 60175595.60489894
+        "score": 59541489.06096956
       },
       "runes": {
         "primaryStyle": {
@@ -687,7 +678,7 @@
       "id": "Rakan-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 18543,
+      "totalGames": 19776,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -701,7 +692,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13066
+          "purchaseSamples": 14996
         },
         {
           "itemId": 6616,
@@ -709,7 +700,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 68
+          "purchaseSamples": 69
         },
         {
           "itemId": 4005,
@@ -717,7 +708,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 746
+          "purchaseSamples": 821
         },
         {
           "itemId": 3107,
@@ -725,7 +716,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 880
+          "purchaseSamples": 920
         },
         {
           "itemId": 6617,
@@ -733,7 +724,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 76
+          "purchaseSamples": 87
         },
         {
           "itemId": 6621,
@@ -756,7 +747,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 18618823.043759767
+        "score": 19892886.582603578
       },
       "runes": {
         "primaryStyle": {
@@ -837,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 18543,
+    "totalGames": 19776,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5138866418594618,
+    "winrate": 0.5133495145631068,
     "items": [
       {
         "itemId": 3158,
@@ -852,7 +843,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 13066
+        "purchaseSamples": 14996
       },
       {
         "itemId": 3050,
@@ -860,7 +851,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 14662
+        "purchaseSamples": 16976
       },
       {
         "itemId": 3190,
@@ -868,7 +859,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 10619
+        "purchaseSamples": 12045
       },
       {
         "itemId": 3109,
@@ -876,7 +867,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6791
+        "purchaseSamples": 7510
       },
       {
         "itemId": 2065,
@@ -884,7 +875,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2099
+        "purchaseSamples": 2308
       },
       {
         "itemId": 3222,
@@ -892,7 +883,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2084
+        "purchaseSamples": 2467
       }
     ],
     "runes": {
@@ -946,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 18543,
-      "games": 3717,
-      "confidencePct": 0.20045300113250283
+      "sampleGames": 19776,
+      "games": 4005,
+      "confidencePct": 0.20251820388349515
     },
     "position": {
       "role": "UTILITY",
-      "games": 18447,
-      "sampleGames": 18543,
-      "confidencePct": 0.9948228441999677
+      "games": 19670,
+      "sampleGames": 19776,
+      "confidencePct": 0.9946399676375405
     },
     "skillOrder": {
       "order": [
