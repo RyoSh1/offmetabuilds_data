@@ -1,8 +1,36 @@
 {
   "championId": "Samira",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-29T23:23:10.130Z",
+  "generatedAt": "2026-10-31T00:47:53.578Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2504,
+        3143
+      ],
+      "names": [
+        "Kaenic Rookern",
+        "Randuin's Omen"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 3498153.9755923213
+    },
+    {
+      "itemIds": [
+        3139,
+        3156
+      ],
+      "names": [
+        "Mercurial Scimitar",
+        "Maw of Malmortius"
+      ],
+      "games": 10,
+      "wins": 7,
+      "winrate": 0.7,
+      "score": 1247774.167556118
+    },
     {
       "itemIds": [
         3139,
@@ -15,7 +43,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 1192115.8160688246
+      "score": 1179523.6979367076
     },
     {
       "itemIds": [
@@ -29,35 +57,7 @@
       "games": 11,
       "wins": 8,
       "winrate": 0.7272727272727273,
-      "score": 1134224.328573732
-    },
-    {
-      "itemIds": [
-        3139,
-        3156
-      ],
-      "names": [
-        "Mercurial Scimitar",
-        "Maw of Malmortius"
-      ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 1029737.2625516464
-    },
-    {
-      "itemIds": [
-        2517,
-        3065
-      ],
-      "names": [
-        "Endless Hunger",
-        "Spirit Visage"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 885432.5659188854
+      "score": 1138633.9714199635
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 816178.7313996628
+      "score": 854177.8788653358
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Samira-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 6734,
+      "totalGames": 7526,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 94
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 50
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 586
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 237
+        },
+        {
+          "itemId": 3168,
+          "name": "Immortal Path",
+          "isBoots": true,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2504,
+          3143
+        ],
+        "names": [
+          "Kaenic Rookern",
+          "Randuin's Omen"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 3498153.9755923213
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9103,
+            "name": "Legend: Bloodline"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Samira-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 7526,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -117,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 585
+          "purchaseSamples": 586
         },
         {
           "itemId": 2517,
@@ -148,7 +300,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 1192115.8160688246
+        "score": 1179523.6979367076
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +380,10 @@
       }
     },
     {
-      "id": "Samira-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 6734,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 779
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 585
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 50
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 218
-        },
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          3143
-        ],
-        "names": [
-          "Guardian Angel",
-          "Randuin's Omen"
-        ],
-        "games": 11,
-        "wins": 8,
-        "winrate": 0.7272727272727273,
-        "score": 1134224.328573732
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 11,
-        "games": 6,
-        "confidencePct": 0.5454545454545454
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 11,
-        "sampleGames": 11,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Samira-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 6734,
+      "totalGames": 7526,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 779
+          "purchaseSamples": 781
         },
         {
           "itemId": 2517,
@@ -416,20 +416,20 @@
           "purchaseSamples": 18
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 585
-        },
-        {
           "itemId": 3072,
           "name": "Bloodthirster",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 6,
           "purchaseSamples": 895
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 586
         },
         {
           "itemId": 3168,
@@ -452,7 +452,7 @@
         "games": 4,
         "wins": 1,
         "winrate": 0.25,
-        "score": 885432.5659188854
+        "score": 828603.6919014372
       },
       "runes": {
         "primaryStyle": {
@@ -535,159 +535,7 @@
       "id": "Samira-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 6734,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 779
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 237
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 585
-        },
-        {
-          "itemId": 3168,
-          "name": "Immortal Path",
-          "isBoots": true,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          3156
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Maw of Malmortius"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 816178.7313996628
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Samira-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 6734,
+      "totalGames": 7526,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -701,23 +549,23 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 613
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 57
+          "purchaseSamples": 615
         },
         {
           "itemId": 3033,
           "name": "Mortal Reminder",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 781
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 779
+          "purchaseSamples": 57
         },
         {
           "itemId": 3072,
@@ -728,12 +576,12 @@
           "purchaseSamples": 895
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 585
+          "purchaseSamples": 218
         },
         {
           "itemId": 3168,
@@ -746,17 +594,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          6695,
-          6697
+          3033,
+          6695
         ],
         "names": [
-          "Serpent's Fang",
-          "Hubris"
+          "Mortal Reminder",
+          "Serpent's Fang"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 363517.1282583717
+        "games": 24,
+        "wins": 12,
+        "winrate": 0.5,
+        "score": 713871.9264928246
       },
       "runes": {
         "primaryStyle": {
@@ -809,14 +657,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 24,
+        "games": 4,
+        "confidencePct": 0.16666666666666666
       },
       "position": {
         "role": "BOTTOM",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 24,
+        "sampleGames": 24,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -825,26 +673,26 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 6734,
+    "totalGames": 7526,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4885654885654886,
+    "winrate": 0.48937018336433696,
     "items": [
       {
         "itemId": 6676,
@@ -852,7 +700,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 8001
+        "purchaseSamples": 8014
       },
       {
         "itemId": 3031,
@@ -860,7 +708,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6940
+        "purchaseSamples": 6947
       },
       {
         "itemId": 3036,
@@ -868,7 +716,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3879
+        "purchaseSamples": 3885
       },
       {
         "itemId": 6673,
@@ -876,7 +724,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3413
+        "purchaseSamples": 3420
       },
       {
         "itemId": 3072,
@@ -946,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 6734,
-      "games": 2139,
-      "confidencePct": 0.31764181764181765
+      "sampleGames": 7526,
+      "games": 2440,
+      "confidencePct": 0.3242094073877226
     },
     "position": {
       "role": "BOTTOM",
-      "games": 6653,
-      "sampleGames": 6734,
-      "confidencePct": 0.9879714879714879
+      "games": 7441,
+      "sampleGames": 7526,
+      "confidencePct": 0.988705819824608
     },
     "skillOrder": {
       "order": [
@@ -962,9 +810,9 @@
         "E",
         "W"
       ],
-      "games": 2855,
-      "sampleGames": 2930,
-      "confidencePct": 0.9744027303754266
+      "games": 2870,
+      "sampleGames": 2945,
+      "confidencePct": 0.9745331069609507
     }
   }
 }

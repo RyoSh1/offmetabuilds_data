@@ -1,35 +1,21 @@
 {
   "championId": "Poppy",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-29T23:23:10.130Z",
+  "generatedAt": "2026-10-31T00:47:53.578Z",
   "corePairs": [
     {
       "itemIds": [
-        2520,
-        6699
-      ],
-      "names": [
-        "Bastionbreaker",
-        "Voltaic Cyclosword"
-      ],
-      "games": 17,
-      "wins": 6,
-      "winrate": 0.35294117647058826,
-      "score": 115128752.41575406
-    },
-    {
-      "itemIds": [
-        3071,
+        3026,
         6333
       ],
       "names": [
-        "Black Cleaver",
+        "Guardian Angel",
         "Death's Dance"
       ],
       "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 94926470.68312289
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 330754540.99420065
     },
     {
       "itemIds": [
@@ -40,38 +26,52 @@
         "Bastionbreaker",
         "Edge of Night"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 85344829.33453608
+      "games": 9,
+      "wins": 6,
+      "winrate": 0.6666666666666666,
+      "score": 160425892.35191426
     },
     {
       "itemIds": [
-        3036,
+        2520,
         6699
       ],
       "names": [
-        "Lord Dominik's Regards",
+        "Bastionbreaker",
         "Voltaic Cyclosword"
       ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 50697983.68914413
+      "games": 22,
+      "wins": 9,
+      "winrate": 0.4090909090909091,
+      "score": 151955524.27007958
     },
     {
       "itemIds": [
-        3161,
-        6333
+        3078,
+        6697
       ],
       "names": [
-        "Spear of Shojin",
-        "Death's Dance"
+        "Trinity Force",
+        "Hubris"
       ],
-      "games": 5,
-      "wins": 3,
-      "winrate": 0.6,
-      "score": 50313737.84725251
+      "games": 11,
+      "wins": 8,
+      "winrate": 0.7272727272727273,
+      "score": 129819503.80012059
+    },
+    {
+      "itemIds": [
+        3026,
+        6697
+      ],
+      "names": [
+        "Guardian Angel",
+        "Hubris"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 128526936.36488554
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Poppy-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 12021,
+      "totalGames": 14386,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 3078,
+          "name": "Trinity Force",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 242
+        },
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 744
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7578
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 95
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 31
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3026,
+          6333
+        ],
+        "names": [
+          "Guardian Angel",
+          "Death's Dance"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 330754540.99420065
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8306,
+            "name": "Hextech Flashtraption"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Poppy-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 14386,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -101,7 +253,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7433
+          "purchaseSamples": 7578
         },
         {
           "itemId": 2520,
@@ -109,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 55
+          "purchaseSamples": 56
         },
         {
           "itemId": 6699,
@@ -139,16 +291,16 @@
       "seedPair": {
         "itemIds": [
           2520,
-          6699
+          3814
         ],
         "names": [
           "Bastionbreaker",
-          "Voltaic Cyclosword"
+          "Edge of Night"
         ],
-        "games": 17,
+        "games": 9,
         "wins": 6,
-        "winrate": 0.35294117647058826,
-        "score": 115128752.41575406
+        "winrate": 0.6666666666666666,
+        "score": 160425892.35191426
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 17,
-        "games": 4,
-        "confidencePct": 0.23529411764705882
+        "sampleGames": 9,
+        "games": 3,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "JUNGLE",
-        "games": 11,
-        "sampleGames": 17,
-        "confidencePct": 0.6470588235294118
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
       },
       "skillOrder": {
         "order": [
@@ -217,9 +369,9 @@
           "E",
           "W"
         ],
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -228,10 +380,153 @@
       }
     },
     {
-      "id": "Poppy-2",
-      "buildIndex": 1,
+      "id": "Poppy-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 12021,
+      "totalGames": 14386,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 28
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 282
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7578
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 206
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 6694,
+          "name": "Serylda's Grudge",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 8
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6697,
+          6699
+        ],
+        "names": [
+          "Hubris",
+          "Voltaic Cyclosword"
+        ],
+        "games": 14,
+        "wins": 9,
+        "winrate": 0.6428571428571429,
+        "score": 127738102.21618529
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 14,
+        "games": 6,
+        "confidencePct": 0.42857142857142855
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 7,
+        "sampleGames": 14,
+        "confidencePct": 0.5
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Poppy-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 14386,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -248,12 +543,12 @@
           "purchaseSamples": 128
         },
         {
-          "itemId": 6692,
-          "name": "Eclipse",
+          "itemId": 3078,
+          "name": "Trinity Force",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 737
+          "purchaseSamples": 242
         },
         {
           "itemId": 3009,
@@ -261,7 +556,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7433
+          "purchaseSamples": 7578
         },
         {
           "itemId": 3071,
@@ -280,49 +575,49 @@
           "purchaseSamples": 95
         },
         {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 140
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 31
         }
       ],
       "seedPair": {
         "itemIds": [
-          3071,
+          3161,
           6333
         ],
         "names": [
-          "Black Cleaver",
+          "Spear of Shojin",
           "Death's Dance"
         ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 94926470.68312289
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 47976174.20546037
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
+          "id": 8100,
+          "name": "Domination"
         },
         "keystone": {
-          "id": 8021,
-          "name": "Fleet Footwork"
+          "id": 8112,
+          "name": "Electrocute"
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8126,
+            "name": "Cheap Shot"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 8141,
+            "name": "Deep Ward"
           },
           {
-            "id": 8299,
-            "name": "Last Stand"
+            "id": 8135,
+            "name": "Treasure Hunter"
           }
         ],
         "subStyle": {
@@ -335,14 +630,14 @@
             "name": "Magical Footwear"
           },
           {
-            "id": 8410,
-            "name": "Approach Velocity"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -353,167 +648,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Poppy-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 12021,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 241
-        },
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 28
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 282
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7433
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1185
-        },
-        {
-          "itemId": 3156,
-          "name": "Maw of Malmortius",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 27
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3078,
-          3156
-        ],
-        "names": [
-          "Trinity Force",
-          "Maw of Malmortius"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 45904056.95664789
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.4
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -522,8 +665,8 @@
           "W"
         ],
         "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -532,10 +675,10 @@
       }
     },
     {
-      "id": "Poppy-4",
-      "buildIndex": 3,
+      "id": "Poppy-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 12021,
+      "totalGames": 14386,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -549,7 +692,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7433
+          "purchaseSamples": 7578
         },
         {
           "itemId": 3041,
@@ -565,7 +708,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6788
+          "purchaseSamples": 6836
         },
         {
           "itemId": 2065,
@@ -573,7 +716,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
+          "purchaseSamples": 6
         }
       ],
       "seedPair": {
@@ -588,7 +731,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 39684367.187538825
+        "score": 36519924.45764274
       },
       "runes": {
         "primaryStyle": {
@@ -666,169 +809,17 @@
         "wins": 1,
         "winrate": 0.3333333333333333
       }
-    },
-    {
-      "id": "Poppy-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 12021,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 737
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7433
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 282
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 206
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 53
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3053,
-          6692
-        ],
-        "names": [
-          "Sterak's Gage",
-          "Eclipse"
-        ],
-        "games": 5,
-        "wins": 3,
-        "winrate": 0.6,
-        "score": 27094068.43196613
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 12021,
+    "totalGames": 14386,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5125197570917561,
+    "winrate": 0.5132072848602808,
     "items": [
       {
         "itemId": 3009,
@@ -836,7 +827,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7433
+        "purchaseSamples": 7578
       },
       {
         "itemId": 3190,
@@ -844,7 +835,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 6229
+        "purchaseSamples": 6361
       },
       {
         "itemId": 3742,
@@ -852,7 +843,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 6788
+        "purchaseSamples": 6836
       },
       {
         "itemId": 3109,
@@ -860,7 +851,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2102
+        "purchaseSamples": 2204
       },
       {
         "itemId": 2525,
@@ -868,7 +859,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1696
+        "purchaseSamples": 1719
       },
       {
         "itemId": 4401,
@@ -876,7 +867,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1185
+        "purchaseSamples": 1194
       }
     ],
     "runes": {
@@ -930,15 +921,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 12021,
-      "games": 3181,
-      "confidencePct": 0.2646202478995092
+      "sampleGames": 14386,
+      "games": 3842,
+      "confidencePct": 0.2670652022799944
     },
     "position": {
       "role": "UTILITY",
-      "games": 7406,
-      "sampleGames": 12021,
-      "confidencePct": 0.6160885117710673
+      "games": 8836,
+      "sampleGames": 14386,
+      "confidencePct": 0.614208258028639
     },
     "skillOrder": {
       "order": [
@@ -946,9 +937,9 @@
         "E",
         "W"
       ],
-      "games": 4469,
-      "sampleGames": 6668,
-      "confidencePct": 0.6702159568086383
+      "games": 4580,
+      "sampleGames": 6972,
+      "confidencePct": 0.6569133677567413
     }
   }
 }

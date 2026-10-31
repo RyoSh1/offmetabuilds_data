@@ -1,22 +1,8 @@
 {
   "championId": "Rammus",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-29T23:23:10.130Z",
+  "generatedAt": "2026-10-31T00:47:53.578Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3050,
-        3190
-      ],
-      "names": [
-        "Zeke's Convergence",
-        "Locket of the Iron Solari"
-      ],
-      "games": 17,
-      "wins": 13,
-      "winrate": 0.7647058823529411,
-      "score": 25944432.58455206
-    },
     {
       "itemIds": [
         3109,
@@ -29,21 +15,35 @@
       "games": 10,
       "wins": 8,
       "winrate": 0.8,
-      "score": 23743130.004184093
+      "score": 25349268.820026517
     },
     {
       "itemIds": [
-        3153,
-        6672
+        3050,
+        3190
       ],
       "names": [
-        "Blade of The Ruined King",
-        "Kraken Slayer"
+        "Zeke's Convergence",
+        "Locket of the Iron Solari"
+      ],
+      "games": 18,
+      "wins": 14,
+      "winrate": 0.7777777777777778,
+      "score": 22433807.131714705
+    },
+    {
+      "itemIds": [
+        3041,
+        3050
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Zeke's Convergence"
       ],
       "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 9196887.36085571
+      "wins": 3,
+      "winrate": 1,
+      "score": 18919602.20257661
     },
     {
       "itemIds": [
@@ -54,10 +54,10 @@
         "Bandlepipes",
         "Knight's Vow"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 8315028.962273343
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 13653268.171358475
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Bandlepipes",
         "Zeke's Convergence"
       ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 7455132.112863732
+      "games": 12,
+      "wins": 8,
+      "winrate": 0.6666666666666666,
+      "score": 11047298.766626539
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Rammus-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 4393,
+      "totalGames": 5047,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -93,23 +93,23 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2667
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 241
+          "purchaseSamples": 2671
         },
         {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
           "purchaseSamples": 90
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 255
         },
         {
           "itemId": 2524,
@@ -117,7 +117,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 215
+          "purchaseSamples": 217
         },
         {
           "itemId": 2525,
@@ -125,7 +125,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1431
+          "purchaseSamples": 1434
         },
         {
           "itemId": 3109,
@@ -138,17 +138,17 @@
       ],
       "seedPair": {
         "itemIds": [
-          3050,
+          3109,
           3190
         ],
         "names": [
-          "Zeke's Convergence",
+          "Knight's Vow",
           "Locket of the Iron Solari"
         ],
-        "games": 17,
-        "wins": 13,
-        "winrate": 0.7647058823529411,
-        "score": 25944432.58455206
+        "games": 10,
+        "wins": 8,
+        "winrate": 0.8,
+        "score": 25349268.820026517
       },
       "runes": {
         "primaryStyle": {
@@ -165,8 +165,8 @@
             "name": "Font of Life"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8429,
+            "name": "Conditioning"
           },
           {
             "id": 8242,
@@ -179,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
             "id": 9111,
             "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
           }
         ],
         "statPerks": [
@@ -197,29 +197,29 @@
             "name": "Move Speed"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 17,
-        "games": 13,
-        "confidencePct": 0.7647058823529411
+        "sampleGames": 10,
+        "games": 3,
+        "confidencePct": 0.3
       },
       "position": {
         "role": "UTILITY",
-        "games": 17,
-        "sampleGames": 17,
-        "confidencePct": 1
+        "games": 7,
+        "sampleGames": 10,
+        "confidencePct": 0.7
       },
       "skillOrder": {
         "order": [
-          "E",
+          "Q",
           "W",
-          "Q"
+          "E"
         ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,150 @@
       "id": "Rammus-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 4393,
+      "totalGames": 5047,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2671
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 255
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1434
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 137
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 515
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3041,
+          3050
+        ],
+        "names": [
+          "Mejai's Soulstealer",
+          "Zeke's Convergence"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 18919602.20257661
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Rammus-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 5047,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -253,7 +396,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2667
+          "purchaseSamples": 2671
         },
         {
           "itemId": 6672,
@@ -276,7 +419,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 9196887.36085571
+        "score": 10571619.348329823
       },
       "runes": {
         "primaryStyle": {
@@ -356,10 +499,10 @@
       }
     },
     {
-      "id": "Rammus-3",
-      "buildIndex": 2,
+      "id": "Rammus-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 4393,
+      "totalGames": 5047,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -373,7 +516,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2667
+          "purchaseSamples": 2671
         },
         {
           "itemId": 2502,
@@ -389,7 +532,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 335
+          "purchaseSamples": 336
         },
         {
           "itemId": 3143,
@@ -428,7 +571,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 1391388.0636228325
+        "score": 1508171.624609712
       },
       "runes": {
         "primaryStyle": {
@@ -508,10 +651,10 @@
       }
     },
     {
-      "id": "Rammus-4",
-      "buildIndex": 3,
+      "id": "Rammus-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 4393,
+      "totalGames": 5047,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -525,7 +668,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2667
+          "purchaseSamples": 2671
         },
         {
           "itemId": 3742,
@@ -533,7 +676,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1084
+          "purchaseSamples": 1086
         },
         {
           "itemId": 3046,
@@ -565,7 +708,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 335
+          "purchaseSamples": 336
         }
       ],
       "seedPair": {
@@ -580,7 +723,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 894835.657788933
+        "score": 913562.97158237
       },
       "runes": {
         "primaryStyle": {
@@ -658,169 +801,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Rammus-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 4393,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2667
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 90
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 241
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 87
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 110
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 137
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3110,
-          8020
-        ],
-        "names": [
-          "Frozen Heart",
-          "Abyssal Mask"
-        ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 729332.1488250903
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8439,
-          "name": "Aftershock"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 9111,
-            "name": "Triumph"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 4393,
+    "totalGames": 5047,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5174140678351924,
+    "winrate": 0.5129780067366753,
     "items": [
       {
         "itemId": 3075,
@@ -828,7 +819,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 5022
+        "purchaseSamples": 5043
       },
       {
         "itemId": 3047,
@@ -836,7 +827,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2667
+        "purchaseSamples": 2671
       },
       {
         "itemId": 2525,
@@ -844,7 +835,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1431
+        "purchaseSamples": 1434
       },
       {
         "itemId": 3068,
@@ -860,7 +851,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1084
+        "purchaseSamples": 1086
       },
       {
         "itemId": 6665,
@@ -868,7 +859,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1688
+        "purchaseSamples": 1692
       }
     ],
     "runes": {
@@ -922,15 +913,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 4393,
-      "games": 2274,
-      "confidencePct": 0.517641702708855
+      "sampleGames": 5047,
+      "games": 2629,
+      "confidencePct": 0.5209035070338816
     },
     "position": {
       "role": "JUNGLE",
-      "games": 3540,
-      "sampleGames": 4393,
-      "confidencePct": 0.8058274527657637
+      "games": 4082,
+      "sampleGames": 5047,
+      "confidencePct": 0.8087973053298989
     },
     "skillOrder": {
       "order": [
@@ -938,9 +929,9 @@
         "E",
         "W"
       ],
-      "games": 615,
-      "sampleGames": 2120,
-      "confidencePct": 0.29009433962264153
+      "games": 616,
+      "sampleGames": 2143,
+      "confidencePct": 0.28744750349976667
     }
   }
 }

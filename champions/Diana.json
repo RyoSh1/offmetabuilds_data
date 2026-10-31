@@ -1,8 +1,50 @@
 {
   "championId": "Diana",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-29T23:23:10.130Z",
+  "generatedAt": "2026-10-31T00:47:53.578Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2524,
+        3121
+      ],
+      "names": [
+        "Bandlepipes",
+        "Fimbulwinter"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 1966009710.216474
+    },
+    {
+      "itemIds": [
+        3116,
+        3121
+      ],
+      "names": [
+        "Rylai's Crystal Scepter",
+        "Fimbulwinter"
+      ],
+      "games": 8,
+      "wins": 5,
+      "winrate": 0.625,
+      "score": 1827268452.7445002
+    },
+    {
+      "itemIds": [
+        2524,
+        3116
+      ],
+      "names": [
+        "Bandlepipes",
+        "Rylai's Crystal Scepter"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 1496345208.741256
+    },
     {
       "itemIds": [
         3050,
@@ -15,7 +57,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 538939388.1386851
+      "score": 552061575.3565242
     },
     {
       "itemIds": [
@@ -29,49 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 465461597.0593591
-    },
-    {
-      "itemIds": [
-        3075,
-        3110
-      ],
-      "names": [
-        "Thornmail",
-        "Frozen Heart"
-      ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 293200874.4647662
-    },
-    {
-      "itemIds": [
-        3075,
-        3084
-      ],
-      "names": [
-        "Thornmail",
-        "Heartsteel"
-      ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 284359554.0263134
-    },
-    {
-      "itemIds": [
-        2502,
-        6664
-      ],
-      "names": [
-        "Unending Despair",
-        "Hollow Radiance"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 279214718.8006376
+      "score": 439304188.15068585
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Diana-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17785,
+      "totalGames": 20815,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 39
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 15
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 139
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 92
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2524,
+          3121
+        ],
+        "names": [
+          "Bandlepipes",
+          "Fimbulwinter"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 1966009710.216474
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Diana-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 20815,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -93,7 +236,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 80
+          "purchaseSamples": 84
         },
         {
           "itemId": 3175,
@@ -117,7 +260,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 5540
+          "purchaseSamples": 5572
         },
         {
           "itemId": 3748,
@@ -148,7 +291,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 538939388.1386851
+        "score": 552061575.3565242
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Diana-2",
-      "buildIndex": 1,
+      "id": "Diana-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 17785,
+      "totalGames": 20815,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -280,12 +423,12 @@
           "purchaseSamples": 34
         },
         {
-          "itemId": 3065,
-          "name": "Spirit Visage",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 139
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 92
         }
       ],
       "seedPair": {
@@ -300,7 +443,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 465461597.0593591
+        "score": 439304188.15068585
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +523,10 @@
       }
     },
     {
-      "id": "Diana-3",
-      "buildIndex": 2,
+      "id": "Diana-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17785,
+      "totalGames": 20815,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -397,37 +540,21 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 80
-        },
-        {
-          "itemId": 6664,
-          "name": "Hollow Radiance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1.5,
-          "purchaseSamples": 30
+          "purchaseSamples": 84
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 39
-        },
-        {
-          "itemId": 2502,
-          "name": "Unending Despair",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 77
         },
         {
           "itemId": 3075,
           "name": "Thornmail",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 34
         },
@@ -435,9 +562,177 @@
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 6,
+          "order": 4,
           "medianPurchaseOrder": 4,
           "purchaseSamples": 106
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 144
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 92
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3075,
+          3110
+        ],
+        "names": [
+          "Thornmail",
+          "Frozen Heart"
+        ],
+        "games": 8,
+        "wins": 6,
+        "winrate": 0.75,
+        "score": 348805904.28153706
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 2,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 6,
+        "sampleGames": 8,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Diana-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 20815,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6664,
+          "name": "Hollow Radiance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 39
+        },
+        {
+          "itemId": 2502,
+          "name": "Unending Despair",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 77
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 34
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 106
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 92
         }
       ],
       "seedPair": {
@@ -449,10 +744,10 @@
           "Unending Despair",
           "Hollow Radiance"
         ],
-        "games": 4,
+        "games": 5,
         "wins": 4,
-        "winrate": 1,
-        "score": 279214718.8006376
+        "winrate": 0.8,
+        "score": 295159353.2896669
       },
       "runes": {
         "primaryStyle": {
@@ -505,329 +800,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.5
+        "confidencePct": 0.4
       },
       "position": {
         "role": "TOP",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Diana-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 17785,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 39
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 47
-        },
-        {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 106
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 144
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 139
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          3075
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Thornmail"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 218703394.8576495
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 1,
-        "sampleGames": 1,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Diana-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 17785,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3084,
-          "name": "Heartsteel",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 80
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 39
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 16
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 106
-        },
-        {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 144
-        },
-        {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3110,
-          8020
-        ],
-        "names": [
-          "Frozen Heart",
-          "Abyssal Mask"
-        ],
-        "games": 8,
-        "wins": 6,
-        "winrate": 0.75,
-        "score": 189013552.76969013
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 2,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 8,
-        "confidencePct": 0.25
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
         "games": 3,
         "sampleGames": 5,
         "confidencePct": 0.6
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +828,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 17785,
+    "totalGames": 20815,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4947989879111611,
+    "winrate": 0.49377852510208986,
     "items": [
       {
         "itemId": 2510,
@@ -852,7 +843,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 6723
+        "purchaseSamples": 6766
       },
       {
         "itemId": 4646,
@@ -860,7 +851,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 5829
+        "purchaseSamples": 5859
       },
       {
         "itemId": 3020,
@@ -868,7 +859,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 12967
+        "purchaseSamples": 13084
       },
       {
         "itemId": 4633,
@@ -876,7 +867,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5540
+        "purchaseSamples": 5572
       },
       {
         "itemId": 4645,
@@ -884,7 +875,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6750
+        "purchaseSamples": 6796
       },
       {
         "itemId": 3157,
@@ -892,7 +883,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 9018
+        "purchaseSamples": 9083
       }
     ],
     "runes": {
@@ -946,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17785,
-      "games": 4561,
-      "confidencePct": 0.2564520663480461
+      "sampleGames": 20815,
+      "games": 5205,
+      "confidencePct": 0.2500600528465049
     },
     "position": {
       "role": "JUNGLE",
-      "games": 8644,
-      "sampleGames": 17785,
-      "confidencePct": 0.4860275513072814
+      "games": 9899,
+      "sampleGames": 20815,
+      "confidencePct": 0.4755705020417968
     },
     "skillOrder": {
       "order": [
@@ -962,9 +953,9 @@
         "W",
         "E"
       ],
-      "games": 8703,
-      "sampleGames": 9216,
-      "confidencePct": 0.9443359375
+      "games": 8868,
+      "sampleGames": 9384,
+      "confidencePct": 0.9450127877237852
     }
   }
 }

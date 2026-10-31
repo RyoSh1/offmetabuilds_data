@@ -1,8 +1,22 @@
 {
   "championId": "Maokai",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-10-29T23:23:10.130Z",
+  "generatedAt": "2026-10-31T00:47:53.578Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3118,
+        6655
+      ],
+      "names": [
+        "Malignance",
+        "Luden's Echo"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 150257688.54902565
+    },
     {
       "itemIds": [
         3083,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 76018222.422114
+      "score": 83030675.79457459
     },
     {
       "itemIds": [
@@ -29,7 +43,21 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 62162003.25002165
+      "score": 67686142.77402116
+    },
+    {
+      "itemIds": [
+        3165,
+        6655
+      ],
+      "names": [
+        "Morellonomicon",
+        "Luden's Echo"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 61408993.4456841
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 51848911.70050279
-    },
-    {
-      "itemIds": [
-        3089,
-        4629
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Cosmic Drive"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 51339495.46828149
-    },
-    {
-      "itemIds": [
-        3157,
-        4633
-      ],
-      "names": [
-        "Zhonya's Hourglass",
-        "Riftmaker"
-      ],
-      "games": 9,
-      "wins": 6,
-      "winrate": 0.6666666666666666,
-      "score": 29294349.600707456
+      "score": 57215162.939302765
     }
   ],
   "builds": [
@@ -79,7 +79,150 @@
       "id": "Maokai-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 8586,
+      "totalGames": 10221,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 4799
+        },
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 24
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 973
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1455
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 131
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          6655
+        ],
+        "names": [
+          "Malignance",
+          "Luden's Echo"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 150257688.54902565
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8369,
+          "name": "First Strike"
+        },
+        "primaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Maokai-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 10221,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -101,7 +244,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 872
+          "purchaseSamples": 881
         },
         {
           "itemId": 3009,
@@ -109,7 +252,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4698
+          "purchaseSamples": 4799
         },
         {
           "itemId": 3075,
@@ -117,7 +260,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 924
+          "purchaseSamples": 928
         },
         {
           "itemId": 3083,
@@ -148,7 +291,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 76018222.422114
+        "score": 83030675.79457459
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +371,10 @@
       }
     },
     {
-      "id": "Maokai-2",
-      "buildIndex": 1,
+      "id": "Maokai-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 8586,
+      "totalGames": 10221,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -245,7 +388,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4698
+          "purchaseSamples": 4799
         },
         {
           "itemId": 3152,
@@ -261,7 +404,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 968
+          "purchaseSamples": 973
         },
         {
           "itemId": 4633,
@@ -269,7 +412,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
+          "purchaseSamples": 82
         },
         {
           "itemId": 4629,
@@ -300,7 +443,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 62162003.25002165
+        "score": 67686142.77402116
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +523,10 @@
       }
     },
     {
-      "id": "Maokai-3",
-      "buildIndex": 2,
+      "id": "Maokai-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 8586,
+      "totalGames": 10221,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -397,7 +540,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4698
+          "purchaseSamples": 4799
         },
         {
           "itemId": 8010,
@@ -405,7 +548,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 968
+          "purchaseSamples": 973
         },
         {
           "itemId": 3041,
@@ -413,7 +556,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
+          "purchaseSamples": 95
         },
         {
           "itemId": 4629,
@@ -452,7 +595,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 51848911.70050279
+        "score": 57215162.939302765
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +675,10 @@
       }
     },
     {
-      "id": "Maokai-4",
-      "buildIndex": 3,
+      "id": "Maokai-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 8586,
+      "totalGames": 10221,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -552,28 +695,28 @@
           "purchaseSamples": 115
         },
         {
-          "itemId": 3068,
-          "name": "Sunfire Aegis",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 872
-        },
-        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 4698
+          "purchaseSamples": 4799
         },
         {
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 82
+        },
+        {
+          "itemId": 2502,
+          "name": "Unending Despair",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 81
+          "purchaseSamples": 1187
         },
         {
           "itemId": 3065,
@@ -581,7 +724,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1186
+          "purchaseSamples": 1191
         },
         {
           "itemId": 3121,
@@ -604,7 +747,7 @@
         "games": 9,
         "wins": 5,
         "winrate": 0.5555555555555556,
-        "score": 27375459.042126037
+        "score": 31240653.367284983
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +825,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Maokai-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 8586,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 4698
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 968
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 21
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 179
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 131
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          3041
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Mejai's Soulstealer"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 24237956.377870366
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 8586,
+    "totalGames": 10221,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4901001630561379,
+    "winrate": 0.4906564915370316,
     "items": [
       {
         "itemId": 3009,
@@ -852,7 +843,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4698
+        "purchaseSamples": 4799
       },
       {
         "itemId": 3190,
@@ -860,7 +851,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 5122
+        "purchaseSamples": 5192
       },
       {
         "itemId": 2524,
@@ -868,7 +859,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3174
+        "purchaseSamples": 3264
       },
       {
         "itemId": 3109,
@@ -876,7 +867,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2271
+        "purchaseSamples": 2369
       },
       {
         "itemId": 2525,
@@ -884,7 +875,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 1441
+        "purchaseSamples": 1456
       },
       {
         "itemId": 3075,
@@ -892,7 +883,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 924
+        "purchaseSamples": 928
       }
     ],
     "runes": {
@@ -946,15 +937,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 8586,
-      "games": 1608,
-      "confidencePct": 0.1872816212438854
+      "sampleGames": 10221,
+      "games": 1949,
+      "confidencePct": 0.19068584287251736
     },
     "position": {
       "role": "UTILITY",
-      "games": 5486,
-      "sampleGames": 8586,
-      "confidencePct": 0.6389471232238528
+      "games": 6554,
+      "sampleGames": 10221,
+      "confidencePct": 0.641228842579004
     },
     "skillOrder": {
       "order": [
@@ -962,9 +953,9 @@
         "W",
         "E"
       ],
-      "games": 3515,
-      "sampleGames": 4552,
-      "confidencePct": 0.7721880492091389
+      "games": 3727,
+      "sampleGames": 4782,
+      "confidencePct": 0.7793810121288164
     }
   }
 }
