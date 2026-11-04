@@ -1,8 +1,22 @@
 {
   "championId": "Xerath",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-03T22:01:58.379Z",
+  "generatedAt": "2026-11-04T21:44:50.677Z",
   "corePairs": [
+    {
+      "itemIds": [
+        6653,
+        8010
+      ],
+      "names": [
+        "Liandry's Torment",
+        "Bloodletter's Curse"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 33898324.666597165
+    },
     {
       "itemIds": [
         3165,
@@ -12,10 +26,24 @@
         "Morellonomicon",
         "Liandry's Torment"
       ],
-      "games": 10,
-      "wins": 5,
+      "games": 12,
+      "wins": 6,
       "winrate": 0.5,
-      "score": 24566205.086308707
+      "score": 25325852.879926123
+    },
+    {
+      "itemIds": [
+        3102,
+        6653
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Liandry's Torment"
+      ],
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 13382402.197332624
     },
     {
       "itemIds": [
@@ -26,38 +54,10 @@
         "Blackfire Torch",
         "Liandry's Torment"
       ],
-      "games": 145,
-      "wins": 67,
-      "winrate": 0.46206896551724136,
-      "score": 12369384.323957944
-    },
-    {
-      "itemIds": [
-        3102,
-        3137
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Cryptbloom"
-      ],
-      "games": 12,
-      "wins": 5,
-      "winrate": 0.4166666666666667,
-      "score": 12322307.841300039
-    },
-    {
-      "itemIds": [
-        3102,
-        6653
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Liandry's Torment"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 11127728.79397786
+      "games": 152,
+      "wins": 70,
+      "winrate": 0.4605263157894737,
+      "score": 12742163.28221321
     },
     {
       "itemIds": [
@@ -68,10 +68,10 @@
         "Rylai's Crystal Scepter",
         "Void Staff"
       ],
-      "games": 264,
-      "wins": 146,
-      "winrate": 0.553030303030303,
-      "score": 9634630.052649816
+      "games": 275,
+      "wins": 154,
+      "winrate": 0.56,
+      "score": 10283606.332989978
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Xerath-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 22545,
+      "totalGames": 23545,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3182
+          "purchaseSamples": 3596
         },
         {
           "itemId": 3175,
@@ -101,7 +101,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
+          "purchaseSamples": 59
         },
         {
           "itemId": 6653,
@@ -109,23 +109,175 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 216
+          "purchaseSamples": 258
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 26
         },
         {
           "itemId": 3165,
           "name": "Morellonomicon",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 189
+          "purchaseSamples": 209
         },
         {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1400
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6653,
+          8010
+        ],
+        "names": [
+          "Liandry's Torment",
+          "Bloodletter's Curse"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 33898324.666597165
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Xerath-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 23545,
+      "patchesUsed": [
+        "16.21",
+        "16.20"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 3596
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 59
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 258
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 426
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1239
+          "purchaseSamples": 209
         },
         {
           "itemId": 3135,
@@ -133,22 +285,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2162
+          "purchaseSamples": 2429
         }
       ],
       "seedPair": {
         "itemIds": [
-          3165,
-          6653
+          3102,
+          3135
         ],
         "names": [
-          "Morellonomicon",
-          "Liandry's Torment"
+          "Banshee's Veil",
+          "Void Staff"
         ],
-        "games": 10,
-        "wins": 5,
-        "winrate": 0.5,
-        "score": 24566205.086308707
+        "games": 69,
+        "wins": 33,
+        "winrate": 0.4782608695652174,
+        "score": 7659732.875373687
       },
       "runes": {
         "primaryStyle": {
@@ -174,169 +326,17 @@
           }
         ],
         "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
+            "id": 8014,
+            "name": "Coup de Grace"
           },
           {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 3,
-        "confidencePct": 0.3
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 10,
-        "confidencePct": 0.4
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 0,
-        "winrate": 0
-      }
-    },
-    {
-      "id": "Xerath-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 22545,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 3182
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 216
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 374
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 189
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 211
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          3137
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Cryptbloom"
-        ],
-        "games": 12,
-        "wins": 5,
-        "winrate": 0.4166666666666667,
-        "score": 12322307.841300039
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8009,
+            "name": "Presence of Mind"
           }
         ],
         "statPerks": [
@@ -353,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
-        "games": 4,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 69,
+        "games": 13,
+        "confidencePct": 0.18840579710144928
       },
       "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 12,
-        "confidencePct": 0.3333333333333333
+        "role": "BOTTOM",
+        "games": 44,
+        "sampleGames": 69,
+        "confidencePct": 0.6376811594202898
       },
       "skillOrder": {
         "order": [
@@ -369,8 +369,8 @@
           "W",
           "E"
         ],
-        "games": 10,
-        "sampleGames": 10,
+        "games": 66,
+        "sampleGames": 66,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -383,7 +383,7 @@
       "id": "Xerath-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 22545,
+      "totalGames": 23545,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -397,7 +397,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
+          "purchaseSamples": 59
         },
         {
           "itemId": 2065,
@@ -405,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 30
+          "purchaseSamples": 33
         },
         {
           "itemId": 3041,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2688
+          "purchaseSamples": 3062
         },
         {
           "itemId": 3157,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1412
+          "purchaseSamples": 1595
         },
         {
           "itemId": 3102,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 374
+          "purchaseSamples": 426
         },
         {
           "itemId": 3135,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2162
+          "purchaseSamples": 2429
         }
       ],
       "seedPair": {
@@ -452,7 +452,7 @@
         "games": 10,
         "wins": 7,
         "winrate": 0.7,
-        "score": 6771306.250017241
+        "score": 6659962.345345339
       },
       "runes": {
         "primaryStyle": {
@@ -521,8 +521,8 @@
           "W",
           "E"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -535,7 +535,7 @@
       "id": "Xerath-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 22545,
+      "totalGames": 23545,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -549,7 +549,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
+          "purchaseSamples": 59
         },
         {
           "itemId": 3152,
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 65
+          "purchaseSamples": 77
         },
         {
           "itemId": 6653,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 216
+          "purchaseSamples": 258
         },
         {
           "itemId": 3157,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1412
+          "purchaseSamples": 1595
         },
         {
           "itemId": 3102,
@@ -581,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 374
+          "purchaseSamples": 426
         },
         {
           "itemId": 3165,
@@ -589,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 189
+          "purchaseSamples": 209
         }
       ],
       "seedPair": {
@@ -601,10 +601,10 @@
           "Hextech Rocketbelt",
           "Zhonya's Hourglass"
         ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 4467063.786531177
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 5884678.644074495
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
+        "sampleGames": 5,
         "games": 3,
-        "confidencePct": 0.75
+        "confidencePct": 0.6
       },
       "position": {
         "role": "BOTTOM",
         "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -687,7 +687,7 @@
       "id": "Xerath-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 22545,
+      "totalGames": 23545,
       "patchesUsed": [
         "16.21",
         "16.20"
@@ -701,7 +701,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3182
+          "purchaseSamples": 3596
         },
         {
           "itemId": 3175,
@@ -709,31 +709,31 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 52
+          "purchaseSamples": 59
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 77
         },
         {
           "itemId": 3116,
           "name": "Rylai's Crystal Scepter",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1239
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 374
+          "purchaseSamples": 1400
         },
         {
-          "itemId": 2522,
-          "name": "Actualizer",
+          "itemId": 3165,
+          "name": "Morellonomicon",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 12
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 209
         },
         {
           "itemId": 3135,
@@ -741,58 +741,58 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2162
+          "purchaseSamples": 2429
         }
       ],
       "seedPair": {
         "itemIds": [
-          2522,
-          3135
+          3116,
+          3152
         ],
         "names": [
-          "Actualizer",
-          "Void Staff"
+          "Rylai's Crystal Scepter",
+          "Hextech Rocketbelt"
         ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 4249283.5181302
+        "games": 8,
+        "wins": 3,
+        "winrate": 0.375,
+        "score": 5301388.991311487
       },
       "runes": {
         "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
           },
           {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
             "id": 8237,
             "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -805,18 +805,18 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5001,
-            "name": "Health Scaling"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
+        "sampleGames": 8,
+        "games": 3,
+        "confidencePct": 0.375
       },
       "position": {
         "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 4,
+        "games": 4,
+        "sampleGames": 8,
         "confidencePct": 0.5
       },
       "skillOrder": {
@@ -825,8 +825,8 @@
           "W",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 4,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 22545,
+    "totalGames": 23545,
     "patchesUsed": [
       "16.21",
       "16.20"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49159458860057664,
+    "winrate": 0.49195158207687406,
     "items": [
       {
         "itemId": 6655,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 14882
+        "purchaseSamples": 16735
       },
       {
         "itemId": 3175,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 52
+        "purchaseSamples": 59
       },
       {
         "itemId": 4645,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 9883
+        "purchaseSamples": 11115
       },
       {
         "itemId": 4628,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 7033
+        "purchaseSamples": 7861
       },
       {
         "itemId": 3089,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4786
+        "purchaseSamples": 5402
       },
       {
         "itemId": 3135,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 2162
+        "purchaseSamples": 2429
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 22545,
-      "games": 6266,
-      "confidencePct": 0.2779330228432025
+      "sampleGames": 23545,
+      "games": 6569,
+      "confidencePct": 0.2789976640475685
     },
     "position": {
       "role": "MIDDLE",
-      "games": 12039,
-      "sampleGames": 22545,
-      "confidencePct": 0.5339986693280107
+      "games": 12609,
+      "sampleGames": 23545,
+      "confidencePct": 0.5355277128902103
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 19850,
-      "sampleGames": 20038,
-      "confidencePct": 0.9906178261303523
+      "games": 22298,
+      "sampleGames": 22511,
+      "confidencePct": 0.9905379592199369
     }
   }
 }
