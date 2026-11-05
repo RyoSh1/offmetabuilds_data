@@ -1,21 +1,21 @@
 {
   "championId": "Talon",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-04T21:44:50.677Z",
+  "generatedAt": "2026-11-05T22:23:31.310Z",
   "corePairs": [
     {
       "itemIds": [
-        3089,
-        4645
+        3031,
+        6676
       ],
       "names": [
-        "Rabadon's Deathcap",
-        "Shadowflame"
+        "Infinity Edge",
+        "The Collector"
       ],
       "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 195794174.0471035
+      "wins": 3,
+      "winrate": 1,
+      "score": 189003856.95413306
     },
     {
       "itemIds": [
@@ -26,10 +26,24 @@
         "Sundered Sky",
         "Eclipse"
       ],
-      "games": 56,
-      "wins": 35,
-      "winrate": 0.625,
-      "score": 94765269.47696179
+      "games": 34,
+      "wins": 23,
+      "winrate": 0.6764705882352942,
+      "score": 52644466.731225364
+    },
+    {
+      "itemIds": [
+        3161,
+        6692
+      ],
+      "names": [
+        "Spear of Shojin",
+        "Eclipse"
+      ],
+      "games": 8,
+      "wins": 7,
+      "winrate": 0.875,
+      "score": 27959496.154016435
     },
     {
       "itemIds": [
@@ -40,38 +54,24 @@
         "Black Cleaver",
         "Eclipse"
       ],
-      "games": 1109,
-      "wins": 590,
-      "winrate": 0.5320108205590622,
-      "score": 67317547.96203682
+      "games": 612,
+      "wins": 331,
+      "winrate": 0.5408496732026143,
+      "score": 26963337.870402046
     },
     {
       "itemIds": [
-        3053,
+        3156,
         6692
       ],
       "names": [
-        "Sterak's Gage",
+        "Maw of Malmortius",
         "Eclipse"
       ],
-      "games": 28,
-      "wins": 15,
-      "winrate": 0.5357142857142857,
-      "score": 64438308.06738255
-    },
-    {
-      "itemIds": [
-        2517,
-        6610
-      ],
-      "names": [
-        "Endless Hunger",
-        "Sundered Sky"
-      ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 63006511.09684885
+      "games": 60,
+      "wins": 44,
+      "winrate": 0.7333333333333333,
+      "score": 24224263.30103849
     }
   ],
   "builds": [
@@ -79,74 +79,98 @@
       "id": "Talon-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 42246,
+      "totalGames": 20189,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1665
+        },
+        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 12024
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12815
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
+          "itemId": 6676,
+          "name": "The Collector",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 9.5,
-          "purchaseSamples": 2
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 80
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1759
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 23
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 2433
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          4645
+          3031,
+          6676
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Shadowflame"
+          "Infinity Edge",
+          "The Collector"
         ],
         "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 195794174.0471035
+        "wins": 3,
+        "winrate": 1,
+        "score": 189003856.95413306
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
+          "id": 8021,
+          "name": "Fleet Footwork"
         },
         "primaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8137,
-            "name": "Sixth Sense"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8014,
+            "name": "Coup de Grace"
           }
         ],
         "subStyle": {
@@ -155,12 +179,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8321,
-            "name": "Cash Back"
+            "id": 8347,
+            "name": "Cosmic Insight"
           },
           {
-            "id": 8313,
-            "name": "Triple Tonic"
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -173,8 +197,8 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
         "sampleGames": 3,
@@ -182,7 +206,7 @@
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "JUNGLE",
+        "role": "MIDDLE",
         "games": 2,
         "sampleGames": 3,
         "confidencePct": 0.6666666666666666
@@ -193,24 +217,24 @@
           "Q",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Talon-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 42246,
+      "totalGames": 20189,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -221,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1682
+          "purchaseSamples": 1750
         },
         {
           "itemId": 3071,
@@ -229,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 3819
+          "purchaseSamples": 3920
         },
         {
           "itemId": 3009,
@@ -237,7 +261,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 12024
+          "purchaseSamples": 12815
         },
         {
           "itemId": 6610,
@@ -248,20 +272,20 @@
           "purchaseSamples": 120
         },
         {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 401
-        },
-        {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3255
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 3060
+          "purchaseSamples": 850
         }
       ],
       "seedPair": {
@@ -273,10 +297,10 @@
           "Sundered Sky",
           "Eclipse"
         ],
-        "games": 56,
-        "wins": 35,
-        "winrate": 0.625,
-        "score": 94765269.47696179
+        "games": 34,
+        "wins": 23,
+        "winrate": 0.6764705882352942,
+        "score": 52644466.731225364
       },
       "runes": {
         "primaryStyle": {
@@ -329,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 56,
-        "games": 13,
-        "confidencePct": 0.23214285714285715
+        "sampleGames": 34,
+        "games": 6,
+        "confidencePct": 0.17647058823529413
       },
       "position": {
         "role": "MIDDLE",
-        "games": 41,
-        "sampleGames": 56,
-        "confidencePct": 0.7321428571428571
+        "games": 28,
+        "sampleGames": 34,
+        "confidencePct": 0.8235294117647058
       },
       "skillOrder": {
         "order": [
@@ -345,8 +369,8 @@
           "Q",
           "E"
         ],
-        "games": 54,
-        "sampleGames": 54,
+        "games": 31,
+        "sampleGames": 31,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -359,10 +383,10 @@
       "id": "Talon-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 42246,
+      "totalGames": 20189,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -373,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1682
+          "purchaseSamples": 1750
         },
         {
           "itemId": 3071,
@@ -381,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 3819
+          "purchaseSamples": 3920
         },
         {
           "itemId": 3009,
@@ -389,15 +413,15 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 12024
+          "purchaseSamples": 12815
         },
         {
-          "itemId": 3075,
-          "name": "Thornmail",
+          "itemId": 3053,
+          "name": "Sterak's Gage",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 17
+          "purchaseSamples": 53
         },
         {
           "itemId": 6333,
@@ -405,30 +429,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 3060
+          "purchaseSamples": 3255
         },
         {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
+          "itemId": 2517,
+          "name": "Endless Hunger",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 52
+          "purchaseSamples": 420
         }
       ],
       "seedPair": {
         "itemIds": [
-          3075,
+          3053,
           6692
         ],
         "names": [
-          "Thornmail",
+          "Sterak's Gage",
           "Eclipse"
         ],
-        "games": 8,
-        "wins": 5,
-        "winrate": 0.625,
-        "score": 37233059.327066064
+        "games": 15,
+        "wins": 6,
+        "winrate": 0.4,
+        "score": 20006940.456974987
       },
       "runes": {
         "primaryStyle": {
@@ -481,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 8,
-        "games": 3,
-        "confidencePct": 0.375
+        "sampleGames": 15,
+        "games": 6,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 8,
-        "confidencePct": 0.875
+        "games": 11,
+        "sampleGames": 15,
+        "confidencePct": 0.7333333333333333
       },
       "skillOrder": {
         "order": [
@@ -497,26 +521,178 @@
           "Q",
           "E"
         ],
-        "games": 8,
-        "sampleGames": 8,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Talon-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 20189,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1750
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 12815
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 43
+        },
+        {
+          "itemId": 6610,
+          "name": "Sundered Sky",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 120
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1759
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3255
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3033,
+          3161
+        ],
+        "names": [
+          "Mortal Reminder",
+          "Spear of Shojin"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 14043783.753534995
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 42246,
+    "totalGames": 20189,
     "patchesUsed": [
-      "16.21",
-      "16.20"
+      "16.22",
+      "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5114330350802443,
+    "winrate": 0.5102283421665263,
     "items": [
       {
         "itemId": 3179,
@@ -524,7 +700,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 29755
+        "purchaseSamples": 31210
       },
       {
         "itemId": 2520,
@@ -532,7 +708,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 18904
+        "purchaseSamples": 19619
       },
       {
         "itemId": 6699,
@@ -540,7 +716,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 22681
+        "purchaseSamples": 24067
       },
       {
         "itemId": 3009,
@@ -548,7 +724,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12024
+        "purchaseSamples": 12815
       },
       {
         "itemId": 3814,
@@ -556,7 +732,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 13428
+        "purchaseSamples": 14045
       },
       {
         "itemId": 3036,
@@ -564,7 +740,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 7899
+        "purchaseSamples": 8458
       }
     ],
     "runes": {
@@ -618,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 42246,
-      "games": 12880,
-      "confidencePct": 0.3048809354731809
+      "sampleGames": 20189,
+      "games": 5928,
+      "confidencePct": 0.2936252414681262
     },
     "position": {
       "role": "JUNGLE",
-      "games": 31715,
-      "sampleGames": 42246,
-      "confidencePct": 0.7507219618425413
+      "games": 15043,
+      "sampleGames": 20189,
+      "confidencePct": 0.7451087225716975
     },
     "skillOrder": {
       "order": [
@@ -634,9 +810,9 @@
         "Q",
         "E"
       ],
-      "games": 40457,
-      "sampleGames": 40841,
-      "confidencePct": 0.9905976837002032
+      "games": 18134,
+      "sampleGames": 18280,
+      "confidencePct": 0.9920131291028447
     }
   }
 }

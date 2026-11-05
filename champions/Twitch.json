@@ -1,64 +1,8 @@
 {
   "championId": "Twitch",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-04T21:44:50.677Z",
+  "generatedAt": "2026-11-05T22:23:31.310Z",
   "corePairs": [
-    {
-      "itemIds": [
-        2510,
-        3146
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Hextech Gunblade"
-      ],
-      "games": 14,
-      "wins": 9,
-      "winrate": 0.6428571428571429,
-      "score": 1038789500.1363695
-    },
-    {
-      "itemIds": [
-        3146,
-        3302
-      ],
-      "names": [
-        "Hextech Gunblade",
-        "Terminus"
-      ],
-      "games": 10,
-      "wins": 7,
-      "winrate": 0.7,
-      "score": 380012464.0945894
-    },
-    {
-      "itemIds": [
-        2510,
-        3302
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Terminus"
-      ],
-      "games": 14,
-      "wins": 8,
-      "winrate": 0.5714285714285714,
-      "score": 296652337.11988944
-    },
-    {
-      "itemIds": [
-        2510,
-        3143
-      ],
-      "names": [
-        "Dusk and Dawn",
-        "Randuin's Omen"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 257136538.84315816
-    },
     {
       "itemIds": [
         3102,
@@ -68,10 +12,66 @@
         "Banshee's Veil",
         "Cryptbloom"
       ],
-      "games": 6,
-      "wins": 5,
-      "winrate": 0.8333333333333334,
-      "score": 229665766.38378093
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 183509860.96228448
+    },
+    {
+      "itemIds": [
+        3137,
+        3157
+      ],
+      "names": [
+        "Cryptbloom",
+        "Zhonya's Hourglass"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 73253391.13442935
+    },
+    {
+      "itemIds": [
+        2510,
+        3102
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Banshee's Veil"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 50159299.67359521
+    },
+    {
+      "itemIds": [
+        3041,
+        3172
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Gunmetal Greaves"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 47535387.03640841
+    },
+    {
+      "itemIds": [
+        3087,
+        3172
+      ],
+      "names": [
+        "Statikk Shiv",
+        "Gunmetal Greaves"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 46607623.303117335
     }
   ],
   "builds": [
@@ -79,21 +79,21 @@
       "id": "Twitch-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 16230,
+      "totalGames": 8320,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 36
+          "purchaseSamples": 2385
         },
         {
           "itemId": 3006,
@@ -101,175 +101,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11214
+          "purchaseSamples": 12116
         },
         {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 70
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 205
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1673
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 37
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          3146
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Hextech Gunblade"
-        ],
-        "games": 14,
-        "wins": 9,
-        "winrate": 0.6428571428571429,
-        "score": 1038789500.1363695
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 7,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "W",
-          "Q"
-        ],
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Twitch-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 16230,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 11214
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1673
+          "purchaseSamples": 1807
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1126
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 299
+          "purchaseSamples": 1209
         },
         {
           "itemId": 3102,
@@ -277,7 +125,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 506
+          "purchaseSamples": 542
         },
         {
           "itemId": 3137,
@@ -297,10 +145,10 @@
           "Banshee's Veil",
           "Cryptbloom"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 229665766.38378093
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 183509860.96228448
       },
       "runes": {
         "primaryStyle": {
@@ -353,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 6,
+        "sampleGames": 4,
         "games": 3,
-        "confidencePct": 0.5
+        "confidencePct": 0.75
       },
       "position": {
         "role": "JUNGLE",
         "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "skillOrder": {
         "order": [
@@ -370,89 +218,89 @@
           "W"
         ],
         "games": 3,
-        "sampleGames": 6,
-        "confidencePct": 0.5
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75
       }
     },
     {
-      "id": "Twitch-3",
-      "buildIndex": 2,
+      "id": "Twitch-2",
+      "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 16230,
+      "totalGames": 8320,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 290
-        },
-        {
-          "itemId": 3087,
-          "name": "Statikk Shiv",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 319
-        },
-        {
-          "itemId": 2523,
-          "name": "Hexoptics C44",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 718
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
+          "purchaseSamples": 71
         },
         {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 5,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11214
+          "purchaseSamples": 12116
         },
         {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 324
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 465
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1209
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 75
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 542
         }
       ],
       "seedPair": {
         "itemIds": [
-          3172,
-          6697
+          2510,
+          3102
         ],
         "names": [
-          "Gunmetal Greaves",
-          "Hubris"
+          "Dusk and Dawn",
+          "Banshee's Veil"
         ],
-        "games": 16,
-        "wins": 7,
-        "winrate": 0.4375,
-        "score": 96763219.55184926
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 50159299.67359521
       },
       "runes": {
         "primaryStyle": {
@@ -478,17 +326,17 @@
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8233,
+            "name": "Absolute Focus"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "statPerks": [
@@ -505,24 +353,24 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 16,
-        "games": 8,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 16,
-        "sampleGames": 16,
-        "confidencePct": 1
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
           "E",
-          "Q",
-          "W"
+          "W",
+          "Q"
         ],
-        "games": 16,
-        "sampleGames": 16,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -532,38 +380,30 @@
       }
     },
     {
-      "id": "Twitch-4",
-      "buildIndex": 3,
+      "id": "Twitch-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 16230,
+      "totalGames": 8320,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 290
-        },
-        {
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 319
+          "purchaseSamples": 329
         },
         {
           "itemId": 3172,
           "name": "Gunmetal Greaves",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 4
         },
@@ -571,9 +411,17 @@
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11214
+          "purchaseSamples": 12116
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1807
         },
         {
           "itemId": 3041,
@@ -581,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 299
+          "purchaseSamples": 324
         },
         {
           "itemId": 4645,
@@ -589,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 435
+          "purchaseSamples": 465
         }
       ],
       "seedPair": {
@@ -601,10 +449,10 @@
           "Mejai's Soulstealer",
           "Gunmetal Greaves"
         ],
-        "games": 7,
-        "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 58942200.813517936
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 47535387.03640841
       },
       "runes": {
         "primaryStyle": {
@@ -657,14 +505,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 4,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
         "role": "MIDDLE",
-        "games": 7,
-        "sampleGames": 7,
+        "games": 5,
+        "sampleGames": 5,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -673,9 +521,9 @@
           "Q",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 7,
-        "confidencePct": 0.8571428571428571
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "asWholeSet": {
         "games": 0,
@@ -684,79 +532,79 @@
       }
     },
     {
-      "id": "Twitch-5",
-      "buildIndex": 4,
+      "id": "Twitch-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 16230,
+      "totalGames": 8320,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3115,
-          "name": "Nashor's Tooth",
+          "itemId": 6697,
+          "name": "Hubris",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 2211
+          "purchaseSamples": 292
+        },
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 2385
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4
         },
         {
           "itemId": 3006,
           "name": "Berserker's Greaves",
           "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 11214
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1673
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 12116
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 506
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 324
         },
         {
-          "itemId": 3137,
-          "name": "Cryptbloom",
+          "itemId": 4645,
+          "name": "Shadowflame",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 13
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 465
         }
       ],
       "seedPair": {
         "itemIds": [
-          2065,
-          3089
+          3172,
+          6697
         ],
         "names": [
-          "Shurelya's Battlesong",
-          "Rabadon's Deathcap"
+          "Gunmetal Greaves",
+          "Hubris"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 28935125.779253025
+        "games": 6,
+        "wins": 1,
+        "winrate": 0.16666666666666666,
+        "score": 34187939.52676971
       },
       "runes": {
         "primaryStyle": {
@@ -769,30 +617,30 @@
         },
         "primaryPerks": [
           {
-            "id": 9111,
-            "name": "Triumph"
+            "id": 8009,
+            "name": "Presence of Mind"
           },
           {
             "id": 9104,
             "name": "Legend: Alacrity"
           },
           {
-            "id": 8014,
-            "name": "Coup de Grace"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8100,
+          "name": "Domination"
         },
         "secondaryPerks": [
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8143,
+            "name": "Sudden Impact"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "statPerks": [
@@ -809,42 +657,194 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
+        "sampleGames": 6,
+        "games": 2,
         "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "JUNGLE",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "role": "MIDDLE",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
           "E",
-          "W",
-          "Q"
+          "Q",
+          "W"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Twitch-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 8320,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2523,
+          "name": "Hexoptics C44",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 771
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 12116
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 842
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 802
+        },
+        {
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 77
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 235
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3072,
+          3073
+        ],
+        "names": [
+          "Bloodthirster",
+          "Experimental Hexplate"
+        ],
+        "games": 5,
         "wins": 1,
-        "winrate": 1
+        "winrate": 0.2,
+        "score": 16150499.108613335
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 4,
+        "confidencePct": 0.8
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 16230,
+    "totalGames": 8320,
     "patchesUsed": [
-      "16.21",
-      "16.20"
+      "16.22",
+      "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4975970425138632,
+    "winrate": 0.5034855769230769,
     "items": [
       {
         "itemId": 6676,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7802
+        "purchaseSamples": 8386
       },
       {
         "itemId": 3006,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 11214
+        "purchaseSamples": 12116
       },
       {
         "itemId": 2512,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5519
+        "purchaseSamples": 5959
       },
       {
         "itemId": 3085,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6303
+        "purchaseSamples": 6831
       },
       {
         "itemId": 3031,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 8699
+        "purchaseSamples": 9466
       },
       {
         "itemId": 3036,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 4495
+        "purchaseSamples": 4909
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 16230,
-      "games": 4029,
-      "confidencePct": 0.24824399260628466
+      "sampleGames": 8320,
+      "games": 2319,
+      "confidencePct": 0.2787259615384615
     },
     "position": {
       "role": "BOTTOM",
-      "games": 14525,
-      "sampleGames": 16230,
-      "confidencePct": 0.8949476278496611
+      "games": 7539,
+      "sampleGames": 8320,
+      "confidencePct": 0.9061298076923077
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "Q",
         "W"
       ],
-      "games": 13700,
-      "sampleGames": 15591,
-      "confidencePct": 0.8787120774805978
+      "games": 6423,
+      "sampleGames": 7283,
+      "confidencePct": 0.8819167925305506
     }
   }
 }

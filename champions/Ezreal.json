@@ -1,8 +1,22 @@
 {
   "championId": "Ezreal",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-04T21:44:50.677Z",
+  "generatedAt": "2026-11-05T22:23:31.310Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3089,
+        3137
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Cryptbloom"
+      ],
+      "games": 10,
+      "wins": 9,
+      "winrate": 0.9,
+      "score": 2839377105.0334587
+    },
     {
       "itemIds": [
         3089,
@@ -12,24 +26,10 @@
         "Rabadon's Deathcap",
         "Shadowflame"
       ],
-      "games": 44,
-      "wins": 30,
-      "winrate": 0.6818181818181818,
-      "score": 5752632426.541591
-    },
-    {
-      "itemIds": [
-        3089,
-        3100
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Lich Bane"
-      ],
-      "games": 67,
-      "wins": 40,
-      "winrate": 0.5970149253731343,
-      "score": 5289698240.490945
+      "games": 32,
+      "wins": 17,
+      "winrate": 0.53125,
+      "score": 2527881792.2329373
     },
     {
       "itemIds": [
@@ -40,10 +40,24 @@
         "Hextech Gunblade",
         "Stormsurge"
       ],
-      "games": 170,
-      "wins": 87,
-      "winrate": 0.5117647058823529,
-      "score": 5166230020.415778
+      "games": 78,
+      "wins": 44,
+      "winrate": 0.5641025641025641,
+      "score": 2519776207.236765
+    },
+    {
+      "itemIds": [
+        3089,
+        3100
+      ],
+      "names": [
+        "Rabadon's Deathcap",
+        "Lich Bane"
+      ],
+      "games": 45,
+      "wins": 25,
+      "winrate": 0.5555555555555556,
+      "score": 2476094424.399991
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Rabadon's Deathcap",
         "Stormsurge"
       ],
-      "games": 50,
-      "wins": 34,
-      "winrate": 0.68,
-      "score": 4812474525.934776
-    },
-    {
-      "itemIds": [
-        3089,
-        3137
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Cryptbloom"
-      ],
-      "games": 15,
-      "wins": 11,
-      "winrate": 0.7333333333333333,
-      "score": 4628474741.710538
+      "games": 30,
+      "wins": 19,
+      "winrate": 0.6333333333333333,
+      "score": 2252694976.1995363
     }
   ],
   "builds": [
@@ -79,10 +79,10 @@
       "id": "Ezreal-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 49563,
+      "totalGames": 26384,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 437
+          "purchaseSamples": 480
         },
         {
           "itemId": 3158,
@@ -101,23 +101,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 30182
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 224
+          "purchaseSamples": 31850
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 219
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 206
+          "purchaseSamples": 251
         },
         {
           "itemId": 3089,
@@ -125,7 +125,159 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 115
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 29
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3089,
+          3137
+        ],
+        "names": [
+          "Rabadon's Deathcap",
+          "Cryptbloom"
+        ],
+        "games": 10,
+        "wins": 9,
+        "winrate": 0.9,
+        "score": 2839377105.0334587
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 10,
+        "games": 4,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 8,
+        "sampleGames": 10,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 4,
+        "sampleGames": 10,
+        "confidencePct": 0.4
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Ezreal-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 26384,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 31850
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 219
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 251
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 46
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 135
         },
         {
           "itemId": 4645,
@@ -133,22 +285,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 121
+          "purchaseSamples": 142
         }
       ],
       "seedPair": {
         "itemIds": [
-          3089,
-          4645
+          3041,
+          4646
         ],
         "names": [
-          "Rabadon's Deathcap",
-          "Shadowflame"
+          "Mejai's Soulstealer",
+          "Stormsurge"
         ],
-        "games": 44,
-        "wins": 30,
-        "winrate": 0.6818181818181818,
-        "score": 5752632426.541591
+        "games": 10,
+        "wins": 8,
+        "winrate": 0.8,
+        "score": 1976002244.6713002
       },
       "runes": {
         "primaryStyle": {
@@ -169,28 +321,28 @@
             "name": "Sixth Sense"
           },
           {
-            "id": 8135,
-            "name": "Treasure Hunter"
+            "id": 8106,
+            "name": "Ultimate Hunter"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8000,
+          "name": "Precision"
         },
         "secondaryPerks": [
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
           {
-            "id": 5005,
-            "name": "Attack Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5008,
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 44,
-        "games": 9,
-        "confidencePct": 0.20454545454545456
+        "sampleGames": 10,
+        "games": 4,
+        "confidencePct": 0.4
       },
       "position": {
         "role": "MIDDLE",
-        "games": 33,
-        "sampleGames": 44,
-        "confidencePct": 0.75
+        "games": 5,
+        "sampleGames": 10,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -217,161 +369,9 @@
           "E",
           "Q"
         ],
-        "games": 27,
-        "sampleGames": 42,
-        "confidencePct": 0.6428571428571429
-      },
-      "asWholeSet": {
         "games": 4,
-        "wins": 3,
-        "winrate": 0.75
-      }
-    },
-    {
-      "id": "Ezreal-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 49563,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1069
-        },
-        {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 437
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 30182
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 18171
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 8
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4633,
-          6653
-        ],
-        "names": [
-          "Riftmaker",
-          "Liandry's Torment"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 4471430879.225314
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "sampleGames": 10,
+        "confidencePct": 0.4
       },
       "asWholeSet": {
         "games": 0,
@@ -383,10 +383,10 @@
       "id": "Ezreal-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 49563,
+      "totalGames": 26384,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 350
+          "purchaseSamples": 356
         },
         {
           "itemId": 3158,
@@ -405,7 +405,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 30182
+          "purchaseSamples": 31850
         },
         {
           "itemId": 6699,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 878
+          "purchaseSamples": 922
         },
         {
           "itemId": 2520,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 42
+          "purchaseSamples": 43
         },
         {
           "itemId": 6695,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 568
+          "purchaseSamples": 594
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Bastionbreaker",
           "Voltaic Cyclosword"
         ],
-        "games": 274,
-        "wins": 122,
-        "winrate": 0.44525547445255476,
-        "score": 3522013635.3843727
+        "games": 105,
+        "wins": 46,
+        "winrate": 0.4380952380952381,
+        "score": 1874401635.6618283
       },
       "runes": {
         "primaryStyle": {
@@ -493,27 +493,27 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 274,
-        "games": 48,
-        "confidencePct": 0.17518248175182483
+        "sampleGames": 105,
+        "games": 27,
+        "confidencePct": 0.2571428571428571
       },
       "position": {
         "role": "UTILITY",
-        "games": 177,
-        "sampleGames": 274,
-        "confidencePct": 0.6459854014598541
+        "games": 84,
+        "sampleGames": 105,
+        "confidencePct": 0.8
       },
       "skillOrder": {
         "order": [
@@ -521,9 +521,9 @@
           "E",
           "W"
         ],
-        "games": 261,
-        "sampleGames": 263,
-        "confidencePct": 0.9923954372623575
+        "games": 95,
+        "sampleGames": 96,
+        "confidencePct": 0.9895833333333334
       },
       "asWholeSet": {
         "games": 0,
@@ -533,14 +533,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 49563,
+    "totalGames": 26384,
     "patchesUsed": [
-      "16.21",
-      "16.20"
+      "16.22",
+      "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.45967758206726794,
+    "winrate": 0.45989993935718615,
     "items": [
       {
         "itemId": 3078,
@@ -548,7 +548,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 44328
+        "purchaseSamples": 46648
       },
       {
         "itemId": 3158,
@@ -556,7 +556,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 30182
+        "purchaseSamples": 31850
       },
       {
         "itemId": 3161,
@@ -564,7 +564,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 18171
+        "purchaseSamples": 19081
       },
       {
         "itemId": 2517,
@@ -572,7 +572,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 15850
+        "purchaseSamples": 16799
       },
       {
         "itemId": 6694,
@@ -580,7 +580,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 10787
+        "purchaseSamples": 11416
       },
       {
         "itemId": 3042,
@@ -620,12 +620,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8316,
-          "name": "Jack Of All Trades"
-        },
-        {
           "id": 8321,
           "name": "Cash Back"
+        },
+        {
+          "id": 8316,
+          "name": "Jack Of All Trades"
         }
       ],
       "statPerks": [
@@ -642,15 +642,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 49563,
-      "games": 14555,
-      "confidencePct": 0.2936666464903254
+      "sampleGames": 26384,
+      "games": 7805,
+      "confidencePct": 0.2958232261976956
     },
     "position": {
       "role": "BOTTOM",
-      "games": 47622,
-      "sampleGames": 49563,
-      "confidencePct": 0.9608377216875492
+      "games": 25361,
+      "sampleGames": 26384,
+      "confidencePct": 0.9612265009096422
     },
     "skillOrder": {
       "order": [
@@ -658,9 +658,9 @@
         "E",
         "W"
       ],
-      "games": 45923,
-      "sampleGames": 47703,
-      "confidencePct": 0.9626857849611136
+      "games": 22741,
+      "sampleGames": 23585,
+      "confidencePct": 0.9642145431418274
     }
   }
 }

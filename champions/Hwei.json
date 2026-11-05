@@ -1,7 +1,7 @@
 {
   "championId": "Hwei",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-04T21:44:50.677Z",
+  "generatedAt": "2026-11-05T22:23:31.310Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,24 @@
         "Diadem of Songs",
         "Echoes of Helia"
       ],
-      "games": 68,
-      "wins": 36,
-      "winrate": 0.5294117647058824,
-      "score": 1826229591.4670997
+      "games": 31,
+      "wins": 12,
+      "winrate": 0.3870967741935484,
+      "score": 668817953.0889164
+    },
+    {
+      "itemIds": [
+        3107,
+        6620
+      ],
+      "names": [
+        "Redemption",
+        "Echoes of Helia"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 234075271.87587476
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Diadem of Songs",
         "Moonstone Renewer"
       ],
-      "games": 8,
-      "wins": 4,
-      "winrate": 0.5,
-      "score": 678822049.1998162
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 199513004.0894553
     },
     {
       "itemIds": [
-        6617,
+        3222,
         6620
       ],
       "names": [
-        "Moonstone Renewer",
-        "Echoes of Helia"
-      ],
-      "games": 7,
-      "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 446365539.9129423
-    },
-    {
-      "itemIds": [
-        3107,
-        4005
-      ],
-      "names": [
-        "Redemption",
-        "Imperial Mandate"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 184796661.62024102
-    },
-    {
-      "itemIds": [
-        6616,
-        6620
-      ],
-      "names": [
-        "Staff of Flowing Water",
+        "Mikael's Blessing",
         "Echoes of Helia"
       ],
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 148788513.30431408
+      "score": 141565540.6556384
+    },
+    {
+      "itemIds": [
+        2522,
+        3118
+      ],
+      "names": [
+        "Actualizer",
+        "Malignance"
+      ],
+      "games": 6,
+      "wins": 4,
+      "winrate": 0.6666666666666666,
+      "score": 118634859.30037953
     }
   ],
   "builds": [
@@ -79,10 +79,10 @@
       "id": "Hwei-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 25829,
+      "totalGames": 12771,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 94
+          "purchaseSamples": 101
         },
         {
           "itemId": 3175,
@@ -101,31 +101,31 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 20
+          "purchaseSamples": 22
         },
         {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
+          "itemId": 3107,
+          "name": "Redemption",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
         },
         {
           "itemId": 4005,
           "name": "Imperial Mandate",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 353
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 299
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 374
         },
         {
           "itemId": 2530,
@@ -145,10 +145,10 @@
           "Diadem of Songs",
           "Echoes of Helia"
         ],
-        "games": 68,
-        "wins": 36,
-        "winrate": 0.5294117647058824,
-        "score": 1826229591.4670997
+        "games": 31,
+        "wins": 12,
+        "winrate": 0.3870967741935484,
+        "score": 668817953.0889164
       },
       "runes": {
         "primaryStyle": {
@@ -169,8 +169,312 @@
             "name": "Transcendence"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          },
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 31,
+        "games": 7,
+        "confidencePct": 0.22580645161290322
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 20,
+        "sampleGames": 31,
+        "confidencePct": 0.6451612903225806
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 18,
+        "sampleGames": 25,
+        "confidencePct": 0.72
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Hwei-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 12771,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6620,
+          "name": "Echoes of Helia",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 101
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7449
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 88
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2530,
+          6617
+        ],
+        "names": [
+          "Diadem of Songs",
+          "Moonstone Renewer"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 199513004.0894553
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Hwei-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 12771,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 2522,
+          "name": "Actualizer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 101
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 24
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 7449
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 9981
+        },
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2523
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2522,
+          3118
+        ],
+        "names": [
+          "Actualizer",
+          "Malignance"
+        ],
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 118634859.30037953
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "subStyle": {
@@ -201,318 +505,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 68,
-        "games": 11,
-        "confidencePct": 0.16176470588235295
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 35,
-        "sampleGames": 68,
-        "confidencePct": 0.5147058823529411
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 52,
-        "sampleGames": 64,
-        "confidencePct": 0.8125
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Hwei-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 25829,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 353
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1232
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3107,
-          4005
-        ],
-        "names": [
-          "Redemption",
-          "Imperial Mandate"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 184796661.62024102
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Hwei-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 25829,
-      "patchesUsed": [
-        "16.21",
-        "16.20"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 94
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 6616,
-          "name": "Staff of Flowing Water",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 353
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6616,
-          6620
-        ],
-        "names": [
-          "Staff of Flowing Water",
-          "Echoes of Helia"
-        ],
+        "sampleGames": 6,
         "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 148788513.30431408
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.5
       },
       "position": {
-        "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 3,
+        "role": "BOTTOM",
+        "games": 4,
+        "sampleGames": 6,
         "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
@@ -521,8 +521,8 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 6,
+        "sampleGames": 6,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -535,10 +535,10 @@
       "id": "Hwei-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 25829,
+      "totalGames": 12771,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 94
+          "purchaseSamples": 101
         },
         {
           "itemId": 3175,
@@ -557,7 +557,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 20
+          "purchaseSamples": 22
         },
         {
           "itemId": 2065,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 49
+          "purchaseSamples": 52
         },
         {
           "itemId": 4005,
@@ -573,19 +573,19 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 353
+          "purchaseSamples": 374
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 299
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1344
         },
         {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
+          "itemId": 2530,
+          "name": "Diadem of Songs",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -601,10 +601,10 @@
           "Shurelya's Battlesong",
           "Imperial Mandate"
         ],
-        "games": 14,
-        "wins": 5,
-        "winrate": 0.35714285714285715,
-        "score": 130328739.72730456
+        "games": 8,
+        "wins": 4,
+        "winrate": 0.5,
+        "score": 111023662.43795846
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 14,
-        "games": 3,
-        "confidencePct": 0.21428571428571427
+        "sampleGames": 8,
+        "games": 2,
+        "confidencePct": 0.25
       },
       "position": {
         "role": "UTILITY",
-        "games": 10,
-        "sampleGames": 14,
-        "confidencePct": 0.7142857142857143
+        "games": 4,
+        "sampleGames": 8,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
@@ -673,9 +673,9 @@
           "E",
           "W"
         ],
-        "games": 13,
-        "sampleGames": 14,
-        "confidencePct": 0.9285714285714286
+        "games": 8,
+        "sampleGames": 8,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -687,10 +687,10 @@
       "id": "Hwei-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 25829,
+      "totalGames": 12771,
       "patchesUsed": [
-        "16.21",
-        "16.20"
+        "16.22",
+        "16.21"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -701,7 +701,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 20
+          "purchaseSamples": 22
         },
         {
           "itemId": 2522,
@@ -709,7 +709,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 91
+          "purchaseSamples": 101
         },
         {
           "itemId": 4005,
@@ -717,7 +717,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 353
+          "purchaseSamples": 374
         },
         {
           "itemId": 8010,
@@ -725,19 +725,19 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1232
+          "purchaseSamples": 1344
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 599
         },
         {
           "itemId": 3040,
           "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        },
-        {
-          "itemId": 2530,
-          "name": "Diadem of Songs",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": null,
@@ -753,10 +753,10 @@
           "Actualizer",
           "Seraph's Embrace"
         ],
-        "games": 44,
-        "wins": 29,
-        "winrate": 0.6590909090909091,
-        "score": 112491876.26836406
+        "games": 16,
+        "wins": 11,
+        "winrate": 0.6875,
+        "score": 44905305.47758451
       },
       "runes": {
         "primaryStyle": {
@@ -764,8 +764,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
+          "id": 8229,
+          "name": "Arcane Comet"
         },
         "primaryPerks": [
           {
@@ -797,27 +797,27 @@
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 44,
-        "games": 21,
-        "confidencePct": 0.4772727272727273
+        "sampleGames": 16,
+        "games": 7,
+        "confidencePct": 0.4375
       },
       "position": {
         "role": "BOTTOM",
-        "games": 37,
-        "sampleGames": 44,
-        "confidencePct": 0.8409090909090909
+        "games": 14,
+        "sampleGames": 16,
+        "confidencePct": 0.875
       },
       "skillOrder": {
         "order": [
@@ -825,9 +825,9 @@
           "E",
           "W"
         ],
-        "games": 43,
-        "sampleGames": 44,
-        "confidencePct": 0.9772727272727273
+        "games": 14,
+        "sampleGames": 14,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 25829,
+    "totalGames": 12771,
     "patchesUsed": [
-      "16.21",
-      "16.20"
+      "16.22",
+      "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5132990049943862,
+    "winrate": 0.507399577167019,
     "items": [
       {
         "itemId": 2503,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 21711
+        "purchaseSamples": 23014
       },
       {
         "itemId": 3175,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 20
+        "purchaseSamples": 22
       },
       {
         "itemId": 4645,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 9388
+        "purchaseSamples": 9981
       },
       {
         "itemId": 6653,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 7026
+        "purchaseSamples": 7449
       },
       {
         "itemId": 3089,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4319
+        "purchaseSamples": 4658
       },
       {
         "itemId": 3157,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4107
+        "purchaseSamples": 4333
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 25829,
-      "games": 7214,
-      "confidencePct": 0.2792984629679817
+      "sampleGames": 12771,
+      "games": 3509,
+      "confidencePct": 0.2747631352282515
     },
     "position": {
       "role": "MIDDLE",
-      "games": 16689,
-      "sampleGames": 25829,
-      "confidencePct": 0.646134190251268
+      "games": 8312,
+      "sampleGames": 12771,
+      "confidencePct": 0.6508495810821392
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "E",
         "W"
       ],
-      "games": 24226,
-      "sampleGames": 24947,
-      "confidencePct": 0.971098729306129
+      "games": 11081,
+      "sampleGames": 11392,
+      "confidencePct": 0.9727001404494382
     }
   }
 }
