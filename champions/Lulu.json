@@ -1,8 +1,22 @@
 {
   "championId": "Lulu",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-05T22:23:31.310Z",
+  "generatedAt": "2026-11-06T17:06:57.659Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3152,
+        6655
+      ],
+      "names": [
+        "Hextech Rocketbelt",
+        "Luden's Echo"
+      ],
+      "games": 49,
+      "wins": 27,
+      "winrate": 0.5510204081632653,
+      "score": 3947912423.2449346
+    },
     {
       "itemIds": [
         3100,
@@ -15,21 +29,7 @@
       "games": 13,
       "wins": 6,
       "winrate": 0.46153846153846156,
-      "score": 3422408902.374009
-    },
-    {
-      "itemIds": [
-        3152,
-        6655
-      ],
-      "names": [
-        "Hextech Rocketbelt",
-        "Luden's Echo"
-      ],
-      "games": 47,
-      "wins": 25,
-      "winrate": 0.5319148936170213,
-      "score": 3380617476.719706
+      "score": 3559095839.2555957
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 2941829905.8087177
+      "score": 3125593418.7317
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 12,
       "wins": 8,
       "winrate": 0.6666666666666666,
-      "score": 2297982807.46282
+      "score": 2528164763.075508
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 14,
       "wins": 10,
       "winrate": 0.7142857142857143,
-      "score": 2296323835.5715427
+      "score": 2511627527.6190276
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Lulu-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 27609,
+      "totalGames": 29964,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 246
+          "purchaseSamples": 253
         },
         {
           "itemId": 3115,
@@ -109,23 +109,23 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49671
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 34
+          "purchaseSamples": 52011
         },
         {
           "itemId": 3152,
           "name": "Hextech Rocketbelt",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 212
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 210
+          "purchaseSamples": 35
         },
         {
           "itemId": 3157,
@@ -133,64 +133,64 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 66
+          "purchaseSamples": 70
         }
       ],
       "seedPair": {
         "itemIds": [
-          3100,
+          3152,
           6655
         ],
         "names": [
-          "Lich Bane",
+          "Hextech Rocketbelt",
           "Luden's Echo"
         ],
-        "games": 13,
-        "wins": 6,
-        "winrate": 0.46153846153846156,
-        "score": 3422408902.374009
+        "games": 49,
+        "wins": 27,
+        "winrate": 0.5510204081632653,
+        "score": 3947912423.2449346
       },
       "runes": {
         "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8139,
-            "name": "Taste of Blood"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
             "id": 8237,
             "name": "Scorch"
           }
         ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          }
+        ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
-        "games": 3,
-        "confidencePct": 0.23076923076923078
+        "sampleGames": 49,
+        "games": 8,
+        "confidencePct": 0.16326530612244897
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 8,
-        "sampleGames": 13,
-        "confidencePct": 0.6153846153846154
+        "role": "TOP",
+        "games": 42,
+        "sampleGames": 49,
+        "confidencePct": 0.8571428571428571
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "E",
           "W"
         ],
-        "games": 8,
-        "sampleGames": 12,
-        "confidencePct": 0.6666666666666666
+        "games": 40,
+        "sampleGames": 46,
+        "confidencePct": 0.8695652173913043
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Lulu-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 27609,
+      "totalGames": 29964,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,23 +245,23 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 102
-        },
-        {
-          "itemId": 6664,
-          "name": "Hollow Radiance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3
+          "purchaseSamples": 105
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49671
+          "purchaseSamples": 52011
+        },
+        {
+          "itemId": 6664,
+          "name": "Hollow Radiance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
         },
         {
           "itemId": 2524,
@@ -269,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 218
+          "purchaseSamples": 225
         },
         {
           "itemId": 3190,
@@ -277,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2635
+          "purchaseSamples": 2769
         }
       ],
       "seedPair": {
@@ -292,7 +292,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 2941829905.8087177
+        "score": 3125593418.7317
       },
       "runes": {
         "primaryStyle": {
@@ -361,8 +361,8 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -375,7 +375,7 @@
       "id": "Lulu-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 27609,
+      "totalGames": 29964,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -389,7 +389,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 246
+          "purchaseSamples": 253
         },
         {
           "itemId": 3158,
@@ -397,7 +397,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49671
+          "purchaseSamples": 52011
         },
         {
           "itemId": 3089,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 18
         },
         {
           "itemId": 3157,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 66
+          "purchaseSamples": 70
         },
         {
           "itemId": 3041,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 240
+          "purchaseSamples": 249
         }
       ],
       "seedPair": {
@@ -444,7 +444,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 1786902344.3449638
+        "score": 1934425727.0710726
       },
       "runes": {
         "primaryStyle": {
@@ -527,7 +527,7 @@
       "id": "Lulu-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 27609,
+      "totalGames": 29964,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -541,7 +541,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 102
+          "purchaseSamples": 105
         },
         {
           "itemId": 6655,
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 246
+          "purchaseSamples": 253
         },
         {
           "itemId": 3158,
@@ -557,7 +557,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49671
+          "purchaseSamples": 52011
         },
         {
           "itemId": 3152,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 210
+          "purchaseSamples": 212
         },
         {
           "itemId": 3041,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 240
+          "purchaseSamples": 249
         },
         {
           "itemId": 3157,
@@ -581,7 +581,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 66
+          "purchaseSamples": 70
         }
       ],
       "seedPair": {
@@ -596,7 +596,7 @@
         "games": 7,
         "wins": 6,
         "winrate": 0.8571428571428571,
-        "score": 1523105828.558982
+        "score": 1588517943.6579647
       },
       "runes": {
         "primaryStyle": {
@@ -665,9 +665,9 @@
           "E",
           "W"
         ],
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "asWholeSet": {
         "games": 0,
@@ -679,7 +679,7 @@
       "id": "Lulu-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 27609,
+      "totalGames": 29964,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -693,7 +693,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 246
+          "purchaseSamples": 253
         },
         {
           "itemId": 3158,
@@ -701,7 +701,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 49671
+          "purchaseSamples": 52011
         },
         {
           "itemId": 3152,
@@ -709,7 +709,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 210
+          "purchaseSamples": 212
         },
         {
           "itemId": 4646,
@@ -717,7 +717,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17
+          "purchaseSamples": 18
         },
         {
           "itemId": 2065,
@@ -725,7 +725,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 12244
+          "purchaseSamples": 12835
         },
         {
           "itemId": 4645,
@@ -748,7 +748,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1457317719.1494014
+        "score": 1574724982.3095248
       },
       "runes": {
         "primaryStyle": {
@@ -829,14 +829,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 27609,
+    "totalGames": 29964,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49266543518417905,
+    "winrate": 0.49232412228006944,
     "items": [
       {
         "itemId": 3504,
@@ -844,7 +844,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 43321
+        "purchaseSamples": 45300
       },
       {
         "itemId": 3158,
@@ -852,7 +852,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 49671
+        "purchaseSamples": 52011
       },
       {
         "itemId": 3222,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 21616
+        "purchaseSamples": 22657
       },
       {
         "itemId": 6617,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 18201
+        "purchaseSamples": 19152
       },
       {
         "itemId": 2065,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12244
+        "purchaseSamples": 12835
       },
       {
         "itemId": 3109,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 9971
+        "purchaseSamples": 10437
       }
     ],
     "runes": {
@@ -938,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 27609,
-      "games": 10021,
-      "confidencePct": 0.36296135318193345
+      "sampleGames": 29964,
+      "games": 10876,
+      "confidencePct": 0.3629688960085436
     },
     "position": {
       "role": "UTILITY",
-      "games": 27294,
-      "sampleGames": 27609,
-      "confidencePct": 0.9885906769531675
+      "games": 29636,
+      "sampleGames": 29964,
+      "confidencePct": 0.9890535309037511
     },
     "skillOrder": {
       "order": [
@@ -954,9 +954,9 @@
         "W",
         "Q"
       ],
-      "games": 16691,
-      "sampleGames": 24653,
-      "confidencePct": 0.6770372774104572
+      "games": 18641,
+      "sampleGames": 27274,
+      "confidencePct": 0.68347143799956
     }
   }
 }

@@ -1,8 +1,22 @@
 {
   "championId": "Akshan",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-05T22:23:31.310Z",
+  "generatedAt": "2026-11-06T17:06:57.659Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3179,
+        3814
+      ],
+      "names": [
+        "Umbral Glaive",
+        "Edge of Night"
+      ],
+      "games": 14,
+      "wins": 6,
+      "winrate": 0.42857142857142855,
+      "score": 181984013.40830746
+    },
     {
       "itemIds": [
         3814,
@@ -15,7 +29,7 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 99950711.04148044
+      "score": 105378808.28647994
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 63106248.830965355
+      "score": 70966193.81428494
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Statikk Shiv",
         "Voltaic Cyclosword"
       ],
-      "games": 37,
-      "wins": 20,
-      "winrate": 0.5405405405405406,
-      "score": 43910509.82738599
+      "games": 38,
+      "wins": 21,
+      "winrate": 0.5526315789473685,
+      "score": 52484015.402252294
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Guinsoo's Rageblade",
         "Blade of The Ruined King"
       ],
-      "games": 10,
+      "games": 11,
       "wins": 2,
-      "winrate": 0.2,
-      "score": 26551618.824905373
-    },
-    {
-      "itemIds": [
-        3095,
-        3157
-      ],
-      "names": [
-        "Stormrazor",
-        "Zhonya's Hourglass"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 21252712.307083778
+      "winrate": 0.18181818181818182,
+      "score": 28155762.44838764
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Akshan-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7151,
+      "totalGames": 7901,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -88,20 +88,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 518
-        },
-        {
           "itemId": 3179,
           "name": "Umbral Glaive",
           "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 235
+        },
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 232
+          "purchaseSamples": 531
         },
         {
           "itemId": 6699,
@@ -109,7 +109,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 318
+          "purchaseSamples": 322
         },
         {
           "itemId": 3095,
@@ -117,7 +117,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1178
+          "purchaseSamples": 1228
         },
         {
           "itemId": 3173,
@@ -125,7 +125,7 @@
           "isBoots": true,
           "order": 5,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 9
         },
         {
           "itemId": 3814,
@@ -133,58 +133,58 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 165
+          "purchaseSamples": 171
         }
       ],
       "seedPair": {
         "itemIds": [
-          3814,
-          6697
+          3179,
+          3814
         ],
         "names": [
-          "Edge of Night",
-          "Hubris"
+          "Umbral Glaive",
+          "Edge of Night"
         ],
-        "games": 6,
-        "wins": 5,
-        "winrate": 0.8333333333333334,
-        "score": 99950711.04148044
+        "games": 14,
+        "wins": 6,
+        "winrate": 0.42857142857142855,
+        "score": 181984013.40830746
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
           "id": 8100,
           "name": "Domination"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
           {
             "id": 8143,
             "name": "Sudden Impact"
           },
           {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
             "id": 8105,
             "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
           }
         ],
         "statPerks": [
@@ -193,23 +193,23 @@
             "name": "Adaptive Force"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5001,
+            "name": "Health Scaling"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 14,
+        "games": 9,
+        "confidencePct": 0.6428571428571429
       },
       "position": {
         "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 14,
+        "confidencePct": 0.35714285714285715
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "W",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 11,
+        "sampleGames": 12,
+        "confidencePct": 0.9166666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Akshan-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 7151,
+      "totalGames": 7901,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 232
+          "purchaseSamples": 235
         },
         {
           "itemId": 6697,
@@ -253,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 518
+          "purchaseSamples": 531
         },
         {
           "itemId": 6699,
@@ -261,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 318
+          "purchaseSamples": 322
         },
         {
           "itemId": 3173,
@@ -269,7 +269,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 9
         },
         {
           "itemId": 2520,
@@ -285,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 298
+          "purchaseSamples": 318
         }
       ],
       "seedPair": {
@@ -300,7 +300,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 63106248.830965355
+        "score": 70966193.81428494
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Akshan-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 7151,
+      "totalGames": 7901,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 531
+          "purchaseSamples": 543
         },
         {
           "itemId": 6699,
@@ -405,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 318
+          "purchaseSamples": 322
         },
         {
           "itemId": 3095,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1178
+          "purchaseSamples": 1228
         },
         {
           "itemId": 3153,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 142
+          "purchaseSamples": 148
         },
         {
           "itemId": 3173,
@@ -429,7 +429,7 @@
           "isBoots": true,
           "order": 5,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 9
         },
         {
           "itemId": 6695,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 298
+          "purchaseSamples": 318
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Statikk Shiv",
           "Voltaic Cyclosword"
         ],
-        "games": 37,
-        "wins": 20,
-        "winrate": 0.5405405405405406,
-        "score": 43910509.82738599
+        "games": 38,
+        "wins": 21,
+        "winrate": 0.5526315789473685,
+        "score": 52484015.402252294
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 37,
+        "sampleGames": 38,
         "games": 9,
-        "confidencePct": 0.24324324324324326
+        "confidencePct": 0.23684210526315788
       },
       "position": {
         "role": "TOP",
-        "games": 17,
-        "sampleGames": 37,
-        "confidencePct": 0.4594594594594595
+        "games": 18,
+        "sampleGames": 38,
+        "confidencePct": 0.47368421052631576
       },
       "skillOrder": {
         "order": [
@@ -535,7 +535,7 @@
       "id": "Akshan-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7151,
+      "totalGames": 7901,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 531
+          "purchaseSamples": 543
         },
         {
           "itemId": 3153,
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 142
+          "purchaseSamples": 148
         },
         {
           "itemId": 3173,
@@ -565,7 +565,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
+          "purchaseSamples": 9
         },
         {
           "itemId": 3302,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 106
+          "purchaseSamples": 112
         },
         {
           "itemId": 3091,
@@ -581,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 70
+          "purchaseSamples": 76
         },
         {
           "itemId": 3124,
@@ -589,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 68
+          "purchaseSamples": 74
         }
       ],
       "seedPair": {
@@ -601,10 +601,10 @@
           "Guinsoo's Rageblade",
           "Blade of The Ruined King"
         ],
-        "games": 10,
+        "games": 11,
         "wins": 2,
-        "winrate": 0.2,
-        "score": 26551618.824905373
+        "winrate": 0.18181818181818182,
+        "score": 28155762.44838764
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 11,
         "games": 3,
-        "confidencePct": 0.3
+        "confidencePct": 0.2727272727272727
       },
       "position": {
         "role": "TOP",
-        "games": 7,
-        "sampleGames": 10,
-        "confidencePct": 0.7
+        "games": 8,
+        "sampleGames": 11,
+        "confidencePct": 0.7272727272727273
       },
       "skillOrder": {
         "order": [
@@ -673,8 +673,8 @@
           "E",
           "W"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 10,
+        "sampleGames": 10,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -687,7 +687,7 @@
       "id": "Akshan-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7151,
+      "totalGames": 7901,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -696,28 +696,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6672,
+          "name": "Kraken Slayer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1478
+        },
+        {
           "itemId": 3095,
           "name": "Stormrazor",
           "isBoots": false,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1178
+          "purchaseSamples": 1228
         },
         {
           "itemId": 3173,
           "name": "Chainlaced Crushers",
           "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1498
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9
         },
         {
           "itemId": 3094,
@@ -725,7 +725,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 3345
+          "purchaseSamples": 3524
         },
         {
           "itemId": 3157,
@@ -733,7 +733,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 32
+          "purchaseSamples": 35
         },
         {
           "itemId": 3143,
@@ -741,7 +741,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 37
+          "purchaseSamples": 38
         }
       ],
       "seedPair": {
@@ -756,7 +756,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 21252712.307083778
+        "score": 20967651.132936273
       },
       "runes": {
         "primaryStyle": {
@@ -825,26 +825,26 @@
           "E",
           "W"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 7151,
+    "totalGames": 7901,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5060830653055517,
+    "winrate": 0.5071509935451208,
     "items": [
       {
         "itemId": 6676,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 12011
+        "purchaseSamples": 12695
       },
       {
         "itemId": 3172,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 38
+        "purchaseSamples": 42
       },
       {
         "itemId": 3031,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 8039
+        "purchaseSamples": 8477
       },
       {
         "itemId": 3036,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 7148
+        "purchaseSamples": 7580
       },
       {
         "itemId": 3094,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 3345
+        "purchaseSamples": 3524
       }
     ],
     "runes": {
@@ -938,15 +938,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 7151,
-      "games": 3365,
-      "confidencePct": 0.4705635575443994
+      "sampleGames": 7901,
+      "games": 3739,
+      "confidencePct": 0.4732312365523351
     },
     "position": {
       "role": "MIDDLE",
-      "games": 6007,
-      "sampleGames": 7151,
-      "confidencePct": 0.8400223744930779
+      "games": 6640,
+      "sampleGames": 7901,
+      "confidencePct": 0.840399949373497
     },
     "skillOrder": {
       "order": [
@@ -954,9 +954,9 @@
         "E",
         "W"
       ],
-      "games": 5816,
-      "sampleGames": 6290,
-      "confidencePct": 0.9246422893481717
+      "games": 6550,
+      "sampleGames": 7071,
+      "confidencePct": 0.9263187667939471
     }
   }
 }

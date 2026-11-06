@@ -1,8 +1,22 @@
 {
   "championId": "Vex",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-05T22:23:31.310Z",
+  "generatedAt": "2026-11-06T17:06:57.659Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3121,
+        6653
+      ],
+      "names": [
+        "Fimbulwinter",
+        "Liandry's Torment"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 103651730.81464612
+    },
     {
       "itemIds": [
         2504,
@@ -15,7 +29,7 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 76185753.68687022
+      "score": 84366511.38467506
     },
     {
       "itemIds": [
@@ -29,7 +43,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 1375492.9222499789
+      "score": 1373772.2416011805
+    },
+    {
+      "itemIds": [
+        3118,
+        3165
+      ],
+      "names": [
+        "Malignance",
+        "Morellonomicon"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 1172930.507907722
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 13,
       "wins": 10,
       "winrate": 0.7692307692307693,
-      "score": 1075572.733469583
-    },
-    {
-      "itemIds": [
-        3102,
-        8010
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Bloodletter's Curse"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 889062.0399533685
-    },
-    {
-      "itemIds": [
-        3137,
-        6653
-      ],
-      "names": [
-        "Cryptbloom",
-        "Liandry's Torment"
-      ],
-      "games": 12,
-      "wins": 5,
-      "winrate": 0.4166666666666667,
-      "score": 789265.5198338957
+      "score": 1089629.7283785027
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vex-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5954,
+      "totalGames": 6480,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,135 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 240
+          "purchaseSamples": 264
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 229
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3121,
+          6653
+        ],
+        "names": [
+          "Fimbulwinter",
+          "Liandry's Torment"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 103651730.81464612
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Vex-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 6480,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 264
         },
         {
           "itemId": 2504,
@@ -109,7 +237,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 355
+          "purchaseSamples": 365
         }
       ],
       "seedPair": {
@@ -124,7 +252,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 76185753.68687022
+        "score": 84366511.38467506
       },
       "runes": {
         "primaryStyle": {
@@ -204,10 +332,10 @@
       }
     },
     {
-      "id": "Vex-2",
-      "buildIndex": 1,
+      "id": "Vex-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5954,
+      "totalGames": 6480,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -221,7 +349,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 2564
+          "purchaseSamples": 2630
         },
         {
           "itemId": 3175,
@@ -229,7 +357,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 240
+          "purchaseSamples": 264
         },
         {
           "itemId": 4628,
@@ -237,7 +365,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 44
+          "purchaseSamples": 45
         },
         {
           "itemId": 4629,
@@ -245,7 +373,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 214
+          "purchaseSamples": 221
         },
         {
           "itemId": 3137,
@@ -253,7 +381,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 355
+          "purchaseSamples": 364
         },
         {
           "itemId": 3041,
@@ -261,7 +389,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1029
+          "purchaseSamples": 1080
         }
       ],
       "seedPair": {
@@ -276,7 +404,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 1375492.9222499789
+        "score": 1373772.2416011805
       },
       "runes": {
         "primaryStyle": {
@@ -356,10 +484,162 @@
       }
     },
     {
-      "id": "Vex-3",
-      "buildIndex": 2,
+      "id": "Vex-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5954,
+      "totalGames": 6480,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 346
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 264
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 61
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1080
+        },
+        {
+          "itemId": 3137,
+          "name": "Cryptbloom",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 364
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2299
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3118,
+          3165
+        ],
+        "names": [
+          "Malignance",
+          "Morellonomicon"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 1172930.507907722
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Vex-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 6480,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -373,7 +653,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 2564
+          "purchaseSamples": 2630
         },
         {
           "itemId": 3175,
@@ -381,7 +661,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 240
+          "purchaseSamples": 264
         },
         {
           "itemId": 3152,
@@ -389,7 +669,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 355
+          "purchaseSamples": 365
         },
         {
           "itemId": 3041,
@@ -397,7 +677,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1029
+          "purchaseSamples": 1080
         },
         {
           "itemId": 8010,
@@ -405,7 +685,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 87
+          "purchaseSamples": 89
         },
         {
           "itemId": 3102,
@@ -413,7 +693,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 218
+          "purchaseSamples": 223
         }
       ],
       "seedPair": {
@@ -428,7 +708,7 @@
         "games": 13,
         "wins": 10,
         "winrate": 0.7692307692307693,
-        "score": 1075572.733469583
+        "score": 1089629.7283785027
       },
       "runes": {
         "primaryStyle": {
@@ -506,321 +786,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Vex-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 5954,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2564
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 240
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 26
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 222
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 214
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 355
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3137,
-          4005
-        ],
-        "names": [
-          "Cryptbloom",
-          "Imperial Mandate"
-        ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 662132.4482036217
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Vex-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 5954,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 2564
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 240
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 355
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 222
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1029
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 59
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          3165
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Morellonomicon"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 595103.5409584877
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          },
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 5954,
+    "totalGames": 6480,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5204904266039637,
+    "winrate": 0.5220679012345679,
     "items": [
       {
         "itemId": 6655,
@@ -828,7 +804,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7995
+        "purchaseSamples": 8320
       },
       {
         "itemId": 3175,
@@ -836,7 +812,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 240
+        "purchaseSamples": 264
       },
       {
         "itemId": 4645,
@@ -844,7 +820,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 7394
+        "purchaseSamples": 7722
       },
       {
         "itemId": 4646,
@@ -852,7 +828,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3782
+        "purchaseSamples": 3953
       },
       {
         "itemId": 3157,
@@ -860,7 +836,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4039
+        "purchaseSamples": 4210
       },
       {
         "itemId": 3089,
@@ -868,7 +844,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2177
+        "purchaseSamples": 2299
       }
     ],
     "runes": {
@@ -922,15 +898,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 5954,
-      "games": 2194,
-      "confidencePct": 0.3684917702384951
+      "sampleGames": 6480,
+      "games": 2390,
+      "confidencePct": 0.36882716049382713
     },
     "position": {
       "role": "MIDDLE",
-      "games": 5422,
-      "sampleGames": 5954,
-      "confidencePct": 0.9106483036614041
+      "games": 5907,
+      "sampleGames": 6480,
+      "confidencePct": 0.9115740740740741
     },
     "skillOrder": {
       "order": [
@@ -938,9 +914,9 @@
         "W",
         "E"
       ],
-      "games": 5157,
-      "sampleGames": 5385,
-      "confidencePct": 0.9576601671309192
+      "games": 5636,
+      "sampleGames": 5878,
+      "confidencePct": 0.9588295338550528
     }
   }
 }

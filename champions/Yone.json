@@ -1,8 +1,36 @@
 {
   "championId": "Yone",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-05T22:23:31.310Z",
+  "generatedAt": "2026-11-06T17:06:57.659Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3046,
+        6676
+      ],
+      "names": [
+        "Phantom Dancer",
+        "The Collector"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 354867845.91739297
+    },
+    {
+      "itemIds": [
+        3065,
+        6695
+      ],
+      "names": [
+        "Spirit Visage",
+        "Serpent's Fang"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 276706382.96828055
+    },
     {
       "itemIds": [
         3032,
@@ -15,7 +43,7 @@
       "games": 12,
       "wins": 7,
       "winrate": 0.5833333333333334,
-      "score": 97652873.56619225
+      "score": 90404358.45913061
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 80474309.00094
+      "score": 82017726.00021107
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Yun Tal Wildarrows",
         "Jak'Sho, The Protean"
       ],
-      "games": 11,
+      "games": 12,
       "wins": 8,
-      "winrate": 0.7272727272727273,
-      "score": 76811646.26981424
-    },
-    {
-      "itemIds": [
-        3032,
-        3156
-      ],
-      "names": [
-        "Yun Tal Wildarrows",
-        "Maw of Malmortius"
-      ],
-      "games": 16,
-      "wins": 12,
-      "winrate": 0.75,
-      "score": 28864223.934330773
-    },
-    {
-      "itemIds": [
-        3065,
-        3072
-      ],
-      "names": [
-        "Spirit Visage",
-        "Bloodthirster"
-      ],
-      "games": 17,
-      "wins": 11,
-      "winrate": 0.6470588235294118,
-      "score": 17222285.233951192
+      "winrate": 0.6666666666666666,
+      "score": 73226159.97209397
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Yone-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 35536,
+      "totalGames": 38835,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,159 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 72637
+          "purchaseSamples": 75426
+        },
+        {
+          "itemId": 3046,
+          "name": "Phantom Dancer",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 580
+        },
+        {
+          "itemId": 3095,
+          "name": "Stormrazor",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4446
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 127
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1926
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 4698
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3046,
+          6676
+        ],
+        "names": [
+          "Phantom Dancer",
+          "The Collector"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 354867845.91739297
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9101,
+            "name": "Absorb Life"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Yone-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 38835,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 75426
         },
         {
           "itemId": 3032,
@@ -101,7 +253,159 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1705
+          "purchaseSamples": 1768
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 332
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 140
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1926
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 990
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3065,
+          6695
+        ],
+        "names": [
+          "Spirit Visage",
+          "Serpent's Fang"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 276706382.96828055
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Yone-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 38835,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 75426
+        },
+        {
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1768
         },
         {
           "itemId": 3156,
@@ -109,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 192
+          "purchaseSamples": 200
         },
         {
           "itemId": 3143,
@@ -117,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 953
+          "purchaseSamples": 990
         },
         {
           "itemId": 6665,
@@ -125,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1261
+          "purchaseSamples": 1326
         },
         {
           "itemId": 3072,
@@ -133,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1829
+          "purchaseSamples": 1926
         }
       ],
       "seedPair": {
@@ -148,7 +452,7 @@
         "games": 12,
         "wins": 7,
         "winrate": 0.5833333333333334,
-        "score": 97652873.56619225
+        "score": 90404358.45913061
       },
       "runes": {
         "primaryStyle": {
@@ -217,8 +521,8 @@
           "E",
           "W"
         ],
-        "games": 9,
-        "sampleGames": 9,
+        "games": 12,
+        "sampleGames": 12,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -228,10 +532,10 @@
       }
     },
     {
-      "id": "Yone-2",
-      "buildIndex": 1,
+      "id": "Yone-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 35536,
+      "totalGames": 38835,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,47 +549,47 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 72637
+          "purchaseSamples": 75426
+        },
+        {
+          "itemId": 3095,
+          "name": "Stormrazor",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4446
         },
         {
           "itemId": 3032,
           "name": "Yun Tal Wildarrows",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1705
+          "purchaseSamples": 1768
         },
         {
           "itemId": 6676,
           "name": "The Collector",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 124
+          "purchaseSamples": 127
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 7953
+          "purchaseSamples": 8262
         },
         {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 36
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 4510
+          "purchaseSamples": 41
         }
       ],
       "seedPair": {
@@ -300,7 +604,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 80474309.00094
+        "score": 82017726.00021107
       },
       "runes": {
         "primaryStyle": {
@@ -380,314 +684,10 @@
       }
     },
     {
-      "id": "Yone-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 35536,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 72637
-        },
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1705
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1170
-        },
-        {
-          "itemId": 4401,
-          "name": "Force of Nature",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 173
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1261
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 953
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2504,
-          4401
-        ],
-        "names": [
-          "Kaenic Rookern",
-          "Force of Nature"
-        ],
-        "games": 8,
-        "wins": 5,
-        "winrate": 0.625,
-        "score": 14056514.351402553
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 1,
-        "confidencePct": 0.125
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 8,
-        "confidencePct": 0.75
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 6,
-        "sampleGames": 6,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Yone-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 35536,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 72637
-        },
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4273
-        },
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1705
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7953
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1261
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3053,
-          3095
-        ],
-        "names": [
-          "Sterak's Gage",
-          "Stormrazor"
-        ],
-        "games": 4,
-        "wins": 3,
-        "winrate": 0.75,
-        "score": 9876961.608574938
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Yone-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 35536,
+      "totalGames": 38835,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -701,62 +701,62 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 72637
+          "purchaseSamples": 75426
         },
         {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
+          "itemId": 3046,
+          "name": "Phantom Dancer",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1705
+          "purchaseSamples": 580
         },
         {
-          "itemId": 3026,
-          "name": "Guardian Angel",
+          "itemId": 6672,
+          "name": "Kraken Slayer",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 4510
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1514
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 200
         },
         {
           "itemId": 3072,
           "name": "Bloodthirster",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1829
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 315
+          "purchaseSamples": 1926
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3026,
+          "name": "Guardian Angel",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 953
+          "purchaseSamples": 4698
         }
       ],
       "seedPair": {
         "itemIds": [
-          3026,
-          3072
+          3046,
+          3156
         ],
         "names": [
-          "Guardian Angel",
-          "Bloodthirster"
+          "Phantom Dancer",
+          "Maw of Malmortius"
         ],
-        "games": 105,
-        "wins": 60,
+        "games": 7,
+        "wins": 4,
         "winrate": 0.5714285714285714,
-        "score": 9026242.888269005
+        "score": 23915018.333647102
       },
       "runes": {
         "primaryStyle": {
@@ -764,8 +764,8 @@
           "name": "Precision"
         },
         "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
@@ -773,8 +773,8 @@
             "name": "Absorb Life"
           },
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
+            "id": 9103,
+            "name": "Legend: Bloodline"
           },
           {
             "id": 8299,
@@ -782,17 +782,17 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8345,
+            "name": "Biscuit Delivery"
           },
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
@@ -809,15 +809,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 105,
-        "games": 25,
-        "confidencePct": 0.23809523809523808
+        "sampleGames": 7,
+        "games": 2,
+        "confidencePct": 0.2857142857142857
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 63,
-        "sampleGames": 105,
-        "confidencePct": 0.6
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
       },
       "skillOrder": {
         "order": [
@@ -825,8 +825,8 @@
           "E",
           "W"
         ],
-        "games": 89,
-        "sampleGames": 89,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 35536,
+    "totalGames": 38835,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4931337235479514,
+    "winrate": 0.4941418823226471,
     "items": [
       {
         "itemId": 6673,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 61964
+        "purchaseSamples": 64444
       },
       {
         "itemId": 3172,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 15
+        "purchaseSamples": 16
       },
       {
         "itemId": 3153,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 31305
+        "purchaseSamples": 32279
       },
       {
         "itemId": 3031,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 39386
+        "purchaseSamples": 41101
       },
       {
         "itemId": 6333,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 20067
+        "purchaseSamples": 20996
       }
     ],
     "runes": {
@@ -938,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 35536,
-      "games": 8662,
-      "confidencePct": 0.24375281404772625
+      "sampleGames": 38835,
+      "games": 9325,
+      "confidencePct": 0.2401184498519377
     },
     "position": {
       "role": "MIDDLE",
-      "games": 17634,
-      "sampleGames": 35536,
-      "confidencePct": 0.49622917604682576
+      "games": 19355,
+      "sampleGames": 38835,
+      "confidencePct": 0.4983906270117162
     },
     "skillOrder": {
       "order": [
@@ -954,9 +954,9 @@
         "E",
         "W"
       ],
-      "games": 31140,
-      "sampleGames": 32168,
-      "confidencePct": 0.9680427754289977
+      "games": 33915,
+      "sampleGames": 35069,
+      "confidencePct": 0.9670934443525621
     }
   }
 }

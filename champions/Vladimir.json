@@ -1,8 +1,22 @@
 {
   "championId": "Vladimir",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-05T22:23:31.310Z",
+  "generatedAt": "2026-11-06T17:06:57.659Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3143,
+        3157
+      ],
+      "names": [
+        "Randuin's Omen",
+        "Zhonya's Hourglass"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 10903794.416048642
+    },
     {
       "itemIds": [
         3137,
@@ -15,21 +29,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 9879272.173524357
-    },
-    {
-      "itemIds": [
-        3143,
-        3157
-      ],
-      "names": [
-        "Randuin's Omen",
-        "Zhonya's Hourglass"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 8044888.89375094
+      "score": 9975246.994437827
     },
     {
       "itemIds": [
@@ -40,10 +40,10 @@
         "Mejai's Soulstealer",
         "Horizon Focus"
       ],
-      "games": 32,
-      "wins": 23,
-      "winrate": 0.71875,
-      "score": 6077625.027519518
+      "games": 38,
+      "wins": 26,
+      "winrate": 0.6842105263157895,
+      "score": 6669754.58872043
     },
     {
       "itemIds": [
@@ -57,21 +57,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 4685029.316314093
+      "score": 4366338.325526727
     },
     {
       "itemIds": [
-        4628,
-        4645
+        2065,
+        4629
       ],
       "names": [
-        "Horizon Focus",
-        "Shadowflame"
+        "Shurelya's Battlesong",
+        "Cosmic Drive"
       ],
-      "games": 4,
+      "games": 5,
       "wins": 4,
-      "winrate": 1,
-      "score": 3277896.3576250146
+      "winrate": 0.8,
+      "score": 4289241.589833462
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vladimir-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11483,
+      "totalGames": 12898,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -88,20 +88,172 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4303
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 42
+          "purchaseSamples": 43
         },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4565
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5631
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2677
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 14
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3143,
+          3157
+        ],
+        "names": [
+          "Randuin's Omen",
+          "Zhonya's Hourglass"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 10903794.416048642
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 3,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Vladimir-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 12898,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
         {
           "itemId": 4628,
           "name": "Horizon Focus",
           "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 382
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 371
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 43
         },
         {
           "itemId": 4645,
@@ -109,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2255
+          "purchaseSamples": 2366
         },
         {
           "itemId": 3137,
@@ -117,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 749
+          "purchaseSamples": 771
         },
         {
           "itemId": 3041,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4555
+          "purchaseSamples": 4792
         },
         {
           "itemId": 3165,
@@ -148,7 +300,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 9879272.173524357
+        "score": 9975246.994437827
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Vladimir-2",
-      "buildIndex": 1,
+      "id": "Vladimir-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11483,
+      "totalGames": 12898,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -240,67 +392,67 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4303
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4357
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 43
         },
         {
-          "itemId": 4628,
-          "name": "Horizon Focus",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 371
+          "purchaseSamples": 43
         },
         {
-          "itemId": 4645,
-          "name": "Shadowflame",
+          "itemId": 3137,
+          "name": "Cryptbloom",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2255
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 771
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 85
         },
         {
           "itemId": 3157,
           "name": "Zhonya's Hourglass",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 2559
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 14
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2677
         }
       ],
       "seedPair": {
         "itemIds": [
-          3143,
-          3157
+          2065,
+          4629
         ],
         "names": [
-          "Randuin's Omen",
-          "Zhonya's Hourglass"
+          "Shurelya's Battlesong",
+          "Cosmic Drive"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 8044888.89375094
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 4289241.589833462
       },
       "runes": {
         "primaryStyle": {
@@ -331,12 +483,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
             "id": 8299,
             "name": "Last Stand"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
           }
         ],
         "statPerks": [
@@ -353,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 5,
         "games": 2,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 0.4
       },
       "position": {
         "role": "BOTTOM",
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 5,
+        "confidencePct": 0.4
       },
       "skillOrder": {
         "order": [
@@ -369,8 +521,8 @@
           "E",
           "W"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Vladimir-3",
-      "buildIndex": 2,
+      "id": "Vladimir-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 11483,
+      "totalGames": 12898,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -392,28 +544,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 4303
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3353
+        },
+        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 371
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 2255
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 43
         },
         {
           "itemId": 4633,
@@ -421,7 +573,159 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4357
+          "purchaseSamples": 4565
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 105
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 2677
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          3157
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Zhonya's Hourglass"
+        ],
+        "games": 9,
+        "wins": 6,
+        "winrate": 0.6666666666666666,
+        "score": 3179673.1947880406
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 5,
+        "confidencePct": 0.5555555555555556
+      },
+      "position": {
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Vladimir-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 12898,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4628,
+          "name": "Horizon Focus",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 382
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 43
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2366
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4565
         },
         {
           "itemId": 3135,
@@ -429,7 +733,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 5356
+          "purchaseSamples": 5631
         },
         {
           "itemId": 3041,
@@ -437,7 +741,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4555
+          "purchaseSamples": 4792
         }
       ],
       "seedPair": {
@@ -449,10 +753,10 @@
           "Void Staff",
           "Horizon Focus"
         ],
-        "games": 30,
-        "wins": 17,
-        "winrate": 0.5666666666666667,
-        "score": 2404674.458818791
+        "games": 37,
+        "wins": 19,
+        "winrate": 0.5135135135135135,
+        "score": 2521411.8212991864
       },
       "runes": {
         "primaryStyle": {
@@ -505,329 +809,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 30,
+        "sampleGames": 37,
         "games": 13,
-        "confidencePct": 0.43333333333333335
+        "confidencePct": 0.35135135135135137
       },
       "position": {
         "role": "BOTTOM",
-        "games": 14,
+        "games": 16,
+        "sampleGames": 37,
+        "confidencePct": 0.43243243243243246
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 30,
         "sampleGames": 30,
-        "confidencePct": 0.4666666666666667
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 25,
-        "sampleGames": 25,
         "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Vladimir-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 11483,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4159
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 4555
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 101
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 2559
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3100,
-          4629
-        ],
-        "names": [
-          "Lich Bane",
-          "Cosmic Drive"
-        ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 1962780.6143977412
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 1,
-        "confidencePct": 0.2
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Vladimir-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 11483,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 3220
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4159
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 42
-        },
-        {
-          "itemId": 4633,
-          "name": "Riftmaker",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4357
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 147
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 85
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3152,
-          4633
-        ],
-        "names": [
-          "Hextech Rocketbelt",
-          "Riftmaker"
-        ],
-        "games": 545,
-        "wins": 298,
-        "winrate": 0.5467889908256881,
-        "score": 1776384.816993355
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 545,
-        "games": 150,
-        "confidencePct": 0.27522935779816515
-      },
-      "position": {
-        "role": "TOP",
-        "games": 296,
-        "sampleGames": 545,
-        "confidencePct": 0.5431192660550459
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 493,
-        "sampleGames": 495,
-        "confidencePct": 0.9959595959595959
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 11483,
+    "totalGames": 12898,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49960811634590263,
+    "winrate": 0.49720886959218485,
     "items": [
       {
         "itemId": 4646,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 17331
+        "purchaseSamples": 18227
       },
       {
         "itemId": 3175,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 42
+        "purchaseSamples": 43
       },
       {
         "itemId": 3089,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12059
+        "purchaseSamples": 12686
       },
       {
         "itemId": 6653,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6021
+        "purchaseSamples": 6331
       },
       {
         "itemId": 3135,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 5356
+        "purchaseSamples": 5631
       },
       {
         "itemId": 3041,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4555
+        "purchaseSamples": 4792
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 11483,
-      "games": 4152,
-      "confidencePct": 0.36157798484716536
+      "sampleGames": 12898,
+      "games": 4660,
+      "confidencePct": 0.3612963250116297
     },
     "position": {
       "role": "MIDDLE",
-      "games": 6765,
-      "sampleGames": 11483,
-      "confidencePct": 0.5891317599930331
+      "games": 7591,
+      "sampleGames": 12898,
+      "confidencePct": 0.5885408590479144
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "E",
         "W"
       ],
-      "games": 10025,
-      "sampleGames": 10246,
-      "confidencePct": 0.9784306070661721
+      "games": 11129,
+      "sampleGames": 11378,
+      "confidencePct": 0.9781156618034804
     }
   }
 }
