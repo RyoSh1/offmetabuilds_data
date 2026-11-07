@@ -1,8 +1,22 @@
 {
   "championId": "Gragas",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-06T17:06:57.659Z",
+  "generatedAt": "2026-11-07T14:36:26.590Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2065,
+        4401
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Force of Nature"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 393097226.6641496
+    },
     {
       "itemIds": [
         3109,
@@ -12,10 +26,10 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 27,
+      "games": 28,
       "wins": 20,
-      "winrate": 0.7407407407407407,
-      "score": 334681712.00677264
+      "winrate": 0.7142857142857143,
+      "score": 346226935.3849058
     },
     {
       "itemIds": [
@@ -26,10 +40,10 @@
         "Protoplasm Harness",
         "Knight's Vow"
       ],
-      "games": 12,
+      "games": 13,
       "wins": 8,
-      "winrate": 0.6666666666666666,
-      "score": 262984670.54175717
+      "winrate": 0.6153846153846154,
+      "score": 260684031.92310154
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 16,
       "wins": 9,
       "winrate": 0.5625,
-      "score": 221525282.11455032
+      "score": 228542139.7996765
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 203309790.55565423
-    },
-    {
-      "itemIds": [
-        2065,
-        2524
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Bandlepipes"
-      ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 171764608.00909832
+      "score": 206350054.87244797
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Gragas-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10301,
+      "totalGames": 11001,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,15 +93,15 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 280
+          "purchaseSamples": 290
         },
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
+          "itemId": 4005,
+          "name": "Imperial Mandate",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 99
+          "purchaseSamples": 2379
         },
         {
           "itemId": 3158,
@@ -109,7 +109,159 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8542
+          "purchaseSamples": 9089
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 75
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 159
+        },
+        {
+          "itemId": 4401,
+          "name": "Force of Nature",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 22
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          4401
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Force of Nature"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 393097226.6641496
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8232,
+            "name": "Waterwalking"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          },
+          {
+            "id": 8306,
+            "name": "Hextech Flashtraption"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Gragas-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11001,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 290
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 103
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 9089
         },
         {
           "itemId": 3109,
@@ -117,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 150
+          "purchaseSamples": 159
         },
         {
           "itemId": 3222,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 39
+          "purchaseSamples": 40
         },
         {
           "itemId": 2524,
@@ -133,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
+          "purchaseSamples": 101
         }
       ],
       "seedPair": {
@@ -145,10 +297,10 @@
           "Knight's Vow",
           "Locket of the Iron Solari"
         ],
-        "games": 27,
+        "games": 28,
         "wins": 20,
-        "winrate": 0.7407407407407407,
-        "score": 334681712.00677264
+        "winrate": 0.7142857142857143,
+        "score": 346226935.3849058
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 27,
+        "sampleGames": 28,
         "games": 5,
-        "confidencePct": 0.18518518518518517
+        "confidencePct": 0.17857142857142858
       },
       "position": {
         "role": "UTILITY",
-        "games": 26,
-        "sampleGames": 27,
-        "confidencePct": 0.9629629629629629
+        "games": 27,
+        "sampleGames": 28,
+        "confidencePct": 0.9642857142857143
       },
       "skillOrder": {
         "order": [
@@ -218,8 +370,8 @@
           "Q"
         ],
         "games": 10,
-        "sampleGames": 26,
-        "confidencePct": 0.38461538461538464
+        "sampleGames": 27,
+        "confidencePct": 0.37037037037037035
       },
       "asWholeSet": {
         "games": 0,
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Gragas-2",
-      "buildIndex": 1,
+      "id": "Gragas-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10301,
+      "totalGames": 11001,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 280
+          "purchaseSamples": 290
         },
         {
           "itemId": 3050,
@@ -253,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 99
+          "purchaseSamples": 103
         },
         {
           "itemId": 4005,
@@ -261,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2237
+          "purchaseSamples": 2379
         },
         {
           "itemId": 3158,
@@ -269,7 +421,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8542
+          "purchaseSamples": 9089
         },
         {
           "itemId": 3109,
@@ -277,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 150
+          "purchaseSamples": 159
         },
         {
           "itemId": 3107,
@@ -300,7 +452,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 168428844.72246528
+        "score": 179461692.02607355
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Gragas-3",
-      "buildIndex": 2,
+      "id": "Gragas-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10301,
+      "totalGames": 11001,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 99
+          "purchaseSamples": 103
         },
         {
           "itemId": 3190,
@@ -405,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 280
+          "purchaseSamples": 290
         },
         {
           "itemId": 3158,
@@ -413,7 +565,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 8542
+          "purchaseSamples": 9089
         },
         {
           "itemId": 3110,
@@ -421,23 +573,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 211
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 78
+          "purchaseSamples": 224
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 159
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 150
+          "purchaseSamples": 84
         }
       ],
       "seedPair": {
@@ -452,7 +604,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 66285698.2216018
+        "score": 67592008.5979893
       },
       "runes": {
         "primaryStyle": {
@@ -530,169 +682,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Gragas-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 10301,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2237
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 280
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 8542
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 69
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 150
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          4005
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Imperial Mandate"
-        ],
-        "games": 14,
-        "wins": 7,
-        "winrate": 0.5,
-        "score": 18576960.607869115
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 3,
-        "confidencePct": 0.21428571428571427
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 11,
-        "sampleGames": 14,
-        "confidencePct": 0.7857142857142857
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 13,
-        "sampleGames": 14,
-        "confidencePct": 0.9285714285714286
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 10301,
+    "totalGames": 11001,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5114066595476168,
+    "winrate": 0.5113171529860921,
     "items": [
       {
         "itemId": 3100,
@@ -700,7 +700,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 9832
+        "purchaseSamples": 10749
       },
       {
         "itemId": 3020,
@@ -708,7 +708,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 8913
+        "purchaseSamples": 9821
       },
       {
         "itemId": 4645,
@@ -716,7 +716,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5947
+        "purchaseSamples": 6586
       },
       {
         "itemId": 4646,
@@ -724,7 +724,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2528
+        "purchaseSamples": 2751
       },
       {
         "itemId": 3089,
@@ -732,7 +732,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2360
+        "purchaseSamples": 2649
       },
       {
         "itemId": 3157,
@@ -740,7 +740,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3262
+        "purchaseSamples": 3501
       }
     ],
     "runes": {
@@ -794,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10301,
-      "games": 2280,
-      "confidencePct": 0.22133773420056305
+      "sampleGames": 11001,
+      "games": 2430,
+      "confidencePct": 0.22088901008999182
     },
     "position": {
       "role": "TOP",
-      "games": 6807,
-      "sampleGames": 10301,
-      "confidencePct": 0.6608096301329968
+      "games": 7277,
+      "sampleGames": 11001,
+      "confidencePct": 0.6614853195164075
     },
     "skillOrder": {
       "order": [
@@ -810,9 +810,9 @@
         "E",
         "W"
       ],
-      "games": 6996,
-      "sampleGames": 9209,
-      "confidencePct": 0.7596916060375719
+      "games": 8203,
+      "sampleGames": 10877,
+      "confidencePct": 0.7541601544543532
     }
   }
 }
