@@ -1,8 +1,22 @@
 {
   "championId": "Jhin",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-07T14:36:26.590Z",
+  "generatedAt": "2026-11-08T20:27:02.807Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3032,
+        3172
+      ],
+      "names": [
+        "Yun Tal Wildarrows",
+        "Gunmetal Greaves"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 1371324786.4051201
+    },
     {
       "itemIds": [
         3032,
@@ -12,10 +26,24 @@
         "Yun Tal Wildarrows",
         "Stormrazor"
       ],
-      "games": 89,
-      "wins": 41,
-      "winrate": 0.4606741573033708,
-      "score": 103905052.59163064
+      "games": 104,
+      "wins": 53,
+      "winrate": 0.5096153846153846,
+      "score": 132482469.98655005
+    },
+    {
+      "itemIds": [
+        3042,
+        6657
+      ],
+      "names": [
+        "Muramana",
+        "Rod of Ages"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 68915561.63877739
     },
     {
       "itemIds": [
@@ -29,7 +57,7 @@
       "games": 10,
       "wins": 7,
       "winrate": 0.7,
-      "score": 54463113.70999868
+      "score": 54695009.2268407
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Endless Hunger",
         "Muramana"
       ],
-      "games": 10,
-      "wins": 4,
-      "winrate": 0.4,
-      "score": 43263416.12484119
-    },
-    {
-      "itemIds": [
-        2520,
-        3042
-      ],
-      "names": [
-        "Bastionbreaker",
-        "Muramana"
-      ],
-      "games": 6,
-      "wins": 4,
-      "winrate": 0.6666666666666666,
-      "score": 27703898.79437167
-    },
-    {
-      "itemIds": [
-        6694,
-        6699
-      ],
-      "names": [
-        "Serylda's Grudge",
-        "Voltaic Cyclosword"
-      ],
       "games": 11,
-      "wins": 9,
-      "winrate": 0.8181818181818182,
-      "score": 27504391.881604955
+      "wins": 4,
+      "winrate": 0.36363636363636365,
+      "score": 43246717.45236888
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Jhin-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 52747,
+      "totalGames": 59400,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,23 +93,23 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 247
-        },
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 16516
+          "purchaseSamples": 283
         },
         {
           "itemId": 3172,
           "name": "Gunmetal Greaves",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 1
+        },
+        {
+          "itemId": 3095,
+          "name": "Stormrazor",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17656
         },
         {
           "itemId": 3009,
@@ -117,7 +117,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 76825
+          "purchaseSamples": 81688
         },
         {
           "itemId": 3094,
@@ -125,7 +125,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 32945
+          "purchaseSamples": 35087
         },
         {
           "itemId": 3036,
@@ -133,22 +133,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 33251
+          "purchaseSamples": 35683
         }
       ],
       "seedPair": {
         "itemIds": [
           3032,
-          3095
+          3172
         ],
         "names": [
           "Yun Tal Wildarrows",
-          "Stormrazor"
+          "Gunmetal Greaves"
         ],
-        "games": 89,
-        "wins": 41,
-        "winrate": 0.4606741573033708,
-        "score": 103905052.59163064
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1371324786.4051201
       },
       "runes": {
         "primaryStyle": {
@@ -179,18 +179,18 @@
         },
         "secondaryPerks": [
           {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
             "id": 8009,
             "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5010,
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 89,
-        "games": 28,
-        "confidencePct": 0.3146067415730337
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
-        "role": "TOP",
-        "games": 64,
-        "sampleGames": 89,
-        "confidencePct": 0.7191011235955056
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "W",
           "E"
         ],
-        "games": 84,
-        "sampleGames": 87,
-        "confidencePct": 0.9655172413793104
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,135 @@
       "id": "Jhin-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 52747,
+      "totalGames": 59400,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 81688
+        },
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 4
+        },
+        {
+          "itemId": 3042,
+          "name": "Muramana",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3042,
+          6657
+        ],
+        "names": [
+          "Muramana",
+          "Rod of Ages"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 68915561.63877739
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8233,
+            "name": "Absolute Focus"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Jhin-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 59400,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +373,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1090
+          "purchaseSamples": 1178
         },
         {
           "itemId": 3009,
@@ -253,7 +381,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 76825
+          "purchaseSamples": 81688
         },
         {
           "itemId": 2520,
@@ -261,7 +389,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 306
+          "purchaseSamples": 318
         },
         {
           "itemId": 6694,
@@ -269,7 +397,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 86
+          "purchaseSamples": 91
         },
         {
           "itemId": 2517,
@@ -277,7 +405,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 103
+          "purchaseSamples": 109
         },
         {
           "itemId": 3042,
@@ -300,7 +428,7 @@
         "games": 10,
         "wins": 7,
         "winrate": 0.7,
-        "score": 54463113.70999868
+        "score": 54695009.2268407
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +508,10 @@
       }
     },
     {
-      "id": "Jhin-3",
-      "buildIndex": 2,
+      "id": "Jhin-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 52747,
+      "totalGames": 59400,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,7 +525,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1090
+          "purchaseSamples": 1178
         },
         {
           "itemId": 3087,
@@ -405,7 +533,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 17
+          "purchaseSamples": 18
         },
         {
           "itemId": 3095,
@@ -413,7 +541,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 16516
+          "purchaseSamples": 17656
         },
         {
           "itemId": 3009,
@@ -421,7 +549,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 76825
+          "purchaseSamples": 81688
         },
         {
           "itemId": 6676,
@@ -429,7 +557,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 37231
+          "purchaseSamples": 40098
         },
         {
           "itemId": 3036,
@@ -437,7 +565,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 33251
+          "purchaseSamples": 35683
         }
       ],
       "seedPair": {
@@ -452,7 +580,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 22453119.967328105
+        "score": 22068067.764074832
       },
       "runes": {
         "primaryStyle": {
@@ -532,162 +660,10 @@
       }
     },
     {
-      "id": "Jhin-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 52747,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3095,
-          "name": "Stormrazor",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 16516
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 76825
-        },
-        {
-          "itemId": 3508,
-          "name": "Essence Reaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 29
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 7514
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 4165
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 7,
-          "purchaseSamples": 2024
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3095,
-          3508
-        ],
-        "names": [
-          "Stormrazor",
-          "Essence Reaver"
-        ],
-        "games": 5,
-        "wins": 2,
-        "winrate": 0.4,
-        "score": 15471086.798521966
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 5,
-        "games": 3,
-        "confidencePct": 0.6
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Jhin-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 52747,
+      "totalGames": 59400,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -701,7 +677,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 76825
+          "purchaseSamples": 81688
         },
         {
           "itemId": 3814,
@@ -709,7 +685,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 813
+          "purchaseSamples": 853
         },
         {
           "itemId": 6673,
@@ -717,7 +693,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 700
+          "purchaseSamples": 749
         },
         {
           "itemId": 3026,
@@ -725,7 +701,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 4165
+          "purchaseSamples": 4505
         },
         {
           "itemId": 6665,
@@ -733,7 +709,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 7,
-          "purchaseSamples": 20
+          "purchaseSamples": 21
         },
         {
           "itemId": 3072,
@@ -741,7 +717,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 7,
-          "purchaseSamples": 2024
+          "purchaseSamples": 2190
         }
       ],
       "seedPair": {
@@ -753,10 +729,10 @@
           "Jak'Sho, The Protean",
           "Immortal Shieldbow"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 12746380.114484964
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 19204373.475515604
       },
       "runes": {
         "primaryStyle": {
@@ -809,14 +785,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 3,
+        "sampleGames": 4,
+        "games": 4,
         "confidencePct": 1
       },
       "position": {
         "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -825,8 +801,8 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +813,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 52747,
+    "totalGames": 59400,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49665383813297437,
+    "winrate": 0.49612794612794614,
     "items": [
       {
         "itemId": 6697,
@@ -852,47 +828,47 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 64145
-      },
-      {
-        "itemId": 3009,
-        "name": "Boots of Swiftness",
-        "isBoots": true,
-        "order": 2,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 76825
+        "purchaseSamples": 67418
       },
       {
         "itemId": 3046,
         "name": "Phantom Dancer",
         "isBoots": false,
-        "order": 3,
+        "order": 2,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 36312
+        "purchaseSamples": 38219
       },
       {
         "itemId": 3031,
         "name": "Infinity Edge",
         "isBoots": false,
-        "order": 4,
+        "order": 3,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 55972
+        "purchaseSamples": 59787
       },
       {
         "itemId": 3036,
         "name": "Lord Dominik's Regards",
         "isBoots": false,
-        "order": 5,
+        "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 33251
+        "purchaseSamples": 35683
       },
       {
         "itemId": 3094,
         "name": "Rapid Firecannon",
         "isBoots": false,
-        "order": 6,
+        "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 32945
+        "purchaseSamples": 35087
+      },
+      {
+        "itemId": 3170,
+        "name": "Swiftmarch",
+        "isBoots": true,
+        "order": 6,
+        "medianPurchaseOrder": null,
+        "purchaseSamples": 0
       }
     ],
     "runes": {
@@ -946,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 52747,
-      "games": 10776,
-      "confidencePct": 0.2042959789182323
+      "sampleGames": 59400,
+      "games": 12082,
+      "confidencePct": 0.2034006734006734
     },
     "position": {
       "role": "BOTTOM",
-      "games": 51931,
-      "sampleGames": 52747,
-      "confidencePct": 0.9845299258725615
+      "games": 58461,
+      "sampleGames": 59400,
+      "confidencePct": 0.9841919191919192
     },
     "skillOrder": {
       "order": [
@@ -962,9 +938,9 @@
         "W",
         "E"
       ],
-      "games": 51818,
-      "sampleGames": 52148,
-      "confidencePct": 0.9936718570223211
+      "games": 58128,
+      "sampleGames": 58522,
+      "confidencePct": 0.9932674891493797
     }
   }
 }
