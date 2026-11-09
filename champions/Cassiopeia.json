@@ -1,8 +1,22 @@
 {
   "championId": "Cassiopeia",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-08T20:27:02.807Z",
+  "generatedAt": "2026-11-09T21:24:55.296Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2065,
+        3152
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Hextech Rocketbelt"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 41865213.25832426
+    },
     {
       "itemIds": [
         2065,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 43743708.37314621
+      "score": 35007180.97977675
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 13,
       "wins": 10,
       "winrate": 0.7692307692307693,
-      "score": 19663085.76153343
+      "score": 20078892.10887136
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 10,
       "wins": 6,
       "winrate": 0.6,
-      "score": 18333788.34550738
+      "score": 19187369.08164232
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Rabadon's Deathcap",
         "Void Staff"
       ],
-      "games": 65,
-      "wins": 39,
-      "winrate": 0.6,
-      "score": 10113786.118819388
-    },
-    {
-      "itemIds": [
-        3102,
-        4633
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Riftmaker"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 9523144.185379926
+      "games": 74,
+      "wins": 46,
+      "winrate": 0.6216216216216216,
+      "score": 12114056.028922506
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Cassiopeia-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 9637,
+      "totalGames": 10976,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 3837
+          "purchaseSamples": 4002
         },
         {
           "itemId": 3170,
@@ -104,28 +104,28 @@
           "purchaseSamples": 13
         },
         {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 988
+        },
+        {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 46
+          "purchaseSamples": 52
         },
         {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1419
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 235
+          "purchaseSamples": 1531
         },
         {
           "itemId": 3102,
@@ -133,22 +133,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 311
+          "purchaseSamples": 323
         }
       ],
       "seedPair": {
         "itemIds": [
           2065,
-          8010
+          3152
         ],
         "names": [
           "Shurelya's Battlesong",
-          "Bloodletter's Curse"
+          "Hextech Rocketbelt"
         ],
         "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 43743708.37314621
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 41865213.25832426
       },
       "runes": {
         "primaryStyle": {
@@ -165,8 +165,8 @@
             "name": "Manaflow Band"
           },
           {
-            "id": 8210,
-            "name": "Transcendence"
+            "id": 8234,
+            "name": "Celerity"
           },
           {
             "id": 8237,
@@ -189,12 +189,12 @@
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5007,
+            "name": "Ability Haste"
           },
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5010,
+            "name": "Move Speed"
           },
           {
             "id": 5011,
@@ -207,19 +207,19 @@
       },
       "position": {
         "role": "UTILITY",
-        "games": 1,
+        "games": 2,
         "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
           "E",
-          "Q",
-          "W"
+          "W",
+          "Q"
         ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Cassiopeia-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 9637,
+      "totalGames": 10976,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 33
+          "purchaseSamples": 35
         },
         {
           "itemId": 3170,
@@ -261,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 63
+          "purchaseSamples": 65
         },
         {
           "itemId": 4645,
@@ -269,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 235
+          "purchaseSamples": 244
         },
         {
           "itemId": 3089,
@@ -277,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1224
+          "purchaseSamples": 1282
         },
         {
           "itemId": 3135,
@@ -285,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 676
+          "purchaseSamples": 710
         }
       ],
       "seedPair": {
@@ -300,7 +300,7 @@
         "games": 13,
         "wins": 10,
         "winrate": 0.7692307692307693,
-        "score": 19663085.76153343
+        "score": 20078892.10887136
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Cassiopeia-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 9637,
+      "totalGames": 10976,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -405,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 125
+          "purchaseSamples": 135
         },
         {
           "itemId": 3041,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 695
+          "purchaseSamples": 731
         },
         {
           "itemId": 3089,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1224
+          "purchaseSamples": 1282
         },
         {
           "itemId": 3135,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 676
+          "purchaseSamples": 710
         },
         {
           "itemId": 3102,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 311
+          "purchaseSamples": 323
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Rabadon's Deathcap",
           "Void Staff"
         ],
-        "games": 65,
-        "wins": 39,
-        "winrate": 0.6,
-        "score": 10113786.118819388
+        "games": 74,
+        "wins": 46,
+        "winrate": 0.6216216216216216,
+        "score": 12114056.028922506
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 65,
-        "games": 13,
-        "confidencePct": 0.2
+        "sampleGames": 74,
+        "games": 14,
+        "confidencePct": 0.1891891891891892
       },
       "position": {
         "role": "BOTTOM",
-        "games": 30,
-        "sampleGames": 65,
-        "confidencePct": 0.46153846153846156
+        "games": 34,
+        "sampleGames": 74,
+        "confidencePct": 0.4594594594594595
       },
       "skillOrder": {
         "order": [
@@ -521,9 +521,9 @@
           "Q",
           "W"
         ],
-        "games": 62,
-        "sampleGames": 65,
-        "confidencePct": 0.9538461538461539
+        "games": 70,
+        "sampleGames": 73,
+        "confidencePct": 0.958904109589041
       },
       "asWholeSet": {
         "games": 0,
@@ -535,7 +535,7 @@
       "id": "Cassiopeia-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 9637,
+      "totalGames": 10976,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 180
+          "purchaseSamples": 188
         },
         {
           "itemId": 3041,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 695
+          "purchaseSamples": 731
         },
         {
           "itemId": 3102,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 311
+          "purchaseSamples": 323
         },
         {
           "itemId": 3137,
@@ -581,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 279
+          "purchaseSamples": 292
         },
         {
           "itemId": 3089,
@@ -589,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1224
+          "purchaseSamples": 1282
         }
       ],
       "seedPair": {
@@ -604,7 +604,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 5134236.944467456
+        "score": 5129940.0897857025
       },
       "runes": {
         "primaryStyle": {
@@ -685,14 +685,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 9637,
+    "totalGames": 10976,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4966275811974681,
+    "winrate": 0.49972667638483964,
     "items": [
       {
         "itemId": 6657,
@@ -700,7 +700,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 10192
+        "purchaseSamples": 10804
       },
       {
         "itemId": 3170,
@@ -716,7 +716,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 10238
+        "purchaseSamples": 10811
       },
       {
         "itemId": 6653,
@@ -724,7 +724,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4499
+        "purchaseSamples": 4721
       },
       {
         "itemId": 3157,
@@ -732,7 +732,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3137
+        "purchaseSamples": 3277
       },
       {
         "itemId": 3040,
@@ -794,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 9637,
-      "games": 1735,
-      "confidencePct": 0.1800352806890111
+      "sampleGames": 10976,
+      "games": 1904,
+      "confidencePct": 0.17346938775510204
     },
     "position": {
       "role": "MIDDLE",
-      "games": 5364,
-      "sampleGames": 9637,
-      "confidencePct": 0.5566047525163432
+      "games": 6104,
+      "sampleGames": 10976,
+      "confidencePct": 0.5561224489795918
     },
     "skillOrder": {
       "order": [
@@ -810,9 +810,9 @@
         "Q",
         "W"
       ],
-      "games": 9129,
-      "sampleGames": 9539,
-      "confidencePct": 0.9570185554041304
+      "games": 10060,
+      "sampleGames": 10509,
+      "confidencePct": 0.9572747169093159
     }
   }
 }
