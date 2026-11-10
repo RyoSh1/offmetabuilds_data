@@ -1,8 +1,22 @@
 {
   "championId": "Vayne",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-09T21:24:55.296Z",
+  "generatedAt": "2026-11-10T22:58:50.266Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2520,
+        3179
+      ],
+      "names": [
+        "Bastionbreaker",
+        "Umbral Glaive"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 899850466.2470989
+    },
     {
       "itemIds": [
         2504,
@@ -12,10 +26,24 @@
         "Kaenic Rookern",
         "Randuin's Omen"
       ],
-      "games": 44,
-      "wins": 21,
-      "winrate": 0.4772727272727273,
-      "score": 208533276.7399789
+      "games": 45,
+      "wins": 22,
+      "winrate": 0.4888888888888889,
+      "score": 239646798.26958725
+    },
+    {
+      "itemIds": [
+        2524,
+        6662
+      ],
+      "names": [
+        "Bandlepipes",
+        "Iceborn Gauntlet"
+      ],
+      "games": 45,
+      "wins": 29,
+      "winrate": 0.6444444444444445,
+      "score": 97110417.34330803
     },
     {
       "itemIds": [
@@ -29,21 +57,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 107387851.18162902
-    },
-    {
-      "itemIds": [
-        2524,
-        6662
-      ],
-      "names": [
-        "Bandlepipes",
-        "Iceborn Gauntlet"
-      ],
-      "games": 39,
-      "wins": 24,
-      "winrate": 0.6153846153846154,
-      "score": 95481682.271429
+      "score": 87671652.29816447
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 38380425.83535213
-    },
-    {
-      "itemIds": [
-        3172,
-        6676
-      ],
-      "names": [
-        "Gunmetal Greaves",
-        "The Collector"
-      ],
-      "games": 16,
-      "wins": 8,
-      "winrate": 0.5,
-      "score": 37206380.51175274
+      "score": 39214899.721519716
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Vayne-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10754,
+      "totalGames": 11616,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,159 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 12384
+          "purchaseSamples": 12880
+        },
+        {
+          "itemId": 3179,
+          "name": "Umbral Glaive",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 208
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 390
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 301
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 10
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 238
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2520,
+          3179
+        ],
+        "names": [
+          "Bastionbreaker",
+          "Umbral Glaive"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 899850466.2470989
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8140,
+            "name": "Grisly Mementos"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 2,
+        "confidencePct": 0.5
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "asWholeSet": {
+        "games": 2,
+        "wins": 1,
+        "winrate": 0.5
+      }
+    },
+    {
+      "id": "Vayne-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11616,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 12880
         },
         {
           "itemId": 3172,
@@ -109,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 148
+          "purchaseSamples": 152
         },
         {
           "itemId": 3046,
@@ -117,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 685
+          "purchaseSamples": 711
         },
         {
           "itemId": 2510,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 90
+          "purchaseSamples": 91
         },
         {
           "itemId": 3143,
@@ -133,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 587
+          "purchaseSamples": 598
         }
       ],
       "seedPair": {
@@ -145,10 +297,10 @@
           "Kaenic Rookern",
           "Randuin's Omen"
         ],
-        "games": 44,
-        "wins": 21,
-        "winrate": 0.4772727272727273,
-        "score": 208533276.7399789
+        "games": 45,
+        "wins": 22,
+        "winrate": 0.4888888888888889,
+        "score": 239646798.26958725
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 44,
+        "sampleGames": 45,
         "games": 36,
-        "confidencePct": 0.8181818181818182
+        "confidencePct": 0.8
       },
       "position": {
         "role": "JUNGLE",
         "games": 32,
-        "sampleGames": 44,
-        "confidencePct": 0.7272727272727273
+        "sampleGames": 45,
+        "confidencePct": 0.7111111111111111
       },
       "skillOrder": {
         "order": [
@@ -218,8 +370,8 @@
           "E"
         ],
         "games": 38,
-        "sampleGames": 43,
-        "confidencePct": 0.8837209302325582
+        "sampleGames": 44,
+        "confidencePct": 0.8636363636363636
       },
       "asWholeSet": {
         "games": 0,
@@ -228,10 +380,162 @@
       }
     },
     {
-      "id": "Vayne-2",
-      "buildIndex": 1,
+      "id": "Vayne-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10754,
+      "totalGames": 11616,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6662,
+          "name": "Iceborn Gauntlet",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 116
+        },
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 12880
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 47
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 3302,
+          "name": "Terminus",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3866
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 598
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2524,
+          6662
+        ],
+        "names": [
+          "Bandlepipes",
+          "Iceborn Gauntlet"
+        ],
+        "games": 45,
+        "wins": 29,
+        "winrate": 0.6444444444444445,
+        "score": 97110417.34330803
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 45,
+        "games": 21,
+        "confidencePct": 0.4666666666666667
+      },
+      "position": {
+        "role": "TOP",
+        "games": 35,
+        "sampleGames": 45,
+        "confidencePct": 0.7777777777777778
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 43,
+        "sampleGames": 43,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Vayne-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 11616,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +549,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 12384
+          "purchaseSamples": 12880
         },
         {
           "itemId": 3078,
@@ -253,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2968
+          "purchaseSamples": 3096
         },
         {
           "itemId": 3161,
@@ -261,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 82
+          "purchaseSamples": 85
         },
         {
           "itemId": 3071,
@@ -269,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 101
+          "purchaseSamples": 106
         },
         {
           "itemId": 2501,
@@ -277,15 +581,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4
+          "purchaseSamples": 5
         },
         {
-          "itemId": 3046,
-          "name": "Phantom Dancer",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 685
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1494
         }
       ],
       "seedPair": {
@@ -300,7 +604,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 107387851.18162902
+        "score": 87671652.29816447
       },
       "runes": {
         "primaryStyle": {
@@ -374,168 +678,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Vayne-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 10754,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 103
-        },
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 12384
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 43
-        },
-        {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 17
-        },
-        {
-          "itemId": 3302,
-          "name": "Terminus",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3757
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 587
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2524,
-          6662
-        ],
-        "names": [
-          "Bandlepipes",
-          "Iceborn Gauntlet"
-        ],
-        "games": 39,
-        "wins": 24,
-        "winrate": 0.6153846153846154,
-        "score": 95481682.271429
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 39,
-        "games": 21,
-        "confidencePct": 0.5384615384615384
-      },
-      "position": {
-        "role": "TOP",
-        "games": 32,
-        "sampleGames": 39,
-        "confidencePct": 0.8205128205128205
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 39,
-        "sampleGames": 39,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
         "games": 0,
         "wins": 0,
         "winrate": null
       }
     },
     {
-      "id": "Vayne-4",
-      "buildIndex": 3,
+      "id": "Vayne-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10754,
+      "totalGames": 11616,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -549,7 +701,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 12384
+          "purchaseSamples": 12880
         },
         {
           "itemId": 3172,
@@ -565,7 +717,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 291
+          "purchaseSamples": 301
         },
         {
           "itemId": 3814,
@@ -573,7 +725,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 378
+          "purchaseSamples": 390
         },
         {
           "itemId": 3094,
@@ -581,7 +733,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 107
+          "purchaseSamples": 109
         },
         {
           "itemId": 6699,
@@ -589,7 +741,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 232
+          "purchaseSamples": 238
         }
       ],
       "seedPair": {
@@ -604,7 +756,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 38380425.83535213
+        "score": 39214899.721519716
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Vayne-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 10754,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 12384
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 201
-        },
-        {
-          "itemId": 3814,
-          "name": "Edge of Night",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 378
-        },
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 90
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 232
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2510,
-          3172
-        ],
-        "names": [
-          "Dusk and Dawn",
-          "Gunmetal Greaves"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 34839984.46384101
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 10754,
+    "totalGames": 11616,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.491352055049284,
+    "winrate": 0.4919077134986226,
     "items": [
       {
         "itemId": 6672,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4608
+        "purchaseSamples": 4726
       },
       {
         "itemId": 3006,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 12384
+        "purchaseSamples": 12880
       },
       {
         "itemId": 3153,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 4966
+        "purchaseSamples": 5149
       },
       {
         "itemId": 3073,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 4272
+        "purchaseSamples": 4537
       },
       {
         "itemId": 3124,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6916
+        "purchaseSamples": 7109
       },
       {
         "itemId": 3302,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3757
+        "purchaseSamples": 3866
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10754,
-      "games": 2359,
-      "confidencePct": 0.21936023805095778
+      "sampleGames": 11616,
+      "games": 2527,
+      "confidencePct": 0.2175447658402204
     },
     "position": {
       "role": "BOTTOM",
-      "games": 5234,
-      "sampleGames": 10754,
-      "confidencePct": 0.4867026222800818
+      "games": 5517,
+      "sampleGames": 11616,
+      "confidencePct": 0.474948347107438
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 9718,
-      "sampleGames": 10618,
-      "confidencePct": 0.9152382746279902
+      "games": 10407,
+      "sampleGames": 11388,
+      "confidencePct": 0.9138566912539515
     }
   }
 }

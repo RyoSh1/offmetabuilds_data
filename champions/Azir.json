@@ -1,8 +1,36 @@
 {
   "championId": "Azir",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-09T21:24:55.296Z",
+  "generatedAt": "2026-11-10T22:58:50.266Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3110,
+        6653
+      ],
+      "names": [
+        "Frozen Heart",
+        "Liandry's Torment"
+      ],
+      "games": 6,
+      "wins": 2,
+      "winrate": 0.3333333333333333,
+      "score": 6704000.023956175
+    },
+    {
+      "itemIds": [
+        3102,
+        8010
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Bloodletter's Curse"
+      ],
+      "games": 11,
+      "wins": 8,
+      "winrate": 0.7272727272727273,
+      "score": 5956556.330310247
+    },
     {
       "itemIds": [
         2504,
@@ -15,7 +43,7 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 4253806.475511757
+      "score": 4534689.401635942
     },
     {
       "itemIds": [
@@ -29,21 +57,7 @@
       "games": 20,
       "wins": 13,
       "winrate": 0.65,
-      "score": 4046391.765387364
-    },
-    {
-      "itemIds": [
-        3110,
-        6653
-      ],
-      "names": [
-        "Frozen Heart",
-        "Liandry's Torment"
-      ],
-      "games": 5,
-      "wins": 1,
-      "winrate": 0.2,
-      "score": 3514529.0593479523
+      "score": 4115928.091367767
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 14,
       "wins": 7,
       "winrate": 0.5,
-      "score": 2799877.9131965246
-    },
-    {
-      "itemIds": [
-        4633,
-        8010
-      ],
-      "names": [
-        "Riftmaker",
-        "Bloodletter's Curse"
-      ],
-      "games": 15,
-      "wins": 10,
-      "winrate": 0.6666666666666666,
-      "score": 2357713.3781041377
+      "score": 2942407.2818398094
     }
   ],
   "builds": [
@@ -79,7 +79,311 @@
       "id": "Azir-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 7241,
+      "totalGames": 7814,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1152
+        },
+        {
+          "itemId": 4633,
+          "name": "Riftmaker",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 163
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 432
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3110,
+          6653
+        ],
+        "names": [
+          "Frozen Heart",
+          "Liandry's Torment"
+        ],
+        "games": 6,
+        "wins": 2,
+        "winrate": 0.3333333333333333,
+        "score": 6704000.023956175
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 5,
+        "confidencePct": 0.8333333333333334
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 1,
+        "wins": 1,
+        "winrate": 1
+      }
+    },
+    {
+      "id": "Azir-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 7814,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1578
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 30
+        },
+        {
+          "itemId": 2503,
+          "name": "Blackfire Torch",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 44
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 792
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 617
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 432
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          8010
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Bloodletter's Curse"
+        ],
+        "games": 11,
+        "wins": 8,
+        "winrate": 0.7272727272727273,
+        "score": 5956556.330310247
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 11,
+        "games": 4,
+        "confidencePct": 0.36363636363636365
+      },
+      "position": {
+        "role": "TOP",
+        "games": 6,
+        "sampleGames": 11,
+        "confidencePct": 0.5454545454545454
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 11,
+        "sampleGames": 11,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Azir-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 7814,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -92,8 +396,8 @@
           "name": "Stormsurge",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 735
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 748
         },
         {
           "itemId": 3175,
@@ -109,31 +413,31 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 769
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 596
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 20
+          "purchaseSamples": 792
         },
         {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1463
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 617
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1427
+          "purchaseSamples": 20
         }
       ],
       "seedPair": {
@@ -148,7 +452,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 4253806.475511757
+        "score": 4534689.401635942
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +532,10 @@
       }
     },
     {
-      "id": "Azir-2",
-      "buildIndex": 1,
+      "id": "Azir-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 7241,
+      "totalGames": 7814,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,23 +549,23 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 65
-        },
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 455
+          "purchaseSamples": 69
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 748
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 735
+          "purchaseSamples": 464
         },
         {
           "itemId": 3175,
@@ -272,20 +576,20 @@
           "purchaseSamples": 30
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 596
-        },
-        {
           "itemId": 3135,
           "name": "Void Staff",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 1463
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1427
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 617
         }
       ],
       "seedPair": {
@@ -300,7 +604,7 @@
         "games": 20,
         "wins": 13,
         "winrate": 0.65,
-        "score": 4046391.765387364
+        "score": 4115928.091367767
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +684,10 @@
       }
     },
     {
-      "id": "Azir-3",
-      "buildIndex": 2,
+      "id": "Azir-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 7241,
+      "totalGames": 7814,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -392,67 +696,67 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 1
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
           "purchaseSamples": 30
-        },
-        {
-          "itemId": 3110,
-          "name": "Frozen Heart",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 16
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1101
         },
         {
           "itemId": 4633,
           "name": "Riftmaker",
           "isBoots": false,
-          "order": 5,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 154
+          "purchaseSamples": 163
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 1152
         },
         {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 432
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 617
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 418
+          "purchaseSamples": 490
         }
       ],
       "seedPair": {
         "itemIds": [
-          3110,
-          6653
+          4633,
+          8010
         ],
         "names": [
-          "Frozen Heart",
-          "Liandry's Torment"
+          "Riftmaker",
+          "Bloodletter's Curse"
         ],
-        "games": 5,
-        "wins": 1,
-        "winrate": 0.2,
-        "score": 3514529.0593479523
+        "games": 15,
+        "wins": 10,
+        "winrate": 0.6666666666666666,
+        "score": 2357705.9368826714
       },
       "runes": {
         "primaryStyle": {
@@ -505,167 +809,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
+        "sampleGames": 15,
         "games": 4,
-        "confidencePct": 0.8
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 5,
-        "confidencePct": 0.6
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 5,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
-      "id": "Azir-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 7241,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2510,
-          "name": "Dusk and Dawn",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1515
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 43
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 769
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 418
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 596
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2503,
-          8010
-        ],
-        "names": [
-          "Blackfire Torch",
-          "Bloodletter's Curse"
-        ],
-        "games": 14,
-        "wins": 7,
-        "winrate": 0.5,
-        "score": 2799877.9131965246
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 14,
-        "games": 7,
-        "confidencePct": 0.5
+        "confidencePct": 0.26666666666666666
       },
       "position": {
         "role": "MIDDLE",
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
+        "games": 11,
+        "sampleGames": 15,
+        "confidencePct": 0.7333333333333333
       },
       "skillOrder": {
         "order": [
@@ -673,8 +825,8 @@
           "Q",
           "E"
         ],
-        "games": 14,
-        "sampleGames": 14,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -682,153 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Azir-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 7241,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 553
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3132
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4628,
-          4629
-        ],
-        "names": [
-          "Horizon Focus",
-          "Cosmic Drive"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 1715827.5010141963
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 7241,
+    "totalGames": 7814,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4846015743681812,
+    "winrate": 0.4838750959815715,
     "items": [
       {
         "itemId": 3115,
@@ -836,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 10691
+        "purchaseSamples": 11098
       },
       {
         "itemId": 3175,
@@ -852,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6543
+        "purchaseSamples": 6762
       },
       {
         "itemId": 3089,
@@ -860,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4141
+        "purchaseSamples": 4241
       },
       {
         "itemId": 3157,
@@ -868,15 +884,15 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 3132
+        "purchaseSamples": 3282
       },
       {
         "itemId": 3135,
         "name": "Void Staff",
         "isBoots": false,
         "order": 6,
-        "medianPurchaseOrder": 5,
-        "purchaseSamples": 1427
+        "medianPurchaseOrder": 4,
+        "purchaseSamples": 1463
       }
     ],
     "runes": {
@@ -930,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 7241,
-      "games": 1220,
-      "confidencePct": 0.16848501588178427
+      "sampleGames": 7814,
+      "games": 1308,
+      "confidencePct": 0.16739186076273355
     },
     "position": {
       "role": "MIDDLE",
-      "games": 6125,
-      "sampleGames": 7241,
-      "confidencePct": 0.8458776412097777
+      "games": 6600,
+      "sampleGames": 7814,
+      "confidencePct": 0.844637829536729
     },
     "skillOrder": {
       "order": [
@@ -946,9 +962,9 @@
         "Q",
         "E"
       ],
-      "games": 7011,
-      "sampleGames": 7125,
-      "confidencePct": 0.984
+      "games": 7489,
+      "sampleGames": 7609,
+      "confidencePct": 0.984229202260481
     }
   }
 }
