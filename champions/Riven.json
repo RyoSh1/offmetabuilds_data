@@ -1,8 +1,22 @@
 {
   "championId": "Riven",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-10T22:58:50.266Z",
+  "generatedAt": "2026-11-11T21:48:32.570Z",
   "corePairs": [
+    {
+      "itemIds": [
+        6673,
+        6697
+      ],
+      "names": [
+        "Immortal Shieldbow",
+        "Hubris"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 105853950.62362595
+    },
     {
       "itemIds": [
         3050,
@@ -15,21 +29,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 85240880.4346378
-    },
-    {
-      "itemIds": [
-        6673,
-        6697
-      ],
-      "names": [
-        "Immortal Shieldbow",
-        "Hubris"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 77036073.20259057
+      "score": 89681351.29559685
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 62475885.541485675
+      "score": 62433824.04235113
     },
     {
       "itemIds": [
@@ -54,24 +54,24 @@
         "Infinity Edge",
         "Immortal Shieldbow"
       ],
-      "games": 4,
-      "wins": 3,
-      "winrate": 0.75,
-      "score": 21611784.01068178
+      "games": 5,
+      "wins": 4,
+      "winrate": 0.8,
+      "score": 26755325.936137393
     },
     {
       "itemIds": [
-        3033,
-        6697
+        3179,
+        6694
       ],
       "names": [
-        "Mortal Reminder",
-        "Hubris"
+        "Umbral Glaive",
+        "Serylda's Grudge"
       ],
-      "games": 17,
-      "wins": 12,
-      "winrate": 0.7058823529411765,
-      "score": 20348909.546591286
+      "games": 51,
+      "wins": 34,
+      "winrate": 0.6666666666666666,
+      "score": 21572186.346636396
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Riven-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11513,
+      "totalGames": 12284,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 344
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 11719
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 978
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 812
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6673,
+          6697
+        ],
+        "names": [
+          "Immortal Shieldbow",
+          "Hubris"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 105853950.62362595
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Riven-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 12284,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1613
+          "purchaseSamples": 1640
         },
         {
           "itemId": 6696,
@@ -101,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7094
+          "purchaseSamples": 7221
         },
         {
           "itemId": 3158,
@@ -109,7 +261,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11338
+          "purchaseSamples": 11719
         },
         {
           "itemId": 3050,
@@ -125,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 4621
+          "purchaseSamples": 4753
         },
         {
           "itemId": 3036,
@@ -133,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2056
+          "purchaseSamples": 2128
         }
       ],
       "seedPair": {
@@ -148,7 +300,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 85240880.4346378
+        "score": 89681351.29559685
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +380,10 @@
       }
     },
     {
-      "id": "Riven-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 11513,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6697,
-          "name": "Hubris",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 325
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 11338
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 920
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 34
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 789
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6673,
-          6697
-        ],
-        "names": [
-          "Immortal Shieldbow",
-          "Hubris"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 77036073.20259057
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Riven-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11513,
+      "totalGames": 12284,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1613
+          "purchaseSamples": 1640
         },
         {
           "itemId": 6697,
@@ -405,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 325
+          "purchaseSamples": 344
         },
         {
           "itemId": 3158,
@@ -413,7 +413,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11338
+          "purchaseSamples": 11719
         },
         {
           "itemId": 6694,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 835
+          "purchaseSamples": 856
         },
         {
           "itemId": 3065,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 34
+          "purchaseSamples": 36
         },
         {
           "itemId": 3026,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 789
+          "purchaseSamples": 812
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Umbral Glaive",
           "Serylda's Grudge"
         ],
-        "games": 50,
-        "wins": 33,
-        "winrate": 0.66,
-        "score": 20077377.331655413
+        "games": 51,
+        "wins": 34,
+        "winrate": 0.6666666666666666,
+        "score": 21572186.346636396
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +505,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 50,
-        "games": 15,
-        "confidencePct": 0.3
+        "sampleGames": 51,
+        "games": 16,
+        "confidencePct": 0.3137254901960784
       },
       "position": {
         "role": "JUNGLE",
         "games": 32,
-        "sampleGames": 50,
-        "confidencePct": 0.64
+        "sampleGames": 51,
+        "confidencePct": 0.6274509803921569
       },
       "skillOrder": {
         "order": [
@@ -521,9 +521,9 @@
           "E",
           "W"
         ],
-        "games": 49,
-        "sampleGames": 50,
-        "confidencePct": 0.98
+        "games": 50,
+        "sampleGames": 51,
+        "confidencePct": 0.9803921568627451
       },
       "asWholeSet": {
         "games": 0,
@@ -535,7 +535,159 @@
       "id": "Riven-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 11513,
+      "totalGames": 12284,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 344
+        },
+        {
+          "itemId": 3158,
+          "name": "Ionian Boots of Lucidity",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 11719
+        },
+        {
+          "itemId": 6676,
+          "name": "The Collector",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 978
+        },
+        {
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 51
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3031,
+          6676
+        ],
+        "names": [
+          "Infinity Edge",
+          "The Collector"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 20676760.378881164
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Riven-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 12284,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -549,7 +701,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1613
+          "purchaseSamples": 1640
         },
         {
           "itemId": 6697,
@@ -557,7 +709,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 325
+          "purchaseSamples": 344
         },
         {
           "itemId": 2520,
@@ -565,7 +717,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 403
+          "purchaseSamples": 420
         },
         {
           "itemId": 3158,
@@ -573,7 +725,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 11338
+          "purchaseSamples": 11719
         },
         {
           "itemId": 6699,
@@ -581,7 +733,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 553
+          "purchaseSamples": 579
         },
         {
           "itemId": 3036,
@@ -589,7 +741,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2056
+          "purchaseSamples": 2128
         }
       ],
       "seedPair": {
@@ -601,10 +753,10 @@
           "Bastionbreaker",
           "Voltaic Cyclosword"
         ],
-        "games": 87,
-        "wins": 52,
-        "winrate": 0.5977011494252874,
-        "score": 17887585.142868306
+        "games": 98,
+        "wins": 58,
+        "winrate": 0.5918367346938775,
+        "score": 18877080.674022827
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +809,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 87,
-        "games": 39,
-        "confidencePct": 0.4482758620689655
+        "sampleGames": 98,
+        "games": 46,
+        "confidencePct": 0.46938775510204084
       },
       "position": {
         "role": "TOP",
-        "games": 38,
-        "sampleGames": 87,
-        "confidencePct": 0.4367816091954023
+        "games": 43,
+        "sampleGames": 98,
+        "confidencePct": 0.4387755102040816
       },
       "skillOrder": {
         "order": [
@@ -673,161 +825,9 @@
           "E",
           "W"
         ],
-        "games": 79,
-        "sampleGames": 83,
-        "confidencePct": 0.9518072289156626
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Riven-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 11513,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 11338
-        },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 789
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 920
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 54
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 83
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 789
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3053,
-          3161
-        ],
-        "names": [
-          "Sterak's Gage",
-          "Spear of Shojin"
-        ],
-        "games": 6,
-        "wins": 4,
-        "winrate": 0.6666666666666666,
-        "score": 12516900.105944881
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "TOP",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 5,
-        "confidencePct": 0.8
+        "games": 88,
+        "sampleGames": 92,
+        "confidencePct": 0.9565217391304348
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 11513,
+    "totalGames": 12284,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5208894293407452,
+    "winrate": 0.5210029306414848,
     "items": [
       {
         "itemId": 6696,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7094
+        "purchaseSamples": 7221
       },
       {
         "itemId": 6692,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4291
+        "purchaseSamples": 4411
       },
       {
         "itemId": 3158,
@@ -868,7 +868,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 11338
+        "purchaseSamples": 11719
       },
       {
         "itemId": 2517,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12032
+        "purchaseSamples": 12393
       },
       {
         "itemId": 6333,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 13265
+        "purchaseSamples": 13692
       },
       {
         "itemId": 3156,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4621
+        "purchaseSamples": 4753
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 11513,
-      "games": 7742,
-      "confidencePct": 0.6724572222704769
+      "sampleGames": 12284,
+      "games": 8257,
+      "confidencePct": 0.6721751872354282
     },
     "position": {
       "role": "TOP",
-      "games": 7618,
-      "sampleGames": 11513,
-      "confidencePct": 0.66168678884739
+      "games": 8135,
+      "sampleGames": 12284,
+      "confidencePct": 0.6622435688700749
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "E",
         "W"
       ],
-      "games": 10744,
-      "sampleGames": 11277,
-      "confidencePct": 0.9527356566462711
+      "games": 11322,
+      "sampleGames": 11887,
+      "confidencePct": 0.9524690838731388
     }
   }
 }

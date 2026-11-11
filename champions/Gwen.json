@@ -1,7 +1,7 @@
 {
   "championId": "Gwen",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-10T22:58:50.266Z",
+  "generatedAt": "2026-11-11T21:48:32.570Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Statikk Shiv",
         "Hextech Gunblade"
       ],
-      "games": 7,
+      "games": 8,
       "wins": 4,
-      "winrate": 0.5714285714285714,
-      "score": 353439395.7405423
+      "winrate": 0.5,
+      "score": 341745128.5450368
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 6,
       "wins": 3,
       "winrate": 0.5,
-      "score": 52143199.9548802
+      "score": 51606811.23146138
+    },
+    {
+      "itemIds": [
+        3100,
+        4646
+      ],
+      "names": [
+        "Lich Bane",
+        "Stormsurge"
+      ],
+      "games": 116,
+      "wins": 71,
+      "winrate": 0.6120689655172413,
+      "score": 35697521.45366622
     },
     {
       "itemIds": [
@@ -40,38 +54,24 @@
         "Lich Bane",
         "Malignance"
       ],
-      "games": 164,
-      "wins": 91,
-      "winrate": 0.5548780487804879,
-      "score": 30311253.380743522
+      "games": 204,
+      "wins": 115,
+      "winrate": 0.5637254901960784,
+      "score": 35327235.780206636
     },
     {
       "itemIds": [
-        3102,
+        3135,
         4646
       ],
       "names": [
-        "Banshee's Veil",
+        "Void Staff",
         "Stormsurge"
       ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 20745254.37417389
-    },
-    {
-      "itemIds": [
-        3100,
-        3102
-      ],
-      "names": [
-        "Lich Bane",
-        "Banshee's Veil"
-      ],
-      "games": 36,
-      "wins": 27,
-      "winrate": 0.75,
-      "score": 17601692.311733343
+      "games": 132,
+      "wins": 93,
+      "winrate": 0.7045454545454546,
+      "score": 22866086.00287278
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Gwen-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13221,
+      "totalGames": 14189,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1783
+          "purchaseSamples": 1817
         },
         {
           "itemId": 3047,
@@ -101,39 +101,39 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5926
+          "purchaseSamples": 6132
         },
         {
           "itemId": 3146,
           "name": "Hextech Gunblade",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 8917
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 3062
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 46
         },
         {
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 22
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9085
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 20
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3125
         }
       ],
       "seedPair": {
@@ -145,10 +145,10 @@
           "Statikk Shiv",
           "Hextech Gunblade"
         ],
-        "games": 7,
+        "games": 8,
         "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 353439395.7405423
+        "winrate": 0.5,
+        "score": 341745128.5450368
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
+        "sampleGames": 8,
+        "games": 4,
+        "confidencePct": 0.5
       },
       "position": {
         "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 5,
+        "sampleGames": 8,
+        "confidencePct": 0.625
       },
       "skillOrder": {
         "order": [
@@ -217,8 +217,8 @@
           "E",
           "W"
         ],
-        "games": 6,
-        "sampleGames": 6,
+        "games": 8,
+        "sampleGames": 8,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -231,7 +231,7 @@
       "id": "Gwen-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 13221,
+      "totalGames": 14189,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1783
+          "purchaseSamples": 1817
         },
         {
           "itemId": 3047,
@@ -253,7 +253,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5926
+          "purchaseSamples": 6132
         },
         {
           "itemId": 3118,
@@ -261,15 +261,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 632
+          "purchaseSamples": 644
         },
         {
-          "itemId": 3146,
-          "name": "Hextech Gunblade",
+          "itemId": 4646,
+          "name": "Stormsurge",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 41
+          "purchaseSamples": 470
         },
         {
           "itemId": 3041,
@@ -277,45 +277,59 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 796
+          "purchaseSamples": 825
         },
         {
-          "itemId": 3135,
-          "name": "Void Staff",
+          "itemId": 3102,
+          "name": "Banshee's Veil",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 3062
+          "purchaseSamples": 363
         }
       ],
       "seedPair": {
         "itemIds": [
           3100,
-          3118
+          4646
         ],
         "names": [
           "Lich Bane",
-          "Malignance"
+          "Stormsurge"
         ],
-        "games": 164,
-        "wins": 91,
-        "winrate": 0.5548780487804879,
-        "score": 30311253.380743522
+        "games": 116,
+        "wins": 71,
+        "winrate": 0.6120689655172413,
+        "score": 35697521.45366622
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 8369,
+          "name": "First Strike"
         },
         "primaryPerks": [
           {
-            "id": 8275,
-            "name": "Nimbus Cloak"
+            "id": 8321,
+            "name": "Cash Back"
           },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
           {
             "id": 8233,
             "name": "Absolute Focus"
@@ -323,20 +337,6 @@
           {
             "id": 8236,
             "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
@@ -353,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 164,
-        "games": 43,
-        "confidencePct": 0.2621951219512195
+        "sampleGames": 116,
+        "games": 19,
+        "confidencePct": 0.16379310344827586
       },
       "position": {
         "role": "MIDDLE",
-        "games": 117,
-        "sampleGames": 164,
-        "confidencePct": 0.7134146341463414
+        "games": 46,
+        "sampleGames": 116,
+        "confidencePct": 0.39655172413793105
       },
       "skillOrder": {
         "order": [
@@ -369,8 +369,8 @@
           "E",
           "W"
         ],
-        "games": 164,
-        "sampleGames": 164,
+        "games": 105,
+        "sampleGames": 105,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -383,7 +383,7 @@
       "id": "Gwen-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 13221,
+      "totalGames": 14189,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1783
+          "purchaseSamples": 1817
         },
         {
           "itemId": 3047,
@@ -405,76 +405,76 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5926
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 632
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 464
+          "purchaseSamples": 6132
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 796
+          "purchaseSamples": 825
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 3125
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 355
+          "purchaseSamples": 3132
         }
       ],
       "seedPair": {
         "itemIds": [
-          3102,
-          4646
+          3041,
+          8020
         ],
         "names": [
-          "Banshee's Veil",
-          "Stormsurge"
+          "Mejai's Soulstealer",
+          "Abyssal Mask"
         ],
-        "games": 8,
-        "wins": 6,
-        "winrate": 0.75,
-        "score": 20745254.37417389
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 19647733.29966887
       },
       "runes": {
         "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8000,
+          "name": "Precision"
         },
         "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
+          "id": 8010,
+          "name": "Conqueror"
         },
         "primaryPerks": [
           {
-            "id": 8226,
-            "name": "Manaflow Band"
+            "id": 9111,
+            "name": "Triumph"
           },
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 9105,
+            "name": "Legend: Haste"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8299,
+            "name": "Last Stand"
           }
         ],
         "subStyle": {
@@ -487,8 +487,8 @@
             "name": "Magical Footwear"
           },
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
+            "id": 8410,
+            "name": "Approach Velocity"
           }
         ],
         "statPerks": [
@@ -497,23 +497,23 @@
             "name": "Attack Speed"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
             "id": 5001,
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 8,
-        "games": 2,
-        "confidencePct": 0.25
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 8,
-        "confidencePct": 0.5
+        "role": "JUNGLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -521,9 +521,9 @@
           "E",
           "W"
         ],
-        "games": 7,
-        "sampleGames": 8,
-        "confidencePct": 0.875
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -535,7 +535,7 @@
       "id": "Gwen-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 13221,
+      "totalGames": 14189,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1783
+          "purchaseSamples": 1817
         },
         {
           "itemId": 3047,
@@ -557,7 +557,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5926
+          "purchaseSamples": 6132
         },
         {
           "itemId": 3152,
@@ -565,23 +565,23 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 68
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 796
+          "purchaseSamples": 72
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 470
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 464
+          "purchaseSamples": 825
         },
         {
           "itemId": 3135,
@@ -589,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 3062
+          "purchaseSamples": 3125
         }
       ],
       "seedPair": {
@@ -601,10 +601,10 @@
           "Lich Bane",
           "Hextech Rocketbelt"
         ],
-        "games": 10,
-        "wins": 7,
-        "winrate": 0.7,
-        "score": 13563692.890185082
+        "games": 12,
+        "wins": 8,
+        "winrate": 0.6666666666666666,
+        "score": 14936963.217223236
       },
       "runes": {
         "primaryStyle": {
@@ -657,15 +657,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
+        "sampleGames": 12,
         "games": 3,
-        "confidencePct": 0.3
+        "confidencePct": 0.25
       },
       "position": {
         "role": "MIDDLE",
-        "games": 6,
-        "sampleGames": 10,
-        "confidencePct": 0.6
+        "games": 7,
+        "sampleGames": 12,
+        "confidencePct": 0.5833333333333334
       },
       "skillOrder": {
         "order": [
@@ -673,160 +673,8 @@
           "E",
           "W"
         ],
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Gwen-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 13221,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3100,
-          "name": "Lich Bane",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1783
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5926
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 796
-        },
-        {
-          "itemId": 3137,
-          "name": "Cryptbloom",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 126
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 117
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 3025
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3137,
-          3143
-        ],
-        "names": [
-          "Cryptbloom",
-          "Randuin's Omen"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 5335033.050322586
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8242,
-            "name": "Unflinching"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 12,
+        "sampleGames": 12,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +685,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 13221,
+    "totalGames": 14189,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5130474245518494,
+    "winrate": 0.5129325533864261,
     "items": [
       {
         "itemId": 2510,
@@ -852,7 +700,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 16524
+        "purchaseSamples": 16970
       },
       {
         "itemId": 4633,
@@ -860,7 +708,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 6860
+        "purchaseSamples": 7246
       },
       {
         "itemId": 3020,
@@ -868,7 +716,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 8394
+        "purchaseSamples": 8588
       },
       {
         "itemId": 4645,
@@ -876,7 +724,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12654
+        "purchaseSamples": 12918
       },
       {
         "itemId": 3089,
@@ -884,7 +732,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 8917
+        "purchaseSamples": 9085
       },
       {
         "itemId": 3135,
@@ -892,7 +740,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 3062
+        "purchaseSamples": 3125
       }
     ],
     "runes": {
@@ -946,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 13221,
-      "games": 1974,
-      "confidencePct": 0.14930791921942366
+      "sampleGames": 14189,
+      "games": 2136,
+      "confidencePct": 0.15053915004581014
     },
     "position": {
       "role": "TOP",
-      "games": 8577,
-      "sampleGames": 13221,
-      "confidencePct": 0.6487406398910823
+      "games": 9183,
+      "sampleGames": 14189,
+      "confidencePct": 0.6471914863626753
     },
     "skillOrder": {
       "order": [
@@ -962,9 +810,9 @@
         "E",
         "W"
       ],
-      "games": 12628,
-      "sampleGames": 12916,
-      "confidencePct": 0.9777020749458036
+      "games": 13352,
+      "sampleGames": 13655,
+      "confidencePct": 0.9778103258879531
     }
   }
 }
