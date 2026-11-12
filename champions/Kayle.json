@@ -1,8 +1,22 @@
 {
   "championId": "Kayle",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-11T21:48:32.570Z",
+  "generatedAt": "2026-11-12T23:37:30.812Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3107,
+        3190
+      ],
+      "names": [
+        "Redemption",
+        "Locket of the Iron Solari"
+      ],
+      "games": 15,
+      "wins": 7,
+      "winrate": 0.4666666666666667,
+      "score": 1678316234.1427917
+    },
     {
       "itemIds": [
         2523,
@@ -15,7 +29,7 @@
       "games": 6,
       "wins": 5,
       "winrate": 0.8333333333333334,
-      "score": 1525734805.0499425
+      "score": 1576903162.8633955
     },
     {
       "itemIds": [
@@ -29,35 +43,7 @@
       "games": 7,
       "wins": 5,
       "winrate": 0.7142857142857143,
-      "score": 1492837696.3013012
-    },
-    {
-      "itemIds": [
-        3107,
-        3190
-      ],
-      "names": [
-        "Redemption",
-        "Locket of the Iron Solari"
-      ],
-      "games": 13,
-      "wins": 5,
-      "winrate": 0.38461538461538464,
-      "score": 1382298398.1618495
-    },
-    {
-      "itemIds": [
-        3032,
-        3036
-      ],
-      "names": [
-        "Yun Tal Wildarrows",
-        "Lord Dominik's Regards"
-      ],
-      "games": 8,
-      "wins": 7,
-      "winrate": 0.875,
-      "score": 1325619534.170977
+      "score": 1443975231.8938756
     },
     {
       "itemIds": [
@@ -68,10 +54,24 @@
         "Knight's Vow",
         "Locket of the Iron Solari"
       ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 1163124362.0859616
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 1394245908.4757562
+    },
+    {
+      "itemIds": [
+        6616,
+        6617
+      ],
+      "names": [
+        "Staff of Flowing Water",
+        "Moonstone Renewer"
+      ],
+      "games": 13,
+      "wins": 6,
+      "winrate": 0.46153846153846156,
+      "score": 1307914041.2755783
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Kayle-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10536,
+      "totalGames": 11228,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3107,
+          "name": "Redemption",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 8883
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 54
+        },
+        {
+          "itemId": 3504,
+          "name": "Ardent Censer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 19
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3107,
+          3190
+        ],
+        "names": [
+          "Redemption",
+          "Locket of the Iron Solari"
+        ],
+        "games": 15,
+        "wins": 7,
+        "winrate": 0.4666666666666667,
+        "score": 1678316234.1427917
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 15,
+        "games": 11,
+        "confidencePct": 0.7333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 15,
+        "sampleGames": 15,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 15,
+        "sampleGames": 15,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Kayle-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 11228,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +245,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13396
+          "purchaseSamples": 8883
         },
         {
           "itemId": 3032,
@@ -101,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 99
+          "purchaseSamples": 58
         },
         {
           "itemId": 2512,
@@ -109,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 33
+          "purchaseSamples": 23
         },
         {
           "itemId": 2523,
@@ -117,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 41
+          "purchaseSamples": 26
         },
         {
           "itemId": 3031,
@@ -125,15 +277,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 87
+          "purchaseSamples": 57
         },
         {
           "itemId": 3036,
           "name": "Lord Dominik's Regards",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 28
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 16
         }
       ],
       "seedPair": {
@@ -148,7 +300,7 @@
         "games": 6,
         "wins": 5,
         "winrate": 0.8333333333333334,
-        "score": 1525734805.0499425
+        "score": 1576903162.8633955
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Kayle-2",
-      "buildIndex": 1,
+      "id": "Kayle-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10536,
+      "totalGames": 11228,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 48
+          "purchaseSamples": 36
         },
         {
           "itemId": 3009,
@@ -253,7 +405,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13396
+          "purchaseSamples": 8883
         },
         {
           "itemId": 6617,
@@ -261,15 +413,15 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 75
+          "purchaseSamples": 54
         },
         {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 22
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 17
         },
         {
           "itemId": 6621,
@@ -277,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
@@ -292,7 +444,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 1492837696.3013012
+        "score": 1443975231.8938756
       },
       "runes": {
         "primaryStyle": {
@@ -361,8 +513,8 @@
           "Q",
           "E"
         ],
-        "games": 6,
-        "sampleGames": 6,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -372,162 +524,10 @@
       }
     },
     {
-      "id": "Kayle-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 10536,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3107,
-          "name": "Redemption",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 48
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 13396
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 75
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 40
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 22
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3107,
-          3190
-        ],
-        "names": [
-          "Redemption",
-          "Locket of the Iron Solari"
-        ],
-        "games": 13,
-        "wins": 5,
-        "winrate": 0.38461538461538464,
-        "score": 1382298398.1618495
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8465,
-          "name": "Guardian"
-        },
-        "primaryPerks": [
-          {
-            "id": 8463,
-            "name": "Font of Life"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8453,
-            "name": "Revitalize"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 13,
-        "games": 9,
-        "confidencePct": 0.6923076923076923
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 13,
-        "sampleGames": 13,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 13,
-        "sampleGames": 13,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Kayle-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10536,
+      "totalGames": 11228,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -541,7 +541,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 48
+          "purchaseSamples": 36
         },
         {
           "itemId": 3009,
@@ -549,7 +549,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13396
+          "purchaseSamples": 8883
         },
         {
           "itemId": 6617,
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 75
+          "purchaseSamples": 54
         },
         {
           "itemId": 6620,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 26
+          "purchaseSamples": 12
         },
         {
           "itemId": 6616,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 18
+          "purchaseSamples": 13
         },
         {
           "itemId": 6621,
@@ -581,7 +581,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 10
+          "purchaseSamples": 8
         }
       ],
       "seedPair": {
@@ -593,10 +593,10 @@
           "Staff of Flowing Water",
           "Moonstone Renewer"
         ],
-        "games": 11,
-        "wins": 4,
-        "winrate": 0.36363636363636365,
-        "score": 974506250.3295053
+        "games": 13,
+        "wins": 6,
+        "winrate": 0.46153846153846156,
+        "score": 1307914041.2755783
       },
       "runes": {
         "primaryStyle": {
@@ -649,14 +649,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 11,
+        "sampleGames": 13,
         "games": 3,
-        "confidencePct": 0.2727272727272727
+        "confidencePct": 0.23076923076923078
       },
       "position": {
         "role": "UTILITY",
-        "games": 11,
-        "sampleGames": 11,
+        "games": 13,
+        "sampleGames": 13,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -665,9 +665,9 @@
           "Q",
           "E"
         ],
-        "games": 10,
-        "sampleGames": 11,
-        "confidencePct": 0.9090909090909091
+        "games": 11,
+        "sampleGames": 12,
+        "confidencePct": 0.9166666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -679,7 +679,7 @@
       "id": "Kayle-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10536,
+      "totalGames": 11228,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -693,90 +693,98 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13396
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 40
+          "purchaseSamples": 8883
         },
         {
           "itemId": 6620,
           "name": "Echoes of Helia",
           "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 6617,
+          "name": "Moonstone Renewer",
+          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 26
+          "purchaseSamples": 54
         },
         {
-          "itemId": 3109,
-          "name": "Knight's Vow",
+          "itemId": 3504,
+          "name": "Ardent Censer",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 21
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 29
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 6616,
+          "name": "Staff of Flowing Water",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 5
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 2530,
+          "name": "Diadem of Songs",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          2524,
-          3504
+          2530,
+          6620
         ],
         "names": [
-          "Bandlepipes",
-          "Ardent Censer"
+          "Diadem of Songs",
+          "Echoes of Helia"
         ],
         "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 545842469.6320215
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1125977670.0901031
       },
       "runes": {
         "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "keystone": {
-          "id": 8465,
-          "name": "Guardian"
+          "id": 8214,
+          "name": "Summon Aery"
         },
         "primaryPerks": [
           {
-            "id": 8463,
-            "name": "Font of Life"
+            "id": 8224,
+            "name": "Axiom Arcanist"
           },
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8400,
+          "name": "Resolve"
         },
         "secondaryPerks": [
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8453,
+            "name": "Revitalize"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8463,
+            "name": "Font of Life"
           }
         ],
         "statPerks": [
@@ -794,14 +802,14 @@
           }
         ],
         "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 2,
+        "games": 3,
         "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -810,25 +818,25 @@
           "E"
         ],
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     }
   ],
   "metaBuild": {
-    "totalGames": 10536,
+    "totalGames": 11228,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49677296886864086,
+    "winrate": 0.49625935162094764,
     "items": [
       {
         "itemId": 3009,
@@ -836,7 +844,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 13396
+        "purchaseSamples": 8883
       },
       {
         "itemId": 3115,
@@ -844,7 +852,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 14501
+        "purchaseSamples": 9660
       },
       {
         "itemId": 2510,
@@ -852,7 +860,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 10573
+        "purchaseSamples": 7074
       },
       {
         "itemId": 3089,
@@ -860,7 +868,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 6692
+        "purchaseSamples": 4499
       },
       {
         "itemId": 4645,
@@ -868,7 +876,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 2649
+        "purchaseSamples": 1719
       },
       {
         "itemId": 3135,
@@ -876,7 +884,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 1312
+        "purchaseSamples": 899
       }
     ],
     "runes": {
@@ -930,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 10536,
-      "games": 3120,
-      "confidencePct": 0.296127562642369
+      "sampleGames": 11228,
+      "games": 3336,
+      "confidencePct": 0.29711435696473104
     },
     "position": {
       "role": "TOP",
-      "games": 7081,
-      "sampleGames": 10536,
-      "confidencePct": 0.67207668944571
+      "games": 7556,
+      "sampleGames": 11228,
+      "confidencePct": 0.67296045600285
     },
     "skillOrder": {
       "order": [
@@ -946,9 +954,9 @@
         "E",
         "W"
       ],
-      "games": 5814,
-      "sampleGames": 10150,
-      "confidencePct": 0.572807881773399
+      "games": 6233,
+      "sampleGames": 10878,
+      "confidencePct": 0.5729913587056444
     }
   }
 }

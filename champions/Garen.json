@@ -1,8 +1,50 @@
 {
   "championId": "Garen",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-11T21:48:32.570Z",
+  "generatedAt": "2026-11-12T23:37:30.812Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3026,
+        3078
+      ],
+      "names": [
+        "Guardian Angel",
+        "Trinity Force"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 24114786.6706468
+    },
+    {
+      "itemIds": [
+        3026,
+        3172
+      ],
+      "names": [
+        "Guardian Angel",
+        "Gunmetal Greaves"
+      ],
+      "games": 14,
+      "wins": 8,
+      "winrate": 0.5714285714285714,
+      "score": 23217989.057717733
+    },
+    {
+      "itemIds": [
+        3075,
+        3109
+      ],
+      "names": [
+        "Thornmail",
+        "Knight's Vow"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 22630137.270693075
+    },
     {
       "itemIds": [
         3068,
@@ -15,21 +57,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 20707797.99668157
-    },
-    {
-      "itemIds": [
-        3026,
-        3172
-      ],
-      "names": [
-        "Guardian Angel",
-        "Gunmetal Greaves"
-      ],
-      "games": 12,
-      "wins": 6,
-      "winrate": 0.5,
-      "score": 17017960.389284305
+      "score": 21010364.082398437
     },
     {
       "itemIds": [
@@ -43,35 +71,7 @@
       "games": 25,
       "wins": 12,
       "winrate": 0.48,
-      "score": 15365684.281316506
-    },
-    {
-      "itemIds": [
-        3143,
-        3172
-      ],
-      "names": [
-        "Randuin's Omen",
-        "Gunmetal Greaves"
-      ],
-      "games": 24,
-      "wins": 14,
-      "winrate": 0.5833333333333334,
-      "score": 14476006.194251066
-    },
-    {
-      "itemIds": [
-        3031,
-        3172
-      ],
-      "names": [
-        "Infinity Edge",
-        "Gunmetal Greaves"
-      ],
-      "games": 73,
-      "wins": 36,
-      "winrate": 0.4931506849315068,
-      "score": 14454760.72570028
+      "score": 15997280.279500604
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Garen-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17462,
+      "totalGames": 18527,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,15 +93,15 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 17046
+          "purchaseSamples": 10774
         },
         {
-          "itemId": 3068,
-          "name": "Sunfire Aegis",
+          "itemId": 3078,
+          "name": "Trinity Force",
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 23
+          "purchaseSamples": 278
         },
         {
           "itemId": 3172,
@@ -109,7 +109,159 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 330
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 207
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 135
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3026,
+          3078
+        ],
+        "names": [
+          "Guardian Angel",
+          "Trinity Force"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 24114786.6706468
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          },
+          {
+            "id": 8446,
+            "name": "Demolish"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Garen-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 18527,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 10774
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 14
         },
         {
           "itemId": 3075,
@@ -117,7 +269,159 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 83
+          "purchaseSamples": 49
+        },
+        {
+          "itemId": 2504,
+          "name": "Kaenic Rookern",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 67
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 991
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3075,
+          3109
+        ],
+        "names": [
+          "Thornmail",
+          "Knight's Vow"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 22630137.270693075
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8347,
+            "name": "Cosmic Insight"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "TOP",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "W",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Garen-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 18527,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3006,
+          "name": "Berserker's Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 10774
+        },
+        {
+          "itemId": 3068,
+          "name": "Sunfire Aegis",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 49
         },
         {
           "itemId": 3143,
@@ -125,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 672
+          "purchaseSamples": 414
         },
         {
           "itemId": 6333,
@@ -133,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 495
+          "purchaseSamples": 330
         }
       ],
       "seedPair": {
@@ -148,7 +452,7 @@
         "games": 5,
         "wins": 3,
         "winrate": 0.6,
-        "score": 20707797.99668157
+        "score": 21010364.082398437
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +532,10 @@
       }
     },
     {
-      "id": "Garen-2",
-      "buildIndex": 1,
+      "id": "Garen-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17462,
+      "totalGames": 18527,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +549,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 17046
+          "purchaseSamples": 10774
         },
         {
           "itemId": 3172,
@@ -253,159 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 495
-        },
-        {
-          "itemId": 2517,
-          "name": "Endless Hunger",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 264
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 672
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 181
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3026,
-          3172
-        ],
-        "names": [
-          "Guardian Angel",
-          "Gunmetal Greaves"
-        ],
-        "games": 12,
-        "wins": 6,
-        "winrate": 0.5,
-        "score": 17017960.389284305
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 12,
-        "games": 6,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 12,
-        "sampleGames": 12,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 11,
-        "sampleGames": 12,
-        "confidencePct": 0.9166666666666666
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Garen-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 17462,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 17046
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
+          "purchaseSamples": 1
         },
         {
           "itemId": 6665,
@@ -413,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 97
+          "purchaseSamples": 66
         },
         {
           "itemId": 3143,
@@ -421,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 672
+          "purchaseSamples": 414
         },
         {
           "itemId": 6333,
@@ -429,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 495
+          "purchaseSamples": 330
         },
         {
           "itemId": 3031,
@@ -437,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1726
+          "purchaseSamples": 1019
         }
       ],
       "seedPair": {
@@ -452,7 +604,7 @@
         "games": 8,
         "wins": 3,
         "winrate": 0.375,
-        "score": 12324668.085223068
+        "score": 12569092.203510523
       },
       "runes": {
         "primaryStyle": {
@@ -530,321 +682,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Garen-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 17462,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 17046
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2276
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1726
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 495
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 91
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3031,
-          6673
-        ],
-        "names": [
-          "Infinity Edge",
-          "Immortal Shieldbow"
-        ],
-        "games": 31,
-        "wins": 19,
-        "winrate": 0.6129032258064516,
-        "score": 5225148.4627561895
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 31,
-        "games": 12,
-        "confidencePct": 0.3870967741935484
-      },
-      "position": {
-        "role": "TOP",
-        "games": 28,
-        "sampleGames": 31,
-        "confidencePct": 0.9032258064516129
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 28,
-        "sampleGames": 31,
-        "confidencePct": 0.9032258064516129
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Garen-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 17462,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3006,
-          "name": "Berserker's Greaves",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 17046
-        },
-        {
-          "itemId": 3172,
-          "name": "Gunmetal Greaves",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1666
-        },
-        {
-          "itemId": 6676,
-          "name": "The Collector",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 72
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1726
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 672
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3172,
-          6676
-        ],
-        "names": [
-          "Gunmetal Greaves",
-          "The Collector"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 5133779.7288071755
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8230,
-          "name": "Stormraider's Surge"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 3,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 17462,
+    "totalGames": 18527,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49896919024166764,
+    "winrate": 0.49959518540508446,
     "items": [
       {
         "itemId": 3006,
@@ -852,7 +700,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 17046
+        "purchaseSamples": 10774
       },
       {
         "itemId": 6631,
@@ -860,7 +708,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 26867
+        "purchaseSamples": 16845
       },
       {
         "itemId": 3046,
@@ -868,7 +716,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 12780
+        "purchaseSamples": 7952
       },
       {
         "itemId": 3142,
@@ -876,7 +724,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 9078
+        "purchaseSamples": 5558
       },
       {
         "itemId": 3033,
@@ -884,7 +732,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 7942
+        "purchaseSamples": 4990
       },
       {
         "itemId": 3742,
@@ -892,7 +740,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 5000
+        "purchaseSamples": 3184
       }
     ],
     "runes": {
@@ -946,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17462,
-      "games": 5985,
-      "confidencePct": 0.342744244645516
+      "sampleGames": 18527,
+      "games": 6321,
+      "confidencePct": 0.3411777405948076
     },
     "position": {
       "role": "TOP",
-      "games": 15154,
-      "sampleGames": 17462,
-      "confidencePct": 0.8678272820982705
+      "games": 16099,
+      "sampleGames": 18527,
+      "confidencePct": 0.8689480218060128
     },
     "skillOrder": {
       "order": [
@@ -962,9 +810,9 @@
         "Q",
         "W"
       ],
-      "games": 15595,
-      "sampleGames": 16891,
-      "confidencePct": 0.9232727488011367
+      "games": 16563,
+      "sampleGames": 17910,
+      "confidencePct": 0.9247906197654941
     }
   }
 }
