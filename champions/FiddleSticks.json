@@ -1,36 +1,8 @@
 {
   "championId": "FiddleSticks",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-12T23:37:30.812Z",
+  "generatedAt": "2026-11-13T19:33:57.468Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3075,
-        3110
-      ],
-      "names": [
-        "Thornmail",
-        "Frozen Heart"
-      ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 56347916.51227267
-    },
-    {
-      "itemIds": [
-        2065,
-        2524
-      ],
-      "names": [
-        "Shurelya's Battlesong",
-        "Bandlepipes"
-      ],
-      "games": 25,
-      "wins": 14,
-      "winrate": 0.56,
-      "score": 55847754.914869815
-    },
     {
       "itemIds": [
         3109,
@@ -43,7 +15,35 @@
       "games": 20,
       "wins": 11,
       "winrate": 0.55,
-      "score": 54304741.94000297
+      "score": 56174719.90163897
+    },
+    {
+      "itemIds": [
+        3075,
+        3110
+      ],
+      "names": [
+        "Thornmail",
+        "Frozen Heart"
+      ],
+      "games": 7,
+      "wins": 5,
+      "winrate": 0.7142857142857143,
+      "score": 56026325.36542781
+    },
+    {
+      "itemIds": [
+        2065,
+        2524
+      ],
+      "names": [
+        "Shurelya's Battlesong",
+        "Bandlepipes"
+      ],
+      "games": 27,
+      "wins": 14,
+      "winrate": 0.5185185185185185,
+      "score": 55245398.11955025
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 51978748.75387667
+      "score": 50731357.37106636
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 48681119.41509099
+      "score": 48532471.50768113
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "FiddleSticks-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 10604,
+      "totalGames": 10820,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 7592
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 188
+        },
+        {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 246
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 118
+        },
+        {
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 13
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3109,
+          3190
+        ],
+        "names": [
+          "Knight's Vow",
+          "Locket of the Iron Solari"
+        ],
+        "games": 20,
+        "wins": 11,
+        "winrate": 0.55,
+        "score": 56174719.90163897
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 20,
+        "games": 5,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 20,
+        "sampleGames": 20,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 9,
+        "sampleGames": 20,
+        "confidencePct": 0.45
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "FiddleSticks-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 10820,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -148,7 +300,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 56347916.51227267
+        "score": 56026325.36542781
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +380,10 @@
       }
     },
     {
-      "id": "FiddleSticks-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 10604,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 7592
-        },
-        {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 246
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 188
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 118
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 115
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 55
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2065,
-          2524
-        ],
-        "names": [
-          "Shurelya's Battlesong",
-          "Bandlepipes"
-        ],
-        "games": 25,
-        "wins": 14,
-        "winrate": 0.56,
-        "score": 55847754.914869815
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8410,
-            "name": "Approach Velocity"
-          },
-          {
-            "id": 8345,
-            "name": "Biscuit Delivery"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 25,
-        "games": 9,
-        "confidencePct": 0.36
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 24,
-        "sampleGames": 25,
-        "confidencePct": 0.96
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 19,
-        "sampleGames": 23,
-        "confidencePct": 0.8260869565217391
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "FiddleSticks-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 10604,
+      "totalGames": 10820,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -452,7 +452,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 51978748.75387667
+        "score": 50731357.37106636
       },
       "runes": {
         "primaryStyle": {
@@ -535,7 +535,7 @@
       "id": "FiddleSticks-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 10604,
+      "totalGames": 10820,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -604,7 +604,7 @@
         "games": 11,
         "wins": 8,
         "winrate": 0.7272727272727273,
-        "score": 45814706.03420677
+        "score": 45405963.791889705
       },
       "runes": {
         "primaryStyle": {
@@ -687,7 +687,7 @@
       "id": "FiddleSticks-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 10604,
+      "totalGames": 10820,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -756,7 +756,7 @@
         "games": 10,
         "wins": 6,
         "winrate": 0.6,
-        "score": 40277144.26003891
+        "score": 39537823.01925625
       },
       "runes": {
         "primaryStyle": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 10604,
+    "totalGames": 10820,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5091474915126367,
+    "winrate": 0.5102587800369686,
     "items": [
       {
         "itemId": 3020,
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 10604,
-      "games": 1462,
-      "confidencePct": 0.13787250094304035
+      "sampleGames": 10820,
+      "games": 1488,
+      "confidencePct": 0.13752310536044363
     },
     "position": {
       "role": "JUNGLE",
-      "games": 6719,
-      "sampleGames": 10604,
-      "confidencePct": 0.6336288193134666
+      "games": 6871,
+      "sampleGames": 10820,
+      "confidencePct": 0.6350277264325324
     },
     "skillOrder": {
       "order": [
