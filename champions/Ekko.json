@@ -1,7 +1,7 @@
 {
   "championId": "Ekko",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-15T00:09:55.475Z",
+  "generatedAt": "2026-11-16T00:02:22.096Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 7749400991.296268
+      "score": 8465107450.242235
+    },
+    {
+      "itemIds": [
+        3742,
+        8020
+      ],
+      "names": [
+        "Dead Man's Plate",
+        "Abyssal Mask"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 6842563706.321731
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 1925183055.673125
+      "score": 2070979233.5068715
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 1544227842.6593082
+      "score": 1630037996.9349475
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 1460635531.2961133
-    },
-    {
-      "itemIds": [
-        3065,
-        4633
-      ],
-      "names": [
-        "Spirit Visage",
-        "Riftmaker"
-      ],
-      "games": 8,
-      "wins": 7,
-      "winrate": 0.875,
-      "score": 1367939155.4822233
+      "score": 1577080105.2633615
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Ekko-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 41662,
+      "totalGames": 45978,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
+          "purchaseSamples": 55
         },
         {
           "itemId": 3107,
@@ -124,7 +124,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 7749400991.296268
+        "score": 8465107450.242235
       },
       "runes": {
         "primaryStyle": {
@@ -207,7 +207,134 @@
       "id": "Ekko-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 41662,
+      "totalGames": 45978,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 55
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 13
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 5715
+        },
+        {
+          "itemId": 3742,
+          "name": "Dead Man's Plate",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3742,
+          8020
+        ],
+        "names": [
+          "Dead Man's Plate",
+          "Abyssal Mask"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 6842563706.321731
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": null,
+      "asWholeSet": {
+        "games": 1,
+        "wins": 0,
+        "winrate": 0
+      }
+    },
+    {
+      "id": "Ekko-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 45978,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -221,7 +348,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 313
+          "purchaseSamples": 315
         },
         {
           "itemId": 3175,
@@ -229,7 +356,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
+          "purchaseSamples": 55
         },
         {
           "itemId": 6665,
@@ -276,7 +403,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 1925183055.673125
+        "score": 2070979233.5068715
       },
       "runes": {
         "primaryStyle": {
@@ -356,10 +483,10 @@
       }
     },
     {
-      "id": "Ekko-3",
-      "buildIndex": 2,
+      "id": "Ekko-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 41662,
+      "totalGames": 45978,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -373,7 +500,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 313
+          "purchaseSamples": 315
         },
         {
           "itemId": 3175,
@@ -381,7 +508,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
+          "purchaseSamples": 55
         },
         {
           "itemId": 2504,
@@ -405,7 +532,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5292
+          "purchaseSamples": 5715
         },
         {
           "itemId": 3102,
@@ -413,7 +540,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 628
+          "purchaseSamples": 692
         }
       ],
       "seedPair": {
@@ -428,7 +555,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 1544227842.6593082
+        "score": 1630037996.9349475
       },
       "runes": {
         "primaryStyle": {
@@ -508,10 +635,10 @@
       }
     },
     {
-      "id": "Ekko-4",
-      "buildIndex": 3,
+      "id": "Ekko-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 41662,
+      "totalGames": 45978,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -525,7 +652,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1871
+          "purchaseSamples": 1940
         },
         {
           "itemId": 4633,
@@ -533,7 +660,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 313
+          "purchaseSamples": 315
         },
         {
           "itemId": 3175,
@@ -541,7 +668,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
+          "purchaseSamples": 55
         },
         {
           "itemId": 8010,
@@ -549,7 +676,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 44
+          "purchaseSamples": 46
         },
         {
           "itemId": 2504,
@@ -565,7 +692,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5292
+          "purchaseSamples": 5715
         }
       ],
       "seedPair": {
@@ -580,7 +707,7 @@
         "games": 21,
         "wins": 12,
         "winrate": 0.5714285714285714,
-        "score": 1065340613.0722905
+        "score": 1131916924.3500893
       },
       "runes": {
         "primaryStyle": {
@@ -649,8 +776,8 @@
           "E",
           "W"
         ],
-        "games": 18,
-        "sampleGames": 18,
+        "games": 19,
+        "sampleGames": 19,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -658,169 +785,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Ekko-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 41662,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 46
-        },
-        {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 8
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3504,
-          "name": "Ardent Censer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 8,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6620,
-          "name": "Echoes of Helia",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 9,
-          "purchaseSamples": 4
-        },
-        {
-          "itemId": 6617,
-          "name": "Moonstone Renewer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 10,
-          "purchaseSamples": 3
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3504,
-          6620
-        ],
-        "names": [
-          "Ardent Censer",
-          "Echoes of Helia"
-        ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 1035335708.2309245
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 4,
-        "confidencePct": 1
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 3,
-        "wins": 3,
-        "winrate": 1
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 41662,
+    "totalGames": 45978,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5086169651000912,
+    "winrate": 0.5092435512636478,
     "items": [
       {
         "itemId": 4646,
@@ -828,7 +803,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 14578
+        "purchaseSamples": 15955
       },
       {
         "itemId": 2510,
@@ -836,7 +811,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 33180
+        "purchaseSamples": 36199
       },
       {
         "itemId": 3175,
@@ -844,7 +819,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 46
+        "purchaseSamples": 55
       },
       {
         "itemId": 4645,
@@ -852,7 +827,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 16350
+        "purchaseSamples": 17774
       },
       {
         "itemId": 3089,
@@ -860,7 +835,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 17338
+        "purchaseSamples": 19110
       },
       {
         "itemId": 3135,
@@ -868,7 +843,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 4920
+        "purchaseSamples": 5398
       }
     ],
     "runes": {
@@ -922,15 +897,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 41662,
-      "games": 10247,
-      "confidencePct": 0.24595554702126637
+      "sampleGames": 45978,
+      "games": 11575,
+      "confidencePct": 0.2517508373569968
     },
     "position": {
       "role": "MIDDLE",
-      "games": 20924,
-      "sampleGames": 41662,
-      "confidencePct": 0.5022322500120013
+      "games": 23223,
+      "sampleGames": 45978,
+      "confidencePct": 0.5050893905781025
     },
     "skillOrder": {
       "order": [
@@ -938,9 +913,9 @@
         "E",
         "W"
       ],
-      "games": 38366,
-      "sampleGames": 39152,
-      "confidencePct": 0.979924397221087
+      "games": 41748,
+      "sampleGames": 42605,
+      "confidencePct": 0.979884990024645
     }
   }
 }

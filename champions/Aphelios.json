@@ -1,8 +1,22 @@
 {
   "championId": "Aphelios",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-15T00:09:55.475Z",
+  "generatedAt": "2026-11-16T00:02:22.096Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2512,
+        3172
+      ],
+      "names": [
+        "Fiendhunter Bolts",
+        "Gunmetal Greaves"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 4815457471.29461
+    },
     {
       "itemIds": [
         3172,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 570628578.1208984
+      "score": 490146757.9336163
     },
     {
       "itemIds": [
@@ -26,52 +40,38 @@
         "Mercurial Scimitar",
         "Gunmetal Greaves"
       ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 151786350.51369673
-    },
-    {
-      "itemIds": [
-        3033,
-        3172
-      ],
-      "names": [
-        "Mortal Reminder",
-        "Gunmetal Greaves"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 37884718.59099228
-    },
-    {
-      "itemIds": [
-        3085,
-        3172
-      ],
-      "names": [
-        "Runaan's Hurricane",
-        "Gunmetal Greaves"
-      ],
-      "games": 7,
+      "games": 4,
       "wins": 3,
-      "winrate": 0.42857142857142855,
-      "score": 33310749.424540427
+      "winrate": 0.75,
+      "score": 192477892.65277457
     },
     {
       "itemIds": [
-        3142,
-        3814
+        3072,
+        3172
       ],
       "names": [
-        "Youmuu's Ghostblade",
-        "Edge of Night"
+        "Bloodthirster",
+        "Gunmetal Greaves"
       ],
-      "games": 9,
-      "wins": 8,
-      "winrate": 0.8888888888888888,
-      "score": 19294416.76541742
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 157521716.12450978
+    },
+    {
+      "itemIds": [
+        3172,
+        6673
+      ],
+      "names": [
+        "Gunmetal Greaves",
+        "Immortal Shieldbow"
+      ],
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 77032813.38362788
     }
   ],
   "builds": [
@@ -79,7 +79,159 @@
       "id": "Aphelios-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 37923,
+      "totalGames": 40312,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3008,
+          "name": "Gluttonous Greaves",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 11269
+        },
+        {
+          "itemId": 2512,
+          "name": "Fiendhunter Bolts",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 16
+        },
+        {
+          "itemId": 3033,
+          "name": "Mortal Reminder",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3786
+        },
+        {
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1263
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1965
+        },
+        {
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2512,
+          3172
+        ],
+        "names": [
+          "Fiendhunter Bolts",
+          "Gunmetal Greaves"
+        ],
+        "games": 4,
+        "wins": 4,
+        "winrate": 1,
+        "score": 4815457471.29461
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9103,
+            "name": "Legend: Bloodline"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 4,
+        "confidencePct": 1
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Aphelios-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 40312,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 80
+          "purchaseSamples": 83
         },
         {
           "itemId": 3008,
@@ -101,31 +253,31 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 10622
+          "purchaseSamples": 11269
         },
         {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
+          "itemId": 6673,
+          "name": "Immortal Shieldbow",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 3647
-        },
-        {
-          "itemId": 3085,
-          "name": "Runaan's Hurricane",
-          "isBoots": false,
-          "order": 4,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 5116
+          "purchaseSamples": 2754
         },
         {
           "itemId": 3139,
           "name": "Mercurial Scimitar",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 1263
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1189
+          "purchaseSamples": 1965
         },
         {
           "itemId": 3172,
@@ -148,7 +300,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 570628578.1208984
+        "score": 490146757.9336163
       },
       "runes": {
         "primaryStyle": {
@@ -228,10 +380,10 @@
       }
     },
     {
-      "id": "Aphelios-2",
-      "buildIndex": 1,
+      "id": "Aphelios-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 37923,
+      "totalGames": 40312,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -245,7 +397,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 10622
+          "purchaseSamples": 11269
         },
         {
           "itemId": 3142,
@@ -253,7 +405,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 136
+          "purchaseSamples": 138
         },
         {
           "itemId": 3814,
@@ -261,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 145
+          "purchaseSamples": 149
         },
         {
           "itemId": 3156,
@@ -269,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 458
+          "purchaseSamples": 469
         },
         {
           "itemId": 3139,
@@ -277,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1189
+          "purchaseSamples": 1263
         },
         {
           "itemId": 3026,
@@ -285,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 2725
+          "purchaseSamples": 2841
         }
       ],
       "seedPair": {
@@ -300,7 +452,7 @@
         "games": 9,
         "wins": 8,
         "winrate": 0.8888888888888888,
-        "score": 19294416.76541742
+        "score": 19268160.36715555
       },
       "runes": {
         "primaryStyle": {
@@ -369,9 +521,9 @@
           "E",
           "W"
         ],
-        "games": 5,
-        "sampleGames": 8,
-        "confidencePct": 0.625
+        "games": 6,
+        "sampleGames": 9,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -380,10 +532,10 @@
       }
     },
     {
-      "id": "Aphelios-3",
-      "buildIndex": 2,
+      "id": "Aphelios-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 37923,
+      "totalGames": 40312,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,47 +549,47 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 10622
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 2577
+          "purchaseSamples": 11269
         },
         {
           "itemId": 2504,
           "name": "Kaenic Rookern",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 68
+          "purchaseSamples": 71
         },
         {
           "itemId": 3143,
           "name": "Randuin's Omen",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 152
+          "purchaseSamples": 164
         },
         {
           "itemId": 3139,
           "name": "Mercurial Scimitar",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1189
+          "purchaseSamples": 1263
         },
         {
           "itemId": 3026,
           "name": "Guardian Angel",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 2841
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 2725
+          "purchaseSamples": 1965
         }
       ],
       "seedPair": {
@@ -452,7 +604,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 10313103.36583119
+        "score": 9774119.149284903
       },
       "runes": {
         "primaryStyle": {
@@ -532,10 +684,10 @@
       }
     },
     {
-      "id": "Aphelios-4",
-      "buildIndex": 3,
+      "id": "Aphelios-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 37923,
+      "totalGames": 40312,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -549,31 +701,31 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 10622
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 68
+          "purchaseSamples": 11269
         },
         {
           "itemId": 3156,
           "name": "Maw of Malmortius",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 458
+          "purchaseSamples": 469
         },
         {
-          "itemId": 3139,
-          "name": "Mercurial Scimitar",
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 31
+        },
+        {
+          "itemId": 3072,
+          "name": "Bloodthirster",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1189
+          "purchaseSamples": 1965
         },
         {
           "itemId": 3026,
@@ -581,30 +733,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 2725
+          "purchaseSamples": 2841
         },
         {
-          "itemId": 3072,
-          "name": "Bloodthirster",
+          "itemId": 3139,
+          "name": "Mercurial Scimitar",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 1858
+          "purchaseSamples": 1263
         }
       ],
       "seedPair": {
         "itemIds": [
-          2504,
-          3156
+          3156,
+          6665
         ],
         "names": [
-          "Kaenic Rookern",
-          "Maw of Malmortius"
+          "Maw of Malmortius",
+          "Jak'Sho, The Protean"
         ],
-        "games": 4,
+        "games": 3,
         "wins": 3,
-        "winrate": 0.75,
-        "score": 4655799.206213619
+        "winrate": 1,
+        "score": 7055494.54662223
       },
       "runes": {
         "primaryStyle": {
@@ -619,158 +771,6 @@
           {
             "id": 9111,
             "name": "Triumph"
-          },
-          {
-            "id": 9103,
-            "name": "Legend: Bloodline"
-          },
-          {
-            "id": 8017,
-            "name": "Cut Down"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 4,
-        "confidencePct": 0.75
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Aphelios-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 37923,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 817
-        },
-        {
-          "itemId": 3008,
-          "name": "Gluttonous Greaves",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 10622
-        },
-        {
-          "itemId": 3085,
-          "name": "Runaan's Hurricane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 5116
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 27
-        },
-        {
-          "itemId": 3072,
-          "name": "Bloodthirster",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 1858
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 6,
-          "purchaseSamples": 2725
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3032,
-          3153
-        ],
-        "names": [
-          "Yun Tal Wildarrows",
-          "Blade of The Ruined King"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 4332701.094231465
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
           },
           {
             "id": 9103,
@@ -810,14 +810,14 @@
           }
         ],
         "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "BOTTOM",
-        "games": 2,
+        "games": 3,
         "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -826,8 +826,8 @@
           "W"
         ],
         "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 2,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 37923,
+    "totalGames": 40312,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4958204783376843,
+    "winrate": 0.4961301845604287,
     "items": [
       {
         "itemId": 6676,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 16256
+        "purchaseSamples": 16963
       },
       {
         "itemId": 3095,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 11935
+        "purchaseSamples": 12492
       },
       {
         "itemId": 2523,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 11535
+        "purchaseSamples": 12075
       },
       {
         "itemId": 3008,
@@ -876,7 +876,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 10622
+        "purchaseSamples": 11269
       },
       {
         "itemId": 3031,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 26765
+        "purchaseSamples": 28101
       },
       {
         "itemId": 3036,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 14820
+        "purchaseSamples": 15698
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 37923,
-      "games": 9476,
-      "confidencePct": 0.24987474619623976
+      "sampleGames": 40312,
+      "games": 9903,
+      "confidencePct": 0.24565886088509625
     },
     "position": {
       "role": "BOTTOM",
-      "games": 37549,
-      "sampleGames": 37923,
-      "confidencePct": 0.9901379110302455
+      "games": 39885,
+      "sampleGames": 40312,
+      "confidencePct": 0.9894076205596348
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "E",
         "W"
       ],
-      "games": 27279,
-      "sampleGames": 36382,
-      "confidencePct": 0.7497938541036776
+      "games": 28438,
+      "sampleGames": 38040,
+      "confidencePct": 0.7475814931650894
     }
   }
 }
