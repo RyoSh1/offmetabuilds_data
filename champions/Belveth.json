@@ -1,8 +1,36 @@
 {
   "championId": "Belveth",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-16T00:02:22.096Z",
+  "generatedAt": "2026-11-16T22:57:29.025Z",
   "corePairs": [
+    {
+      "itemIds": [
+        4005,
+        4646
+      ],
+      "names": [
+        "Imperial Mandate",
+        "Stormsurge"
+      ],
+      "games": 8,
+      "wins": 5,
+      "winrate": 0.625,
+      "score": 3060848819.8293514
+    },
+    {
+      "itemIds": [
+        3152,
+        4005
+      ],
+      "names": [
+        "Hextech Rocketbelt",
+        "Imperial Mandate"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 2977322922.3687096
+    },
     {
       "itemIds": [
         4645,
@@ -15,21 +43,7 @@
       "games": 20,
       "wins": 11,
       "winrate": 0.55,
-      "score": 2629478253.4876
-    },
-    {
-      "itemIds": [
-        4005,
-        4646
-      ],
-      "names": [
-        "Imperial Mandate",
-        "Stormsurge"
-      ],
-      "games": 7,
-      "wins": 4,
-      "winrate": 0.5714285714285714,
-      "score": 2552443077.8517003
+      "score": 2776366349.66751
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 2026955672.6218324
+      "score": 2107580269.5021966
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 19,
       "wins": 11,
       "winrate": 0.5789473684210527,
-      "score": 1925002416.4425936
-    },
-    {
-      "itemIds": [
-        3089,
-        4645
-      ],
-      "names": [
-        "Rabadon's Deathcap",
-        "Shadowflame"
-      ],
-      "games": 14,
-      "wins": 7,
-      "winrate": 0.5,
-      "score": 1794313066.945211
+      "score": 2068852949.2270017
     }
   ],
   "builds": [
@@ -79,7 +79,287 @@
       "id": "Belveth-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 12444,
+      "totalGames": 13233,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 41
+        },
+        {
+          "itemId": 3089,
+          "name": "Rabadon's Deathcap",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 32
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4769
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 36
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4005,
+          4646
+        ],
+        "names": [
+          "Imperial Mandate",
+          "Stormsurge"
+        ],
+        "games": 8,
+        "wins": 5,
+        "winrate": 0.625,
+        "score": 3060848819.8293514
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8229,
+          "name": "Arcane Comet"
+        },
+        "primaryPerks": [
+          {
+            "id": 8224,
+            "name": "Axiom Arcanist"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 8,
+        "games": 6,
+        "confidencePct": 0.75
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 6,
+        "sampleGames": 8,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Belveth-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 13233,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 14
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4769
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3152,
+          4005
+        ],
+        "names": [
+          "Hextech Rocketbelt",
+          "Imperial Mandate"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 2977322922.3687096
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "keystone": {
+          "id": 8351,
+          "name": "Glacial Augment"
+        },
+        "primaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 2,
+        "sampleGames": 2,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666
+      }
+    },
+    {
+      "id": "Belveth-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 13233,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +373,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 35
+          "purchaseSamples": 36
         },
         {
           "itemId": 3146,
@@ -101,7 +381,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 70
+          "purchaseSamples": 75
         },
         {
           "itemId": 4645,
@@ -109,7 +389,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 37
+          "purchaseSamples": 41
         },
         {
           "itemId": 3089,
@@ -117,7 +397,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 29
+          "purchaseSamples": 32
         },
         {
           "itemId": 3047,
@@ -125,7 +405,7 @@
           "isBoots": true,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4439
+          "purchaseSamples": 4769
         },
         {
           "itemId": 3041,
@@ -148,7 +428,7 @@
         "games": 20,
         "wins": 11,
         "winrate": 0.55,
-        "score": 2629478253.4876
+        "score": 2776366349.66751
       },
       "runes": {
         "primaryStyle": {
@@ -228,162 +508,10 @@
       }
     },
     {
-      "id": "Belveth-2",
-      "buildIndex": 1,
+      "id": "Belveth-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 12444,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 35
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 37
-        },
-        {
-          "itemId": 3089,
-          "name": "Rabadon's Deathcap",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 29
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4439
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 32
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4005,
-          4646
-        ],
-        "names": [
-          "Imperial Mandate",
-          "Stormsurge"
-        ],
-        "games": 7,
-        "wins": 4,
-        "winrate": 0.5714285714285714,
-        "score": 2552443077.8517003
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8229,
-          "name": "Arcane Comet"
-        },
-        "primaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 5,
-        "confidencePct": 0.7142857142857143
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Belveth-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 12444,
+      "totalGames": 13233,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -397,7 +525,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 70
+          "purchaseSamples": 75
         },
         {
           "itemId": 3115,
@@ -405,7 +533,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 28
+          "purchaseSamples": 32
         },
         {
           "itemId": 3089,
@@ -413,7 +541,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 29
+          "purchaseSamples": 32
         },
         {
           "itemId": 4645,
@@ -421,7 +549,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 37
+          "purchaseSamples": 41
         },
         {
           "itemId": 3047,
@@ -429,15 +557,15 @@
           "isBoots": true,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4439
+          "purchaseSamples": 4769
         },
         {
           "itemId": 3100,
           "name": "Lich Bane",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 11
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 12
         }
       ],
       "seedPair": {
@@ -449,10 +577,10 @@
           "Nashor's Tooth",
           "Hextech Gunblade"
         ],
-        "games": 22,
+        "games": 23,
         "wins": 8,
-        "winrate": 0.36363636363636365,
-        "score": 1426263726.4184875
+        "winrate": 0.34782608695652173,
+        "score": 1504620326.7105467
       },
       "runes": {
         "primaryStyle": {
@@ -505,15 +633,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 22,
-        "games": 8,
-        "confidencePct": 0.36363636363636365
+        "sampleGames": 23,
+        "games": 9,
+        "confidencePct": 0.391304347826087
       },
       "position": {
         "role": "MIDDLE",
         "games": 10,
-        "sampleGames": 22,
-        "confidencePct": 0.45454545454545453
+        "sampleGames": 23,
+        "confidencePct": 0.43478260869565216
       },
       "skillOrder": {
         "order": [
@@ -521,9 +649,9 @@
           "Q",
           "E"
         ],
-        "games": 14,
-        "sampleGames": 19,
-        "confidencePct": 0.7368421052631579
+        "games": 17,
+        "sampleGames": 22,
+        "confidencePct": 0.7727272727272727
       },
       "asWholeSet": {
         "games": 0,
@@ -532,10 +660,10 @@
       }
     },
     {
-      "id": "Belveth-4",
-      "buildIndex": 3,
+      "id": "Belveth-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 12444,
+      "totalGames": 13233,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -549,7 +677,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 70
+          "purchaseSamples": 75
         },
         {
           "itemId": 3089,
@@ -557,7 +685,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 29
+          "purchaseSamples": 32
         },
         {
           "itemId": 3047,
@@ -565,15 +693,15 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4439
+          "purchaseSamples": 4769
         },
         {
           "itemId": 3100,
           "name": "Lich Bane",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 11
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 12
         },
         {
           "itemId": 3041,
@@ -589,7 +717,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 32
+          "purchaseSamples": 36
         }
       ],
       "seedPair": {
@@ -604,7 +732,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 459834290.12458456
+        "score": 505380171.69696945
       },
       "runes": {
         "primaryStyle": {
@@ -682,169 +810,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Belveth-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 12444,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2601
-        },
-        {
-          "itemId": 6631,
-          "name": "Stridebreaker",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 1007
-        },
-        {
-          "itemId": 6675,
-          "name": "Navori Flickerblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 730
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4439
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 504
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3161,
-          6631
-        ],
-        "names": [
-          "Spear of Shojin",
-          "Stridebreaker"
-        ],
-        "games": 3,
-        "wins": 3,
-        "winrate": 1,
-        "score": 86529377.42763521
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9101,
-            "name": "Absorb Life"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 12444,
+    "totalGames": 13233,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5171970427515269,
+    "winrate": 0.5179475553540391,
     "items": [
       {
         "itemId": 6672,
@@ -852,7 +828,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 10660
+        "purchaseSamples": 11414
       },
       {
         "itemId": 3153,
@@ -860,15 +836,15 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 6153
+        "purchaseSamples": 6615
       },
       {
         "itemId": 3124,
         "name": "Guinsoo's Rageblade",
         "isBoots": false,
         "order": 3,
-        "medianPurchaseOrder": 2,
-        "purchaseSamples": 2601
+        "medianPurchaseOrder": 3,
+        "purchaseSamples": 2778
       },
       {
         "itemId": 3047,
@@ -876,7 +852,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4439
+        "purchaseSamples": 4769
       },
       {
         "itemId": 6333,
@@ -884,7 +860,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4451
+        "purchaseSamples": 4772
       },
       {
         "itemId": 3302,
@@ -892,7 +868,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 1931
+        "purchaseSamples": 2102
       }
     ],
     "runes": {
@@ -946,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 12444,
-      "games": 3640,
-      "confidencePct": 0.2925104468016715
+      "sampleGames": 13233,
+      "games": 3956,
+      "confidencePct": 0.29894959570770047
     },
     "position": {
       "role": "JUNGLE",
-      "games": 12224,
-      "sampleGames": 12444,
-      "confidencePct": 0.9823207971713276
+      "games": 13008,
+      "sampleGames": 13233,
+      "confidencePct": 0.9829970528224893
     },
     "skillOrder": {
       "order": [
@@ -962,9 +938,9 @@
         "E",
         "W"
       ],
-      "games": 11217,
-      "sampleGames": 11604,
-      "confidencePct": 0.9666494312306101
+      "games": 11990,
+      "sampleGames": 12409,
+      "confidencePct": 0.9662341848658232
     }
   }
 }
