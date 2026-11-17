@@ -1,8 +1,22 @@
 {
   "championId": "Senna",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-16T22:57:29.025Z",
+  "generatedAt": "2026-11-17T22:41:18.726Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2501,
+        3032
+      ],
+      "names": [
+        "Overlord's Bloodmail",
+        "Yun Tal Wildarrows"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 981723301.1969444
+    },
     {
       "itemIds": [
         3042,
@@ -15,21 +29,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 342276624.71366125
-    },
-    {
-      "itemIds": [
-        3124,
-        6672
-      ],
-      "names": [
-        "Guinsoo's Rageblade",
-        "Kraken Slayer"
-      ],
-      "games": 4,
-      "wins": 4,
-      "winrate": 1,
-      "score": 329255227.709382
+      "score": 355872374.3175191
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 306154175.6707644
+      "score": 312990791.83668786
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 297092488.08147347
+      "score": 278209868.71803665
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 4,
       "wins": 2,
       "winrate": 0.5,
-      "score": 234054909.6840551
+      "score": 240240954.81012085
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Senna-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 27777,
+      "totalGames": 29694,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -93,7 +93,151 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 21857
+          "purchaseSamples": 23695
+        },
+        {
+          "itemId": 3032,
+          "name": "Yun Tal Wildarrows",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 19
+        },
+        {
+          "itemId": 6695,
+          "name": "Serpent's Fang",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 2895
+        },
+        {
+          "itemId": 3031,
+          "name": "Infinity Edge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2756
+        },
+        {
+          "itemId": 2501,
+          "name": "Overlord's Bloodmail",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 6
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2501,
+          3032
+        ],
+        "names": [
+          "Overlord's Bloodmail",
+          "Yun Tal Wildarrows"
+        ],
+        "games": 5,
+        "wins": 2,
+        "winrate": 0.4,
+        "score": 981723301.1969444
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 8009,
+            "name": "Presence of Mind"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 2,
+        "confidencePct": 0.4
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Senna-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 29694,
+      "patchesUsed": [
+        "16.22",
+        "16.21"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 23695
         },
         {
           "itemId": 3119,
@@ -124,7 +268,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 342276624.71366125
+        "score": 355872374.3175191
       },
       "runes": {
         "primaryStyle": {
@@ -204,162 +348,10 @@
       }
     },
     {
-      "id": "Senna-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 27777,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 21857
-        },
-        {
-          "itemId": 6672,
-          "name": "Kraken Slayer",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 241
-        },
-        {
-          "itemId": 3085,
-          "name": "Runaan's Hurricane",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 334
-        },
-        {
-          "itemId": 3124,
-          "name": "Guinsoo's Rageblade",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 3036,
-          "name": "Lord Dominik's Regards",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 269
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 116
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3124,
-          6672
-        ],
-        "names": [
-          "Guinsoo's Rageblade",
-          "Kraken Slayer"
-        ],
-        "games": 4,
-        "wins": 4,
-        "winrate": 1,
-        "score": 329255227.709382
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8008,
-          "name": "Lethal Tempo"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 1,
-        "confidencePct": 0.25
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
       "id": "Senna-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 27777,
+      "totalGames": 29694,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -373,7 +365,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 36
+          "purchaseSamples": 39
         },
         {
           "itemId": 2510,
@@ -381,7 +373,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 115
+          "purchaseSamples": 117
         },
         {
           "itemId": 3009,
@@ -389,7 +381,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 21857
+          "purchaseSamples": 23695
         },
         {
           "itemId": 6672,
@@ -397,7 +389,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 241
+          "purchaseSamples": 255
         },
         {
           "itemId": 3036,
@@ -405,7 +397,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 269
+          "purchaseSamples": 290
         },
         {
           "itemId": 3042,
@@ -428,7 +420,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 306154175.6707644
+        "score": 312990791.83668786
       },
       "runes": {
         "primaryStyle": {
@@ -511,7 +503,7 @@
       "id": "Senna-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 27777,
+      "totalGames": 29694,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -525,7 +517,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 166
+          "purchaseSamples": 180
         },
         {
           "itemId": 3009,
@@ -533,7 +525,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 21857
+          "purchaseSamples": 23695
         },
         {
           "itemId": 3032,
@@ -541,7 +533,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 16
+          "purchaseSamples": 19
         },
         {
           "itemId": 3085,
@@ -549,7 +541,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 334
+          "purchaseSamples": 374
         },
         {
           "itemId": 3033,
@@ -557,7 +549,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 407
+          "purchaseSamples": 436
         },
         {
           "itemId": 3031,
@@ -565,7 +557,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2537
+          "purchaseSamples": 2756
         }
       ],
       "seedPair": {
@@ -580,7 +572,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 297092488.08147347
+        "score": 278209868.71803665
       },
       "runes": {
         "primaryStyle": {
@@ -663,7 +655,7 @@
       "id": "Senna-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 27777,
+      "totalGames": 29694,
       "patchesUsed": [
         "16.22",
         "16.21"
@@ -685,7 +677,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 435
+          "purchaseSamples": 452
         },
         {
           "itemId": 3009,
@@ -693,7 +685,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 21857
+          "purchaseSamples": 23695
         },
         {
           "itemId": 3814,
@@ -701,7 +693,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1687
+          "purchaseSamples": 1813
         },
         {
           "itemId": 3036,
@@ -709,7 +701,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 269
+          "purchaseSamples": 290
         },
         {
           "itemId": 3042,
@@ -732,7 +724,7 @@
         "games": 4,
         "wins": 2,
         "winrate": 0.5,
-        "score": 234054909.6840551
+        "score": 240240954.81012085
       },
       "runes": {
         "primaryStyle": {
@@ -813,14 +805,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 27777,
+    "totalGames": 29694,
     "patchesUsed": [
       "16.22",
       "16.21"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5093782625913525,
+    "winrate": 0.5097999595877956,
     "items": [
       {
         "itemId": 3071,
@@ -828,7 +820,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 20712
+        "purchaseSamples": 22535
       },
       {
         "itemId": 3009,
@@ -836,7 +828,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 21857
+        "purchaseSamples": 23695
       },
       {
         "itemId": 3087,
@@ -844,7 +836,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 11260
+        "purchaseSamples": 12219
       },
       {
         "itemId": 3094,
@@ -852,7 +844,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6790
+        "purchaseSamples": 7357
       },
       {
         "itemId": 3031,
@@ -860,7 +852,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2537
+        "purchaseSamples": 2756
       },
       {
         "itemId": 2523,
@@ -868,7 +860,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2442
+        "purchaseSamples": 2656
       }
     ],
     "runes": {
@@ -922,15 +914,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 27777,
-      "games": 10809,
-      "confidencePct": 0.38913489577708177
+      "sampleGames": 29694,
+      "games": 11662,
+      "confidencePct": 0.3927392739273927
     },
     "position": {
       "role": "UTILITY",
-      "games": 25798,
-      "sampleGames": 27777,
-      "confidencePct": 0.9287540051121431
+      "games": 27606,
+      "sampleGames": 29694,
+      "confidencePct": 0.9296827641947868
     },
     "skillOrder": {
       "order": [
@@ -938,9 +930,9 @@
         "W",
         "E"
       ],
-      "games": 25971,
-      "sampleGames": 26329,
-      "confidencePct": 0.9864028257814577
+      "games": 28229,
+      "sampleGames": 28601,
+      "confidencePct": 0.986993461767071
     }
   }
 }
