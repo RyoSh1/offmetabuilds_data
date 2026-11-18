@@ -1,35 +1,49 @@
 {
   "championId": "Renekton",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-17T22:41:18.726Z",
+  "generatedAt": "2026-11-18T22:24:46.703Z",
   "corePairs": [
     {
       "itemIds": [
-        3814,
-        6696
+        6696,
+        6699
       ],
       "names": [
-        "Edge of Night",
-        "Axiom Arc"
+        "Axiom Arc",
+        "Voltaic Cyclosword"
       ],
       "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 205167732.06593758
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 1294763406.6263885
     },
     {
       "itemIds": [
-        2520,
-        3179
+        3814,
+        6699
       ],
       "names": [
-        "Bastionbreaker",
-        "Umbral Glaive"
+        "Edge of Night",
+        "Voltaic Cyclosword"
       ],
-      "games": 37,
-      "wins": 23,
-      "winrate": 0.6216216216216216,
-      "score": 41340869.21539302
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 591433822.863965
+    },
+    {
+      "itemIds": [
+        3026,
+        6698
+      ],
+      "names": [
+        "Guardian Angel",
+        "Profane Hydra"
+      ],
+      "games": 10,
+      "wins": 7,
+      "winrate": 0.7,
+      "score": 30313371.72742576
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Lord Dominik's Regards",
         "Immortal Shieldbow"
       ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 34060337.11562868
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 18942600.15143578
     },
     {
       "itemIds": [
@@ -54,24 +68,10 @@
         "Bastionbreaker",
         "Voltaic Cyclosword"
       ],
-      "games": 94,
-      "wins": 58,
-      "winrate": 0.6170212765957447,
-      "score": 33691126.57527397
-    },
-    {
-      "itemIds": [
-        3142,
-        6694
-      ],
-      "names": [
-        "Youmuu's Ghostblade",
-        "Serylda's Grudge"
-      ],
-      "games": 22,
-      "wins": 12,
-      "winrate": 0.5454545454545454,
-      "score": 25101703.61125964
+      "games": 35,
+      "wins": 20,
+      "winrate": 0.5714285714285714,
+      "score": 17324769.70134157
     }
   ],
   "builds": [
@@ -79,21 +79,21 @@
       "id": "Renekton-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 31247,
+      "totalGames": 16560,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 67
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 362
         },
         {
           "itemId": 2520,
@@ -101,15 +101,15 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 272
+          "purchaseSamples": 279
         },
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 345
+          "purchaseSamples": 167
         },
         {
           "itemId": 3047,
@@ -117,7 +117,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 19007
+          "purchaseSamples": 20150
         },
         {
           "itemId": 6696,
@@ -125,30 +125,30 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 23
+          "purchaseSamples": 25
         },
         {
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 70
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 74
         }
       ],
       "seedPair": {
         "itemIds": [
-          3814,
-          6696
+          6696,
+          6699
         ],
         "names": [
-          "Edge of Night",
-          "Axiom Arc"
+          "Axiom Arc",
+          "Voltaic Cyclosword"
         ],
         "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 205167732.06593758
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 1294763406.6263885
       },
       "runes": {
         "primaryStyle": {
@@ -156,8 +156,8 @@
           "name": "Precision"
         },
         "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
+          "id": 8005,
+          "name": "Press the Attack"
         },
         "primaryPerks": [
           {
@@ -165,12 +165,164 @@
             "name": "Triumph"
           },
           {
-            "id": 9105,
-            "name": "Legend: Haste"
+            "id": 9104,
+            "name": "Legend: Alacrity"
           },
           {
             "id": 8299,
             "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8106,
+            "name": "Ultimate Hunter"
+          },
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Renekton-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 16560,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 433
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 279
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 362
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 20150
+        },
+        {
+          "itemId": 6696,
+          "name": "Axiom Arc",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1330
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3026,
+          6698
+        ],
+        "names": [
+          "Guardian Angel",
+          "Profane Hydra"
+        ],
+        "games": 10,
+        "wins": 7,
+        "winrate": 0.7,
+        "score": 30313371.72742576
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
           }
         ],
         "subStyle": {
@@ -183,8 +335,8 @@
             "name": "Bone Plating"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8242,
+            "name": "Unflinching"
           }
         ],
         "statPerks": [
@@ -201,15 +353,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 10,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.1
       },
       "position": {
         "role": "MIDDLE",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "games": 6,
+        "sampleGames": 10,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -217,161 +369,9 @@
           "E",
           "W"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Renekton-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 31247,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 67
-        },
-        {
-          "itemId": 2520,
-          "name": "Bastionbreaker",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 272
-        },
-        {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 345
-        },
-        {
-          "itemId": 6698,
-          "name": "Profane Hydra",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 414
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 5,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 19007
-        },
-        {
-          "itemId": 6694,
-          "name": "Serylda's Grudge",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 89
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2520,
-          3179
-        ],
-        "names": [
-          "Bastionbreaker",
-          "Umbral Glaive"
-        ],
-        "games": 37,
-        "wins": 23,
-        "winrate": 0.6216216216216216,
-        "score": 41340869.21539302
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 37,
-        "games": 9,
-        "confidencePct": 0.24324324324324326
-      },
-      "position": {
-        "role": "TOP",
-        "games": 36,
-        "sampleGames": 37,
-        "confidencePct": 0.972972972972973
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "E",
-          "W"
-        ],
-        "games": 25,
-        "sampleGames": 37,
-        "confidencePct": 0.6756756756756757
+        "games": 5,
+        "sampleGames": 9,
+        "confidencePct": 0.5555555555555556
       },
       "asWholeSet": {
         "games": 0,
@@ -383,29 +383,29 @@
       "id": "Renekton-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 31247,
+      "totalGames": 16560,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6699,
-          "name": "Voltaic Cyclosword",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 345
-        },
-        {
           "itemId": 6698,
           "name": "Profane Hydra",
           "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 433
+        },
+        {
+          "itemId": 6699,
+          "name": "Voltaic Cyclosword",
+          "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 414
+          "purchaseSamples": 362
         },
         {
           "itemId": 3153,
@@ -413,7 +413,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 590
+          "purchaseSamples": 621
         },
         {
           "itemId": 3047,
@@ -421,7 +421,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 19007
+          "purchaseSamples": 20150
         },
         {
           "itemId": 3036,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 98
+          "purchaseSamples": 104
         },
         {
           "itemId": 6673,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 12
+          "purchaseSamples": 13
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Lord Dominik's Regards",
           "Immortal Shieldbow"
         ],
-        "games": 5,
-        "wins": 4,
-        "winrate": 0.8,
-        "score": 34060337.11562868
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 18942600.15143578
       },
       "runes": {
         "primaryStyle": {
@@ -478,52 +478,52 @@
           }
         ],
         "subStyle": {
-          "id": 8100,
-          "name": "Domination"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8143,
-            "name": "Sudden Impact"
+            "id": 8275,
+            "name": "Nimbus Cloak"
           },
           {
-            "id": 8106,
-            "name": "Ultimate Hunter"
+            "id": 8237,
+            "name": "Scorch"
           }
         ],
         "statPerks": [
           {
-            "id": 5008,
-            "name": "Adaptive Force"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 5,
-        "games": 2,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "TOP",
-        "games": 5,
-        "sampleGames": 5,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
         "order": [
-          "Q",
           "W",
-          "E"
+          "E",
+          "Q"
         ],
         "games": 2,
-        "sampleGames": 5,
-        "confidencePct": 0.4
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -535,10 +535,10 @@
       "id": "Renekton-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 31247,
+      "totalGames": 16560,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 60
+          "purchaseSamples": 63
         },
         {
           "itemId": 3142,
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 158
+          "purchaseSamples": 167
         },
         {
           "itemId": 2520,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 272
+          "purchaseSamples": 279
         },
         {
           "itemId": 6699,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 345
+          "purchaseSamples": 362
         },
         {
           "itemId": 3047,
@@ -581,7 +581,7 @@
           "isBoots": true,
           "order": 5,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 19007
+          "purchaseSamples": 20150
         },
         {
           "itemId": 6694,
@@ -589,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 89
+          "purchaseSamples": 91
         }
       ],
       "seedPair": {
@@ -601,10 +601,10 @@
           "Trinity Force",
           "Youmuu's Ghostblade"
         ],
-        "games": 14,
-        "wins": 7,
-        "winrate": 0.5,
-        "score": 18342705.45086324
+        "games": 7,
+        "wins": 5,
+        "winrate": 0.7142857142857143,
+        "score": 12903804.434447134
       },
       "runes": {
         "primaryStyle": {
@@ -635,12 +635,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          },
-          {
             "id": 8313,
             "name": "Triple Tonic"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
@@ -657,15 +657,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 14,
-        "games": 6,
+        "sampleGames": 7,
+        "games": 3,
         "confidencePct": 0.42857142857142855
       },
       "position": {
         "role": "TOP",
-        "games": 12,
-        "sampleGames": 14,
-        "confidencePct": 0.8571428571428571
+        "games": 7,
+        "sampleGames": 7,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -673,9 +673,161 @@
           "E",
           "W"
         ],
-        "games": 7,
-        "sampleGames": 14,
+        "games": 4,
+        "sampleGames": 7,
+        "confidencePct": 0.5714285714285714
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Renekton-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 16560,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6697,
+          "name": "Hubris",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 60
+        },
+        {
+          "itemId": 6698,
+          "name": "Profane Hydra",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 433
+        },
+        {
+          "itemId": 2520,
+          "name": "Bastionbreaker",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 279
+        },
+        {
+          "itemId": 3142,
+          "name": "Youmuu's Ghostblade",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 167
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 5,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 20150
+        },
+        {
+          "itemId": 3814,
+          "name": "Edge of Night",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 74
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6697,
+          6698
+        ],
+        "names": [
+          "Hubris",
+          "Profane Hydra"
+        ],
+        "games": 6,
+        "wins": 5,
+        "winrate": 0.8333333333333334,
+        "score": 8523433.077555256
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8242,
+            "name": "Unflinching"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 2,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 6,
         "confidencePct": 0.5
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "asWholeSet": {
         "games": 0,
@@ -685,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 31247,
+    "totalGames": 16560,
     "patchesUsed": [
-      "16.22",
-      "16.21"
+      "16.23",
+      "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4894229846065222,
+    "winrate": 0.48556763285024157,
     "items": [
       {
         "itemId": 6692,
@@ -700,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 17817
+        "purchaseSamples": 18922
       },
       {
         "itemId": 3047,
@@ -708,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 19007
+        "purchaseSamples": 20150
       },
       {
         "itemId": 3071,
@@ -716,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 18062
+        "purchaseSamples": 19168
       },
       {
         "itemId": 3161,
@@ -724,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5398
+        "purchaseSamples": 5700
       },
       {
         "itemId": 6333,
@@ -732,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 9381
+        "purchaseSamples": 9922
       },
       {
         "itemId": 3053,
@@ -740,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 7650
+        "purchaseSamples": 8120
       }
     ],
     "runes": {
@@ -790,19 +942,19 @@
           "name": "Adaptive Force"
         },
         {
-          "id": 5011,
-          "name": "Health"
+          "id": 5001,
+          "name": "Health Scaling"
         }
       ],
-      "sampleGames": 31247,
-      "games": 8886,
-      "confidencePct": 0.28437930041283965
+      "sampleGames": 16560,
+      "games": 4806,
+      "confidencePct": 0.2902173913043478
     },
     "position": {
       "role": "TOP",
-      "games": 29532,
-      "sampleGames": 31247,
-      "confidencePct": 0.9451147310141773
+      "games": 15738,
+      "sampleGames": 16560,
+      "confidencePct": 0.9503623188405798
     },
     "skillOrder": {
       "order": [
@@ -810,9 +962,9 @@
         "E",
         "W"
       ],
-      "games": 24378,
-      "sampleGames": 30011,
-      "confidencePct": 0.8123021558761787
+      "games": 12800,
+      "sampleGames": 15685,
+      "confidencePct": 0.8160663053873127
     }
   }
 }

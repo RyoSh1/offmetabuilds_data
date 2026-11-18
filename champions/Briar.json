@@ -1,22 +1,8 @@
 {
   "championId": "Briar",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-17T22:41:18.726Z",
+  "generatedAt": "2026-11-18T22:24:46.703Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3142,
-        3814
-      ],
-      "names": [
-        "Youmuu's Ghostblade",
-        "Edge of Night"
-      ],
-      "games": 13,
-      "wins": 11,
-      "winrate": 0.8461538461538461,
-      "score": 191043647.92712584
-    },
     {
       "itemIds": [
         3073,
@@ -26,52 +12,66 @@
         "Experimental Hexplate",
         "Kraken Slayer"
       ],
-      "games": 7,
-      "wins": 5,
-      "winrate": 0.7142857142857143,
-      "score": 146265941.66803768
-    },
-    {
-      "itemIds": [
-        3084,
-        6610
-      ],
-      "names": [
-        "Heartsteel",
-        "Sundered Sky"
-      ],
-      "games": 6,
+      "games": 3,
       "wins": 2,
-      "winrate": 0.3333333333333333,
-      "score": 57021940.66109029
+      "winrate": 0.6666666666666666,
+      "score": 66817924.866509095
     },
     {
       "itemIds": [
         3142,
-        6698
+        3814
       ],
       "names": [
         "Youmuu's Ghostblade",
-        "Profane Hydra"
+        "Edge of Night"
       ],
-      "games": 9,
-      "wins": 7,
-      "winrate": 0.7777777777777778,
-      "score": 55913086.71113114
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 43976038.19686599
     },
     {
       "itemIds": [
-        3179,
-        6695
+        6609,
+        6692
       ],
       "names": [
-        "Umbral Glaive",
-        "Serpent's Fang"
+        "Chempunk Chainsword",
+        "Eclipse"
       ],
       "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 36712872.851805285
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 28109485.968078803
+    },
+    {
+      "itemIds": [
+        3156,
+        6672
+      ],
+      "names": [
+        "Maw of Malmortius",
+        "Kraken Slayer"
+      ],
+      "games": 6,
+      "wins": 5,
+      "winrate": 0.8333333333333334,
+      "score": 22711415.073870316
+    },
+    {
+      "itemIds": [
+        3161,
+        6609
+      ],
+      "names": [
+        "Spear of Shojin",
+        "Chempunk Chainsword"
+      ],
+      "games": 7,
+      "wins": 3,
+      "winrate": 0.42857142857142855,
+      "score": 7514366.047727692
     }
   ],
   "builds": [
@@ -79,10 +79,162 @@
       "id": "Briar-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 11823,
+      "totalGames": 5996,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6672,
+          "name": "Kraken Slayer",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 182
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1164
+        },
+        {
+          "itemId": 3073,
+          "name": "Experimental Hexplate",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 20
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4995
+        },
+        {
+          "itemId": 6333,
+          "name": "Death's Dance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 4288
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 977
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3073,
+          6672
+        ],
+        "names": [
+          "Experimental Hexplate",
+          "Kraken Slayer"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 66817924.866509095
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8345,
+            "name": "Biscuit Delivery"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Briar-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 5996,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -96,44 +248,44 @@
           "purchaseSamples": 70
         },
         {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1164
+        },
+        {
           "itemId": 6698,
           "name": "Profane Hydra",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 873
+          "purchaseSamples": 928
         },
         {
           "itemId": 6695,
           "name": "Serpent's Fang",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 380
+          "purchaseSamples": 393
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4711
+          "purchaseSamples": 4995
         },
         {
           "itemId": 3814,
           "name": "Edge of Night",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 462
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1205
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 481
         }
       ],
       "seedPair": {
@@ -145,10 +297,10 @@
           "Youmuu's Ghostblade",
           "Edge of Night"
         ],
-        "games": 13,
-        "wins": 11,
-        "winrate": 0.8461538461538461,
-        "score": 191043647.92712584
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 43976038.19686599
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +353,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 13,
-        "games": 12,
-        "confidencePct": 0.9230769230769231
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
       },
       "position": {
         "role": "UTILITY",
-        "games": 12,
-        "sampleGames": 13,
-        "confidencePct": 0.9230769230769231
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
@@ -217,24 +369,176 @@
           "Q",
           "E"
         ],
-        "games": 13,
-        "sampleGames": 13,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
-      "id": "Briar-2",
-      "buildIndex": 1,
+      "id": "Briar-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 11823,
+      "totalGames": 5996,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 313
+        },
+        {
+          "itemId": 3153,
+          "name": "Blade of The Ruined King",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 1164
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4995
+        },
+        {
+          "itemId": 6609,
+          "name": "Chempunk Chainsword",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 71
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 977
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 879
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          6609,
+          6692
+        ],
+        "names": [
+          "Chempunk Chainsword",
+          "Eclipse"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 28109485.968078803
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8005,
+          "name": "Press the Attack"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 8014,
+            "name": "Coup de Grace"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8143,
+            "name": "Sudden Impact"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Briar-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 5996,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -245,62 +549,214 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 173
-        },
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1080
-        },
-        {
-          "itemId": 3073,
-          "name": "Experimental Hexplate",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 3032,
-          "name": "Yun Tal Wildarrows",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 27
+          "purchaseSamples": 182
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 5,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4711
+          "purchaseSamples": 4995
+        },
+        {
+          "itemId": 3156,
+          "name": "Maw of Malmortius",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 294
         },
         {
           "itemId": 2517,
           "name": "Endless Hunger",
           "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 977
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 174
+        },
+        {
+          "itemId": 3065,
+          "name": "Spirit Visage",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 928
+          "purchaseSamples": 879
         }
       ],
       "seedPair": {
         "itemIds": [
-          3073,
+          3156,
           6672
         ],
         "names": [
-          "Experimental Hexplate",
+          "Maw of Malmortius",
           "Kraken Slayer"
         ],
-        "games": 7,
+        "games": 6,
         "wins": 5,
-        "winrate": 0.7142857142857143,
-        "score": 146265941.66803768
+        "winrate": 0.8333333333333334,
+        "score": 22711415.073870316
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8008,
+          "name": "Lethal Tempo"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8299,
+            "name": "Last Stand"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8321,
+            "name": "Cash Back"
+          },
+          {
+            "id": 8313,
+            "name": "Triple Tonic"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 1,
+        "confidencePct": 0.16666666666666666
+      },
+      "position": {
+        "role": "TOP",
+        "games": 5,
+        "sampleGames": 6,
+        "confidencePct": 0.8333333333333334
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "Q",
+          "E"
+        ],
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Briar-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5996,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 4995
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 18
+        },
+        {
+          "itemId": 6609,
+          "name": "Chempunk Chainsword",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 71
+        },
+        {
+          "itemId": 3053,
+          "name": "Sterak's Gage",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 306
+        },
+        {
+          "itemId": 2517,
+          "name": "Endless Hunger",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 977
+        },
+        {
+          "itemId": 3026,
+          "name": "Guardian Angel",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 1284
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3161,
+          6609
+        ],
+        "names": [
+          "Spear of Shojin",
+          "Chempunk Chainsword"
+        ],
+        "games": 7,
+        "wins": 3,
+        "winrate": 0.42857142857142855,
+        "score": 7514366.047727692
       },
       "runes": {
         "primaryStyle": {
@@ -326,17 +782,17 @@
           }
         ],
         "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
+          "id": 8200,
+          "name": "Sorcery"
         },
         "secondaryPerks": [
           {
-            "id": 8473,
-            "name": "Bone Plating"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
-            "id": 8453,
-            "name": "Revitalize"
+            "id": 8236,
+            "name": "Gathering Storm"
           }
         ],
         "statPerks": [
@@ -354,469 +810,13 @@
           }
         ],
         "sampleGames": 7,
-        "games": 1,
-        "confidencePct": 0.14285714285714285
-      },
-      "position": {
-        "role": "TOP",
         "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Briar-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 11823,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3084,
-          "name": "Heartsteel",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 41
-        },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 119
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4711
-        },
-        {
-          "itemId": 2501,
-          "name": "Overlord's Bloodmail",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 194
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 285
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 832
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3084,
-          6610
-        ],
-        "names": [
-          "Heartsteel",
-          "Sundered Sky"
-        ],
-        "games": 6,
-        "wins": 2,
-        "winrate": 0.3333333333333333,
-        "score": 57021940.66109029
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 6,
-        "games": 3,
-        "confidencePct": 0.5
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Briar-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 11823,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3179,
-          "name": "Umbral Glaive",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 30
-        },
-        {
-          "itemId": 6695,
-          "name": "Serpent's Fang",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 380
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4711
-        },
-        {
-          "itemId": 3033,
-          "name": "Mortal Reminder",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 493
-        },
-        {
-          "itemId": 3031,
-          "name": "Infinity Edge",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 871
-        },
-        {
-          "itemId": 6673,
-          "name": "Immortal Shieldbow",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 367
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3179,
-          6695
-        ],
-        "names": [
-          "Umbral Glaive",
-          "Serpent's Fang"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 36712872.851805285
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 9923,
-          "name": "Hail of Blades"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8140,
-            "name": "Grisly Mementos"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "Q",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Briar-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 11823,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3153,
-          "name": "Blade of The Ruined King",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 1080
-        },
-        {
-          "itemId": 6610,
-          "name": "Sundered Sky",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 119
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4711
-        },
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 12
-        },
-        {
-          "itemId": 3026,
-          "name": "Guardian Angel",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1205
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 168
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6610,
-          6662
-        ],
-        "names": [
-          "Sundered Sky",
-          "Iceborn Gauntlet"
-        ],
-        "games": 10,
-        "wins": 6,
-        "winrate": 0.6,
-        "score": 14560601.509945542
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9104,
-            "name": "Legend: Alacrity"
-          },
-          {
-            "id": 8014,
-            "name": "Coup de Grace"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 10,
-        "games": 10,
         "confidencePct": 1
       },
       "position": {
         "role": "JUNGLE",
-        "games": 10,
-        "sampleGames": 10,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -825,8 +825,8 @@
           "Q",
           "E"
         ],
-        "games": 10,
-        "sampleGames": 10,
+        "games": 7,
+        "sampleGames": 7,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -837,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 11823,
+    "totalGames": 5996,
     "patchesUsed": [
-      "16.22",
-      "16.21"
+      "16.23",
+      "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.4960669880740929,
+    "winrate": 0.5016677785190127,
     "items": [
       {
         "itemId": 3748,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 6698
+        "purchaseSamples": 7097
       },
       {
         "itemId": 6676,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4776
+        "purchaseSamples": 5052
       },
       {
         "itemId": 3071,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 5162
+        "purchaseSamples": 5488
       },
       {
         "itemId": 3047,
@@ -876,7 +876,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4711
+        "purchaseSamples": 4995
       },
       {
         "itemId": 6333,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4043
+        "purchaseSamples": 4288
       },
       {
         "itemId": 3026,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 1205
+        "purchaseSamples": 1284
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 11823,
-      "games": 3239,
-      "confidencePct": 0.2739575403873805
+      "sampleGames": 5996,
+      "games": 1604,
+      "confidencePct": 0.2675116744496331
     },
     "position": {
       "role": "JUNGLE",
-      "games": 10140,
-      "sampleGames": 11823,
-      "confidencePct": 0.8576503425526516
+      "games": 5160,
+      "sampleGames": 5996,
+      "confidencePct": 0.8605737158105403
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "Q",
         "E"
       ],
-      "games": 11036,
-      "sampleGames": 11287,
-      "confidencePct": 0.9777620271108355
+      "games": 5562,
+      "sampleGames": 5681,
+      "confidencePct": 0.9790529836296427
     }
   }
 }

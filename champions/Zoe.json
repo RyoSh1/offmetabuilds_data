@@ -1,7 +1,7 @@
 {
   "championId": "Zoe",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-17T22:41:18.726Z",
+  "generatedAt": "2026-11-18T22:24:46.703Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Liandry's Torment",
         "Bloodletter's Curse"
       ],
-      "games": 29,
+      "games": 28,
       "wins": 15,
-      "winrate": 0.5172413793103449,
-      "score": 947412146.3835584
+      "winrate": 0.5357142857142857,
+      "score": 546309516.6126465
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 11,
       "wins": 7,
       "winrate": 0.6363636363636364,
-      "score": 707197944.8462162
+      "score": 379902041.60997987
     },
     {
       "itemIds": [
@@ -43,7 +43,21 @@
       "games": 10,
       "wins": 6,
       "winrate": 0.6,
-      "score": 517592337.5538268
+      "score": 304400920.23812926
+    },
+    {
+      "itemIds": [
+        3172,
+        6675
+      ],
+      "names": [
+        "Gunmetal Greaves",
+        "Navori Flickerblade"
+      ],
+      "games": 3,
+      "wins": 3,
+      "winrate": 1,
+      "score": 151915316.33099267
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 241464734.9069381
-    },
-    {
-      "itemIds": [
-        6662,
-        8010
-      ],
-      "names": [
-        "Iceborn Gauntlet",
-        "Bloodletter's Curse"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 206180387.07473052
+      "score": 125817670.90904316
     }
   ],
   "builds": [
@@ -79,29 +79,29 @@
       "id": "Zoe-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 22756,
+      "totalGames": 11264,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 56
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 57
         },
         {
           "itemId": 8010,
@@ -109,7 +109,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 73
+          "purchaseSamples": 75
         },
         {
           "itemId": 4633,
@@ -125,7 +125,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 668
+          "purchaseSamples": 714
         },
         {
           "itemId": 3041,
@@ -133,7 +133,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2290
+          "purchaseSamples": 2424
         }
       ],
       "seedPair": {
@@ -145,10 +145,10 @@
           "Liandry's Torment",
           "Bloodletter's Curse"
         ],
-        "games": 29,
+        "games": 28,
         "wins": 15,
-        "winrate": 0.5172413793103449,
-        "score": 947412146.3835584
+        "winrate": 0.5357142857142857,
+        "score": 546309516.6126465
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 29,
+        "sampleGames": 28,
         "games": 11,
-        "confidencePct": 0.3793103448275862
+        "confidencePct": 0.39285714285714285
       },
       "position": {
         "role": "TOP",
         "games": 24,
-        "sampleGames": 29,
-        "confidencePct": 0.8275862068965517
+        "sampleGames": 28,
+        "confidencePct": 0.8571428571428571
       },
       "skillOrder": {
         "order": [
@@ -217,9 +217,9 @@
           "E",
           "W"
         ],
-        "games": 22,
-        "sampleGames": 29,
-        "confidencePct": 0.7586206896551724
+        "games": 21,
+        "sampleGames": 28,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 2,
@@ -231,76 +231,52 @@
       "id": "Zoe-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 22756,
+      "totalGames": 11264,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 4317
-        },
-        {
-          "itemId": 2065,
-          "name": "Shurelya's Battlesong",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 815
-        },
-        {
-          "itemId": 4628,
-          "name": "Horizon Focus",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 4843
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "order": 1,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 26
         },
         {
-          "itemId": 3107,
-          "name": "Redemption",
+          "itemId": 6675,
+          "name": "Navori Flickerblade",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 36
+          "order": 2,
+          "medianPurchaseOrder": 6,
+          "purchaseSamples": 3
         },
         {
-          "itemId": 3190,
-          "name": "Locket of the Iron Solari",
+          "itemId": 3172,
+          "name": "Gunmetal Greaves",
           "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 31
+          "order": 3,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
         }
       ],
       "seedPair": {
         "itemIds": [
-          3107,
-          3190
+          3172,
+          6675
         ],
         "names": [
-          "Redemption",
-          "Locket of the Iron Solari"
+          "Gunmetal Greaves",
+          "Navori Flickerblade"
         ],
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 140266807.7215735
+        "score": 151915316.33099267
       },
       "runes": {
         "primaryStyle": {
@@ -308,8 +284,8 @@
           "name": "Sorcery"
         },
         "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
+          "id": 8992,
+          "name": "Deathfire Touch"
         },
         "primaryPerks": [
           {
@@ -317,160 +293,8 @@
             "name": "Nimbus Cloak"
           },
           {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Zoe-3",
-      "buildIndex": 2,
-      "rarityVariant": "normal",
-      "totalGames": 22756,
-      "patchesUsed": [
-        "16.22",
-        "16.21"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 2503,
-          "name": "Blackfire Torch",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2692
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 757
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 937
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 98
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 73
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2503,
-          4629
-        ],
-        "names": [
-          "Blackfire Torch",
-          "Cosmic Drive"
-        ],
-        "games": 599,
-        "wins": 319,
-        "winrate": 0.5325542570951586,
-        "score": 82721528.24238005
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8275,
-            "name": "Nimbus Cloak"
-          },
-          {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8210,
+            "name": "Transcendence"
           },
           {
             "id": 8237,
@@ -483,12 +307,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8017,
-            "name": "Cut Down"
-          },
-          {
             "id": 9105,
             "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
           }
         ],
         "statPerks": [
@@ -505,15 +329,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 599,
-        "games": 249,
-        "confidencePct": 0.41569282136894825
+        "sampleGames": 3,
+        "games": 3,
+        "confidencePct": 1
       },
       "position": {
-        "role": "TOP",
-        "games": 348,
-        "sampleGames": 599,
-        "confidencePct": 0.5809682804674458
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -521,24 +345,24 @@
           "E",
           "W"
         ],
-        "games": 576,
-        "sampleGames": 580,
-        "confidencePct": 0.993103448275862
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
+        "games": 3,
+        "wins": 3,
+        "winrate": 1
       }
     },
     {
-      "id": "Zoe-4",
-      "buildIndex": 3,
+      "id": "Zoe-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 22756,
+      "totalGames": 11264,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
@@ -549,7 +373,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2692
+          "purchaseSamples": 2834
         },
         {
           "itemId": 4005,
@@ -557,15 +381,15 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 4317
+          "purchaseSamples": 4488
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 26
         },
         {
           "itemId": 3137,
@@ -573,7 +397,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 881
+          "purchaseSamples": 942
         },
         {
           "itemId": 3041,
@@ -581,7 +405,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2290
+          "purchaseSamples": 2424
         },
         {
           "itemId": 3121,
@@ -601,10 +425,10 @@
           "Blackfire Torch",
           "Fimbulwinter"
         ],
-        "games": 118,
-        "wins": 67,
-        "winrate": 0.5677966101694916,
-        "score": 80811023.1913763
+        "games": 80,
+        "wins": 48,
+        "winrate": 0.6,
+        "score": 42949616.71356785
       },
       "runes": {
         "primaryStyle": {
@@ -645,8 +469,8 @@
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5005,
+            "name": "Attack Speed"
           },
           {
             "id": 5010,
@@ -657,15 +481,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 118,
-        "games": 46,
-        "confidencePct": 0.3898305084745763
+        "sampleGames": 80,
+        "games": 33,
+        "confidencePct": 0.4125
       },
       "position": {
         "role": "TOP",
-        "games": 107,
-        "sampleGames": 118,
-        "confidencePct": 0.9067796610169492
+        "games": 70,
+        "sampleGames": 80,
+        "confidencePct": 0.875
       },
       "skillOrder": {
         "order": [
@@ -673,43 +497,195 @@
           "E",
           "W"
         ],
-        "games": 116,
-        "sampleGames": 116,
+        "games": 80,
+        "sampleGames": 80,
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 1,
+        "games": 0,
         "wins": 0,
-        "winrate": 0
+        "winrate": null
       }
     },
     {
-      "id": "Zoe-5",
-      "buildIndex": 4,
+      "id": "Zoe-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 22756,
+      "totalGames": 11264,
       "patchesUsed": [
-        "16.22",
-        "16.21"
+        "16.23",
+        "16.22"
       ],
       "patchWindowExtended": false,
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
+          "itemId": 2503,
+          "name": "Blackfire Torch",
           "isBoots": false,
           "order": 1,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 56
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 2834
         },
         {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
           "order": 2,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 4629,
+          "name": "Cosmic Drive",
+          "isBoots": false,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 25
+          "purchaseSamples": 795
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 973
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 105
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 75
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2503,
+          4629
+        ],
+        "names": [
+          "Blackfire Torch",
+          "Cosmic Drive"
+        ],
+        "games": 353,
+        "wins": 187,
+        "winrate": 0.5297450424929179,
+        "score": 38140081.0901106
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8275,
+            "name": "Nimbus Cloak"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 353,
+        "games": 159,
+        "confidencePct": 0.45042492917847027
+      },
+      "position": {
+        "role": "TOP",
+        "games": 195,
+        "sampleGames": 353,
+        "confidencePct": 0.5524079320113314
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "E",
+          "W"
+        ],
+        "games": 334,
+        "sampleGames": 336,
+        "confidencePct": 0.9940476190476191
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Zoe-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 11264,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 57
         },
         {
           "itemId": 3137,
@@ -717,7 +693,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 881
+          "purchaseSamples": 942
         },
         {
           "itemId": 3165,
@@ -725,7 +701,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 98
+          "purchaseSamples": 105
         },
         {
           "itemId": 3102,
@@ -733,7 +709,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 668
+          "purchaseSamples": 714
         },
         {
           "itemId": 3041,
@@ -741,7 +717,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2290
+          "purchaseSamples": 2424
         }
       ],
       "seedPair": {
@@ -756,7 +732,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 49009526.04736395
+        "score": 32658420.01430506
       },
       "runes": {
         "primaryStyle": {
@@ -837,38 +813,38 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 22756,
+    "totalGames": 11264,
     "patchesUsed": [
-      "16.22",
-      "16.21"
+      "16.23",
+      "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5125681139040253,
+    "winrate": 0.515625,
     "items": [
       {
         "itemId": 6655,
         "name": "Luden's Echo",
         "isBoots": false,
         "order": 1,
-        "medianPurchaseOrder": 1,
-        "purchaseSamples": 14191
-      },
-      {
-        "itemId": 3100,
-        "name": "Lich Bane",
-        "isBoots": false,
-        "order": 2,
-        "medianPurchaseOrder": 3,
-        "purchaseSamples": 8520
+        "medianPurchaseOrder": 2,
+        "purchaseSamples": 15066
       },
       {
         "itemId": 3175,
         "name": "Spellslinger's Shoes",
         "isBoots": true,
+        "order": 2,
+        "medianPurchaseOrder": 2.5,
+        "purchaseSamples": 26
+      },
+      {
+        "itemId": 3100,
+        "name": "Lich Bane",
+        "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 25
+        "purchaseSamples": 9096
       },
       {
         "itemId": 4645,
@@ -876,7 +852,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 4938
+        "purchaseSamples": 5189
       },
       {
         "itemId": 3089,
@@ -884,7 +860,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2842
+        "purchaseSamples": 2976
       },
       {
         "itemId": 3157,
@@ -892,7 +868,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2551
+        "purchaseSamples": 2690
       }
     ],
     "runes": {
@@ -924,12 +900,12 @@
       },
       "secondaryPerks": [
         {
-          "id": 8275,
-          "name": "Nimbus Cloak"
-        },
-        {
           "id": 8237,
           "name": "Scorch"
+        },
+        {
+          "id": 8275,
+          "name": "Nimbus Cloak"
         }
       ],
       "statPerks": [
@@ -946,15 +922,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 22756,
-      "games": 4617,
-      "confidencePct": 0.20289154508701002
+      "sampleGames": 11264,
+      "games": 2439,
+      "confidencePct": 0.21653053977272727
     },
     "position": {
       "role": "MIDDLE",
-      "games": 15077,
-      "sampleGames": 22756,
-      "confidencePct": 0.6625505361223414
+      "games": 7486,
+      "sampleGames": 11264,
+      "confidencePct": 0.6645951704545454
     },
     "skillOrder": {
       "order": [
@@ -962,9 +938,9 @@
         "E",
         "W"
       ],
-      "games": 19550,
-      "sampleGames": 22090,
-      "confidencePct": 0.8850158442734269
+      "games": 9555,
+      "sampleGames": 10733,
+      "confidencePct": 0.8902450386657971
     }
   }
 }
