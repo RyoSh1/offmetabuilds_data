@@ -1,22 +1,8 @@
 {
   "championId": "Khazix",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-19T23:38:53.818Z",
+  "generatedAt": "2026-11-20T22:40:18.442Z",
   "corePairs": [
-    {
-      "itemIds": [
-        3042,
-        6692
-      ],
-      "names": [
-        "Muramana",
-        "Eclipse"
-      ],
-      "games": 3,
-      "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 551393706.6659348
-    },
     {
       "itemIds": [
         3071,
@@ -26,10 +12,38 @@
         "Black Cleaver",
         "Profane Hydra"
       ],
-      "games": 53,
-      "wins": 28,
-      "winrate": 0.5283018867924528,
-      "score": 530651824.3951198
+      "games": 57,
+      "wins": 31,
+      "winrate": 0.543859649122807,
+      "score": 550593985.4279587
+    },
+    {
+      "itemIds": [
+        3042,
+        6692
+      ],
+      "names": [
+        "Muramana",
+        "Eclipse"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 489895753.53560984
+    },
+    {
+      "itemIds": [
+        3042,
+        3071
+      ],
+      "names": [
+        "Muramana",
+        "Black Cleaver"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 416848004.70161676
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 10,
       "wins": 5,
       "winrate": 0.5,
-      "score": 412880636.8283887
+      "score": 363983427.5653608
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 32375298.822400328
-    },
-    {
-      "itemIds": [
-        3071,
-        6692
-      ],
-      "names": [
-        "Black Cleaver",
-        "Eclipse"
-      ],
-      "games": 66,
-      "wins": 29,
-      "winrate": 0.4393939393939394,
-      "score": 17915989.59579074
+      "score": 29877121.72942757
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Khazix-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 17934,
+      "totalGames": 19167,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 285
+          "purchaseSamples": 300
         },
         {
           "itemId": 6698,
@@ -101,7 +101,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1279
+          "purchaseSamples": 1337
         },
         {
           "itemId": 3071,
@@ -109,7 +109,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 328
+          "purchaseSamples": 349
         },
         {
           "itemId": 3158,
@@ -117,7 +117,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17463
+          "purchaseSamples": 18071
         },
         {
           "itemId": 6695,
@@ -125,7 +125,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 7839
+          "purchaseSamples": 8091
         },
         {
           "itemId": 3042,
@@ -138,53 +138,53 @@
       ],
       "seedPair": {
         "itemIds": [
-          3042,
-          6692
+          3071,
+          6698
         ],
         "names": [
-          "Muramana",
-          "Eclipse"
+          "Black Cleaver",
+          "Profane Hydra"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 551393706.6659348
+        "games": 57,
+        "wins": 31,
+        "winrate": 0.543859649122807,
+        "score": 550593985.4279587
       },
       "runes": {
         "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
           "id": 8200,
           "name": "Sorcery"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8230,
+          "name": "Stormraider's Surge"
+        },
+        "primaryPerks": [
           {
             "id": 8226,
             "name": "Manaflow Band"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8236,
+            "name": "Gathering Storm"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
           }
         ],
         "statPerks": [
@@ -201,25 +201,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 57,
+        "games": 42,
+        "confidencePct": 0.7368421052631579
       },
       "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "role": "MIDDLE",
+        "games": 32,
+        "sampleGames": 57,
+        "confidencePct": 0.5614035087719298
       },
       "skillOrder": {
         "order": [
-          "W",
           "Q",
+          "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
+        "games": 54,
+        "sampleGames": 57,
+        "confidencePct": 0.9473684210526315
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Khazix-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 17934,
+      "totalGames": 19167,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -245,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 2939
+          "purchaseSamples": 3053
         },
         {
           "itemId": 6698,
@@ -253,7 +253,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1279
+          "purchaseSamples": 1337
         },
         {
           "itemId": 3158,
@@ -261,7 +261,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17463
+          "purchaseSamples": 18071
         },
         {
           "itemId": 6676,
@@ -269,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 125
+          "purchaseSamples": 135
         },
         {
           "itemId": 3033,
@@ -277,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1011
+          "purchaseSamples": 1041
         },
         {
           "itemId": 3031,
@@ -285,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 11
+          "purchaseSamples": 12
         }
       ],
       "seedPair": {
@@ -300,7 +300,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 32375298.822400328
+        "score": 29877121.72942757
       },
       "runes": {
         "primaryStyle": {
@@ -383,7 +383,7 @@
       "id": "Khazix-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 17934,
+      "totalGames": 19167,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 285
+          "purchaseSamples": 300
         },
         {
           "itemId": 3071,
@@ -405,23 +405,23 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 328
-        },
-        {
-          "itemId": 3161,
-          "name": "Spear of Shojin",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 83
+          "purchaseSamples": 349
         },
         {
           "itemId": 3158,
           "name": "Ionian Boots of Lucidity",
           "isBoots": true,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17463
+          "purchaseSamples": 18071
+        },
+        {
+          "itemId": 3161,
+          "name": "Spear of Shojin",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 87
         },
         {
           "itemId": 6333,
@@ -429,7 +429,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1309
+          "purchaseSamples": 1342
         },
         {
           "itemId": 6609,
@@ -437,7 +437,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 125
+          "purchaseSamples": 129
         }
       ],
       "seedPair": {
@@ -449,10 +449,10 @@
           "Black Cleaver",
           "Spear of Shojin"
         ],
-        "games": 12,
-        "wins": 7,
-        "winrate": 0.5833333333333334,
-        "score": 11352428.14376302
+        "games": 15,
+        "wins": 8,
+        "winrate": 0.5333333333333333,
+        "score": 12320144.130498625
       },
       "runes": {
         "primaryStyle": {
@@ -505,14 +505,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 12,
+        "sampleGames": 15,
         "games": 5,
-        "confidencePct": 0.4166666666666667
+        "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "JUNGLE",
-        "games": 12,
-        "sampleGames": 12,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -521,8 +521,8 @@
           "W",
           "E"
         ],
-        "games": 12,
-        "sampleGames": 12,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -535,7 +535,7 @@
       "id": "Khazix-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 17934,
+      "totalGames": 19167,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -549,159 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 285
-        },
-        {
-          "itemId": 3142,
-          "name": "Youmuu's Ghostblade",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2939
-        },
-        {
-          "itemId": 3071,
-          "name": "Black Cleaver",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 328
-        },
-        {
-          "itemId": 3158,
-          "name": "Ionian Boots of Lucidity",
-          "isBoots": true,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 17463
-        },
-        {
-          "itemId": 3053,
-          "name": "Sterak's Gage",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 15
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 1309
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3053,
-          3071
-        ],
-        "names": [
-          "Sterak's Gage",
-          "Black Cleaver"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 8253059.829289444
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "keystone": {
-          "id": 8369,
-          "name": "First Strike"
-        },
-        "primaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8313,
-            "name": "Triple Tonic"
-          },
-          {
-            "id": 8347,
-            "name": "Cosmic Insight"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8135,
-            "name": "Treasure Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "JUNGLE",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Khazix-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 17934,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 285
+          "purchaseSamples": 300
         },
         {
           "itemId": 6698,
@@ -709,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 1279
+          "purchaseSamples": 1337
         },
         {
           "itemId": 3071,
@@ -717,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 328
+          "purchaseSamples": 349
         },
         {
           "itemId": 3158,
@@ -725,7 +573,7 @@
           "isBoots": true,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 17463
+          "purchaseSamples": 18071
         },
         {
           "itemId": 6333,
@@ -733,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 1309
+          "purchaseSamples": 1342
         },
         {
           "itemId": 3143,
@@ -741,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 6,
-          "purchaseSamples": 37
+          "purchaseSamples": 39
         }
       ],
       "seedPair": {
@@ -756,7 +604,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 3376727.5754429246
+        "score": 3349475.3717723642
       },
       "runes": {
         "primaryStyle": {
@@ -837,14 +685,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 17934,
+    "totalGames": 19167,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5021188803390209,
+    "winrate": 0.5013825846507017,
     "items": [
       {
         "itemId": 3179,
@@ -852,7 +700,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 32262
+        "purchaseSamples": 33331
       },
       {
         "itemId": 6699,
@@ -860,7 +708,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 28682
+        "purchaseSamples": 29616
       },
       {
         "itemId": 2520,
@@ -868,7 +716,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 13388
+        "purchaseSamples": 13812
       },
       {
         "itemId": 3158,
@@ -876,7 +724,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 17463
+        "purchaseSamples": 18071
       },
       {
         "itemId": 3814,
@@ -884,7 +732,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 14886
+        "purchaseSamples": 15402
       },
       {
         "itemId": 6694,
@@ -892,7 +740,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 5,
-        "purchaseSamples": 10544
+        "purchaseSamples": 10864
       }
     ],
     "runes": {
@@ -946,15 +794,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 17934,
-      "games": 7114,
-      "confidencePct": 0.39667670346827255
+      "sampleGames": 19167,
+      "games": 7671,
+      "confidencePct": 0.4002191266238848
     },
     "position": {
       "role": "JUNGLE",
-      "games": 17796,
-      "sampleGames": 17934,
-      "confidencePct": 0.992305118768819
+      "games": 19014,
+      "sampleGames": 19167,
+      "confidencePct": 0.9920175301299108
     },
     "skillOrder": {
       "order": [
@@ -962,9 +810,9 @@
         "W",
         "E"
       ],
-      "games": 13068,
-      "sampleGames": 17860,
-      "confidencePct": 0.7316909294512878
+      "games": 14083,
+      "sampleGames": 19137,
+      "confidencePct": 0.7359042692167006
     }
   }
 }
