@@ -1,7 +1,7 @@
 {
   "championId": "Heimerdinger",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-20T22:40:18.442Z",
+  "generatedAt": "2026-11-22T00:23:35.429Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,21 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 62007135.232383646
+      "score": 70224021.6699481
+    },
+    {
+      "itemIds": [
+        3041,
+        8010
+      ],
+      "names": [
+        "Mejai's Soulstealer",
+        "Bloodletter's Curse"
+      ],
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 16994500.194584012
     },
     {
       "itemIds": [
@@ -29,49 +43,35 @@
       "games": 7,
       "wins": 6,
       "winrate": 0.8571428571428571,
-      "score": 15739327.613943825
+      "score": 16758990.954690294
     },
     {
       "itemIds": [
-        3041,
-        8010
+        4646,
+        6655
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Bloodletter's Curse"
+        "Stormsurge",
+        "Luden's Echo"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 13843147.288413659
+      "games": 32,
+      "wins": 22,
+      "winrate": 0.6875,
+      "score": 6605403.095965603
     },
     {
       "itemIds": [
-        3041,
-        3118
+        2065,
+        3116
       ],
       "names": [
-        "Mejai's Soulstealer",
-        "Malignance"
+        "Shurelya's Battlesong",
+        "Rylai's Crystal Scepter"
       ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 8345307.429525909
-    },
-    {
-      "itemIds": [
-        3116,
-        4629
-      ],
-      "names": [
-        "Rylai's Crystal Scepter",
-        "Cosmic Drive"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 5102369.602118156
+      "games": 19,
+      "wins": 11,
+      "winrate": 0.5789473684210527,
+      "score": 5226990.692417775
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Heimerdinger-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 5213,
+      "totalGames": 5760,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -88,28 +88,28 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 1583
+        },
+        {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6534
+          "purchaseSamples": 3628
         },
         {
           "itemId": 2065,
           "name": "Shurelya's Battlesong",
           "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
-        },
-        {
-          "itemId": 2524,
-          "name": "Bandlepipes",
-          "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "purchaseSamples": 30
         },
         {
           "itemId": 3116,
@@ -117,7 +117,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1852
+          "purchaseSamples": 984
+        },
+        {
+          "itemId": 2524,
+          "name": "Bandlepipes",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 4
         }
       ],
       "seedPair": {
@@ -132,7 +140,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 62007135.232383646
+        "score": 70224021.6699481
       },
       "runes": {
         "primaryStyle": {
@@ -206,168 +214,16 @@
         "confidencePct": 1
       },
       "asWholeSet": {
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333
-      }
-    },
-    {
-      "id": "Heimerdinger-2",
-      "buildIndex": 1,
-      "rarityVariant": "normal",
-      "totalGames": 5213,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
-          "itemId": 3020,
-          "name": "Sorcerer's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 6534
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 434
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 442
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1389
-        },
-        {
-          "itemId": 2522,
-          "name": "Actualizer",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 72
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3118,
-          4646
-        ],
-        "names": [
-          "Malignance",
-          "Stormsurge"
-        ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 15739327.613943825
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8300,
-          "name": "Inspiration"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8321,
-            "name": "Cash Back"
-          },
-          {
-            "id": 8316,
-            "name": "Jack Of All Trades"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 7,
-        "games": 3,
-        "confidencePct": 0.42857142857142855
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 5,
-        "sampleGames": 7,
-        "confidencePct": 0.7142857142857143
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 7,
-        "sampleGames": 7,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
         "games": 0,
         "wins": 0,
         "winrate": null
       }
     },
     {
-      "id": "Heimerdinger-3",
-      "buildIndex": 2,
+      "id": "Heimerdinger-2",
+      "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 5213,
+      "totalGames": 5760,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -376,20 +232,20 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
-        },
-        {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6534
+          "purchaseSamples": 3628
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 229
         },
         {
           "itemId": 3041,
@@ -397,7 +253,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 442
+          "purchaseSamples": 251
         },
         {
           "itemId": 8010,
@@ -405,23 +261,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 254
+          "purchaseSamples": 135
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 45
         },
         {
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 354
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 217
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 211
         }
       ],
       "seedPair": {
@@ -433,10 +289,10 @@
           "Mejai's Soulstealer",
           "Bloodletter's Curse"
         ],
-        "games": 3,
-        "wins": 3,
+        "games": 4,
+        "wins": 4,
         "winrate": 1,
-        "score": 13843147.288413659
+        "score": 16994500.194584012
       },
       "runes": {
         "primaryStyle": {
@@ -489,15 +345,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.25
       },
       "position": {
         "role": "JUNGLE",
         "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "sampleGames": 4,
+        "confidencePct": 0.25
       },
       "skillOrder": {
         "order": [
@@ -505,9 +361,9 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 3,
-        "confidencePct": 0.6666666666666666
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 0,
@@ -516,10 +372,10 @@
       }
     },
     {
-      "id": "Heimerdinger-4",
-      "buildIndex": 3,
+      "id": "Heimerdinger-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 5213,
+      "totalGames": 5760,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -533,7 +389,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6534
+          "purchaseSamples": 3628
         },
         {
           "itemId": 3116,
@@ -541,7 +397,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 1852
+          "purchaseSamples": 984
         },
         {
           "itemId": 4629,
@@ -549,7 +405,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 49
+          "purchaseSamples": 25
         },
         {
           "itemId": 3089,
@@ -557,7 +413,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 3957
+          "purchaseSamples": 2270
         },
         {
           "itemId": 3157,
@@ -565,15 +421,15 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 3174
+          "purchaseSamples": 1788
         },
         {
-          "itemId": 3165,
-          "name": "Morellonomicon",
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
           "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 217
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 251
         }
       ],
       "seedPair": {
@@ -588,7 +444,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 5102369.602118156
+        "score": 5095190.91495655
       },
       "runes": {
         "primaryStyle": {
@@ -668,10 +524,10 @@
       }
     },
     {
-      "id": "Heimerdinger-5",
-      "buildIndex": 4,
+      "id": "Heimerdinger-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 5213,
+      "totalGames": 5760,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -685,23 +541,23 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 817
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 93
+          "purchaseSamples": 406
         },
         {
           "itemId": 3020,
           "name": "Sorcerer's Shoes",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 6534
+          "purchaseSamples": 3628
+        },
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 42
         },
         {
           "itemId": 4646,
@@ -709,38 +565,38 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 434
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 354
+          "purchaseSamples": 229
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 251
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 442
+          "purchaseSamples": 211
         }
       ],
       "seedPair": {
         "itemIds": [
-          3102,
-          4646
+          3152,
+          6655
         ],
         "names": [
-          "Banshee's Veil",
-          "Stormsurge"
+          "Hextech Rocketbelt",
+          "Luden's Echo"
         ],
-        "games": 7,
-        "wins": 6,
-        "winrate": 0.8571428571428571,
-        "score": 3765328.395414638
+        "games": 6,
+        "wins": 3,
+        "winrate": 0.5,
+        "score": 4136340.071865752
       },
       "runes": {
         "primaryStyle": {
@@ -761,22 +617,174 @@
             "name": "Legend: Haste"
           },
           {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "subStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8139,
+            "name": "Taste of Blood"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5013,
+            "name": "Tenacity/Slow Resist"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 4,
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Heimerdinger-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 5760,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3020,
+          "name": "Sorcerer's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 3628
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 229
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 251
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 45
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 742
+        },
+        {
+          "itemId": 2522,
+          "name": "Actualizer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 29
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2522,
+          3041
+        ],
+        "names": [
+          "Actualizer",
+          "Mejai's Soulstealer"
+        ],
+        "games": 6,
+        "wins": 6,
+        "winrate": 1,
+        "score": 3682065.3879549364
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "keystone": {
+          "id": 8010,
+          "name": "Conqueror"
+        },
+        "primaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
             "id": 8299,
             "name": "Last Stand"
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8233,
-            "name": "Absolute Focus"
+            "id": 8321,
+            "name": "Cash Back"
           },
           {
-            "id": 8236,
-            "name": "Gathering Storm"
+            "id": 8313,
+            "name": "Triple Tonic"
           }
         ],
         "statPerks": [
@@ -793,25 +801,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 7,
-        "games": 1,
-        "confidencePct": 0.14285714285714285
+        "sampleGames": 6,
+        "games": 5,
+        "confidencePct": 0.8333333333333334
       },
       "position": {
-        "role": "MIDDLE",
+        "role": "TOP",
         "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "sampleGames": 6,
+        "confidencePct": 0.6666666666666666
       },
       "skillOrder": {
         "order": [
-          "W",
           "Q",
+          "W",
           "E"
         ],
-        "games": 4,
-        "sampleGames": 7,
-        "confidencePct": 0.5714285714285714
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -821,14 +829,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 5213,
+    "totalGames": 5760,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5091118357951275,
+    "winrate": 0.5111111111111111,
     "items": [
       {
         "itemId": 2503,
@@ -836,7 +844,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 6445
+        "purchaseSamples": 3748
       },
       {
         "itemId": 6653,
@@ -844,7 +852,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2804
+        "purchaseSamples": 1583
       },
       {
         "itemId": 3020,
@@ -852,7 +860,7 @@
         "isBoots": true,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 6534
+        "purchaseSamples": 3628
       },
       {
         "itemId": 3089,
@@ -860,7 +868,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3957
+        "purchaseSamples": 2270
       },
       {
         "itemId": 3157,
@@ -868,7 +876,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3174
+        "purchaseSamples": 1788
       },
       {
         "itemId": 4645,
@@ -876,7 +884,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2676
+        "purchaseSamples": 1540
       }
     ],
     "runes": {
@@ -930,15 +938,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 5213,
-      "games": 837,
-      "confidencePct": 0.16056013811624784
+      "sampleGames": 5760,
+      "games": 967,
+      "confidencePct": 0.16788194444444443
     },
     "position": {
       "role": "TOP",
-      "games": 2971,
-      "sampleGames": 5213,
-      "confidencePct": 0.5699213504699789
+      "games": 3244,
+      "sampleGames": 5760,
+      "confidencePct": 0.5631944444444444
     },
     "skillOrder": {
       "order": [
@@ -946,9 +954,9 @@
         "W",
         "E"
       ],
-      "games": 3809,
-      "sampleGames": 5203,
-      "confidencePct": 0.7320776475110513
+      "games": 4050,
+      "sampleGames": 5520,
+      "confidencePct": 0.7336956521739131
     }
   }
 }

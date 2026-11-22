@@ -1,7 +1,7 @@
 {
   "championId": "Swain",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-20T22:40:18.442Z",
+  "generatedAt": "2026-11-22T00:23:35.429Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Diadem of Songs",
         "Echoes of Helia"
       ],
-      "games": 10,
-      "wins": 6,
-      "winrate": 0.6,
-      "score": 244043271.31229925
+      "games": 19,
+      "wins": 11,
+      "winrate": 0.5789473684210527,
+      "score": 284436891.47094727
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 4,
       "wins": 4,
       "winrate": 1,
-      "score": 129597842.73632096
+      "score": 133134704.14582478
+    },
+    {
+      "itemIds": [
+        3102,
+        3135
+      ],
+      "names": [
+        "Banshee's Veil",
+        "Void Staff"
+      ],
+      "games": 9,
+      "wins": 7,
+      "winrate": 0.7777777777777778,
+      "score": 84481097.98478095
     },
     {
       "itemIds": [
@@ -40,10 +54,10 @@
         "Actualizer",
         "Heartsteel"
       ],
-      "games": 15,
+      "games": 16,
       "wins": 9,
-      "winrate": 0.6,
-      "score": 82058991.7059167
+      "winrate": 0.5625,
+      "score": 81354111.3158105
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 78589443.51100059
-    },
-    {
-      "itemIds": [
-        3102,
-        3135
-      ],
-      "names": [
-        "Banshee's Veil",
-        "Void Staff"
-      ],
-      "games": 8,
-      "wins": 6,
-      "winrate": 0.75,
-      "score": 70154209.01475662
+      "score": 79201550.72413203
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Swain-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 13963,
+      "totalGames": 15700,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 21
+          "purchaseSamples": 13
         },
         {
           "itemId": 3047,
@@ -101,13 +101,37 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 9230
+          "purchaseSamples": 5229
+        },
+        {
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 86
+        },
+        {
+          "itemId": 3190,
+          "name": "Locket of the Iron Solari",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 56
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 5641
         },
         {
           "itemId": 2530,
           "name": "Diadem of Songs",
           "isBoots": false,
-          "order": 3,
+          "order": 6,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -121,71 +145,71 @@
           "Diadem of Songs",
           "Echoes of Helia"
         ],
-        "games": 10,
-        "wins": 6,
-        "winrate": 0.6,
-        "score": 244043271.31229925
+        "games": 19,
+        "wins": 11,
+        "winrate": 0.5789473684210527,
+        "score": 284436891.47094727
       },
       "runes": {
         "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8010,
-          "name": "Conqueror"
-        },
-        "primaryPerks": [
-          {
-            "id": 8009,
-            "name": "Presence of Mind"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
           "id": 8400,
           "name": "Resolve"
         },
-        "secondaryPerks": [
+        "keystone": {
+          "id": 8465,
+          "name": "Guardian"
+        },
+        "primaryPerks": [
           {
-            "id": 8444,
-            "name": "Second Wind"
+            "id": 8463,
+            "name": "Font of Life"
           },
           {
-            "id": 8451,
-            "name": "Overgrowth"
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8453,
+            "name": "Revitalize"
+          }
+        ],
+        "subStyle": {
+          "id": 8300,
+          "name": "Inspiration"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
+          },
+          {
+            "id": 8316,
+            "name": "Jack Of All Trades"
           }
         ],
         "statPerks": [
           {
-            "id": 5007,
-            "name": "Ability Haste"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5010,
-            "name": "Move Speed"
+            "id": 5008,
+            "name": "Adaptive Force"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 10,
-        "games": 2,
-        "confidencePct": 0.2
+        "sampleGames": 19,
+        "games": 4,
+        "confidencePct": 0.21052631578947367
       },
       "position": {
         "role": "UTILITY",
-        "games": 8,
-        "sampleGames": 10,
-        "confidencePct": 0.8
+        "games": 17,
+        "sampleGames": 19,
+        "confidencePct": 0.8947368421052632
       },
       "skillOrder": {
         "order": [
@@ -193,21 +217,21 @@
           "W",
           "E"
         ],
-        "games": 9,
-        "sampleGames": 10,
-        "confidencePct": 0.9
+        "games": 10,
+        "sampleGames": 12,
+        "confidencePct": 0.8333333333333334
       },
       "asWholeSet": {
-        "games": 10,
-        "wins": 6,
-        "winrate": 0.6
+        "games": 0,
+        "wins": 0,
+        "winrate": null
       }
     },
     {
       "id": "Swain-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 13963,
+      "totalGames": 15700,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -221,39 +245,39 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 125
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 125
+          "purchaseSamples": 79
         },
         {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 9230
+          "purchaseSamples": 5229
         },
         {
           "itemId": 4645,
           "name": "Shadowflame",
           "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 165
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 300
+          "purchaseSamples": 54
         },
         {
           "itemId": 3137,
           "name": "Cryptbloom",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 42
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 21
         },
         {
           "itemId": 3089,
@@ -261,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 163
+          "purchaseSamples": 110
         }
       ],
       "seedPair": {
@@ -276,7 +300,7 @@
         "games": 4,
         "wins": 4,
         "winrate": 1,
-        "score": 129597842.73632096
+        "score": 133134704.14582478
       },
       "runes": {
         "primaryStyle": {
@@ -359,7 +383,159 @@
       "id": "Swain-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 13963,
+      "totalGames": 15700,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6655,
+          "name": "Luden's Echo",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 79
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 5229
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 165
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 54
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 63
+        },
+        {
+          "itemId": 3135,
+          "name": "Void Staff",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 50
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3102,
+          3135
+        ],
+        "names": [
+          "Banshee's Veil",
+          "Void Staff"
+        ],
+        "games": 9,
+        "wins": 7,
+        "winrate": 0.7777777777777778,
+        "score": 84481097.98478095
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8214,
+          "name": "Summon Aery"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8429,
+            "name": "Conditioning"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 9,
+        "games": 7,
+        "confidencePct": 0.7777777777777778
+      },
+      "position": {
+        "role": "BOTTOM",
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 9,
+        "sampleGames": 9,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Swain-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 15700,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -373,7 +549,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1009
+          "purchaseSamples": 535
         },
         {
           "itemId": 3084,
@@ -381,7 +557,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 402
+          "purchaseSamples": 140
         },
         {
           "itemId": 3047,
@@ -389,7 +565,7 @@
           "isBoots": true,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 9230
+          "purchaseSamples": 5229
         },
         {
           "itemId": 2522,
@@ -397,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 76
+          "purchaseSamples": 28
         },
         {
           "itemId": 2502,
@@ -405,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 434
+          "purchaseSamples": 252
         },
         {
           "itemId": 4633,
@@ -413,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1142
+          "purchaseSamples": 655
         }
       ],
       "seedPair": {
@@ -425,10 +601,10 @@
           "Actualizer",
           "Heartsteel"
         ],
-        "games": 15,
+        "games": 16,
         "wins": 9,
-        "winrate": 0.6,
-        "score": 82058991.7059167
+        "winrate": 0.5625,
+        "score": 81354111.3158105
       },
       "runes": {
         "primaryStyle": {
@@ -481,15 +657,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 15,
+        "sampleGames": 16,
         "games": 7,
-        "confidencePct": 0.4666666666666667
+        "confidencePct": 0.4375
       },
       "position": {
         "role": "BOTTOM",
-        "games": 14,
-        "sampleGames": 15,
-        "confidencePct": 0.9333333333333333
+        "games": 15,
+        "sampleGames": 16,
+        "confidencePct": 0.9375
       },
       "skillOrder": {
         "order": [
@@ -508,10 +684,10 @@
       }
     },
     {
-      "id": "Swain-4",
-      "buildIndex": 3,
+      "id": "Swain-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 13963,
+      "totalGames": 15700,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -525,7 +701,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 9230
+          "purchaseSamples": 5229
         },
         {
           "itemId": 2065,
@@ -533,7 +709,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 153
+          "purchaseSamples": 86
         },
         {
           "itemId": 3190,
@@ -541,31 +717,31 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 135
-        },
-        {
-          "itemId": 3109,
-          "name": "Knight's Vow",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 299
+          "purchaseSamples": 56
         },
         {
           "itemId": 3050,
           "name": "Zeke's Convergence",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 225
+          "purchaseSamples": 141
         },
         {
-          "itemId": 2524,
-          "name": "Bandlepipes",
+          "itemId": 3109,
+          "name": "Knight's Vow",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 175
+        },
+        {
+          "itemId": 8020,
+          "name": "Abyssal Mask",
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 175
+          "purchaseSamples": 403
         }
       ],
       "seedPair": {
@@ -580,7 +756,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 78589443.51100059
+        "score": 79201550.72413203
       },
       "runes": {
         "primaryStyle": {
@@ -658,169 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Swain-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 13963,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6655,
-          "name": "Luden's Echo",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 125
-        },
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 125
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 9230
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 300
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 85
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 81
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3102,
-          3135
-        ],
-        "names": [
-          "Banshee's Veil",
-          "Void Staff"
-        ],
-        "games": 8,
-        "wins": 6,
-        "winrate": 0.75,
-        "score": 70154209.01475662
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8214,
-          "name": "Summon Aery"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 8,
-        "games": 7,
-        "confidencePct": 0.875
-      },
-      "position": {
-        "role": "BOTTOM",
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 8,
-        "sampleGames": 8,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 13963,
+    "totalGames": 15700,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5111365752345485,
+    "winrate": 0.510764331210191,
     "items": [
       {
         "itemId": 3116,
@@ -828,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 19590
+        "purchaseSamples": 11362
       },
       {
         "itemId": 3118,
@@ -836,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4767
+        "purchaseSamples": 2953
       },
       {
         "itemId": 2503,
@@ -844,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 4995
+        "purchaseSamples": 2747
       },
       {
         "itemId": 3173,
@@ -852,7 +876,7 @@
         "isBoots": true,
         "order": 4,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 9
+        "purchaseSamples": 6
       },
       {
         "itemId": 6653,
@@ -860,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6091
+        "purchaseSamples": 3477
       },
       {
         "itemId": 3157,
@@ -868,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 9542
+        "purchaseSamples": 5641
       }
     ],
     "runes": {
@@ -922,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 13963,
-      "games": 1824,
-      "confidencePct": 0.1306309532335458
+      "sampleGames": 15700,
+      "games": 2062,
+      "confidencePct": 0.1313375796178344
     },
     "position": {
       "role": "UTILITY",
-      "games": 5268,
-      "sampleGames": 13963,
-      "confidencePct": 0.3772828188784645
+      "games": 5819,
+      "sampleGames": 15700,
+      "confidencePct": 0.37063694267515923
     },
     "skillOrder": {
       "order": [
@@ -938,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 11673,
-      "sampleGames": 13933,
-      "confidencePct": 0.8377951625636977
+      "games": 12501,
+      "sampleGames": 14897,
+      "confidencePct": 0.8391622474323689
     }
   }
 }
