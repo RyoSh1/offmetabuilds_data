@@ -1,8 +1,22 @@
 {
   "championId": "Bard",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-22T00:23:35.429Z",
+  "generatedAt": "2026-11-22T21:55:49.366Z",
   "corePairs": [
+    {
+      "itemIds": [
+        3087,
+        3100
+      ],
+      "names": [
+        "Statikk Shiv",
+        "Lich Bane"
+      ],
+      "games": 3,
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 2385857314.9512253
+    },
     {
       "itemIds": [
         3087,
@@ -15,7 +29,7 @@
       "games": 4,
       "wins": 1,
       "winrate": 0.25,
-      "score": 2331897783.3424335
+      "score": 2241875701.8793845
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 1175464655.695039
+      "score": 1193719520.188358
     },
     {
       "itemIds": [
@@ -43,35 +57,21 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 783799547.2904001
+      "score": 730307159.4046347
     },
     {
       "itemIds": [
-        3100,
-        3115
+        3087,
+        6653
       ],
       "names": [
-        "Lich Bane",
-        "Nashor's Tooth"
+        "Statikk Shiv",
+        "Liandry's Torment"
       ],
-      "games": 9,
-      "wins": 6,
-      "winrate": 0.6666666666666666,
-      "score": 52530751.5676538
-    },
-    {
-      "itemIds": [
-        3152,
-        3157
-      ],
-      "names": [
-        "Hextech Rocketbelt",
-        "Zhonya's Hourglass"
-      ],
-      "games": 51,
-      "wins": 33,
-      "winrate": 0.6470588235294118,
-      "score": 18067287.8550839
+      "games": 4,
+      "wins": 4,
+      "winrate": 1,
+      "score": 124612460.18873546
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Bard-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 22401,
+      "totalGames": 23970,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -93,54 +93,62 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 19
+          "purchaseSamples": 25
+        },
+        {
+          "itemId": 3100,
+          "name": "Lich Bane",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 36
         },
         {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 14174
+          "purchaseSamples": 15301
         },
         {
           "itemId": 3115,
           "name": "Nashor's Tooth",
           "isBoots": false,
-          "order": 3,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 16
+          "purchaseSamples": 18
         },
         {
           "itemId": 6653,
           "name": "Liandry's Torment",
           "isBoots": false,
-          "order": 4,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2000
+          "purchaseSamples": 2354
         },
         {
           "itemId": 3041,
           "name": "Mejai's Soulstealer",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 223
+          "purchaseSamples": 260
         }
       ],
       "seedPair": {
         "itemIds": [
           3087,
-          3115
+          3100
         ],
         "names": [
           "Statikk Shiv",
-          "Nashor's Tooth"
+          "Lich Bane"
         ],
-        "games": 4,
-        "wins": 1,
-        "winrate": 0.25,
-        "score": 2331897783.3424335
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 2385857314.9512253
       },
       "runes": {
         "primaryStyle": {
@@ -157,8 +165,8 @@
             "name": "Cheap Shot"
           },
           {
-            "id": 8141,
-            "name": "Deep Ward"
+            "id": 8140,
+            "name": "Grisly Mementos"
           },
           {
             "id": 8105,
@@ -166,42 +174,42 @@
           }
         ],
         "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
+          "id": 8300,
+          "name": "Inspiration"
         },
         "secondaryPerks": [
           {
-            "id": 8234,
-            "name": "Celerity"
+            "id": 8304,
+            "name": "Magical Footwear"
           },
           {
-            "id": 8237,
-            "name": "Scorch"
+            "id": 8347,
+            "name": "Cosmic Insight"
           }
         ],
         "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
           {
             "id": 5008,
             "name": "Adaptive Force"
           },
           {
-            "id": 5011,
-            "name": "Health"
+            "id": 5010,
+            "name": "Move Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 4,
-        "games": 2,
-        "confidencePct": 0.5
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
       },
       "position": {
-        "role": "BOTTOM",
-        "games": 2,
-        "sampleGames": 4,
-        "confidencePct": 0.5
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "skillOrder": {
         "order": [
@@ -209,8 +217,8 @@
           "W",
           "E"
         ],
-        "games": 3,
-        "sampleGames": 3,
+        "games": 2,
+        "sampleGames": 2,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -223,7 +231,7 @@
       "id": "Bard-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 22401,
+      "totalGames": 23970,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -237,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 393
+          "purchaseSamples": 428
         },
         {
           "itemId": 3009,
@@ -245,7 +253,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 14174
+          "purchaseSamples": 15301
         },
         {
           "itemId": 4629,
@@ -253,7 +261,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 55
+          "purchaseSamples": 64
         },
         {
           "itemId": 6653,
@@ -261,7 +269,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 2000
+          "purchaseSamples": 2354
         },
         {
           "itemId": 3102,
@@ -269,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 17
         },
         {
           "itemId": 3041,
@@ -277,7 +285,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 223
+          "purchaseSamples": 260
         }
       ],
       "seedPair": {
@@ -292,7 +300,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 1175464655.695039
+        "score": 1193719520.188358
       },
       "runes": {
         "primaryStyle": {
@@ -375,7 +383,7 @@
       "id": "Bard-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 22401,
+      "totalGames": 23970,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -389,7 +397,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 393
+          "purchaseSamples": 428
         },
         {
           "itemId": 3009,
@@ -397,7 +405,159 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 14174
+          "purchaseSamples": 15301
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 26
+        },
+        {
+          "itemId": 4645,
+          "name": "Shadowflame",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 8
+        },
+        {
+          "itemId": 3157,
+          "name": "Zhonya's Hourglass",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 121
+        },
+        {
+          "itemId": 4005,
+          "name": "Imperial Mandate",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 584
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          4645,
+          4646
+        ],
+        "names": [
+          "Shadowflame",
+          "Stormsurge"
+        ],
+        "games": 6,
+        "wins": 4,
+        "winrate": 0.6666666666666666,
+        "score": 51468368.481873564
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 8112,
+          "name": "Electrocute"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8141,
+            "name": "Deep Ward"
+          },
+          {
+            "id": 8135,
+            "name": "Treasure Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 6,
+        "games": 4,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "UTILITY",
+        "games": 6,
+        "sampleGames": 6,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "Q",
+          "W",
+          "E"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Bard-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 23970,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 428
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 15301
         },
         {
           "itemId": 3157,
@@ -405,7 +565,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 114
+          "purchaseSamples": 121
         },
         {
           "itemId": 3110,
@@ -413,7 +573,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 208
+          "purchaseSamples": 228
         },
         {
           "itemId": 3041,
@@ -421,7 +581,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 223
+          "purchaseSamples": 260
         },
         {
           "itemId": 3165,
@@ -429,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 230
+          "purchaseSamples": 247
         }
       ],
       "seedPair": {
@@ -441,10 +601,10 @@
           "Hextech Rocketbelt",
           "Zhonya's Hourglass"
         ],
-        "games": 51,
-        "wins": 33,
-        "winrate": 0.6470588235294118,
-        "score": 18067287.8550839
+        "games": 54,
+        "wins": 34,
+        "winrate": 0.6296296296296297,
+        "score": 18887172.223025378
       },
       "runes": {
         "primaryStyle": {
@@ -497,14 +657,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 51,
+        "sampleGames": 54,
         "games": 31,
-        "confidencePct": 0.6078431372549019
+        "confidencePct": 0.5740740740740741
       },
       "position": {
         "role": "UTILITY",
-        "games": 51,
-        "sampleGames": 51,
+        "games": 54,
+        "sampleGames": 54,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -513,161 +673,9 @@
           "W",
           "E"
         ],
-        "games": 40,
-        "sampleGames": 51,
-        "confidencePct": 0.7843137254901961
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Bard-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 22401,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 4646,
-          "name": "Stormsurge",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 20
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 393
-        },
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 3,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 14174
-        },
-        {
-          "itemId": 4645,
-          "name": "Shadowflame",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2.5,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3157,
-          "name": "Zhonya's Hourglass",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 114
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 514
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4645,
-          4646
-        ],
-        "names": [
-          "Shadowflame",
-          "Stormsurge"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 16608175.745824564
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8112,
-          "name": "Electrocute"
-        },
-        "primaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8141,
-            "name": "Deep Ward"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8234,
-            "name": "Celerity"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
+        "games": 42,
+        "sampleGames": 53,
+        "confidencePct": 0.7924528301886793
       },
       "asWholeSet": {
         "games": 0,
@@ -679,7 +687,7 @@
       "id": "Bard-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 22401,
+      "totalGames": 23970,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -688,44 +696,44 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3152,
+          "name": "Hextech Rocketbelt",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 428
+        },
+        {
           "itemId": 3009,
           "name": "Boots of Swiftness",
           "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 14174
-        },
-        {
-          "itemId": 2504,
-          "name": "Kaenic Rookern",
-          "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 460
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 15301
         },
         {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 197
+          "purchaseSamples": 407
         },
         {
-          "itemId": 3110,
-          "name": "Frozen Heart",
+          "itemId": 4629,
+          "name": "Cosmic Drive",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 208
+          "purchaseSamples": 64
         },
         {
-          "itemId": 8020,
-          "name": "Abyssal Mask",
+          "itemId": 4005,
+          "name": "Imperial Mandate",
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 439
+          "purchaseSamples": 584
         },
         {
           "itemId": 3041,
@@ -733,22 +741,22 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 223
+          "purchaseSamples": 260
         }
       ],
       "seedPair": {
         "itemIds": [
-          2504,
-          3143
+          3050,
+          3152
         ],
         "names": [
-          "Kaenic Rookern",
-          "Randuin's Omen"
+          "Zeke's Convergence",
+          "Hextech Rocketbelt"
         ],
-        "games": 23,
-        "wins": 15,
-        "winrate": 0.6521739130434783,
-        "score": 4504478.6441906905
+        "games": 51,
+        "wins": 27,
+        "winrate": 0.5294117647058824,
+        "score": 6317312.958723398
       },
       "runes": {
         "primaryStyle": {
@@ -779,12 +787,12 @@
         },
         "secondaryPerks": [
           {
-            "id": 8304,
-            "name": "Magical Footwear"
-          },
-          {
             "id": 8316,
             "name": "Jack Of All Trades"
+          },
+          {
+            "id": 8304,
+            "name": "Magical Footwear"
           }
         ],
         "statPerks": [
@@ -797,18 +805,18 @@
             "name": "Move Speed"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5001,
+            "name": "Health Scaling"
           }
         ],
-        "sampleGames": 23,
-        "games": 13,
-        "confidencePct": 0.5652173913043478
+        "sampleGames": 51,
+        "games": 28,
+        "confidencePct": 0.5490196078431373
       },
       "position": {
         "role": "UTILITY",
-        "games": 23,
-        "sampleGames": 23,
+        "games": 51,
+        "sampleGames": 51,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -817,9 +825,9 @@
           "W",
           "E"
         ],
-        "games": 21,
-        "sampleGames": 21,
-        "confidencePct": 1
+        "games": 48,
+        "sampleGames": 50,
+        "confidencePct": 0.96
       },
       "asWholeSet": {
         "games": 0,
@@ -829,14 +837,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 22401,
+    "totalGames": 23970,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49457613499397346,
+    "winrate": 0.49436795994993743,
     "items": [
       {
         "itemId": 3009,
@@ -844,7 +852,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 14174
+        "purchaseSamples": 15301
       },
       {
         "itemId": 3190,
@@ -852,7 +860,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 12567
+        "purchaseSamples": 13477
       },
       {
         "itemId": 3742,
@@ -860,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 10156
+        "purchaseSamples": 11337
       },
       {
         "itemId": 3222,
@@ -868,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4782
+        "purchaseSamples": 5069
       },
       {
         "itemId": 2524,
@@ -876,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3597
+        "purchaseSamples": 3854
       },
       {
         "itemId": 3109,
@@ -884,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 2467
+        "purchaseSamples": 2641
       }
     ],
     "runes": {
@@ -938,15 +946,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 22401,
-      "games": 4488,
-      "confidencePct": 0.20034819874112764
+      "sampleGames": 23970,
+      "games": 4923,
+      "confidencePct": 0.20538172715894867
     },
     "position": {
       "role": "UTILITY",
-      "games": 22372,
-      "sampleGames": 22401,
-      "confidencePct": 0.9987054149368332
+      "games": 23934,
+      "sampleGames": 23970,
+      "confidencePct": 0.9984981226533166
     },
     "skillOrder": {
       "order": [
@@ -954,9 +962,9 @@
         "W",
         "E"
       ],
-      "games": 20273,
-      "sampleGames": 21159,
-      "confidencePct": 0.9581265655276714
+      "games": 22118,
+      "sampleGames": 23051,
+      "confidencePct": 0.9595245325582404
     }
   }
 }

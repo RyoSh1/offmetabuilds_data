@@ -1,7 +1,7 @@
 {
   "championId": "Viktor",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-22T00:23:35.429Z",
+  "generatedAt": "2026-11-22T21:55:49.366Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 3,
       "wins": 3,
       "winrate": 1,
-      "score": 105564162.65057105
+      "score": 104589747.76588163
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 23,
       "wins": 16,
       "winrate": 0.6956521739130435,
-      "score": 30061316.02861124
+      "score": 30280901.082171135
     },
     {
       "itemIds": [
@@ -43,7 +43,7 @@
       "games": 5,
       "wins": 3,
       "winrate": 0.6,
-      "score": 26563434.216470856
+      "score": 26993490.331809726
     },
     {
       "itemIds": [
@@ -57,7 +57,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 26471541.147428118
+      "score": 26670061.41909553
     },
     {
       "itemIds": [
@@ -71,7 +71,7 @@
       "games": 5,
       "wins": 4,
       "winrate": 0.8,
-      "score": 9536626.966928335
+      "score": 9952449.392152924
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Viktor-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 33500,
+      "totalGames": 35869,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -88,44 +88,44 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 744
-        },
-        {
           "itemId": 3175,
           "name": "Spellslinger's Shoes",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 33
+          "purchaseSamples": 36
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 565
+          "purchaseSamples": 636
         },
         {
           "itemId": 8010,
           "name": "Bloodletter's Curse",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 544
+          "purchaseSamples": 593
         },
         {
           "itemId": 3102,
           "name": "Banshee's Veil",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 687
+          "purchaseSamples": 746
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 264
         },
         {
           "itemId": 3040,
@@ -148,7 +148,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 105564162.65057105
+        "score": 104589747.76588163
       },
       "runes": {
         "primaryStyle": {
@@ -231,7 +231,159 @@
       "id": "Viktor-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 33500,
+      "totalGames": 35869,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6657,
+          "name": "Rod of Ages",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 801
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 636
+        },
+        {
+          "itemId": 2522,
+          "name": "Actualizer",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3.5,
+          "purchaseSamples": 12
+        },
+        {
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 593
+        },
+        {
+          "itemId": 3040,
+          "name": "Seraph's Embrace",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2522,
+          6657
+        ],
+        "names": [
+          "Actualizer",
+          "Rod of Ages"
+        ],
+        "games": 5,
+        "wins": 4,
+        "winrate": 0.8,
+        "score": 9952449.392152924
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          },
+          {
+            "id": 8017,
+            "name": "Cut Down"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 5,
+        "games": 1,
+        "confidencePct": 0.2
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 4,
+        "sampleGames": 5,
+        "confidencePct": 0.8
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 5,
+        "sampleGames": 5,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Viktor-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 35869,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -245,7 +397,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 33
+          "purchaseSamples": 36
         },
         {
           "itemId": 4646,
@@ -253,23 +405,23 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 565
+          "purchaseSamples": 636
         },
         {
-          "itemId": 3118,
-          "name": "Malignance",
+          "itemId": 2065,
+          "name": "Shurelya's Battlesong",
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 8
+          "purchaseSamples": 14
         },
         {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
+          "itemId": 8010,
+          "name": "Bloodletter's Curse",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 687
+          "purchaseSamples": 593
         },
         {
           "itemId": 3041,
@@ -277,7 +429,159 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1889
+          "purchaseSamples": 2063
+        },
+        {
+          "itemId": 3165,
+          "name": "Morellonomicon",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 264
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2065,
+          4646
+        ],
+        "names": [
+          "Shurelya's Battlesong",
+          "Stormsurge"
+        ],
+        "games": 3,
+        "wins": 2,
+        "winrate": 0.6666666666666666,
+        "score": 5650327.478220933
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "keystone": {
+          "id": 8992,
+          "name": "Deathfire Touch"
+        },
+        "primaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8234,
+            "name": "Celerity"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "subStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8473,
+            "name": "Bone Plating"
+          },
+          {
+            "id": 8401,
+            "name": "Shield Bash"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5011,
+            "name": "Health"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 2,
+        "confidencePct": 0.6666666666666666
+      },
+      "position": {
+        "role": "MIDDLE",
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "E",
+          "Q",
+          "W"
+        ],
+        "games": 1,
+        "sampleGames": 2,
+        "confidencePct": 0.5
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Viktor-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 35869,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 36
+        },
+        {
+          "itemId": 4646,
+          "name": "Stormsurge",
+          "isBoots": false,
+          "order": 2,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 636
+        },
+        {
+          "itemId": 3118,
+          "name": "Malignance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 9
+        },
+        {
+          "itemId": 3102,
+          "name": "Banshee's Veil",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 746
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2063
         },
         {
           "itemId": 3135,
@@ -285,7 +589,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 2647
+          "purchaseSamples": 2926
         }
       ],
       "seedPair": {
@@ -300,7 +604,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 4907025.76713553
+        "score": 4957377.525923772
       },
       "runes": {
         "primaryStyle": {
@@ -380,10 +684,10 @@
       }
     },
     {
-      "id": "Viktor-3",
-      "buildIndex": 2,
+      "id": "Viktor-5",
+      "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 33500,
+      "totalGames": 35869,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -397,23 +701,23 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 3116,
-          "name": "Rylai's Crystal Scepter",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 48
+          "purchaseSamples": 36
         },
         {
           "itemId": 4646,
           "name": "Stormsurge",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 565
+          "purchaseSamples": 636
+        },
+        {
+          "itemId": 3116,
+          "name": "Rylai's Crystal Scepter",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 54
         },
         {
           "itemId": 3137,
@@ -421,7 +725,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1378
+          "purchaseSamples": 1518
         },
         {
           "itemId": 3102,
@@ -429,7 +733,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 687
+          "purchaseSamples": 746
         },
         {
           "itemId": 3041,
@@ -437,7 +741,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 1889
+          "purchaseSamples": 2063
         }
       ],
       "seedPair": {
@@ -452,7 +756,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 4755653.939239082
+        "score": 4792919.001871009
       },
       "runes": {
         "primaryStyle": {
@@ -530,321 +834,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Viktor-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 33500,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 647
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 1889
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 544
-        },
-        {
-          "itemId": 3102,
-          "name": "Banshee's Veil",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 687
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3041,
-          4629
-        ],
-        "names": [
-          "Mejai's Soulstealer",
-          "Cosmic Drive"
-        ],
-        "games": 50,
-        "wins": 42,
-        "winrate": 0.84,
-        "score": 3704487.9711548644
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          },
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5011,
-            "name": "Health"
-          }
-        ],
-        "sampleGames": 50,
-        "games": 13,
-        "confidencePct": 0.26
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 39,
-        "sampleGames": 50,
-        "confidencePct": 0.78
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 46,
-        "sampleGames": 49,
-        "confidencePct": 0.9387755102040817
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Viktor-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 33500,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6657,
-          "name": "Rod of Ages",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 744
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 33
-        },
-        {
-          "itemId": 4629,
-          "name": "Cosmic Drive",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 647
-        },
-        {
-          "itemId": 8010,
-          "name": "Bloodletter's Curse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 544
-        },
-        {
-          "itemId": 3165,
-          "name": "Morellonomicon",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 241
-        },
-        {
-          "itemId": 3040,
-          "name": "Seraph's Embrace",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": null,
-          "purchaseSamples": 0
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          4629,
-          6657
-        ],
-        "names": [
-          "Cosmic Drive",
-          "Rod of Ages"
-        ],
-        "games": 27,
-        "wins": 15,
-        "winrate": 0.5555555555555556,
-        "score": 2881640.081220357
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "keystone": {
-          "id": 8992,
-          "name": "Deathfire Touch"
-        },
-        "primaryPerks": [
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          },
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8237,
-            "name": "Scorch"
-          }
-        ],
-        "subStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8473,
-            "name": "Bone Plating"
-          },
-          {
-            "id": 8401,
-            "name": "Shield Bash"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 27,
-        "games": 7,
-        "confidencePct": 0.25925925925925924
-      },
-      "position": {
-        "role": "MIDDLE",
-        "games": 18,
-        "sampleGames": 27,
-        "confidencePct": 0.6666666666666666
-      },
-      "skillOrder": {
-        "order": [
-          "E",
-          "Q",
-          "W"
-        ],
-        "games": 27,
-        "sampleGames": 27,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 33500,
+    "totalGames": 35869,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48608955223880596,
+    "winrate": 0.486659789790627,
     "items": [
       {
         "itemId": 2503,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 26800
+        "purchaseSamples": 29378
       },
       {
         "itemId": 3175,
@@ -860,7 +860,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 33
+        "purchaseSamples": 36
       },
       {
         "itemId": 3100,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 10481
+        "purchaseSamples": 11509
       },
       {
         "itemId": 4645,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 6459
+        "purchaseSamples": 7131
       },
       {
         "itemId": 3157,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 8748
+        "purchaseSamples": 9637
       },
       {
         "itemId": 3089,
@@ -892,7 +892,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 5558
+        "purchaseSamples": 6164
       }
     ],
     "runes": {
@@ -946,15 +946,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 33500,
-      "games": 12739,
-      "confidencePct": 0.3802686567164179
+      "sampleGames": 35869,
+      "games": 13646,
+      "confidencePct": 0.3804399342050238
     },
     "position": {
       "role": "MIDDLE",
-      "games": 25678,
-      "sampleGames": 33500,
-      "confidencePct": 0.7665074626865671
+      "games": 27488,
+      "sampleGames": 35869,
+      "confidencePct": 0.7663441969388608
     },
     "skillOrder": {
       "order": [
@@ -962,9 +962,9 @@
         "Q",
         "W"
       ],
-      "games": 30915,
-      "sampleGames": 31600,
-      "confidencePct": 0.9783227848101266
+      "games": 33843,
+      "sampleGames": 34606,
+      "confidencePct": 0.9779518002658498
     }
   }
 }

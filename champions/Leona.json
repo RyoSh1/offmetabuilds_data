@@ -1,7 +1,7 @@
 {
   "championId": "Leona",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-22T00:23:35.429Z",
+  "generatedAt": "2026-11-22T21:55:49.366Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,38 @@
         "Sunfire Aegis",
         "Fimbulwinter"
       ],
-      "games": 3,
+      "games": 5,
+      "wins": 3,
+      "winrate": 0.6,
+      "score": 2903818784.601576
+    },
+    {
+      "itemIds": [
+        3068,
+        6665
+      ],
+      "names": [
+        "Sunfire Aegis",
+        "Jak'Sho, The Protean"
+      ],
+      "games": 4,
+      "wins": 3,
+      "winrate": 0.75,
+      "score": 2313865474.882915
+    },
+    {
+      "itemIds": [
+        3121,
+        6665
+      ],
+      "names": [
+        "Fimbulwinter",
+        "Jak'Sho, The Protean"
+      ],
+      "games": 4,
       "wins": 2,
-      "winrate": 0.6666666666666666,
-      "score": 2941513255.2831845
+      "winrate": 0.5,
+      "score": 1440435294.5338364
     },
     {
       "itemIds": [
@@ -26,10 +54,10 @@
         "Fimbulwinter",
         "Eclipse"
       ],
-      "games": 29,
-      "wins": 16,
-      "winrate": 0.5517241379310345,
-      "score": 81415310.52492988
+      "games": 32,
+      "wins": 18,
+      "winrate": 0.5625,
+      "score": 89779683.66075404
     },
     {
       "itemIds": [
@@ -40,38 +68,10 @@
         "Unending Despair",
         "Fimbulwinter"
       ],
-      "games": 13,
-      "wins": 8,
-      "winrate": 0.6153846153846154,
-      "score": 45264735.27314316
-    },
-    {
-      "itemIds": [
-        2502,
-        6692
-      ],
-      "names": [
-        "Unending Despair",
-        "Eclipse"
-      ],
-      "games": 12,
-      "wins": 7,
-      "winrate": 0.5833333333333334,
-      "score": 38433510.65538415
-    },
-    {
-      "itemIds": [
-        2502,
-        3065
-      ],
-      "names": [
-        "Unending Despair",
-        "Spirit Visage"
-      ],
-      "games": 5,
-      "wins": 4,
-      "winrate": 0.8,
-      "score": 33193469.84042215
+      "games": 15,
+      "wins": 9,
+      "winrate": 0.6,
+      "score": 49622428.54661752
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Leona-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 30026,
+      "totalGames": 31893,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 266
+          "purchaseSamples": 284
         },
         {
           "itemId": 3047,
@@ -101,7 +101,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13438
+          "purchaseSamples": 14579
         },
         {
           "itemId": 3068,
@@ -109,23 +109,23 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 44
-        },
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
+          "purchaseSamples": 50
         },
         {
           "itemId": 3110,
           "name": "Frozen Heart",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 546
+          "purchaseSamples": 618
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 84
         },
         {
           "itemId": 3121,
@@ -145,10 +145,10 @@
           "Sunfire Aegis",
           "Fimbulwinter"
         ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 2941513255.2831845
+        "games": 5,
+        "wins": 3,
+        "winrate": 0.6,
+        "score": 2903818784.601576
       },
       "runes": {
         "primaryStyle": {
@@ -201,15 +201,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
-        "games": 2,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 5,
+        "games": 3,
+        "confidencePct": 0.6
       },
       "position": {
-        "role": "MIDDLE",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 5,
+        "confidencePct": 0.6
       },
       "skillOrder": {
         "order": [
@@ -218,8 +218,8 @@
           "Q"
         ],
         "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
       },
       "asWholeSet": {
         "games": 0,
@@ -231,7 +231,7 @@
       "id": "Leona-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 30026,
+      "totalGames": 31893,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -245,7 +245,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 266
+          "purchaseSamples": 284
         },
         {
           "itemId": 3047,
@@ -253,23 +253,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13438
-        },
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
+          "purchaseSamples": 14579
         },
         {
           "itemId": 2502,
           "name": "Unending Despair",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 45
+          "purchaseSamples": 48
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 84
         },
         {
           "itemId": 3065,
@@ -277,7 +277,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 23
+          "purchaseSamples": 26
         },
         {
           "itemId": 3121,
@@ -297,10 +297,10 @@
           "Unending Despair",
           "Fimbulwinter"
         ],
-        "games": 13,
-        "wins": 8,
-        "winrate": 0.6153846153846154,
-        "score": 45264735.27314316
+        "games": 15,
+        "wins": 9,
+        "winrate": 0.6,
+        "score": 49622428.54661752
       },
       "runes": {
         "primaryStyle": {
@@ -353,14 +353,14 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 13,
-        "games": 12,
-        "confidencePct": 0.9230769230769231
+        "sampleGames": 15,
+        "games": 14,
+        "confidencePct": 0.9333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 13,
-        "sampleGames": 13,
+        "games": 15,
+        "sampleGames": 15,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -369,8 +369,8 @@
           "E",
           "Q"
         ],
-        "games": 12,
-        "sampleGames": 12,
+        "games": 13,
+        "sampleGames": 13,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -383,7 +383,7 @@
       "id": "Leona-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 30026,
+      "totalGames": 31893,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -397,7 +397,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13438
+          "purchaseSamples": 14579
         },
         {
           "itemId": 6692,
@@ -405,15 +405,15 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
+          "purchaseSamples": 58
         },
         {
           "itemId": 6333,
           "name": "Death's Dance",
           "isBoots": false,
           "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 6
+          "medianPurchaseOrder": 2.5,
+          "purchaseSamples": 8
         },
         {
           "itemId": 3065,
@@ -421,7 +421,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 23
+          "purchaseSamples": 26
         }
       ],
       "seedPair": {
@@ -436,7 +436,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 25637440.110798735
+        "score": 25142835.14765938
       },
       "runes": {
         "primaryStyle": {
@@ -519,7 +519,7 @@
       "id": "Leona-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 30026,
+      "totalGames": 31893,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -533,7 +533,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 266
+          "purchaseSamples": 284
         },
         {
           "itemId": 3047,
@@ -541,7 +541,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13438
+          "purchaseSamples": 14579
         },
         {
           "itemId": 3068,
@@ -549,7 +549,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 44
+          "purchaseSamples": 50
         },
         {
           "itemId": 6692,
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 51
+          "purchaseSamples": 58
         },
         {
           "itemId": 6662,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 5074
+          "purchaseSamples": 5472
         }
       ],
       "seedPair": {
@@ -588,7 +588,7 @@
         "games": 9,
         "wins": 7,
         "winrate": 0.7777777777777778,
-        "score": 23364611.012086097
+        "score": 23282258.49919088
       },
       "runes": {
         "primaryStyle": {
@@ -671,7 +671,7 @@
       "id": "Leona-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 30026,
+      "totalGames": 31893,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -685,7 +685,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 266
+          "purchaseSamples": 284
         },
         {
           "itemId": 3047,
@@ -693,7 +693,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 13438
+          "purchaseSamples": 14579
         },
         {
           "itemId": 3742,
@@ -701,7 +701,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 81
+          "purchaseSamples": 83
         },
         {
           "itemId": 4401,
@@ -709,7 +709,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 95
+          "purchaseSamples": 103
         },
         {
           "itemId": 3143,
@@ -717,7 +717,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 392
+          "purchaseSamples": 424
         },
         {
           "itemId": 2504,
@@ -725,7 +725,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 931
+          "purchaseSamples": 1030
         }
       ],
       "seedPair": {
@@ -740,7 +740,7 @@
         "games": 3,
         "wins": 3,
         "winrate": 1,
-        "score": 8595520.502150377
+        "score": 8888042.34959447
       },
       "runes": {
         "primaryStyle": {
@@ -821,14 +821,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 30026,
+    "totalGames": 31893,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5141877039898755,
+    "winrate": 0.5128711629511178,
     "items": [
       {
         "itemId": 3047,
@@ -836,7 +836,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 13438
+        "purchaseSamples": 14579
       },
       {
         "itemId": 3190,
@@ -844,7 +844,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 21440
+        "purchaseSamples": 23271
       },
       {
         "itemId": 3050,
@@ -852,7 +852,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 2914
+        "purchaseSamples": 3182
       },
       {
         "itemId": 3109,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 13914
+        "purchaseSamples": 15175
       },
       {
         "itemId": 2525,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5074
+        "purchaseSamples": 5472
       },
       {
         "itemId": 2524,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3693
+        "purchaseSamples": 4016
       }
     ],
     "runes": {
@@ -930,15 +930,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 30026,
-      "games": 7030,
-      "confidencePct": 0.23413042030240458
+      "sampleGames": 31893,
+      "games": 7470,
+      "confidencePct": 0.23422067538331295
     },
     "position": {
       "role": "UTILITY",
-      "games": 29998,
-      "sampleGames": 30026,
-      "confidencePct": 0.9990674748551256
+      "games": 31860,
+      "sampleGames": 31893,
+      "confidencePct": 0.9989652901890697
     },
     "skillOrder": {
       "order": [
@@ -946,9 +946,9 @@
         "E",
         "Q"
       ],
-      "games": 23142,
-      "sampleGames": 28384,
-      "confidencePct": 0.8153184892897407
+      "games": 25107,
+      "sampleGames": 30778,
+      "confidencePct": 0.8157450126713887
     }
   }
 }

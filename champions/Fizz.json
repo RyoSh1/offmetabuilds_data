@@ -1,7 +1,7 @@
 {
   "championId": "Fizz",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-22T00:23:35.429Z",
+  "generatedAt": "2026-11-22T21:55:49.366Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,10 @@
         "Blade of The Ruined King",
         "Kraken Slayer"
       ],
-      "games": 3,
+      "games": 4,
       "wins": 3,
-      "winrate": 1,
-      "score": 2554447240.260622
+      "winrate": 0.75,
+      "score": 2407769074.548622
     },
     {
       "itemIds": [
@@ -29,7 +29,21 @@
       "games": 6,
       "wins": 4,
       "winrate": 0.6666666666666666,
-      "score": 1078707475.1148746
+      "score": 1062695457.931748
+    },
+    {
+      "itemIds": [
+        3075,
+        6662
+      ],
+      "names": [
+        "Thornmail",
+        "Iceborn Gauntlet"
+      ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 768320512.7484157
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 649794978.4774339
+      "score": 700005658.2371368
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 5,
       "wins": 2,
       "winrate": 0.4,
-      "score": 518699204.55355936
-    },
-    {
-      "itemIds": [
-        3075,
-        6662
-      ],
-      "names": [
-        "Thornmail",
-        "Iceborn Gauntlet"
-      ],
-      "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 442874679.2600836
+      "score": 475206112.1231708
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Fizz-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 12237,
+      "totalGames": 13067,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -93,7 +93,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 1911
+          "purchaseSamples": 2041
         },
         {
           "itemId": 3175,
@@ -101,7 +101,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
+          "purchaseSamples": 21
         },
         {
           "itemId": 3153,
@@ -109,7 +109,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
+          "purchaseSamples": 21
         },
         {
           "itemId": 6672,
@@ -117,15 +117,15 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 4
+          "purchaseSamples": 6
         },
         {
           "itemId": 3302,
           "name": "Terminus",
           "isBoots": false,
           "order": 5,
-          "medianPurchaseOrder": 4.5,
-          "purchaseSamples": 8
+          "medianPurchaseOrder": 5,
+          "purchaseSamples": 9
         }
       ],
       "seedPair": {
@@ -137,10 +137,10 @@
           "Blade of The Ruined King",
           "Kraken Slayer"
         ],
-        "games": 3,
+        "games": 4,
         "wins": 3,
-        "winrate": 1,
-        "score": 2554447240.260622
+        "winrate": 0.75,
+        "score": 2407769074.548622
       },
       "runes": {
         "primaryStyle": {
@@ -193,25 +193,25 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 1,
-        "confidencePct": 0.3333333333333333
+        "confidencePct": 0.25
       },
       "position": {
         "role": "BOTTOM",
-        "games": 1,
-        "sampleGames": 3,
-        "confidencePct": 0.3333333333333333
+        "games": 2,
+        "sampleGames": 4,
+        "confidencePct": 0.5
       },
       "skillOrder": {
         "order": [
-          "E",
           "W",
+          "E",
           "Q"
         ],
-        "games": 1,
-        "sampleGames": 2,
-        "confidencePct": 0.5
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
       },
       "asWholeSet": {
         "games": 1,
@@ -223,7 +223,159 @@
       "id": "Fizz-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 12237,
+      "totalGames": 13067,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 6662,
+          "name": "Iceborn Gauntlet",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 20
+        },
+        {
+          "itemId": 3175,
+          "name": "Spellslinger's Shoes",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 21
+        },
+        {
+          "itemId": 6653,
+          "name": "Liandry's Torment",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 310
+        },
+        {
+          "itemId": 3075,
+          "name": "Thornmail",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 3
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 11
+        },
+        {
+          "itemId": 3041,
+          "name": "Mejai's Soulstealer",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 2394
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3075,
+          6662
+        ],
+        "names": [
+          "Thornmail",
+          "Iceborn Gauntlet"
+        ],
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 768320512.7484157
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8446,
+            "name": "Demolish"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8210,
+            "name": "Transcendence"
+          },
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 4,
+        "sampleGames": 4,
+        "confidencePct": 1
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Fizz-3",
+      "buildIndex": 2,
+      "rarityVariant": "normal",
+      "totalGames": 13067,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -245,7 +397,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
+          "purchaseSamples": 21
         },
         {
           "itemId": 3161,
@@ -268,7 +420,7 @@
         "games": 4,
         "wins": 3,
         "winrate": 0.75,
-        "score": 649794978.4774339
+        "score": 700005658.2371368
       },
       "runes": {
         "primaryStyle": {
@@ -348,10 +500,10 @@
       }
     },
     {
-      "id": "Fizz-3",
-      "buildIndex": 2,
+      "id": "Fizz-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 12237,
+      "totalGames": 13067,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -365,7 +517,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
+          "purchaseSamples": 20
         },
         {
           "itemId": 3175,
@@ -373,7 +525,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
+          "purchaseSamples": 21
         },
         {
           "itemId": 6653,
@@ -381,7 +533,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 287
+          "purchaseSamples": 310
         },
         {
           "itemId": 6665,
@@ -389,7 +541,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 7
+          "purchaseSamples": 11
         },
         {
           "itemId": 8020,
@@ -397,7 +549,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 17
         },
         {
           "itemId": 4633,
@@ -405,7 +557,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 269
+          "purchaseSamples": 285
         }
       ],
       "seedPair": {
@@ -420,7 +572,7 @@
         "games": 5,
         "wins": 2,
         "winrate": 0.4,
-        "score": 518699204.55355936
+        "score": 475206112.1231708
       },
       "runes": {
         "primaryStyle": {
@@ -490,8 +642,8 @@
           "Q"
         ],
         "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
+        "sampleGames": 5,
+        "confidencePct": 0.8
       },
       "asWholeSet": {
         "games": 0,
@@ -500,154 +652,10 @@
       }
     },
     {
-      "id": "Fizz-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 12237,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 11
-        },
-        {
-          "itemId": 3175,
-          "name": "Spellslinger's Shoes",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
-        },
-        {
-          "itemId": 6653,
-          "name": "Liandry's Torment",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 287
-        },
-        {
-          "itemId": 3075,
-          "name": "Thornmail",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2
-        },
-        {
-          "itemId": 3041,
-          "name": "Mejai's Soulstealer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 2234
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3075,
-          6662
-        ],
-        "names": [
-          "Thornmail",
-          "Iceborn Gauntlet"
-        ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 442874679.2600836
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8444,
-            "name": "Second Wind"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8210,
-            "name": "Transcendence"
-          },
-          {
-            "id": 8226,
-            "name": "Manaflow Band"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5007,
-            "name": "Ability Haste"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          },
-          {
-            "id": 5001,
-            "name": "Health Scaling"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "TOP",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 2,
-        "sampleGames": 2,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 1,
-        "wins": 1,
-        "winrate": 1
-      }
-    },
-    {
       "id": "Fizz-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 12237,
+      "totalGames": 13067,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -661,7 +669,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 18
+          "purchaseSamples": 21
         },
         {
           "itemId": 6653,
@@ -669,7 +677,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 287
+          "purchaseSamples": 310
         },
         {
           "itemId": 8010,
@@ -677,7 +685,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 257
+          "purchaseSamples": 273
         },
         {
           "itemId": 8020,
@@ -685,7 +693,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 16
+          "purchaseSamples": 17
         },
         {
           "itemId": 4633,
@@ -693,7 +701,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 269
+          "purchaseSamples": 285
         },
         {
           "itemId": 3143,
@@ -716,7 +724,7 @@
         "games": 6,
         "wins": 4,
         "winrate": 0.6666666666666666,
-        "score": 123805631.05109125
+        "score": 131209055.92421602
       },
       "runes": {
         "primaryStyle": {
@@ -797,14 +805,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 12237,
+    "totalGames": 13067,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.49791615592056876,
+    "winrate": 0.4988903344302441,
     "items": [
       {
         "itemId": 3100,
@@ -812,7 +820,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 7920
+        "purchaseSamples": 8653
       },
       {
         "itemId": 3175,
@@ -820,7 +828,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 18
+        "purchaseSamples": 21
       },
       {
         "itemId": 3157,
@@ -828,7 +836,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 7446
+        "purchaseSamples": 8089
       },
       {
         "itemId": 3089,
@@ -836,7 +844,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2891
+        "purchaseSamples": 3168
       },
       {
         "itemId": 4645,
@@ -844,7 +852,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2985
+        "purchaseSamples": 3280
       },
       {
         "itemId": 3041,
@@ -852,7 +860,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2234
+        "purchaseSamples": 2394
       }
     ],
     "runes": {
@@ -906,15 +914,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 12237,
-      "games": 2235,
-      "confidencePct": 0.18264280460897278
+      "sampleGames": 13067,
+      "games": 2391,
+      "confidencePct": 0.1829800260197444
     },
     "position": {
       "role": "MIDDLE",
-      "games": 9559,
-      "sampleGames": 12237,
-      "confidencePct": 0.7811555119718885
+      "games": 10231,
+      "sampleGames": 13067,
+      "confidencePct": 0.7829647202877478
     },
     "skillOrder": {
       "order": [
@@ -922,9 +930,9 @@
         "W",
         "Q"
       ],
-      "games": 9328,
-      "sampleGames": 11584,
-      "confidencePct": 0.8052486187845304
+      "games": 10110,
+      "sampleGames": 12557,
+      "confidencePct": 0.8051286135223381
     }
   }
 }
