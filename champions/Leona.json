@@ -1,7 +1,7 @@
 {
   "championId": "Leona",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-23T23:07:36.195Z",
+  "generatedAt": "2026-11-24T22:41:49.576Z",
   "corePairs": [
     {
       "itemIds": [
@@ -12,10 +12,38 @@
         "Trinity Force",
         "Titanic Hydra"
       ],
+      "games": 4,
+      "wins": 2,
+      "winrate": 0.5,
+      "score": 15076472934.484703
+    },
+    {
+      "itemIds": [
+        3068,
+        3748
+      ],
+      "names": [
+        "Sunfire Aegis",
+        "Titanic Hydra"
+      ],
       "games": 3,
-      "wins": 1,
-      "winrate": 0.3333333333333333,
-      "score": 9019787107.237877
+      "wins": 2,
+      "winrate": 0.6666666666666666,
+      "score": 4286253331.824664
+    },
+    {
+      "itemIds": [
+        3068,
+        3121
+      ],
+      "names": [
+        "Sunfire Aegis",
+        "Fimbulwinter"
+      ],
+      "games": 7,
+      "wins": 4,
+      "winrate": 0.5714285714285714,
+      "score": 3189091641.21875
     },
     {
       "itemIds": [
@@ -29,21 +57,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 3421176881.006302
-    },
-    {
-      "itemIds": [
-        3068,
-        3121
-      ],
-      "names": [
-        "Sunfire Aegis",
-        "Fimbulwinter"
-      ],
-      "games": 6,
-      "wins": 3,
-      "winrate": 0.5,
-      "score": 2561690492.658035
+      "score": 2967292544.13628
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 2057989363.8667018
-    },
-    {
-      "itemIds": [
-        3084,
-        6664
-      ],
-      "names": [
-        "Heartsteel",
-        "Hollow Radiance"
-      ],
-      "games": 3,
-      "wins": 3,
-      "winrate": 1,
-      "score": 1525596868.85117
+      "score": 1935194702.1408093
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Leona-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 33953,
+      "totalGames": 35984,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -88,12 +88,12 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3748,
-          "name": "Titanic Hydra",
+          "itemId": 3078,
+          "name": "Trinity Force",
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 7
+          "purchaseSamples": 5
         },
         {
           "itemId": 3047,
@@ -101,23 +101,23 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 15692
-        },
-        {
-          "itemId": 3078,
-          "name": "Trinity Force",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 2
+          "purchaseSamples": 16925
         },
         {
           "itemId": 3068,
           "name": "Sunfire Aegis",
           "isBoots": false,
-          "order": 4,
+          "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 64
+          "purchaseSamples": 74
+        },
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 11
         }
       ],
       "seedPair": {
@@ -129,10 +129,10 @@
           "Trinity Force",
           "Titanic Hydra"
         ],
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333,
-        "score": 9019787107.237877
+        "games": 4,
+        "wins": 2,
+        "winrate": 0.5,
+        "score": 15076472934.484703
       },
       "runes": {
         "primaryStyle": {
@@ -185,14 +185,14 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 3,
+        "sampleGames": 4,
         "games": 3,
-        "confidencePct": 1
+        "confidencePct": 0.75
       },
       "position": {
         "role": "JUNGLE",
-        "games": 3,
-        "sampleGames": 3,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -201,8 +201,8 @@
           "E",
           "Q"
         ],
-        "games": 1,
-        "sampleGames": 1,
+        "games": 4,
+        "sampleGames": 4,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -215,7 +215,7 @@
       "id": "Leona-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 33953,
+      "totalGames": 35984,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -224,50 +224,42 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3084,
-          "name": "Heartsteel",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 312
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 15692
+          "purchaseSamples": 16925
         },
         {
           "itemId": 3068,
           "name": "Sunfire Aegis",
           "isBoots": false,
-          "order": 3,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 64
+          "purchaseSamples": 74
         },
         {
-          "itemId": 3110,
-          "name": "Frozen Heart",
+          "itemId": 6692,
+          "name": "Eclipse",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 62
+        },
+        {
+          "itemId": 3748,
+          "name": "Titanic Hydra",
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 671
-        },
-        {
-          "itemId": 6665,
-          "name": "Jak'Sho, The Protean",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
+          "purchaseSamples": 11
         },
         {
           "itemId": 3121,
           "name": "Fimbulwinter",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": null,
           "purchaseSamples": 0
         }
@@ -281,10 +273,10 @@
           "Sunfire Aegis",
           "Fimbulwinter"
         ],
-        "games": 6,
-        "wins": 3,
-        "winrate": 0.5,
-        "score": 2561690492.658035
+        "games": 7,
+        "wins": 4,
+        "winrate": 0.5714285714285714,
+        "score": 3189091641.21875
       },
       "runes": {
         "primaryStyle": {
@@ -337,15 +329,15 @@
             "name": "Health Scaling"
           }
         ],
-        "sampleGames": 6,
-        "games": 4,
-        "confidencePct": 0.6666666666666666
+        "sampleGames": 7,
+        "games": 5,
+        "confidencePct": 0.7142857142857143
       },
       "position": {
         "role": "TOP",
-        "games": 4,
-        "sampleGames": 6,
-        "confidencePct": 0.6666666666666666
+        "games": 5,
+        "sampleGames": 7,
+        "confidencePct": 0.7142857142857143
       },
       "skillOrder": {
         "order": [
@@ -353,9 +345,9 @@
           "E",
           "Q"
         ],
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 6,
+        "sampleGames": 7,
+        "confidencePct": 0.8571428571428571
       },
       "asWholeSet": {
         "games": 0,
@@ -367,7 +359,7 @@
       "id": "Leona-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 33953,
+      "totalGames": 35984,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -381,7 +373,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 312
+          "purchaseSamples": 334
         },
         {
           "itemId": 3047,
@@ -389,7 +381,311 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 15692
+          "purchaseSamples": 16925
+        },
+        {
+          "itemId": 3068,
+          "name": "Sunfire Aegis",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 74
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 505
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 102
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3068,
+          6665
+        ],
+        "names": [
+          "Sunfire Aegis",
+          "Jak'Sho, The Protean"
+        ],
+        "games": 4,
+        "wins": 3,
+        "winrate": 0.75,
+        "score": 1935194702.1408093
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8437,
+          "name": "Grasp of the Undying"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8200,
+          "name": "Sorcery"
+        },
+        "secondaryPerks": [
+          {
+            "id": 8226,
+            "name": "Manaflow Band"
+          },
+          {
+            "id": 8237,
+            "name": "Scorch"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 4,
+        "games": 1,
+        "confidencePct": 0.25
+      },
+      "position": {
+        "role": "TOP",
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 3,
+        "sampleGames": 4,
+        "confidencePct": 0.75
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Leona-4",
+      "buildIndex": 3,
+      "rarityVariant": "normal",
+      "totalGames": 35984,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 334
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 16925
+        },
+        {
+          "itemId": 6664,
+          "name": "Hollow Radiance",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 27
+        },
+        {
+          "itemId": 3110,
+          "name": "Frozen Heart",
+          "isBoots": false,
+          "order": 4,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 721
+        },
+        {
+          "itemId": 6665,
+          "name": "Jak'Sho, The Protean",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 102
+        },
+        {
+          "itemId": 3121,
+          "name": "Fimbulwinter",
+          "isBoots": false,
+          "order": 6,
+          "medianPurchaseOrder": null,
+          "purchaseSamples": 0
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          3084,
+          6664
+        ],
+        "names": [
+          "Heartsteel",
+          "Hollow Radiance"
+        ],
+        "games": 3,
+        "wins": 3,
+        "winrate": 1,
+        "score": 1471943902.635521
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8400,
+          "name": "Resolve"
+        },
+        "keystone": {
+          "id": 8439,
+          "name": "Aftershock"
+        },
+        "primaryPerks": [
+          {
+            "id": 8463,
+            "name": "Font of Life"
+          },
+          {
+            "id": 8444,
+            "name": "Second Wind"
+          },
+          {
+            "id": 8451,
+            "name": "Overgrowth"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9111,
+            "name": "Triumph"
+          },
+          {
+            "id": 9105,
+            "name": "Legend: Haste"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5007,
+            "name": "Ability Haste"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "TOP",
+        "games": 1,
+        "sampleGames": 3,
+        "confidencePct": 0.3333333333333333
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "asWholeSet": {
+        "games": 0,
+        "wins": 0,
+        "winrate": null
+      }
+    },
+    {
+      "id": "Leona-5",
+      "buildIndex": 4,
+      "rarityVariant": "normal",
+      "totalGames": 35984,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3084,
+          "name": "Heartsteel",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 334
+        },
+        {
+          "itemId": 3047,
+          "name": "Plated Steelcaps",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 16925
         },
         {
           "itemId": 2502,
@@ -397,7 +693,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 52
+          "purchaseSamples": 58
         },
         {
           "itemId": 6665,
@@ -405,7 +701,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 94
+          "purchaseSamples": 102
         },
         {
           "itemId": 3065,
@@ -413,7 +709,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 29
+          "purchaseSamples": 30
         },
         {
           "itemId": 3121,
@@ -436,7 +732,7 @@
         "games": 15,
         "wins": 9,
         "winrate": 0.6,
-        "score": 48759596.580185495
+        "score": 48430343.119243816
       },
       "runes": {
         "primaryStyle": {
@@ -514,305 +810,17 @@
         "wins": 0,
         "winrate": null
       }
-    },
-    {
-      "id": "Leona-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 33953,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 15692
-        },
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 60
-        },
-        {
-          "itemId": 6333,
-          "name": "Death's Dance",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 9
-        },
-        {
-          "itemId": 3065,
-          "name": "Spirit Visage",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 29
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          6333,
-          6692
-        ],
-        "names": [
-          "Death's Dance",
-          "Eclipse"
-        ],
-        "games": 3,
-        "wins": 2,
-        "winrate": 0.6666666666666666,
-        "score": 26492768.935608614
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "keystone": {
-          "id": 8005,
-          "name": "Press the Attack"
-        },
-        "primaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          },
-          {
-            "id": 8299,
-            "name": "Last Stand"
-          }
-        ],
-        "subStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8126,
-            "name": "Cheap Shot"
-          },
-          {
-            "id": 8105,
-            "name": "Relentless Hunter"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 3,
-        "games": 1,
-        "confidencePct": 0.3333333333333333
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
-    },
-    {
-      "id": "Leona-5",
-      "buildIndex": 4,
-      "rarityVariant": "normal",
-      "totalGames": 33953,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3084,
-          "name": "Heartsteel",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 312
-        },
-        {
-          "itemId": 3047,
-          "name": "Plated Steelcaps",
-          "isBoots": true,
-          "order": 2,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 15692
-        },
-        {
-          "itemId": 3068,
-          "name": "Sunfire Aegis",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 64
-        },
-        {
-          "itemId": 6692,
-          "name": "Eclipse",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 60
-        },
-        {
-          "itemId": 6662,
-          "name": "Iceborn Gauntlet",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 5831
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          3084,
-          6662
-        ],
-        "names": [
-          "Heartsteel",
-          "Iceborn Gauntlet"
-        ],
-        "games": 9,
-        "wins": 7,
-        "winrate": 0.7777777777777778,
-        "score": 23628089.90198431
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8400,
-          "name": "Resolve"
-        },
-        "keystone": {
-          "id": 8437,
-          "name": "Grasp of the Undying"
-        },
-        "primaryPerks": [
-          {
-            "id": 8446,
-            "name": "Demolish"
-          },
-          {
-            "id": 8429,
-            "name": "Conditioning"
-          },
-          {
-            "id": 8451,
-            "name": "Overgrowth"
-          }
-        ],
-        "subStyle": {
-          "id": 8000,
-          "name": "Precision"
-        },
-        "secondaryPerks": [
-          {
-            "id": 9111,
-            "name": "Triumph"
-          },
-          {
-            "id": 9105,
-            "name": "Legend: Haste"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5005,
-            "name": "Attack Speed"
-          },
-          {
-            "id": 5010,
-            "name": "Move Speed"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 9,
-        "games": 8,
-        "confidencePct": 0.8888888888888888
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "W",
-          "E",
-          "Q"
-        ],
-        "games": 9,
-        "sampleGames": 9,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 0,
-        "wins": 0,
-        "winrate": null
-      }
     }
   ],
   "metaBuild": {
-    "totalGames": 33953,
+    "totalGames": 35984,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5124142196565841,
+    "winrate": 0.5118941751889728,
     "items": [
       {
         "itemId": 3047,
@@ -820,7 +828,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 15692
+        "purchaseSamples": 16925
       },
       {
         "itemId": 3190,
@@ -828,7 +836,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 25024
+        "purchaseSamples": 27120
       },
       {
         "itemId": 3050,
@@ -836,7 +844,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 3423
+        "purchaseSamples": 3759
       },
       {
         "itemId": 3109,
@@ -844,7 +852,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 16305
+        "purchaseSamples": 17591
       },
       {
         "itemId": 2525,
@@ -852,7 +860,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5831
+        "purchaseSamples": 6312
       },
       {
         "itemId": 2524,
@@ -860,7 +868,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4353
+        "purchaseSamples": 4695
       }
     ],
     "runes": {
@@ -914,15 +922,15 @@
           "name": "Health Scaling"
         }
       ],
-      "sampleGames": 33953,
-      "games": 8094,
-      "confidencePct": 0.23838836038052602
+      "sampleGames": 35984,
+      "games": 8362,
+      "confidencePct": 0.23238105824811028
     },
     "position": {
       "role": "UTILITY",
-      "games": 33907,
-      "sampleGames": 33953,
-      "confidencePct": 0.9986451859924013
+      "games": 35928,
+      "sampleGames": 35984,
+      "confidencePct": 0.9984437527790129
     },
     "skillOrder": {
       "order": [
@@ -930,9 +938,9 @@
         "E",
         "Q"
       ],
-      "games": 26968,
-      "sampleGames": 33061,
-      "confidencePct": 0.8157043041650283
+      "games": 29250,
+      "sampleGames": 35850,
+      "confidencePct": 0.8158995815899581
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "championId": "Sett",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-23T23:07:36.195Z",
+  "generatedAt": "2026-11-24T22:41:49.576Z",
   "corePairs": [
     {
       "itemIds": [
@@ -15,7 +15,7 @@
       "games": 12,
       "wins": 7,
       "winrate": 0.5833333333333334,
-      "score": 860098886.6776441
+      "score": 855712642.0514923
     },
     {
       "itemIds": [
@@ -29,7 +29,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 714435038.1944555
+      "score": 717054513.8230423
     },
     {
       "itemIds": [
@@ -43,7 +43,21 @@
       "games": 6,
       "wins": 2,
       "winrate": 0.3333333333333333,
-      "score": 420449249.6973344
+      "score": 396451967.7485853
+    },
+    {
+      "itemIds": [
+        2525,
+        3109
+      ],
+      "names": [
+        "Protoplasm Harness",
+        "Knight's Vow"
+      ],
+      "games": 5,
+      "wins": 2,
+      "winrate": 0.4,
+      "score": 321465974.1633144
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 4,
       "wins": 3,
       "winrate": 0.75,
-      "score": 311960042.86536616
-    },
-    {
-      "itemIds": [
-        2525,
-        3109
-      ],
-      "names": [
-        "Protoplasm Harness",
-        "Knight's Vow"
-      ],
-      "games": 4,
-      "wins": 1,
-      "winrate": 0.25,
-      "score": 169294273.7683142
+      "score": 304278824.6227708
     }
   ],
   "builds": [
@@ -79,7 +79,7 @@
       "id": "Sett-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 12398,
+      "totalGames": 12919,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -88,44 +88,52 @@
       "targetCoreSize": 5,
       "items": [
         {
+          "itemId": 3050,
+          "name": "Zeke's Convergence",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 2,
+          "purchaseSamples": 54
+        },
+        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 1,
+          "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5410
+          "purchaseSamples": 5823
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 2,
+          "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 39
+          "purchaseSamples": 40
         },
         {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 28
-        },
-        {
-          "itemId": 3222,
-          "name": "Mikael's Blessing",
-          "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 5
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 2525,
+          "name": "Protoplasm Harness",
+          "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 17
         },
         {
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 5,
+          "order": 6,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
+          "purchaseSamples": 200
         }
       ],
       "seedPair": {
@@ -140,7 +148,7 @@
         "games": 12,
         "wins": 7,
         "winrate": 0.5833333333333334,
-        "score": 860098886.6776441
+        "score": 855712642.0514923
       },
       "runes": {
         "primaryStyle": {
@@ -223,7 +231,7 @@
       "id": "Sett-2",
       "buildIndex": 1,
       "rarityVariant": "normal",
-      "totalGames": 12398,
+      "totalGames": 12919,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -232,67 +240,59 @@
       "targetCoreSize": 5,
       "items": [
         {
-          "itemId": 3050,
-          "name": "Zeke's Convergence",
-          "isBoots": false,
-          "order": 1,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 50
-        },
-        {
           "itemId": 3047,
           "name": "Plated Steelcaps",
           "isBoots": true,
-          "order": 2,
+          "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5410
-        },
-        {
-          "itemId": 2525,
-          "name": "Protoplasm Harness",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 3,
-          "purchaseSamples": 15
+          "purchaseSamples": 5823
         },
         {
           "itemId": 3190,
           "name": "Locket of the Iron Solari",
           "isBoots": false,
-          "order": 4,
+          "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 28
+          "purchaseSamples": 29
+        },
+        {
+          "itemId": 3222,
+          "name": "Mikael's Blessing",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
         },
         {
           "itemId": 3109,
           "name": "Knight's Vow",
           "isBoots": false,
-          "order": 5,
+          "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 39
+          "purchaseSamples": 40
         },
         {
           "itemId": 3742,
           "name": "Dead Man's Plate",
           "isBoots": false,
-          "order": 6,
+          "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
+          "purchaseSamples": 200
         }
       ],
       "seedPair": {
         "itemIds": [
-          2525,
-          3190
+          3190,
+          3222
         ],
         "names": [
-          "Protoplasm Harness",
-          "Locket of the Iron Solari"
+          "Locket of the Iron Solari",
+          "Mikael's Blessing"
         ],
-        "games": 6,
+        "games": 3,
         "wins": 2,
-        "winrate": 0.3333333333333333,
-        "score": 420449249.6973344
+        "winrate": 0.6666666666666666,
+        "score": 717054513.8230423
       },
       "runes": {
         "primaryStyle": {
@@ -341,18 +341,18 @@
             "name": "Move Speed"
           },
           {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
+            "id": 5011,
+            "name": "Health"
           }
         ],
-        "sampleGames": 6,
-        "games": 2,
+        "sampleGames": 3,
+        "games": 1,
         "confidencePct": 0.3333333333333333
       },
       "position": {
         "role": "UTILITY",
-        "games": 6,
-        "sampleGames": 6,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "skillOrder": {
@@ -361,9 +361,9 @@
           "Q",
           "E"
         ],
-        "games": 5,
-        "sampleGames": 6,
-        "confidencePct": 0.8333333333333334
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
       },
       "asWholeSet": {
         "games": 0,
@@ -375,7 +375,7 @@
       "id": "Sett-3",
       "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 12398,
+      "totalGames": 12919,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -389,7 +389,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5410
+          "purchaseSamples": 5823
         },
         {
           "itemId": 3742,
@@ -397,7 +397,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
+          "purchaseSamples": 200
         },
         {
           "itemId": 6695,
@@ -405,7 +405,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 93
+          "purchaseSamples": 101
         },
         {
           "itemId": 4401,
@@ -413,23 +413,23 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 134
-        },
-        {
-          "itemId": 3143,
-          "name": "Randuin's Omen",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 101
+          "purchaseSamples": 137
         },
         {
           "itemId": 3075,
           "name": "Thornmail",
           "isBoots": false,
+          "order": 5,
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 57
+        },
+        {
+          "itemId": 3143,
+          "name": "Randuin's Omen",
+          "isBoots": false,
           "order": 6,
-          "medianPurchaseOrder": 5,
-          "purchaseSamples": 49
+          "medianPurchaseOrder": 4,
+          "purchaseSamples": 109
         }
       ],
       "seedPair": {
@@ -444,7 +444,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 79252495.1449582
+        "score": 79069582.79072359
       },
       "runes": {
         "primaryStyle": {
@@ -527,7 +527,7 @@
       "id": "Sett-4",
       "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 12398,
+      "totalGames": 12919,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -541,7 +541,7 @@
           "isBoots": false,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 118
+          "purchaseSamples": 129
         },
         {
           "itemId": 3047,
@@ -549,7 +549,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5410
+          "purchaseSamples": 5823
         },
         {
           "itemId": 3109,
@@ -557,7 +557,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 39
+          "purchaseSamples": 40
         },
         {
           "itemId": 3190,
@@ -565,7 +565,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 28
+          "purchaseSamples": 29
         },
         {
           "itemId": 3742,
@@ -573,7 +573,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 183
+          "purchaseSamples": 200
         },
         {
           "itemId": 3143,
@@ -581,7 +581,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 101
+          "purchaseSamples": 109
         }
       ],
       "seedPair": {
@@ -596,7 +596,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 45835584.65061862
+        "score": 46327325.53870793
       },
       "runes": {
         "primaryStyle": {
@@ -679,7 +679,7 @@
       "id": "Sett-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 12398,
+      "totalGames": 12919,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -693,7 +693,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 5410
+          "purchaseSamples": 5823
         },
         {
           "itemId": 3071,
@@ -701,7 +701,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 4951
+          "purchaseSamples": 5265
         },
         {
           "itemId": 6333,
@@ -709,7 +709,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 225
+          "purchaseSamples": 237
         },
         {
           "itemId": 6665,
@@ -717,7 +717,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 54
+          "purchaseSamples": 56
         },
         {
           "itemId": 3053,
@@ -725,7 +725,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 2649
+          "purchaseSamples": 2866
         },
         {
           "itemId": 2517,
@@ -733,7 +733,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 5,
-          "purchaseSamples": 32
+          "purchaseSamples": 34
         }
       ],
       "seedPair": {
@@ -748,7 +748,7 @@
         "games": 7,
         "wins": 5,
         "winrate": 0.7142857142857143,
-        "score": 4452237.7863192605
+        "score": 4526226.502769645
       },
       "runes": {
         "primaryStyle": {
@@ -829,14 +829,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 12398,
+    "totalGames": 12919,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.48225520245200837,
+    "winrate": 0.4834739530923446,
     "items": [
       {
         "itemId": 6631,
@@ -844,7 +844,7 @@
         "isBoots": false,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 10880
+        "purchaseSamples": 11706
       },
       {
         "itemId": 3047,
@@ -852,7 +852,7 @@
         "isBoots": true,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 5410
+        "purchaseSamples": 5823
       },
       {
         "itemId": 2501,
@@ -860,7 +860,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 5979
+        "purchaseSamples": 6432
       },
       {
         "itemId": 3071,
@@ -868,7 +868,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4951
+        "purchaseSamples": 5265
       },
       {
         "itemId": 3053,
@@ -876,7 +876,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 2649
+        "purchaseSamples": 2866
       },
       {
         "itemId": 3161,
@@ -884,7 +884,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 4,
-        "purchaseSamples": 894
+        "purchaseSamples": 963
       }
     ],
     "runes": {
@@ -938,15 +938,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 12398,
-      "games": 3596,
-      "confidencePct": 0.2900467817389902
+      "sampleGames": 12919,
+      "games": 3746,
+      "confidencePct": 0.28996052326031424
     },
     "position": {
       "role": "TOP",
-      "games": 11228,
-      "sampleGames": 12398,
-      "confidencePct": 0.9056299403129537
+      "games": 11679,
+      "sampleGames": 12919,
+      "confidencePct": 0.9040173388033129
     },
     "skillOrder": {
       "order": [
@@ -954,9 +954,9 @@
         "W",
         "E"
       ],
-      "games": 11095,
-      "sampleGames": 11961,
-      "confidencePct": 0.927598026920826
+      "games": 11918,
+      "sampleGames": 12861,
+      "confidencePct": 0.9266775522898686
     }
   }
 }

@@ -1,8 +1,22 @@
 {
   "championId": "Blitzcrank",
   "ddragonVersion": "16.18.1",
-  "generatedAt": "2026-11-23T23:07:36.195Z",
+  "generatedAt": "2026-11-24T22:41:49.576Z",
   "corePairs": [
+    {
+      "itemIds": [
+        2510,
+        3115
+      ],
+      "names": [
+        "Dusk and Dawn",
+        "Nashor's Tooth"
+      ],
+      "games": 3,
+      "wins": 1,
+      "winrate": 0.3333333333333333,
+      "score": 6005125485.61448
+    },
     {
       "itemIds": [
         3087,
@@ -15,7 +29,7 @@
       "games": 3,
       "wins": 1,
       "winrate": 0.3333333333333333,
-      "score": 406853647.6794846
+      "score": 407717821.26875097
     },
     {
       "itemIds": [
@@ -29,7 +43,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 83094228.93945058
+      "score": 86830663.97277641
     },
     {
       "itemIds": [
@@ -43,7 +57,7 @@
       "games": 17,
       "wins": 5,
       "winrate": 0.29411764705882354,
-      "score": 77207743.82973106
+      "score": 81216953.65938933
     },
     {
       "itemIds": [
@@ -57,21 +71,7 @@
       "games": 3,
       "wins": 2,
       "winrate": 0.6666666666666666,
-      "score": 72419053.21403511
-    },
-    {
-      "itemIds": [
-        2522,
-        3135
-      ],
-      "names": [
-        "Actualizer",
-        "Void Staff"
-      ],
-      "games": 4,
-      "wins": 2,
-      "winrate": 0.5,
-      "score": 38082802.51807953
+      "score": 75740134.60789812
     }
   ],
   "builds": [
@@ -79,7 +79,135 @@
       "id": "Blitzcrank-1",
       "buildIndex": 0,
       "rarityVariant": "normal",
-      "totalGames": 31044,
+      "totalGames": 32751,
+      "patchesUsed": [
+        "16.23",
+        "16.22"
+      ],
+      "patchWindowExtended": false,
+      "targetCoreSize": 5,
+      "items": [
+        {
+          "itemId": 3115,
+          "name": "Nashor's Tooth",
+          "isBoots": false,
+          "order": 1,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 6
+        },
+        {
+          "itemId": 3009,
+          "name": "Boots of Swiftness",
+          "isBoots": true,
+          "order": 2,
+          "medianPurchaseOrder": 1,
+          "purchaseSamples": 26225
+        },
+        {
+          "itemId": 2510,
+          "name": "Dusk and Dawn",
+          "isBoots": false,
+          "order": 3,
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 20
+        }
+      ],
+      "seedPair": {
+        "itemIds": [
+          2510,
+          3115
+        ],
+        "names": [
+          "Dusk and Dawn",
+          "Nashor's Tooth"
+        ],
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333,
+        "score": 6005125485.61448
+      },
+      "runes": {
+        "primaryStyle": {
+          "id": 8100,
+          "name": "Domination"
+        },
+        "keystone": {
+          "id": 9923,
+          "name": "Hail of Blades"
+        },
+        "primaryPerks": [
+          {
+            "id": 8126,
+            "name": "Cheap Shot"
+          },
+          {
+            "id": 8137,
+            "name": "Sixth Sense"
+          },
+          {
+            "id": 8105,
+            "name": "Relentless Hunter"
+          }
+        ],
+        "subStyle": {
+          "id": 8000,
+          "name": "Precision"
+        },
+        "secondaryPerks": [
+          {
+            "id": 9104,
+            "name": "Legend: Alacrity"
+          },
+          {
+            "id": 9111,
+            "name": "Triumph"
+          }
+        ],
+        "statPerks": [
+          {
+            "id": 5005,
+            "name": "Attack Speed"
+          },
+          {
+            "id": 5008,
+            "name": "Adaptive Force"
+          },
+          {
+            "id": 5001,
+            "name": "Health Scaling"
+          }
+        ],
+        "sampleGames": 3,
+        "games": 1,
+        "confidencePct": 0.3333333333333333
+      },
+      "position": {
+        "role": "JUNGLE",
+        "games": 2,
+        "sampleGames": 3,
+        "confidencePct": 0.6666666666666666
+      },
+      "skillOrder": {
+        "order": [
+          "W",
+          "E",
+          "Q"
+        ],
+        "games": 3,
+        "sampleGames": 3,
+        "confidencePct": 1
+      },
+      "asWholeSet": {
+        "games": 3,
+        "wins": 1,
+        "winrate": 0.3333333333333333
+      }
+    },
+    {
+      "id": "Blitzcrank-2",
+      "buildIndex": 1,
+      "rarityVariant": "normal",
+      "totalGames": 32751,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -93,15 +221,15 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 24231
+          "purchaseSamples": 26225
         },
         {
           "itemId": 3087,
           "name": "Statikk Shiv",
           "isBoots": false,
           "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 5
+          "medianPurchaseOrder": 1.5,
+          "purchaseSamples": 6
         },
         {
           "itemId": 3118,
@@ -109,7 +237,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 672
+          "purchaseSamples": 745
         },
         {
           "itemId": 4645,
@@ -117,7 +245,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 146
+          "purchaseSamples": 170
         },
         {
           "itemId": 2510,
@@ -125,7 +253,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 19
+          "purchaseSamples": 20
         }
       ],
       "seedPair": {
@@ -140,7 +268,7 @@
         "games": 3,
         "wins": 1,
         "winrate": 0.3333333333333333,
-        "score": 406853647.6794846
+        "score": 407717821.26875097
       },
       "runes": {
         "primaryStyle": {
@@ -209,8 +337,8 @@
           "W",
           "E"
         ],
-        "games": 2,
-        "sampleGames": 2,
+        "games": 3,
+        "sampleGames": 3,
         "confidencePct": 1
       },
       "asWholeSet": {
@@ -220,10 +348,10 @@
       }
     },
     {
-      "id": "Blitzcrank-2",
-      "buildIndex": 1,
+      "id": "Blitzcrank-3",
+      "buildIndex": 2,
       "rarityVariant": "normal",
-      "totalGames": 31044,
+      "totalGames": 32751,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -245,7 +373,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 24231
+          "purchaseSamples": 26225
         },
         {
           "itemId": 3179,
@@ -260,8 +388,8 @@
           "name": "Sundered Sky",
           "isBoots": false,
           "order": 4,
-          "medianPurchaseOrder": 3.5,
-          "purchaseSamples": 4
+          "medianPurchaseOrder": 3,
+          "purchaseSamples": 5
         }
       ],
       "seedPair": {
@@ -276,7 +404,7 @@
         "games": 3,
         "wins": 2,
         "winrate": 0.6666666666666666,
-        "score": 83094228.93945058
+        "score": 86830663.97277641
       },
       "runes": {
         "primaryStyle": {
@@ -356,10 +484,10 @@
       }
     },
     {
-      "id": "Blitzcrank-3",
-      "buildIndex": 2,
+      "id": "Blitzcrank-4",
+      "buildIndex": 3,
       "rarityVariant": "normal",
-      "totalGames": 31044,
+      "totalGames": 32751,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -381,7 +509,7 @@
           "isBoots": true,
           "order": 2,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 24231
+          "purchaseSamples": 26225
         },
         {
           "itemId": 3031,
@@ -412,7 +540,7 @@
         "games": 17,
         "wins": 5,
         "winrate": 0.29411764705882354,
-        "score": 77207743.82973106
+        "score": 81216953.65938933
       },
       "runes": {
         "primaryStyle": {
@@ -492,162 +620,10 @@
       }
     },
     {
-      "id": "Blitzcrank-4",
-      "buildIndex": 3,
-      "rarityVariant": "normal",
-      "totalGames": 31044,
-      "patchesUsed": [
-        "16.23",
-        "16.22"
-      ],
-      "patchWindowExtended": false,
-      "targetCoreSize": 5,
-      "items": [
-        {
-          "itemId": 3009,
-          "name": "Boots of Swiftness",
-          "isBoots": true,
-          "order": 1,
-          "medianPurchaseOrder": 1,
-          "purchaseSamples": 24231
-        },
-        {
-          "itemId": 3118,
-          "name": "Malignance",
-          "isBoots": false,
-          "order": 2,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 672
-        },
-        {
-          "itemId": 3152,
-          "name": "Hextech Rocketbelt",
-          "isBoots": false,
-          "order": 3,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 402
-        },
-        {
-          "itemId": 4005,
-          "name": "Imperial Mandate",
-          "isBoots": false,
-          "order": 4,
-          "medianPurchaseOrder": 2,
-          "purchaseSamples": 601
-        },
-        {
-          "itemId": 2522,
-          "name": "Actualizer",
-          "isBoots": false,
-          "order": 5,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 6
-        },
-        {
-          "itemId": 3135,
-          "name": "Void Staff",
-          "isBoots": false,
-          "order": 6,
-          "medianPurchaseOrder": 4,
-          "purchaseSamples": 26
-        }
-      ],
-      "seedPair": {
-        "itemIds": [
-          2522,
-          3135
-        ],
-        "names": [
-          "Actualizer",
-          "Void Staff"
-        ],
-        "games": 4,
-        "wins": 2,
-        "winrate": 0.5,
-        "score": 38082802.51807953
-      },
-      "runes": {
-        "primaryStyle": {
-          "id": 8100,
-          "name": "Domination"
-        },
-        "keystone": {
-          "id": 8128,
-          "name": "Dark Harvest"
-        },
-        "primaryPerks": [
-          {
-            "id": 8143,
-            "name": "Sudden Impact"
-          },
-          {
-            "id": 8137,
-            "name": "Sixth Sense"
-          },
-          {
-            "id": 8106,
-            "name": "Ultimate Hunter"
-          }
-        ],
-        "subStyle": {
-          "id": 8200,
-          "name": "Sorcery"
-        },
-        "secondaryPerks": [
-          {
-            "id": 8224,
-            "name": "Axiom Arcanist"
-          },
-          {
-            "id": 8236,
-            "name": "Gathering Storm"
-          }
-        ],
-        "statPerks": [
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5008,
-            "name": "Adaptive Force"
-          },
-          {
-            "id": 5013,
-            "name": "Tenacity/Slow Resist"
-          }
-        ],
-        "sampleGames": 4,
-        "games": 3,
-        "confidencePct": 0.75
-      },
-      "position": {
-        "role": "UTILITY",
-        "games": 4,
-        "sampleGames": 4,
-        "confidencePct": 1
-      },
-      "skillOrder": {
-        "order": [
-          "Q",
-          "W",
-          "E"
-        ],
-        "games": 3,
-        "sampleGames": 3,
-        "confidencePct": 1
-      },
-      "asWholeSet": {
-        "games": 3,
-        "wins": 1,
-        "winrate": 0.3333333333333333
-      }
-    },
-    {
       "id": "Blitzcrank-5",
       "buildIndex": 4,
       "rarityVariant": "normal",
-      "totalGames": 31044,
+      "totalGames": 32751,
       "patchesUsed": [
         "16.23",
         "16.22"
@@ -661,7 +637,7 @@
           "isBoots": true,
           "order": 1,
           "medianPurchaseOrder": 1,
-          "purchaseSamples": 24231
+          "purchaseSamples": 26225
         },
         {
           "itemId": 3118,
@@ -669,7 +645,7 @@
           "isBoots": false,
           "order": 2,
           "medianPurchaseOrder": 2,
-          "purchaseSamples": 672
+          "purchaseSamples": 745
         },
         {
           "itemId": 4645,
@@ -677,7 +653,7 @@
           "isBoots": false,
           "order": 3,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 146
+          "purchaseSamples": 170
         },
         {
           "itemId": 4646,
@@ -685,7 +661,7 @@
           "isBoots": false,
           "order": 4,
           "medianPurchaseOrder": 3,
-          "purchaseSamples": 286
+          "purchaseSamples": 309
         },
         {
           "itemId": 3089,
@@ -693,7 +669,7 @@
           "isBoots": false,
           "order": 5,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 34
+          "purchaseSamples": 40
         },
         {
           "itemId": 3135,
@@ -701,7 +677,7 @@
           "isBoots": false,
           "order": 6,
           "medianPurchaseOrder": 4,
-          "purchaseSamples": 26
+          "purchaseSamples": 39
         }
       ],
       "seedPair": {
@@ -713,10 +689,10 @@
           "Rabadon's Deathcap",
           "Shadowflame"
         ],
-        "games": 18,
-        "wins": 10,
-        "winrate": 0.5555555555555556,
-        "score": 34763956.07350695
+        "games": 19,
+        "wins": 11,
+        "winrate": 0.5789473684210527,
+        "score": 38365476.45291178
       },
       "runes": {
         "primaryStyle": {
@@ -769,15 +745,15 @@
             "name": "Health"
           }
         ],
-        "sampleGames": 18,
+        "sampleGames": 19,
         "games": 4,
-        "confidencePct": 0.2222222222222222
+        "confidencePct": 0.21052631578947367
       },
       "position": {
         "role": "UTILITY",
-        "games": 16,
-        "sampleGames": 18,
-        "confidencePct": 0.8888888888888888
+        "games": 17,
+        "sampleGames": 19,
+        "confidencePct": 0.8947368421052632
       },
       "skillOrder": {
         "order": [
@@ -785,9 +761,9 @@
           "E",
           "W"
         ],
-        "games": 10,
-        "sampleGames": 15,
-        "confidencePct": 0.6666666666666666
+        "games": 14,
+        "sampleGames": 19,
+        "confidencePct": 0.7368421052631579
       },
       "asWholeSet": {
         "games": 1,
@@ -797,14 +773,14 @@
     }
   ],
   "metaBuild": {
-    "totalGames": 31044,
+    "totalGames": 32751,
     "patchesUsed": [
       "16.23",
       "16.22"
     ],
     "patchWindowExtended": false,
     "targetCoreSize": 5,
-    "winrate": 0.5096637031310398,
+    "winrate": 0.509908094409331,
     "items": [
       {
         "itemId": 3009,
@@ -812,7 +788,7 @@
         "isBoots": true,
         "order": 1,
         "medianPurchaseOrder": 1,
-        "purchaseSamples": 24231
+        "purchaseSamples": 26225
       },
       {
         "itemId": 3190,
@@ -820,7 +796,7 @@
         "isBoots": false,
         "order": 2,
         "medianPurchaseOrder": 2,
-        "purchaseSamples": 21626
+        "purchaseSamples": 23407
       },
       {
         "itemId": 3050,
@@ -828,7 +804,7 @@
         "isBoots": false,
         "order": 3,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 10232
+        "purchaseSamples": 11084
       },
       {
         "itemId": 3109,
@@ -836,7 +812,7 @@
         "isBoots": false,
         "order": 4,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 7969
+        "purchaseSamples": 8610
       },
       {
         "itemId": 2524,
@@ -844,7 +820,7 @@
         "isBoots": false,
         "order": 5,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 4302
+        "purchaseSamples": 4667
       },
       {
         "itemId": 3110,
@@ -852,7 +828,7 @@
         "isBoots": false,
         "order": 6,
         "medianPurchaseOrder": 3,
-        "purchaseSamples": 3665
+        "purchaseSamples": 3974
       }
     ],
     "runes": {
@@ -906,15 +882,15 @@
           "name": "Health"
         }
       ],
-      "sampleGames": 31044,
-      "games": 16259,
-      "confidencePct": 0.5237404973585879
+      "sampleGames": 32751,
+      "games": 17222,
+      "confidencePct": 0.525846539036976
     },
     "position": {
       "role": "UTILITY",
-      "games": 30975,
-      "sampleGames": 31044,
-      "confidencePct": 0.9977773482798609
+      "games": 32676,
+      "sampleGames": 32751,
+      "confidencePct": 0.9977099935879821
     },
     "skillOrder": {
       "order": [
@@ -922,9 +898,9 @@
         "E",
         "W"
       ],
-      "games": 17940,
-      "sampleGames": 30208,
-      "confidencePct": 0.5938824152542372
+      "games": 19383,
+      "sampleGames": 32671,
+      "confidencePct": 0.5932784426555661
     }
   }
 }
